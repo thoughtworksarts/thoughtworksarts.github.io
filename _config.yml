@@ -68,4 +68,6 @@ theme: residency
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/artsresidency/artsresidency.github.io.git
+  branch: master
