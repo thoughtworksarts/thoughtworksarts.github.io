@@ -37,7 +37,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="shortcut icon" href="/images/favicon.png">
   </head>
-  <body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
+  <body id="<%= page.bodyid %>" class="<%= page.bodyclass %>">
     <% if(page.bodyid == 'home') { %>
     <div class="flex-col">
     <% } %>
@@ -66,7 +66,7 @@
       </figure>
     </div>
     <% } %>
-    BODY HERE
+    <%- body %>
     <section id="sponsors">
       <header>
         <h1>Sponsors</h1>
