@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="flex-row">
+  <main class="left">
+    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <h1>{{ page.title }}</h1>
+        <div class="widgets">
+          <ul class="social simple">
+            <li>
+              <a href="http://twitter.com/share?text={{ page.title | uri_escape }}&amp;url=http://{{ site.name }}{{ page.url | uri_escape }}&amp;via=art_a_hack"><i class="fa fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href="http://www.facebook.com/sharer/sharer.php?title={{ page.title | uri_escape }}&amp;u=http://{{ site.name }}{{ page.url | uri_escape }}"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="http://www.tumblr.com/share?v=3&amp;t={{ page.title | uri_escape }}&amp;u=http://{{ site.name }}{{ page.url | uri_escape }}"><i class="fa fa-tumblr-square"></i></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="post-content">
+        {{ content }}
+      </div>
+      <hr />
+    </article>
+  </main>
+  <section id="image" class="right">
+    <figure></figure>
+  </section>
+</div>
