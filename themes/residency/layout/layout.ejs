@@ -1,18 +1,87 @@
-<%- partial('_partial/head') %>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
-      <div class="outer">
-        <section id="main"><%- body %></section>
-        <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
-          <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
-        <% } %>
-      </div>
-      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<%
+  var title = page.title;
+
+  if (is_archive()){
+    title = __('archive_a');
+
+    if (is_month()){
+      title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()){
+      title += ': ' + page.year;
+    }
+  } else if (is_category()){
+    title = __('category') + ': ' + page.category;
+  } else if (is_tag()){
+    title = __('tag') + ': ' + page.tag;
+  }
+%>
+    <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+    <% if(page.description){ %><meta name="description" content="<%= page.description %>"><% } %>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Raleway:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <%- css('css/style') %>
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/images/favicon.png">
+  </head>
+  <body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
+    <% if(page.bodyid == 'home') { %>
+    <div class="flex-col">
+    <% } %>
+      <header role="banner" class="main top">
+        <h1>
+          <a href="/">
+            <img class="logo" src="/images/artahack-logo-heart.jpg" alt="Art-A-Hack" />
+            <img class="text" src="/images/artahack-logo-text.jpg" alt="Art-A-Hack" />
+          </a>
+        </h1>
+        <nav role="navigation">
+          <h2>Navigation</h2>
+          <a id="menu-button" href="#">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times"></i>
+          </a>
+          <ul class="cta">
+            <li><a href="/about/">About</a></li>
+            <li><a href="/alumni/">Alumni</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+    <% if(page.bodyid == 'home') { %>
+      <figure id="image-grid" class="bottom">
+      </figure>
     </div>
-    <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
-    <%- partial('_partial/after-footer') %>
-  </div>
-</body>
+    <% } %>
+    BODY HERE
+    <section id="sponsors">
+      <header>
+        <h1>Sponsors</h1>
+      </header>
+      <p>We are supported by:</p>
+      <ul>
+        <li><a href="http://www.thoughtworks.com"><img src="/images/sponsors/thoughtworks.png" alt="ThoughtWorks" /></a></li>
+        <li><a href="http://engineering.nyu.edu/"><img src="/images/sponsors/tandon.png" alt="NYU Tandon School of Engineering" /></a></li>
+        <li><a href="http://www.microsoft.com"><img src="/images/sponsors/microsoft.png" alt="Microsoft" /></a></li>
+        <li><a href="http://www.oreilly.com/"><img src="/images/sponsors/oreilly.png" alt="O'Reilly" /></a></li>
+        <li class="vertical"><a href="http://www.meetup.com/volumetric"><img src="/images/sponsors/volumetric.png" alt="The Volumetric Society" /></a></li>
+        <li><a href="http://new.livestream.com/"><img src="/images/sponsors/livestream.png" alt="Livestream" /></a></li>
+        <li class="small"><a href="http://www.originmagazine.com/"><img src="/images/sponsors/origin.png" alt="Origin Magazine" /></a></li>
+      </ul>
+    </section>
+    <%- js('js/script') %>
+  </body>
 </html>
