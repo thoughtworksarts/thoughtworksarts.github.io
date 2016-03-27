@@ -5,10 +5,14 @@ body {
 
 		>h1, >nav {
 			margin: 14px 16px;
+
+			a {
+				color: gray;
+			}
 		}
 
 		h1 {
-			position: absolute; bottom: -6px; left: 8px;
+			position: absolute; bottom: 5px; left: 25px;
 
 			a img {
 				height: 80px;
