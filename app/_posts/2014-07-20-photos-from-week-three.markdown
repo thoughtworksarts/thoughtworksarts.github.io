@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Photos from Week Three"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 redirect_from: /posts/2014/07/20/photos-from-week-three/
 ---

@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Week 1 of Art-A-Hack 2015"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 ---
 The excitement was palpable as everyone gathered round to gear up for week 1 of Art-A-Hack.

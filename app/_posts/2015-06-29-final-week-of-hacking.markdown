@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Final Week of Hacking"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 ---
 For Week 4 of Art-A-Hack we were hosted by Microsoft in their sparkling offices opposite the Port Authority bus station in Times Square.

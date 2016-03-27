@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Journey Presentations at Livestream Public"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 redirect_from:
  - /posts/2014/08/15/final-journey-presentations/

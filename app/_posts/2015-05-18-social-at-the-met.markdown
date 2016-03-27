@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Social at the Metropolitan Museum Media Lab, May 2015"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 ---
 Our 2015 season kicked off last Friday with a social mixer at the Metropolitan Museum's Media Lab.

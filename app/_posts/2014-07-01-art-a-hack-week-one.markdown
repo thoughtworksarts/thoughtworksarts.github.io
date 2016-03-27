@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "The First Week of Art-A-Hack"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 redirect_from: /posts/2014/07/01/art-a-hack-week-one/
 ---

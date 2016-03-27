@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Mid-way Through Our Hack"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 redirect_from: /posts/2014/07/13/mid-way-through-our-hack/
 ---

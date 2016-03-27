@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "A Report on Art-A-Hack 2014"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 redirect_from: /posts/2014/08/08/round-one-of-our-hack-is-over/
 ---

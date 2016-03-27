@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Pictures From Week 3"
-bodyid    : "blog"
+bodyid    : "words"
 bodyclass : "content post"
 ---
 Week three brought new challenges as the teams discovered the limits of both time and their abilities.
