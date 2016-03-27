@@ -1,0 +1,47 @@
+body
+  #sponsors
+    padding: 2em 0
+    width: 100%
+    margin: 0 auto
+    text-align: center
+    h1
+      display: none
+    ul
+      width: 750px
+      margin: 0.4em auto 0 auto
+      li
+        display: inline
+        list-style-type: none
+        margin: 0 1.1em
+        line-height: 4em
+        img
+          height: 92px
+      li.vertical
+        margin: 1.7em 0 1.9em 0
+      li.small img
+        height: 74px
+        margin-top: 1em
+
+@media (max-width: 799px)
+  body
+    #sponsors
+      ul
+        width: 100%
+        li img
+          height: 81px
+
+@media (max-width: 639px)
+  body
+    #sponsors
+      ul li
+        display: block
+        line-height: 2em
+
+@media (max-width: 339px)
+  body
+    #sponsors ul
+      li img
+        width: 70%
+        height: inherit
+      li.vertical img
+        width: 17%

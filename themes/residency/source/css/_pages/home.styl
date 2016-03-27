@@ -1,0 +1,111 @@
+#home
+  .flex-col
+    display: flex
+    flex-flow: column
+    height: 100%
+  h1, h2, p
+    cursor: default
+  #image-grid
+    flex: 1 0 auto
+    background-image: url("/images/full-bleed/artahack-2400.jpg")
+    background-position: top center
+    background-size: cover
+    background-color: #000000
+    background-repeat: no-repeat
+    margin: 0
+    .small-screens
+      display: none
+  #tagline
+    header h1
+      display: none
+    p
+      text-align: center
+      font-size: 3em
+      margin: 1.2em auto
+      max-width: 19em
+      padding: 0 2em
+    .progress
+      width: 100%
+      text-align: center
+      margin: 6em 0
+      a
+        padding: 0.6em 0.8em
+        border-radius: 0.4em
+      a:link, a:visited
+        background-color: #ef402f
+        color: #ffffff
+      a:hover, a:active
+        background-color: #ffffff
+        color: #ef402f
+      a:after
+        content: '\003e'
+        position: relative
+        right: -0.25em
+        top: -0.05em
+  #sponsors
+    background-color: rgba(51, 51, 51, 0.08)
+    p
+      display: none
+
+@media (max-width: 1299px)
+  #home
+    #image-grid
+      background-image: url("/images/full-bleed/artahack-2000.jpg")
+    #tagline
+      p
+        font-size: 2.6em
+        margin: 1.2em auto
+      .progress
+        margin: 4.5em 0
+        a
+          font-size: 1.7em
+
+@media (max-width: 1099px)
+  #home
+    #image-grid
+      background-image: url("/images/full-bleed/artahack-1600.jpg")
+    #tagline
+      p
+        font-size: 2.2em
+        margin: 1.2em auto
+      .progress
+        margin: 6em 0 4.5em 0
+        a
+          font-size: 1.5em
+
+@media (max-width: 899px)
+  #home
+    #image-grid
+      background-image: url("/images/full-bleed/artahack-1200.jpg")
+    #tagline
+      p
+        font-size: 1.9em
+        margin: 1.2em auto
+      .progress
+        margin: 6em 0 4.5em 0
+        a
+          font-size: 1.4em
+
+@media (max-width: 639px)
+  #home
+    .flex-col
+      min-height: 400px
+      max-height: 100%
+      // Firefox mobile
+    #image-grid
+      background-image: url("/images/full-bleed/artahack-800.jpg")
+      background-size: cover
+    #tagline
+      p
+        font-size: 1.8em
+        margin: 2.5em auto
+      .progress
+        a
+          font-size: 1.3em
+
+@media (max-width: 499px)
+  #home
+    #tagline
+      p
+        padding: 0 0.85em
+        font-size: 1.6em

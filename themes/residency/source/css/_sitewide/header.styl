@@ -1,0 +1,165 @@
+body
+  header.main
+    height: 143px
+    position: relative
+    //Temporary during open call
+    margin-bottom: 36px
+    >h1, >nav
+      margin: 14px 16px
+    h1
+      position: absolute
+      bottom: -6px
+      left: 8px
+      a img
+        height: 80px
+    nav
+      position: absolute
+      bottom: 0
+      right: 0
+      #menu-button
+        display: none
+      h2
+        display: none
+      ul
+        padding: 0
+        line-height: inherit
+        font-size: inherit
+        letter-spacing: inherit
+        li
+          margin-left: 1em
+    .open-call
+      width: 100%
+      text-align: center
+      height: 36px
+      position: absolute
+      bottom: -36px
+      a
+        background-color: #ef402f
+        color: #ffffff
+        display: block
+        z-index: 1000
+        position: relative
+        padding: 13px
+        text-decoration: underline
+        font-weight: bold
+      a:link, a:visited
+        text-decoration: none
+      a:hover, a:active
+        text-decoration: underline
+
+//Temporary during open call
+body.no-call-banner
+  header.main
+    margin-bottom: 0
+
+@media (max-width: 1299px)
+  body
+    header.main
+      height: 133px
+      h1 a
+        img.text
+          height: 70px
+        img.logo
+          height: 82px
+      nav ul.cta li
+        margin-left: 0.5em
+        a
+          font-size: 1.6em
+
+@media (max-width: 1099px)
+  body
+    header.main
+      height: 120px
+      h1 a
+        img.text
+          height: 55px
+        img.logo
+          height: 77px
+      nav ul.cta li
+        margin-left: 0.3em
+        a
+          font-size: 1.5em
+
+@media (max-width: 899px)
+  body
+    header.main
+      height: 115px
+      nav
+        #menu-button
+          display: block
+          .fa-bars
+            display: block
+          .fa-times
+            display: none
+        ul.cta
+          display: none
+      nav.popout
+        #menu-button
+          .fa-bars
+            display: none
+          .fa-times
+            display: block
+        ul.cta
+          display: block
+          position: fixed
+          top: 0
+          left: 0
+          bottom: 0
+          right: 0
+          width: 100%
+          height: 100%
+          text-align: center
+          background-color: rgba(68, 68, 68, 0.96)
+          padding-top: 7%
+          z-index: 1
+          li
+            display: block
+            padding-top: 3.8em
+          a
+            font-size: 2em
+            background-color: rgba(0, 0, 0, 0) !important
+            color: #ef402f
+
+@media (max-width: 639px)
+  body
+    header.main h1 a img.text
+      height: 48px
+      margin-left: 0.3em
+
+@media (max-width: 499px)
+  body
+    header.main
+      height: 88px
+      h1 a
+        img.text
+          height: 29px
+        img.logo
+          height: 62px
+
+@media (max-width: 379px)
+  body
+    header.main
+      height: 88px
+      h1, nav
+        margin: 14px 8px
+      h1 a
+        img.text
+          height: 27px
+        img.logo
+          height: 47px
+      nav #menu-button i
+        font-size: 1.5em
+
+@media (max-width: 339px)
+  body
+    header.main
+      height: 55px
+      h1
+        margin-left: 0
+        bottom: -5px
+        left: 4px
+        a
+          img.text
+            height: 25px
+          img.logo
+            display: none
