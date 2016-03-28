@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Curabitur Lacus diam Auctor Eget"
-bodyid    : "words"
+bodyid    : "blog"
 bodyclass : "content post"
 ---
 Duis tortor lorem, eleifend eget magna at, eleifend rutrum sapien. Suspendisse faucibus, massa imperdiet fermentum consectetur, augue odio consectetur dolor, in blandit turpis turpis at nisi.

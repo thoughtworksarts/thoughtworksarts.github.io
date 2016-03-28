@@ -1,7 +1,7 @@
 ---
 layout	  : default
-title	  : Words - ThoughtWorks Arts Residency
-bodyid	  : "words"
+title	  : Blog - ThoughtWorks Arts Residency
+bodyid	  : "blog"
 bodyclass : "content post"
 ---
 <div class="flex-row">
@@ -36,13 +36,13 @@ bodyclass : "content post"
 		<ul id="paging" class="cta">
 			{% if paginator.previous_page %}
 				{% if paginator.previous_page == 1 %}
-					<li><a href="/words/">Previous page</a></li>
+					<li><a href="/blog/">Previous page</a></li>
 				{% else %}
-					<li><a href="/words/page{{ paginator.previous_page }}/">Previous page</a></li>
+					<li><a href="/blog/page{{ paginator.previous_page }}/">Previous page</a></li>
 				{% endif %}
 			{% endif %}
 			{% if paginator.next_page %}
-				<li><a href="/words/page{{ paginator.next_page }}/">Next page</a></li>
+				<li><a href="/blog/page{{ paginator.next_page }}/">Next page</a></li>
 			{% endif %}
 		</ul>
 	</main>

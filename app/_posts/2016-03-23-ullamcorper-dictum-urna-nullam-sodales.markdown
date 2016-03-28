@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Ullamcorper Dictum urna Nullam Sodales"
-bodyid    : "words"
+bodyid    : "blog"
 bodyclass : "content post"
 ---
 Mauris suscipit est nec lectus mattis scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus blandit elementum.

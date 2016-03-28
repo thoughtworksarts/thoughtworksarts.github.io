@@ -20,9 +20,9 @@ future: true
 show_drafts: true
 excerpt_separator: <!--excerpt-ends-->
 
-permalink: /words/:title
+permalink: /blog/:title
 paginate: 7
-paginate_path: "/words/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Markdown library
 markdown: kramdown

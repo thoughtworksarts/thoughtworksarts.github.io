@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : "Nullam nec Sapien Cursus Porttitor"
-bodyid    : "words"
+bodyid    : "blog"
 bodyclass : "content post"
 ---
 Vestibulum neque quam, gravida sed pulvinar id, ultrices quis nisi. Ut eget massa et purus interdum tempor eget laoreet metus.
