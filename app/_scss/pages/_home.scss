@@ -11,12 +11,12 @@
 
 	#image-grid {
 		flex: 1 0 auto;
-		background-image: url('/images/full-bleed/artahack-2400.jpg');
+		background-image: url('/images/full-bleed/lab.jpg');
 		background-position: top center;
 		background-size: cover;
 		background-color: #000000;
 		background-repeat: no-repeat;
-		margin: 0;
+		margin: 0 0 5em 0;
 
 		.small-screens {
 			display: none;
@@ -25,7 +25,7 @@
 
 	.teaser {
 		text-align: center;
-		margin: 1.5em auto 9.5em auto;
+		margin: 0 auto 9.5em auto;
 		width: 76%;
 
 		h1 {
@@ -33,7 +33,7 @@
 		}
 
 		p, h1 {
-			margin: 1.2em 16%;
+			margin: 0.6em 16% 1.2em 16%;
 			padding: 0;
 			text-align: center;
 		}
