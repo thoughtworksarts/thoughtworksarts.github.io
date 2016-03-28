@@ -23,17 +23,19 @@
 		}
 	}
 
-	#tagline {
-		header h1 {
-			display: none;
+	.teaser {
+		text-align: center;
+		margin: 1.5em auto 9.5em auto;
+		width: 76%;
+
+		h1 {
+			font-size: 3em;
 		}
 
-		p {
+		p, h1 {
+			margin: 1.2em 16%;
+			padding: 0;
 			text-align: center;
-			font-size: 3em;
-			margin: 1.2em auto;
-			max-width: 19em;
-			padding: 0 2em;
 		}
 
 		.progress {
@@ -63,11 +65,31 @@
 		}
 	}
 
-	#sponsors {
-		background-color: rgba(51, 51, 51, 0.08);
+	.teaser.residents {
+		section {
+			clear: both;
+			margin-bottom: 5em;
 
-		p {
-			display: none;
+			figure {
+				float: left;
+				width: 34%;
+				vertical-align: text-top;
+				margin: 0 3.57% 3% 3.57%;
+			}
+
+			p {
+				margin: 1.2em 0;
+				font-size: 1.15em;
+				padding: 0.6em 0 0.3em 0;
+			}
+
+			p, h2 {
+				text-align: left;
+			}
+
+			img {
+				border-radius: 5em;
+			}
 		}
 	}
 }
@@ -78,7 +100,7 @@
 			background-image: url('/images/full-bleed/artahack-2000.jpg');
 		}
 
-		#tagline {
+		#about-the-program {
 			p {
 				font-size: 2.6em;
 				margin: 1.2em auto;
@@ -101,7 +123,7 @@
 			background-image: url('/images/full-bleed/artahack-1600.jpg');
 		}
 
-		#tagline {
+		#about-the-program {
 			p {
 				font-size: 2.2em;
 				margin: 1.2em auto;
@@ -124,7 +146,7 @@
 			background-image: url('/images/full-bleed/artahack-1200.jpg');
 		}
 
-		#tagline {
+		#about-the-program {
 			p {
 				font-size: 1.9em;
 				margin: 1.2em auto;
@@ -153,7 +175,7 @@
 			background-size: cover;
 		}
 
-		#tagline {
+		#about-the-program {
 			p {
 				font-size: 1.8em;
 				margin: 2.5em auto;
@@ -170,7 +192,7 @@
 
 @media (max-width: 499px) {
 	#home {
-		#tagline {
+		#about-the-program {
 			p {
 				padding: 0 0.85em;
 				font-size: 1.6em;
