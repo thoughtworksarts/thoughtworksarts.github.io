@@ -9,14 +9,15 @@
 		cursor: default;
 	}
 
-	#image-grid {
+	#image-splash {
 		flex: 1 0 auto;
-		background-image: url('/images/full-bleed/lab.jpg');
-		background-position: top center;
+		background-image: url('/images/full-bleed/residency-home-1600.jpg');
+		background-position: center;
 		background-size: cover;
 		background-color: #000000;
 		background-repeat: no-repeat;
-		margin: 0 0 5em 0;
+		margin: 0 0 2em 0;
+		position: relative;
 
 		.small-screens {
 			display: none;
@@ -70,7 +71,7 @@
 
 @media (max-width: 1299px) {
 	#home {
-		#image-grid {
+		#image-splash {
 			background-image: url('/images/full-bleed/artahack-2000.jpg');
 		}
 
@@ -93,7 +94,7 @@
 
 @media (max-width: 1099px) {
 	#home {
-		#image-grid {
+		#image-splash {
 			background-image: url('/images/full-bleed/artahack-1600.jpg');
 		}
 
@@ -116,7 +117,7 @@
 
 @media (max-width: 899px) {
 	#home {
-		#image-grid {
+		#image-splash {
 			background-image: url('/images/full-bleed/artahack-1200.jpg');
 		}
 
@@ -144,7 +145,7 @@
 			max-height: 100%; // Firefox mobile
 		}
 
-		#image-grid {
+		#image-splash {
 			background-image: url('/images/full-bleed/artahack-800.jpg');
 			background-size: cover;
 		}
