@@ -80,14 +80,12 @@ body {
 		header.main {
 			height: 133px;
 
-			h1 a {
-				img.text {
-					height: 70px;
-				}
+			.logo img {
+				height: 6.1em;
+			}
 
-				img.logo {
-					height: 82px;
-				}
+			.logo, >nav {
+				margin: 9px 7px;
 			}
 
 			nav ul.cta li {
