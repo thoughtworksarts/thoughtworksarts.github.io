@@ -94,10 +94,6 @@
 
 @media (max-width: 1099px) {
 	#home {
-		#image-splash {
-			background-image: url('/images/full-bleed/artahack-1600.jpg');
-		}
-
 		#about-the-program {
 			p {
 				font-size: 2.2em;
@@ -118,7 +114,7 @@
 @media (max-width: 899px) {
 	#home {
 		#image-splash {
-			background-image: url('/images/full-bleed/artahack-1200.jpg');
+			background-image: url('/images/full-bleed/residency-home-800.jpg');
 		}
 
 		#about-the-program {
@@ -146,8 +142,7 @@
 		}
 
 		#image-splash {
-			background-image: url('/images/full-bleed/artahack-800.jpg');
-			background-size: cover;
+			background-image: url('/images/full-bleed/residency-home-560.jpg');
 		}
 
 		#about-the-program {

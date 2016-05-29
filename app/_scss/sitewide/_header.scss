@@ -104,14 +104,12 @@ body {
 		header.main {
 			height: 120px;
 
-			h1 a {
-				img.text {
-					height: 55px;
-				}
+			.logo img {
+				height: 5.6em;
+			}
 
-				img.logo {
-					height: 77px;
-				}
+			.logo, >nav {
+				margin: 7px 6px;
 			}
 
 			nav ul.cta li {
@@ -128,7 +126,19 @@ body {
 @media (max-width: 899px) {
 	body {
 		header.main {
-			height: 115px;
+			height: 107px;
+
+			.logo img {
+				height: 5em;
+			}
+
+			.logo {
+				margin: 6px 0;
+			}
+
+			>nav {
+				margin: 6px;
+			}
 
 			nav {
 				#menu-button {
@@ -178,33 +188,6 @@ body {
 						background-color: rgba(0, 0, 0, 0) !important;
 						color: #ef402f;
 					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 639px) {
-	body {
-		header.main h1 a img.text {
-			height: 48px;
-			margin-left: 0.3em;
-		}
-	}
-}
-
-@media (max-width: 499px) {
-	body {
-		header.main {
-			height: 88px;
-
-			h1 a {
-				img.text {
-					height: 29px;
-				}
-
-				img.logo {
-					height: 62px;
 				}
 			}
 		}
