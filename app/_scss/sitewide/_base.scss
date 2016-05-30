@@ -28,7 +28,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-p, ul, ol, figcaption {
+p, ul, ol, figcaption, .progress {
 	font-size: $largest_font;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
@@ -149,9 +149,9 @@ a#menu-button {
 }
 
 a.cta {
-	font-size: 2em;
+	font-weight: bold;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 a.cta:link, a.cta:visited {
