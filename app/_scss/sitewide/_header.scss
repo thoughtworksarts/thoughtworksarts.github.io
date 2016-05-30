@@ -42,6 +42,49 @@ body {
 					a {
 						font-family: 'Bebas Neue', sans-serif;
 					}
+
+					a:link, a:visited {
+						color: #000000;
+					}
+
+					a:before {
+						background-size: 21px 39px;
+						display: inline-block;
+						width: 21px;
+						height: 39px;
+						content: '';
+						position: relative; left: 22px; top: -30px;
+					}
+				}
+
+				li.program {
+					a:hover, a:active {
+						color: #ac1f58;
+					}
+
+					a:hover:before, a:active:before {
+						background-image: url('/images/icons/diamond-purple.png');
+					}
+				}
+
+				li.residents {
+					a:hover, a:active {
+						color: #00b1c3;
+					}
+
+					a:hover:before, a:active:before {
+						background-image: url('/images/icons/diamond-teal.png');
+					}
+				}
+
+				li.blog {
+					a:hover, a:active {
+						color: #f5ac1d;
+					}
+
+					a:hover:before, a:active:before {
+						background-image: url('/images/icons/diamond-canary.png');
+					}
 				}
 			}
 		}
