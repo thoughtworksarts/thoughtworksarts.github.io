@@ -96,33 +96,6 @@ body {
 				}
 			}
 		}
-
-		.open-call {
-			width: 100%;
-			text-align: center;
-			height: 36px;
-			position: absolute;
-			bottom: -36px;
-
-			a {
-				background-color: #ef402f;
-				color: #ffffff;
-				display: block;
-				z-index: 1000;
-				position: relative;
-				padding: 13px;
-				text-decoration: underline;
-				font-weight: bold;
-			}
-
-			a:link, a:visited {
-				text-decoration: none;
-			}
-
-			a:hover, a:active {
-				text-decoration: underline;
-			}
-		}
 	}
 }
 
