@@ -41,10 +41,12 @@ body {
 
 					a {
 						font-family: 'Bebas Neue', sans-serif;
+						transition: all 0.32s ease-out;
+						opacity: 0.75;
 					}
 
-					a:link, a:visited {
-						color: #000000;
+					a:hover, a:active, a:focus {
+						opacity: 1;
 					}
 
 					a:before {
@@ -54,35 +56,41 @@ body {
 						height: 39px;
 						content: '';
 						position: relative; left: 22px; top: -30px;
+						opacity: 0;
+						transition: all 0.32s ease-out;
+					}
+
+					a:hover:before, a:active:before, a:focus:before {
+						opacity: 1;
 					}
 				}
 
 				li.program {
-					a:hover, a:active {
+					a {
 						color: #ac1f58;
 					}
 
-					a:hover:before, a:active:before {
+					a:before {
 						background-image: url('/images/icons/diamond-purple.png');
 					}
 				}
 
 				li.residents {
-					a:hover, a:active {
+					a {
 						color: #00b1c3;
 					}
 
-					a:hover:before, a:active:before {
+					a:before {
 						background-image: url('/images/icons/diamond-teal.png');
 					}
 				}
 
 				li.blog {
-					a:hover, a:active {
+					a {
 						color: #f5ac1d;
 					}
 
-					a:hover:before, a:active:before {
+					a:before {
 						background-image: url('/images/icons/diamond-canary.png');
 					}
 				}
