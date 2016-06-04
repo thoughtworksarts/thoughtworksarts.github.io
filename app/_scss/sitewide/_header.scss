@@ -210,8 +210,10 @@ body {
 
 					a {
 						font-size: 2em;
-						background-color: rgba(0, 0, 0, 0) !important;
-						color: #ef402f;
+					}
+
+					a:before {
+						background-image: inherit;
 					}
 				}
 			}
