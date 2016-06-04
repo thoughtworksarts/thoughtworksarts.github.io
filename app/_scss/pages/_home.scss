@@ -34,7 +34,7 @@
 			padding: 0;
 
 			a:link, a:visited {
-				color: #000000;
+				margin: 1.2em;
 			}
 
 			a:after {
@@ -48,20 +48,12 @@
 		}
 
 		.progress.program {
-			a:hover, a:active {
-				color: #ac1f58;
-			}
-
 			a:after {
 				background-image: url('/images/icons/arrow-purple.png');
 			}
 		}
 
 		.progress.residents {
-			a:hover, a:active {
-				color: #00b1c3;
-			}
-
 			a:after {
 				background-image: url('/images/icons/arrow-teal.png');
 			}

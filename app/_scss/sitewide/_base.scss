@@ -154,29 +154,24 @@ a.cta {
 	text-transform: lowercase;
 }
 
-a.cta:link, a.cta:visited {
-	color: #ef402f;
-}
-
-a.cta:hover, a.cta:active {
-	color: #4d2822;
-}
-
-ul.cta, ol.cta {
+.cta {
 	a {
-		font-size: 2em;
 		text-decoration: none;
-		padding: 0.3em 0.6em;
 		letter-spacing: 0.05em;
 		white-space: nowrap;
+		opacity: 0.8;
 	}
 
-	a:link, a:visited {
-		color: #4d2822;
+	a, a:before, a:after {
+		transition: opacity 0.32s ease-out;
 	}
 
-	a:hover, a:active {
-		color: #ef402f;
+	a:before {
+		opacity: 0;
+	}
+
+	a:hover, a:active, a:focus, a:hover:before, a:active:before, a:focus:before, a:hover:after, a:active:after, a:focus:after {
+		opacity: 1;
 	}
 }
 
@@ -186,6 +181,29 @@ ul.cta, ol.cta {
 
 ul.cta li, ol.cta li {
 	display: inline-block;
+}
+
+.program {
+	a {
+		color: #ac1f58;
+	}
+}
+
+.residents {
+	a {
+		color: #00b1c3;
+	}
+}
+
+.blog {
+	a {
+		color: #f5ac1d;
+	}
+}
+
+.progress {
+	text-transform: lowercase;
+	font-weight: bold;
 }
 
 .info {
