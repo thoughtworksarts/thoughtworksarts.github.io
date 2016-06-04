@@ -23,11 +23,29 @@
 		.small-screens {
 			display: none;
 		}
+
+		.intro-container {
+			width: 100%;
+			position: absolute; top: 50%; height: 10em; margin-top: 3em;
+			//border: 1px dashed red;
+
+			.intro {
+				position: absolute; top: 50%; height: 6em; margin-top: -3em; left: 3.4em;
+				//border: 1px dashed green;
+				color: #eee;
+				text-shadow: 0 0 9px black;
+				font-size: 1.25em;
+			}
+		}
 	}
 
 	.teaser {
 		margin: 0 auto 9.5em 5em;
 		width: 674px;
+
+		.intro {
+			display: none;
+		}
 
 		.progress {
 			text-align: right;
@@ -67,6 +85,10 @@
 	#home {
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-1200.jpg');
+
+			.intro-container {
+				margin-top: -1em;
+			}
 		}
 	}
 }
@@ -84,11 +106,16 @@
 
 		#image-splash {
 			margin: 0 0 3.2em 0;
+
+			.intro-container .intro {
+				font-size: 1.15em;
+				left: 2.7em;
+			}
 		}
 	}
 }
 
-@media (max-width: 899px) {
+@media (max-width: 999px) {
 	#home {
 		.flex-col {
 			min-height: 576px;
@@ -103,6 +130,18 @@
 			width: 80%;
 			max-width: 650px;
 			margin: 0.3em auto 6.5em 3em;
+		}
+	}
+}
+
+@media (max-width: 799px) {
+	#home {
+		#image-splash  .intro-container {
+			display: none;
+		}
+
+		.teaser .intro {
+			display: block;
 		}
 	}
 }
