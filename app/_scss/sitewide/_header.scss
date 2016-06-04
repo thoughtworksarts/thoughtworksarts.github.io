@@ -43,6 +43,7 @@ body {
 						font-family: 'Bebas Neue', sans-serif;
 						transition: all 0.32s ease-out;
 						opacity: 0.75;
+						font-size: 2em;
 					}
 
 					a:hover, a:active, a:focus {
@@ -102,21 +103,21 @@ body {
 @media (max-width: 1299px) {
 	body {
 		header.main {
-			height: 133px;
+			height: 158px;
 
 			.logo img {
-				height: 6.1em;
+				height: 8em;
 			}
 
 			.logo, >nav {
-				margin: 9px 7px;
+				margin: 9px 13px;
 			}
 
 			nav ul.cta li {
-				margin-left: 0.5em;
+				margin-left: 0.8em;
 
 				a {
-					font-size: 1.6em;
+					font-size: 1.9em;
 				}
 			}
 		}
@@ -126,21 +127,21 @@ body {
 @media (max-width: 1099px) {
 	body {
 		header.main {
-			height: 120px;
+			height: 145px;
 
 			.logo img {
-				height: 5.6em;
+				height: 7.4em;
 			}
 
 			.logo, >nav {
-				margin: 7px 6px;
+				margin: 7px 3px;
 			}
 
 			nav ul.cta li {
-				margin-left: 0.3em;
-				
+				margin-left: 0.6em;
+
 				a {
-					font-size: 1.5em;
+					font-size: 1.75em;
 				}
 			}
 		}
@@ -150,14 +151,14 @@ body {
 @media (max-width: 899px) {
 	body {
 		header.main {
-			height: 107px;
+			height: 130px;
 
 			.logo img {
-				height: 5em;
+				height: 6.6em;
 			}
 
 			.logo {
-				margin: 6px 0;
+				margin: 4px 1px;
 			}
 
 			>nav {
