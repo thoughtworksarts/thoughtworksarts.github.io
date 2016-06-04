@@ -26,6 +26,25 @@
 			text-align: left;
 		}
 
+		h2 {
+			position: relative;
+			margin-top: 124px;
+		}
+
+		h2.heather {
+			margin-top: 56px;
+		}
+
+		h2:before {
+			background-size: 70px 80px;
+			display: inline-block;
+			width: 70px;
+			height: 80px;
+			content: '';
+			position: absolute; top: -100px;
+			background-image: url('/images/icons/arrow-black.png');
+		}
+
 		img {
 			border: 2px solid #F8F8F8;
 		}
