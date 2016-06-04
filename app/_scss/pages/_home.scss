@@ -6,6 +6,16 @@
 		min-height: 600px;
 	}
 
+	.flex-row {
+		display: flex;
+		flex-flow: row;
+
+		section {
+			width: 50%;
+			flex: 1 1 auto;
+		}
+	}
+
 	h1, h2, p {
 		cursor: default;
 	}
