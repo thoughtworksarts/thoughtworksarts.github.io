@@ -27,7 +27,7 @@
 
 	.teaser {
 		margin: 0 auto 9.5em 5em;
-		width: 50%;
+		width: 674px;
 
 		.progress {
 			text-align: right;
@@ -76,21 +76,6 @@
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-1200.jpg');
 		}
-
-		#about-the-program {
-			p {
-				font-size: 2.6em;
-				margin: 1.2em auto;
-			}
-
-			.progress {
-				margin: 4.5em 0;
-				
-				a {
-					font-size: 1.7em;
-				}
-			}
-		}
 	}
 }
 
@@ -100,19 +85,13 @@
 			min-height: 540px;
 		}
 
-		#about-the-program {
-			p {
-				font-size: 2.2em;
-				margin: 1.2em auto;
-			}
+		.teaser {
+			width: 661px;
+			margin: 0 auto 7.5em 4.4em;
+		}
 
-			.progress {
-				margin: 6em 0 4.5em 0;
-
-				a {
-					font-size: 1.5em;
-				}
-			}
+		#image-splash {
+			margin: 0 0 3.2em 0;
 		}
 	}
 }
@@ -128,19 +107,10 @@
 			background-position: 50% 55%;
 		}
 
-		#about-the-program {
-			p {
-				font-size: 1.9em;
-				margin: 1.2em auto;
-			}
-
-			.progress {
-				margin: 6em 0 4.5em 0;
-
-				a {
-					font-size: 1.4em;
-				}
-			}
+		.teaser {
+			width: 80%;
+			max-width: 650px;
+			margin: 0.3em auto 6.5em 3em;
 		}
 	}
 }
@@ -156,28 +126,22 @@
 			background-image: url('/images/full-bleed/residency-home-560.jpg');
 		}
 
-		#about-the-program {
-			p {
-				font-size: 1.8em;
-				margin: 2.5em auto;
-			}
-
-			.progress {
-				a {
-					font-size: 1.3em;
-				}
-			}
+		.teaser {
+			width: 87%;
+			margin: 0 auto 5em 1.9em;
 		}
 	}
 }
 
-@media (max-width: 499px) {
+@media (max-width: 639px) {
 	#home {
-		#about-the-program {
-			p {
-				padding: 0 0.85em;
-				font-size: 1.6em;
-			}
+		.teaser {
+			width: 93%;
+			margin: 0 auto 3.8em 1.3em;
+		}
+
+		#image-splash {
+			margin: 0 0 2.7em 0;
 		}
 	}
 }
