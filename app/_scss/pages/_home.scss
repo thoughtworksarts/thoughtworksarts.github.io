@@ -3,6 +3,7 @@
 		display: flex;
 		flex-flow: column;
 		height: 100%;
+		min-height: 600px;
 	}
 
 	h1, h2, p {
@@ -95,6 +96,10 @@
 
 @media (max-width: 1099px) {
 	#home {
+		.flex-col {
+			min-height: 540px;
+		}
+
 		#about-the-program {
 			p {
 				font-size: 2.2em;
@@ -114,6 +119,10 @@
 
 @media (max-width: 899px) {
 	#home {
+		.flex-col {
+			min-height: 576px;
+		}
+
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-800.jpg');
 			background-position: 50% 55%;
@@ -139,7 +148,7 @@
 @media (max-width: 639px) {
 	#home {
 		.flex-col {
-			min-height: 400px;
+			min-height: 500px;
 			max-height: 100%; // Firefox mobile
 		}
 
