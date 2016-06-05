@@ -44,8 +44,9 @@ h1 {
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
 	border-top: 3px solid;
-	display: inline;
+	display: inline-block;
 	padding: 0.28em 0.35em 0 0;
+	margin-top: 0.3em;
 	font-size: 2.2em;
 
 	a:link, a:visited {
@@ -54,11 +55,22 @@ h1 {
 }
 
 h2 {
-	margin: 1.3em 0 1em 0;
+	margin: 140px 0 0.1em 0;
 	font-size: 1.8em;
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 400;
+	position: relative;
+}
+
+h2:before {
+	background-size: 70px 80px;
+	display: inline-block;
+	width: 70px;
+	height: 80px;
+	content: '';
+	position: absolute; top: -100px;
+	background-image: url('/images/icons/arrow-black.png');
 }
 
 h3 {
@@ -275,6 +287,10 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 999px) {
+	h1 {
+		margin-top: 0.2em;
+	}
+
 	body>section {
 		width: 80%;
 		max-width: 650px;
@@ -293,6 +309,10 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 639px) {
+	h1 {
+		margin-top: 0;
+	}
+
 	body>section {
 		width: 92%;
 		margin: 2em auto 3.8em 1.1em;
