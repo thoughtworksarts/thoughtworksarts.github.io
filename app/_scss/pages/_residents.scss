@@ -1,29 +1,28 @@
-#home>.residents, #residents>.residents {
+body>section.residents {
 	width: 1050px;
 
 	section {
 		clear: both;
 		margin-bottom: 5em;
 
-		figure {
-			img {
-				border: 0;
-				width: 20em;
-			}
+		figure img {
+			border: 0;
+			width: 20em;
 		}
 
 		figure.moon {
 			position: relative; top: -8em; left: 4em;
 		}
 
-		p, div {
+		/*p, div {
 			margin: 1.2em 5.9em 1.2em 0;
 			font-size: 1.15em;
 			padding: 0.6em 0 0.3em 0;
-		}
+		}*/
 
 		p, h2 {
 			text-align: left;
+			margin-right: 1.1em;
 		}
 
 		h2 {
@@ -46,6 +45,16 @@
 		}
 	}
 
+	section.cyborg {
+		figure {
+			order: 2;
+		}
+
+		p, h2 {
+			order: 1;
+		}
+	}
+
 	section.heather{
 		padding-top: 7.3em;
 
@@ -60,6 +69,15 @@
 		display: none;
 	}
 }
+
+@media (max-width: 999px) {
+	body>section.residents {
+		width: 90%;
+		max-width: inherit;
+	}
+}
+
+/*
 
 @media (max-width: 1299px) {
 	#residents {
@@ -125,4 +143,4 @@
 			}
 		}
 	}
-}
+}*/

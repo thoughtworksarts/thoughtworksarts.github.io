@@ -247,7 +247,7 @@ ul.cta li, ol.cta li {
 @media (max-width: 1099px) {
 	body>section {
 		width: 661px;
-		margin: 2em auto 7.5em 4.4em;
+		margin: 2em auto 7.5em 3em;
 	}
 
 	h1 {
@@ -277,6 +277,7 @@ ul.cta li, ol.cta li {
 		width: 80%;
 		max-width: 650px;
 		margin: 2.3em auto 6.5em 3em;
+		border: 1px dashed red;
 	}
 }
 
