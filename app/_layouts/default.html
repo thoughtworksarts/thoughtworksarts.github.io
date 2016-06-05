@@ -23,9 +23,7 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
   </head>
   <body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
-    {% if page.bodyid == 'home' %}
     <div class="flex-col">
-    {% endif %}
       <header role="banner" class="main top">
         <h1>ThoughtWorks Arts Residency</h1>
         <a href="/" class="logo">
@@ -44,14 +42,18 @@
           </ul>
         </nav>
       </header>
-    {% if page.bodyid == 'home' %}
+      {% if page.bodyid == 'home' %}
       <figure id="image-splash" class="bottom">
         <div class="intro-container">
           <p class="intro">The ThoughtWorks Arts Residency supports artists<br />exploring new lines of inquiry intersecting technology and society.</p>
         </div>
       </figure>
+      {% endif %}
+      {% if page.bodyid == 'program' %}
+      <figure id="image-splash" class="bottom">
+      </figure>
+      {% endif %}
     </div>
-    {% endif %}
     {{ content }}
     <!-- build:js(app) /javascript/script.js -->
     <script src="/javascript/jquery.js"></script>

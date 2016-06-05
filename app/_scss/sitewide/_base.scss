@@ -233,6 +233,16 @@ ul.cta li, ol.cta li {
 	display: none;
 }
 
+.flex-col {
+	display: flex;
+	flex-flow: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-flow: row;
+}
+
 @media (max-width: 1299px) {
 	time {
 		font-size: 0.95em;

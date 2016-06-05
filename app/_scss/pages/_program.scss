@@ -1,25 +1,17 @@
 #program {
-	main {
-		aside>p, aside>h2 {
-			text-align: left;
-		}
+	.flex-col {
+		height: 67%;
+		min-height: 300px;
 
-		figure {
-			display: inline-block;
-			width: 49%;
-			margin: 3em 0 0 0;
-			text-align: center;
-			vertical-align: top;
-
-			img {
-				border-radius: 4em;
-				width: 66%;
-			}
-
-			figcaption strong {
-				font-size: 1.1em;
-				line-height: 2.2em;
-			}
+		#image-splash {
+			flex: 1 0 auto;
+			background-image: url('/images/full-bleed/arduino-1400.jpg');
+			background-position: 50% 24%;
+			background-size: cover;
+			background-color: #000000;
+			background-repeat: no-repeat;
+			margin: 0 0 2em 0;
+			position: relative;
 		}
 	}
 }
