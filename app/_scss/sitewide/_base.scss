@@ -16,6 +16,11 @@ html, body {
 	line-height: $small_lineheight;
 }
 
+body>section {
+	margin: 2em auto 7.1em 5em;
+	width: 674px;
+}
+
 a {
 	transition: color 0.12s;
 }
@@ -240,6 +245,11 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 1099px) {
+	body>section {
+		width: 661px;
+		margin: 2em auto 7.5em 4.4em;
+	}
+
 	h1 {
 		font-size: 1.8em;
 	}
@@ -262,6 +272,14 @@ ul.cta li, ol.cta li {
 	}
 }
 
+@media (max-width: 999px) {
+	body>section {
+		width: 80%;
+		max-width: 650px;
+		margin: 2.3em auto 6.5em 3em;
+	}
+}
+
 @media (max-width: 899px) {
 	ul.links li i {
 		font-size: 1.5em;
@@ -272,8 +290,19 @@ ul.cta li, ol.cta li {
 	}
 }
 
+@media (max-width: 639px) {
+	body>section {
+		width: 92%;
+		margin: 2em auto 3.8em 1.1em;
+	}
+}
+
 @media (max-width: 499px) {
 	hr {
 		margin-bottom: 0.8em;
 	}
+}
+
+body>section:first-of-type {
+	margin-top: 0.6em;
 }
