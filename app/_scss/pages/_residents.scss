@@ -16,8 +16,8 @@
 			position: relative; top: -8em; left: 4em;
 		}
 
-		p {
-			margin: 1.2em 4em 1.2em 0;
+		p, div {
+			margin: 1.2em 5.9em 1.2em 0;
 			font-size: 1.15em;
 			padding: 0.6em 0 0.3em 0;
 		}
@@ -29,10 +29,6 @@
 		h2 {
 			position: relative;
 			margin-top: 124px;
-		}
-
-		h2.heather {
-			margin-top: 56px;
 		}
 
 		h2:before {
@@ -47,6 +43,14 @@
 
 		img {
 			border: 2px solid #F8F8F8;
+		}
+	}
+
+	section.heather{
+		padding-top: 7.3em;
+
+		h2 {
+			margin-top: 56px;
 		}
 	}
 }
