@@ -118,6 +118,26 @@ body>section.residents {
 	}
 }
 
+@media (max-width: 749px) {
+	body>section.residents {
+		section {
+			p, h2 {
+				margin-right: 4%;
+			}
+
+			figure img {
+				width: 45%;
+			}
+		}
+
+		section.heather {
+			figure img {
+				width: 50%;
+			}
+		}
+	}
+}
+
 /*
 
 @media (max-width: 1299px) {
