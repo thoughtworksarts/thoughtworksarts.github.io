@@ -17,7 +17,7 @@ html, body {
 }
 
 body>section {
-	margin: 2em auto 7.1em 5em;
+	margin: 2em auto 7.1em 3em;
 	width: 674px;
 }
 
@@ -46,7 +46,7 @@ h1 {
 	border-top: 3px solid;
 	display: inline;
 	padding: 0.28em 0.35em 0 0;
-	font-size: 2.3em;
+	font-size: 2.2em;
 
 	a:link, a:visited {
 		text-decoration: none;
@@ -55,7 +55,7 @@ h1 {
 
 h2 {
 	margin: 1.3em 0 1em 0;
-	font-size: 1.9em;
+	font-size: 1.8em;
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 400;
@@ -250,14 +250,6 @@ ul.cta li, ol.cta li {
 		margin: 2em auto 7.5em 3em;
 	}
 
-	h1 {
-		font-size: 1.8em;
-	}
-
-	h2, .more {
-		font-size: 1.4em;
-	}
-
 	p, ul, ol, figcaption {
 		font-size: 1.07em;
 	}
@@ -277,7 +269,6 @@ ul.cta li, ol.cta li {
 		width: 80%;
 		max-width: 650px;
 		margin: 2.3em auto 6.5em 3em;
-		border: 1px dashed red;
 	}
 }
 
