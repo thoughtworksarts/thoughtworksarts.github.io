@@ -25,6 +25,10 @@ body>section.expanded {
 	width: 1050px;
 }
 
+body>section:last-of-type {
+	margin-bottom: 2em;
+}
+
 a {
 	transition: color 0.12s;
 }
