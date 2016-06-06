@@ -28,12 +28,7 @@ layout: default
     </div>
   </article>
 
-  <ul id="paging" class="cta">
-    {% if page.previous %}
-    <li><a href="{{ page.previous.url }}">Previous post</a></li>
-    {% endif %}
-    {% if page.next %}
-    <li><a href="{{ page.next.url }}">Next post</a></li>
-    {% endif %}
-  </ul>
+  <div class="progress cta blog">
+    <a href="/blog/">View all posts</a>
+  </div>
 </section>
