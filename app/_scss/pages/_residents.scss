@@ -85,6 +85,10 @@ body>section.residents {
 				order: 1;
 			}
 
+			figure.moon {
+				margin-left: 1em !important;
+			}
+
 			p, h2 {
 				order: 2;
 			}
@@ -115,71 +119,3 @@ body>section.residents {
 		}
 	}
 }
-
-/*
-
-@media (max-width: 1299px) {
-	#residents {
-		.grid {
-			img {
-				border-radius: 4em;
-			}
-		}
-	}
-}
-
-@media (max-width: 1099px) {
-	#residents {
-		.grid {
-			figure {
-				width: 18.3%;
-				margin: 1.5% 3.15% 5% 3.15%;
-			}
-		}
-	}
-}
-
-@media (max-width: 1019px) {
-	#residents {
-		.grid {
-			figure {
-				width: 23%;
-				margin: 1.5% 4.95% 5% 4.95%;
-			}
-		}
-	}
-}
-
-@media (max-width: 789px) {
-	#residents {
-		.grid {
-			text-align: center;
-
-			figure {
-				width: 36%;
-				margin: 1.5% 5% 5% 5%;
-			}
-		}
-	}
-}
-
-@media (max-width: 559px) {
-	#residents {
-		.grid {
-			figure {
-				width: 60%;
-				margin: 0 auto 4.3em auto;
-			}
-		}
-	}
-}
-
-@media (max-width: 509px) {
-	#residents {
-		.grid {
-			figure {
-				width: 70%;
-			}
-		}
-	}
-}*/
