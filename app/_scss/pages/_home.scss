@@ -29,15 +29,16 @@
 
 		.intro-container {
 			width: 100%;
-			position: absolute; top: 50%; height: 10em; margin-top: 3em;
-			//border: 1px dashed red;
+			position: absolute; bottom: 0;
 
 			.intro {
-				position: absolute; top: 50%; height: 6em; margin-top: -3em; left: 3.4em;
-				//border: 1px dashed green;
 				color: #eee;
-				text-shadow: 0 0 9px black;
-				font-size: 1.25em;
+				text-shadow: 0 0 2px #000000, 0 0 12px #331810, 0 0 24px #331810;
+				font-size: 1.5em;
+				line-height: 1.7em;
+				opacity: 0.9;
+				font-style: italic;
+				margin: 3em;
 			}
 		}
 	}
@@ -82,11 +83,8 @@
 			min-height: 540px;
 		}
 
-		#image-splash {
-			.intro-container .intro {
-				font-size: 1.15em;
-				left: 2.7em;
-			}
+		#image-splash .intro-container .intro {
+			font-size: 1.4em;
 		}
 	}
 }
@@ -106,8 +104,8 @@
 
 @media (max-width: 799px) {
 	#home {
-		#image-splash  .intro-container {
-			display: none;
+		#image-splash  .intro-container .intro {
+			margin: 2em;
 		}
 
 		>section .intro {
@@ -116,8 +114,26 @@
 	}
 }
 
+@media (max-width: 729px) {
+	#home {
+		#image-splash  .intro-container .intro {
+			font-size: 1.3em;
+			margin: 1.3em 2em;
+		}
+	}
+}
+
 @media (max-width: 639px) {
 	#home {
+		#image-splash  .intro-container .intro {
+			margin: 0 1em 30% 1em;
+			text-align: center;
+
+			br {
+				display: none;
+			}
+		}
+
 		.flex-col {
 			min-height: 500px;
 			max-height: 100%; // Firefox mobile
