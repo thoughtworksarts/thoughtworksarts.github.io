@@ -51,29 +51,8 @@
 			text-align: right;
 			padding: 0;
 
-			a:link, a:visited {
+			a {
 				margin: 1.2em;
-			}
-
-			a:after {
-				background-size: 34px 39px;
-				display: inline-block;
-				width: 34px;
-				height: 39px;
-				content: '';
-				position: relative; left: 8px; top: 13px;
-			}
-		}
-
-		.progress.program {
-			a:after {
-				background-image: url('/images/icons/arrow-purple.png');
-			}
-		}
-
-		.progress.residents {
-			a:after {
-				background-image: url('/images/icons/arrow-teal.png');
 			}
 		}
 	}

@@ -240,6 +240,33 @@ ul.cta li, ol.cta li {
 .progress {
 	text-transform: lowercase;
 	font-weight: bold;
+
+	a:after {
+		background-size: 34px 39px;
+		display: inline-block;
+		width: 34px;
+		height: 39px;
+		content: '';
+		position: relative; left: 8px; top: 13px;
+	}
+}
+
+.progress.program {
+	a:after {
+		background-image: url('/images/icons/arrow-purple.png');
+	}
+}
+
+.progress.residents {
+	a:after {
+		background-image: url('/images/icons/arrow-teal.png');
+	}
+}
+
+.progress.blog {
+	a:after {
+		background-image: url('/images/icons/arrow-canary.png');
+	}
 }
 
 .info {
