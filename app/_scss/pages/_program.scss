@@ -26,20 +26,9 @@
 		display: none;
 	}
 
-	.flex-col {
-		height: 67%;
-		min-height: 300px;
-
-		#image-splash {
-			flex: 1 0 auto;
-			background-image: url('/images/full-bleed/arduino-1400.jpg');
-			background-position: 50% 24%;
-			background-size: cover;
-			background-color: #000000;
-			background-repeat: no-repeat;
-			margin: 0 0 2em 0;
-			position: relative;
-		}
+	.flex-col #image-splash {
+		background-image: url('/images/full-bleed/arduino-1400.jpg');
+		background-position: 50% 24%;
 	}
 }
 

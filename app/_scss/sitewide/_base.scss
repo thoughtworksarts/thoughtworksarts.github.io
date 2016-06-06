@@ -29,6 +29,20 @@ body>section:last-of-type {
 	margin-bottom: 2em;
 }
 
+body>.flex-col {
+		height: 67%;
+		min-height: 300px;
+
+		#image-splash {
+			flex: 1 0 auto;
+			background-size: cover;
+			background-color: #000000;
+			background-repeat: no-repeat;
+			margin: 0 0 2em 0;
+			position: relative;
+		}
+	}
+
 a {
 	transition: color 0.12s;
 }

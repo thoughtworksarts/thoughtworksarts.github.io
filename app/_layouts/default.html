@@ -42,17 +42,13 @@
           </ul>
         </nav>
       </header>
-      {% if page.bodyid == 'home' %}
       <figure id="image-splash" class="bottom">
+        {% if page.bodyid == 'home' %}
         <div class="intro-container">
           <p class="intro">The ThoughtWorks Arts Residency supports artists<br />exploring new lines of inquiry intersecting technology and society.</p>
         </div>
+        {% endif %}
       </figure>
-      {% endif %}
-      {% if page.bodyid == 'program' %}
-      <figure id="image-splash" class="bottom">
-      </figure>
-      {% endif %}
     </div>
     {{ content }}
     <!-- build:js(app) /javascript/script.js -->

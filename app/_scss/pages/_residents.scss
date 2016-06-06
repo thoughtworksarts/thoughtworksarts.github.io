@@ -41,9 +41,14 @@ body>section.residents {
 	}
 }
 
-#residents .residents {
-	h1 {
+#residents {
+	.residents h1 {
 		display: none;
+	}
+
+	.flex-col #image-splash {
+		background-image: url('/images/full-bleed/oculus-1400.jpg');
+		background-position: 50% 50%;
 	}
 }
 
