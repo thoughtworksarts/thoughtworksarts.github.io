@@ -10,8 +10,13 @@
 				position: absolute; top: 50%;
 				transform: translateY(-50%);
 
-				p {
-					padding: 0.3em 4.5em 0.3em 2.5em;
+				p, h2 {
+					padding: 0.3em 4.5em 0.3em 42px;
+					margin-top: 0;
+				}
+
+				h2:before {
+					display: none;
 				}
 			}
 		}
@@ -51,8 +56,38 @@
 @media (max-width: 899px) {
 	#program {
 		.team {
-			figure figcaption p {
-				padding-right: 0.5em;
+			figure figcaption {
+				position: relative;
+				transform: inherit;
+
+				p, h2 {
+					width: 80%;
+					padding-left: 0;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 739px) {
+	#program {
+		.team {
+			figure figcaption {
+				p, h2 {
+					width: 92%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	#program {
+		.team {
+			figure figcaption {
+				p, h2 {
+					width: 100%;
+				}
 			}
 		}
 	}

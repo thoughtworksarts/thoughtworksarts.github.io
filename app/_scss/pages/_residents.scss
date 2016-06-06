@@ -56,9 +56,6 @@ body>section.residents {
 @media (max-width: 899px) {
 	body>section.residents {
 		.flex-row {
-			flex-flow: inherit !important;
-			display: block !important;
-
 			section.flex-col {
 				flex-flow: inherit !important;
 				flex: inherit !important;

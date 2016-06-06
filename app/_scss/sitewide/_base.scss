@@ -309,6 +309,13 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 899px) {
+	body>section.expanded {
+		.flex-row {
+			flex-flow: inherit !important;
+			display: block !important;
+		}
+	}
+
 	ul.links li i {
 		font-size: 1.5em;
 	}
