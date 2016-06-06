@@ -14,4 +14,12 @@ bodyid  : home
 		<a href="/program/">More</a>
 	</div>
 </section>
-{% include residents.html showmore="true" %}
+<section class="residents expanded">
+	<header>
+		<h1>2016 residents</h1>
+	</header>
+	<div class="flex-row">
+		{% include residents-cyborg.html %}
+		{% include residents-heather.html showmore="true" %}
+	</div>
+</section>

@@ -1,8 +1,18 @@
 ---
 layout    : default
 title     : Residents - ThoughtWorks Arts Residency
-header    : Who do we have here?
 bodyid    : "residents"
 bodyclass : "content post"
 ---
-{% include residents.html %}
+<section class="residents expanded">
+	<header>
+		<h1>2016 residents</h1>
+	</header>
+	<section>
+		<p>For our initial season we are delighted to supporting two sets of influential artists working on important contemporary issues. Our focus in this season is in the body and it's relationship to technology.</p>
+	</section>
+	<div class="flex-row">
+		{% include residents-cyborg.html %}
+		{% include residents-heather.html %}
+	</div>
+</section>
