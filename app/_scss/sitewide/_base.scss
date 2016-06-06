@@ -21,6 +21,10 @@ body>section {
 	width: 674px;
 }
 
+body>section.expanded {
+	width: 1050px;
+}
+
 a {
 	transition: color 0.12s;
 }
@@ -33,7 +37,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-p, ul, ol, figcaption, .progress {
+p, ul, ol, .progress {
 	font-size: $largest_font;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
@@ -78,10 +82,6 @@ h3 {
 	font-size: 1.5em;
 	line-height: $smallest_lineheight;
 	font-weight: 300;
-}
-
-figure {
-	margin-bottom: 2.5em;
 }
 
 time {
@@ -272,7 +272,12 @@ ul.cta li, ol.cta li {
 		margin: 2em auto 7.5em 3em;
 	}
 
-	p, ul, ol, figcaption {
+	body>section.expanded {
+		width: 90%;
+		max-width: inherit;
+	}
+
+	p, ul, ol {
 		font-size: 1.07em;
 	}
 
@@ -295,6 +300,11 @@ ul.cta li, ol.cta li {
 		width: 80%;
 		max-width: 650px;
 		margin: 2.3em auto 6.5em 3em;
+	}
+
+	body>section.expanded {
+		width: 90%;
+		max-width: inherit;
 	}
 }
 

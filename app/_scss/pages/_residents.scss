@@ -1,6 +1,4 @@
 body>section.residents {
-	width: 1050px;
-
 	section {
 		clear: both;
 		margin-bottom: 1em;
@@ -46,13 +44,6 @@ body>section.residents {
 #residents .residents {
 	h1 {
 		display: none;
-	}
-}
-
-@media (max-width: 1099px) {
-	body>section.residents {
-		width: 90%;
-		max-width: inherit;
 	}
 }
 

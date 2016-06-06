@@ -1,4 +1,22 @@
 #program {
+	.team {
+		position: relative;
+
+		figure {
+			position: relative;
+			margin: 2em 0;
+
+			figcaption {
+				position: absolute; top: 50%;
+				transform: translateY(-50%);
+
+				p {
+					padding: 0.3em 4.5em 0.3em 2.5em;
+				}
+			}
+		}
+	}
+
 	.mission h2 {
 		display: none;
 	}
@@ -20,119 +38,21 @@
 	}
 }
 
-@media (max-width: 1179px) {
-	#program {
-		main {
-			figure {
-				img {
-					width: 70%;
-				}
-
-				figcaption {
-					padding: 0.9em 5%;
-					font-size: 1.1em;
-
-					strong {
-						line-height: 1.8em;
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 1099px) {
-	#program {
-		main {
-			figure {
-				margin-top: 2.4em;
-
-				img {
-					border-radius: 3em;
-				}
-			}
-		}
-	}
-}
-
 @media (max-width: 999px) {
 	#program {
-		main {
-			figure {
-				margin-top: 1.8em;
-
-				img {
-					width: 78%;
-				}
-
-				figcaption {
-					font-size: 1em;
-				}
+		.team {
+			figure figcaption p {
+				padding-right: 1.5em;
 			}
 		}
 	}
 }
 
-@media (max-width: 839px) {
+@media (max-width: 899px) {
 	#program {
-		main {
-			figure {
-				img {
-					width: 84%;
-				}
-
-				figcaption {
-					font-size: 0.9em;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 749px) {
-	#program {
-		main {
-			aside {
-				margin-top: 2em;
-				text-align: center;
-
-				>p {
-					margin-bottom: 1.6em;
-				}
-
-				figure {
-					display: inline;
-					width: 100%;
-					margin-bottom: 1em;
-
-					img {
-						width: 260px;
-					}
-
-					figcaption {
-						font-size: 1em;
-						padding: 0.9em 0 3.4em 0.6em;
-
-						strong {
-							font-size: 1.4em;
-							line-height: 2.4em;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 389px) {
-	#program {
-		main {
-			aside {
-				figure {
-					img {
-						width: 100%;
-					}
-				}
+		.team {
+			figure figcaption p {
+				padding-right: 0.5em;
 			}
 		}
 	}
