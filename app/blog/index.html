@@ -11,7 +11,9 @@ bodyclass : "content post"
 	{% for post in paginator.posts %}
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 			<div class="widgets">
+				<time itemprop="dateCreated" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%A, %-d %B %Y" }}</time>
 				<ul class="social">
 					<li>
 						<a href="http://twitter.com/share?text={{ post.title | uri_escape }}&amp;url=http://{{ site.name }}{{ post.url | uri_escape }}&amp;via=art_a_hack"><i class="fa fa-twitter"></i></a>
@@ -24,8 +26,6 @@ bodyclass : "content post"
 					</li>
 				</ul>
 			</div>
-			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<time itemprop="dateCreated" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%A %-d %B %Y" }}</time>
 		</header>
 		<div class="post-content">
 			{{ post.excerpt }}
