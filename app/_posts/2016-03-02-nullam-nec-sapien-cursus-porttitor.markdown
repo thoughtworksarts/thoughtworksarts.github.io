@@ -3,6 +3,7 @@ layout    : post
 title     : "Nullam nec Sapien Cursus Porttitor"
 bodyid    : "blog"
 bodyclass : "content post"
+author    : "cyborg"
 ---
 Vestibulum neque quam, gravida sed pulvinar id, ultrices quis nisi. Ut eget massa et purus interdum tempor eget laoreet metus.
 
