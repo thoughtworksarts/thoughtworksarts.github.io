@@ -115,6 +115,26 @@
 			color: inherit;
 		}
 	}
+
+	.post-content {
+		position: relative;
+
+		figure {
+			margin: 1em 0 0.7em 0;
+
+			img {
+				width: 99%;
+				border: 2px solid #eeeeee;
+			}
+
+			figcaption {
+				margin-top: 0.2em;
+				width: 100%;
+				text-align: center;
+				font-weight: bold;
+			}
+		}
+	}
 }
 
 @media (max-width: 639px) {
