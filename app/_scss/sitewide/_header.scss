@@ -183,6 +183,7 @@ body {
 					li {
 						display: block;
 						padding-top: 3.8em;
+						margin-left: 0;
 					}
 
 					a {
@@ -191,6 +192,7 @@ body {
 
 					a:before {
 						background-image: inherit;
+						display: none;
 					}
 				}
 			}
