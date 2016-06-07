@@ -46,6 +46,14 @@
 		top: 0.2em;
 
 		figure {
+			img {
+				position: relative; left: -1em;
+			}
+
+			img:first-of-type {
+				left: 0;
+			}
+
 			figcaption, time {
 				color: #AFAFAF;
 				cursor: default;
@@ -56,6 +64,10 @@
 				position: absolute; top: 0;
 				display: inline;
 				margin: 0.7em;
+			}
+
+			figcaption.indent {
+				left: 7.4em;
 			}
 		}
 
