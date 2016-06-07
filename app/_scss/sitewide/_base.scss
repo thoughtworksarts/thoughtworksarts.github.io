@@ -102,11 +102,6 @@ h3 {
 	font-weight: 300;
 }
 
-time {
-	font-size: 1em;
-	padding-top: 0.15em;
-}
-
 address {
 	font-size: 1.1em;
 	font-style: normal;
@@ -301,11 +296,6 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 1299px) {
-	time {
-		font-size: 0.95em;
-		padding-top: 0.2em;
-	}
-
 	ul.links li i {
 		font-size: 1.65em;
 	}
@@ -327,11 +317,6 @@ ul.cta li, ol.cta li {
 
 	ul.links li i {
 		font-size: 1.5em;
-	}
-
-	time {
-		font-size: 0.88em;
-		padding-top: 0.3em;
 	}
 }
 

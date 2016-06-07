@@ -54,16 +54,15 @@
 				left: 0;
 			}
 
-			figcaption, time {
+			figcaption {
 				color: #AFAFAF;
 				cursor: default;
 				font-style: italic;
-			}
-
-			figcaption {
 				position: absolute; top: 0;
 				display: inline;
-				margin: 0.7em;
+				margin: 0.76em;
+				font-size: 1em;
+				line-height: 1.55em;
 			}
 
 			figcaption.indent {
@@ -89,7 +88,7 @@
 			padding: 0;
 			display: inline;
 			position: absolute; right: 0;
-			margin: 2em 0;
+			margin: 2.1em 0;
 		}
 
 		li {
@@ -101,7 +100,7 @@
 			position: relative; top: -5px;
 			transition: color 0.16s ease-out;
 			width: 10px;
-			font-size: 1.2em;
+			font-size: 24px;
 		}
 
 		a:link, a:visited {
@@ -114,6 +113,14 @@
 
 		i {
 			color: inherit;
+		}
+	}
+}
+
+@media (max-width: 639px) {
+	#blog {
+		.widgets ul.social{
+			display: none;
 		}
 	}
 }
