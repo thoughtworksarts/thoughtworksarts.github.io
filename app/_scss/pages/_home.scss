@@ -34,6 +34,10 @@
 				opacity: 0.9;
 				font-style: italic;
 				margin: 3em;
+
+				.space {
+					display: none;
+				}
 			}
 		}
 	}
@@ -126,6 +130,10 @@
 
 			br {
 				display: none;
+			}
+
+			.space {
+				display: inline;
 			}
 		}
 
