@@ -22,6 +22,11 @@ body>section.residents {
 		}
 	}
 
+	section.resident {
+		width: 50%;
+		flex: 1 1 auto;
+	}
+
 	section.cyborg {
 		figure {
 			order: 2;
