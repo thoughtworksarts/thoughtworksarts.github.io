@@ -5,7 +5,7 @@ bodyid    : "blog"
 bodyclass : "content post"
 author    : "announcement"
 ---
-ThoughtWorks is excited to announce the launch of our arts residency program. Currently based out of our New York offices, the residency offers artists access to our facilities, equipment and staff for a period of sixteen weeks.
+ThoughtWorks is excited to announce the launch of our arts residency program. Based out of our New York offices, the residency offers artists access to our facilities, equipment and staff for a period of sixteen weeks.
 
 During this period, artists will be working with the global team of ThoughtWorkers including developers, designers, analysts, data scientists, project managers and various subject matter experts to further their research and development of their projects and artistic pursuits.
 
