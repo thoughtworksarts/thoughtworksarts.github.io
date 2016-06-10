@@ -55,7 +55,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-p, ul, ol, .progress {
+p, ul, ol, .progress, blockquote {
 	font-size: $largest_font;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
@@ -115,7 +115,8 @@ hr {
 blockquote {
     font-weight: 400;
     font-style: italic;
-    margin: 0 2em;
+    margin: 0 2.5em;
+    text-align: center;
 }
 
 figure.video {
@@ -311,7 +312,7 @@ ul.cta li, ol.cta li {
 		max-width: inherit;
 	}
 
-	p, ul, ol {
+	p, ul, ol, blockquote {
 		font-size: 1.07em;
 	}
 
