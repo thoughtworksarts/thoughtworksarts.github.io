@@ -37,7 +37,7 @@ body>section.residents {
 	}
 
 	section.heather {
-		padding-top: 2em;
+		padding-top: 5em;
 
 		.text {
 			padding-left: 3.3em;
@@ -57,34 +57,30 @@ body>section.residents {
 }
 
 @media (max-width: 999px) {
-	body>section.residents section.heather {
-		margin-left: 6%;
-	}
-}
-
-@media (max-width: 899px) {
 	body>section.residents {
-		.flex-row {
-			section.flex-col {
-				flex-flow: inherit !important;
-				flex: inherit !important;
-				width: 100% !important;
-				display: block !important;
-				padding-top: 1em;
+		section.resident {
+			flex-flow: inherit !important;
+			flex: inherit !important;
+			width: 100% !important;
+			display: block !important;
+			padding-top: 1em;
 
-				figure {
-					display: inline !important;
-					position: inherit !important;
-					margin: 1.5em 0;
-				}
+			figure {
+				display: inline !important;
+				position: inherit !important;
+				margin: 1.5em 0;
+			}
 
-				h2 {
-					margin: 2.2em 0 0.4em 0;
-				}
+			h2 {
+				margin: 2.2em 0 0.4em 0;
+			}
+
+			p {
+				max-width: 37em;
 			}
 		}
 
-		section.cyborg {
+		section.resident.cyborg {
 			figure {
 				order: 1;
 			}
@@ -100,6 +96,10 @@ body>section.residents {
 
 		section.heather {
 			margin-left: 0;
+
+			.text {
+				padding-left: 0;
+			}
 		}
 	}
 }

@@ -22,7 +22,7 @@ body>section {
 }
 
 body>section.expanded {
-	width: 1050px;
+	width: 1010px;
 }
 
 body>section:last-of-type {
@@ -335,17 +335,15 @@ ul.cta li, ol.cta li {
 	body>section.expanded {
 		width: 89%;
 		max-width: inherit;
-	}
-}
 
-@media (max-width: 899px) {
-	body>section.expanded {
 		.flex-row {
 			flex-flow: inherit !important;
 			display: block !important;
 		}
 	}
+}
 
+@media (max-width: 899px) {
 	ul.links li i {
 		font-size: 1.5em;
 	}
