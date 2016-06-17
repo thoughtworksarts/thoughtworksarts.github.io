@@ -152,3 +152,12 @@
 		}
 	}
 }
+
+#blog.post .flex-col {
+	height: 157px;
+	min-height: 0;
+
+	#image-splash {
+		display: none;
+	}
+}
