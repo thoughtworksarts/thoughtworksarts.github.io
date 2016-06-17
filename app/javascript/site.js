@@ -3,6 +3,7 @@ $(document).ready(function() {
 		enableMenuButton();
 		enableSocialLinks();
 		fixResizableHeights();
+		populateSignupBox();
 	}
 
 	function enableMenuButton() {
@@ -43,6 +44,20 @@ $(document).ready(function() {
 				$(this).css('height', $(this).height() + 'px');
 			});
 		}
+	}
+
+	function populateSignupBox() {
+		$('#tlemail').focusin(function(){
+			if($(this).val() == 'your@email.com'){
+				$(this).val('');
+			}
+		});
+
+		$('#tlemail').focusout(function(){
+			if($('#tlemail').val() == ''){
+				$(this).val('your@email.com');
+			}
+		});
 	}
 
 	init();

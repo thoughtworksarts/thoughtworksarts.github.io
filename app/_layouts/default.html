@@ -52,6 +52,14 @@
       </figure>
     </div>
     {{ content }}
+    <footer>
+      <form action="https://tinyletter.com/thoughtworksarts" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/thoughtworksarts', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Subscribe for updates</label></p>
+        <p><input type="text" name="email" id="tlemail" value="your@email.com" /></p>
+        <input type="hidden" value="1" name="embed"/>
+        <input type="submit" value="Subscribe" />
+      </form>
+    </footer>
     <!-- build:js(app) /javascript/script.js -->
     <script src="/javascript/jquery.js"></script>
     <script src="/javascript/site.js"></script>
