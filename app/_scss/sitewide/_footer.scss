@@ -57,7 +57,7 @@ body {
 			}
 		}
 		.social {
-			width: 20%;
+			width: 270px;
 			float: right;
 			text-align: left;
 			.icons {
@@ -79,55 +79,18 @@ body {
 		clear: both;
 	}
 }
-@media (max-width: 1299px) {
+@media (max-width: 999px) {
 	body {
 		footer {
-			padding: 100px 30px;
 			.subscribe {
 				width: 100%;
 				float: none;
 				text-align: center;
-				margin-bottom: 15px;
-			}
-			.social {
-				width: 100%;
-				float: none;
-				text-align: center;
-			}
-		}
-	}
-}
-@media (max-width: 1099px) {
-	body {
-		footer {
-			padding: 100px 30px;
-			.subscribe {
-				width: 100%;
-				float: none;
-				text-align: center;
-				margin-bottom: 15px;
-			}
-			.social {
-				width: 100%;
-				float: none;
-				text-align: center;
-			}
-		}
-	}
-}
-@media (max-width: 899px) {
-	body {
-		footer {
-			padding: 100px 30px;
-			.subscribe {
-				width: 100%;
-				float: none;
-				text-align: center;
-				margin-bottom: 15px;
+				margin-bottom: 2em;
+				margin-left: 0;
 				.newsletter {
 					text-align: center;
 					input input[type=email] {
-						width: 16%;
 						text-align: center;
 						font-size: 0.9em;
 					}
@@ -140,26 +103,11 @@ body {
 			}
 		}
 	}
-	@media (max-width: 239px) {
-		body {
-			footer {
-				padding: 100px 30px;
-				.subscribe {
-					width: 100%;
-					float: none;
-					text-align: center;
-					margin-bottom: 15px;
-					.newsletter input input[type=email] {
-						width: 16%;
-						text-align: center;
-					}
-				}
-			}
-			.social {
-				width: 50%;
-				float: none;
-				text-align: center;
-			}
+}
+@media (max-width: 699px) {
+	body {
+		footer .subscribe {
+			font-size: 1em;
 		}
 	}
 }

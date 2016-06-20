@@ -48,7 +48,7 @@ $(document).ready(function() {
 
 	function populateSignupBox() {
 		$('#tlemail').focusin(function(){
-			if($(this).val() == 'your@email.com'){
+			if($(this).val() == 'your email'){
 				prepForEmailEntry($(this));
 			}
 		});
@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 		$('form.newsletter').submit(function(e){
 			var tlemail = $('#tlemail');
-			if(tlemail.val() == 'your@email.com'){
+			if(tlemail.val() == 'your email'){
 				prepForEmailEntry(tlemail);
 				e.preventDefault();
 				unprepForEmailEntry(tlemail);
@@ -75,7 +75,7 @@ $(document).ready(function() {
 	}
 
 	function unprepForEmailEntry(el){
-		el.val('your@email.com');
+		el.val('your email');
 		el.addClass('faded');
 	}
 
