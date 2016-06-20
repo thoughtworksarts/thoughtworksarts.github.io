@@ -49,24 +49,34 @@ $(document).ready(function() {
 	function populateSignupBox() {
 		$('#tlemail').focusin(function(){
 			if($(this).val() == 'your@email.com'){
-				$(this).val('');
+				prepForEmailEntry($(this));
 			}
 		});
 
 		$('#tlemail').focusout(function(){
 			if($(this).val() == ''){
-				$(this).val('your@email.com');
+				unprepForEmailEntry($(this));
 			}
 		});
 
 		$('form.newsletter').submit(function(e){
 			var tlemail = $('#tlemail');
 			if(tlemail.val() == 'your@email.com'){
-				tlemail.val('');
+				prepForEmailEntry(tlemail);
 				e.preventDefault();
-				tlemail.val('your@email.com');
+				unprepForEmailEntry(tlemail);
 			}
 		});
+	}
+
+	function prepForEmailEntry(el){
+		el.val('');
+		el.removeClass('faded');
+	}
+
+	function unprepForEmailEntry(el){
+		el.val('your@email.com');
+		el.addClass('faded');
 	}
 
 	init();

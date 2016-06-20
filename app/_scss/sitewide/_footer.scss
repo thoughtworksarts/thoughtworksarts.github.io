@@ -23,8 +23,13 @@ body {
 					vertical-align: bottom;
 					font-size: 1.2em;
 					font-weight: lighter;
+					font-style: normal;
 					padding: 10px;
 					display: inline-block;
+				}
+				input.faded {
+					color: #cccccc;
+					font-style: italic;
 				}
 				input[type=email] {
 					width: 46%;
