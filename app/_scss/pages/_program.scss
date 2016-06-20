@@ -35,22 +35,13 @@
 @media (max-width: 999px) {
 	#program {
 		.team {
-			figure figcaption p {
-				padding-right: 1.5em;
-			}
-		}
-	}
-}
-
-@media (max-width: 899px) {
-	#program {
-		.team {
 			figure figcaption {
 				position: relative;
 				transform: inherit;
 
 				p, h2 {
 					width: 80%;
+					padding-right: 1.5em;
 					padding-left: 0;
 				}
 			}
