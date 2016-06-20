@@ -54,8 +54,17 @@ $(document).ready(function() {
 		});
 
 		$('#tlemail').focusout(function(){
-			if($('#tlemail').val() == ''){
+			if($(this).val() == ''){
 				$(this).val('your@email.com');
+			}
+		});
+
+		$('form.newsletter').submit(function(e){
+			var tlemail = $('#tlemail');
+			if(tlemail.val() == 'your@email.com'){
+				tlemail.val('');
+				e.preventDefault();
+				tlemail.val('your@email.com');
 			}
 		});
 	}
