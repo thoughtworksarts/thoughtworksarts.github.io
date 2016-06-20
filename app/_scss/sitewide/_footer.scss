@@ -31,7 +31,7 @@ body {
 				}
 				input[type=submit] {
 					padding-top: 7px;
-					padding-left: 9px;
+					padding-left: 15px;
 					width: 280px;
 					background-color: transparent;
 					border: 2px solid #b1aca1;
@@ -42,9 +42,10 @@ body {
 					cursor: pointer;
 					text-align: left;
 					transition: all 0.7s ease;
+					font-size: 1.1em;
 				}
 				input[type="submit"]:hover {
-					border: 1px solid #00b1c3;
+					border: 2px solid #00b1c3;
 					color: #00b1c3;
 				}
 			}
