@@ -1,13 +1,13 @@
 #home {
-	>.flex-col {
+	> .flex-col {
 		height: 100%;
 		min-height: 600px;
 	}
-
-	h1, h2, p {
+	h1,
+	h2,
+	p {
 		cursor: default;
 	}
-
 	#image-splash {
 		flex: 1 0 auto;
 		background-image: url('/images/full-bleed/residency-home-1600.jpg');
@@ -15,17 +15,15 @@
 		background-size: cover;
 		background-color: #000000;
 		background-repeat: no-repeat;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em;
 		position: relative;
-
 		.small-screens {
 			display: none;
 		}
-
 		.intro-container {
 			width: 100%;
-			position: absolute; bottom: 0;
-
+			position: absolute;
+			bottom: 0;
 			.intro {
 				color: #eee;
 				text-shadow: 0 0 2px #000000, 0 0 12px #331810, 0 0 24px #331810;
@@ -34,29 +32,24 @@
 				opacity: 0.9;
 				font-style: italic;
 				margin: 3em;
-
 				.space {
 					display: none;
 				}
 			}
 		}
 	}
-
-	>section {
+	> section {
 		.intro {
 			display: none;
 		}
-
 		.progress {
 			text-align: right;
 			padding: 0;
-
 			a {
 				margin: 1.2em;
 			}
 		}
 	}
-
 	//See also .residents
 }
 
@@ -64,80 +57,67 @@
 	#home {
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-1200.jpg');
-
 			.intro-container {
 				margin-top: -1em;
 			}
 		}
 	}
 }
-
 @media (max-width: 1099px) {
 	#home {
-		>.flex-col {
+		> .flex-col {
 			min-height: 540px;
 		}
-
 		#image-splash .intro-container .intro {
 			font-size: 1.4em;
 		}
 	}
 }
-
 @media (max-width: 999px) {
 	#home {
-		>.flex-col {
+		> .flex-col {
 			min-height: 576px;
 		}
-
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-800.jpg');
 			background-position: 50% 55%;
 		}
 	}
 }
-
 @media (max-width: 799px) {
 	#home {
-		#image-splash  .intro-container .intro {
+		#image-splash .intro-container .intro {
 			margin: 2em;
 		}
-
-		>section .intro {
+		> section .intro {
 			display: block;
 		}
 	}
 }
-
 @media (max-width: 729px) {
 	#home {
-		#image-splash  .intro-container .intro {
+		#image-splash .intro-container .intro {
 			font-size: 1.3em;
 			margin: 1.3em 2em;
 		}
 	}
 }
-
 @media (max-width: 639px) {
 	#home {
-		#image-splash  .intro-container .intro {
-			margin: 0 1em 30% 1em;
+		#image-splash .intro-container .intro {
+			margin: 0 1em 30%;
 			text-align: center;
-
 			br {
 				display: none;
 			}
-
 			.space {
 				display: inline;
 			}
 		}
-
-		>.flex-col {
+		> .flex-col {
 			min-height: 500px;
 			max-height: 100%; // Firefox mobile
 		}
-
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-560.jpg');
 		}
