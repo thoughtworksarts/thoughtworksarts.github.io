@@ -26,7 +26,7 @@ body {
 					padding: 10px;
 					display: inline-block;
 				}
-				input[type=text] {
+				input[type=email] {
 					width: 56%;
 				}
 				input[type=submit] {
@@ -121,7 +121,7 @@ body {
 				margin-bottom: 15px;
 				.newsletter {
 					text-align: center;
-					input input[type=text] {
+					input input[type=email] {
 						width: 16%;
 						text-align: center;
 						font-size: 0.9em;
@@ -144,7 +144,7 @@ body {
 					float: none;
 					text-align: center;
 					margin-bottom: 15px;
-					.newsletter input input[type=text] {
+					.newsletter input input[type=email] {
 						width: 16%;
 						text-align: center;
 					}
