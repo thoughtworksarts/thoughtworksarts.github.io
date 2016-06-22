@@ -70,11 +70,15 @@ body {
 			margin: 0 3em 2.5em 0;
 			li {
 				display: inline;
-				a i {
+				i {
 					color: #ffffff;
 					font-size: 1.8em;
 					padding: 5px 10px;
 					margin-right: 9px;
+					transition: all 0.24s;
+				}
+				i:hover {
+					color: #f5ac1d;
 				}
 			}
 		}
