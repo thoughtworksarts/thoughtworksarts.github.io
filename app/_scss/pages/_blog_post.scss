@@ -2,55 +2,69 @@
 	background-image: url('/images/full-bleed/blog-1600.png');
 	background-position: 0 189px;
 	background-repeat: no-repeat;
+
 	.flex-col {
 		height: 189px;
 		min-height: 0;
+
 		#image-splash {
 			background-image: inherit;
 			background-color: #f4f4f4;
 			margin: 0;
 		}
 	}
+
 	>section:first-of-type {
 		margin-top: 9.8em;
 	}
 }
+
 @media (max-width: 1299px) {
 	#blog.post {
 		background-position: 0 175px;
+
 		.flex-col {
 			height: 175px;
 		}
+
 		>section:first-of-type {
 			margin-top: 8.9em;
 		}
 	}
 }
+
 @media (max-width: 1099px) {
 	#blog.post {
 		background-position: 0 160px;
+
 		.flex-col {
 			height: 160px;
 		}
+
 		>section:first-of-type {
 			margin-top: 8.3em;
 		}
 	}
 }
+
 @media (max-width: 899px) {
 	#blog.post {
 		background-position: 0 114px;
+
 		.flex-col {
 			height: 143px;
 		}
+
 		>section:first-of-type {
 			margin-top: 5em;
 		}
 	}
 }
+
 @media (max-width: 639px) {
 	#blog.post {
 		background-image: inherit;
+
 		>section:first-of-type {
 			margin-top: 1.9em;
 		}
