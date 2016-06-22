@@ -48,20 +48,20 @@ $(document).ready(function() {
 
 	function populateSignupBox() {
 		$('#tlemail').focusin(function(){
-			if($(this).val() == 'your email'){
+			if($(this).val() === 'your email'){
 				prepForEmailEntry($(this));
 			}
 		});
 
 		$('#tlemail').focusout(function(){
-			if($(this).val() == ''){
+			if($(this).val() === ''){
 				unprepForEmailEntry($(this));
 			}
 		});
 
 		$('form.newsletter').submit(function(e){
 			var tlemail = $('#tlemail');
-			if(tlemail.val() == 'your email'){
+			if(tlemail.val() === 'your email'){
 				prepForEmailEntry(tlemail);
 				e.preventDefault();
 				unprepForEmailEntry(tlemail);
