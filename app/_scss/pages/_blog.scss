@@ -155,16 +155,17 @@
 
 #blog.post {
 	background-image: url('/images/full-bleed/blog-1600.png');
-	background-position: 0 158px;
+	background-position: 0 160px;
 	background-repeat: no-repeat;
 
 	.flex-col {
-		height: 158px;
+		height: 160px;
 		min-height: 0;
-		border-bottom: 15px solid #f4f4f4;
 
 		#image-splash {
-			display: none;
+			background-image: inherit;
+			background-color: #f4f4f4;
+			margin: 0;
 		}
 	}
 
