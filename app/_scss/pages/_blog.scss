@@ -137,6 +137,14 @@
 	}
 }
 
+@media (max-width: 799px) {
+	#blog {
+		.post-content figure img {
+			width: 100%;
+		}
+	}
+}
+
 @media (max-width: 639px) {
 	#blog {
 		.widgets ul.social {
@@ -149,6 +157,14 @@
 	#blog {
 		article {
 			margin-top: 2.5em;
+		}
+	}
+}
+
+@media (max-width: 349px) {
+	#blog {
+		.post-content figure img {
+			width: 95%;
 		}
 	}
 }
