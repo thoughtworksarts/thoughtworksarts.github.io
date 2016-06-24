@@ -121,9 +121,9 @@
 
 		figure {
 			margin: 1em 0 0.7em 0;
+			width: 99%;
 
 			img {
-				width: 99%;
 				border: 2px solid #eeeeee;
 			}
 
@@ -161,9 +161,41 @@
 	}
 }
 
-@media (max-width: 349px) {
+@media (max-width: 489px) {
 	#blog {
-		.post-content figure img {
+		.post-content figure {
+			width: 99%;
+		}
+	}
+}
+
+@media (max-width: 399px) {
+	#blog {
+		.post-content figure {
+			width: 98%;
+		}
+	}
+}
+
+@media (max-width: 359px) {
+	#blog {
+		.post-content figure {
+			width: 97%;
+		}
+	}
+}
+
+@media (max-width: 329px) {
+	#blog {
+		.post-content figure {
+			width: 96%;
+		}
+	}
+}
+
+@media (max-width: 314px) {
+	#blog {
+		.post-content figure {
 			width: 95%;
 		}
 	}
