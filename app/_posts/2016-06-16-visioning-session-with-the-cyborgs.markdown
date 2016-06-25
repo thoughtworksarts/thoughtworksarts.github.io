@@ -8,8 +8,8 @@ author    : "andy"
 Our first residents, the Cyborg Foundation, <a href="/blog/introducing-cyborg-foundation/">came to ThoughtWorks</a> with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
 
 <figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/call.jpg" alt="Moon Ribas describes her new sense to a cross-disciplinary team" />
-	<figcaption>Moon Ribas describes her new sense to a cross-disciplinary team</figcaption>
+	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/neil.jpg" alt="Neil detailing the vision for his new sense" />
+	<figcaption>Neil detailing the vision for his new sense</figcaption>
 </figure>
 
 Following on from an initial period of outreach across ThoughtWorks offices, we have now assembled a global cross-disciplinary team. Yesterday the team assembled for a planned 4-hour visioning session, and I have to say I was surprised at just how effective it was.
@@ -21,8 +21,8 @@ In addition to ThoughtWorkers, attending the meeting were two recent graduates f
 Also attending was residency co-organizer Ellen Pearlman, a PhD candidate at the School of Creative Media in Hong Kong. Ellen brings a wealth of knowledge about trans-humanism, and recently premiered her <a href="http://media.digitalarti.com/image/noor_a_brain_opera">new brain opera</a> at ISEA 2016.
 
 <figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/neil.jpg" alt="Neil detailing the vision for his new sense" />
-	<figcaption>Neil detailing the vision for his new sense</figcaption>
+	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/call.jpg" alt="Moon Ribas describes her new sense to a cross-disciplinary team" />
+	<figcaption>Moon Ribas describes her new sense to a cross-disciplinary team</figcaption>
 </figure>
 
 The key objective for the session was to get all the ideas out on the table, in such a way that it enabled this globally distributed team to start working.
