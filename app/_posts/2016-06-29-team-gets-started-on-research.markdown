@@ -8,76 +8,102 @@ author    : "andy"
 Moving on from our successful <a href="/blog/visioning-session-with-the-cyborgs/">visioning session</a>, the team has started to coalesce around tasks. At this early stage that means research and experimentation, along with the creation of simple test rigs to measure results.
 
 <figure>
-	<img src="/images/posts/2016-06-29-team-gets-started-on-research/test-rig.jpg" alt="Creating a test rig for Neil's time sense" />
-	<figcaption>Mannequin heads for Neil's time sense test rig</figcaption>
+	<img src="/images/posts/2016-06-29-team-gets-started-on-research/oryan.jpg" alt="A mannequin head for Neil's time sense test rig" />
+	<figcaption>A mannequin head for Neil's time sense</figcaption>
 </figure>
 
-In this post, we'll look at the progress of the team engineering Neil Harbisson's new "time sense". Let's start with a review of what Neil imagines this new sensory organ to be.
+In this post, we'll look at the progress of the engineering team for Neil Harbisson's new "time sense".
 
 <!--excerpt-ends-->
 
-Neil wants to create a new sense of time, which will essentially allow him to perceive the 24-hr clock as an internal sense. To do this, Neil wants to feel time as heat sensations around the circumference of his head.
+## A new sense of time
 
-The endgame for this project is to create a permanent implant, which will be installed via surgery. However, during this residency we will be dealing with an earlier phase of this project. As [with Neil's antenna implant](/blog/introducing-cyborg-foundation/), the first iteration will be an 'exo-sense' &mdash; an external sensory organ, or wearable sense.
+Let's begin with a quick review of what Neil hopes to achieve. Neil wants to create a new sense of time, which will allow him to perceive the 24-hr clock as an internal sense. To do this, Neil wants to feel time as heat sensations around the circumference of his head.
+
+Neil will eventually consider achieving this via a permanent implants. However, this residency project has a different focus. The team is helping Neil create an 'exo-sense' &mdash; an external sensory organ, or wearable sense.
 
 <figure>
-	<img src="/images/posts/2016-06-29-team-gets-started-on-research/exo-sense-sketch.png" alt="Oryan's sketch for the exo-sense" />
-	<figcaption>Oryan's sketch for the exo-sense</figcaption>
+	<img src="/images/posts/2016-06-29-team-gets-started-on-research/exo-sense-sketch.png" alt="Oryan's sketch for the exosense" />
+	<figcaption>Oryan's sketch for the exosense</figcaption>
 </figure>
 
-Neil likes to draw a sharp distinction between a wearable and an exo-sense. According to Neil, an exo-sense is unlike a wearable in that it is designed to be worn permanently &mdash; 24 hours a day, 7 days a week, forever &mdash; or until you upgrade. In Neil and Moon's case, their exo-senses are preludes to an upgrade to a permanent implant.
+As was the case with Neil's existing [antenna implant](/blog/introducing-cyborg-foundation/), the intention of this first wearable prototype is to discover how the sense feels when experienced consistently for a period of time.
 
-This constant use prompts the formation of the psychological 'mirror' to the sensory implant. The repeated instinctual, automatic interactions with the implant by the wearer eventually lead to full integration with personal experience, much like natural senses such as sight and touch.
+## An external sensory organ
 
-Together, the manufactured sensory organ and personal psychology combine to form a new sense. When the organ is a permanent, internal implant you have a [cybernetic organism](https://en.wikipedia.org/wiki/Cyborg) &mdash; a cyborg.
+Neil outlines a specific requirement for a wearable device to be considered an exosense. An exosense is an *external sensory organ*. It is designed to be worn consistently, twenty-four hours a day, seven days a week. It is effectively permanent &mdash; until you upgrade.
 
-Once manufactured, Neil will wear the exo-sense for a prolonged period of time, allowing the team to learn, adjust and prepare for the permanent implant.
+This permanence makes a key difference. A *sense*, as traditionally understood, is about much more than having a new incoming data stream. Instead of notifications or numerical readouts, what the wearer feels is a real-time, always-on sensory experience.
 
-Right now we are at the very beginning of this project. Before we can create the wearable exo-sense, we must experiment with the candidate implementations we have in mind, and discover the properties of the components we are considering using.
+This constant exposure allows the wearer to develop new mental pathways, as the sense is learned. Over time, these pathways lead to an increasingly instinctive interaction with the sensory organ.
 
-The favorite plan at the moment is to position resistors around the head and apply [pulse-width modulated](https://en.wikipedia.org/wiki/Pulse-width_modulation) current to create a 'moment of heat' in each resistor, with a gentle incline and decline.
+Eventually, the organ and it's pathways begin to merge with existing senses, to become an indistinguishable part of the wearer's experientiality. The aim of an exosense is to create the conditions in which this merger can occur.
+
+When an exosense is replaced with a permanent implant, and this merger subsequently occurs, the 'wearer' becomes a [cybernetic organism](https://en.wikipedia.org/wiki/Cyborg) &mdash; a cyborg.
+
+## Developing the prototype exosense
+
+Once manufactured, Neil will wear the exosense for a prolonged period of time, allowing the team to learn and adjust. Hopefully these learnings will be helpful to Neil if he decides to move forward in developing a permanent implant, at some time in the future.
+
+However, before creating a finalized wearable exosense, the team is experimenting with prototypes. They are also designing test rigs, enabling them to build and refine these early prototypes.
 
 <figure>
 	<img src="/images/posts/2016-06-29-team-gets-started-on-research/diagram.jpg" alt="A 'moment of heat' generated by resistors" />
 	<figcaption>A 'moment of heat' generated by resistors</figcaption>
 </figure>
 
-In this way the sensation of time-as-heat, we believe, will pass smoothly around the head. Placed densely enough, each moment of heat will overlap, creating a relatively seamless experience.
+In our first prototype, resistors are positioned on a headband worn around the skull. Short bursts of [pulse-width modulated](https://en.wikipedia.org/wiki/Pulse-width_modulation) current is applied to create a brief 'moment of heat' in each resistor, with a gentle incline and decline.
 
-To begin experimenting, we need a testing mechanism. Testing this will involve at least two streams:
+Placed at the right proximity to each other, each resistor's moment of heat should overlap, creating a seamless experience. This allows the headband to facilitate the sensation of time-as-heat smoothly around the head. 
 
-1. Testing individual resistors for their thermal response to applied current, and
+Testing this prototype involves two streams:
+
+1. Testing individual resistors for their thermal response to applied currents, and
 2. Testing the behavior of resistors collectively, in position around the head
 
-Initially these tests will take place on the mannequin heads. However, soon we will also test on Neil's head. When this moment comes, each resistor will be located in physiologically distinct areas of the head, and therefore may respond differently to the same application of current.
+These streams allow the team to consider the efficacy of different resistors and resistive materials, and to observe the behavior of those resistors in position.
 
-It is important for us to be able to compare the sensations Neil reports feeling with our test outputs from the collection of resistors, to help us learn and adjust. We need a test rig which allows us to do this on a human, as well as a mannequin head.
+Let's take a look at the progress made on each stream in turn.
 
-<figure>
-	<img src="/images/posts/2016-06-29-team-gets-started-on-research/sam-oryan.jpg" alt="Sam and Oryan working on the test rig" />
-	<figcaption>Sam and Oryan working on the test rig</figcaption>
-</figure>
+## Stream 1: Individual behavior
 
-To do this, Sam and Oryan have been experimenting with a [thermal camera](https://en.wikipedia.org/wiki/Thermographic_camera). Thermal cameras read infra-red radiation, which gives us an indication of heat over an image area. Inset to the picture above is an initial test shot with the camera.
-
-Using the online service [Infragram](http://infragram.org/), the team is able to position a mouse cursor over an RGB image, and take a reading of the same pixel from the thermal camera. In this way, the team can test the changes in temperature as they apply voltages to resistors around the circumference of the dummy head, and ultimately Neil's head.
-
-At the same time, the team also needs to know how various individual resistors respond to different applications of current. Initially, the team ran tests applying current directly to a variety of resistors, with the results illustrated below.
+In the first test stream, the team needs to know how various individual resistors respond to different applications of current. Initially, the team ran tests applying current directly to a variety of resistors, with the results illustrated below.
 
 <figure>
 	<img src="/images/posts/2016-06-29-team-gets-started-on-research/initial-tests.png" alt="Test results from application of direct current" />
 	<figcaption>Test results from application of direct current</figcaption>
 </figure>
 
-This week, Kelvin has been working on testing [nichrome wire](https://en.wikipedia.org/wiki/Nichrome), which acts as a resistor and could be a good candidate material.
+To further this research, Kelvin Rojas has been experimenting with different resistive materials, such as [nichrome wire](https://en.wikipedia.org/wiki/Nichrome), which acts as a resistor and could be a good candidate material. Nichrome is typically used in devices where electric heating is required, for example 3D printers and electronic cigarettes.
 
-Kelvin has written Arduino code to apply pulse-width modulated current to the nichrome, and a Python script to parse and display the resulting temperatures over the serial port over time. You can see the full codebase at [kr0/Arduino-PyPlot](https://github.com/kr0/Arduino-PyPlot).
+Kelvin has written Arduino code which allows him to apply a variable pulse-width modulated current to the nichrome wire based on the turning of a [potentiometer](https://www.arduino.cc/en/tutorial/potentiometer). A Python script is then used to parse and plot the resulting temperatures, read by [thermisters](https://en.wikipedia.org/wiki/Thermistor), over time.
+
+You can see the full codebase at [kr0/Arduino-PyPlot](https://github.com/kr0/Arduino-PyPlot).
 
 <figure>
 	<img src="/images/posts/2016-06-29-team-gets-started-on-research/moment-in-heat.jpg" alt="Kelvin's first moment of heat" />
 	<figcaption>Kelvin's first moment of heat</figcaption>
 </figure>
 
-The illustration above shows the ambient temperature response in red, alongside the contact temperature response in blue. (Is this right? What does contact and ambient even mean??)
+The illustration above shows the results of applying a short electrical pulse to the nichrome coil. The ambient temperature response is shown in red, the contact temperature response in blue.
 
-With these test rigs in place, and these experiments underway, the team is ready to start designing prototypes based on acquired knowledge. There is more ground to cover in the component and material research, however we are steadily moving toward the exo-sense. Stay tuned for more updates.
+The idea is to study how different pulse-width modulated currents can create different moments of heat, producing the perception of heat for some given length of time.
+
+## Stream 2: Collective behavior
+
+To test the behavior of the resistors collectively, a test rig is required which allows us to operate in two contexts. Our initial tests will take place on styrofoam mannequin heads, allowing us to tune our intended heat signatures based on intended sensations.
+
+Moving forward, we will test directly on Neil's head. Given that each resistor will be located in physiologically distinct areas of the head, they may respond differently to the same application of current. Therefore, we expect to need to fine-tune each resistor again once in place.
+
+In this second context, the test rig must allow us to compare the sensations Neil reports with a live feed of heat data from the collection of resistors.
+
+<figure>
+	<img src="/images/posts/2016-06-29-team-gets-started-on-research/sam-oryan.jpg" alt="Sam and Oryan working on the test rig" />
+	<figcaption>Sam and Oryan working on the test rig</figcaption>
+</figure>
+
+To do this, Samual Sadtler and Oryan Inbar have been experimenting with a [thermal camera](https://en.wikipedia.org/wiki/Thermographic_camera). Thermal cameras read infra-red radiation, which gives us an indication of heat output throughout an image area. Inset to the picture above is an initial test shot with the camera.
+
+Using the online service [Infragram](http://infragram.org/), the team is able to position a mouse cursor over an RGB image, and take a reading of the same pixel from the thermal camera. In this way, they can test changes in temperature while applying various currents to resistors around the circumference of the dummy head, and ultimately Neil's head.
+
+With these test rigs in place, and these experiments underway, the team is ready to start designing prototypes based on acquired knowledge. Stay tuned for more updates, and follow along or drop us a line on [github](https://github.com/thoughtworksresidency) or [twitter](https://twitter.com/tw_arts).
