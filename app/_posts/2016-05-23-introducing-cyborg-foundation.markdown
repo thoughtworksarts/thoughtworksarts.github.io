@@ -22,7 +22,7 @@ Moon and Neil will be working out of the ThoughtWorks New York office for the ne
 
 <figure>
 	<img src="/images/posts/2016-05-23-introducing-cyborg-foundation/eyeborg.jpg" />
-	<figcaption>Neil Harbisson wearing his visual adapter interface, 2010 (credit <a href="https://www.flickr.com/photos/caseorganic/4677660848/in/photolist-rzGAS-ds7PhS-a5PMPt-i54uKW-i54jQp-bxzHTV-a5SCgq-a5PM9H-i54uZd-a5PMVe-a5PMSe-i54kv2-bjEQXA-i54jtH-a5PNp8-a5SCd1-a5SC2N-br85Hk-a5SDaN-a5SCNG-a5PMdk-a5PMY8-a5SCmh-a5SBNs-bjEQSG-a5PMqv-a5PNiz-a5SD3A-a5PMtP-a5PNfZ-aHXRMB-i54s7h-a5SCL3-a5PN28-a5SD4d-a5PN7V-bjER5m-dt8CqN-a5PNaF-aHYLrk-i54uwj-aHYLhK-a5SBYf-amauU2-br85hV-88hZLB-6jdJbM-88meAY-88i1eK-88i1mD">Amber Case</a>)</figcaption>
+	<figcaption>Neil Harbisson wearing his visual adapter interface, 2010 (credit <a href="https://www.flickr.com/photos/caseorganic/4677660848/">Amber Case</a>)</figcaption>
 </figure>
 
 The current version of Neil's antenna is permanently attached to the occipital bone in his head. This gives him the unique distinction of being the first person officially recognized as a cyborg by the UK government.
@@ -35,7 +35,7 @@ In 2013, Moon had a permanent implant installed in her arm which allows her to s
 
 <figure>
 	<img src="/images/posts/2016-05-23-introducing-cyborg-foundation/moon-tedx.jpg" />
-	<figcaption>Moon Ribas speaking at TEDx M&#252;nchen (credit <a href="https://www.flickr.com/photos/tedxberlin/15921938041/in/photolist-7zvwNd-qg97vn-kGjpq3-6XgiKK-ehuqJj-8Ubfur-ehoGKB-8TRHmd-8TRHno-ehoGP4-ehqnmQ-ehqnh5-nvx7Uz-59nbLe-nvBQdE-nvBQ5J-59vhrc-59zvGY-59ndD8-59zwkd-nvCqXi-59zw3E-eikB4T-59vhGr-eikAMg-qfY6t8-pYGHMg-qdRUib-59ndVr-59nd4v-59rqej-beX83-59ndne">birdyfoto</a>)</figcaption>
+	<figcaption>Moon Ribas speaking at TEDx M&#252;nchen (credit <a href="https://www.flickr.com/photos/tedxberlin/15921938041/">birdyfoto</a>)</figcaption>
 </figure>
 
 During the residency period, Moon's goal is to expand her seismic sense in one of two ways. Either, by augmenting her existing sense with a geographic location awareness, or by adding another implant that senses seismic activity from the moon.
