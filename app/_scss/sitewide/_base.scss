@@ -133,26 +133,34 @@ figure.video {
 		position: absolute; top: 0; left: 0;
 		width: 100%; height: 100%;
 	}
+}
 
-	.ratio-55 {
-		padding-bottom: 55.25%;
-	}
+figure.with-caption {
+	margin-bottom: 4.5em !important;
+}
 
-	.ratio-56 {
-		padding-bottom: 56.25%;
-	}
+figure.video.ratio-54 {
+	padding-bottom: 54.8%;
+}
 
-	.ratio-59 {
-		padding-bottom: 59.65%;
-	}
+figure.video.ratio-55 {
+	padding-bottom: 55.25%;
+}
 
-	.ratio-71 {
-		padding-bottom: 71.15%;
-	}
+figure.video.ratio-56 {
+	padding-bottom: 56.25%;
+}
 
-	.ratio-80 {
-		padding-bottom: 80%;
-	}
+figure.video.ratio-59 {
+	padding-bottom: 59.65%;
+}
+
+figure.video.ratio-71 {
+	padding-bottom: 71.15%;
+}
+
+figure.video.ratio-80 {
+	padding-bottom: 80%;
 }
 
 .center {
