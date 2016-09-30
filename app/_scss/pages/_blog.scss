@@ -135,6 +135,28 @@
 				font-weight: bold;
 			}
 		}
+
+		table {
+			table-layout: fixed;
+			width: 100%;
+			margin: 1em 0;
+			line-height: 1.3em
+		}
+
+		table, tr, td {
+			border: 1px solid #222222;
+			background: #ffffff;
+		}
+
+		tr, td {
+			padding: 0.7em;
+			overflow: hidden;
+		}
+
+		thead td {
+			font-weight: bold;
+			background: #eeeeee;
+		}
 	}
 }
 
@@ -158,6 +180,10 @@
 	#blog {
 		article {
 			margin-top: 2.5em;
+		}
+
+		.post-content table {
+			font-size: 0.8em;
 		}
 	}
 }
