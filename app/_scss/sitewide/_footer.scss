@@ -87,12 +87,9 @@ body {
 		}
 
 		.notices {
+			margin-left: 1.9%;
 			position: absolute;
 			bottom: 0;
-			left: 50%;
-			margin: 0 0 0 -100px;
-			width: 200px;
-			text-align: center;
 
 			li a {
 				font-size: 0.65em;
@@ -147,6 +144,14 @@ body {
 				float: none;
 				text-align: center;
 				margin-right: 0;
+			}
+
+			.notices {
+				left: 50%;
+				margin: 0 0 0 -100px;
+				width: 200px;
+				padding: 0.5em 0;
+				text-align: center;
 			}
 		}
 	}
