@@ -2,7 +2,7 @@
 layout    : simple-post
 title     : "Test Project Header"
 bodyid    : "projects"
-bodyclass : "content post"
+bodyclass : "content description"
 author    : "announcement"
 ---
 
