@@ -1,7 +1,7 @@
 ---
 layout    : default
 title     : Projects - ThoughtWorks Arts Residency
-bodyid    : "residents"
+bodyid    : "projects"
 bodyclass : "content post"
 ---
 <section>
@@ -14,6 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin
 <p>Vestibulum accumsan enim tincidunt elit feugiat, nec rhoncus sem ultrices. Nam eget tellus pharetra, accumsan nisi interdum, porttitor augue. Curabitur accumsan euismod porttitor. Mauris eu egestas ligula. In vel est at neque rhoncus facilisis et at urna. Nullam molestie blandit nibh et blandit. Vestibulum ornare cursus mollis. Fusce nec tellus eget orci aliquam viverra. Pellentesque facilisis mi mauris, non elementum enim sagittis nec. Mauris facilisis metus non felis finibus ultrices sed a justo.</p>
 </section>
 <section class="residents expanded">
-	{% include residents-cyborg.html %}
-	{% include residents-heather.html %}
+{% for project in site.projects %}
+		<h2><a href="{{ project.url }}/">{{ project.title }}</a></h2>
+{% endfor %}
 </section>

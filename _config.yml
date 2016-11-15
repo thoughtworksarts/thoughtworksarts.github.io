@@ -44,3 +44,7 @@ highlighter: true
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
