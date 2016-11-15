@@ -244,6 +244,11 @@ ul.cta li, ol.cta li {
 		color: #f5ac1d;
 	}
 }
+.projects {
+	a {
+		color: #4ead49;
+	}
+}
 
 .progress {
 	text-transform: lowercase;
@@ -274,6 +279,11 @@ ul.cta li, ol.cta li {
 .progress.blog {
 	a:after {
 		background-image: url('/images/icons/arrow-canary.png');
+	}
+}
+.progress.projects {
+	a:after {
+		background-image: url('/images/icons/arrow-green.png');
 	}
 }
 

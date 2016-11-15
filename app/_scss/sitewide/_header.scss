@@ -73,6 +73,11 @@ body {
 						background-image: url('/images/icons/diamond-canary.png');
 					}
 				}
+				li.projects {
+					a:before {
+						background-image: url('/images/icons/diamond-green.png');
+					}
+				}
 			}
 		}
 	}
