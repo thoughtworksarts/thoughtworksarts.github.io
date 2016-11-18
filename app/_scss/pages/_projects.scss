@@ -17,3 +17,42 @@
 	}
 
 }
+
+#projects header{
+	> div{
+		flex: auto;
+	}
+	display: flex;
+}
+
+ul.social{
+		list-style:none;
+		display: flex;
+		justify-content: space-between;
+		li{
+			font-size:26px;
+			flex: 1 0 15%;
+		}
+		li:first-child{
+			margin-left:60%;
+		}
+}
+
+@media (max-width: 749px) {
+	#projects header{
+		flex-direction: column;
+	}
+
+	ul.social{
+		justify-content: flex-start;
+		margin: 0%;
+		li{
+			font-size:20px;
+			flex: 0 0 10%;
+		}
+		li:first-child{
+			margin-left:0%;
+		}
+	}
+
+}

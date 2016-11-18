@@ -1,5 +1,5 @@
 ---
-layout    : simple-post
+layout    : project
 title     : "Test Project 2 Header"
 bodyid    : "projects"
 bodyclass : "content description"
