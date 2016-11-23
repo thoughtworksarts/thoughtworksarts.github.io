@@ -1,14 +1,15 @@
 ---
 layout: default
+bodyid: "collaborators"
 ---
-<section>
+<section id="project-landing">
 <div class="flex-row">
   <main class="left">
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <h1>{{ page.title }}</h1>
       </header>
-      <div>
+      <div id="collaborators-short">
         <span>Team Members: <a href="https://google.com">Collaborator 1</a>,
           <a href="https://google.com">Collaborator 2</a>,
           <a href="https://google.com">Collaborator 3</a>
@@ -16,14 +17,31 @@ layout: default
       </div>
       <div class="post-content">
         {{ content }}
+        <figure><img src="/images/icons/placeholder-hexagon.png" style="width: 20em;"></figure>
+        {{ content }}
+        {{ content }}
       </div>
-      <hr />
     </article>
   </main>
+  <div id="collaborators">
+    <figure><img src="/images/icons/placeholder-hexagon.png"></figure>
+    <figcaption>
+      <h3>Collaborator 1 Name</h3>
+      <p>Collaborator Role &amp; Details</p>
+    </figcaption>
+    <figure><img src="/images/icons/placeholder-hexagon.png"></figure>
+    <figcaption>
+      <h3>Collaborator 2 Name</h3>
+      <p>Collaborator Role &amp; Details</p>
+    </figcaption>
+    <figure><img src="/images/icons/placeholder-hexagon.png"></figure>
+    <figcaption>
+      <h3>Collaborator 3 Name</h3>
+      <p>Collaborator Role &amp; Details</p>
+    </figcaption>
+  </div>
 </div>
-<section id="image" class="right">
-  <figure><img src="/images/icons/placeholder-hexagon.png" style="width: 20em;"></figure>
-</section>
+
 <hr />
 <section>
 <ul>
