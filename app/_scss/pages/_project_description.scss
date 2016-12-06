@@ -48,3 +48,47 @@
 	}
 
 }
+
+#projects {
+	#personnel-short {
+		display: none;
+	}
+}
+
+@media (max-width: 899px) {
+	#projects {
+		#personnel-short {
+			display: block;
+			border-top: 2px solid #c6c6c6;
+			border-bottom: 2px solid #c6c6c6;
+			margin-bottom: 1.5em;
+			padding-bottom: 1em;
+			position: relative;
+			top: 0.6em;
+
+			p {
+				display: inline-block;
+				padding-bottom: 0;
+			}
+
+			ul.personnel {
+				display: inline;
+				list-style-type: none;
+
+				li {
+					display: inline;
+					margin: 0;
+					padding: 0;
+				}
+
+				li:after {
+					content: ',';
+				}
+
+				li:last-child:after {
+					content: '';
+				}
+			}
+		}
+	}
+}
