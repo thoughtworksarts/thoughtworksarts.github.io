@@ -4,7 +4,7 @@ bodyid    : "projects"
 bodyclass : "content"
 year      : 2016
 
-title       : Personnel 1
+title       : Team Member 1
 photo       : "placeholder-hexagon.png"
 occupation  : "Role &amp; Details"
 
