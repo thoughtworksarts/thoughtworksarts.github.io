@@ -1,15 +1,14 @@
 body>section.listing.residents {
-	section {
-		figure.moon {
-			margin: -9.9em 0 0 11.3em !important;
-		}
-	}
 
 	section.listing-item.resident {
 		flex: 1 1 auto;
 	}
 
 	section.listing-item.cyborg {
+		figure.moon {
+			margin: -9.9em 0 0 11.3em !important;
+		}
+
 		.image {
 			order: 2;
 		}
