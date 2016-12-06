@@ -1,32 +1,15 @@
-body>section.residents {
+body>section.listing.residents {
 	section {
-		clear: both;
-		margin-bottom: 1em;
-
-		figure img {
-			border: 0;
-			width: 20em;
-		}
-
 		figure.moon {
 			margin: -9.9em 0 0 11.3em !important;
 		}
-
-		p, h2 {
-			text-align: left;
-			margin-right: 13%;
-		}
-
-		img {
-			border: 2px solid #f8f8f8;
-		}
 	}
 
-	section.resident {
+	section.listing-item.resident {
 		flex: 1 1 auto;
 	}
 
-	section.cyborg {
+	section.listing-item.cyborg {
 		.image {
 			order: 2;
 		}
@@ -36,7 +19,7 @@ body>section.residents {
 		}
 	}
 
-	section.heather {
+	section.listing-item.heather {
 		padding-top: 5em;
 
 		.text {
@@ -57,30 +40,8 @@ body>section.residents {
 }
 
 @media (max-width: 999px) {
-	body>section.residents {
-		section.resident {
-			flex-flow: inherit !important;
-			flex: inherit !important;
-			width: 100% !important;
-			display: block !important;
-			padding-top: 1em;
-
-			figure {
-				display: inline !important;
-				position: inherit !important;
-				margin: 1.5em 0;
-			}
-
-			h2 {
-				margin: 2.2em 0 0.4em 0;
-			}
-
-			p {
-				max-width: 37em;
-			}
-		}
-
-		section.resident.cyborg {
+	body>section.listing.residents {
+		section.listing-item.cyborg {
 			figure {
 				order: 1;
 			}
@@ -94,7 +55,7 @@ body>section.residents {
 			}
 		}
 
-		section.heather {
+		section.listing-item.heather {
 			margin-left: 0;
 
 			.text {
@@ -105,18 +66,8 @@ body>section.residents {
 }
 
 @media (max-width: 749px) {
-	body>section.residents {
-		section {
-			p, h2 {
-				margin-right: 4%;
-			}
-
-			figure img {
-				width: 45%;
-			}
-		}
-
-		section.heather {
+	body>section.listing.residents {
+		section.listing-item.heather {
 			figure img {
 				width: 50%;
 			}
