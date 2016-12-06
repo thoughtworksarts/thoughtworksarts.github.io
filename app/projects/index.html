@@ -12,7 +12,7 @@ bodyclass : "content description"
 
 <p>Vestibulum accumsan enim tincidunt elit feugiat, nec rhoncus sem ultrices. Nam eget tellus pharetra, accumsan nisi interdum, porttitor augue. Curabitur accumsan euismod porttitor. Mauris eu egestas ligula. In vel est at neque rhoncus facilisis et at urna. Nullam molestie blandit nibh et blandit. Vestibulum ornare cursus mollis. Fusce nec tellus eget orci aliquam viverra. Pellentesque facilisis mi mauris, non elementum enim sagittis nec. Mauris facilisis metus non felis finibus ultrices sed a justo.</p>
 </section>
-<section class="listing expanded">
+<section class="listing projects expanded">
 	{% for project in site.projects %}
 		<section class="listing-item flex-row">
 			<div class="image">
@@ -21,7 +21,7 @@ bodyclass : "content description"
 				</figure>
 			</div>
 			<div class="text">
-				<h2 class="project-url"><a href="{{ project.url }}/">{{ project.title }}</a></h2>
+				<h2><a href="{{ project.url }}/">{{ project.title }}</a></h2>
 				<p>{{ project.excerpt }}</p>
 				<div class="projects progress cta">
 					<a href="{{ project.url }}/">Continue reading</a>
