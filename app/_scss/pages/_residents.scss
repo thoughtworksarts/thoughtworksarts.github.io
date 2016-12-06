@@ -1,4 +1,4 @@
-body>section.listing.residents {
+.listing.residents {
 
 	section.listing-item.resident {
 		flex: 1 1 auto;
@@ -39,7 +39,7 @@ body>section.listing.residents {
 }
 
 @media (max-width: 999px) {
-	body>section.listing.residents {
+	.listing.residents {
 		section.listing-item.cyborg {
 			figure {
 				order: 1;
@@ -65,7 +65,7 @@ body>section.listing.residents {
 }
 
 @media (max-width: 749px) {
-	body>section.listing.residents {
+	.listing.residents {
 		section.listing-item.heather {
 			figure img {
 				width: 50%;

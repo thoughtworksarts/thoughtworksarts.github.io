@@ -1,4 +1,4 @@
-body>section.listing {
+.listing {
 	section {
 		clear: both;
 		margin-bottom: 1em;
@@ -24,7 +24,7 @@ body>section.listing {
 }
 
 @media (max-width: 999px) {
-	body>section.listing {
+	.listing {
 		section.listing-item {
 			flex-flow: inherit !important;
 			flex: inherit !important;
@@ -50,7 +50,7 @@ body>section.listing {
 }
 
 @media (max-width: 749px) {
-	body>section.listing {
+	.listing {
 		section.listing-item {
 			p, h2 {
 				margin-right: 4%;
