@@ -1,7 +1,8 @@
 .listing {
-	section {
+	.listing-item {
 		clear: both;
 		margin-bottom: 1em;
+		flex: 1 1 auto;
 
 		figure img {
 			border: 0;
@@ -17,15 +18,11 @@
 			border: 2px solid #f8f8f8;
 		}
 	}
-
-	section.listing-item {
-		flex: 1 1 auto;
-	}
 }
 
 @media (max-width: 999px) {
 	.listing {
-		section.listing-item {
+		.listing-item {
 			flex-flow: inherit !important;
 			flex: inherit !important;
 			width: 100% !important;
@@ -51,7 +48,7 @@
 
 @media (max-width: 749px) {
 	.listing {
-		section.listing-item {
+		.listing-item {
 			p, h2 {
 				margin-right: 4%;
 			}

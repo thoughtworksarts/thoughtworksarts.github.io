@@ -1,10 +1,6 @@
 .listing.residents {
 
-	section.listing-item.resident {
-		flex: 1 1 auto;
-	}
-
-	section.listing-item.cyborg {
+	.listing-item.cyborg {
 		figure.moon {
 			margin: -9.9em 0 0 11.3em !important;
 		}
@@ -18,7 +14,7 @@
 		}
 	}
 
-	section.listing-item.heather {
+	.listing-item.heather {
 		padding-top: 5em;
 
 		.text {
@@ -40,7 +36,7 @@
 
 @media (max-width: 999px) {
 	.listing.residents {
-		section.listing-item.cyborg {
+		.listing-item.cyborg {
 			figure {
 				order: 1;
 			}
@@ -54,7 +50,7 @@
 			}
 		}
 
-		section.listing-item.heather {
+		.listing-item.heather {
 			margin-left: 0;
 
 			.text {
@@ -66,7 +62,7 @@
 
 @media (max-width: 749px) {
 	.listing.residents {
-		section.listing-item.heather {
+		.listing-item.heather {
 			figure img {
 				width: 50%;
 			}
