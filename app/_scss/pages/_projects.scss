@@ -17,24 +17,3 @@
 	}
 
 }
-
-#projects header{
-	> div{
-		flex: auto;
-	}
-	display: flex;
-}
-
-ul.project-collaborators{
-		list-style:none;
-		display: flex;
-}
-
-.projects .progress {
-	a{
-		text-align:right;
-		display:flex;
-		flex: auto;
-		justify-content: flex-end;
-	}
-}
