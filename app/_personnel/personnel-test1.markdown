@@ -7,7 +7,6 @@ year      : 2016
 title       : Personnel 1
 photo       : "placeholder-hexagon.png"
 occupation  : "Role &amp; Details"
-excerpt   : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin est quis ultrices consequat. Proin dapibus eros nec leo tempor blandit. Phasellus non eros lacinia, vehicula nisi sed, vehicula lorem. Suspendisse aliquet vel lorem vitae iaculis. Quisque non placerat enim, id ornare quam. Donec ornare dolor ipsum, fermentum malesuada orci fermentum quis."
 
 links:
  - icon     : "fa-facebook"
