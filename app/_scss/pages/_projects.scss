@@ -1,21 +1,7 @@
 #projects {
-	background-image: url('/images/full-bleed/blog-1600.png');
-	background-position: 0 189px;
-	background-repeat: no-repeat;
-
-	.flex-col {
-		height: 189px;
-		min-height: 0;
-
-		#image-splash {
-			background-image: inherit;
-			background-color: #f4f4f4;
-			margin: 0;
-		}
-	}
-
-	>section:first-of-type {
-		margin-top: 9.8em;
+	#image-splash {
+		background-image: url('/images/full-bleed/arduino-1400.jpg');
+		background-position: 50% 24%;
 	}
 
 	#personnel {
@@ -35,12 +21,14 @@
 
 		figcaption{
 			text-align: center;
-			h3{
+
+			h3 {
 				font-size: 1.4em;
 				margin-top: 0.8em;
 				margin-bottom: 0em;
 			}
-			p{
+
+			p {
 				font-size: 1.0em;
 				padding-bottom: 0;
 			}
@@ -60,16 +48,15 @@
 		}
 
 	}
+
 	#project-landing {
-		width:100%;
+		width: 100%;
 	}
+
 	#project-landing main{
-		width:674px;
+		width: 674px;
 	}
 
-}
-
-#projects {
 	#personnel-short {
 		display: none;
 	}

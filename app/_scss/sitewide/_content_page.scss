@@ -1,5 +1,5 @@
-#blog.content-page {
-	background-image: url('/images/full-bleed/blog-1600.png');
+.content-page {
+	background-image: url('/images/full-bleed/pattern-1600.png');
 	background-position: 0 189px;
 	background-repeat: no-repeat;
 
@@ -8,7 +8,7 @@
 		min-height: 0;
 
 		#image-splash {
-			background-image: inherit;
+			background-image: inherit !important;
 			background-color: #f4f4f4;
 			margin: 0;
 		}
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 1299px) {
-	#blog.content-page {
+	.content-page {
 		background-position: 0 175px;
 
 		.flex-col {
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 1099px) {
-	#blog.content-page {
+	.content-page {
 		background-position: 0 160px;
 
 		.flex-col {
@@ -48,7 +48,7 @@
 }
 
 @media (max-width: 899px) {
-	#blog.content-page {
+	.content-page {
 		background-position: 0 114px;
 
 		.flex-col {
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 639px) {
-	#blog.content-page {
+	.content-page {
 		background-image: inherit;
 
 		>section:first-of-type {
