@@ -192,12 +192,6 @@ a#menu-button {
 	}
 }
 
-a.cta {
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: lowercase;
-}
-
 .cta {
 	a {
 		text-decoration: none;
@@ -217,6 +211,22 @@ a.cta {
 	a:hover, a:active, a:focus, a:hover:before, a:active:before, a:focus:before, a:hover:after, a:active:after, a:focus:after {
 		opacity: 1;
 	}
+
+	a.program {
+		color: #ac1f58;
+	}
+
+	a.residents {
+		color: #00b1c3;
+	}
+
+	a.blog {
+		color: #f5ac1d;
+	}
+
+	a.projects {
+		color: #4ead49;
+	}
 }
 
 ul.cta, ol.cta {
@@ -227,32 +237,15 @@ ul.cta li, ol.cta li {
 	display: inline-block;
 }
 
-.program {
-	a {
-		color: #ac1f58;
-	}
-}
-
-.residents {
-	a {
-		color: #00b1c3;
-	}
-}
-
-.blog {
-	a {
-		color: #f5ac1d;
-	}
-}
-.projects {
-	a {
-		color: #4ead49;
-	}
-}
-
 .progress {
 	text-transform: lowercase;
 	font-weight: bold;
+
+	a {
+		font-weight: bold;
+		text-decoration: none;
+		text-transform: lowercase;
+	}
 
 	a:after {
 		background-size: 34px 39px;
@@ -264,27 +257,20 @@ ul.cta li, ol.cta li {
 	}
 }
 
-.progress.program {
-	a:after {
-		background-image: url('/images/icons/arrow-purple.png');
-	}
+.progress a.program:after {
+	background-image: url('/images/icons/arrow-purple.png');
 }
 
-.progress.residents {
-	a:after {
-		background-image: url('/images/icons/arrow-teal.png');
-	}
+.progress a.residents:after {
+	background-image: url('/images/icons/arrow-teal.png');
 }
 
-.progress.blog {
-	a:after {
-		background-image: url('/images/icons/arrow-canary.png');
-	}
+.progress a.blog:after {
+	background-image: url('/images/icons/arrow-canary.png');
 }
-.progress.projects {
-	a:after {
-		background-image: url('/images/icons/arrow-green.png');
-	}
+
+.progress a.projects:after {
+	background-image: url('/images/icons/arrow-green.png');
 }
 
 .info {

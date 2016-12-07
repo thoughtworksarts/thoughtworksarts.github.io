@@ -36,22 +36,22 @@ bodyclass : "content list"
 		<div class="post-content">
 			{{ post.excerpt }}
 		</div>
-		<div class="progress blog cta">
-			<a href="{{ post.url }}/">Continue reading</a>
+		<div class="progress cta">
+			<a href="{{ post.url }}/" class="blog">Continue reading</a>
 		</div>
 	</article>
 	{% endfor %}
 
-	<ul id="paging" class="cta">
+	<ul id="paging" class="progress cta">
 		{% if paginator.previous_page %}
 			{% if paginator.previous_page == 1 %}
-				<li><a href="/blog/">Previous page</a></li>
+				<li><a href="/blog/" class="blog">Previous page</a></li>
 			{% else %}
-				<li><a href="/blog/page{{ paginator.previous_page }}/">Previous page</a></li>
+				<li><a href="/blog/page{{ paginator.previous_page }}/" class="blog">Previous page</a></li>
 			{% endif %}
 		{% endif %}
 		{% if paginator.next_page %}
-			<li><a href="/blog/page{{ paginator.next_page }}/">Next page</a></li>
+			<li><a href="/blog/page{{ paginator.next_page }}/" class="blog">Next page</a></li>
 		{% endif %}
 	</ul>
 </section>
