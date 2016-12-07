@@ -1,4 +1,4 @@
-#blog.post {
+#blog.content-page {
 	background-image: url('/images/full-bleed/blog-1600.png');
 	background-position: 0 189px;
 	background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 1299px) {
-	#blog.post {
+	#blog.content-page {
 		background-position: 0 175px;
 
 		.flex-col {
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 1099px) {
-	#blog.post {
+	#blog.content-page {
 		background-position: 0 160px;
 
 		.flex-col {
@@ -48,7 +48,7 @@
 }
 
 @media (max-width: 899px) {
-	#blog.post {
+	#blog.content-page {
 		background-position: 0 114px;
 
 		.flex-col {
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 639px) {
-	#blog.post {
+	#blog.content-page {
 		background-image: inherit;
 
 		>section:first-of-type {

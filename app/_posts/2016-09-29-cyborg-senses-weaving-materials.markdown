@@ -1,9 +1,9 @@
 ---
 layout    : post
 title     : "Cyborg Senses: Weaving the Materials"
-bodyid    : "blog"
-bodyclass : "content post"
-author    : "caihong"
+bodyid    : blog
+bodyclass : content-page
+author    : caihong
 editor	  : "andy"
 ---
 

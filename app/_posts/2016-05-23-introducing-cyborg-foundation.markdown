@@ -1,9 +1,9 @@
 ---
 layout    : post
 title     : "Introducing the Cyborg Foundation"
-bodyid    : "blog"
-bodyclass : "content post"
-author    : "announcement"
+bodyid    : blog
+bodyclass : content-page
+author    : announcement
 ---
 We are very happy to introduce the first artists to the ThoughtWorks Arts Residency program. Moon Ribas and Neil Harbisson are artists who use technology to explore the concept of cyborgism - the permanent integration of humans and machines to create new senses.
 

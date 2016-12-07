@@ -1,7 +1,7 @@
 ---
 layout    : default
-bodyid    : "projects"
-bodyclass : "content"
+bodyid    : projects
+bodyclass : content-page
 year      : 2016
 
 title       : Team Member 1

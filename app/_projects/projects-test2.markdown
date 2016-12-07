@@ -1,9 +1,8 @@
 ---
 layout    : project
 title     : "Test Project 2 Header"
-bodyid    : "projects"
-bodyclass : "content description"
-author    : "announcement"
+bodyid    : projects
+bodyclass : content-page
 excerpt   : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin est quis ultrices consequat. Proin dapibus eros nec leo tempor blandit. Phasellus non eros lacinia, vehicula nisi sed, vehicula lorem. Suspendisse aliquet vel lorem vitae iaculis. Quisque non placerat enim, id ornare quam. Donec ornare dolor ipsum, fermentum malesuada orci fermentum quis."
 ---
 
