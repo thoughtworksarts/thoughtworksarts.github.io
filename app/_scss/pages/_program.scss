@@ -1,4 +1,9 @@
 #program {
+	#image-splash {
+		background-image: url('/images/full-bleed/arduino-1400.jpg');
+		background-position: 50% 24%;
+	}
+
 	.team {
 		position: relative;
 
@@ -26,11 +31,6 @@
 
 	.mission h2 {
 		display: none;
-	}
-
-	.flex-col #image-splash {
-		background-image: url('/images/full-bleed/arduino-1400.jpg');
-		background-position: 50% 24%;
 	}
 }
 

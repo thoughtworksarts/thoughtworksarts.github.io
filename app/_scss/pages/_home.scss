@@ -1,13 +1,4 @@
 #home {
-	> .flex-col {
-		height: 100%;
-		min-height: 600px;
-	}
-
-	h1, h2, p {
-		cursor: default;
-	}
-
 	#image-splash {
 		flex: 1 0 auto;
 		background-image: url('/images/full-bleed/residency-home-1600.jpg');
@@ -43,6 +34,11 @@
 		}
 	}
 
+	> .flex-col {
+		height: 100%;
+		min-height: 600px;
+	}
+
 	> section {
 		.intro {
 			display: none;
@@ -57,6 +53,11 @@
 			}
 		}
 	}
+
+	h1, h2, p {
+		cursor: default;
+	}
+
 	//See also .residents
 }
 
