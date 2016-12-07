@@ -11,7 +11,7 @@ bodyclass : "content list"
 	{% for post in paginator.posts %}
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
-			<h1><a href="{{ post.url }}/">{{ post.title }}</a></h1>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 			<div class="widgets">
 				<ul class="social">
 					<li>
@@ -37,7 +37,7 @@ bodyclass : "content list"
 			{{ post.excerpt }}
 		</div>
 		<div class="progress cta">
-			<a href="{{ post.url }}/" class="blog">Continue reading</a>
+			<a href="{{ post.url }}" class="blog">Continue reading</a>
 		</div>
 	</article>
 	{% endfor %}
@@ -47,11 +47,11 @@ bodyclass : "content list"
 			{% if paginator.previous_page == 1 %}
 				<li><a href="/blog/" class="blog">Previous page</a></li>
 			{% else %}
-				<li><a href="/blog/page{{ paginator.previous_page }}/" class="blog">Previous page</a></li>
+				<li><a href="/blog/page{{ paginator.previous_page }}" class="blog">Previous page</a></li>
 			{% endif %}
 		{% endif %}
 		{% if paginator.next_page %}
-			<li><a href="/blog/page{{ paginator.next_page }}/" class="blog">Next page</a></li>
+			<li><a href="/blog/page{{ paginator.next_page }}" class="blog">Next page</a></li>
 		{% endif %}
 	</ul>
 </section>
