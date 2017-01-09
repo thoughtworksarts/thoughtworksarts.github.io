@@ -12,6 +12,7 @@ bodyclass : landing-page
 </section>
 <section class="listing projects expanded">
 	{% for project in site.projects %}
+		{% assign artist = project.artists | first %}
 		<section class="listing-item flex-row">
 			<div class="image">
 				<figure>
@@ -19,7 +20,7 @@ bodyclass : landing-page
 				</figure>
 			</div>
 			<div class="text">
-				<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+				<h2><a href="{{ project.url }}">{{ artist.name }}: {{ project.title }}</a></h2>
 				<p>{{ project.excerpt }}</p>
 				<div class="progress cta">
 					<a href="{{ project.url }}" class="projects">Continue reading</a>
