@@ -43,7 +43,7 @@ bodyclass : content-page
   </main>
 
   <div id="personnel">
-    <h3>Artists</h3>
+    <h2>Artists</h2>
     {% for person in page.artists %}
       {% assign member = site.personnel | where: "title", person.name | first %}
         <figure><img src="/images/icons/{{ member.photo }}"></figure>
@@ -64,13 +64,13 @@ bodyclass : content-page
         </ul>
     {% endfor %}
     <hr>
-    <h3>Team Members</h3>
+    <h2>Team Members</h2>
     {% for person in page.teamMembers %}
       {% assign member = site.personnel | where: "title", person.name | first %}
         <figure><img src="/images/icons/{{ member.photo }}"></figure>
         <figcaption>
-          <h3>{{ member.title }}</h3>
-          <p>{{ member.occupation }}</p>
+          <p class="name">{{ member.title }}</p>
+          <p class="role">{{ member.occupation }}</p>
         </figcaption>
     {% endfor %}
   </div>
