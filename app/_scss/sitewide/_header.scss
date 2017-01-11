@@ -53,27 +53,20 @@
 					content: '';
 					position: relative; left: 22px; top: -30px;
 				}
-			}
 
-			li.program {
-				a:before {
+				a.program:before {
 					background-image: url('/images/icons/diamond-purple.png');
 				}
-			}
 
-			li.residents {
-				a:before {
+				a.residents:before {
 					background-image: url('/images/icons/diamond-teal.png');
 				}
-			}
 
-			li.blog {
-				a:before {
+				a.blog:before {
 					background-image: url('/images/icons/diamond-canary.png');
 				}
-			}
-			li.projects {
-				a:before {
+
+				a.projects:before {
 					background-image: url('/images/icons/diamond-green.png');
 				}
 			}
