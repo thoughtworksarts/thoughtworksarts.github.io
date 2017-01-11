@@ -8,14 +8,14 @@ bodyclass : landing-page
 	<header>
 		<h1>2016 Projects</h1>
 	</header>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin est quis ultrices consequat. Proin dapibus eros nec leo tempor blandit. Phasellus non eros lacinia, vehicula nisi sed, vehicula lorem. Suspendisse aliquet vel lorem vitae iaculis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin est quis ultrices consequat. Proin dapibus eros nec leo tempor blandit. Phasellus non eros lacinia, vehicula nisi sed, vehicula lorem. Suspendisse aliquet vel lorem vitae iaculis.</p>
 </section>
 <section class="listing projects expanded">
 	{% for project in site.projects %}
 		<section class="listing-item flex-row">
 			<div class="image">
 				<figure>
-					<img src="/images/icons/placeholder-hexagon.png" style="width: 20em;"/>
+					<img src="/images/projects/{{ project.image }}" />
 				</figure>
 			</div>
 			<div class="text">

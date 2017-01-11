@@ -3,7 +3,7 @@ layout    : default
 bodyid    : projects
 bodyclass : content-page
 ---
-<section id="project-landing">
+<section>
 <div class="flex-row">
   <main class="left">
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
@@ -46,7 +46,7 @@ bodyclass : content-page
     <h2>Artists</h2>
     {% for person in page.artists %}
       {% assign member = site.personnel | where: "title", person.name | first %}
-        <figure><img src="/images/icons/{{ member.photo }}"></figure>
+        <figure><img src="/images/people/{{ member.photo }}"></figure>
         <figcaption>
           <h3>{{ member.title }}</h3>
           <p>{{ member.occupation }}</p>
@@ -67,7 +67,7 @@ bodyclass : content-page
     <h2>Team Members</h2>
     {% for person in page.teamMembers %}
       {% assign member = site.personnel | where: "title", person.name | first %}
-        <figure><img src="/images/icons/{{ member.photo }}"></figure>
+        <figure><img src="/images/people/{{ member.photo }}"></figure>
         <figcaption>
           <p class="name">{{ member.title }}</p>
           <p class="role">{{ member.occupation }}</p>
