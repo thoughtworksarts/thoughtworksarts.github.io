@@ -25,6 +25,14 @@ body>main>section.expanded {
 	width: 1010px;
 }
 
+body>main>section.expanded>section.left {
+	width: 674px;
+}
+
+body>main>section.expanded>section.right {
+	width: 336px;
+}
+
 body>main>section:last-of-type {
 	margin-bottom: 2em;
 }

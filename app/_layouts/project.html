@@ -5,7 +5,7 @@ bodyclass : content-page
 ---
 {% assign artist = page.artists | first %}
 <section class="flex-row expanded">
-  <section>
+  <section class="left">
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <h1>{{ artist.name }}: {{ page.title }}</h1>
@@ -26,7 +26,7 @@ bodyclass : content-page
       <a href="/projects/" class="projects">View all projects</a>
     </div>
   </section>
-  <section>
+  <section class="right">
     {% include personnel/personnel-long.html %}
   </section>
 </section>

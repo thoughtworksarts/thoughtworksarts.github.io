@@ -5,49 +5,30 @@
 	}
 
 	#personnel {
-		margin-left: 20%;
-		margin-bottom: .7rem;
-
-		figure>img {
-			width: 18em;
-		}
+		margin-top: 0.5em;
+		margin-left: 2.8em;
 
 		h2 {
 			display: none;
 		}
 
-		figcaption{
+		figure>img {
+			width: 100%;
+		}
+
+		figcaption {
 			text-align: center;
 
-			.name {
+			h3 {
 				font-size: 1.4em;
 				margin-top: 0.8em;
 				margin-bottom: 0em;
 			}
 
-			.role {
-				font-size: 1.0em;
-				padding-bottom: 0;
+			p {
+				padding-bottom: 3.2em;
 			}
 		}
-
-		ul.links {
-			list-style: none;
-			padding: 0.5rem 0;
-			display: flex;
-			justify-content: center;
-			margin-left: 0;
-
-			li {
-				display: inline-block;
-				padding: 0 7px;
-			}
-		}
-
-	}
-
-	#project-landing main{
-		width: 674px;
 	}
 
 	#personnel-short {
