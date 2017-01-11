@@ -10,7 +10,9 @@ bodyclass : content-page
       <header>
         <h1>{{ artist.name }}: {{ page.title }}</h1>
       </header>
-      {% include personnel/personnel-short.html %}
+      <section class="personnel small">
+        {% include personnel.html %}
+      </section>
       <div class="post-content">
         {{ content }}
       </div>
@@ -26,7 +28,7 @@ bodyclass : content-page
       <a href="/projects/" class="projects">View all projects</a>
     </div>
   </section>
-  <section class="right">
-    {% include personnel/personnel-long.html %}
+  <section class="right personnel large">
+    {% include personnel.html %}
   </section>
 </section>

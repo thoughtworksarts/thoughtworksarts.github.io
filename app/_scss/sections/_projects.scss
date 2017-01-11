@@ -4,18 +4,7 @@
 		background-position: 50% 24%;
 	}
 
-	#personnel {
-		margin-top: 0.5em;
-		margin-left: 2.8em;
-
-		h2 {
-			display: none;
-		}
-
-		figure>img {
-			width: 100%;
-		}
-
+	.personnel {
 		figcaption {
 			text-align: center;
 
@@ -31,48 +20,73 @@
 		}
 	}
 
-	#personnel-short {
+	.personnel.large {
+		margin-top: 0.5em;
+		margin-left: 2.8em;
+
+		h2 {
+			display: none;
+		}
+
+		figure>img {
+			width: 100%;
+		}
+	}
+
+	.personnel.small {
 		display: none;
 	}
 }
 
 @media (max-width: 899px) {
 	#projects {
-		#personnel-short {
+		.personnel.small {
 			display: block;
-			border-top: 2px solid #c6c6c6;
-			border-bottom: 2px solid #c6c6c6;
-			margin-bottom: 1.5em;
-			padding-bottom: 1em;
-			position: relative;
-			top: 0.6em;
 
-			p {
-				display: inline-block;
-				padding-bottom: 0;
-			}
-
-			ul.personnel {
-				display: inline;
+			ul {
+				display: flex;
+				flex-flow: row;
+				flex-wrap: wrap;
 				list-style-type: none;
+				margin-left: 0;
 
 				li {
-					display: inline;
-					margin: 0;
-					padding: 0;
+					flex: 0 0 auto;
+					text-align: center;
+					width: 6em;
+					margin-right: 1.2em;
+
+					h3 {
+						margin-top: 0;
+						font-size: 0.9em;
+					}
+
+					p {
+						padding-top: 0.3em;
+						padding-bottom: 2em;
+						font-size: 0.8em;
+						font-style: italic;
+					}
 				}
 
-				li:after {
-					content: ',';
-				}
+				li:first-of-type {
+					text-align: left;
 
-				li:last-child:after {
-					content: '';
+					h2 {
+						margin-top: 120px;
+					}
+				}
+			}
+
+			figure {
+				width: 100%;
+				img {
+					width: 100%;
 				}
 			}
 		}
 
-		#personnel {
+		.personnel.large {
 			display: none;
 		}
 	}

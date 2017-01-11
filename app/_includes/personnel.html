@@ -1,20 +1,23 @@
-<div id="personnel">
-  <h2>Artist</h2>
-  {% for person in page.artists %}
-    {% assign member = site.personnel | where: "title", person.name | first %}
+<ul>
+  <li><h2>Team</h2></li>
+{% for person in page.artists %}
+  {% assign member = site.personnel | where: "title", person.name | first %}
+    <li>
       <figure><img src="/images/people/{{ member.photo }}"></figure>
       <figcaption>
         <h3>{{ member.title }}</h3>
         <p>{{ member.occupation }}</p>
       </figcaption>
-  {% endfor %}
-  <h2>Team Members</h2>
-  {% for person in page.teamMembers %}
-    {% assign member = site.personnel | where: "title", person.name | first %}
+    </li>
+{% endfor %}
+{% for person in page.teamMembers %}
+  {% assign member = site.personnel | where: "title", person.name | first %}
+    <li>
       <figure><img src="/images/people/{{ member.photo }}"></figure>
       <figcaption>
         <h3>{{ member.title }}</h3>
         <p>{{ member.occupation }}</p>
       </figcaption>
-  {% endfor %}
-</div>
+    </li>
+{% endfor %}
+</ul>
