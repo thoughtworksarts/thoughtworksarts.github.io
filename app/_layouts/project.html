@@ -3,86 +3,30 @@ layout    : default
 bodyid    : projects
 bodyclass : content-page
 ---
-<section>
-<div class="flex-row">
-  <main class="left">
+{% assign artist = page.artists | first %}
+<section class="flex-row expanded">
+  <section>
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
-        <h1>{{ page.title }}</h1>
+        <h1>{{ artist.name }}: {{ page.title }}</h1>
       </header>
-      <div id="personnel-short">
-        <p>Artist:</p>
-        <ul class="personnel">
-          {% for person in page.artists %}
-            {% assign member = site.personnel | where: "title", person.name | first %}
-            {% for link in member.links %}
-              {% if link.url != "" %}
-                {% assign url = link.url %}
-              {% endif %}
-            {% endfor %}
-            <li><a href="{{ url }}">{{ member.title }}</a></li>
-          {% endfor %}
-        </ul><br>
-        <p>Team members:</p>
-        <ul class="personnel">
-          {% for person in page.teamMembers %}
-            {% assign member = site.personnel | where: "title", person.name | first %}
-            {% for link in member.links %}
-              {% if link.url != "" %}
-                {% assign url = link.url %}
-              {% endif %}
-            {% endfor %}
-            <li><a href="{{ url }}">{{ member.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+      {% include personnel/personnel-short.html %}
       <div class="post-content">
         {{ content }}
       </div>
     </article>
-  </main>
-
-  <div id="personnel">
-    <h2>Artists</h2>
-    {% for person in page.artists %}
-      {% assign member = site.personnel | where: "title", person.name | first %}
-        <figure><img src="/images/people/{{ member.photo }}"></figure>
-        <figcaption>
-          <h3>{{ member.title }}</h3>
-          <p>{{ member.occupation }}</p>
-        </figcaption>
-        <ul class="links">
-        {% for link in member.links %}
-          {% if link.url != "" %}
-          <li>
-            <a href="{{ link.url }}">
-            <span class="fa {{link.icon}}"></span>
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-    {% endfor %}
-    <hr>
-    <h2>Team Members</h2>
-    {% for person in page.teamMembers %}
-      {% assign member = site.personnel | where: "title", person.name | first %}
-        <figure><img src="/images/people/{{ member.photo }}"></figure>
-        <figcaption>
-          <p class="name">{{ member.title }}</p>
-          <p class="role">{{ member.occupation }}</p>
-        </figcaption>
-    {% endfor %}
-  </div>
-
-</div>
-
-<hr />
-<section>
-<ul>
-  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-  <li>Quisque eu tortor ut turpis gravida maximus sit amet vel mauris.</li>
-  <li>Donec laoreet libero ut enim efficitur, id maximus metus varius.</li>
-</ul>
-</section>
+    <section class="related-posts">
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Quisque eu tortor ut turpis gravida maximus sit amet vel mauris.</li>
+        <li>Donec laoreet libero ut enim efficitur, id maximus metus varius.</li>
+      </ul>
+    </section>
+    <div class="progress cta">
+      <a href="/projects/" class="blog">View all projects</a>
+    </div>
+  </section>
+  <section>
+    {% include personnel/personnel-long.html %}
+  </section>
 </section>

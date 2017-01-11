@@ -1,0 +1,26 @@
+<section id="personnel-short">
+  <p>Artist:</p>
+  <ul class="personnel">
+    {% for person in page.artists %}
+      {% assign member = site.personnel | where: "title", person.name | first %}
+      {% for link in member.links %}
+        {% if link.url != "" %}
+          {% assign url = link.url %}
+        {% endif %}
+      {% endfor %}
+      <li><a href="{{ url }}">{{ member.title }}</a></li>
+    {% endfor %}
+  </ul><br>
+  <p>Team members:</p>
+  <ul class="personnel">
+    {% for person in page.teamMembers %}
+      {% assign member = site.personnel | where: "title", person.name | first %}
+      {% for link in member.links %}
+        {% if link.url != "" %}
+          {% assign url = link.url %}
+        {% endif %}
+      {% endfor %}
+      <li><a href="{{ url }}">{{ member.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
