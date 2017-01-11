@@ -25,7 +25,7 @@ bodyclass : landing-page
 					</li>
 				</ul>
 				{% capture author %}{{ post.author }}{% endcapture %}
-				{% capture includefile %}blog-{{ post.author }}.html{% endcapture %}
+				{% capture includefile %}blog/{{ post.author }}.html{% endcapture %}
 				{% capture datetime %}{{ post.date | date: "%Y-%m-%d" }}{% endcapture %}
 				{% capture datestr %}{{ post.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 				{% unless author == "" %}

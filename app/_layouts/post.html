@@ -21,7 +21,7 @@ layout: default
           </li>
         </ul>
         {% capture author %}{{ page.author }}{% endcapture %}
-        {% capture includefile %}blog-{{ page.author }}.html{% endcapture %}
+        {% capture includefile %}blog/{{ page.author }}.html{% endcapture %}
         {% capture datetime %}{{ page.date | date: "%Y-%m-%d" }}{% endcapture %}
         {% capture datestr %}{{ page.date | date: "%A, %-d %B %Y" }}{% endcapture %}
         {% unless author == "" %}
