@@ -34,12 +34,12 @@
 		}
 	}
 
-	> .flex-col {
+	>header {
 		height: 100%;
 		min-height: 600px;
 	}
 
-	> section {
+	>main>section {
 		.intro {
 			display: none;
 		}
@@ -75,7 +75,7 @@
 
 @media (max-width: 1099px) {
 	#home {
-		> .flex-col {
+		>header {
 			min-height: 540px;
 		}
 
@@ -87,7 +87,7 @@
 
 @media (max-width: 999px) {
 	#home {
-		> .flex-col {
+		>header {
 			min-height: 576px;
 		}
 
@@ -104,7 +104,7 @@
 			margin: 2em;
 		}
 
-		> section .intro {
+		>main>section .intro {
 			display: block;
 		}
 	}
@@ -134,7 +134,7 @@
 			}
 		}
 
-		> .flex-col {
+		>header {
 			min-height: 500px;
 			max-height: 100%; // Firefox mobile
 		}

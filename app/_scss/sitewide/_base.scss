@@ -16,20 +16,20 @@ html, body {
 	line-height: $small_lineheight;
 }
 
-body>section {
+body>main>section {
 	margin: 2em auto 4.1em 3em;
 	width: 674px;
 }
 
-body>section.expanded {
+body>main>section.expanded {
 	width: 1010px;
 }
 
-body>section:last-of-type {
+body>main>section:last-of-type {
 	margin-bottom: 2em;
 }
 
-body>.flex-col {
+body>header.flex-col {
 	height: 67%;
 	min-height: 560px;
 
@@ -320,11 +320,11 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 1099px) {
-	body>section {
+	body>main>section {
 		width: 661px;
 	}
 
-	body>section.expanded {
+	body>main>section.expanded {
 		width: 90%;
 		max-width: inherit;
 	}
@@ -343,13 +343,13 @@ ul.cta li, ol.cta li {
 		margin-top: 0.2em;
 	}
 
-	body>section {
+	body>main>section {
 		width: 80%;
 		max-width: 650px;
 		margin: 2.3em auto 4.8em 3em;
 	}
 
-	body>section.expanded {
+	body>main>section.expanded {
 		width: 89%;
 		max-width: inherit;
 
@@ -371,7 +371,7 @@ ul.cta li, ol.cta li {
 }
 
 @media (max-width: 639px) {
-	body>.flex-col {
+	body>header.flex-col {
 		min-height: 340px;
 	}
 
@@ -379,7 +379,7 @@ ul.cta li, ol.cta li {
 		margin-top: 0;
 	}
 
-	body>section {
+	body>main>section {
 		width: 92%;
 		margin: 2em auto 3.8em 1.1em;
 	}
@@ -391,6 +391,6 @@ ul.cta li, ol.cta li {
 	}
 }
 
-body>section:first-of-type {
+body>main>section:first-of-type {
 	margin-top: 0.6em;
 }
