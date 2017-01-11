@@ -1,5 +1,5 @@
 body {
-	header.main {
+	#logonav {
 		height: 168px;
 		position: relative;
 
@@ -85,7 +85,7 @@ body {
 
 @media (max-width: 1299px) {
 	body {
-		header.main {
+		#logonav {
 			height: 158px;
 
 			.logo img {
@@ -109,7 +109,7 @@ body {
 
 @media (max-width: 1099px) {
 	body {
-		header.main {
+		#logonav {
 			height: 145px;
 
 			.logo img {
@@ -133,7 +133,7 @@ body {
 
 @media (max-width: 899px) {
 	body {
-		header.main {
+		#logonav {
 			height: 130px;
 			background-color: #ffffff;
 

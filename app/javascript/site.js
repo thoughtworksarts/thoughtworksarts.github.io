@@ -11,9 +11,9 @@ $(document).ready(function() {
 
 		$('#menu-button').click(function() {
 			if(menuOverlaid){
-				$('header.main>nav').removeClass('popout');
+				$('header>#logonav>nav').removeClass('popout');
 			} else {
-				$('header.main>nav').addClass('popout');
+				$('header>#logonav>nav').addClass('popout');
 			}
 			menuOverlaid = !menuOverlaid;
 		});

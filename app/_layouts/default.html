@@ -26,8 +26,8 @@
 </head>
 
 <body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
-  <div class="flex-col">
-    <header role="banner" class="main top">
+  <header role="banner" class="flex-col">
+    <section id="logonav">
       <h1>ThoughtWorks Arts Residency</h1>
       <a href="/" class="logo">
         <img src="/images/twartsresidency.png" alt="ThoughtWorks Arts Residency" />
@@ -45,7 +45,7 @@
           <li><a href="/blog/" class="blog">Blog</a></li>
         </ul>
       </nav>
-    </header>
+    </section>
     <figure id="image-splash" class="bottom">
       {% if page.bodyid == 'home' %}
       <div class="intro-container">
@@ -54,7 +54,7 @@
       </div>
       {% endif %}
     </figure>
-  </div>
+  </header>
   {{ content }}
   <footer>
     <div class="subscribe">
