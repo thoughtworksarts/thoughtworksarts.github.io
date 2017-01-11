@@ -3,76 +3,14 @@
 		background-image: url('/images/full-bleed/arduino-1400.jpg');
 		background-position: 50% 24%;
 	}
-
-	.team {
-		position: relative;
-
-		figure {
-			position: relative;
-			margin: 2em 0;
-
-			figcaption {
-				position: absolute; top: 50%;
-				transform: translateY(-50%);
-				margin-left: 17em;
-				width: 47em;
-
-				p, h2 {
-					padding: 0.3em 4.5em 0.3em 42px;
-					margin-top: 0;
-				}
-
-				h2:before {
-					display: none;
-				}
-			}
-		}
-	}
 }
 
-@media (max-width: 999px) {
-	#program {
-		.team {
-			figure figcaption {
-				position: relative;
-				transform: inherit;
-				margin-left: 0;
-				width: inherit;
-
-				p, h2 {
-					width: 80%;
-					padding-right: 1.5em;
-					padding-left: 0;
-				}
-			}
-		}
+@media (min-width: 999px) {
+	h2:before {
+		display: none;
 	}
-}
 
-@media (max-width: 739px) {
-	#program {
-		.team {
-			figure figcaption {
-				p, h2 {
-					width: 92%;
-				}
-
-				h2 {
-					padding-right: 0;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 639px) {
-	#program {
-		.team {
-			figure figcaption {
-				p, h2 {
-					width: 100%;
-				}
-			}
-		}
+	p, h2 {
+		margin-top: 0 !important;
 	}
 }

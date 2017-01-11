@@ -4,6 +4,7 @@
 	}
 
 	.listing-item {
+		align-items: center;
 		margin-bottom: 4em;
 
 		.image {
@@ -13,9 +14,6 @@
 				img {
 					border: 0;
 					width: 20em;
-					position: relative;
-					top: 50%;
-					transform: translateY(-50%);
 					margin-right: 2em;
 				}
 			}
@@ -39,8 +37,6 @@
 	}
 
 	.listing-item.double-image {
-		align-items: center;
-
 		figure img {
 			transform: inherit;
 			top: inherit;
