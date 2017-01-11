@@ -4,6 +4,10 @@
 		background-position: 50% 24%;
 	}
 
+	ul {
+		list-style-type: none;
+	}
+
 	.personnel {
 		figcaption {
 			text-align: center;
@@ -47,7 +51,6 @@
 				display: flex;
 				flex-flow: row;
 				flex-wrap: wrap;
-				list-style-type: none;
 				margin-left: 0;
 
 				li {
