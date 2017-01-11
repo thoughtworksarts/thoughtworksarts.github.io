@@ -1,0 +1,165 @@
+.listing {
+	h1 {
+		margin-bottom: 0.6em;
+	}
+
+	.listing-item {
+		margin-bottom: 4em;
+
+		.image {
+			figure {
+				height: 100%;
+
+				img {
+					border: 0;
+					width: 20em;
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+					margin-right: 2em;
+				}
+			}
+		}
+
+		.text {
+			width: 62%;
+
+			h2, p {
+				width: 100%;
+			}
+
+			h2 {
+				margin-top: 100px;
+			}
+
+			p:last-of-type {
+				padding-bottom: 0;
+			}
+		}
+	}
+
+	.listing-item.double-image {
+		align-items: center;
+
+		figure img {
+			transform: inherit;
+			top: inherit;
+		}
+
+		figure {
+			position: relative;
+			width: 33.4em;
+			height: 36.4em;
+
+			img:first-of-type {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			img:last-of-type {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+		}
+
+		p:last-of-type {
+			padding-bottom: 1.3em;
+		}
+	}
+
+	.listing-item.reversed {
+		.text {
+			order: 1;
+		}
+
+		.image {
+			order: 2;
+
+			figure img {
+				margin-left: 2em;
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 999px) {
+	.listing {
+		.listing-item {
+			margin-bottom: 2em;
+
+			.text {
+				width: inherit;
+
+				h2, p {
+					width: 73%;
+				}
+
+				h2 {
+					margin: 2.2em 0 0.4em 0;
+				}
+			}
+
+			.image figure img {
+				position: inherit;
+				top: inherit;
+				transform: inherit;
+			}
+		}
+
+		.listing-item.double-image {
+			.image {
+				figure {
+					position: inherit;
+					width: inherit;
+					height: inherit;
+
+					img:first-of-type {
+						position: inherit;
+					}
+
+					img:last-of-type {
+						position: inherit;
+					}
+				}
+			}
+		}
+
+		.listing-item.reversed {
+			.image {
+				figure img {
+					margin-left: 0;
+					margin-right: 0.7em;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 749px) {
+	.listing {
+		.listing-item {
+			.text {
+				p, h2 {
+					width: 100%;
+				}	
+			}
+
+			.image {
+				figure img {
+					width: 50%;
+				}
+			}
+		}
+
+		.listing-item.double-image {
+			.image {
+				figure img {
+					width: 45%;
+				}
+			}
+		}
+	}
+}
