@@ -10,7 +10,8 @@
       </figcaption>
     </li>
 {% endfor %}
-{% for person in page.teamMembers %}
+{% assign team_members = page.teamMembers | sort: 'lastname' %}
+{% for person in team_members %}
   {% assign member = site.personnel | where: "title", person.name | first %}
     <li>
       <figure><img src="/images/people/{{ member.photo }}"></figure>
