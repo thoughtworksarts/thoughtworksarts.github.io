@@ -4,7 +4,7 @@ title     : "Global Visioning Session with the Cyborgs"
 bodyid    : blog
 bodyclass : content-page
 author    : andrew-mcwilliams
-tags      : [time-sense]
+tags      : [time-sense, seismic-sense]
 ---
 Our first residents, the Cyborg Foundation, <a href="/blog/introducing-cyborg-foundation/">came to ThoughtWorks</a> with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
 

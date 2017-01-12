@@ -5,7 +5,7 @@ bodyid    : blog
 bodyclass : content-page
 author    : caihong-liu
 editor	  : "andy"
-tags      : [time-sense]
+tags      : [time-sense, seismic-sense]
 ---
 
 I never knew that one day I would be part of a project to develop new human senses &mdash; but here I am. I&rsquo;ve spent the last six months working with the <a href="https://thoughtworksarts.io/blog/introducing-cyborg-foundation/">Cyborg Foundation</a> on their <a href="http://thoughtworksarts.io">ThoughtWorks Arts Residency</a> project.

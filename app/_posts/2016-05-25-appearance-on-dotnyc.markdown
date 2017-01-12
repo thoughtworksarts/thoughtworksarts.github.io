@@ -4,7 +4,7 @@ title     : "Discussing the residency on dotNYC with Jeff Jarvis"
 bodyid    : blog
 bodyclass : content-page
 author    : andrew-mcwilliams
-tags      : [time-sense]
+tags      : [time-sense, seismic-sense]
 ---
 We had a spot on Jeff Jarvis's new web TV show this week, dotNYC, along with Christina Warren and other guests.
 
