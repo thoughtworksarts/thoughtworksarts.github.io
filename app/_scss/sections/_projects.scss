@@ -101,3 +101,69 @@
 		}
 	}
 }
+
+@media (max-width: 729px) {
+	#projects {
+		.personnel.small {
+			ul {
+				padding-top: 1.4em;
+
+				li {
+					width: 18%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 674px) {
+	#projects {
+		.personnel.small {
+			ul {
+				padding-top: 5%;
+
+				li {
+					width: 17%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 611px) {
+	#projects {
+		.personnel.small {
+			ul {
+				padding-top: 6%;
+			}
+		}
+	}
+}
+
+@media (max-width: 580px) {
+	#projects {
+		.personnel.small {
+			ul {
+				padding-top: 5.5%;
+
+				li {
+					width: 20%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 535px) {
+	#projects {
+		.personnel.small {
+			ul {
+				padding-top: 2em;
+
+				li {
+					width: 4.2em;
+				}
+			}
+		}
+	}
+}
