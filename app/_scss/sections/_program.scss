@@ -4,13 +4,3 @@
 		background-position: 50% 24%;
 	}
 }
-
-@media (min-width: 999px) {
-	h2:before {
-		display: none;
-	}
-
-	p, h2 {
-		margin-top: 0 !important;
-	}
-}

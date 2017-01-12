@@ -4,6 +4,7 @@ title     : "Time Sense"
 bodyid    : projects
 bodyclass : content-page
 image     : time-sense.png
+projectid : time-sense
 
 excerpt   : "The Time Sense allows the wearer to sense the passing of the 24-hour clock around the circumference of the head"
 
@@ -11,12 +12,6 @@ artists   :
   - name  : "Neil Harbisson"
 
 teamMembers :
-  - name  : "Oryan Inbar"
-  - name  : "Sam Sadtler"
-  - name  : "Caihong Liu"
-  - name  : "Oryan Inbar"
-  - name  : "Sam Sadtler"
-  - name  : "Caihong Liu"
   - name  : "Oryan Inbar"
   - name  : "Sam Sadtler"
   - name  : "Caihong Liu"

@@ -4,6 +4,7 @@ title     : "Developing a Cyborg Time Sense: Research and Experimentation"
 bodyid    : blog
 bodyclass : content-page
 author    : andrew-mcwilliams
+tags      : [time-sense]
 ---
 Moving on from our successful <a href="/blog/visioning-session-with-the-cyborgs/">visioning session</a>, the team has started to coalesce around tasks. At this early stage that means research and experimentation, along with the creation of simple test rigs to measure results.
 
