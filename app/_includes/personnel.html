@@ -1,5 +1,5 @@
+<h2>Team</h2>
 <ul>
-  <li><h2>Team</h2></li>
 {% for person in page.artists %}
   {% assign member = site.personnel | where: "title", person.name | first %}
     <li>

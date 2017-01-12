@@ -45,7 +45,17 @@
 @media (max-width: 899px) {
 	#projects {
 		.personnel.small {
-			display: block;
+			display: flex;
+			flex-flow: row;
+
+			h2 {
+				margin-top: 120px;
+				width: 2.9em;
+				display: inline-block;
+				position: relative;
+				top: 0.5em;
+				flex: 0 0 auto;
+			}
 
 			ul {
 				display: flex;
@@ -57,26 +67,23 @@
 					flex: 0 0 auto;
 					text-align: center;
 					width: 6em;
-					margin-right: 1.2em;
+					margin-left: 0.6em;
 
-					h3 {
-						margin-top: 0;
-						font-size: 0.9em;
-					}
+					figcaption {
+						position: relative;
+						top: -0.1em;
 
-					p {
-						padding-top: 0.3em;
-						padding-bottom: 2em;
-						font-size: 0.8em;
-						font-style: italic;
-					}
-				}
+						h3 {
+							margin-top: 0;
+							font-size: 0.8em;
+						}
 
-				li:first-of-type {
-					text-align: left;
-
-					h2 {
-						margin-top: 120px;
+						p {
+							padding-top: 0.15em;
+							padding-bottom: 1.4em;
+							font-size: 0.8em;
+							font-style: italic;
+						}
 					}
 				}
 			}
