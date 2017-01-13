@@ -217,7 +217,7 @@ a#menu-button {
 		transition: opacity 0.32s ease-out;
 	}
 
-	a:before {
+	a.appear:before {
 		opacity: 0;
 	}
 
@@ -260,7 +260,7 @@ ul.cta li, ol.cta li {
 		text-transform: lowercase;
 	}
 
-	a:after {
+	a.forwards:after {
 		background-size: 34px 39px;
 		display: inline-block;
 		width: 34px;
@@ -268,22 +268,51 @@ ul.cta li, ol.cta li {
 		content: '';
 		position: relative; left: 8px; top: 13px;
 	}
+
+	a.backwards:before {
+		background-size: 34px 39px;
+		display: inline-block;
+		width: 34px;
+		height: 39px;
+		content: '';
+		position: relative; left: -8px; top: 13px;
+	}
 }
 
-.progress a.program:after {
+.progress a.program.forwards:after {
 	background-image: url('/images/icons/arrow-purple.png');
 }
 
-.progress a.residents:after {
+.progress a.residents.forwards:after {
 	background-image: url('/images/icons/arrow-teal.png');
 }
 
-.progress a.blog:after {
+.progress a.blog.forwards:after {
 	background-image: url('/images/icons/arrow-canary.png');
 }
 
-.progress a.projects:after {
+.progress a.projects.forwards:after {
 	background-image: url('/images/icons/arrow-green.png');
+}
+
+.progress a.program.backwards:before {
+	background-image: url('/images/icons/arrow-purple.png');
+}
+
+.progress a.residents.backwards:before {
+	background-image: url('/images/icons/arrow-teal.png');
+}
+
+.progress a.blog.backwards:before {
+	background-image: url('/images/icons/arrow-canary.png');
+}
+
+.progress a.projects.backwards:before {
+	background-image: url('/images/icons/arrow-green.png');
+}
+
+.progress a.backwards:before {
+	transform: rotate(180deg);
 }
 
 .info {

@@ -25,7 +25,7 @@
 	}
 
 	.listing  h1:hover {
-		border-top: 3px solid rgba(0, 0, 0, 0);
+		border-top: 3px solid rgba(34, 34, 34, 0);
 	}
 
 	h2 {
@@ -36,7 +36,7 @@
 		display: none;
 	}
 
-	.progress {
+	.continue-reading {
 		padding-top: 0.2em;
 	}
 
@@ -158,6 +158,18 @@
 			background: #eeeeee;
 		}
 	}
+
+	#paging {
+		text-align: center;
+		border-top: 5px solid #eeeeee;
+		padding-top: 1.2em;
+		margin-top: 4.5em;
+		margin-left: 0;
+
+		li:nth-child(2) {
+			margin-left: 3em;
+		}
+	}
 }
 
 @media (max-width: 799px) {
@@ -192,6 +204,17 @@
 	#blog {
 		.post-content figure {
 			width: 99%;
+		}
+
+		#paging {
+			li {
+				display: block;
+			}
+
+			li:nth-child(2) {
+				margin-left: 0;
+				margin-top: 1.6em;
+			}
 		}
 	}
 }
