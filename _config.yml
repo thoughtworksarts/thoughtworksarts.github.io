@@ -44,12 +44,14 @@ highlighter: true
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+
 collections:
   projects:
     output: true
     permalink: /projects/:path/
   personnel:
-    output: false
+    output: true
+    permalink: /bio/:path/
 
 defaults:
   - scope:
@@ -70,5 +72,12 @@ defaults:
       type: "projects"
     values:
       layout    : project
+      bodyid    : projects
+      bodyclass : content-page
+  - scope:
+      path: ""
+      type: "personnel"
+    values:
+      layout    : bio
       bodyid    : projects
       bodyclass : content-page
