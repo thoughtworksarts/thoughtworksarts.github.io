@@ -205,9 +205,35 @@ a#menu-button {
 	}
 }
 
-.cta {
+a.program {
+	color: #ac1f58;
+}
+
+a.residents {
+	color: #00b1c3;
+}
+
+a.blog {
+	color: #f5ac1d;
+}
+
+a.projects {
+	color: #4ead49;
+}
+
+ul.progress, ol.progress {
+	list-style-type: none;
+}
+
+ul.progress li, ol.progress li {
+	display: inline-block;
+}
+
+.progress {
 	a {
+		font-weight: bold;
 		text-decoration: none;
+		text-transform: lowercase;
 		letter-spacing: 0.05em;
 		white-space: nowrap;
 		opacity: 0.8;
@@ -217,47 +243,8 @@ a#menu-button {
 		transition: opacity 0.32s ease-out;
 	}
 
-	a.appear:before {
-		opacity: 0;
-	}
-
 	a:hover, a:active, a:focus, a:hover:before, a:active:before, a:focus:before, a:hover:after, a:active:after, a:focus:after {
 		opacity: 1;
-	}
-
-	a.program {
-		color: #ac1f58;
-	}
-
-	a.residents {
-		color: #00b1c3;
-	}
-
-	a.blog {
-		color: #f5ac1d;
-	}
-
-	a.projects {
-		color: #4ead49;
-	}
-}
-
-ul.cta, ol.cta {
-	list-style-type: none;
-}
-
-ul.cta li, ol.cta li {
-	display: inline-block;
-}
-
-.progress {
-	text-transform: lowercase;
-	font-weight: bold;
-
-	a {
-		font-weight: bold;
-		text-decoration: none;
-		text-transform: lowercase;
 	}
 
 	a.forwards:after {

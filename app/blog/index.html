@@ -34,13 +34,13 @@ bodyid	  : blog
 		<div class="post-content">
 			{{ post.excerpt }}
 		</div>
-		<div class="progress cta continue-reading">
+		<div class="progress continue-reading">
 			<a href="{{ post.url }}" class="blog forwards">Continue reading</a>
 		</div>
 	</article>
 	{% endfor %}
 
-	<ul id="paging" class="progress cta">
+	<ul id="paging" class="progress">
 		{% if paginator.previous_page %}
 			{% assign url = "/blog/" %}
 			{% if paginator.previous_page > 1 %}
