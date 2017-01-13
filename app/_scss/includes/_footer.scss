@@ -72,6 +72,22 @@ footer {
 		}
 	}
 
+	ul li {
+		display: inline;
+
+		i, a {
+			text-decoration: none;
+		}
+
+		i, a:link, a:visited {
+			color: #ffffff;
+		}
+
+		i:hover, a:hover, a:active {
+			color: #f5ac1d;
+		}
+	}
+
 	.social {
 		position: absolute;
 		right: 0;
@@ -94,10 +110,6 @@ footer {
 		li a {
 			font-size: 0.65em;
 		}
-	}
-
-	ul li {
-		display: inline;
 
 		i, a:link, a:visited {
 			color: #ffffff;
