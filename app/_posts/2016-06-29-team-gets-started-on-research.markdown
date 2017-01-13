@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Developing a Cyborg Time Sense: Research and Experimentation"
-bodyid    : blog
-bodyclass : content-page
 author    : andrew-mcwilliams
 tags      : [time-sense]
 ---

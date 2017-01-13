@@ -1,10 +1,6 @@
 ---
-layout    : post
 title     : "Cyborg Senses: Weaving the Materials"
-bodyid    : blog
-bodyclass : content-page
 author    : caihong-liu
-editor	  : "andy"
 tags      : [time-sense, seismic-sense]
 ---
 

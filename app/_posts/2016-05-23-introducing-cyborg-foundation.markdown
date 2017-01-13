@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Introducing the Cyborg Foundation"
-bodyid    : blog
-bodyclass : content-page
 author    : announcement
 tags      : [time-sense, seismic-sense]
 ---

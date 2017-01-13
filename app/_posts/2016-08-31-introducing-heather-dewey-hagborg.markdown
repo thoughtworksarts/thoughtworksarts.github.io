@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Heather Dewey-Hagborg Begins Residency at ThoughtWorks"
-bodyid    : blog
-bodyclass : content-page
 author    : announcement
 ---
 We are pleased to welcome our second resident artist, Heather Dewey-Hagborg, who will be with us over the next four months.

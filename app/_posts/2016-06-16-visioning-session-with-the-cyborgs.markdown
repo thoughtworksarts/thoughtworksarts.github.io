@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Global Visioning Session with the Cyborgs"
-bodyid    : blog
-bodyclass : content-page
 author    : andrew-mcwilliams
 tags      : [time-sense, seismic-sense]
 ---

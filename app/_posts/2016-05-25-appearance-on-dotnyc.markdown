@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Discussing the residency on dotNYC with Jeff Jarvis"
-bodyid    : blog
-bodyclass : content-page
 author    : andrew-mcwilliams
 tags      : [time-sense, seismic-sense]
 ---

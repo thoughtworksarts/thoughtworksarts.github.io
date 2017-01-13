@@ -50,3 +50,25 @@ collections:
     permalink: /projects/:path/
   personnel:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout    : default
+      bodyclass : landing-page
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout    : post
+      bodyid    : blog
+      bodyclass : content-page
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout    : project
+      bodyid    : projects
+      bodyclass : content-page

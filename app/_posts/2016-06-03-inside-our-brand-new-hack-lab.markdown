@@ -1,8 +1,5 @@
 ---
-layout    : post
 title     : "Inside Our Brand New Lab at ThoughtWorks NYC"
-bodyid    : blog
-bodyclass : content-page
 author    : announcement
 ---
 This week we have been building out our new lab space here in New York. We are designing the space for internal use by employees, as well as for public use during community events and programs.

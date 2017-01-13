@@ -1,8 +1,5 @@
 ---
-layout    : project
 title     : "Seismic Sense"
-bodyid    : projects
-bodyclass : content-page
 projectid : seismic-sense
 
 excerpt   : "The Seismic Sense allows the wearer to feel real-time geoseismic activity from across the world"
