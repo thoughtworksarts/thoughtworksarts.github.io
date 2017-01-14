@@ -56,20 +56,25 @@
 
 			.project-list {
 				padding: 0;
-				margin-left: 0.7em;
+				margin-top: 0.1em;
+				margin-left: 0.55em;
 				position: relative;
 				list-style-type: none;
 
 				li {
 					font-size: 1rem;
 					line-height: 1.5em;
-					margin-bottom: 0.5em;
+					margin-bottom: 0.3em;
+				}
+
+				li:last-of-type {
+					margin-bottom: 0.2em;
 				}
 
 				li:before {
 					content: '-';
 					position: absolute;
-					left: -0.7em;
+					left: -0.65em;
 				}
 			}
 		}

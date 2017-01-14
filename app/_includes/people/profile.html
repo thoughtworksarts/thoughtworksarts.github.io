@@ -1,4 +1,4 @@
-<figure class="first person">
+<figure class="person first">
   <img src="/images/people/{{ page.photo }}" alt="{{ page.title }}">
   <figcaption>
     <h3>{{ page.title }}</h3>
@@ -7,28 +7,33 @@
 </figure>
 <ul class="profile-info second">
   <li>
-    <span class="key">Resident</span>
-    <span class="value">Summer 2016</span>
+    <span class="key">{{ page.role }}</span>
+    <span class="value">{{ page.season }}</span>
   </li>
   <li>
-    <span class="key">Project(s)</span>
+    {% assign projects = page.projects | sort: 'projectid' %}
+    <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
     <span class="value">
-      <ul class="project-list">
-        <li><a href="/">Seismic Sense Seisc Sense Seismic Sense</a></li>
-        <li><a href="/">Time Sense</a></li>
-      </ul>
+      {% if projects.size == 1 %}
+        {% assign p = projects | first %}
+        {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      {% else %}
+        <ul class="project-list">
+          {% for p in projects %}
+            {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </span>
   </li>
-  <li>
-    <span class="key">Website</span>
-    <span class="value"><i class="fa fa-globe"></i> <a href="https://www.bla.com">www.bla.com</a></span>
-  </li>
-  <li>
-    <span class="key">Twitter</span>
-    <span class="value"><i class="fa fa-twitter"></i> <a href="http://twitter.com/handle">@handle</a></span>
-  </li>
-  <li>
-    <span class="key">Github</span>
-    <span class="value"><i class="fa fa-github"></i> <a href="http://github.com/handle">@handle</a></span>
-  </li>
+  {% for link in page.links %}
+    {% if link.url != "" %}
+      <li>
+        <span class="key">{{ link.name }}</span>
+        <span class="value"><i class="fa {{ link.icon }}"></i> <a href="{{ link.url }}">{{ link.display }}</a></span>
+      </li>
+    {% endif %}
+  {% endfor %}
 </table>
