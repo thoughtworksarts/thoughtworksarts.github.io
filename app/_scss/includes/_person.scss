@@ -46,20 +46,24 @@
 	}
 }
 
-.personnel.large {
-	
-}
+@media (max-width: 1099px) {
+	.personnel {
+		.info-list {
+			>li {
+				.key {
+					width: 26%;
+				}
 
-.personnel.small {
-	
+				.value {
+					width: 60%;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 899px) {
 	.personnel.small {
-		
-	}
-
-	.personnel.large {
 		
 	}
 }
