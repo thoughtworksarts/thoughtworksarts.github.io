@@ -1,9 +1,9 @@
-<h2>Team</h2>
-<ul>
+<h2 class="first">Team</h2>
+<ul class="second person-list">
 {% for person in page.artists %}
   {% assign member = site.personnel | where: "title", person.name | first %}
-    <li class="person">
-      <figure>
+    <li class="person-item">
+      <figure class="person">
         <img src="/images/people/{{ member.photo }}" alt="{{ member.title }}">
         <figcaption>
           <h3>{{ member.title }}</h3>
@@ -15,8 +15,8 @@
 {% assign team_members = page.teamMembers | sort: 'lastname' %}
 {% for person in team_members %}
   {% assign member = site.personnel | where: "title", person.name | first %}
-    <li class="person">
-      <figure>
+    <li class="person-item">
+      <figure class="person">
         <img src="/images/people/{{ member.photo }}" alt="{{ member.title }}">
         <figcaption>
           <h3>{{ member.title }}</h3>

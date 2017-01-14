@@ -1,0 +1,192 @@
+.metainfo {
+	.person-list {
+		list-style-type: none;
+		margin-left: 0;
+		padding-top: 0;
+	}
+
+	.person {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+
+		figcaption {
+			text-align: center;
+
+			h3 {
+				font-size: 1.4em;
+				margin-top: 0.8em;
+				margin-bottom: 0em;
+			}
+
+			p {
+				padding-bottom: 3.2em;
+			}
+		}
+	}
+
+	.profile-info {
+		width: 100%;
+		font-size: 1rem;
+		margin-left: 0;
+		list-style-type: none;
+
+		>li:last-of-type {
+			border-bottom: 1px solid #eeeeee;
+		}
+
+		>li {
+			border-top: 1px solid #eeeeee;
+
+			.key, .value {
+				padding: 3%;
+				display: inline-block;
+			}
+
+			.key {
+				width: 23%;
+				vertical-align: top;
+			}
+
+			.value {
+				width: 63%;
+			}
+
+			.project-list {
+				padding: 0;
+				margin-left: 0.7em;
+				position: relative;
+				list-style-type: none;
+
+				li {
+					font-size: 1rem;
+					line-height: 1.5em;
+					margin-bottom: 0.5em;
+				}
+
+				li:before {
+					content: '-';
+					position: absolute;
+					left: -0.7em;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1099px) {
+	.metainfo {
+		.profile-info {
+			>li {
+				.key {
+					width: 26%;
+				}
+
+				.value {
+					width: 60%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	.metainfo.small {
+		h2 {
+			margin-top: 120px;
+			width: 2.9em;
+			display: inline-block;
+			position: relative;
+			top: 0.5em;
+		}
+
+		.person-list {
+			display: flex;
+			flex-flow: row;
+			flex-wrap: wrap;
+			margin: 0.9em 0 0 0;
+
+			.person-item {
+				flex: 0 0 auto;
+				margin-left: 0.6em;
+				width: 6em;
+			}
+		}
+
+		.person figcaption {
+			position: relative;
+			top: -0.1em;
+			text-align: center;
+
+			h3 {
+				margin-top: 0;
+				font-size: 0.8em;
+			}
+
+			p {
+				padding-top: 0.15em;
+				padding-bottom: 1.4em;
+				font-size: 0.8em;
+				font-style: italic;
+			}
+		}
+	}
+}
+
+@media (max-width: 729px) {
+	.metainfo.small {
+		.person-list {
+			margin-top: 1.4em;
+
+			.person-item {
+				width: 18%;
+			}
+		}
+	}
+}
+
+@media (max-width: 674px) {
+	.metainfo.small {
+		.person-list {
+			margin-top: 5%;
+
+			.person-item {
+				width: 17%;
+			}
+		}
+	}
+}
+
+@media (max-width: 611px) {
+	.metainfo.small {
+		.person-list {
+			margin-top: 6%;
+		}
+	}
+}
+
+@media (max-width: 580px) {
+	.metainfo.small {
+		.person-list {
+			margin-top: 5.5%;
+
+			.person-item {
+				width: 20%;
+			}
+		}
+	}
+}
+
+@media (max-width: 535px) {
+	.metainfo.small {
+		.person-list {
+			margin-top: 2em;
+
+			.person-item {
+				width: 4.2em;
+			}
+		}
+	}
+}
