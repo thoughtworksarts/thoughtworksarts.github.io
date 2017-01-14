@@ -1,29 +1,45 @@
 .personnel {
-	table {
+	.info-list {
 		width: 100%;
+		font-size: 1rem;
+		margin-left: 0;
 
-		tr {
+		>li:last-of-type {
+			border-bottom: 1px solid #eeeeee;
+		}
+
+		>li {
 			border-top: 1px solid #eeeeee;
 
-			td {
-				padding: 0.5em;
+			.key, .value {
+				padding: 3%;
+				display: inline-block;
+			}
 
-				ul {
-					padding: 0;
-					margin-left: 0.7em;
-					position: relative;
+			.key {
+				width: 23%;
+				vertical-align: top;
+			}
 
-					li {
-						line-height: 1.5em;
-						font-size: 1rem;
-						display: inline-block;
-					}
+			.value {
+				width: 63%;
+			}
 
-					li:before {
-						content: '-';
-						position: absolute;
-						left: -0.7em;
-					}
+			.project-list {
+				padding: 0;
+				margin-left: 0.7em;
+				position: relative;
+
+				li {
+					font-size: 1rem;
+					line-height: 1.5em;
+					margin-bottom: 0.5em;
+				}
+
+				li:before {
+					content: '-';
+					position: absolute;
+					left: -0.7em;
 				}
 			}
 		}
