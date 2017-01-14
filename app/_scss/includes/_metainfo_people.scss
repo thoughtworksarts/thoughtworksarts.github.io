@@ -12,17 +12,25 @@
 			width: 100%;
 		}
 
+		a:link, a:visited {
+			text-decoration: none;
+		}
+
+		a:hover, a:active {
+			text-decoration: underline;
+		}
+
 		figcaption {
 			text-align: center;
 
 			h3 {
-				font-size: 1.4em;
-				margin-top: 0.8em;
-				margin-bottom: 0em;
+				font-size: 1.4rem;
+				margin-top: 0.8rem;
+				margin-bottom: 0;
 			}
 
 			p {
-				padding-bottom: 3.2em;
+				margin-bottom: 3.2rem;
 			}
 		}
 	}
