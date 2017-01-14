@@ -3,22 +3,26 @@
 {% for person in page.artists %}
   {% assign member = site.personnel | where: "title", person.name | first %}
     <li class="person">
-      <figure><img src="/images/people/{{ member.photo }}"></figure>
-      <figcaption>
-        <h3>{{ member.title }}</h3>
-        <p>{{ member.occupation }}</p>
-      </figcaption>
+      <figure>
+        <img src="/images/people/{{ member.photo }}">
+        <figcaption>
+          <h3>{{ member.title }}</h3>
+          <p>{{ member.occupation }}</p>
+        </figcaption>
+      </figure>
     </li>
 {% endfor %}
 {% assign team_members = page.teamMembers | sort: 'lastname' %}
 {% for person in team_members %}
   {% assign member = site.personnel | where: "title", person.name | first %}
     <li class="person">
-      <figure><img src="/images/people/{{ member.photo }}"></figure>
-      <figcaption>
-        <h3>{{ member.title }}</h3>
-        <p>{{ member.occupation }}</p>
-      </figcaption>
+      <figure>
+        <img src="/images/people/{{ member.photo }}">
+        <figcaption>
+          <h3>{{ member.title }}</h3>
+          <p>{{ member.occupation }}</p>
+        </figcaption>
+      </figure>
     </li>
 {% endfor %}
 </ul>
