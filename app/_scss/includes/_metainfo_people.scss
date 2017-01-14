@@ -133,6 +133,32 @@
 			}
 		}
 	}
+
+	.metainfo.small.bio {
+		position: relative;
+
+		.person {
+			width: 47%;
+			padding-left: 3%;
+			order: 2;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+
+			figcaption {
+				display: none;
+			}
+		}
+
+		.profile-info {
+			width: 48%;
+			order: 1;
+
+			.key {
+				padding-left: 0;
+			}
+		}
+	}
 }
 
 @media (max-width: 729px) {
