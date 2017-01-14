@@ -7,13 +7,7 @@ layout: default
       <header>
         <h1>{{ page.title }}</h1>
         <section class="personnel small">
-          <section class="person">
-            <figure><img src="/images/people/{{ page.photo }}"></figure>
-            <figcaption>
-              <h3>{{ page.title }}</h3>
-              <p>{{ page.occupation }}</p>
-            </figcaption>
-          </section>
+          {% include personnel/person.html %}
         </section>
       </header>
       <div class="post-content">
@@ -22,12 +16,6 @@ layout: default
     </article>
   </section>
   <section class="right personnel large">
-    <section class="person">
-      <figure><img src="/images/people/{{ page.photo }}"></figure>
-      <figcaption>
-        <h3>{{ page.title }}</h3>
-        <p>{{ page.occupation }}</p>
-      </figcaption>
-    </section>
+    {% include personnel/person.html %}
   </section>
 </section>

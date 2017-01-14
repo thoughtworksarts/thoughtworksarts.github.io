@@ -4,7 +4,7 @@
   {% assign member = site.personnel | where: "title", person.name | first %}
     <li class="person">
       <figure>
-        <img src="/images/people/{{ member.photo }}">
+        <img src="/images/people/{{ member.photo }}" alt="{{ member.title }}">
         <figcaption>
           <h3>{{ member.title }}</h3>
           <p>{{ member.occupation }}</p>
@@ -17,7 +17,7 @@
   {% assign member = site.personnel | where: "title", person.name | first %}
     <li class="person">
       <figure>
-        <img src="/images/people/{{ member.photo }}">
+        <img src="/images/people/{{ member.photo }}" alt="{{ member.title }}">
         <figcaption>
           <h3>{{ member.title }}</h3>
           <p>{{ member.occupation }}</p>

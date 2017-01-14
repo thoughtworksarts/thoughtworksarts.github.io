@@ -11,7 +11,7 @@ bodyclass : content-page
         <h1>{{ artist.name }}: {{ page.title }}</h1>
       </header>
       <section class="personnel small">
-        {% include personnel.html %}
+        {% include personnel/personnel.html %}
       </section>
       <div class="post-content">
         {{ content }}
@@ -35,6 +35,6 @@ bodyclass : content-page
     </div>
   </section>
   <section class="right personnel large">
-    {% include personnel.html %}
+    {% include personnel/personnel.html %}
   </section>
 </section>
