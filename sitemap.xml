@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning</loc>
+    <lastmod>2017-01-18T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://thoughtworksarts.io/blog/how-i-became-a-cyborg</loc>
+    <lastmod>2017-01-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://thoughtworksarts.io/blog/cyborg-senses-weaving-materials</loc>
-    <lastmod>2016-09-29T00:00:00-04:00</lastmod>
+    <lastmod>2016-09-29T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg</loc>
-    <lastmod>2016-08-31T00:00:00-04:00</lastmod>
+    <lastmod>2016-08-31T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/team-gets-started-on-research</loc>
-    <lastmod>2016-06-29T00:00:00-04:00</lastmod>
+    <lastmod>2016-06-29T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs</loc>
-    <lastmod>2016-06-16T00:00:00-04:00</lastmod>
+    <lastmod>2016-06-16T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab</loc>
-    <lastmod>2016-06-03T00:00:00-04:00</lastmod>
+    <lastmod>2016-06-03T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/appearance-on-dotnyc</loc>
-    <lastmod>2016-05-25T00:00:00-04:00</lastmod>
+    <lastmod>2016-05-25T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/introducing-cyborg-foundation</loc>
-    <lastmod>2016-05-23T00:00:00-04:00</lastmod>
+    <lastmod>2016-05-23T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/announcing-the-program</loc>
-    <lastmod>2016-05-09T00:00:00-04:00</lastmod>
+    <lastmod>2016-05-09T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/blog/</loc>
@@ -40,9 +48,6 @@
   </url>
   <url>
     <loc>http://thoughtworksarts.io/program/</loc>
-  </url>
-  <url>
-    <loc>http://thoughtworksarts.io/projects/</loc>
   </url>
   <url>
     <loc>http://thoughtworksarts.io/residents/</loc>
