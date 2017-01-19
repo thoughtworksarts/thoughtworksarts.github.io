@@ -20,11 +20,12 @@
 
 	h1 {
 		cursor: default;
+		width: 100%;
 		transition: border 0.16s ease-out;
 		font-family: 'Open Sans', sans-serif;
 	}
 
-	.listing  h1:hover {
+	h1:hover {
 		border-top: 3px solid rgba(34, 34, 34, 0);
 	}
 
