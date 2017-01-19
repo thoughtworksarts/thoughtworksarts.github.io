@@ -11,8 +11,8 @@ projects      :
 links:
  - icon    : "fa-globe"
    name    : "Website"
-   display : "www.bla.com"
-   url     : "https://www.bla.com"
+   display : "cyborgfoundation.com"
+   url     : "http://cyborgfoundation.com/"
 
  - icon    : "fa-facebook"
    name    : "Facebook"
@@ -21,8 +21,8 @@ links:
 
  - icon    : "fa-twitter"
    name    : "Twitter"
-   display : "handle"
-   url     : "https://twitter.com/handle"
+   display : "moonribas"
+   url     : "https://twitter.com/moonribas"
 
  - icon    : "fa-linkedin"
    name    : "LinkedIn"
@@ -31,8 +31,8 @@ links:
 
  - icon    : "fa-instagram"
    name    : "Instagram"
-   display : "handle"
-   url     : "https://instagram.com/handle"
+   display : "moonribas"
+   url     : "https://www.instagram.com/moonribas"
 
  - icon    : "fa-soundcloud"
    name    : "SoundCloud"
@@ -55,8 +55,12 @@ links:
    url     : ""
 
 ---
-Etiam egestas, ante in ultrices condimentum, risus elit placerat lectus, eget porttitor tellus mi vitae massa. Nunc eu mi libero. Sed [ut euismod odio](http://test.com), eget porttitor turpis. Mauris lobortis urna ut semper commodo. Aliquam erat volutpat. Nulla tempor eu elit id porta. Pellentesque consequat mi quis arcu tristique fermentum. Curabitur lobortis lacus quis varius faucibus. Donec eu libero sed nisl dictum efficitur.
+Moon Ribas is a Catalan contemporary choreographer and the co-founder of the Cyborg Foundation, an international organization that aims to help people become cyborgs, defend cyborg rights and promote cyborgism as an artistic and social movement.
 
-In mattis, dui eu fringilla scelerisque, mauris tortor tristique ex, in posuere ex dui vel diam. Nulla ac dui vitae magna cursus faucibus in sed nunc. Fusce fringilla maximus quam, in convallis leo sollicitudin vel. Praesent placerat nisl purus, dignissim volutpat massa semper in. Morbi quis facilisis ante. Nunc sed lectus quis tellus facilisis mattis sit amet eget magna. Etiam non ex vel orci feugiat congue. Cras sit amet quam arcu.
+Moon graduated in Choreography at Dartington College of Arts (England), and studied at Theatreschool of Amsterdam SNDO (School for New Dance Development).
 
-Duis at turpis nibh. Nunc quis accumsan massa. Praesent vitae ornare augue, placerat porttitor sem. Nunc congue erat eu enim commodo, sit amet iaculis turpis varius. Donec ullamcorper nisl leo, nec pulvinar nisl pharetra in. Mauris ut mattis felis. Sed rutrum mi non massa luctus venenatis.
+Since 2007 Moon has been experimenting with different cybernetics devices that allow her to perceive movement in a deeper way. Moon's main research consists in developing the seismic sense, perceiving the movement of real-time earthquakes all around the world.
+
+In the piece <em>Waiting for Earthquakes</em>, Moon stands on stage waiting for a sensation of any global seismic activity. This activity actually occurs in small scales very frequently, and when Moon senses an earthquake she moves, responding to the intensity and duration of the quake.
+
+Ribas has performed and given talks in several venues and festivals such as TedxMunich (Germany), TedxMuscat (Oman), Campus Party London (UK), Fierce Fest (UK) or TNT (Festival of New Trends, Spain).
