@@ -1,9 +1,7 @@
 ---
 layout    : post
-title     : "How I Became a Cyborg"
-bodyid    : "blog"
-bodyclass : "content post"
-author    : "stefanie"
+title     : How I Became a Cyborg
+author    : stefanie-grewenig
 ---
 
 A couple of weeks ago, I had a small computer chip implanted in my left hand, between my thumb and my finger. I ordered the chip from the website [Dangerous Things](https://dangerousthings.com/). 

@@ -1,9 +1,7 @@
 ---
 layout    : post
 title     : "Suppressed Images: Advocating for Chelsea Manning's Release"
-bodyid    : "blog"
-bodyclass : "content post"
-author    : "announcement"
+author    : announcement
 ---
 
 In the weeks leading up to [yesterday's spectacular announcement](https://www.nytimes.com/2017/01/17/us/politics/obama-commutes-bulk-of-chelsea-mannings-sentence.html) of the commutation of Chelsea Manning's sentence, Chelsea was collaborating with resident artist [Heather Dewey-Hagborg](http://deweyhagborg.com) and illustrator [Shoili Kanungo](http://www.shoilikanungo.com/) on a [graphic short story](https://suppressedimages.net/).
