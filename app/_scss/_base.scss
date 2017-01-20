@@ -88,9 +88,9 @@ h1 {
 	}
 }
 
-h2 {
-	margin: 140px 0 0.1em 0;
-	font-size: 1.8em;
+h2, h2 span {
+	margin: 140px 0 0.1rem 0;
+	font-size: 1.8rem;
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 400;

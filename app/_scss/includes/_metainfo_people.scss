@@ -24,13 +24,15 @@
 			text-align: center;
 
 			h3 {
-				font-size: 1.4rem;
-				margin-top: 0.8rem;
+				font-size: 1.2rem;
+				margin-top: 0.2rem;
 				margin-bottom: 0;
 			}
 
 			p {
+				padding-top: 0.4em;
 				margin-bottom: 1.2rem;
+				font-size: 1rem;
 			}
 		}
 	}
@@ -88,6 +90,28 @@
 			}
 		}
 	}
+}
+
+.metainfo.large {
+	text-align: right;
+
+	.person-list, h2 {
+		width: 70%;
+		display: inline-block;
+	}
+
+	h2 {
+		text-align: center;
+		margin: 2.4em 0 1em 0;
+	}
+
+	h2::before {
+		background-image: none;
+	}
+}
+
+.metainfo.small .hide {
+	display: none;
 }
 
 @media (max-width: 1099px) {
