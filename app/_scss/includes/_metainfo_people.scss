@@ -110,6 +110,10 @@
 	}
 }
 
+.metainfo.large.bio {
+	text-align: left;
+}
+
 .metainfo.small .hide {
 	display: none;
 }
@@ -159,7 +163,7 @@
 			text-align: center;
 
 			h3 {
-				margin-top: 0;
+				margin: 0 0 0.3em 0;
 				font-size: 0.8em;
 			}
 
@@ -169,6 +173,10 @@
 				font-size: 0.8em;
 				font-style: italic;
 				margin-bottom: 0;
+			}
+
+			h3, p {
+				line-height: 1rem;
 			}
 		}
 	}
