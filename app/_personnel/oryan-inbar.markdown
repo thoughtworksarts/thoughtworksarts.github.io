@@ -7,7 +7,9 @@ season        : Summer 2016
 
 projects      : 
   - projectid : time-sense
+    role      : Industrial Designer
   - projectid : seismic-sense
+    role      : Industrial Designer
 
 links:
  - icon    : "fa-globe"

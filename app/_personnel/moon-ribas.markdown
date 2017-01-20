@@ -7,6 +7,7 @@ season        : Summer 2016
 
 projects      : 
   - projectid : seismic-sense
+    role      : Artist
 
 links:
  - icon    : "fa-globe"

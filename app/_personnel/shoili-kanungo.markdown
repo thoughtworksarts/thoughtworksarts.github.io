@@ -7,6 +7,7 @@ season        : Fall 2016
 
 projects      : 
   - projectid : suppressed-images
+    role      : Illustrator
 
 links:
  - icon    : "fa-globe"

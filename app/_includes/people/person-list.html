@@ -1,13 +1,14 @@
 <h2 class="first"><span class="hide">Project </span>Team</h2><ul class="second person-list">
 {% for person in page.artists %}
   {% assign member = site.personnel | where: "title", person.name | first %}
+  {% assign project = member.projects | where: "projectid", page.projectid | first %}
     <li class="person-item">
       <figure class="person">
         <a href="{{ member.url }}">
           <img src="/images/people/{{ member.photo }}" alt="{{ member.title }}">
           <figcaption>
             <h3>{{ member.title }}</h3>
-            <p>{{ member.occupation }}</p>
+            <p>{{ project.role }}</p>
           </figcaption>
         </a>
       </figure>
@@ -16,13 +17,14 @@
 {% assign team = page.team | sort: 'lastname' %}
 {% for member in team %}
   {% assign person = site.personnel | where: "title", member.name | first %}
+  {% assign project = person.projects | where: "projectid", page.projectid | first %}
     <li class="person-item">
       <figure class="person">
         <a href="{{ person.url }}">
           <img src="/images/people/{{ person.photo }}" alt="{{ person.title }}">
           <figcaption>
             <h3>{{ person.title }}</h3>
-            <p>{{ person.occupation }}</p>
+            <p>{{ project.role }}</p>
           </figcaption>
         </a>
       </figure>
