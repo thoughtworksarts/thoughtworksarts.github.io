@@ -2,7 +2,7 @@
 title         : Shoili Kanungo
 photo         : shoili-kanungo.png
 occupation    : Designer
-role          : Season
+role          : Collaborator
 season        : Fall 2016
 
 projects      : 

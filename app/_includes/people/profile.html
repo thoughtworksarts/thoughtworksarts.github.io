@@ -7,7 +7,7 @@
 </figure>
 <ul class="profile-info second">
   <li>
-    <span class="key">{{ page.role }}</span>
+    <span class="key">{% if page.role == 'Resident' %}{{ page.role }}{% else %}Season{% endif %}</span>
     <span class="value">{{ page.season }}</span>
   </li>
   <li>

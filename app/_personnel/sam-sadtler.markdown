@@ -2,7 +2,7 @@
 title         : Sam Sadtler
 photo         : sam-sadtler.png
 occupation    : Creative Technologist
-role          : Season
+role          : Collaborator
 season        : Summer 2016
 
 projects      : 

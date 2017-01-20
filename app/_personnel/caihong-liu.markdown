@@ -2,7 +2,7 @@
 title         : Caihong Liu
 photo         : caihong-liu.png
 occupation    : Resource Manager
-role          : Season
+role          : Collaborator
 season        : Summer 2016
 
 projects      : 

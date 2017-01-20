@@ -2,7 +2,7 @@
 title         : Oryan Inbar
 photo         : oryan-inbar.png
 occupation    : Industrial Designer
-role          : Season
+role          : Collaborator
 season        : Summer 2016
 
 projects      : 
