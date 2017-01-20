@@ -7,7 +7,7 @@ excerpt   : "The Time Sense allows the wearer to sense the passing of the 24-hou
 artists   :
   - name  : "Neil Harbisson"
 
-teamMembers :
+team :
   - name  : "Oryan Inbar"
   - name  : "Sam Sadtler"
   - name  : "Caihong Liu"

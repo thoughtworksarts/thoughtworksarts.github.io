@@ -7,7 +7,7 @@ excerpt   : "The Seismic Sense allows the wearer to feel real-time geoseismic ac
 artists   :
   - name  : "Moon Ribas"
 
-teamMembers :
+team :
   - name  : "Oryan Inbar"
   - name  : "Sam Sadtler"
   - name  : "Caihong Liu"

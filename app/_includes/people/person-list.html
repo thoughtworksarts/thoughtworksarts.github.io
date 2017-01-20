@@ -14,16 +14,16 @@
       </figure>
     </li>
 {% endfor %}
-{% assign team_members = page.teamMembers | sort: 'lastname' %}
-{% for person in team_members %}
-  {% assign member = site.personnel | where: "title", person.name | first %}
+{% assign team = page.team | sort: 'lastname' %}
+{% for member in team %}
+  {% assign person = site.personnel | where: "title", member.name | first %}
     <li class="person-item">
       <figure class="person">
-        <a href="{{ member.url }}">
-          <img src="/images/people/{{ member.photo }}" alt="{{ member.title }}">
+        <a href="{{ person.url }}">
+          <img src="/images/people/{{ person.photo }}" alt="{{ person.title }}">
           <figcaption>
-            <h3>{{ member.title }}</h3>
-            <p>{{ member.occupation }}</p>
+            <h3>{{ person.title }}</h3>
+            <p>{{ person.occupation }}</p>
           </figcaption>
         </a>
       </figure>
