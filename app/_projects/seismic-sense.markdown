@@ -1,24 +1,30 @@
 ---
-title     : "Seismic Sense"
+title     : Seismic Sense
 projectid : seismic-sense
+season    : Summer 2016
 
-excerpt   : "The Seismic Sense allows the wearer to feel real-time geoseismic activity from across the world"
+excerpt   : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.
 
 artists   :
-  - name  : "Moon Ribas"
+  - name  : Moon Ribas
 
 team :
-  - name  : "Oryan Inbar"
-  - name  : "Sam Sadtler"
-  - name  : "Caihong Liu"
+  - name  : Oryan Inbar
+  - name  : Sam Sadtler
+  - name  : Caihong Liu
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin est quis ultrices consequat. Proin dapibus eros nec leo tempor blandit. Phasellus non eros lacinia, vehicula nisi sed, vehicula lorem. Suspendisse aliquet vel lorem vitae iaculis. Quisque non placerat enim, id ornare quam. Donec ornare dolor ipsum, fermentum malesuada orci fermentum quis.
+*Seismic Sense* is a wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity, as they happen, anywhere in the world.
 
-Nunc eget efficitur dui. Nulla libero elit, vehicula at viverra ut, tempor non dui. Maecenas hendrerit, dui a convallis mollis, urna dui iaculis justo, quis aliquet nisl augue eget urna. Nulla a vulputate ante. Sed faucibus molestie erat nec dictum. Cras aliquam augue quis nisl finibus dictum.
+<figure>
+	<img src="/images/projects/seismic-sense/seismic-sense.jpg" alt="Moon wearing the Seismic Sense" />
+	<figcaption>Moon wearing the Seismic Sense</figcaption>
+</figure>
 
-Vestibulum id nunc nulla. Curabitur tortor est, faucibus sit amet sagittis id, elementum ut diam. Praesent mattis porta sem, ut accumsan metus ornare vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elit lorem, ultrices sed porttitor nec, dignissim id sapien. 
+As one of the founding members of the Cyborg Foundation, artist Moon Ribas is engaged in exploring transhumanism through permanent implants. The creation of the *Seismic Sense* wearable prototype allows Moon and the team to learn and reflect about how the sense might operate as a permanent implant.
 
-Vivamus diam velit, auctor a lorem eu, porttitor facilisis enim. Nullam viverra, neque eget rutrum fermentum, leo dui accumsan felis, eu suscipit odio leo sed mauris. Cras eu vulputate turpis. Maecenas lacus leo, dignissim nec justo ac, maximus laoreet turpis.
+This device is an example of an 'exosense', an external sensory organ. This means it is designed to be worn and felt consistently, twenty-four hours a day, seven days a week. The constant stream of sensations will allow Moon to develop an instinctual relationship with global seismic activity.
 
-Etiam non neque lacus. Nunc ornare nunc mauris, porta consequat libero ultricies non. Curabitur sodales mollis lacus, vitae tincidunt ligula pulvinar nec. Vestibulum enim arcu, congue ornare arcu a, auctor ornare turpis. Nullam nec laoreet ex. Nam ornare ipsum ac sapien.
+The wearable works by communicating over a cellular connection with a cloud-based server, which regularly parses a public [US Geological Survey data source](http://earthquake.usgs.gov/fdsnws/event/1/) for new quake data. When seismic activity is detected, the intensity, distance and duration are represented by small vibrations felt by the wearer. This interaction is based on an existing implant Moon has in her arm, which responds simply to the intensity of earthquakes.
+
+As a dancer and choreographer, Moon intends to use the *Seismic Sense* in her performances, notably in the peice *Waiting for Earthquakes*. In this performance, Moon waits and responds to any sensations of seismic activity as she feels them.
