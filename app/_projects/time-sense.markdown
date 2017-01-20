@@ -1,24 +1,26 @@
 ---
-title     : "Time Sense"
+title     : Time Sense
 projectid : time-sense
+season    : Summer 2016
 
-excerpt   : "The Time Sense allows the wearer to sense the passing of the 24-hour clock around the circumference of the head"
+excerpt   : A wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head.
 
 artists   :
   - name  : "Neil Harbisson"
 
 team :
-  - name  : "Oryan Inbar"
-  - name  : "Sam Sadtler"
-  - name  : "Caihong Liu"
+  - name  : Oryan Inbar
+  - name  : Sam Sadtler
+  - name  : Caihong Liu
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin est quis ultrices consequat. Proin dapibus eros nec leo tempor blandit. Phasellus non eros lacinia, vehicula nisi sed, vehicula lorem. Suspendisse aliquet vel lorem vitae iaculis. Quisque non placerat enim, id ornare quam. Donec ornare dolor ipsum, fermentum malesuada orci fermentum quis.
+*Time Sense* is a wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head. As the day progresses, a tiny heat sensation passes the length of the headband.
 
-Nunc eget efficitur dui. Nulla libero elit, vehicula at viverra ut, tempor non dui. Maecenas hendrerit, dui a convallis mollis, urna dui iaculis justo, quis aliquet nisl augue eget urna. Nulla a vulputate ante. Sed faucibus molestie erat nec dictum. Cras aliquam augue quis nisl finibus dictum.
+<figure>
+	<img src="/images/projects/time-sense/time-sense.jpg" alt="Neil wearing the Time Sense" />
+	<figcaption>Neil wearing the Time Sense</figcaption>
+</figure>
 
-Vestibulum id nunc nulla. Curabitur tortor est, faucibus sit amet sagittis id, elementum ut diam. Praesent mattis porta sem, ut accumsan metus ornare vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elit lorem, ultrices sed porttitor nec, dignissim id sapien. 
+This device is an example of an 'exosense', an external sensory organ. This means it is designed to be worn and felt consistently, twenty-four hours a day, seven days a week. The constant stream of sensations will allow Neil to develop a new form of instinctual relationship with the time of the day.
 
-Vivamus diam velit, auctor a lorem eu, porttitor facilisis enim. Nullam viverra, neque eget rutrum fermentum, leo dui accumsan felis, eu suscipit odio leo sed mauris. Cras eu vulputate turpis. Maecenas lacus leo, dignissim nec justo ac, maximus laoreet turpis.
-
-Etiam non neque lacus. Nunc ornare nunc mauris, porta consequat libero ultricies non. Curabitur sodales mollis lacus, vitae tincidunt ligula pulvinar nec. Vestibulum enim arcu, congue ornare arcu a, auctor ornare turpis. Nullam nec laoreet ex. Nam ornare ipsum ac sapien.
+Further, the *Time Sense* wearable prototype allows artist Neil Harbisson and the team to learn and reflect about how the sense might operate as a permanent implant. This is similar to the process behind Neil's existing permanent implant, an antenna which allows him to perceive color as sound, which was also prefigured by a wearable prototype.
