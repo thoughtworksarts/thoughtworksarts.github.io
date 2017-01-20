@@ -1,0 +1,92 @@
+.text-content {
+	position: relative;
+
+	h2 {
+		margin-top: 1em;
+	}
+
+	h2:before {
+		display: none;
+	}
+
+	figure {
+		margin: 1em 0 0.7em 0;
+		width: 99%;
+
+		img {
+			width: 100%;
+			border: 2px solid #eeeeee;
+		}
+
+		figcaption {
+			margin-top: 0.2em;
+			width: 100%;
+			text-align: center;
+			font-weight: bold;
+		}
+	}
+
+	table {
+		table-layout: fixed;
+		width: 100%;
+		margin: 1em 0;
+		line-height: 1.3em;
+	}
+
+	table, tr, td {
+		border: 1px solid #222222;
+		background: #ffffff;
+	}
+
+	tr, td {
+		padding: 0.7em;
+		overflow: hidden;
+	}
+
+	thead td {
+		font-weight: bold;
+		background: #eeeeee;
+	}
+}
+
+@media (max-width: 799px) {
+	.text-content figure img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 599px) {
+	.text-content table {
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 489px) {
+	.text-content figure {
+		width: 99%;
+	}
+}
+
+@media (max-width: 399px) {
+	.text-content figure {
+		width: 98%;
+	}
+}
+
+@media (max-width: 359px) {
+	.text-content figure {
+		width: 97%;
+	}
+}
+
+@media (max-width: 329px) {
+	.text-content figure {
+		width: 96%;
+	}
+}
+
+@media (max-width: 314px) {
+	.text-content figure {
+		width: 95%;
+	}
+}
