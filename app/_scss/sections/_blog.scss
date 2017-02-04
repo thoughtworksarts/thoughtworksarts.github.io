@@ -57,6 +57,18 @@
 			figcaption.indent {
 				left: 7.4em;
 			}
+
+			a {
+				color: inherit;
+			}
+
+			a:link, a:visited {
+				text-decoration: none;
+			}
+
+			a:hover, a:active {
+				text-decoration: underline;
+			}
 		}
 
 		figure.empty {
@@ -78,30 +90,30 @@
 			display: inline;
 			position: absolute; right: 0;
 			margin: 2.1em 0;
-		}
 
-		li {
-			display: inline;
-		}
+			li {
+				display: inline;
+			}
 
-		a {
-			margin-left: 0.8em;
-			position: relative; top: -5px;
-			transition: color 0.16s ease-out;
-			width: 10px;
-			font-size: 24px;
-		}
+			a {
+				margin-left: 0.8em;
+				position: relative; top: -5px;
+				transition: color 0.16s ease-out;
+				width: 10px;
+				font-size: 24px;
+			}
 
-		a:link, a:visited {
-			color: #d3d3d3;
-		}
+			a:link, a:visited {
+				color: #d3d3d3;
+			}
 
-		a:hover, a:active {
-			color: #f5ac1d;
-		}
+			a:hover, a:active {
+				color: #f5ac1d;
+			}
 
-		i {
-			color: inherit;
+			i {
+				color: inherit;
+			}
 		}
 	}
 

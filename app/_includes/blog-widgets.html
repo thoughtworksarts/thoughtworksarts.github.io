@@ -21,8 +21,8 @@
     </figure>
   {% else %}
     <figure>
-      <img src="/images/people/{{ author.photo }}" />
-      <figcaption>Posted by {{ author.title }}<br />{{ datestr }}</figcaption>
+      <a href="{{ author.url }}"><img src="/images/people/{{ author.photo }}" alt="{{ author.title }}" /></a>
+      <figcaption>Posted by <a href="{{ author.url }}">{{ author.title }}</a><br />{{ datestr }}</figcaption>
     </figure>
   {% endif %}
 </div>

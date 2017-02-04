@@ -5,6 +5,7 @@
     <p>{{ page.occupation }}</p>
   </figcaption>
 </figure>
+{% unless page.projects == nil %}
 <ul class="profile-info second">
   <li>
     <span class="key">{% if page.role == 'Resident' %}{{ page.role }}{% else %}Season{% endif %}</span>
@@ -36,4 +37,5 @@
       </li>
     {% endif %}
   {% endfor %}
-</table>
+</ul>
+{% endunless %}
