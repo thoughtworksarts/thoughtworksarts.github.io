@@ -5,30 +5,31 @@
     <p>{{ page.occupation }}</p>
   </figcaption>
 </figure>
-{% unless page.projects == nil %}
 <ul class="profile-info second">
-  <li>
-    <span class="key">{% if page.role == 'Resident' %}{{ page.role }}{% else %}Season{% endif %}</span>
-    <span class="value">{{ page.season }}</span>
-  </li>
-  <li>
-    {% assign projects = page.projects | sort: 'projectid' %}
-    <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
-    <span class="value">
-      {% if projects.size == 1 %}
-        {% assign p = projects | first %}
-        {% assign project = site.projects | where: 'projectid', p.projectid | first %}
-        <a href="{{ project.url }}">{{ project.title }}</a>
-      {% else %}
-        <ul class="project-list">
-          {% for p in projects %}
-            {% assign project = site.projects | where: 'projectid', p.projectid | first %}
-            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </span>
-  </li>
+  {% unless page.projects == nil %}
+    <li>
+      <span class="key">{% if page.role == 'Resident' %}{{ page.role }}{% else %}Season{% endif %}</span>
+      <span class="value">{{ page.season }}</span>
+    </li>
+    <li>
+      {% assign projects = page.projects | sort: 'projectid' %}
+      <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
+      <span class="value">
+        {% if projects.size == 1 %}
+          {% assign p = projects | first %}
+          {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+          <a href="{{ project.url }}">{{ project.title }}</a>
+        {% else %}
+          <ul class="project-list">
+            {% for p in projects %}
+              {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+              <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </span>
+    </li>
+  {% endunless %}
   {% for link in page.links %}
     {% if link.url != "" %}
       <li>
@@ -38,4 +39,3 @@
     {% endif %}
   {% endfor %}
 </ul>
-{% endunless %}
