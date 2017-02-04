@@ -1,21 +1,21 @@
 ---
 title         : Oryan Inbar
 photo         : oryan-inbar.png
-occupation    : Industrial Designer
+occupation    : Engineer / Industrial Designer
 role          : Collaborator
 season        : Summer 2016
 
 projects      : 
   - projectid : time-sense
-    role      : Industrial Designer
+    role      : Engineer / Industrial Designer
   - projectid : seismic-sense
-    role      : Industrial Designer
+    role      : Engineer / Industrial Designer
 
 links:
  - icon    : "fa-globe"
    name    : "Website"
-   display : "oryan1.com"
-   url     : "http://oryan1.com/"
+   display : "oryano.com"
+   url     : "http://oryano.com/"
 
  - icon    : "fa-facebook"
    name    : "Facebook"
