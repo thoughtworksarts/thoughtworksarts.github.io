@@ -2,7 +2,7 @@
   <img src="/images/people/{{ page.photo }}" alt="{{ page.title }}">
   <figcaption>
     <h3>{{ page.title }}</h3>
-    <p>{{ page.occupation }}</p>
+    <p>{{ page.occupation }}{% if page.role == "Residency Director" %}<br />Residency Director{% endif %}</p>
   </figcaption>
 </figure>
 <ul class="profile-info second">
