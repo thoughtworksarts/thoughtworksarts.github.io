@@ -1,7 +1,7 @@
 ---
 title         : Caihong Liu
 photo         : caihong-liu.png
-occupation    : Resource Manager
+occupation    : Enterprise Community Manager
 role          : Collaborator
 season        : Summer 2016
 
