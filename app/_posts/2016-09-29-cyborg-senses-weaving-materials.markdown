@@ -1,6 +1,6 @@
 ---
 title     : "Cyborg Senses: Weaving the Materials"
-author    : caihong-liu
+author    : Caihong Liu
 tags      : [time-sense, seismic-sense]
 ---
 

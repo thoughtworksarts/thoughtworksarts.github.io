@@ -1,7 +1,5 @@
 ---
-layout    : post
 title     : "Suppressed Images: Advocating for Chelsea Manning's Release"
-author    : announcement
 tags      : suppressed-images
 ---
 

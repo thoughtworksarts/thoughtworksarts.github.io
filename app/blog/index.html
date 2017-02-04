@@ -10,26 +10,7 @@ bodyid	  : blog
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
 			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			<div class="widgets">
-				<ul class="social">
-					<li>
-						<a href="http://twitter.com/share?text={{ post.title | uri_escape }}&amp;url=http://{{ site.name }}{{ post.url | uri_escape }}&amp;via=thoughtworks"><i class="fa fa-twitter"></i></a>
-					</li>
-					<li>
-						<a href="http://www.facebook.com/sharer/sharer.php?title={{ post.title | uri_escape }}&amp;u=http://{{ site.name }}{{ post.url | uri_escape }}"><i class="fa fa-facebook"></i></a>
-					</li>
-					<li>
-						<a href="http://www.tumblr.com/share?v=3&amp;t={{ post.title | uri_escape }}&amp;u=http://{{ site.name }}{{ post.url | uri_escape }}"><i class="fa fa-tumblr"></i></a>
-					</li>
-				</ul>
-				{% capture author %}{{ post.author }}{% endcapture %}
-				{% capture includefile %}blog/{{ post.author }}.html{% endcapture %}
-				{% capture datetime %}{{ post.date | date: "%Y-%m-%d" }}{% endcapture %}
-				{% capture datestr %}{{ post.date | date: "%A, %-d %B %Y" }}{% endcapture %}
-				{% unless author == "" %}
-					{% include {{includefile}} datetime=datetime datestr=datestr %}
-				{% endunless %}
-			</div>
+			{% include blog-widgets.html %}
 		</header>
 		<div class="text-content">
 			{{ post.excerpt }}
