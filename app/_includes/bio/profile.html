@@ -6,7 +6,7 @@
   </figcaption>
 </figure>
 <ul class="profile-info second">
-  {% unless page.projects == nil %}
+  {% unless page.projects.size == 0 %}
     <li>
       <span class="key">{% if page.participation == "Resident" %}{{ page.participation }}{% else %}Season{% endif %}</span>
       <span class="value">{{ page.season }}</span>
