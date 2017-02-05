@@ -1,7 +1,7 @@
 #projects {
 	#image-splash {
 		background-image: url('/images/full-bleed/banner-b-1400.jpg');
-		background-position: 85% 0%;
+		background-position: 84% 83%;
 	}
 
 	.when {
@@ -9,5 +9,13 @@
 		color: #cccccc;
 		font-size: 1.3rem;
 		font-style: italic;
+	}
+}
+
+@media (max-width: 999px) {
+	#projects {
+		#image-splash {
+			background-position: 53% 83%;
+		}
 	}
 }
