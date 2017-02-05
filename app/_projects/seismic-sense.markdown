@@ -6,8 +6,7 @@ order	  : 2016-2
 
 excerpt   : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.
 
-artists   :
-  - name  : Moon Ribas
+artist    : Moon Ribas
 
 team :
   - name  : Oryan Inbar

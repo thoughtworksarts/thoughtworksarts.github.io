@@ -6,8 +6,7 @@ order	  : 2016-3
 
 excerpt   : A graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork Radical Love.
 
-artists   :
-  - name  : Heather Dewey-Hagborg
+artist    : Heather Dewey-Hagborg
 
 team :
   - name  : Shoili Kanungo
