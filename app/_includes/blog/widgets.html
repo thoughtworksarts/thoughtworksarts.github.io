@@ -1,7 +1,7 @@
 {% if post == nil %}
   {% assign post = page %}
 {% endif %}
-{% assign author = site.personnel | where: "title", post.author | first %}
+{% assign author = site.personnel | where: "name", post.author | first %}
 {% capture datestr %}{{ post.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 <div class="widgets">
   <ul class="social">
@@ -21,8 +21,8 @@
     </figure>
   {% else %}
     <figure>
-      <a href="{{ author.url }}"><img src="/images/people/{{ author.photo }}" alt="{{ author.title }}" /></a>
-      <figcaption>Posted by <a href="{{ author.url }}">{{ author.title }}</a><br />{{ datestr }}</figcaption>
+      <a href="{{ author.url }}"><img src="/images/people/{{ author.photo }}" alt="{{ author.name }}" /></a>
+      <figcaption>Posted by <a href="{{ author.url }}">{{ author.name }}</a><br />{{ datestr }}</figcaption>
     </figure>
   {% endif %}
 </div>

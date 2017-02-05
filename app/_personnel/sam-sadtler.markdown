@@ -1,5 +1,5 @@
 ---
-title         : Sam Sadtler
+name          : Sam Sadtler
 photo         : sam-sadtler.png
 occupation    : Creative Technologist
 role          : Collaborator

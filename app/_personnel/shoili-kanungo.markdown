@@ -1,5 +1,5 @@
 ---
-title         : Shoili Kanungo
+name          : Shoili Kanungo
 photo         : shoili-kanungo.png
 occupation    : Designer
 role          : Collaborator

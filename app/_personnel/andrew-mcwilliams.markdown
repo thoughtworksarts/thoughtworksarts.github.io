@@ -1,5 +1,5 @@
 ---
-title         : Andrew McWilliams
+name          : Andrew McWilliams
 photo         : andrew-mcwilliams.png
 occupation    : Artist & Technologist
 role          : Residency Director

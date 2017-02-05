@@ -1,5 +1,5 @@
 ---
-title         : Stefanie Grewenig
+name          : Stefanie Grewenig
 photo         : stefanie-grewenig.png
 occupation    : Software Developer
 

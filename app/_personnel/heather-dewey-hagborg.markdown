@@ -1,5 +1,5 @@
 ---
-title         : Heather Dewey-Hagborg
+name          : Heather Dewey-Hagborg
 photo         : heather-dewey-hagborg.png
 occupation    : Artist
 role          : Resident

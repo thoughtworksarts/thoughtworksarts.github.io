@@ -1,5 +1,5 @@
 ---
-title         : Oryan Inbar
+name          : Oryan Inbar
 photo         : oryan-inbar.png
 occupation    : Engineer / Industrial Designer
 role          : Collaborator

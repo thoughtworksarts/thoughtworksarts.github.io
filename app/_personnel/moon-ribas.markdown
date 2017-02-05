@@ -1,5 +1,5 @@
 ---
-title         : Moon Ribas
+name          : Moon Ribas
 photo         : moon-ribas.png
 occupation    : Artist
 role          : Resident
