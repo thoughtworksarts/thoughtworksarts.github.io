@@ -5,12 +5,6 @@ occupation    : Engineer / Industrial Designer
 role          : Collaborator
 season        : Summer 2016
 
-projects      : 
-  - projectid : time-sense
-    role      : Engineer / Industrial Designer
-  - projectid : seismic-sense
-    role      : Engineer / Industrial Designer
-
 links:
  - icon    : "fa-globe"
    name    : "Website"

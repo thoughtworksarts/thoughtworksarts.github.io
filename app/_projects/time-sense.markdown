@@ -10,8 +10,11 @@ artist    : Neil Harbisson
 
 team :
   - name  : Oryan Inbar
+    role  : Engineer / Industrial Designer
   - name  : Sam Sadtler
+    role  : Engineer
   - name  : Caihong Liu
+    role  : Materials Researcher
 ---
 
 *Time Sense* is a wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head. As the day progresses, a tiny heat sensation passes the length of the headband.

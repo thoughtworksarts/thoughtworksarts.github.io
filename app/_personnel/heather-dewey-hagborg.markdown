@@ -5,10 +5,6 @@ occupation    : Artist
 role          : Resident
 season        : Fall 2016
 
-projects      : 
-  - projectid : suppressed-images
-    role      : Artist
-
 links:
  - icon    : "fa-globe"
    name    : "Website"

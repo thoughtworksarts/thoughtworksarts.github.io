@@ -1,12 +1,10 @@
-{% assign artist = site.personnel | where: "title", page.artist | first %}
-{% assign project = artist.projects | where: "projectid", page.projectid | first %}
-{% assign team = page.team | sort: 'lastname' %}
-
 <h2 class="first"><span class="hide">Project </span>Team</h2><ul class="second person-list">
-  {% include projects/person-item.html person=artist %}
-  {% for m in team %}
-    {% assign member = site.personnel | where: "title", m.name | first %}
-    {% assign project = member.projects | where: "projectid", page.projectid | first %}
-    {% include projects/person-item.html person=member %}
+  {% assign person = site.personnel | where: "title", page.artist | first %}
+  {% include projects/person-item.html role="Artist" %}
+
+  {% assign team = page.team | sort: 'lastname' %}
+  {% for member in team %}
+    {% assign person = site.personnel | where: "title", member.name | first %}
+    {% include projects/person-item.html role=member.role %}
   {% endfor %}
 </ul>

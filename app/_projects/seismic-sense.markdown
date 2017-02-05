@@ -10,8 +10,11 @@ artist    : Moon Ribas
 
 team :
   - name  : Oryan Inbar
+    role  : Engineer / Industrial Designer
   - name  : Sam Sadtler
+    role  : Engineer
   - name  : Caihong Liu
+    role  : Materials Researcher
 ---
 
 *Seismic Sense* is a wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity, as they happen, anywhere in the world.

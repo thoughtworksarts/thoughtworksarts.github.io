@@ -5,12 +5,6 @@ occupation    : Creative Technologist
 role          : Collaborator
 season        : Summer 2016
 
-projects      : 
-  - projectid : time-sense
-    role      : Engineer
-  - projectid : seismic-sense
-    role      : Engineer
-
 links:
  - icon    : "fa-globe"
    name    : "Website"

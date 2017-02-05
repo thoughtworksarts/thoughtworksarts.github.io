@@ -5,12 +5,6 @@ occupation    : Enterprise Community Manager
 role          : Collaborator
 season        : Summer 2016
 
-projects      : 
-  - projectid : time-sense
-    role      : Materials Researcher
-  - projectid : seismic-sense
-    role      : Materials Researcher
-
 links:
  - icon    : "fa-globe"
    name    : "Website"
