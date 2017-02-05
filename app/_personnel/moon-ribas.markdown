@@ -1,6 +1,5 @@
 ---
 name          : Moon Ribas
-photo         : moon-ribas.png
 occupation    : Artist
 participation : Resident
 season        : Summer 2016

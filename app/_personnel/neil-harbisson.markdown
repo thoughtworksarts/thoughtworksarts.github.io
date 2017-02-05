@@ -1,6 +1,5 @@
 ---
 name          : Neil Harbisson
-photo         : neil-harbisson.png
 occupation    : Artist
 participation : Resident
 season        : Summer 2016

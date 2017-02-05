@@ -2,11 +2,22 @@ module Personnel
   class Generator < Jekyll::Generator
     def generate(site)
       site.collections['personnel'].docs.each do |person|
-        person.data['projects'] = []
-        site.collections['projects'].docs.each do |project|
-          assign_artist_projects(person, project)
-          assign_collaborator_projects(person, project)
-        end
+        build_image_link person
+        build_project_list person, site.collections['projects'].docs
+      end
+    end
+
+    def build_image_link(person)
+      person.data['photo'] = "#{person.data['name']}.png"
+      person.data['photo'].downcase!
+      person.data['photo'].gsub!(' ','-')
+    end
+
+    def build_project_list(person, projects)
+      person.data['projects'] = []
+      projects.each do |project|
+        assign_artist_projects(person, project)
+        assign_collaborator_projects(person, project)
       end
     end
 

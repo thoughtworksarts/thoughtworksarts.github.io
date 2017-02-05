@@ -1,6 +1,5 @@
 ---
 name          : Heather Dewey-Hagborg
-photo         : heather-dewey-hagborg.png
 occupation    : Artist
 participation : Resident
 season        : Fall 2016

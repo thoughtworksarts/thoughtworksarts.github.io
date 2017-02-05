@@ -1,6 +1,5 @@
 ---
 name          : Shoili Kanungo
-photo         : shoili-kanungo.png
 occupation    : Designer
 participation : Collaborator
 season        : Fall 2016
