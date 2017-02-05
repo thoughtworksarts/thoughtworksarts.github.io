@@ -90,16 +90,16 @@
 		>header {
 			min-height: 576px;
 		}
-
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-800.jpg');
-			background-position: 50% 55%;
-		}
 	}
 }
 
 @media (max-width: 799px) {
 	#home {
+		#image-splash {
+			background-image: url('/images/full-bleed/residency-home-800.jpg');
+			background-position: 85% 79%;
+		}
+
 		#image-splash .intro-container .intro {
 			margin: 2em;
 		}
@@ -121,16 +121,19 @@
 
 @media (max-width: 639px) {
 	#home {
-		#image-splash .intro-container .intro {
-			margin: 0 1em 30%;
-			text-align: center;
+		#image-splash {
+			background-position: 85% 63%;
 
-			br {
-				display: none;
-			}
+			.intro-container .intro {
+				text-align: center;
 
-			.space {
-				display: inline;
+				br {
+					display: none;
+				}
+
+				.space {
+					display: inline;
+				}
 			}
 		}
 
