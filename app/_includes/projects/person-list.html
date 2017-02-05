@@ -3,30 +3,10 @@
 {% assign team = page.team | sort: 'lastname' %}
 
 <h2 class="first"><span class="hide">Project </span>Team</h2><ul class="second person-list">
-  <li class="person-item">
-    <figure class="person">
-      <a href="{{ artist.url }}">
-        <img src="/images/people/{{ artist.photo }}" alt="{{ artist.title }}">
-        <figcaption>
-          <h3>{{ artist.title }}</h3>
-          <p>{{ project.role }}</p>
-        </figcaption>
-      </a>
-    </figure>
-  </li>
-  {% for member in team %}
-    {% assign person = site.personnel | where: "title", member.name | first %}
-    {% assign project = person.projects | where: "projectid", page.projectid | first %}
-    <li class="person-item">
-      <figure class="person">
-        <a href="{{ person.url }}">
-          <img src="/images/people/{{ person.photo }}" alt="{{ person.title }}">
-          <figcaption>
-            <h3>{{ person.title }}</h3>
-            <p>{{ project.role }}</p>
-          </figcaption>
-        </a>
-      </figure>
-    </li>
+  {% include projects/person-item.html person=artist %}
+  {% for m in team %}
+    {% assign member = site.personnel | where: "title", m.name | first %}
+    {% assign project = member.projects | where: "projectid", page.projectid | first %}
+    {% include projects/person-item.html person=member %}
   {% endfor %}
 </ul>
