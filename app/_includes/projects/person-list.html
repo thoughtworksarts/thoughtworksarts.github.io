@@ -1,6 +1,6 @@
 <h2 class="first"><span class="hide">Project </span>Team</h2><ul class="second person-list">
   {% assign person = site.personnel | where: "title", page.artist | first %}
-  {% include projects/person-item.html role="Artist" %}
+  {% include projects/person-item.html role="Artist in Residence" %}
 
   {% assign team = page.team | sort: 'lastname' %}
   {% for member in team %}
