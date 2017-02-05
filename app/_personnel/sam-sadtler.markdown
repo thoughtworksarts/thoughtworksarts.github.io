@@ -2,7 +2,7 @@
 name          : Sam Sadtler
 photo         : sam-sadtler.png
 occupation    : Creative Technologist
-role          : Collaborator
+participation : Collaborator
 season        : Summer 2016
 
 links:

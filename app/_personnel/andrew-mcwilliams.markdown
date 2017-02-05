@@ -2,7 +2,7 @@
 name          : Andrew McWilliams
 photo         : andrew-mcwilliams.png
 occupation    : Artist & Technologist
-role          : Residency Director
+participation : Residency Director
 
 links:
  - icon    : "fa-globe"

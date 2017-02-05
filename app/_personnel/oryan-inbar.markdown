@@ -2,7 +2,7 @@
 name          : Oryan Inbar
 photo         : oryan-inbar.png
 occupation    : Engineer / Industrial Designer
-role          : Collaborator
+participation : Collaborator
 season        : Summer 2016
 
 links:

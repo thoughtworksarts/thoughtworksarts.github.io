@@ -2,7 +2,7 @@
 name          : Heather Dewey-Hagborg
 photo         : heather-dewey-hagborg.png
 occupation    : Artist
-role          : Resident
+participation : Resident
 season        : Fall 2016
 
 links:

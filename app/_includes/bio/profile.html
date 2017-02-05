@@ -2,13 +2,13 @@
   <img src="/images/people/{{ page.photo }}" alt="{{ page.name }}">
   <figcaption>
     <h3>{{ page.name }}</h3>
-    <p>{{ page.occupation }}{% if page.role == "Residency Director" %}<br />Residency Director{% endif %}</p>
+    <p>{{ page.occupation }}{% if page.participation == "Residency Director" %}<br />Residency Director{% endif %}</p>
   </figcaption>
 </figure>
 <ul class="profile-info second">
   {% unless page.projects == nil %}
     <li>
-      <span class="key">{% if page.role == 'Resident' %}{{ page.role }}{% else %}Season{% endif %}</span>
+      <span class="key">{% if page.participation == "Resident" %}{{ page.participation }}{% else %}Season{% endif %}</span>
       <span class="value">{{ page.season }}</span>
     </li>
     <li>

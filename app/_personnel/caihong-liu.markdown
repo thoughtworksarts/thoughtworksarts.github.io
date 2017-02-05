@@ -2,7 +2,7 @@
 name          : Caihong Liu
 photo         : caihong-liu.png
 occupation    : Enterprise Community Manager
-role          : Collaborator
+participation : Collaborator
 season        : Summer 2016
 
 links:
