@@ -55,8 +55,8 @@ Moon Ribas is a Catalan contemporary choreographer and the co-founder of the [Cy
 
 Moon graduated in Choreography at Dartington College of Arts (England), and studied at Theatreschool of Amsterdam SNDO (School for New Dance Development).
 
-Since 2007 Moon has been experimenting with different cybernetics devices that allow her to perceive movement in a deeper way. Moon's main research consists in developing the seismic sense, perceiving the movement of real-time earthquakes all around the world.
+Since 2007 Moon has been experimenting with different cybernetic devices that allow her to perceive movement in a deeper way. Moon's main research consists in developing the seismic sense, perceiving the movement of real-time earthquakes all around the world.
 
-In the piece <em>Waiting for Earthquakes</em>, Moon stands on stage waiting for a sensation of any global seismic activity. This activity actually occurs in small scales very frequently, and when Moon senses an earthquake she moves, responding to the intensity and duration of the quake.
+In the piece *Waiting for Earthquakes*, Moon stands on stage waiting for a sensation of any global seismic activity. This activity actually occurs in small scales very frequently, and when Moon senses an earthquake she moves, responding to the intensity and duration of the quake.
 
 Ribas has performed and given talks in several venues and festivals such as TedxMunich (Germany), TedxMuscat (Oman), Campus Party London (UK), Fierce Fest (UK) or TNT (Festival of New Trends, Spain).
