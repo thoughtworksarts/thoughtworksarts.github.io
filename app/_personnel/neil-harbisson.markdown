@@ -57,4 +57,4 @@ The antenna allows him to perceive visible and invisible colors such as infrared
 
 Harbisson’s artworks investigate the relationship between color and sound, experiment the boundaries of human perception and explore the use of artistic expression via sensory extensions.
 
-In 2010 he co-founded the Cyborg Foundation with Moon Ribas, an international organization that aims to help humans become cyborgs, defend cyborg rights and promote cyborgism as a social and artistic movement.
+In 2010 he co-founded the [Cyborg Foundation](/bio/cyborg-foundation/) with Moon Ribas, an international organization that aims to help humans become cyborgs, defend cyborg rights and promote cyborgism as a social and artistic movement.

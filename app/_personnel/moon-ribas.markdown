@@ -51,7 +51,7 @@ links:
    url     : ""
 
 ---
-Moon Ribas is a Catalan contemporary choreographer and the co-founder of the Cyborg Foundation, an international organization that aims to help people become cyborgs, defend cyborg rights and promote cyborgism as an artistic and social movement.
+Moon Ribas is a Catalan contemporary choreographer and the co-founder of the [Cyborg Foundation](/bio/cyborg-foundation/), an international organization that aims to help people become cyborgs, defend cyborg rights and promote cyborgism as an artistic and social movement.
 
 Moon graduated in Choreography at Dartington College of Arts (England), and studied at Theatreschool of Amsterdam SNDO (School for New Dance Development).
 
