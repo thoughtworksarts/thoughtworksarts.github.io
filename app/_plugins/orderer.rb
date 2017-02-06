@@ -2,6 +2,7 @@ module Orderer
   class Generator < Jekyll::Generator
     def generate(site)
       order_project_teams_by_lastname site
+      order_projects_by_season site
       order_personnel_by_lastname site
       order_personnel_by_season site
     end
@@ -14,19 +15,27 @@ module Orderer
       end
     end
 
+    def order_projects_by_season(site)
+      order_collection_by_season site.collections['projects'].docs
+    end
+
     def order_personnel_by_season(site)
-      seasons = { 'Winter'=>1, 'Summer'=>2, 'Fall'=>3 }
-      site.collections['personnel'].docs.each do |person|
-        if person.data['season']
-          season = person.data['season'].split ' '
-          person.data['season-code'] = "#{season[1]}-#{seasons[season[0]]}"
-        end
-      end
+      order_collection_by_season site.collections['personnel'].docs
     end
 
     def order_personnel_by_lastname(site)
       site.collections['personnel'].docs.each do |person|
         person.data['lastname'] = person.data['name'].split.last
+      end
+    end
+
+    def order_collection_by_season collection
+      seasons = { 'Winter'=>1, 'Summer'=>2, 'Fall'=>3 }
+      collection.each do |item|
+        if item.data['season']
+          season = item.data['season'].split ' '
+          item.data['season-code'] = "#{season[1]}-#{seasons[season[0]]}"
+        end
       end
     end
   end

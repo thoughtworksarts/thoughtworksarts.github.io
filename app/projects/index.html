@@ -9,7 +9,7 @@ bodyid    : projects
 	<p>Since the program's inception in 2016, residents at ThoughtWorks have been supported in projects which explore emerging technologies, and how they relate to society. Artists have the opportunity to assemble project teams, and often collaborate with ThoughtWorks employees as part of their process.</p>
 </section>
 <section class="listing projects expanded">
-	{% assign projects = site.projects | sort: 'order' | reverse %}
+	{% assign projects = site.projects | sort: 'season-code' | reverse %}
 	{% for project in projects | %}
 		<section class="listing-item flex-row">
 			<div class="image">

@@ -2,7 +2,6 @@
 title     : Time Sense
 projectid : time-sense
 season    : Summer 2016
-order	  : 2016-1
 
 excerpt   : A wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head.
 
