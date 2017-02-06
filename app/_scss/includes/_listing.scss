@@ -30,6 +30,14 @@
 				margin-top: 100px;
 			}
 
+			a:link, a:visited {
+				text-decoration: none;
+			}
+
+			a:hover, a:active {
+				text-decoration: underline;
+			}
+
 			p:last-of-type {
 				padding-bottom: 0;
 			}
