@@ -12,11 +12,18 @@ bodyid    : residents
 <section class="listing residents expanded">
 	{% assign residents = site.personnel | where: "participation","Resident" | sort: 'season-code' | reverse %}
 	{% for resident in residents %}
+		{% assign group_members = site.personnel | where: "group",resident.name | sort: 'lastname' %}
 		{% if resident.group == nil %}
-			<section class="listing-item reversed flex-row">
+			<section class="listing-item{% if group_members.size > 0 %} double-image{% endif %} reversed flex-row">
 				<div class="image">
 					<figure>
-						<a href="{{ resident.url }}"><img src="/images/people/{{ resident.photo }}" /></a>
+						{% if group_members.size > 0 %}
+							{% for member in group_members %}
+								<a href="{{ member.url }}"><img src="/images/people/{{ member.photo }}" /></a>
+							{% endfor %}
+						{% else %}
+							<a href="{{ resident.url }}"><img src="/images/people/{{ resident.photo }}" /></a>
+						{% endif %}
 					</figure>
 				</div>
 				<div class="text">
