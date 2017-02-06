@@ -3,6 +3,9 @@ name          : Cyborg Foundation
 occupation    : Artist
 participation : Resident
 season        : Summer 2016
+teaser        :
+   <p>The founders of the Cyborg Foundation are Neil Harbisson and Moon Ribas, both artists who have augmented their bodies with permanent new sensory organs.</p>
+   <p>The mission of the Cyborg Foundation is to help humans become cyborgs, to promote the use of cybernetics as part of the human body and to defend cyborg rights. The foundation believes that some cybernetic extensions should be treated as body parts, not as devices.</p>
 
 links:
  - icon    : "fa-globe"

@@ -3,6 +3,9 @@ name          : Heather Dewey-Hagborg
 occupation    : Artist
 participation : Resident
 season        : Fall 2016
+teaser        :
+   <p>Heather Dewey-Hagborg is an artist and educator who has shown work internationally at venues including Ars Electronica and MOMA PS1.</p>
+   <p>Her controversial biopolitical art practice includes the project <em>Stranger Visions</em> in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.</p>
 
 links:
  - icon    : "fa-globe"

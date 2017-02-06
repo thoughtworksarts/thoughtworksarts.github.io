@@ -1,5 +1,6 @@
 ---
 name          : Moon Ribas
+group         : Cyborg Foundation
 occupation    : Artist
 participation : Resident
 season        : Summer 2016

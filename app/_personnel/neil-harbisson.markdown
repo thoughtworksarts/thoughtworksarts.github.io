@@ -1,5 +1,6 @@
 ---
 name          : Neil Harbisson
+group         : Cyborg Foundation
 occupation    : Artist
 participation : Resident
 season        : Summer 2016

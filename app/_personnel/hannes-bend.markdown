@@ -3,6 +3,9 @@ name          : Hannes Bend
 occupation    : Artist
 participation : Resident
 season        : Winter 2017
+teaser        :
+   <p>Hannes Bend is an artist and lorem ipsum dolar sit amet, and has shown work internationally at venues including Ars Electronica.</p>
+   <p>Her controversial biopolitical art practice includes the project <em>Stranger Visions</em> in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.</p>
 
 links:
  - icon    : "fa-globe"

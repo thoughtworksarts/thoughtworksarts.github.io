@@ -10,7 +10,20 @@ bodyid    : residents
 	<p>As residents progress through their projects week by week, updates are posted to the <a href="/blog/">blog</a>. At the completion of each residency, the project is added to the <a href="/projects/">projects archive</a>, which documents activity and any outcomes.</p>
 </section>
 <section class="listing residents expanded">
-	{% include residents/hannes-bend.html %}
-	{% include residents/heather-dewey-hagborg.html %}
-	{% include residents/cyborg-foundation.html %}
+	{% assign residents = site.personnel | where: "participation","Resident" | sort: 'season-code' | reverse %}
+	{% for resident in residents %}
+		{% if resident.group == nil %}
+			<section class="listing-item reversed flex-row">
+				<div class="image">
+					<figure>
+						<a href="{{ resident.url }}"><img src="/images/people/{{ resident.photo }}" /></a>
+					</figure>
+				</div>
+				<div class="text">
+					<h2><a href="{{ resident.url }}">{{ resident.name }}</a></h2>
+					{{ resident.teaser }}
+				</div>
+			</section>
+		{% endif %}
+	{% endfor %}
 </section>
