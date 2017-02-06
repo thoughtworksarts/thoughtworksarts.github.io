@@ -17,6 +17,7 @@ module Personnel
       person.data['projects'] = []
       projects.each do |project|
         assign_artist_projects(person, project)
+        assign_group_projects(person, project)
         assign_collaborator_projects(person, project)
       end
     end
@@ -26,6 +27,12 @@ module Personnel
         if member['name'] == person.data['name']
           assign person, project
         end
+      end
+    end
+
+    def assign_group_projects(person, project)
+      if project.data['group'] == person.data['name']
+        assign person, project
       end
     end
 

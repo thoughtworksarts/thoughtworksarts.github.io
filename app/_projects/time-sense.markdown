@@ -7,6 +7,7 @@ order	  : 2016-1
 excerpt   : A wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head.
 
 artist    : Neil Harbisson
+group     : Cyborg Foundation
 
 team :
   - name  : Oryan Inbar
