@@ -2,7 +2,8 @@
   <img src="/images/people/{{ page.photo }}" alt="{{ page.name }}">
   <figcaption>
     <h3>{{ page.name }}</h3>
-    <p>{{ page.occupation }}{% if page.participation == "Residency Director" %}<br />Residency Director{% endif %}</p>
+    <p>{% if page.occupation == "Artist Group" %}Group{% else %}{{ page.occupation }}{% endif %}
+    {% if page.participation == "Residency Director" %}<br />Residency Director{% endif %}</p>
   </figcaption>
 </figure>
 <ul class="profile-info second">
