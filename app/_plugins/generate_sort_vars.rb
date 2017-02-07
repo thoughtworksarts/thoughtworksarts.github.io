@@ -1,10 +1,10 @@
-module Orderer
+module GenerateSortVars
   class Generator < Jekyll::Generator
     def generate(site)
       order_project_teams_by_lastname site
       order_projects_by_season site
-      order_personnel_by_lastname site
-      order_personnel_by_season site
+      order_people_by_lastname site
+      order_people_by_season site
     end
 
     def order_project_teams_by_lastname(site)
@@ -19,12 +19,12 @@ module Orderer
       order_collection_by_season site.collections['projects'].docs
     end
 
-    def order_personnel_by_season(site)
-      order_collection_by_season site.collections['personnel'].docs
+    def order_people_by_season(site)
+      order_collection_by_season site.collections['people'].docs
     end
 
-    def order_personnel_by_lastname(site)
-      site.collections['personnel'].docs.each do |person|
+    def order_people_by_lastname(site)
+      site.collections['people'].docs.each do |person|
         person.data['lastname'] = person.data['name'].split.last
       end
     end
