@@ -4,14 +4,14 @@ occupation    : Artist
 participation : Resident
 season        : Winter 2017
 teaser        :
-   <p>Hannes Bend is an artist and lorem ipsum dolar sit amet, and has shown work internationally at venues including Ars Electronica.</p>
-   <p>Her controversial biopolitical art practice includes the project <em>Stranger Visions</em> in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.</p>
+   <p>Hannes Bend is a German-born artist who has exhibited internationally, with shows in Berlin and New York.</p>
+   <p>His recent work investigates the possibilities of bio-feedback in virtual reality environments, incorporating heart rate, breath and more into experiences.</p>
 
 links:
  - icon    : "fa-globe"
    name    : "Website"
-   display : "deweyhagborg.com"
-   url     : "http://deweyhagborg.com/"
+   display : "hannesbend.com"
+   url     : "http://www.hannesbend.com/"
 
  - icon    : "fa-facebook"
    name    : "Facebook"
@@ -20,8 +20,8 @@ links:
 
  - icon    : "fa-twitter"
    name    : "Twitter"
-   display : "hdeweyh"
-   url     : "https://twitter.com/hdeweyh"
+   display : "hnnsbnd"
+   url     : "https://twitter.com/hnnsbnd"
 
  - icon    : "fa-linkedin"
    name    : "LinkedIn"
@@ -50,8 +50,8 @@ links:
 
  - icon    : "fa-github"
    name    : "Github"
-   display : "hdeweyh"
-   url     : "https://github.com/hdeweyh"
+   display : ""
+   url     : ""
 
 ---
 Heather Dewey-Hagborg is a transdisciplinary artist and educator who is interested in art as research and critical practice. Her controversial biopolitical art practice includes the project *Stranger Visions* in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.
