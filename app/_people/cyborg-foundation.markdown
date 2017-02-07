@@ -15,13 +15,13 @@ links:
 
  - icon    : "fa-facebook"
    name    : "Facebook"
-   display : ""
-   url     : ""
+   display : "cyborgfoundation"
+   url     : "https://www.facebook.com/cyborgfoundation/"
 
  - icon    : "fa-twitter"
    name    : "Twitter"
-   display : ""
-   url     : ""
+   display : "cyborg_fdn"
+   url     : "https://twitter.com/cyborg_fdn"
 
  - icon    : "fa-linkedin"
    name    : "LinkedIn"
