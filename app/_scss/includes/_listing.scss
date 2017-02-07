@@ -73,7 +73,7 @@
 		}
 	}
 
-	.listing-item.reversed {
+	.listing-item:nth-child(even) {
 		.text {
 			order: 1;
 		}
