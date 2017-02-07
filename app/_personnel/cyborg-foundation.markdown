@@ -1,6 +1,6 @@
 ---
 name          : Cyborg Foundation
-occupation    : Artist
+occupation    : Artist Group
 participation : Resident
 season        : Summer 2016
 teaser        :

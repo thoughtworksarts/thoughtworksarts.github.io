@@ -5,7 +5,6 @@ season    : Summer 2016
 excerpt   : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.
 
 artist    : Moon Ribas
-group     : Cyborg Foundation
 
 team :
   - name  : Oryan Inbar
