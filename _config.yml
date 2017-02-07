@@ -49,7 +49,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  personnel:
+  people:
     output: true
     permalink: /bio/:path/
 
@@ -76,7 +76,7 @@ defaults:
       bodyclass : content-page
   - scope:
       path: ""
-      type: "personnel"
+      type: "people"
     values:
       layout    : bio
       bodyid    : projects

@@ -1,6 +1,6 @@
-{% assign residents = site.personnel | where: "participation","Resident" | sort: 'season-code' | reverse %}
+{% assign residents = site.people | where: "participation","Resident" | sort: 'season-code' | reverse %}
 {% for resident in residents %}
-	{% assign group_members = site.personnel | where: "group",resident.name | sort: 'lastname' %}
+	{% assign group_members = site.people | where: "group",resident.name | sort: 'lastname' %}
 	{% if resident.group == nil %}
 		{% include residents/resident-item.html %}
 	{% endif %}
