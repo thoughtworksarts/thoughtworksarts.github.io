@@ -23,10 +23,8 @@ module Personnel
     end
 
     def assign_artist_projects(person, project)
-      project.data['team'].each do |member|
-        if member['name'] == person.data['name']
-          assign person, project
-        end
+      if project.data['artist'] == person.data['name']
+        assign person, project
       end
     end
 
@@ -37,8 +35,10 @@ module Personnel
     end
 
     def assign_collaborator_projects(person, project)
-      if project.data['artist'] == person.data['name']
-        assign person, project
+      project.data['team'].each do |member|
+        if member['name'] == person.data['name']
+          assign person, project
+        end
       end
     end
 
