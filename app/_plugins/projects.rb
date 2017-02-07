@@ -7,7 +7,7 @@ module Projects
     end
 
     def build_project_id(project)
-      project.data['projectid'] = project.data['title']
+      project.data['projectid'] = project.data['title'].dup
       project.data['projectid'].downcase!
       project.data['projectid'].gsub!(' ','-')
     end
