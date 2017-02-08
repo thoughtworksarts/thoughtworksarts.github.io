@@ -73,7 +73,7 @@
 		}
 	}
 
-	.listing-item:nth-child(even) {
+	.listing-item.alternating:nth-child(even) {
 		.text {
 			order: 1;
 		}
@@ -131,11 +131,11 @@
 			}
 		}
 
-		.listing-item.reversed {
+		.listing-item.alternating {
 			.image {
 				figure img {
-					margin-left: 0;
-					margin-right: 0.7em;
+					margin-left: 0 !important;
+					margin-right: 0.7em !important;
 				}
 			}
 		}
