@@ -166,6 +166,12 @@ footer:after {
 	}
 }
 
+@media (max-width: 849px) {
+	footer {
+		margin-top: 3em;
+	}
+}
+
 @media (max-width: 699px) {
 	footer .subscribe {
 		font-size: 1em;
