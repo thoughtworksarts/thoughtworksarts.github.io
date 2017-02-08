@@ -207,6 +207,7 @@
 		.profile-info {
 			width: 48%;
 			order: 1;
+			min-height: 9em;
 
 			.key {
 				padding-left: 0;
@@ -319,6 +320,7 @@
 		.profile-info {
 			padding-top: 0.5em;
 			width: 100%;
+			min-height: inherit;
 
 			.key, .value {
 				padding: 1.3%;
