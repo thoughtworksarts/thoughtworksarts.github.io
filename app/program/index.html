@@ -26,11 +26,11 @@ bodyid    : program
 		<section class="listing-item flex-row">
 			<div class="image">
 				<figure>
-					<img src="/images/people/{{ director.photo }}" />
+					<a href="{{ director.url }}"><img src="/images/people/{{ director.photo }}" /></a>
 				</figure>
 			</div>
 			<div class="text">
-				<h2>{{ director.name }}</h2>
+				<h2><a href="{{ director.url }}">{{ director.name }}</a></h2>
 				{{ director.teaser }}
 			</div>
 		</section>
