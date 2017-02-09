@@ -21,26 +21,18 @@ bodyid    : program
 	<header>
 		<h1>The residency team</h1>
 	</header>
-	<section class="listing-item flex-row">
-		<div class="image">
-			<figure>
-				<img src="/images/people/andrew-mcwilliams.png" />
-			</figure>
-		</div>
-		<div class="text">
-			<h2>Andrew McWilliams</h2>
-			<p>Andrew McWilliams is a New York-based artist, technologist and program director. He is Director of the ThoughtWorks Arts Residency and a Lead Consultant at ThoughtWorks. Andrew has exhibited work at HarvestWorks New York, Currents New Mexico, and AlphaVille Festival in London. He is Director of Art-A-Hack&trade; and the Hardware Hack Lab.</p>
-		</div>
-	</section>
-	<section class="listing-item flex-row">
-		<div class="image">
-			<figure>
-				<img src="/images/people/ellen-pearlman.png" />
-			</figure>
-		</div>
-		<div class="text">
-			<h2>Ellen Pearlman</h2>
-			<p>Ellen Pearlman is a new media arts curator, writer and critic. She received her PhD from the School of Creative Media, Hong Kong City University, where she premiered her brain opera "Noor", an interactive immersive performance in a 360&deg; theater. Ellen is on the faculty of Parsons/New School University, Director of the Volumetric Society of New York, and President of Art-A-Hack&trade;.</p>
-		</div>
-	</section>
+	{% assign directors = site.people | where: "participation","Residency Director" | sort: 'lastname' %}
+	{% for director in directors %}
+		<section class="listing-item flex-row">
+			<div class="image">
+				<figure>
+					<img src="/images/people/{{ director.photo }}" />
+				</figure>
+			</div>
+			<div class="text">
+				<h2>{{ director.name }}</h2>
+				{{ director.teaser }}
+			</div>
+		</section>
+	{% endfor %}
 </section>
