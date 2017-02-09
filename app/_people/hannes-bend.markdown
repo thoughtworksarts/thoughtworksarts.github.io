@@ -1,11 +1,11 @@
 ---
-name          : Hannes Bend
+name          : hannes bend
 occupation    : Artist
 participation : Resident
 season        : Winter 2017
 teaser        :
-   <p>Hannes Bend is a German-born artist who has exhibited internationally, with shows in Berlin and New York.</p>
-   <p>His recent work investigates the possibilities of bio-feedback in virtual reality environments, incorporating heart rate, breath and more into experiences.</p>
+   <p>hannes bend is a German-born artist who has exhibited internationally, with shows in Berlin and New York.</p>
+   <p>His recent work investigates the possibilities of biofeedback in virtual reality environments, incorporating heart rate, breath and more into experiences.</p>
 
 links:
  - icon    : "fa-globe"
@@ -54,8 +54,6 @@ links:
    url     : ""
 
 ---
-Heather Dewey-Hagborg is a transdisciplinary artist and educator who is interested in art as research and critical practice. Her controversial biopolitical art practice includes the project *Stranger Visions* in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.
+hannes bend recently developed one of the first virtual reality (VR) programs with heart rate biofeedback, with researchers while artist-in-residence at the Institute of Neuroscience and Quantum Physics Alemán Lab, at the University of Oregon from 2014-2016. For this project his team won "Best Presentation Award" at the AAAI (Association for the Advancement of Artificial Intelligence) Spring Symposia 2016 in the panel “Wellbeing Computing: AI meets Health and Happiness Science” at Stanford University. He conducted research on meditation and visual stimuli using EEG and fMRI.
 
-Heather has shown work internationally at events and venues including the World Economic Forum, Shenzhen Urbanism and Architecture Biennale, the New Museum, and PS1 MOMA. Her work has been widely discussed in the media, from the New York Times and the BBC to TED and Wired. She is an Assistant Professor of Art and Technology Studies at the School of the Art Institute of Chicago and a 2016 Creative Capital award grantee in the area of Emerging Fields.
-
-Heather has a PhD in Electronic Arts from Rensselaer Polytechnic Institute, a Masters degree from the Interactive Telecommunications Program at New York University, and a BA in Information Arts from Bennington College. She is currently and Assistant Professor of Art and technology Studies at the School of the Art Institute of Chicago.
+His practice centers around merging the insights from creative and contemplative practices, technology and science. He has presented, published, researched and exhibited projects internationally at museum, conferences and institutions, and guided breathing/yoga/meditation sessions globally. In late 2016, he curated the months-long project "Youniverse" at apexart in NY with over 50 contributors and focusing on consciousness, creative and contemplative practices. During the Thoughtworks residency, hannes will further develop the VR project with biofeedback with collaborators from arts, healing arts, technology and science.
