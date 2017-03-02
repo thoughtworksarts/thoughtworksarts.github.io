@@ -9,6 +9,8 @@ artist    : Heather Dewey-Hagborg
 team :
   - name  : Shoili Kanungo
     role  : Illustrator
+  - name  : Chelsea Manning
+    role  : Storyteller
 ---
 
 *Suppressed Images* is a graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork *Radical Love*.
