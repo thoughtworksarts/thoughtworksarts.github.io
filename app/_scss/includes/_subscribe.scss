@@ -64,11 +64,13 @@
 	}
 }
 
-.subscribe-index {
-	background-color: #222222;
-	margin: 0.7em 0 4.6em 0;
-	padding: 2%;
-	width: 96%;
+.subscribe-box {
+	.subscribe {
+		background-color: #222222;
+		margin: 0.7em 0 5.7em 0;
+		padding: 2%;
+		width: 96%;
+	}
 }
 
 @media (max-width: 999px) {
