@@ -20,9 +20,13 @@ future: true
 show_drafts: true
 excerpt_separator: <!--excerpt-ends-->
 
-permalink: /blog/:title/
-paginate: 7
-paginate_path: "/blog/page:num/"
+pagination:
+  enabled: true
+  sort_reverse: true
+  collection: posts
+  per_page: 7
+  permalink: /page:num/
+
 
 # Markdown library
 markdown: kramdown
@@ -44,6 +48,7 @@ highlighter: true
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate-v2
 
 collections:
   projects:
@@ -55,28 +60,24 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "pages"
+      type: pages
     values:
       layout    : default
       bodyclass : landing-page
   - scope:
-      path: ""
-      type: "posts"
+      type: posts
     values:
       layout    : post
       bodyid    : blog
       bodyclass : content-page
   - scope:
-      path: ""
-      type: "projects"
+      type: projects
     values:
       layout    : project
       bodyid    : projects
       bodyclass : content-page
   - scope:
-      path: ""
-      type: "people"
+      type: people
     values:
       layout    : bio
       bodyid    : projects
