@@ -27,6 +27,8 @@ pagination:
   per_page: 7
   permalink: /page:num/
 
+permalink: /blog/:title/
+
 
 # Markdown library
 markdown: kramdown
