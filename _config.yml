@@ -56,6 +56,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  newsletters:
+    output: true
+    permalink: /newsletters/:slug/
   people:
     output: true
     permalink: /bio/:path/
