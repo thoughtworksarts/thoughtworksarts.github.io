@@ -58,6 +58,12 @@ defaults:
       bodyid    : blog
       bodyclass : content-page
   - scope:
+      type: newsletters
+    values:
+      layout    : newsletter
+      bodyid    : blog
+      bodyclass : content-page
+  - scope:
       type: projects
     values:
       layout    : project
