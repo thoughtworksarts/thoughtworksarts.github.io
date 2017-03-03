@@ -59,7 +59,7 @@ $(document).ready(function() {
 			}
 		});
 
-		$('form.newsletter').submit(function(e){
+		$('form.newsletter-form').submit(function(e){
 			var tlemail = $('#tlemail');
 			if(tlemail.val() === 'your email'){
 				prepForEmailEntry(tlemail);

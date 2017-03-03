@@ -6,72 +6,6 @@ footer {
 	color: #ffffff;
 	position: relative;
 
-	.subscribe {
-		width: 50%;
-		float: left;
-		margin-right: 5%;
-		margin-left: 2%;
-		text-align: left;
-
-		.newsletter {
-			max-width: 727px;
-			width: 100%;
-			display: inline-block;
-			text-align: left;
-
-			label {
-				color: #ffffff;
-				display: block;
-				margin-bottom: 1em;
-				font-style: italic;
-			}
-
-			input {
-				border: 0;
-				outline: 0;
-				vertical-align: bottom;
-				font-size: 1.2em;
-				font-weight: lighter;
-				font-style: normal;
-				padding: 7px;
-				display: inline-block;
-			}
-
-			input.faded {
-				color: #cccccc;
-				font-style: italic;
-			}
-
-			input[type=email] {
-				width: 36%;
-				margin-bottom: 0.03em;
-			}
-
-			input[type='submit'] {
-				background-color: transparent;
-				letter-spacing: 0.1em;
-				text-transform: lowercase;
-				color: #ffffff;
-				-webkit-appearance: button;
-				cursor: pointer;
-				text-align: left;
-				transition: all 0.24s;
-				font-size: 1.1em;
-				background-image: url('/images/icons/arrow-white.png');
-				background-repeat: no-repeat;
-				background-position: right;
-				background-size: contain;
-				padding: 0.5em 2.45em 0.5em 0;
-				margin-left: 1.3em;
-			}
-
-			input[type='submit']:hover {
-				color: #f5ac1d;
-				background-image: url('/images/icons/arrow-canary.png');
-			}
-		}
-	}
-
 	ul li {
 		display: inline;
 
@@ -131,24 +65,6 @@ footer:after {
 
 @media (max-width: 999px) {
 	footer {
-		.subscribe {
-			width: 100%;
-			float: none;
-			text-align: center;
-			margin-bottom: 2em;
-			margin-left: 0;
-			padding-bottom: 2em;
-
-			.newsletter {
-				text-align: center;
-
-				input input[type=email] {
-					text-align: center;
-					font-size: 0.9em;
-				}
-			}
-		}
-
 		.social {
 			width: 100%;
 			float: none;
@@ -169,11 +85,5 @@ footer:after {
 @media (max-width: 849px) {
 	footer {
 		margin-top: 3em;
-	}
-}
-
-@media (max-width: 699px) {
-	footer .subscribe {
-		font-size: 1em;
 	}
 }

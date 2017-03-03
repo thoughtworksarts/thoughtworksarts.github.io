@@ -2,13 +2,25 @@
 title	   : Newsletters
 bodyid	   : blog
 pagination :
-  enabled      : true
-  collection   : newsletters
+  enabled	 : true
+  collection : newsletters
 ---
 <section>
 	<header>
 		<h1>Newsletters</h1>
 	</header>
+	<section>
+		<h1 class="newsletter-heading">Newsletter Archive</h1>
+		<p>Newsletters are sent out once every quarter. To keep up-to-date with news about the residency, sign up here, or browse the newsletter archive below.</p>
+		<div class="subscribe subscribe-index">
+		  <form class="newsletter-form" action="https://tinyletter.com/thoughtworksarts" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/thoughtworksarts', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+			<label for="tlemail">Keep up to date with residents and projects:</label>
+			<input type="email" name="email" id="tlemail" value="your email" class="faded" />
+			<input type="hidden" value="1" name="embed" />
+			<input type="submit" value="Subscribe" id="tlsubmit" />
+		  </form>
+		</div>
+	</section>
 	{% for newsletter in paginator.posts %}
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
