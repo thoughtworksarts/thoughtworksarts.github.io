@@ -12,14 +12,7 @@ pagination :
 	<section class="subscribe-box">
 		<h1 class="newsletter-heading">Newsletters</h1>
 		<p>Newsletters are sent out once every quarter, and are archived below. Sign up to receive them in your email inbox:</p>
-		<div class="subscribe">
-		  <form class="newsletter-form" action="https://tinyletter.com/thoughtworksarts" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/thoughtworksarts', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-			<label for="tlemail">Keep up to date with residents and projects:</label>
-			<input type="email" name="email" id="tlemail" value="your email" class="faded" />
-			<input type="hidden" value="1" name="embed" />
-			<input type="submit" value="Subscribe" id="tlsubmit" />
-		  </form>
-		</div>
+		{% include shared/subscribe-email.html %}
 	</section>
 	{% for newsletter in paginator.posts %}
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
