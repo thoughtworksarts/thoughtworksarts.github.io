@@ -36,25 +36,5 @@ pagination :
 	</article>
 	{% endfor %}
 
-	{% if paginator.next_page or paginator.previous_page %}
-		<ul id="paging" class="progress">
-			{% if paginator.previous_page %}
-				{% assign url = "/newsletters/" %}
-				{% if paginator.previous_page > 1 %}
-					{% assign url = "/newsletters/page" | append: paginator.previous_page %}
-				{% endif %}
-				<li><a href="{{ url }}" class="blog backwards">Previous page</a></li>
-			{% endif %}
-
-			{% if paginator.next_page and paginator.previous_page %}
-				{% assign text = "Next page" %}
-			{% elsif paginator.next_page %}
-				{% assign text = "See more newsletters" %}
-			{% endif %}
-
-			{% if paginator.next_page %}
-				<li><a href="/newsletters/page{{ paginator.next_page }}" class="blog forwards">{{ text }}</a></li>
-			{% endif %}
-		</ul>
-	{% endif %}
+	{% include shared/pagination.html folder='newsletters' %}
 </section>

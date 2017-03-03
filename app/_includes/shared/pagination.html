@@ -1,0 +1,24 @@
+{% assign folder = '/' | append: include.folder | append: '/' %}
+{% if paginator.next_page or paginator.previous_page %}
+	<ul id="paging" class="progress">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page > 1 %}
+				{% assign url = folder | append: 'page' | append: paginator.previous_page %}
+			{% else %}
+				{% assign url = folder %}
+			{% endif %}
+			<li><a href="{{ url }}" class="blog backwards">Previous page</a></li>
+		{% endif %}
+
+		{% if paginator.next_page and paginator.previous_page %}
+			{% assign text = "Next page" %}
+		{% elsif paginator.next_page %}
+			{% assign text = "See more posts" %}
+		{% endif %}
+
+		{% if paginator.next_page %}
+			{% assign url = folder | append: 'page' | append: paginator.next_page %}
+			<li><a href="{{ url }}" class="blog forwards">{{ text }}</a></li>
+		{% endif %}
+	</ul>
+{% endif %}
