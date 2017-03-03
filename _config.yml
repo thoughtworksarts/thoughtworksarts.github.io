@@ -62,7 +62,7 @@ defaults:
     values:
       layout    : newsletter
       bodyid    : blog
-      bodyclass : content-page
+      bodyclass : content-page newsletter
   - scope:
       type: projects
     values:
