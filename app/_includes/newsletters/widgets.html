@@ -3,17 +3,7 @@
 {% endif %}
 {% capture datestr %}{{ newsletter.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 <div class="widgets">
-  <ul class="social">
-    <li>
-      <a href="http://twitter.com/share?text={{ newsletter.title | uri_escape }}&amp;url=http://{{ site.name }}{{ newsletter.url | uri_escape }}&amp;via=tw_arts"><i class="fa fa-twitter"></i></a>
-    </li>
-    <li>
-      <a href="http://www.facebook.com/sharer/sharer.php?title={{ newsletter.title | uri_escape }}&amp;u=http://{{ site.name }}{{ newsletter.url | uri_escape }}"><i class="fa fa-facebook"></i></a>
-    </li>
-    <li>
-      <a href="http://www.tumblr.com/share?v=3&amp;t={{ newsletter.title | uri_escape }}&amp;u=http://{{ site.name }}{{ newsletter.url | uri_escape }}"><i class="fa fa-tumblr"></i></a>
-    </li>
-  </ul>
+  {% include shared/social.html post=newsletter %}
   <figure class="empty">
     <figcaption>Newsletter sent on {{ datestr }}<br /><a href="https://tinyletter.com/thoughtworksarts/subscribe/">Subscribe here for updates like this</a>.</figcaption>
   </figure>

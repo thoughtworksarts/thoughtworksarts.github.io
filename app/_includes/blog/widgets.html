@@ -4,17 +4,7 @@
 {% assign author = site.people | where: "name", post.author | first %}
 {% capture datestr %}{{ post.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 <div class="widgets">
-  <ul class="social">
-    <li>
-      <a href="http://twitter.com/share?text={{ post.title | uri_escape }}&amp;url=http://{{ site.name }}{{ post.url | uri_escape }}&amp;via=tw_arts"><i class="fa fa-twitter"></i></a>
-    </li>
-    <li>
-      <a href="http://www.facebook.com/sharer/sharer.php?title={{ post.title | uri_escape }}&amp;u=http://{{ site.name }}{{ post.url | uri_escape }}"><i class="fa fa-facebook"></i></a>
-    </li>
-    <li>
-      <a href="http://www.tumblr.com/share?v=3&amp;t={{ post.title | uri_escape }}&amp;u=http://{{ site.name }}{{ post.url | uri_escape }}"><i class="fa fa-tumblr"></i></a>
-    </li>
-  </ul>
+  {% include shared/social.html post=post %}
   {% if author == nil %}
     <figure class="empty">
       <figcaption>Posted by the Residency Team<br />{{ datestr }}</figcaption>
