@@ -16,6 +16,13 @@
   {% assign image = page.image %}
 {% endif %}
 
+{% capture description %}{{ page.description }}{% endcapture %}
+{% if description == '' %}
+  {% assign description = 'The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.' %}
+{% else %}
+  {% assign description = page.description %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,11 +32,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Description" content="The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.">
+  <meta name="Description" content="{{ description }}">
 
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:image" content="{{ site.url }}{{ image }}" />
+  <meta property="og:description" content="{{ description }}" />
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
