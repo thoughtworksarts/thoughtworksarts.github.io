@@ -10,7 +10,7 @@ bodyid    : projects
 </section>
 <section class="listing projects expanded">
 	{% assign projects = site.projects | sort: 'season-code' | reverse %}
-	{% for project in projects | %}
+	{% for project in projects %}
 		<section class="listing-item flex-row">
 			<div class="image">
 				<figure>
