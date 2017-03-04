@@ -1,19 +1,19 @@
 ---
-title     : Time Sense
-season    : Summer 2016
+title       : Time Sense
+season      : Summer 2016
 
-excerpt   : A wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head.
-image     : /images/projects/time-sense/og.jpg
+description : A wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head.
+image       : /images/projects/time-sense/og.jpg
 
-artist    : Neil Harbisson
+artist      : Neil Harbisson
 
 team :
-  - name  : Oryan Inbar
-    role  : Engineer / Industrial Designer
-  - name  : Sam Sadtler
-    role  : Engineer
-  - name  : Caihong Liu
-    role  : Materials Researcher
+  - name : Oryan Inbar
+    role : Engineer / Industrial Designer
+  - name : Sam Sadtler
+    role : Engineer
+  - name : Caihong Liu
+    role : Materials Researcher
 ---
 
 *Time Sense* is a wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head. As the day progresses, a tiny heat sensation passes the length of the headband.

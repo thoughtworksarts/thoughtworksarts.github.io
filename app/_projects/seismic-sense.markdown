@@ -1,19 +1,19 @@
 ---
-title     : Seismic Sense
-season    : Summer 2016
+title       : Seismic Sense
+season      : Summer 2016
 
-excerpt   : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.
-image     : /images/projects/seismic-sense/og.jpg
+description : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.
+image       : /images/projects/seismic-sense/og.jpg
 
-artist    : Moon Ribas
+artist      : Moon Ribas
 
 team :
-  - name  : Oryan Inbar
-    role  : Engineer / Industrial Designer
-  - name  : Sam Sadtler
-    role  : Engineer
-  - name  : Caihong Liu
-    role  : Materials Researcher
+  - name : Oryan Inbar
+    role : Engineer / Industrial Designer
+  - name : Sam Sadtler
+    role : Engineer
+  - name : Caihong Liu
+    role : Materials Researcher
 ---
 
 *Seismic Sense* is a wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity, as they happen, anywhere in the world.

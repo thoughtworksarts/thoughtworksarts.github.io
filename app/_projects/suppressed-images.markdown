@@ -1,17 +1,17 @@
 ---
-title     : Suppressed Images
-season    : Fall 2016
+title       : Suppressed Images
+season      : Fall 2016
 
-excerpt   : A graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork Radical Love.
-image     : /images/projects/suppressed-images/og.jpg
+description : A graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork Radical Love.
+image       : /images/projects/suppressed-images/og.jpg
 
-artist    : Heather Dewey-Hagborg
+artist      : Heather Dewey-Hagborg
 
 team :
-  - name  : Shoili Kanungo
-    role  : Illustrator
-  - name  : Chelsea Manning
-    role  : Storyteller
+  - name : Shoili Kanungo
+    role : Illustrator
+  - name : Chelsea Manning
+    role : Storyteller
 ---
 
 *Suppressed Images* is a graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork *Radical Love*.
