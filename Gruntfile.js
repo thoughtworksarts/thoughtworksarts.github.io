@@ -329,6 +329,16 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
+    },
+    replace: {
+      og_site_url: {
+        src: ['<%= yeoman.dist %>/**/*.html'],
+        overwrite: true,
+        replacements: [{
+          from: '<meta property=og:image content=',
+          to: '<meta property=og:image content=https://thoughtworksarts.io'
+        }]
+      }
     }
   });
 
@@ -381,7 +391,8 @@ module.exports = function (grunt) {
     'filerev',
     'autoprefixer:dist',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'replace'
     ]);
 
   grunt.registerTask('deploy', [

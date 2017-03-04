@@ -11,9 +11,9 @@
 
 {% capture image %}{{ page.image }}{% endcapture %}
 {% if image == '' %}
-  {% assign image = site.url | append: '/images/og_default.jpg' %}
+  {% assign image = '/images/og_default.jpg' %}
 {% else %}
-  {% assign image = site.url | append: page.image %}
+  {% assign image = page.image %}
 {% endif %}
 
 {% capture description %}{{ page.description }}{% endcapture %}
