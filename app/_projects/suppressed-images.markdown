@@ -3,6 +3,7 @@ title     : Suppressed Images
 season    : Fall 2016
 
 excerpt   : A graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork Radical Love.
+image     : /images/projects/suppressed-images/og.jpg
 
 artist    : Heather Dewey-Hagborg
 
