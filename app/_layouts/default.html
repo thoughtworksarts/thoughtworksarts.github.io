@@ -11,9 +11,9 @@
 
 {% capture image %}{{ page.image }}{% endcapture %}
 {% if image == '' %}
-  {% assign image = '/images/og_default.jpg' %}
+  {% assign image = site.url | append: '/images/og_default.jpg' %}
 {% else %}
-  {% assign image = page.image %}
+  {% assign image = site.url | append: page.image %}
 {% endif %}
 
 {% capture description %}{{ page.description }}{% endcapture %}
@@ -36,7 +36,7 @@
 
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
   <meta property="og:title" content="{{ title }}" />
-  <meta property="og:image" content="/images/og_default.jpg" />
+  <meta property="og:image" content="{{ image }}" />
   <meta property="og:description" content="{{ description }}" />
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
