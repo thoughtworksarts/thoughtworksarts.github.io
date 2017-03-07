@@ -36,3 +36,17 @@ description : Learn about the ThoughtWorks Arts Residency program, which support
 		</section>
 	{% endfor %}
 </section>
+<section>
+	<header>
+		<h1>Newsletters</h1>
+	</header>
+	<p>We send out occasional newsletter updates to keep you informed of our residents and their progress. We also include information from our other creative technology initiatives, such as <a href="https://artahack.io/">Art-A-Hack</a> and <a href="https://hardwarehacklab.io">Hardware Hack Lab</a>.</p>
+	<p>To learn more browse the listing below, or head over to our <a href="/newsletters/">newsletters page</a>.</p>
+	<ul>
+	{% assign newsletters = site.newsletters | reverse %}
+	{% for newsletter in newsletters %}
+		<li>{{ newsletter.date | date: "%B %-d, %Y" }}: <a href="{{ newsletter.url }}">{{ newsletter.title }}</a></li>
+	{% endfor %}
+	</ul>
+	<p>Subscribe to our mailing list below to get these updates in your email inbox, usually sent around once every quarter.</p>
+</section>
