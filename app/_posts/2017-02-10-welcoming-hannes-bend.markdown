@@ -12,7 +12,7 @@ hannes recently created [one of the first](http://www.hannesbend.com/index.php?/
 
 <!--excerpt-ends-->
 
-This video shows the prototype, named *mYndful*, in action.
+The video below shows the prototype, named *mYndful*, in action.
 
 <figure class="video">
 	<iframe src="https://www.youtube.com/embed/GwDUyrmfUig" frameborder="0" allowfullscreen></iframe>
