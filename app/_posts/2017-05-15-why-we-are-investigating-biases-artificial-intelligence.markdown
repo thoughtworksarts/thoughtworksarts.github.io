@@ -15,10 +15,10 @@ image     : "/images/posts/2017-05-17-why-we-are-investigating-biases-artificial
 
 <!--excerpt-ends-->
 
-<p>Numerous examples have already emerged of automated bias in action, suggesting that AI has already permeated into the fabric of our daily lives, and that we are now subject to new forms of pervasive, systemic bias. As our previous resident Heather Dewey-Hagborg <a href="https://thenewinquiry.com/sci-fi-crime-drama-with-a-strong-black-lead/">pointed out</a>, when decisions are made by computers and not humans, they have a false air of objectivity surrounding them.</p>
+<p>Numerous examples have recently emerged of automated bias in action, suggesting that AI has already permeated into the fabric of our daily lives, and that we are now subject to new forms of pervasive, systemic bias. As our previous resident Heather Dewey-Hagborg <a href="https://thenewinquiry.com/sci-fi-crime-drama-with-a-strong-black-lead/">pointed out</a>, when decisions are made by computers and not humans, they have a false air of objectivity surrounding them.</p>
 
 <h2>Many facets</h2>
-<p>If you sift through a selection of recent articles on AI, you&rsquo;ll find a dizzying mix of topics. You&rsquo;ll see self-driving cars, Amazon Alexa, industry-specific application analyses, startups and investment news, labor market and the looming job loss, often accompanied by pictures of the Terminator or other science fiction movie characters.</p>
+<p>If you sift through a selection of recent articles on AI, you&rsquo;ll find a dizzying mix of topics. You&rsquo;ll see self-driving cars, Amazon Alexa, industry-specific application analyses, startups and investment news, labor market and looming job loss, often accompanied by pictures of the Terminator or other science fiction movie characters.</p>
 
 <p>You&rsquo;ll also find articles predicting either dystopic futures, or the technical &lsquo;singularity&rsquo;. The singularity is the moment when AI-based systems, locked in runaway self-improvement cycles, cause an intelligence explosion in which computers far surpass the intelligence of human beings.</p>
 
