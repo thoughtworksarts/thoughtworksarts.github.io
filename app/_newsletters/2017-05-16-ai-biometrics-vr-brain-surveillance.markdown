@@ -10,7 +10,7 @@ title : "Artificial Intelligence, Biometrics, VR and Brain Surveillance"
 
 <h2>Biometrics &amp; Immersion: Three Views</h2>
 
-<p>Join us on Wednesday, May 15, 2017 at ThoughtWorks, 99 Madison, New York, for <a href="https://www.meetup.com/volumetric/events/239639066/">three views on Biometrics and Immersion in tech</a>. Current resident hannes bend, along with residency directors Ellen Pearlman and Andrew McWilliams will share their experiences working with brain waves, blood-glucose levels, and meditation &amp; breath, to discuss the future of the physical body and immersive art practices. This event is a part of the city-wide <a href="http://creativetechweek.nyc/">Creative Tech Week</a>.</p>
+<p>Join us on Wednesday, May 17, 2017 at ThoughtWorks, 99 Madison, New York, for <a href="https://www.meetup.com/volumetric/events/239639066/">three views on Biometrics and Immersion in tech</a>. Current resident hannes bend, along with residency directors Ellen Pearlman and Andrew McWilliams will share their experiences working with brain waves, blood-glucose levels, and meditation &amp; breath, to discuss the future of the physical body and immersive art practices. This event is a part of the city-wide <a href="http://creativetechweek.nyc/">Creative Tech Week</a>.</p>
 
 <figure><a href="https://jahya.net/works/insulin/"><img src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/3ac177c2-16b6-4e87-9a7b-a43ce4cf49b0.png"/></a><figcaption>Insulin, an blood-glucose visualization by Andrew McWilliams</figcaption></figure>
 
