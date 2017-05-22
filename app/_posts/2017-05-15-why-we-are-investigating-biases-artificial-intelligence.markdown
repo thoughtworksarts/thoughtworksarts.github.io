@@ -34,7 +34,7 @@ image     : "/images/posts/2017-05-17-why-we-are-investigating-biases-artificial
 <h2>AI Now</h2>
 <p>In 2016, Meredith Whittaker and Kate Crawford founded a new independent research initiative called <a href="https://artificialintelligencenow.com/">AI Now</a>. This initiative is intended as a contribution to illuminate <a href="http://www.nature.com/news/there-is-a-blind-spot-in-ai-research-1.20805">blind spots in AI research</a>, and investigate the current implications on industry, society, and individuals.</p>
 
-<p>Meredith contributed to the framing of our open call, and we are intend to keep the residency connected to the AI Now initiative as it progresses.</p>
+<p>Meredith contributed to the framing of our open call, and we intend to keep the residency connected to the AI Now initiative as it progresses.</p>
 
 <figure class="video">
 	<iframe src="https://www.youtube.com/embed/ZsP6n06zKFg" frameborder="0" allowfullscreen></iframe>
