@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://thoughtworksarts.io/blog/three-views-biometrics-immersion/</loc>
+<lastmod>2017-06-02T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/</loc>
 <lastmod>2017-05-15T00:00:00-04:00</lastmod>
 </url>
@@ -49,7 +53,7 @@
 <lastmod>2016-05-09T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>https://thoughtworksarts.io/program/</loc>
+<loc>https://thoughtworksarts.io/blog/</loc>
 </url>
 <url>
 <loc>https://thoughtworksarts.io/newsletters/</loc>
@@ -58,7 +62,7 @@
 <loc>https://thoughtworksarts.io/open-call/2017-implications-of-ai/</loc>
 </url>
 <url>
-<loc>https://thoughtworksarts.io/blog/</loc>
+<loc>https://thoughtworksarts.io/program/</loc>
 </url>
 <url>
 <loc>https://thoughtworksarts.io/projects/</loc>
