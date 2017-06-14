@@ -10,9 +10,8 @@ The speakers gave insights into working with blood-glucose levels, brainwaves, a
 <!--excerpt-ends-->
 
 <figure class="video">
-	<iframe src="https://www.youtube.com/embed/YOmvAV6eV2w" frameborder="0" allowfullscreen=""></iframe>
+	<iframe src="https://www.youtube.com/embed/YOmvAV6eV2w" frameborder="0" allowfullscreen></iframe>
 </figure>
-
 
 Andrew McWilliams’ Insulin (2015) works with the numbers emitted by a blood-glucose sensor that act as triggers for feelings of guilt, fear, or pride in daily decisions, such as eating or injecting insulin. This work became the platform for “Emergency Room” (2016), which compared personal health to global climate change.
 
@@ -27,8 +26,3 @@ Ellen Pearlman’s Noor: A Brain Opera (2016) was an EEG enabled immersive, inte
 </figure>
 
 hannes bend’s VR project mYnd, currently under development at the ThoughtWorks Arts Residency, is a VR experience that integrates dynamic and adaptive biofeedback via biosensors into the immersive experience. The artist aims to promote mindfulness and greater awareness through virtual worlds which respond to breath, heart rate, and more.
-
-
-
-
-
