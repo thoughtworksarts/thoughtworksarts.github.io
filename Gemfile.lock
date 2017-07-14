@@ -25,12 +25,16 @@ GEM
       addressable (~> 2.4.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    json (2.1.0)
     kramdown (1.11.1)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    mini_portile2 (2.2.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rainbow (2.0.0)
@@ -43,6 +47,9 @@ GEM
     scss-lint (0.35.0)
       rainbow (~> 2.0)
       sass (~> 3.4.1)
+    video_thumb (0.1.4)
+      json (~> 2.1)
+      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
@@ -56,6 +63,7 @@ DEPENDENCIES
   kramdown
   sass (>= 3.2)
   scss-lint (>= 0.18.0)
+  video_thumb
 
 BUNDLED WITH
    1.14.6
