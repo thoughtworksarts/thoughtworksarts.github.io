@@ -1,6 +1,5 @@
 ---
 title     : "Karen Palmer Awarded ThoughtWorks AI Residency"
-image     : "/images/posts/2017-07-12-karen-palmer-ai-residency/karen-palmer.jpg"
 ---
 
 The <a href="/open-call/2017-implications-of-ai/">ThoughtWorks Arts AI Residency</a> has been awarded to Karen Palmer, a London-based digital filmmaker and storyteller, to further develop her interactive film, RIOT.

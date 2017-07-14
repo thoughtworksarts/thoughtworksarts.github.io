@@ -1,7 +1,6 @@
 ---
 title     : "Why We Are Investigating the Biases of Artificial Intelligence"
 author    : Directors
-image     : "/images/posts/2017-05-17-why-we-are-investigating-biases-artificial-intelligence/message.jpg"
 ---
 
 <p>ThoughtWorks Arts has an <a href="https://thoughtworksarts.io/open-call/2017-implications-of-ai/">open call out now</a> for artists and technologists investigating the implications of Artificial Intelligence for society today.</p>
