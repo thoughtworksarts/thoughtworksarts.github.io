@@ -9,7 +9,7 @@ bodyclass : content-page
     <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
         <h1>{{ page.title }}</h1>
-        <p class="when">Project created: {{ page.season }}</p>
+        <p class="when">{% if page.status == 'in-progress' %}Project ongoing{% else %}Project created: {{ page.season }}{% endif %}</p>
       </header>
       <section class="metainfo small">
         {% include projects/person-list.html %}

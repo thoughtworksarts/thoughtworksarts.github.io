@@ -1,5 +1,6 @@
 ---
 title     : "Welcoming Hannes Bend to the ThoughtWorks Arts Residency"
+tags      : biofields
 ---
 Our latest artist-in-residence, [hannes bend](/bio/hannes-bend), has started with us on the Arts Residency program this week.
 

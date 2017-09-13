@@ -1,6 +1,7 @@
 ---
 title     : "Three Views on Biometrics and Immersion for Creative Tech Week"
 image     : "/images/posts/2017-06-02-three-views-biometrics-immersion/andy.jpg"
+tags      : biofields
 ---
 
 Residency directors Andrew McWilliams & Ellen Pearlman, along with current resident hannes bends, shared their experiences at a special event for this year's Creative Tech Week in New York. You can watch video of the talks below.
