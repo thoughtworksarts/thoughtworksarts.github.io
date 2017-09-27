@@ -90,8 +90,8 @@ module GenerateMetaTags
     end
 
     def get_first_paragraph(content)
-      type = discover_which_paragraph_type(content)
-      case type
+      @paragraph_type = discover_which_paragraph_type(content)
+      case @paragraph_type
       when :with_tag
         content[@paragraph_tag_regex, 1]
       when :without_tag
@@ -100,7 +100,13 @@ module GenerateMetaTags
     end
 
     def strip_tags(content)
-      content.gsub(/<\/?[^>]*>/, "")
+      rt = content.gsub(/<\/?[^>]*>/, "")
+      if @paragraph_type == :without_tag
+        rt = rt.gsub(/\(\/?[^>]*\)/, "")
+        rt = rt.tr("[", "")
+        rt = rt.tr("]", "")
+      end
+      rt
     end
 
     def discover_which_image_type(content)
