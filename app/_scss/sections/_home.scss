@@ -20,7 +20,7 @@
 
 			.intro {
 				color: #eee;
-				text-shadow: 0 0 2px #000000, 0 0 12px #331810, 0 0 24px #331810;
+				text-shadow: 0 0 2px #000000, 0 0 6px #000000, 0 0 16px #000000, 0 0 32px #000000, 0 0 64px #000000, 0 0 128px #000000;
 				font-size: 1.7em;
 				line-height: 1.7em;
 				opacity: 0.9;
@@ -103,6 +103,10 @@
 		#image-splash {
 			background-image: url('/images/full-bleed/residency-home-800.jpg');
 			background-position: 85% 79%;
+
+			.intro-container .intro {
+				text-shadow: 0 0 2px #000000, 0 0 7px #000000, 0 0 74px #000000;
+			}
 		}
 
 		#image-splash .intro-container .intro {
