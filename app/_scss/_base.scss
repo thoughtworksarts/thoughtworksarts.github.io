@@ -1,3 +1,4 @@
+$even_larger_font: 1.45rem;
 $largest_font: 1.2rem;
 $large_font: 1.15rem;
 $medium_font: 1.1rem;
@@ -18,7 +19,7 @@ html, body {
 
 body>main>section {
 	margin: 2em auto 4.1em 3em;
-	width: 674px;
+	width: 720px;
 }
 
 body>main>section.shorter {
@@ -26,7 +27,7 @@ body>main>section.shorter {
 }
 
 body>main>section.expanded {
-	width: 1010px;
+	width: 1060px;
 }
 
 body>main>section.expanded>section.left {
@@ -43,7 +44,7 @@ body>main>section:last-of-type {
 
 body>header.flex-col {
 	height: 67%;
-	min-height: 560px;
+	min-height: 635px;
 
 	#image-splash {
 		flex: 1 0 auto;
@@ -68,7 +69,7 @@ a:hover, a:active {
 }
 
 p, ul, ol, .progress, blockquote {
-	font-size: $largest_font;
+	font-size: $even_larger_font;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
 	padding: 0.9em 0;
@@ -78,6 +79,10 @@ ul, ol {
 	margin-left: 1.1em;
 }
 
+figcaption {
+	font-size: 1.25em;
+}
+
 h1 {
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
@@ -85,7 +90,7 @@ h1 {
 	display: inline-block;
 	padding: 0.28em 0.35em 0 0;
 	margin-top: 0.3em;
-	font-size: 2.2em;
+	font-size: 3em;
 
 	a:link, a:visited {
 		text-decoration: none;
@@ -94,7 +99,7 @@ h1 {
 
 h2, h2 span {
 	margin: 140px 0 0.1rem 0;
-	font-size: 1.8rem;
+	font-size: 2.1rem;
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 400;
@@ -338,6 +343,34 @@ ul.progress li, ol.progress li {
 }
 
 @media (max-width: 1299px) {
+	body>header.flex-col {
+		min-height: 560px;
+	}
+
+	body>main>section {
+		width: 674px;
+	}
+
+	body>main>section.expanded {
+		width: 1010px;
+	}
+
+	p, ul, ol, .progress, blockquote {
+		font-size: $largest_font;
+	}
+
+	figcaption {
+		font-size: 1em;
+	}
+
+	h1 {
+		font-size: 2.2em;
+	}
+
+	h2, h2 span {
+		font-size: 1.8rem;
+	}
+
 	ul.links li i {
 		font-size: 1.65em;
 	}

@@ -1,5 +1,5 @@
 #logonav {
-	height: 168px;
+	height: 189px;
 	position: relative;
 
 	h1 {
@@ -14,7 +14,7 @@
 		position: absolute; bottom: 0; left: 20px;
 
 		img {
-			height: 8.6em;
+			height: 10em;
 		}
 	}
 
@@ -42,8 +42,8 @@
 
 				a {
 					font-family: 'Bebas Neue', sans-serif;
-					font-size: 2em;
-					padding: 0.3em 0.6em;
+					font-size: 2.2em;
+					padding: 0.3em 0.5em;
 					letter-spacing: 0.05em;
 					text-decoration: none;
 				}
@@ -54,7 +54,7 @@
 					width: 21px;
 					height: 39px;
 					content: '';
-					position: relative; left: 22px; top: -30px;
+					position: relative; left: 22px; top: -33px;
 					opacity: 0;
 				}
 
@@ -103,6 +103,11 @@
 
 			a {
 				font-size: 1.9em;
+				padding: 0.3em 0.6em;
+			}
+
+			a:before {
+				top: -30px;
 			}
 		}
 	}

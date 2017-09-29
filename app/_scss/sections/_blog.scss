@@ -32,7 +32,7 @@
 	.widgets {
 		margin: 1.2em 0 0 0;
 		position: relative;
-		top: 0.2em;
+		top: 0.4em;
 
 		figure {
 			img {
@@ -50,7 +50,7 @@
 				position: absolute; top: 0;
 				display: inline;
 				margin: 0.76em;
-				font-size: 1em;
+				font-size: 1.2em;
 				line-height: 1.55em;
 			}
 
@@ -89,7 +89,7 @@
 			padding: 0;
 			display: inline;
 			position: absolute; right: 0;
-			margin: 2.1em 0;
+			margin: 1.7em 0;
 
 			li {
 				display: inline;
@@ -100,7 +100,7 @@
 				position: relative; top: -5px;
 				transition: color 0.16s ease-out;
 				width: 10px;
-				font-size: 24px;
+				font-size: 32px;
 			}
 
 			a:link, a:visited {
@@ -133,6 +133,24 @@
 #blog.landing-page {
 	h1:hover {
 		border-top: 3px solid rgba(34, 34, 34, 0);
+	}
+}
+
+@media (max-width: 1299px) {
+	#blog .widgets {
+		top: 0.2em;
+
+		figure figcaption {
+			font-size: 1em;
+		}
+
+		ul.social {
+			margin: 2.1em 0;
+
+			a {
+				font-size: 24px;
+			}
+		}
 	}
 }
 

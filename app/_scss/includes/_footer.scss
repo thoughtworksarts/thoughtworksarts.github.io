@@ -39,7 +39,7 @@ footer {
 	.notices {
 		margin-left: 1.9%;
 		position: absolute;
-		bottom: 0;
+		bottom: 0.2em;
 
 		li a {
 			font-size: 0.65em;
@@ -56,12 +56,28 @@ footer {
 			text-decoration: underline;
 		}
 	}
+
+	.subscribe {
+		position: relative;
+		bottom: 1em;
+	}
 }
 
 footer:after {
 	content: ' ';
 	display: block;
 	clear: both;
+}
+
+@media (max-width: 1299px) {
+	footer .notices {
+		bottom: 0;
+	}
+
+	.subscribe {
+		position: inherit;
+		bottom: inherit;
+	}
 }
 
 @media (max-width: 999px) {

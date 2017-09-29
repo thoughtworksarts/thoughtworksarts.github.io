@@ -24,7 +24,7 @@
 			text-align: center;
 
 			h3 {
-				font-size: 1.2rem;
+				font-size: 1.6rem;
 				margin-top: 0.2rem;
 				margin-bottom: 0;
 			}
@@ -32,14 +32,14 @@
 			p {
 				padding-top: 0.4em;
 				margin-bottom: 1.2rem;
-				font-size: 1rem;
+				font-size: 1.2rem;
 			}
 		}
 	}
 
 	.profile-info {
 		width: 100%;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		margin-left: 0;
 		list-style-type: none;
 
@@ -116,6 +116,24 @@
 
 .metainfo.small .hide {
 	display: none;
+}
+
+@media (max-width: 1299px) {
+	.metainfo {
+		.person figcaption {
+			h3 {
+				font-size: 1.2rem;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+		}
+
+		.profile-info {
+			font-size: 1rem;
+		}
+	}
 }
 
 @media (max-width: 1099px) {

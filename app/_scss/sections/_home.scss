@@ -21,11 +21,11 @@
 			.intro {
 				color: #eee;
 				text-shadow: 0 0 2px #000000, 0 0 12px #331810, 0 0 24px #331810;
-				font-size: 1.5em;
+				font-size: 1.7em;
 				line-height: 1.7em;
 				opacity: 0.9;
 				font-style: italic;
-				margin: 3em;
+				margin: 1.1em 3.5em;
 
 				.space {
 					display: none;
@@ -68,6 +68,11 @@
 
 			.intro-container {
 				margin-top: -1em;
+
+				.intro {
+					font-size: 1.5em;
+					margin: 3em;
+				}
 			}
 		}
 	}

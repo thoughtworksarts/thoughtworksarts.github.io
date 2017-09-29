@@ -7,8 +7,16 @@
 	.when {
 		font-weight: bold;
 		color: #cccccc;
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		font-style: italic;
+	}
+}
+
+@media (max-width: 1299px) {
+	#projects {
+		.when {
+			font-size: 1.3rem;
+		}
 	}
 }
 
