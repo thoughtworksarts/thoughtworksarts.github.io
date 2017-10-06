@@ -1,20 +1,20 @@
 ---
-title     : "Industrial Design for Time Sense Prototype"
+title     : "Industrial Design Process for the ‘Time Sense’ Prototype"
 author    : Oryan Inbar
 tags      : [time-sense]
 ---
-Development work continues on the experimental “[Time Sense](/projects/time-sense/)” prototype for cyborg [Neil Harbisson](/bio/neil-harbisson/). In this post, I’m going to talk about the industrial design process I am undertaking, and how it has played out in practice so far on this project.
+The first silicon-based “dummy” wearable for cyborg [Neil Harbisson](/bio/neil-harbisson/)'s “[Time Sense](/projects/time-sense/)” prototype is now ready, and Neil has been testing it for comfort and fit.
 
 <figure>
 	<img src="/images/posts/2017-09-29-industrial-design-time-sense-prototype/neil-harbisson-1.jpg" />
 	<figcaption>Neil shows where he wants to sense time</figcaption>
 </figure>
 
-Our goal is to create a permanently-wearable ‘soft device’ that allows Neil to feel the sensation of time passing throughout the day, as a micro-heat sensation around the circumference of his head.
+In this post, I’m going to talk about the industrial design process undertaken on this project, from design to deployment of the first silicon wearable.
 
 <!--excerpt-ends-->
 
-In the development of any cyborg sense, the initial goal is always to create a comfortable wearable with embedded electronics, including sensors or actuators that the cyborgs can actually feel.
+Our goal is to create a permanently-wearable ‘soft device’ that allows Neil to feel the sensation of time passing throughout the day, as a micro-heat sensation around the circumference of his head. In the development of any cyborg sense, the initial goal is always to create a comfortable wearable with embedded electronics, including sensors or actuators that the cyborgs can actually feel.
 
 These wearables allow the cyborgs to actually experience a new prototypical sense, so they can learn about what works and what doesn’t before developing it further. Based on that experience, they can decide what direction to go next, including potentially developing implants that will become integrated into the human, merging technology and biology.
 
