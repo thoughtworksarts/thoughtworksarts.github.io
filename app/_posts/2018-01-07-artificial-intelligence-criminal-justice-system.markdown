@@ -3,13 +3,13 @@ title     : "How Artificial Intelligence is Transforming the Criminal Justice Sy
 author    : Stephanie Weber
 ---
 
-Many of us are familiar with the idea that Artificial Intelligence systems are regularly making benign decisions, like recommendations on Netflix or Amazon.
+Many of us are familiar with the idea that Artificial Intelligence systems are regularly making benign decisions, like recommendations on Netflix or Amazon. What about decisions that have a significant impact on someone's life though?
 
 <figure>
 	<img src="/images/posts/2018-01-03-artificial-intelligence-criminal-justice-system/criminal-justice-1.jpg" />
 </figure>
 
-What about decisions that have a significant impact on someone's life though? Should AI systems be used in life-changing situations, like criminal sentencing?
+Should AI systems be used in life-changing situations, like criminal sentencing?
 
 <!--excerpt-ends-->
 
