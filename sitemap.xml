@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/</loc>
+<lastmod>2018-01-07T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/</loc>
 <lastmod>2017-09-29T00:00:00-04:00</lastmod>
 </url>
@@ -158,6 +162,9 @@
 </url>
 <url>
 <loc>https://thoughtworksarts.io/bio/stefanie-grewenig/</loc>
+</url>
+<url>
+<loc>https://thoughtworksarts.io/bio/stephanie-weber/</loc>
 </url>
 <url>
 <loc>https://thoughtworksarts.io/projects/biofields/</loc>
