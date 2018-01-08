@@ -5,12 +5,8 @@ tags      : suppressed-images
 
 In the weeks leading up to [yesterday's spectacular announcement](https://www.nytimes.com/2017/01/17/us/politics/obama-commutes-bulk-of-chelsea-mannings-sentence.html) of the commutation of Chelsea Manning's sentence, Chelsea was collaborating with resident artist [Heather Dewey-Hagborg](http://deweyhagborg.com) and illustrator [Shoili Kanungo](http://www.shoilikanungo.com/) on a [graphic short story](https://suppressedimages.net/).
 
-<figure>
-	<a href="https://suppressedimages.net/">
-		<img src="/images/posts/2017-01-18-suppressed-images-picturing-chelsea-manning/cover.jpg" alt="The title pane of 'Suppressed Images'" />
-	</a>
-	<figcaption>The title pane of 'Suppressed Images'</figcaption>
-</figure>
+{% include image.html file='cover.jpg' link='https://suppressedimages.net/'
+   caption='The title pane of \'Suppressed Images\'' %}
 
 The story documents the process by which, in 2015, Heather [created a unique portrait](http://deweyhagborg.com/projects/radical-love) of Manning from a sample of DNA, giving a form visibility back to the whistleblower who had been hidden in incarceration for years.
 
@@ -22,12 +18,8 @@ This collaboration was not planned from the beginning of the residency. It came 
 
 At the beginning of her residency, Heather presented her work over a conference call to an audience of global ThoughtWorks employees. Shoili Kanungo, a graphic designer and illustrator with ThoughtWorks India, watched the call and got in touch to suggest a collaboration.
 
-<figure>
-	<a href="https://suppressedimages.net/">
-		<img src="/images/posts/2017-01-18-suppressed-images-picturing-chelsea-manning/story-1.jpg" alt="The first page of 'Suppressed Images'" />
-	</a>
-	<figcaption>The first page of 'Suppressed Images'</figcaption>
-</figure>
+{% include image.html file='story-1.jpg' link='https://suppressedimages.net/'
+   caption='The first page of \'Suppressed Images\'' %}
 
 “She asked if she could help somehow and I started thinking about a graphic short story,” recalls Heather. “Time was short (this was less than a month ago) and we wanted to get something out before Obama left office.”
 

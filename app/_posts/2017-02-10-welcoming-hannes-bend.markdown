@@ -4,9 +4,7 @@ tags      : biofields
 ---
 Our latest artist-in-residence, [hannes bend](/bio/hannes-bend), has started with us on the Arts Residency program this week.
 
-<figure>
-	<img src="/images/posts/2017-02-10-introducing-hannes-bend/hannes-bend.jpg" />
-</figure>
+{% include image.html file='hannes-bend.jpg' %}
 
 hannes recently created [one of the first](http://www.hannesbend.com/index.php?/current/myndful/) Virtual Reality programs with heart-rate biofeedback in collaboration with Neuroscience and Quantum Physics Alemán Lab, University of Oregon.
 

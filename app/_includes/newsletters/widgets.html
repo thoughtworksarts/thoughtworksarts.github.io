@@ -3,7 +3,7 @@
 {% endif %}
 {% capture datestr %}{{ newsletter.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 <div class="widgets">
-  {% include shared/social.html post=newsletter %}
+  {% include social.html post=newsletter %}
   <figure class="empty">
     <figcaption>Newsletter sent on {{ datestr }}<br /><a href="https://tinyletter.com/thoughtworksarts/subscribe/">Subscribe here for updates like this</a>.</figcaption>
   </figure>

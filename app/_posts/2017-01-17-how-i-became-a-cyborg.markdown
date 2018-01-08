@@ -5,9 +5,8 @@ author    : Stefanie Grewenig
 
 A couple of weeks ago, I had a small computer chip implanted in my left hand, between my thumb and my finger. I ordered the chip from the website [Dangerous Things](https://dangerousthings.com/). 
 
-<figure>
-	<img src="/images/posts/2017-01-17-how-i-became-a-cyborg/needle.jpg" alt="The needle I used to inject" />
-</figure>
+{% include image.html file='needle.jpg'
+   caption='The needle I used to inject' %}
 
 The chip is a 12mm x 2mm Near Field Communication ([NFC](https://en.wikipedia.org/wiki/Near_field_communication)) tag inside a glass cylinder, delivered via a sterile syringe. NFC is the technology known for it’s use in contactless payment, but can be used to wirelessly transmit data of any kind.
 
@@ -19,10 +18,8 @@ While I was initially researching this topic, I was excited to discover that the
 
 An NFC tag is a very small chip attached to an antenna, which communicates via radio waves. NFC tags are "passive", which means they don’t need an on-board power supply.
 
-<figure>
-	<img src="/images/posts/2017-01-17-how-i-became-a-cyborg/nfc.png" alt="The structure of an NFC tag" />
-	<figcaption>The structure of an NFC tag (credit: <a href="https://commons.wikimedia.org/wiki/File:NFC_Tag_Structure.PNG">LSaranzaya</a>)</figcaption>
-</figure>
+{% include image.html file='nfc.png'
+   caption='The structure of an NFC tag (credit: <a href="https://commons.wikimedia.org/wiki/File:NFC_Tag_Structure.PNG">LSaranzaya</a>)' %}
 
 If you hold an NFC reader near my hand, for example an NFC-capable Android phone, the tag is powered entirely by the reader. The tag then transmits the data stored on it via a radio signal, which is interpreted by the reader.
 
@@ -36,10 +33,8 @@ Cyborg is short for "cybernetic organism". The term first appeared in the 60’s
 
 Until a couple of months ago, I used to think of cyborgs as science fiction characters — as humans that enhance their bodies through technology to gain superpowers. However, cyborgs are far from fiction any more — in fact they are all around us. It has become relatively straightforward for people to augment their senses, and there are many options for how they might do it.
 
-<figure>
-	<img src="/images/posts/2017-01-17-how-i-became-a-cyborg/rin-rauber.jpg" alt="Rin Rauber shows off a magnetic implant" />
-	<figcaption>Rin Rauber shows off a magnetic implant (credit: <a href="https://motherboard.vice.com/de/read/wir-haben-das-cybarcamp-in-berlin-besucht">motherboard</a>)</figcaption>
-</figure>
+{% include image.html file='rin-rauber.jpg'
+   caption='Rin Rauber shows off a magnetic implant (credit: <a href="https://motherboard.vice.com/de/read/wir-haben-das-cybarcamp-in-berlin-besucht">motherboard</a>)' %}
 
 Some people become cyborgs by implanting magnets into [their fingertips](http://rin-raeuber.com/implants.html), allowing them to sense the magnetic field. Others have [cochlear implants](https://en.wikipedia.org/wiki/Cochlear_implant) to regain their hearing. German researchers implemented a [brain-to-text interface](http://www.kit.edu/kit/english/pi_2015_063_speech-recognition-from-brain-activity.php), so-called "mind uploads". The military is building [exoskeletons](https://en.wikipedia.org/wiki/Powered_exoskeleton), which allow the wearer to carry heavy objects with ease. And these are just a few examples.
 
@@ -57,10 +52,8 @@ The crucial similarity between both of these definitions is the "voluntariness" 
 
 Another consideration is that of  a prostheses — an artificial limb. A prosthesis functions as an integral part of its wearers body, and the wearer may come to rely fully on the limb — however they are often easy to remove.
 
-<figure>
-	<img src="/images/posts/2017-01-17-how-i-became-a-cyborg/athlete.jpg" alt="An athlete runs with a prosthetic" />
-	<figcaption>An athlete runs with a prosthetic (credit: <a href="https://www.flickr.com/photos/toffehoff/238444227">toffehoff</a>)</figcaption>
-</figure>
+{% include image.html file='athlete.jpg'
+   caption='An athlete runs with a prosthetic (credit: <a href="https://www.flickr.com/photos/toffehoff/238444227">toffehoff</a>)' %}
 
 In the last few years people have been discussing the acceptance of prostheses in the olympics. Do wearers have an unfair advantage over other athletes? Society seems to accept medical cyborgs who augment their bodies, as long as they only "fix their shortcomings". However if we suspect someone is enhancing their skills and abilities above “normal”, we are afraid of losing control.
 

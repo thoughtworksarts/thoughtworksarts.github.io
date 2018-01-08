@@ -5,10 +5,8 @@ author    : Directors
 
 <p>ThoughtWorks Arts has an <a href="https://thoughtworksarts.io/open-call/2017-implications-of-ai/">open call out now</a> for artists and technologists investigating the implications of Artificial Intelligence for society today.</p>
 
-<figure>
-	<img src="/images/posts/2017-05-17-why-we-are-investigating-biases-artificial-intelligence/message.jpg" />
-	<figcaption>Image by <a href="https://www.flickr.com/photos/rpmarks/32144425053/">Roger Marks</a></figcaption>
-</figure>
+{% include image.html file='message.jpg'
+   caption='Image by <a href="https://www.flickr.com/photos/rpmarks/32144425053/">Roger Marks</a>' %}
 
 <p>AI has incredible potential to automate all kinds of decision-making, and revolutionize industries. However, because of the way in which AI systems are trained, they can also automate and amplify human biases in ways their designers do not intend.</p>
 

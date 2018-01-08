@@ -6,10 +6,8 @@ tags      : [time-sense, seismic-sense]
 
 I never knew that one day I would be part of a project to develop new human senses &mdash; but here I am. I&rsquo;ve spent the last six months working with the <a href="https://thoughtworksarts.io/blog/introducing-cyborg-foundation/">Cyborg Foundation</a> on their <a href="http://thoughtworksarts.io">ThoughtWorks Arts Residency</a> project.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/sam-oryan-prototyping.jpg" alt="Engineers Oryan Inbar and Sam Sadtler testing a prototype" />
-	<figcaption>Engineers Oryan Inbar and Sam Sadtler testing a prototype</figcaption>
-</figure>
+{% include image.html file='sam-oryan-prototyping.jpg'
+   caption='Engineers Oryan Inbar and Sam Sadtler testing a prototype' %}
 
 In this post I want to explain what I learned about materials and wearable devices, in the context of experimental new forms of human-computer interaction.
 
@@ -21,10 +19,8 @@ The project is composed of two parts, both intensely fascinating. Neil Harbisson
 
 At the same time, Moon Ribas intends to develop a new sense of planetary motion for her feet, in which she will feel real-time global earthquake activity. This will give her a sense of how intense and far away from her the seismic shocks are.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/sam-moon.jpg" alt="Sam Sadtler helping Moon Ribas try out a prototype" />
-	<figcaption>Sam Sadtler helping Moon Ribas try out a prototype</figcaption>
-</figure>
+{% include image.html file='sam-moon.jpg'
+   caption='Sam Sadtler helping Moon Ribas try out a prototype' %}
 
 During our early planning meetings, I decided that the subject where I could contribute the most was materials research. These senses would require electronics on the body, and those electronics would need to be housed in some form of skin-safe material.
 
@@ -34,10 +30,8 @@ Sometimes there are misunderstandings, and sometimes there are mistakes. They ar
 
 Neil and Moon both [already have](/blog/introducing-cyborg-foundation/) permanent subdermal implants. They contend that this is what makes them true &lsquo;cyborgs&rsquo;. Dialing in for planning meetings from Chengdu, China, I originally understood &ldquo;exoskeleton&rdquo; to mean &ldquo;still subdermal&rdquo; &mdash; below the skin.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/neil-prototype.jpg" alt="Neil trying on a prototype headband" />
-	<figcaption>Neil trying on a prototype headband</figcaption>
-</figure>
+{% include image.html file='neil-prototype.jpg'
+   caption='Neil trying on a prototype headband' %}
 
 In fact the intention during the residency was to make wearable prototypes for evaluation. Neil and Moon intend to try out these wearables as semi-permanent senses, and may consider making permanent implants going forward.
 
@@ -49,10 +43,8 @@ One of our project team, industrial designer <a href="http://oryan1.com/">Oryan 
 
 Our first investigations were into a silicone called <a href="https://www.smooth-on.com/tb/files/Skin_Tite.pdf">Skin Tite / Thi-Vex</a>. Unfortunately, this material can get tacky after some time. We discovered with practice that it would not be able to hold Neil&rsquo;s sensor, as it would mess up Neil&rsquo;s beautiful hair.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/dragon-skin.jpg" alt="Engineers Oryan Inbar and Sam Sadtler testing a prototype" />
-	<figcaption>A range of Smooth-On silicone products</figcaption>
-</figure>
+{% include image.html file='dragon-skin.jpg'
+   caption='A range of Smooth-On silicone products' %}
 
 Another material we discovered is Smooth On's <a href="https://www.smooth-on.com/tb/files/DRAGON_SKIN_SERIES_TB.pdf">Dragon Skin</a>, which is much stronger. Although these two materials are commonly used for skin special effects in movies, I could not find the data proving that long-term wearing would still be skin and human safe, as this is not in the nature of their intended use.
 
@@ -64,10 +56,8 @@ Moving forward, we decided that perhaps we should give fabrics a try. I did some
 
 Using these fabrics we could conceivably make a head-band for Neil&rsquo;s time sense with the sensor sewn into the band. We could also make Moon a pair of socks, again with the sensors sewn in.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/neoprene-wrist-wrap.jpg" alt="A neoprene wrist wrap" />
-	<figcaption>A neoprene wrist wrap</figcaption>
-</figure>
+{% include image.html file='neoprene-wrist-wrap.jpg'
+   caption='A neoprene wrist wrap' %}
 
 However this research ended up highlighting the importance of a key criterion for the wearable &mdash; that it protect the electronics from water damage. When it rains, or when Neil and Moon decide to go swimming, for that matter, the sensors and electronics would not be protected by these synthetic materials.
 
@@ -111,10 +101,8 @@ Finally we discovered <a href="http://www.sandraw.co/">San Draw</a>, a 3D-printi
 
 Oryan Inbar contacted San Draw&rsquo;s CEO, Gary Chang, and was able to arrange an in-person meeting and demonstration. During the meeting, we discovered that not only was the San Draw product flexible enough to meet our needs, but that it was also skin-safe for extended periods of constant wearing.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/oryan-gary.jpg" alt="Oryan Inbar with Gary Young of San Draw" />
-	<figcaption>Oryan Inbar with Gary Young of San Draw</figcaption>
-</figure>
+{% include image.html file='oryan-gary.jpg'
+   caption='Oryan Inbar with Gary Young of San Draw' %}
 
 Additionally, San Draw is soft, and water and abrasion proof, matching our criteria well. Discovering this seemingly perfect material and production process freed us to begin investigating another quirk of Neil&rsquo;s headband design.
 
@@ -122,10 +110,8 @@ Additionally, San Draw is soft, and water and abrasion proof, matching our crite
 
 Although San Draw would make a good candidate for the band part of Neil&rsquo;s wearable, we had one more materials concern to address. Neil&rsquo;s band would contain a series of electronically-powered thermal sources distributed across the band, as shown in the image below.
 
-<figure>
-	<img src="/images/posts/2016-09-29-cyborg-senses-weaving-materials/exo-sense-sketch.png" alt="Oryan Inbar's sketch for the head-band" />
-	<figcaption>Oryan Inbar's sketch for the head-band</figcaption>
-</figure>
+{% include image.html file='exo-sense-sketch.png'
+   caption='Oryan Inbar\'s sketch for the head-band' %}
 
 In addition to the band material, we would need a coating material to sit between the thermal source and the skin, at the location of each thermal source.
 

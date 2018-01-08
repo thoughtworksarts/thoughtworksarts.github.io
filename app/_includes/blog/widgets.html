@@ -4,7 +4,7 @@
 {% assign author = site.people | where: "name", post.author | first %}
 {% capture datestr %}{{ post.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 <div class="widgets">
-  {% include shared/social.html post=post %}
+  {% include social.html post=post %}
   {% if post.author == "Directors" %}
     <figure>
       <a href="/bio/andrew-mcwilliams/"><img src="/images/people/andrew-mcwilliams.png" alt="Andrew McWilliams" /></a>

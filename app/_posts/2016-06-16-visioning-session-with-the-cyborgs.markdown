@@ -5,10 +5,8 @@ tags      : [time-sense, seismic-sense]
 ---
 Our first residents, the Cyborg Foundation, <a href="/blog/introducing-cyborg-foundation/">came to ThoughtWorks</a> with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
 
-<figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/neil.jpg" alt="Neil detailing the vision for his new sense" />
-	<figcaption>Neil detailing the vision for his new sense</figcaption>
-</figure>
+{% include image.html file='neil.jpg'
+   caption='Neil detailing the vision for his new sense' %}
 
 Following on from an initial period of outreach across ThoughtWorks offices, we have now assembled a global cross-disciplinary team. Yesterday the team assembled for a planned 4-hour visioning session, and I have to say I was surprised at just how effective it was.
 
@@ -18,10 +16,8 @@ In addition to ThoughtWorkers, attending the meeting were two recent graduates f
 
 Also attending was residency co-organizer Ellen Pearlman, a PhD candidate at the School of Creative Media in Hong Kong. Ellen brings a wealth of knowledge about trans-humanism, and recently premiered her <a href="http://media.digitalarti.com/image/noor_a_brain_opera">new brain opera</a> at ISEA 2016.
 
-<figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/call.jpg" alt="Moon Ribas describes her new sense to a cross-disciplinary team" />
-	<figcaption>Moon Ribas describes her new sense to a cross-disciplinary team</figcaption>
-</figure>
+{% include image.html file='call.jpg'
+   caption='Moon Ribas describes her new sense to a cross-disciplinary team' %}
 
 The key objective for the session was to get all the ideas out on the table, in such a way that it enabled this globally distributed team to start working.
 
@@ -37,28 +33,22 @@ While I acted as facilitator, Danelle acted as scribe, capturing ideas on a virt
 
 Whenever the questioning reached natural cadences, we turned attention to the wall for validation and modification by the group. We would then draw a line under that area of inquiry and ask the group: "who has more questions we <em>haven't</em> covered yet?"
 
-<figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/wall-nonactionable.png" alt="Non-actionable ideas arranged on a wall" />
-	<figcaption>Non-actionable ideas arranged on a wall</figcaption>
-</figure>
+{% include image.html file='wall-nonactionable.png'
+   caption='Non-actionable ideas arranged on a wall' %}
 
 The wall above shows where all the non-actionable ideas ended up. These ideas are crucial, and there were several key moments where our understandings of the conceptual underpinnings of the project were questioned, corrected and aligned with reference to this wall.
 
 The actionable ideas ended up on a wall of their own, where they were discussed and prioritized. After this, we transferred the ideas onto Trello as tasks, and asked who in the group would like to volunteer for ownership of which tasks.
 
-<figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/wall-actionable.png" alt="Actionable ideas arranged as tasks" />
-	<figcaption>Actionable ideas arranged as tasks</figcaption>
-</figure>
+{% include image.html file='wall-actionable.png'
+   caption='Actionable ideas arranged as tasks' %}
 
 This left people feeling enabled and ready to go. However, Ellen reminded us of something crucial at the end - the need to clearly set expectations about what success might look like.
 
 We only have this team assembled for a short time during the residency. We agreed that some form of prototype 'exo-sense' could be possible, but not the development of full implants.
 
-<figure>
-	<img src="/images/posts/2016-06-16-visioning-session-with-the-cyborgs/oryan.jpg" alt="Oryan wears his 'exo-sense' thesis project" />
-	<figcaption>Oryan wears his 'exo-sense' thesis project</figcaption>
-</figure>
+{% include image.html file='oryan.jpg'
+   caption='Oryan wears his \'exo-sense\' thesis project' %}
 
 As Neil pointed out, an exo-sense is different to a wearable, in that it will be worn 24 hours a day, 7 days a week. Oryan walked us through what this looks like in practice, showing us his exo-sense thesis project from ITP.
 

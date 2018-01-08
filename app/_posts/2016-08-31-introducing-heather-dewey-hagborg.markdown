@@ -4,9 +4,7 @@ tags      : suppressed-images
 ---
 We are pleased to welcome our second resident artist, Heather Dewey-Hagborg, who will be with us over the next four months.
 
-<figure>
-	<img src="/images/posts/2016-08-31-introducing-heather-dewey-hagborg/heather2.jpg" />
-</figure>
+{% include image.html file='heather2.jpg' %}
 
 Heather is an artist and researcher known for her work highlighting the implications of DNA as readily-available data, including genetic surveillance and new forms of racial stereotyping.
 
@@ -16,19 +14,15 @@ In her breakthrough piece, <em>Stranger Visions</em> (2013), Heather went underc
 
 Heather took these samples to [Genspace](http://genspace.org/), a "community bio-lab" in Brooklyn, and sequenced the DNA found within. She then used this data to build imagined 3D sculptural masks of what these anonymous people might look like.
 
-<figure>
-	<img src="/images/posts/2016-08-31-introducing-heather-dewey-hagborg/stranger-visions.jpg" />
-	<figcaption>DNA from saliva used to generate a 3D-printed face model</figcaption>
-</figure>
+{% include image.html file='stranger-visions.jpg'
+   caption='DNA from saliva used to generate a 3D-printed face model' %}
 
 The results are astonishing and chilling, showing how easy it is to reconstruct physical traits from discarded everyday items. 
 
 Stranger Visions was also indicative of an emerging and [much larger market](https://snapshot.parabon-nanolabs.com/), using traits of DNA analysis for a variety of purposes, such as [criminal investigation](http://www.nytimes.com/2015/02/24/science/building-face-and-a-case-on-dna.html) and [public shaming](http://time.com/3890499/hong-kong-littering-campaign/). Realizing there was a burgeoning market for this re-purposed DNA, Heather wrote extensively about its dystopic social implications.
 
-<figure>
-	<img src="/images/posts/2016-08-31-introducing-heather-dewey-hagborg/dna-faces-separator.jpg" />
-	<figcaption>The 'face space' in the algorithms make entirely unscientific generalizations</figcaption>
-</figure>
+{% include image.html file='dna-faces-separator.jpg'
+   caption='The \'face space\' in the algorithms make entirely unscientific generalizations' %}
 
 Heather also exposed how pre-existing racial and ethnic and gender stereotypes and biases are rife in the creation of seemingly benign, neutral algorithms. This seriously flawed practice contains a bias that affects everyone’s information, and by extension their life: credit, medical analysis, and potentially even job status.
 
@@ -43,10 +37,8 @@ The companion spray <em>Replace</em> obfuscates the remaining DNA; it contains 5
 
 During her time at ThoughtWorks, Heather intends to begin a new body of work, currently named <em>Sell/Bio</em>, in which she will research the "histories, infrastructures, protocols and business models" that position DNA as a "commodity to be bought and sold on the open market."
 
-<figure>
-	<img src="/images/posts/2016-08-31-introducing-heather-dewey-hagborg/exhibition.jpg" />
-	<figcaption><em>Stranger Visions</em> on display at Artefact 2015 (credit <a href="https://www.flickr.com/photos/carolienc/15983790824/">Carolien Coenen</a>)</figcaption>
-</figure>
+{% include image.html file='exhibition.jpg'
+   caption='<em>Stranger Visions</em> on display at Artefact 2015 (credit <a href="https://www.flickr.com/photos/carolienc/15983790824/">Carolien Coenen</a>)' %}
 
 Taking inspiration from <em>Rebecca Skloot</em>’s bestseller [The Immortal Life of Henrietta Lacks](http://rebeccaskloot.com/the-immortal-life/), <em>Sell/Bio</em> "connects the dots, giving a face and a name to supposedly anonymous DNA, derived from human cells and put up for sale, presenting a visceral portrayal of the invisible subjects of biological exploitation."
 

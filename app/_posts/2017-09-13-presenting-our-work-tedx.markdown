@@ -16,10 +16,8 @@ In the talk I begin by explaining my practice, and how during 2016 I went from l
 
 Following on from that I explain my partnership with Ellen Pearlman, and the programs we continue to run together, such as the [Hardware Hack Lab](https://hardwarehacklab.io), [Art-A-Hack](https://artahack.io/), and the [ThoughtWorks Arts Residency](https://thoughtworksarts.io/).
 
-<figure>
-	<img src="/images/posts/2017-09-13-presentation-residency-tedx/noor.jpg" />
-	<figcaption>Excerpt from 'Noor: A Brain Opera' in Hong Kong</figcaption>
-</figure>
+{% include image.html file='noor.jpg'
+   caption='Excerpt from \'Noor: A Brain Opera\' in Hong Kong' %}
 
 I go on to describe Ellen's work on brain-computer interfaces, and her ground-breaking performative piece 'Noor' from 2016, which was the [world's first brainwave opera](https://creators.vice.com/en_us/article/wnpm3w/eeg-brainwave-opera-hong-kong).
 
