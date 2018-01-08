@@ -5,9 +5,7 @@ tags      : [time-sense, seismic-sense]
 ---
 We had a spot on Jeff Jarvis's new web TV show this week, dotNYC, along with Christina Warren and other guests.
 
-<figure class="video">
-	<iframe src="https://www.youtube.com/embed/x3SwU0nYdfo?start=2888" frameborder="0" allowfullscreen></iframe>
-</figure>
+{% include video.html id='x3SwU0nYdfo?start=2888' %}
 
 It gave us an opportunity to talk about the residency and why we are running it, as well as allowing our first residents, the Cyborg Foundation, to talk about their plans.
 

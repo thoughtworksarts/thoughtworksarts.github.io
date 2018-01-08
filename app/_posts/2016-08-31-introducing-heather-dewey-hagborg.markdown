@@ -28,10 +28,7 @@ Heather also exposed how pre-existing racial and ethnic and gender stereotypes a
 
 In 2014, Heather released a new product line named <em>Invisible</em>, allowing users to mask their DNA from use in digital surveillance. The spray <em>Erase</em> wipes out the majority of your DNA from any location you spray it.
 
-<figure class="video">
-	<iframe src="https://player.vimeo.com/video/93541961"></iframe>
-	<figcaption>Erase and obfuscate your DNA with <em>Invisible</em></figcaption>
-</figure>
+{% include video.html service='vimeo' id='93541961' %}
 
 The companion spray <em>Replace</em> obfuscates the remaining DNA; it contains 50 random DNA samples, making detection of the single unique individual DNA prohibitively complex.
 

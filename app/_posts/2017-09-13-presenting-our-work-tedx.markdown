@@ -4,9 +4,7 @@ author    : Andrew McWilliams
 ---
 I was pleased to be asked to present our work at a recent TEDx event in Lithuania. The video has just been posted online.
 
-<figure class="video">
-	<iframe src="https://www.youtube.com/embed/yrPegku0znk" frameborder="0" allowfullscreen></iframe>
-</figure>
+{% include video.html id='yrPegku0znk' %}
 
 My talk looks at how technology can be used as an artistic medium to explore the future. It covers topics of trans-humanism and cyborgism, genetic privacy, brain surveillance and climate change.
 

@@ -79,9 +79,7 @@ Possibly the worst drawback of this option would be the look and feel. Hypoaller
 
 Another consideration was using the skin itself to shape a stretchable electronic circuit. The area of research known as <a href="https://www.technologyreview.com/s/512061/electronic-sensors-printed-directly-on-the-skin/">epidermal electronics</a> is a fascinating approach in which sensors can behave like tattoos, <a href="http://rogers.matse.illinois.edu/multimedia.php">printed directly</a> onto <a href="https://www.technologyreview.com/s/428944/making-stretchable-electronics/">skin</a>. 
 
-<figure class="video">
-	<iframe src="https://www.youtube.com/embed/AytQuVCiRcI" frameborder="0" allowfullscreen></iframe>
-</figure>
+{% include video.html id='AytQuVCiRcI' %}
 
 Alternatively, stretchable electronics can be applied to the skin with adhesive patches, for example the commercially-available <a href="https://www.mc10inc.com/our-products/biostamprc">MC10 BioStamp</a>.
 
@@ -93,9 +91,7 @@ There are a great number of silicone options available out there. I decided to d
 
 Oryan and I considered <a href="http://hobbysilicone.com/silicones/">RTV Silicone Rubber</a>, a food grade silicone. We discovered that it is made and cured at room temperature, and that once cured it is soft and elastic. We also looked at <a href="https://nusil.com/">NuSil</a>, a medical grade silicone, manufactured and purified to meet the strict requirements of the healthcare industry.
 
-<figure class="video ratio-55">
-	<iframe src="https://www.youtube.com/embed/YDJzrhUzxGA" frameborder="0" allowfullscreen></iframe>
-</figure>
+{% include video.html id='YDJzrhUzxGA' ratio='55' %}
 
 Finally we discovered <a href="http://www.sandraw.co/">San Draw</a>, a 3D-printing company which has been refining it&rsquo;s silicone manufacturing process in an effort to <a href="https://www.sandrawmedical.com/">target the medical industry</a>. San Draw&rsquo;s patent-pending 3D printing technology enables printing of full-color objects with adjustable hardness.
 

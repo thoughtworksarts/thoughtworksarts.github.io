@@ -12,9 +12,7 @@ hannes recently created [one of the first](http://www.hannesbend.com/index.php?/
 
 This video shows the prototype, named *mYndful*, in action.
 
-<figure class="video">
-	<iframe src="https://www.youtube.com/embed/GwDUyrmfUig" frameborder="0" allowfullscreen></iframe>
-</figure>
+{% include video.html id='GwDUyrmfUig' %}
 
 hannes practice centers around merging the insights from creative and contemplative practices, technology and science. He has presented, published, researched and exhibited projects internationally at museums, conferences and institutions, and guided breathing, yoga and meditation sessions globally.
 
