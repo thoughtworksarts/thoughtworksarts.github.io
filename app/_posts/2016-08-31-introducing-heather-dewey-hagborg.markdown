@@ -4,7 +4,7 @@ tags      : suppressed-images
 ---
 We are pleased to welcome our second resident artist, Heather Dewey-Hagborg, who will be with us over the next four months.
 
-{% include image.html file='heather2.jpg' %}
+{% include image.html file='heather2.jpg' alt='Heather Dewey-Hagborg' %}
 
 Heather is an artist and researcher known for her work highlighting the implications of DNA as readily-available data, including genetic surveillance and new forms of racial stereotyping.
 

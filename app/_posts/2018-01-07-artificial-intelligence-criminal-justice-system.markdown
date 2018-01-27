@@ -5,7 +5,8 @@ author    : Stephanie Weber
 
 Many of us are familiar with the idea that Artificial Intelligence systems are regularly making benign decisions, like recommendations on Netflix or Amazon. What about decisions that have a significant impact on someone's life though?
 
-{% include image.html file='criminal-justice-1.jpg' %}
+{% include image.html file='criminal-justice-1.jpg'
+   alt='How Artificial Intelligence is Transforming the Criminal Justice System' %}
 
 Should AI systems be used in life-changing situations, like criminal sentencing?
 

@@ -1,14 +1,21 @@
 {% capture imagepath %}{{ page.path | replace: '_posts/', '/images/posts/' | replace: '.markdown', '' | append: '/' | append: include.file }}{% endcapture %}
+
 {% capture imagepath2 %}{{ page.path | replace: '_posts/', '/images/posts/' | replace: '.markdown', '' | append: '/' | append: include.file2 }}{% endcapture %}
+
+{% if include.alt.size > 0 %}
+	{% capture alttext %} alt="{{ include.alt }}"{% endcapture %}
+{% elsif include.caption.size > 0 %}
+	{% capture alttext %} alt="{{ include.caption | strip_html }}"{% endcapture %}
+{% endif %}
 
 <figure>
 	{% if include.link.size > 0 %}
 	<a href="{{ include.link }}">
 	{% endif %}
 
-		<img src="{{ imagepath }}" />
+		<img src="{{ imagepath }}"{{ alttext }} />
 		{% if include.file2.size > 0 %}
-			<img src="{{ imagepath2 }}" />
+			<img src="{{ imagepath2 }}"{{ alttext }} />
 		{% endif %}
 
 	{% if include.link.size > 0 %}
