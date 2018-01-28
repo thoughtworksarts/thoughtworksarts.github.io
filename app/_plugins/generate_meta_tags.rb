@@ -36,7 +36,7 @@ module GenerateMetaTags
     end
 
     def generate_meta_tags(site)
-      site.posts.each do |post|
+      site.posts.docs.each do |post|
         if post.data['image'].nil? then
           generate_image_tag(post)
         end
