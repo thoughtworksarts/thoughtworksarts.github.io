@@ -27,6 +27,7 @@ module GenerateMetaTags
       @img_md_regex = /\{%.*?include image.html.*?file=\'(.*?)\'.*?/i
 
       @vimeo_tag_regex = /player.vimeo.com\/video\/(.*?)\?/i
+      @vimeo_md_regex = /\{%.*?include video.html.*?id=\'(.*?)\'.*?service='vimeo'.*?/i
 
       @youtube_tag_regex = /youtube.com\/embed\/(.*?)"/i
       @youtube_md_regex = /\{%.*?include video.html.*?id=\'(.*?)\'.*?/i
@@ -78,6 +79,8 @@ module GenerateMetaTags
         get_img_md_url(post)
       when :vimeo
         get_vimeo_thumb_url(post)
+      when :vimeo_md
+        get_vimeo_md_url(post)
       when :youtube
         get_youtube_thumb_url(post)
       when :youtube_md
@@ -98,6 +101,11 @@ module GenerateMetaTags
 
     def get_vimeo_thumb_url(post)
       id = post.content[@vimeo_tag_regex, 1]
+      VideoThumb::get("#{@vimeo_url_prefix}#{id}", "max") || nil
+    end
+
+    def get_vimeo_md_url(post)
+      id = post.content[@vimeo_md_regex, 1]
       VideoThumb::get("#{@vimeo_url_prefix}#{id}", "max") || nil
     end
 
@@ -136,6 +144,7 @@ module GenerateMetaTags
         img: find_first_position_of(@img_tag_regex, content),
         img_md: find_first_position_of(@img_md_regex, content),
         vimeo: find_first_position_of(@vimeo_tag_regex, content),
+        vimeo_md: find_first_position_of(@vimeo_md_regex, content),
         youtube: find_first_position_of(@youtube_tag_regex, content),
         youtube_md: find_first_position_of(@youtube_md_regex, content)
       }
