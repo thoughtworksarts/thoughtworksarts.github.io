@@ -24,13 +24,17 @@ module GenerateMetaTags
 
     def load_regexes
       @img_tag_regex = /img.*?src="(.*?)"/i
+      @img_md_regex = /\{%.*?include.*?image.html.*?file=\'(.*?)\'\.*?/im
+
       @vimeo_tag_regex = /player.vimeo.com\/video\/(.*?)\?/i
       @youtube_tag_regex = /youtube.com\/embed\/(.*?)"/i
+
       @paragraph_tag_regex = /<p>(.*)<\/p>/i
       @paragraph_wo_tag_regex = /^(?!<[a-z])(.*)\n/i
     end
 
     def load_prefixes
+      @img_url_prefix = "/images/posts"
       @vimeo_url_prefix = "http://vimeo.com/"
       @youtube_url_prefix = "http://www.youtube.com/watch?v="
     end
@@ -47,7 +51,7 @@ module GenerateMetaTags
     end
 
     def generate_image_tag(post)
-      image_url = get_image_url(post.content)
+      image_url = get_image_url(post)
 
       if is_usable(image_url) then
         post.data['image'] = image_url
@@ -63,29 +67,38 @@ module GenerateMetaTags
       end
     end
 
-    def get_image_url(content)
-      type = discover_which_image_type(content)
+    def get_image_url(post)
+      type = discover_which_image_type(post.content)
       case type
       when :img
-        get_img_tag_url(content)
+        get_img_tag_url(post)
+      when :img_md
+        get_img_md_url(post)
       when :vimeo
-        get_vimeo_thumb_url(content)
+        get_vimeo_thumb_url(post)
       when :youtube
-        get_youtube_thumb_url(content)
+        get_youtube_thumb_url(post)
       end
     end
 
-    def get_img_tag_url(content)
-      content[@img_tag_regex, 1]
+    def get_img_tag_url(post)
+      post.content[@img_tag_regex, 1]
     end
 
-    def get_vimeo_thumb_url(content)
-      id = content[@vimeo_tag_regex, 1]
+    def get_img_md_url(post)
+      file = post.content[@img_md_regex, 1]
+      postpath = post.path.split('/')[-1]
+      postpath = postpath.split('.')[0]
+      "#{@img_url_prefix}/#{postpath}/#{file}"
+    end
+
+    def get_vimeo_thumb_url(post)
+      id = post.content[@vimeo_tag_regex, 1]
       VideoThumb::get("#{@vimeo_url_prefix}#{id}", "max") || nil
     end
 
-    def get_youtube_thumb_url(content)
-      id = content[@youtube_tag_regex, 1]
+    def get_youtube_thumb_url(post)
+      id = post.content[@youtube_tag_regex, 1]
       VideoThumb::get("#{@youtube_url_prefix}#{id}", "max") || nil
     end
 
@@ -112,6 +125,7 @@ module GenerateMetaTags
     def discover_which_image_type(content)
       potentials = {
         img: find_first_position_of(@img_tag_regex, content),
+        img_md: find_first_position_of(@img_md_regex, content),
         vimeo: find_first_position_of(@vimeo_tag_regex, content),
         youtube: find_first_position_of(@youtube_tag_regex, content)
       }
