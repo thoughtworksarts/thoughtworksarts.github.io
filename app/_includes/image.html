@@ -1,6 +1,12 @@
-{% capture imagepath %}{{ page.path | replace: '_posts/', '/images/posts/' | replace: '.markdown', '' | append: '/' | append: include.file }}{% endcapture %}
+{% capture imagepath %}{{
+	page.path |
+	replace: '_posts/', '/images/posts/' |
+	replace: '.markdown', '' |
+	append: '/'
+}}{% endcapture %}
 
-{% capture imagepath2 %}{{ page.path | replace: '_posts/', '/images/posts/' | replace: '.markdown', '' | append: '/' | append: include.file2 }}{% endcapture %}
+{% capture image  %}{{ imagepath | append: include.file  }}{% endcapture %}
+{% capture image2 %}{{ imagepath | append: include.file2 }}{% endcapture %}
 
 {% if include.alt.size > 0 %}
 	{% capture alttext %} alt="{{ include.alt }}"{% endcapture %}
@@ -13,9 +19,9 @@
 	<a href="{{ include.link }}">
 	{% endif %}
 
-		<img src="{{ imagepath }}"{{ alttext }} />
+		<img src="{{ image }}"{{ alttext }} />
 		{% if include.file2.size > 0 %}
-			<img src="{{ imagepath2 }}"{{ alttext }} />
+			<img src="{{ image2 }}"{{ alttext }} />
 		{% endif %}
 
 	{% if include.link.size > 0 %}
