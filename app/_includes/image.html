@@ -1,6 +1,7 @@
 {% capture imagepath %}{{
 	page.path |
 	replace: '_posts/', '/images/posts/' |
+	replace: '_newsletters/', '/images/newsletters/' |
 	replace: '.markdown', '' |
 	append: '/'
 }}{% endcapture %}

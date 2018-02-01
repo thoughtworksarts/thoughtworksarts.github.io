@@ -4,7 +4,9 @@ title : "ThoughtWorks Arts: Panel, Residency and Art-A-Hack"
 
 <p>Join us for a discussion with ThoughtWorks Arts Residents <a href="http://deweyhagborg.com/">Heather Dewey-Hagborg</a> and the <a href="http://www.cyborgfoundation.com/">Cyborg Foundation</a> (Neil Harbisson and Moon Ribas). The speakers will share learnings and insights from their cutting-edge work around body and technology. Event <a href="http://www.meetup.com/volumetric/events/234274881/">RSVP here</a>, refreshments and snacks provided.</p>
 
-<figure><a href="http://www.meetup.com/volumetric/events/234274881/" target="_blank"><img alt="Heather Dewey-Hagborg &amp; The Cyborg Foundation" src="http://gallery.tinyletterapp.com/7b2c93c8f4db9f55d193766fe4126c41e8bba44b/images/b36baaab-5383-42bc-9f30-903debddf8ef.jpg"></a><figcaption>The panel will be on Tuesday, October 11, 2016 - 6:30 PM to 9:30 PM<br>@ ThoughtWorks, 99 Madison Ave., 15th Floor, New York, NY (<a href="https://maps.google.com/maps?f=q&amp;hl=en&amp;q=99+Madison+Ave.%2C+15th+Floor%2C+New+York%2C+NY%2C+10016%2C+us">map</a>)</figcaption></figure>
+{% include image.html file='body-technology.jpg'
+   link='http://www.meetup.com/volumetric/events/234274881/'
+   caption='The panel will be on Tuesday, October 11, 2016 - 6:30 PM to 9:30 PM<br>@ ThoughtWorks, 99 Madison Ave., 15th Floor, New York, NY (<a href="https://maps.google.com/maps?f=q&amp;hl=en&amp;q=99+Madison+Ave.%2C+15th+Floor%2C+New+York%2C+NY%2C+10016%2C+us">map</a>)' %}
 
 <!--excerpt-ends-->
 
@@ -13,7 +15,9 @@ title : "ThoughtWorks Arts: Panel, Residency and Art-A-Hack"
 
 <p>During her time at ThoughtWorks, Heather intends to begin a new body of work, currently named Sell/Bio, in which she will research the “histories, infrastructures, protocols and business models” that position DNA as a “commodity to be bought and sold on the open market.”</p>
 
-<figure><a href="https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/" target="_blank"><img alt="Heather Dewey-Hagborg" class="tl-email-image" data-id="1073805" src="http://gallery.tinyletterapp.com/7b2c93c8f4db9f55d193766fe4126c41e8bba44b/images/cba1b7b3-3f23-441b-b2f2-cd2071a4fdf7.jpg"></a></figure>
+{% include image.html file='face-masks.jpg'
+   link='https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/'
+   alt='Heather Dewey-Hagborg' %}
 
 <p>Heather joins our current Artist Residents, the <a href="http://www.cyborgfoundation.com/">Cyborg Foundation</a> (Neil Harbisson and Moon Ribas), as they continue their work creating new human senses with technology. Read more about their <a href="https://thoughtworksarts.io/blog/team-gets-started-on-research/">projects</a> and <a href="https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/">progress</a> on our blog.</p>
 
@@ -24,9 +28,12 @@ title : "ThoughtWorks Arts: Panel, Residency and Art-A-Hack"
 
 <p>We also created a 2-minute overview of Art-A-Hack 2016, including projects in VR, brainwave computing, advanced motion-tracking and interactive performances, which you can view here:</p>
 
-<figure><a href="https://www.youtube.com/watch?v=l1hfv_GlvGg" target="_blank"><img alt="Art-A-Hack 2016" class="tl-email-image" data-id="1073977" src="http://gallery.tinyletterapp.com/7b2c93c8f4db9f55d193766fe4126c41e8bba44b/images/808390d5-e003-4f00-a1f7-94f8005a9524.jpg"></a></figure>
+{% include image.html file='art-a-hack.jpg'
+   link='https://www.youtube.com/watch?v=l1hfv_GlvGg'
+   alt='Art-A-Hack 2016' %}
 
 <p>We are happy to share good news from this year's teams following the Art-A-Hack sessions:</p>
+
 <ul>
 	<li>Espii Proctor of team ‘<a href="https://artahack.io/projects/afro-futuristic-carnival/">Afro Futuristic Carnival</a>’ was awarded an <a href="http://www.shiift.world/oc3_scholarship/">Oculus Connect 3 Scholarship</a> allowing her to continue development.</li>
 	<li>Sharon de la Cruz, of the same project, has been awarded a <a href="http://blog.ted.com/meet-the-fall-2016-class-of-ted-residents/">TED residency</a>, further supporting development over the fall</li>
