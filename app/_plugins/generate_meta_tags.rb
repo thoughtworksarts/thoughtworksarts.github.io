@@ -155,7 +155,7 @@ module GenerateMetaTags
     end
 
     def find_first_position_of(needle, haystack)
-      (haystack.enum_for(:scan, needle).map { Regexp.last_match.begin(0) }).first
+      haystack =~ needle
     end
   end
 end
