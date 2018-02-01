@@ -6,14 +6,15 @@ module GenerateMetaTags
       begin_benchmark
       load_regexes
       load_prefixes
-      generate_meta_tags site
+      generate_meta_tags site.collections["posts"]
+      generate_meta_tags site.collections["newsletters"]
       end_benchmark
     end
 
     def begin_benchmark
       @start = Time.now
       puts
-      puts "Generating image and description meta tags on posts..."
+      puts "Generating image and description meta tags on newsletters and blog posts..."
     end
 
     def end_benchmark
@@ -42,80 +43,80 @@ module GenerateMetaTags
       @youtube_url_prefix = "http://www.youtube.com/watch?v="
     end
 
-    def generate_meta_tags(site)
-      site.posts.docs.each do |post|
-        if post.data['image'].nil? then
-          generate_image_tag(post)
+    def generate_meta_tags(collection)
+      collection.docs.each do |item|
+        if item.data['image'].nil? then
+          generate_image_tag(item)
         end
-        if post.data['description'].nil? then
-          generate_description_tag(post)
+        if item.data['description'].nil? then
+          generate_description_tag(item)
         end
       end
     end
 
-    def generate_image_tag(post)
-      image_url = get_image_url(post)
+    def generate_image_tag(item)
+      image_url = get_image_url(item)
 
       if is_usable(image_url) then
-        post.data['image'] = image_url
+        item.data['image'] = image_url
       end
     end
 
-    def generate_description_tag(post)
-      first_paragraph = get_first_paragraph(post.content)
+    def generate_description_tag(item)
+      first_paragraph = get_first_paragraph(item.content)
 
       if is_usable(first_paragraph) then
         first_paragraph = strip_tags(first_paragraph)
-        post.data['description'] = first_paragraph
+        item.data['description'] = first_paragraph
       end
     end
 
-    def get_image_url(post)
-      type = discover_which_image_type(post.content)
+    def get_image_url(item)
+      type = discover_which_image_type(item.content)
       case type
       when :img
-        get_img_tag_url(post)
+        get_img_tag_url(item)
       when :img_md
-        get_img_md_url(post)
+        get_img_md_url(item)
       when :vimeo
-        get_vimeo_thumb_url(post)
+        get_vimeo_thumb_url(item)
       when :vimeo_md
-        get_vimeo_md_url(post)
+        get_vimeo_md_url(item)
       when :youtube
-        get_youtube_thumb_url(post)
+        get_youtube_thumb_url(item)
       when :youtube_md
-        get_youtube_md_url(post)
+        get_youtube_md_url(item)
       end
     end
 
-    def get_img_tag_url(post)
-      post.content[@img_tag_regex, 1]
+    def get_img_tag_url(item)
+      item.content[@img_tag_regex, 1]
     end
 
-    def get_img_md_url(post)
-      file = post.content[@img_md_regex, 1]
-      postpath = post.path.split('/')[-1]
-      postpath = postpath.split('.')[0]
-      "#{@img_url_prefix}/#{postpath}/#{file}"
+    def get_img_md_url(item)
+      file = item.content[@img_md_regex, 1]
+      itempath = item.path.split('/')[-1]
+      itempath = itempath.split('.')[0]
+      "#{@img_url_prefix}/#{itempath}/#{file}"
     end
 
-    def get_vimeo_thumb_url(post)
-      id = post.content[@vimeo_tag_regex, 1]
+    def get_vimeo_thumb_url(item)
+      id = item.content[@vimeo_tag_regex, 1]
       VideoThumb::get("#{@vimeo_url_prefix}#{id}", "max") || nil
     end
 
-    def get_vimeo_md_url(post)
-      id = post.content[@vimeo_md_regex, 1]
+    def get_vimeo_md_url(item)
+      id = item.content[@vimeo_md_regex, 1]
       VideoThumb::get("#{@vimeo_url_prefix}#{id}", "max") || nil
     end
 
-    def get_youtube_thumb_url(post)
-      id = post.content[@youtube_tag_regex, 1]
+    def get_youtube_thumb_url(item)
+      id = item.content[@youtube_tag_regex, 1]
       VideoThumb::get("#{@youtube_url_prefix}#{id}", "max") || nil
     end
 
-    def get_youtube_md_url(post)
-      id = post.content[@youtube_md_regex, 1]
+    def get_youtube_md_url(item)
+      id = item.content[@youtube_md_regex, 1]
       VideoThumb::get("#{@youtube_url_prefix}#{id}", "max") || nil
     end
 
