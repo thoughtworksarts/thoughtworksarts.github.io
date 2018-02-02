@@ -35,7 +35,7 @@ Neil plans to develop a new sense of time, which will allow him to perceive and 
 
 To get a deeper understanding of where these artists are coming from, it's a good idea to hear them talk about it in their own words. The presentation below is one of our favorites. It was filmed at the ThoughtWorks office in 2014 during a special <a href="http://hardwarehacklab.io">Hardware Hack Lab</a>.
 
-{% include video.html id='d52RxsfPpu0' %}
+{% include youtube.html id='d52RxsfPpu0' %}
 
 This is a fun and engaging video, which offers something to a whole range of audiences. In it, the artists describe the senses they have been developing over the past 10 years, and what it means to them.
 

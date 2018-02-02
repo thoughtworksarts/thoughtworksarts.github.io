@@ -3,7 +3,7 @@
 {% endif %}
 
 <figure class="video{{ ratioclass }}">
-	{% if include.service == 'vimeo' %}
+	{% if service == 'vimeo' %}
 		<iframe src="https://player.vimeo.com/video/{{ include.id }}"></iframe>
 	{% else %}
 		<iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>

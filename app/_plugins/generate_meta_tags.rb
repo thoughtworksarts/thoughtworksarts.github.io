@@ -28,10 +28,10 @@ module GenerateMetaTags
       @img_md_regex = /\{%.*?include image.html.*?file=\'(.*?)\'.*?/i
 
       @vimeo_tag_regex = /player.vimeo.com\/video\/(.*?)\?/i
-      @vimeo_md_regex = /\{%.*?include video.html.*?id=\'(.*?)\'.*?service='vimeo'.*?/i
+      @vimeo_md_regex = /\{%.*?include vimeo.html.*?id=\'(.*?)\'.*?/i
 
       @youtube_tag_regex = /youtube.com\/embed\/(.*?)"/i
-      @youtube_md_regex = /\{%.*?include video.html.*?id=\'(.*?)\'.*?/i
+      @youtube_md_regex = /\{%.*?include youtube.html.*?id=\'(.*?)\'.*?/i
 
       @paragraph_tag_regex = /<p>(.*)<\/p>/i
       @paragraph_wo_tag_regex = /^(?!<[a-z])(.*)\n/i
