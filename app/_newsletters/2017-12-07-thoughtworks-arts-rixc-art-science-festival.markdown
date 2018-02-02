@@ -2,172 +2,170 @@
 title : "ThoughtWorks Arts at RIXC Art Science Festival"
 ---
 
-<p>This fall the RIXC Art Science Festival, Virtualities and Realities, in Riga, Latvia hosted three members of the ThoughtWorks Arts community. RIXC Art Science Festival is an internationally renown gathering for artists and scholars working at the intersection of arts, digital humanities, and science. The Festival includes conferences, exhibitions, performances, and VR artwork showcases.</p>
+This fall the RIXC Art Science Festival, Virtualities and Realities, in Riga, Latvia hosted three members of the ThoughtWorks Arts community. RIXC Art Science Festival is an internationally renown gathering for artists and scholars working at the intersection of arts, digital humanities, and science. The Festival includes conferences, exhibitions, performances, and VR artwork showcases.
 
 {% include image.html file='ellen-pearlman.jpg'
    caption='TWA Director, Ellen Pearlman, at the RIXC Center for New Media Art in Riga, Latvia' %}
 
-<p>Director Ellen Pearlman was a conference keynote speaker with her topic: <em>The Approaching Storm: AI, Biometrics, Big Data, Immersion and Surveillance.</em> Director Andrew McWilliams&rsquo;s multimedia installation <em>Insulin</em>, and Art-A-Hack alum Annie Berman&rsquo;s video and VR experience, <em>Utopia 1.0</em>, were all included in the festival&rsquo;s contemporary digital art exhibitions.</p>
+Director Ellen Pearlman was a conference keynote speaker with her topic: _The Approaching Storm: AI, Biometrics, Big Data, Immersion and Surveillance._ Director Andrew McWilliams’s multimedia installation _Insulin_, and Art-A-Hack alum Annie Berman’s video and VR experience, _Utopia 1.0_, were all included in the festival’s contemporary digital art exhibitions.
 
 <!--excerpt-ends-->
 
-<p>For a detailed recap on the Festival including Director Ellen Pearlman&rsquo;s keynote presentation, check out Rhizome&rsquo;s <a href="http://rhizome.org/editorial/2017/nov/27/report-from-the-second-annual-open-fields-conference/">Report from the Second Annual Open Fields Conference</a>.</p>
+For a detailed recap on the Festival including Director Ellen Pearlman’s keynote presentation, check out Rhizome’s [Report from the Second Annual Open Fields Conference](http://rhizome.org/editorial/2017/nov/27/report-from-the-second-annual-open-fields-conference/).
 
-<h2>Meetup on Ethics of Emerging Storytelling Tech with Karen Palmer</h2>
+## Meetup on Ethics of Emerging Storytelling Tech with Karen Palmer
 
-<p>Storytelling is as old as time itself. But with the advent of emerging technologies such as virtual/mixed/augmented reality, and AI storytelling, technology has the power to effect and impact our cognitive and neurological faculties like never before. What&#39;s new? What&#39;s not? In the age of information and unrest, when facts are under so much scrutiny, at least we know we can trust our feelings. Right...?</p>
+Storytelling is as old as time itself. But with the advent of emerging technologies such as virtual/mixed/augmented reality, and AI storytelling, technology has the power to effect and impact our cognitive and neurological faculties like never before. What's new? What's not? In the age of information and unrest, when facts are under so much scrutiny, at least we know we can trust our feelings. Right...?
 
 {% include image.html file='karen-palmer.jpg'
    alt='Karen Palmer' %}
 
-<p>Join us on Tuesday, December 12th, 6:30 PM at ThoughtWorks NYC for a conversation about the ethical considerations of these forms of storytelling featuring Karen Palmer (<a href="http://karenpalmer.uk/">http://karenpalmer.uk/</a>), current ThoughtWorks Artist-in-Residence, and TED Fellow.</p>
+Join us on Tuesday, December 12th, 6:30 PM at ThoughtWorks NYC for a conversation about the ethical considerations of these forms of storytelling featuring Karen Palmer ([http://karenpalmer.uk/](http://karenpalmer.uk/)), current ThoughtWorks Artist-in-Residence, and TED Fellow.
 
-<p>Sign up <a href="https://www.meetup.com/Ethical-Tech/events/243577410/">here</a>.</p>
+Sign up [here](https://www.meetup.com/Ethical-Tech/events/243577410/).
 
-<h2>Announcing Art-A-Hack&trade; Special Edition CYBERFEST 2018</h2>
+## Announcing Art-A-Hack™ Special Edition CYBERFEST 2018
 
-<p>We are excited to announce a special Art-A-Hack&trade; in collaboration with CYBERFEST at the Cyland Media Art Lab in St. Petersburg Russia on January 21, 22, 28, and 29, 2018.</p>
+We are excited to announce a special Art-A-Hack™ in collaboration with CYBERFEST at the Cyland Media Art Lab in St. Petersburg Russia on January 21, 22, 28, and 29, 2018.
 
 {% include image.html file='dual-brains.jpg'
    caption='Dual Brains performance from Art-A-Hack Summer 2016' %}
 
-<p>The topic of this year&rsquo;s program is &ldquo;Weather forecast: digital cloudiness,&rdquo; and we will bring together artists and technologists to build projects exploring this theme.</p>
+The topic of this year’s program is “Weather forecast: digital cloudiness,” and we will bring together artists and technologists to build projects exploring this theme.
 
-<p>More details <a href="https://artahack.io/winter-2018/call/">here</a>.</p>
+More details [here](https://artahack.io/winter-2018/call/).
 
-<h2>Directors and Alumni News</h2>
+## Directors and Alumni News
 
-<h3>Exhibitions</h3>
+### Exhibitions
 
-<p><strong>Andrew McWilliams (Director)</strong><br />
-<a href="https://www.humanimpactsinstitute.org/cca2017">Creative Climate Awards 2017</a><br />
-Human Impacts Institute<br />
-November 16, 2017<br />
-New York, NY<br />
-<br />
-<a href="http://virtualitiesandrealities.rixc.org/21-2/">Virtualities and Realities</a><br />
-RIXC Art Science Festival<br />
-October 19 - 21, 2017<br />
-Riga, Latvia</p>
+**Andrew McWilliams (Director)**  
+[Creative Climate Awards 2017](https://www.humanimpactsinstitute.org/cca2017)  
+Human Impacts Institute  
+November 16, 2017  
+New York, NY  
+
+[Virtualities and Realities](http://virtualitiesandrealities.rixc.org/21-2/)  
+RIXC Art Science Festival  
+October 19 - 21, 2017  
+Riga, Latvia
 
 {% include image.html file='utopia.jpg'
    caption='Utopia 1.0: Post-Neo-Futurist-Capitalism in 3D! By Annie Berman' %}
 
-<p><strong>Annie Berman (Art-A-Hack)</strong><br />
-<a href="http://virtualitiesandrealities.rixc.org/10-2/">Virtualities and Realities</a><br />
-RIXC Art Science Festival<br />
-October 19 - 21, 2017<br />
-Riga, Latvia<br />
-<br />
-<strong>Heather Dewey-Hagborg (Past resident)</strong><br />
-<a href="http://www.chronusartcenter.org/en/unreal/">Unreal. The Algorithmic Present</a><br />
-Chronus Art Center<br />
-November 11, 2017 - January 21, 2018<br />
-Shanghai, China<br />
-<br />
-<a href="http://www.k11artfoundation.org/en/programme/com-cn-shanghai/">.com/.cn</a><br />
-K11 Art Foundation<br />
-November 9, 2017 - January 3, 2018<br />
-Shanghai, China<br />
-<br />
-<a href="http://www.fundacionzcc.org/en/news/art-biotechnology-etopia-2338.html">Postnature</a><br />
-Etopia Center for Art and Technology<br />
-September 21, 2017 - January 10, 2018<br />
-Zaragoza, Spain<br />
-<br />
-<a href="https://mitmuseum.mit.edu/bigbangdata">Big Bang Data</a><br />
-MIT Museum<br />
-October 11, 2017 - March 30, 2018<br />
-Cambridge, Massachusetts</p>
+**Annie Berman (Art-A-Hack)**  
+[Virtualities and Realities](http://virtualitiesandrealities.rixc.org/10-2/)  
+RIXC Art Science Festival  
+October 19 - 21, 2017  
+Riga, Latvia  
 
-<h3>Publications</h3>
+**Heather Dewey-Hagborg (Past resident)**  
+[Unreal. The Algorithmic Present](http://www.chronusartcenter.org/en/unreal/)  
+Chronus Art Center  
+November 11, 2017 - January 21, 2018  
+Shanghai, China  
 
-<p><strong>Ellen Pearlman (Director)</strong><br />
-<a href="http://media.tlu.ee/artificial-intelligence-has-vast-artistic-value/">Artificial Intelligence has Vast Artistic Value</a><br />
-Tallinn University<br />
-<br />
-<a href="http://artradarjournal.com/2017/11/19/after-darkness-southeast-asian-contemporary-art-at-asia-society-new-york/">After Darkness, Southeast Asian Contemporary Art at the Asia Society, New York</a><br />
-Art Radar<br />
-<br />
-<strong>Karen Palmer</strong> (<strong>Current Resident)</strong><br />
-<a href="https://riot.thoughtworksarts.io/">RIOT Project Log</a><br />
-ThoughtWorks Arts<br />
-<br />
-<a href="https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/">The outcome of this virtual riot depends on your emotions</a><br />
-Engadget</p>
+[.com/.cn](http://www.k11artfoundation.org/en/programme/com-cn-shanghai/)  
+K11 Art Foundation  
+November 9, 2017 - January 3, 2018  
+Shanghai, China  
+
+[Postnature](http://www.fundacionzcc.org/en/news/art-biotechnology-etopia-2338.html)  
+Etopia Center for Art and Technology  
+September 21, 2017 - January 10, 2018  
+Zaragoza, Spain  
+
+[Big Bang Data](https://mitmuseum.mit.edu/bigbangdata)  
+MIT Museum  
+October 11, 2017 - March 30, 2018  
+Cambridge, Massachusetts
+
+### Publications
+
+**Ellen Pearlman (Director)**  
+[Artificial Intelligence has Vast Artistic Value](http://media.tlu.ee/artificial-intelligence-has-vast-artistic-value/)  
+Tallinn University  
+
+[After Darkness, Southeast Asian Contemporary Art at the Asia Society, New York](http://artradarjournal.com/2017/11/19/after-darkness-southeast-asian-contemporary-art-at-asia-society-new-york/)  
+Art Radar  
+
+**Karen Palmer** (**Current Resident)**  
+[RIOT Project Log](https://riot.thoughtworksarts.io/)  
+ThoughtWorks Arts  
+
+[The outcome of this virtual riot depends on your emotions](https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/)  
+Engadget
 
 {% include image.html file='leonardo.jpg'
    caption='Heather Dewey-Hagborg, Stranger Visions. Cover of Leonardo, October 2017' %}
 
-<p><strong>Heather Dewey-Hagborg (Past resident)</strong><br />
-<a href="https://tech.co/new-iphone-x-face-id-invasion-privacy-2017-10">Is the New iPhone Face ID an Invasion of your Privacy?</a><br />
-Tech.Co<br />
-<br />
-<a href="https://www.leonardo.info/journal-issue/leonardo/50/5">October 2017 Cover</a><br />
-Leonardo Journal<br />
-<br />
-<a href="https://www.artforum.com/inprint/issue=201709&id=71799">Review of <em>A Becoming Resemblance</em></a><br />
-Art Forum</p>
+**Heather Dewey-Hagborg (Past resident)**  
+[Is the New iPhone Face ID an Invasion of your Privacy?](https://tech.co/new-iphone-x-face-id-invasion-privacy-2017-10)  
+Tech.Co  
 
-<h3>Presentations</h3>
+[October 2017 Cover](https://www.leonardo.info/journal-issue/leonardo/50/5)  
+Leonardo Journal  
 
-<p><strong>Ellen Pearlman</strong> (<strong>Director)</strong><br />
-Panel Speaker - Brain Surveillance and New Media Art<br />
-<a href="https://worldingthebrain2017.com/">Wording the Brain 2017</a><br />
-Amsterdam, The Netherlands<br />
-<br />
-Lecturer - Brain Surveillance and New Media Art<br />
-<a href="http://www.tlu.ee/bfm/">Baltic Film and Media School</a><br />
-<a href="http://www.tlu.ee/en/School-of-Digital-Technologies">Tallinn University School of Digital Studies</a><br />
-<a href="https://www.artun.ee/en/home/">Estonian Academy of Arts</a><br />
-Tallinn, Estonia<br />
-<br />
-Lecturer - Brain Surveillance and New Media Art<br />
-<a href="https://www.liepu.lv/en/">Leipaja University</a><br />
-Leipaja, Latvia<br />
-<br />
-<a href="http://www.riseba.lv/en">RISEBA University</a><br />
-Riga, Latvia</p>
+[Review of _A Becoming Resemblance_](https://www.artforum.com/inprint/issue=201709&id=71799)  
+Art Forum
+
+### Presentations
+
+**Ellen Pearlman** (**Director)**  
+Panel Speaker - Brain Surveillance and New Media Art  
+[Wording the Brain 2017](https://worldingthebrain2017.com/)  
+Amsterdam, The Netherlands  
+
+Lecturer - Brain Surveillance and New Media Art  
+[Baltic Film and Media School](http://www.tlu.ee/bfm/)  
+[Tallinn University School of Digital Studies](http://www.tlu.ee/en/School-of-Digital-Technologies)  
+[Estonian Academy of Arts](https://www.artun.ee/en/home/)  
+Tallinn, Estonia  
+
+Lecturer - Brain Surveillance and New Media Art  
+[Leipaja University](https://www.liepu.lv/en/)  
+Leipaja, Latvia  
+
+[RISEBA University](http://www.riseba.lv/en)  
+Riga, Latvia
 
 {% include image.html file='neil-harbisson.jpg'
    caption='Neil Harbisson speaking at &#39;Human Hardware&#39; in Barcelona, October 2017' %}
 
-<p><strong>Neil Harbisson (Past Resident)</strong><br />
-<a href="https://www.mazda.es/noticias/mazda-rebels/cyborg-neil-harbisson/">Human Hardware </a><br />
-Mazda Space<br />
-Barcelona, Spain</p>
+**Neil Harbisson (Past Resident)**  
+[Human Hardware](https://www.mazda.es/noticias/mazda-rebels/cyborg-neil-harbisson/)  
+Mazda Space  
+Barcelona, Spain
 
-<p><strong>Neil Harbisson, Oryan Inbar/Cyborg Foundation (Past resident)</strong><br />
-<a href="https://envision-conference.com/#about">Envision Conference</a><br />
-Princeton University<br />
-Princeton, NJ<br />
-<br />
-<strong>Heather Dewey-Hagborg (Past resident)</strong><br />
-Keynote Speaker<br />
-<a href="https://iapp.org/conference/iapp-europe-data-protection-congress/">Data Protection Congress</a><br />
-Brussels, Belgium</p>
+**Neil Harbisson, Oryan Inbar/Cyborg Foundation (Past resident)**  
+[Envision Conference](https://envision-conference.com/#about)  
+Princeton University  
+Princeton, NJ  
 
-<h2>Blog Posts</h2>
+**Heather Dewey-Hagborg (Past resident)**  
+Keynote Speaker  
+[Data Protection Congress](https://iapp.org/conference/iapp-europe-data-protection-congress/)  
+Brussels, Belgium
 
-<ul>
-	<li><a href="https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/"><strong>Industrial Design Process for the &lsquo;Time Sense&rsquo; Prototype</strong></a> by Oryan Inbar</li>
-	<li><a href="https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/"><strong>Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery</strong></a> by Ellen Pearlman</li>
-	<li><a href="https://thoughtworksarts.io/blog/welcoming-karen-palmer/"><strong>Welcoming Karen Palmer to the ThoughtWorks Arts Residency</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/presenting-our-work-tedx/"><strong>Presenting Our Art &amp; Technology Projects at TEDxVilnius</strong></a> by Andrew McWilliams</li>
-	<li><a href="https://thoughtworksarts.io/blog/karen-palmer-ai-residency/"><strong>Karen Palmer Awarded ThoughtWorks AI Residency</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/three-views-biometrics-immersion/"><strong>Three Views on Biometrics and Immersion for Creative Tech Week</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/"><strong>Why We Are Investigating the Biases of Artificial Intelligence</strong></a> by the Residency Directors</li>
-	<li><a href="https://thoughtworksarts.io/blog/welcoming-hannes-bend/"><strong>Welcoming Hannes Bend to the ThoughtWorks Arts Residency</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/"><strong>Suppressed Images: Advocating for Chelsea Manning&#39;s Release</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/how-i-became-a-cyborg/"><strong>How I Became a Cyborg</strong></a> by Stefanie Grewenig</li>
-	<li><a href="https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/"><strong>Cyborg Senses: Weaving the Materials</strong></a> by Caihong Liu</li>
-	<li><a href="https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/"><strong>Heather Dewey-Hagborg Begins Residency at ThoughtWorks</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/team-gets-started-on-research/"><strong>Developing a Cyborg Time Sense: Research and Experimentation</strong></a> by Andrew McWilliams</li>
-	<li><a href="https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/"><strong>Global Visioning Session with the Cyborgs</strong></a> by Andrew McWilliams</li>
-	<li><a href="https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/"><strong>Inside Our Brand New Lab at ThoughtWorks NYC</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/appearance-on-dotnyc/"><strong>Discussing the residency on dotNYC with Jeff Jarvis</strong></a> by Andrew McWilliams</li>
-	<li><a href="https://thoughtworksarts.io/blog/introducing-cyborg-foundation/"><strong>Introducing the Cyborg Foundation</strong></a> by the Residency Team</li>
-	<li><a href="https://thoughtworksarts.io/blog/announcing-the-program/"><strong>Announcing the ThoughtWorks artist residency</strong></a> by the Residency Team</li>
-</ul>
+## Blog Posts
 
-<p>Love this newsletter? Please forward it to your friends and share this <a href="https://thoughtworksarts.io/newsletters/">subscription page</a>.</p>
+*   [**Industrial Design Process for the ‘Time Sense’ Prototype**](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
+*   [**Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery**](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
+*   [**Welcoming Karen Palmer to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+*   [**Presenting Our Art & Technology Projects at TEDxVilnius**](https://thoughtworksarts.io/blog/presenting-our-work-tedx/) by Andrew McWilliams
+*   [**Karen Palmer Awarded ThoughtWorks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [**Three Views on Biometrics and Immersion for Creative Tech Week**](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/) by the Residency Team
+*   [**Why We Are Investigating the Biases of Artificial Intelligence**](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
+*   [**Welcoming Hannes Bend to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+*   [**Suppressed Images: Advocating for Chelsea Manning's Release**](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
+*   [**How I Became a Cyborg**](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/) by Stefanie Grewenig
+*   [**Cyborg Senses: Weaving the Materials**](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/) by Caihong Liu
+*   [**Heather Dewey-Hagborg Begins Residency at ThoughtWorks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
+*   [**Developing a Cyborg Time Sense: Research and Experimentation**](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
+*   [**Global Visioning Session with the Cyborgs**](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams
+*   [**Inside Our Brand New Lab at ThoughtWorks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
+*   [**Discussing the residency on dotNYC with Jeff Jarvis**](https://thoughtworksarts.io/blog/appearance-on-dotnyc/) by Andrew McWilliams
+*   [**Introducing the Cyborg Foundation**](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) by the Residency Team
+*   [**Announcing the ThoughtWorks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
+
+Love this newsletter? Please forward it to your friends and share this [subscription page](https://thoughtworksarts.io/newsletters/).
