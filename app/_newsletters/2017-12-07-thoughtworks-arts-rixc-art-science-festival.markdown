@@ -4,10 +4,8 @@ title : "ThoughtWorks Arts at RIXC Art Science Festival"
 
 <p>This fall the RIXC Art Science Festival, Virtualities and Realities, in Riga, Latvia hosted three members of the ThoughtWorks Arts community. RIXC Art Science Festival is an internationally renown gathering for artists and scholars working at the intersection of arts, digital humanities, and science. The Festival includes conferences, exhibitions, performances, and VR artwork showcases.</p>
 
-<figure>
-	<img alt="TWA Director, Ellen Pearlman, at the RIXC Center for New Media Art in Riga, Latvia" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/eee808a9-92a8-4682-a693-c19424eb878b.jpg" />
-	<figcaption>TWA Director, Ellen Pearlman, at the RIXC Center for New Media Art in Riga, Latvia</figcaption>
-</figure>
+{% include image.html file='ellen-pearlman.jpg'
+   caption='TWA Director, Ellen Pearlman, at the RIXC Center for New Media Art in Riga, Latvia' %}
 
 <p>Director Ellen Pearlman was a conference keynote speaker with her topic: <em>The Approaching Storm: AI, Biometrics, Big Data, Immersion and Surveillance.</em> Director Andrew McWilliams&rsquo;s multimedia installation <em>Insulin</em>, and Art-A-Hack alum Annie Berman&rsquo;s video and VR experience, <em>Utopia 1.0</em>, were all included in the festival&rsquo;s contemporary digital art exhibitions.</p>
 
@@ -19,9 +17,8 @@ title : "ThoughtWorks Arts at RIXC Art Science Festival"
 
 <p>Storytelling is as old as time itself. But with the advent of emerging technologies such as virtual/mixed/augmented reality, and AI storytelling, technology has the power to effect and impact our cognitive and neurological faculties like never before. What&#39;s new? What&#39;s not? In the age of information and unrest, when facts are under so much scrutiny, at least we know we can trust our feelings. Right...?</p>
 
-<figure>
-	<img alt="Karen Palmer" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/15b2bce2-002f-49af-a3ba-015cc8420841.jpg" />
-</figure>
+{% include image.html file='karen-palmer.jpg'
+   alt='Karen Palmer' %}
 
 <p>Join us on Tuesday, December 12th, 6:30 PM at ThoughtWorks NYC for a conversation about the ethical considerations of these forms of storytelling featuring Karen Palmer (<a href="http://karenpalmer.uk/">http://karenpalmer.uk/</a>), current ThoughtWorks Artist-in-Residence, and TED Fellow.</p>
 
@@ -31,10 +28,8 @@ title : "ThoughtWorks Arts at RIXC Art Science Festival"
 
 <p>We are excited to announce a special Art-A-Hack&trade; in collaboration with CYBERFEST at the Cyland Media Art Lab in St. Petersburg Russia on January 21, 22, 28, and 29, 2018.</p>
 
-<figure>
-	<img alt="Dual Brains performance from Art-A-Hack Summer 2016" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/e4a377d4-f3ae-4ac2-a35d-819eb324eaa2.jpg" />
-	<figcaption>Dual Brains performance from Art-A-Hack Summer 2016</figcaption>
-</figure>
+{% include image.html file='dual-brains.jpg'
+   caption='Dual Brains performance from Art-A-Hack Summer 2016' %}
 
 <p>The topic of this year&rsquo;s program is &ldquo;Weather forecast: digital cloudiness,&rdquo; and we will bring together artists and technologists to build projects exploring this theme.</p>
 
@@ -55,10 +50,8 @@ RIXC Art Science Festival<br />
 October 19 - 21, 2017<br />
 Riga, Latvia</p>
 
-<figure>
-	<img alt="Utopia 1.0: Post-Neo-Futurist-Capitalism in 3D! By Annie Berman" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/036b27ba-8b52-4a59-9ccd-36eac9da5c91.jpeg" />
-	<figcaption>Utopia 1.0: Post-Neo-Futurist-Capitalism in 3D! By Annie Berman</figcaption>
-</figure>
+{% include image.html file='utopia.jpg'
+   caption='Utopia 1.0: Post-Neo-Futurist-Capitalism in 3D! By Annie Berman' %}
 
 <p><strong>Annie Berman (Art-A-Hack)</strong><br />
 <a href="http://virtualitiesandrealities.rixc.org/10-2/">Virtualities and Realities</a><br />
@@ -103,10 +96,8 @@ ThoughtWorks Arts<br />
 <a href="https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/">The outcome of this virtual riot depends on your emotions</a><br />
 Engadget</p>
 
-<figure>
-	<img alt="Heather Dewey-Hagborg, Stranger Visions. Cover of Leonardo, October 2017" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/64ce13d2-cb7f-4cd0-a8c6-7891893caf92.jpg" />
-	<figcaption>Heather Dewey-Hagborg, Stranger Visions. Cover of Leonardo, October 2017</figcaption>
-</figure>
+{% include image.html file='leonardo.jpg'
+   caption='Heather Dewey-Hagborg, Stranger Visions. Cover of Leonardo, October 2017' %}
 
 <p><strong>Heather Dewey-Hagborg (Past resident)</strong><br />
 <a href="https://tech.co/new-iphone-x-face-id-invasion-privacy-2017-10">Is the New iPhone Face ID an Invasion of your Privacy?</a><br />
@@ -138,10 +129,8 @@ Leipaja, Latvia<br />
 <a href="http://www.riseba.lv/en">RISEBA University</a><br />
 Riga, Latvia</p>
 
-<figure>
-	<img alt="Neil Harbisson speaking at &#39;Human Hardware&#39; in Barcelona, October 2017" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/a922806d-b847-4655-a427-bc06037d4f66.jpg" />
-	<figcaption>Neil Harbisson speaking at &#39;Human Hardware&#39; in Barcelona, October 2017</figcaption>
-</figure>
+{% include image.html file='neil-harbisson.jpg'
+   caption='Neil Harbisson speaking at &#39;Human Hardware&#39; in Barcelona, October 2017' %}
 
 <p><strong>Neil Harbisson (Past Resident)</strong><br />
 <a href="https://www.mazda.es/noticias/mazda-rebels/cyborg-neil-harbisson/">Human Hardware </a><br />
