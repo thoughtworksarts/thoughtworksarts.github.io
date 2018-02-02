@@ -11,18 +11,18 @@ Moon and Neil will be working out of the ThoughtWorks New York office for the ne
 
 <!--excerpt-ends-->
 
-<strong>Neil Harbisson</strong> was born with achromatopsia, a severe form of colorblindness, which means he can only see the world in grayscale. While studying music composition at Dartington College of Arts, Neil heard a lecture by Adam Montandon, a cybernetics expert. They then <a href="http://cyborgproject.com/pdf/Neil-Harbisson-A-cyborg-artist.pdf">worked together to create</a> the first "eyeborg", which lets Neil hear light waves. 
+**Neil Harbisson** was born with achromatopsia, a severe form of colorblindness, which means he can only see the world in grayscale. While studying music composition at Dartington College of Arts, Neil heard a lecture by Adam Montandon, a cybernetics expert. They then [worked together to create](http://cyborgproject.com/pdf/Neil-Harbisson-A-cyborg-artist.pdf) the first "eyeborg", which lets Neil hear light waves.
 
-<blockquote>"The very first thing I looked at with it, outside the classroom, was a red noticeboard. It made the note F, the lowest sound on the spectrum. Red was my favourite colour for years."</blockquote>
+> "The very first thing I looked at with it, outside the classroom, was a red noticeboard. It made the note F, the lowest sound on the spectrum. Red was my favourite colour for years."
 
 {% include image.html file='eyeborg.jpg'
    caption='Neil Harbisson wearing his visual adapter interface, 2010 (credit <a href="https://www.flickr.com/photos/caseorganic/4677660848/">Amber Case</a>)' %}
 
 The current version of Neil's antenna is permanently attached to the occipital bone in his head. This gives him the unique distinction of being the first person officially recognized as a cyborg by the UK government.
 
-In 2010, Moon and Neil co-founded the <a href="https://en.wikipedia.org/wiki/Cyborg_Foundation">Cyborg Foundation</a>, an international organization that defends cyborg rights, promotes cyborgism as an art movement and supports people who want to become cyborgs.
+In 2010, Moon and Neil co-founded the [Cyborg Foundation](https://en.wikipedia.org/wiki/Cyborg_Foundation), an international organization that defends cyborg rights, promotes cyborgism as an art movement and supports people who want to become cyborgs.
 
-<strong>Moon Ribas</strong> has a background as a dancer, and this has influenced her to develop senses which allow new perception of movement.
+**Moon Ribas** has a background as a dancer, and this has influenced her to develop senses which allow new perception of movement.
 
 In 2013, Moon had a permanent implant installed in her arm which allows her to sense seismic activity. Regardless of where in the world the seismic activity occurs, Moon senses it at a linked intensity and duration.
 
@@ -33,7 +33,7 @@ During the residency period, Moon's goal is to expand her seismic sense in one o
 
 Neil plans to develop a new sense of time, which will allow him to perceive and modify his awareness of time. He plans to achieve this by placing a ring of senses around the circumference of his head, which will represent the 24-hour clock.
 
-To get a deeper understanding of where these artists are coming from, it's a good idea to hear them talk about it in their own words. The presentation below is one of our favorites. It was filmed at the ThoughtWorks office in 2014 during a special <a href="http://hardwarehacklab.io">Hardware Hack Lab</a>.
+To get a deeper understanding of where these artists are coming from, it's a good idea to hear them talk about it in their own words. The presentation below is one of our favorites. It was filmed at the ThoughtWorks office in 2014 during a special [Hardware Hack Lab](http://hardwarehacklab.io).
 
 {% include youtube.html id='d52RxsfPpu0' %}
 
@@ -41,8 +41,4 @@ This is a fun and engaging video, which offers something to a whole range of aud
 
 We're really excited about the research the Cyborgs will be pursuing over the next sixteen weeks, and to have the opportunity to share some of that publicly via this blog. There will also be a public presentation and exhibition toward the end of the residency.
 
-You can learn more about the artists <a href="http://cyborgproject.com/">on their website</a> or about <a href="http://cyborgproject.com/pdf/Neil-Harbisson-A-cyborg-artist.pdf">the history and technology behind Neil's antenna here</a>. Finally, check back to this blog for updates as the residency progresses.
-
-
-
-
+You can learn more about the artists [on their website](http://cyborgproject.com/) or about [the history and technology behind Neil's antenna here](http://cyborgproject.com/pdf/Neil-Harbisson-A-cyborg-artist.pdf). Finally, check back to this blog for updates as the residency progresses.

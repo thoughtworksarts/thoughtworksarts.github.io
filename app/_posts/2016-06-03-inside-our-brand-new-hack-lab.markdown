@@ -10,7 +10,7 @@ The lab provides facilities for exploring new hardware and emerging technologies
 
 <!--excerpt-ends-->
 
-Attendees to our weekly <a href="https://hardwarehacklab.io/">Hardware Hack Lab</a> can use the facilities to explore emerging technologies in a social setting. In addition, our annual <a href="https://artahack.io/">Art-A-Hack</a> program now has a consistent home in which to bring projects to fruition.
+Attendees to our weekly [Hardware Hack Lab](https://hardwarehacklab.io/) can use the facilities to explore emerging technologies in a social setting. In addition, our annual [Art-A-Hack](https://artahack.io/) program now has a consistent home in which to bring projects to fruition.
 
 {% include image.html file='vive.jpg'
    caption='Using a HTC Vive at Hardware Hack Lab' %}
@@ -24,6 +24,6 @@ As initiatives and engagements continue to crop up, having a consistent location
 
 For artists taking part in the Arts Residency program, direct access is available to the lab whenever required.
 
-Our <a href="/blog/introducing-cyborg-foundation/">current residents</a>, the Cyborg Foundation, have begun working with engineers who recently graduated from New York University's <a href="http://tisch.nyu.edu/itp">ITP program</a>, and these engineers will also have full access to the lab.
+Our [current residents](/blog/introducing-cyborg-foundation/), the Cyborg Foundation, have begun working with engineers who recently graduated from New York University's [ITP program](http://tisch.nyu.edu/itp), and these engineers will also have full access to the lab.
 
-What we are really excited about is seeing what happens next. We have designed and built the space, and now we are supporting a number of very exciting projects concurrently. Watch this space, and <a href="https://hardwarehacklab.io/join/">consider visiting</a> one of our public events.
+What we are really excited about is seeing what happens next. We have designed and built the space, and now we are supporting a number of very exciting projects concurrently. Watch this space, and [consider visiting](https://hardwarehacklab.io/join/) one of our public events.

@@ -3,7 +3,7 @@ title     : "Global Visioning Session with the Cyborgs"
 author    : Andrew McWilliams
 tags      : [time-sense, seismic-sense]
 ---
-Our first residents, the Cyborg Foundation, <a href="/blog/introducing-cyborg-foundation/">came to ThoughtWorks</a> with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
+Our first residents, the Cyborg Foundation, [came to ThoughtWorks](/blog/introducing-cyborg-foundation/) with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
 
 {% include image.html file='neil.jpg'
    caption='Neil detailing the vision for his new sense' %}
@@ -12,26 +12,29 @@ Following on from an initial period of outreach across ThoughtWorks offices, we 
 
 <!--excerpt-ends-->
 
-In addition to ThoughtWorkers, attending the meeting were two recent graduates from New York University's ITP program, <a href="http://oryan1.com/">Oryan Inbar</a> and <a href="http://www.samsadtler.com/">Sam Sadtler</a>. The pair had already agreed to spend the summer helping Neil and Moon develop prototypes, and were here to join the team.
+In addition to ThoughtWorkers, attending the meeting were two recent graduates from New York University's ITP program, [Oryan Inbar](http://oryan1.com/) and [Sam Sadtler](http://www.samsadtler.com/). The pair had already agreed to spend the summer helping Neil and Moon develop prototypes, and were here to join the team.
 
-Also attending was residency co-organizer Ellen Pearlman, a PhD candidate at the School of Creative Media in Hong Kong. Ellen brings a wealth of knowledge about trans-humanism, and recently premiered her <a href="http://media.digitalarti.com/image/noor_a_brain_opera">new brain opera</a> at ISEA 2016.
+Also attending was residency co-organizer Ellen Pearlman, a PhD candidate at the School of Creative Media in Hong Kong. Ellen brings a wealth of knowledge about trans-humanism, and recently premiered her [new brain opera](http://media.digitalarti.com/image/noor_a_brain_opera) at ISEA 2016.
 
 {% include image.html file='call.jpg'
    caption='Moon Ribas describes her new sense to a cross-disciplinary team' %}
 
 The key objective for the session was to get all the ideas out on the table, in such a way that it enabled this globally distributed team to start working.
 
-It was actually a fairly tall order. However, <a href="https://www.linkedin.com/in/danellej">Danelle Jones</a> proposed a framework for organizing ideas, and also a sequence to help tease the ideas out in conversation. We repeated this process for both Neil and Moon:
+It was actually a fairly tall order. However, [Danelle Jones](https://www.linkedin.com/in/danellej) proposed a framework for organizing ideas, and also a sequence to help tease the ideas out in conversation. We repeated this process for both Neil and Moon:
 
-<ol>
-	<li><strong>Visioning</strong><br />A short time for the residents to explain the "why" behind their concepts, helping to orient the team. (In a previous session, the cyborgs had already described the "what" to the team).<br /><br /></li>
-	<li><strong>Questioning</strong><br />Open-ended, organic questions from anyone in the team. Exploration and diversion are a natural and important part of this conversation.<br /><br /></li>
-	<li><strong>Prioritizing</strong><br />During the above conversations, ideas are captured and gathered on the wall (see below), separating actionable ideas from non-actionable ones. In the final period the actionable ideas are prioritized by the whole group based on the shared vision.</li>
-</ol>
+1.  **Visioning**  
+    A short time for the residents to explain the "why" behind their concepts, helping to orient the team. (In a previous session, the cyborgs had already described the "what" to the team).  
+
+2.  **Questioning**  
+    Open-ended, organic questions from anyone in the team. Exploration and diversion are a natural and important part of this conversation.  
+
+3.  **Prioritizing**  
+    During the above conversations, ideas are captured and gathered on the wall (see below), separating actionable ideas from non-actionable ones. In the final period the actionable ideas are prioritized by the whole group based on the shared vision.
 
 While I acted as facilitator, Danelle acted as scribe, capturing ideas on a virtual wall. The wall was visible for all to see, however we avoided drawing the group's attention to it early on, preferring the free flow of natural conversation.
 
-Whenever the questioning reached natural cadences, we turned attention to the wall for validation and modification by the group. We would then draw a line under that area of inquiry and ask the group: "who has more questions we <em>haven't</em> covered yet?"
+Whenever the questioning reached natural cadences, we turned attention to the wall for validation and modification by the group. We would then draw a line under that area of inquiry and ask the group: "who has more questions we _haven't_ covered yet?"
 
 {% include image.html file='wall-nonactionable.png'
    caption='Non-actionable ideas arranged on a wall' %}

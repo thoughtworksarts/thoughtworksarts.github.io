@@ -7,7 +7,7 @@ On August 2, 2017 [Heather Dewey-Hagborg](/bio/heather-dewey-hagborg/) in conjun
 {% include image.html file='suppressed-images.jpg'
    caption='Suppressed Images (2017), Shoili Kanungo, Heather Dewey-Hagborg' %}
 
-Included in the exhibit was the piece Heather had created during her ThoughtWorks Arts Residency, the graphic short story <a href="/projects/suppressed-images/">Suppressed Images</a>, developed with illustrator [Shoili Kanungo](/bio/shoili-kanungo/).
+Included in the exhibit was the piece Heather had created during her ThoughtWorks Arts Residency, the graphic short story [Suppressed Images](/projects/suppressed-images/), developed with illustrator [Shoili Kanungo](/bio/shoili-kanungo/).
 
 <!--excerpt-ends-->
 
@@ -23,7 +23,7 @@ This meant that Chelsea would be able to view the portraits Heather produced fro
 {% include image.html file='chelsea-manning.jpg'
    caption='Chelsea Manning at ‘A Becoming Resemblance’' %}
 
-The installation work <em>Probably Chelsea</em>, also included in the show, illustrated the multitude ways in which DNA can be interpreted. It is a refutation of the outmoded notions of biologically inscribed identity, and a testament to the commonality that is clearly present even at the cellular level.
+The installation work _Probably Chelsea_, also included in the show, illustrated the multitude ways in which DNA can be interpreted. It is a refutation of the outmoded notions of biologically inscribed identity, and a testament to the commonality that is clearly present even at the cellular level.
 
 {% include image.html file='heather.jpg' file2='panel.jpg'
    caption='Panel talk, Heather Dewey-Harborg, and critics and theorists Nora Khan, Christiane Paul' %}
@@ -31,6 +31,6 @@ The installation work <em>Probably Chelsea</em>, also included in the show, illu
 On September 5th, a panel was convened at Fridman Gallery with Heather Dewey-Hagborg, and curators and critics Nora Khan and Christiane Paul to discuss the rise of, and implications of genetic analysis and identity.
 
 {% include image.html file='directors.jpg'
-   caption='Residency Directors Andy McWilliams and Ellen Pearlman with Heather and the illustration by Shoili Kanungo, <em>Suppressed Images</em>' %}
+   caption='Residency Directors Andy McWilliams and Ellen Pearlman with Heather and the illustration by Shoili Kanungo, _Suppressed Images_' %}
 
 The panel led to interesting and engaging discussions, which will continue well beyond the show. Heather continues to pursue new work along the themes of genetic analysis and identity.
