@@ -4,10 +4,9 @@ title : "How Art and Technology Predict the Future"
 
 <p>Over the summer, <strong>Director Andy McWilliams</strong> spoke at TEDxVilnius, and shared different examples of how artists are using art practice and technology as a mechanism to explore emergent futures.</p>
 
-<figure>
-	<a href="https://www.youtube.com/watch?v=yrPegku0znk" target="_blank"><img alt="Andy McWilliams TEDx" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/62fe5953-df49-4d91-a228-d2a9d0ca8512.jpg"></a>
-	<figcaption>Director Andrew McWilliams at TEDx</figcaption>
-</figure>
+{% include image.html file='andrew-mcwilliams.jpg'
+   link='https://www.youtube.com/watch?v=yrPegku0znk'
+   caption='Director Andrew McWilliams at TEDx' %}
 
 <p>&ldquo;Sometimes looking into the future can be scary, because by definition it is unknown. But with art and technology, we can tell real stories about what is coming, and bring these issues into the light.&rdquo;</p>
 
@@ -31,10 +30,8 @@ title : "How Art and Technology Predict the Future"
 
 <p>Past resident and cyborg <strong>Moon Ribas</strong> had <a href="https://www.facebook.com/cyborgfoundation/?hc_ref=ARSUtaMkSJ3">two new sensors</a>, partially developed while at Thoughtworks, implanted in her feet to feel moonquakes. <a href="http://www.straitstimes.com/lifestyle/arts/walking-earthquake-detector">An interview of her</a>, Artist Moon Ribas translates Earth&#39;s movement into art, appears in Lifestyle.</p>
 
-<figure>
-	<img alt="Moon Ribas" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/19bdb39e-ff3c-4c65-82f5-2c86b6490024.jpg" />
-	<figcaption>Past ThoughtWorks Arts Resident Moon Ribas shortly after receiving earthquake sensor implants in her feet</figcaption>
-</figure>
+{% include image.html file='moon-feet.jpg'
+   caption='Past ThoughtWorks Arts Resident Moon Ribas shortly after receiving earthquake sensor implants in her feet' %}
 
 <p><a href="https://issuu.com/women.cinemakersreview/docs/vol8/70">An interview </a>of Director <strong>Ellen Pearlman</strong> appears in WomenCinemakers, an annual magazine offering readers insight into the work of emerging women directors, producers and writers from around the world, and she participated in the closing panel of <a href="https://www.jumpintovrfest.com/">Jump into VR Fest. </a></p>
 
@@ -44,10 +41,8 @@ title : "How Art and Technology Predict the Future"
 
 <p>Art-A-Hack alum <strong>Mark Ramos</strong> showed his work at <a href="http://mailchi.mp/1e69639179d5/futurereboot">Future Robot</a> in New York.</p>
 
-<figure>
-	<img alt="Neil Harbisson" src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/84203e74-f800-43eb-aeac-1f0d27eb7d2a.jpg" />
-	<figcaption>Neil Harbisson gets a good fit</figcaption>
-</figure>
+{% include image.html file='neil-harbisson.jpg'
+   caption='Neil Harbisson gets a good fit' %}
 
 <p>An interview, <a href="http://www.lifegate.com/people/news/neil-harbisson-cyborg-interview">I am a Cyborg and I Have Nature at Heart</a>, of past resident, <strong>Neil Harbisson</strong> appears in Lifegate.</p>
 
