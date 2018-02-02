@@ -12,13 +12,17 @@ title : "Artificial Intelligence, Biometrics, VR and Brain Surveillance"
 
 <p>Join us on Wednesday, May 17, 2017 at ThoughtWorks, 99 Madison, New York, for <a href="https://www.meetup.com/volumetric/events/239639066/">three views on Biometrics and Immersion in tech</a>. Current resident hannes bend, along with residency directors Ellen Pearlman and Andrew McWilliams will share their experiences working with brain waves, blood-glucose levels, and meditation &amp; breath, to discuss the future of the physical body and immersive art practices. This event is a part of the city-wide <a href="http://creativetechweek.nyc/">Creative Tech Week</a>.</p>
 
-<figure><a href="https://jahya.net/works/insulin/"><img src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/3ac177c2-16b6-4e87-9a7b-a43ce4cf49b0.png"/></a><figcaption>Insulin, an blood-glucose visualization by Andrew McWilliams</figcaption></figure>
+{% include image.html file='insulin.png'
+   link='https://jahya.net/works/insulin/'
+   caption='Insulin, an blood-glucose visualization by Andrew McWilliams' %}
 
 <h2>Creative Tech Week Lightning Talks</h2>
 
 <p>You can also <a href="http://creativetechweek.nyc/sessions/afternoon-lightning-talks/">join the Creative Tech Week conference</a> on Saturday, May 20, 2017 to hear the residency directors Andrew McWilliams and Ellen Pearlman talk about their work. Creative Tech Week is an industry-wide gathering for the creative technology field, held annually in New York City.</p>
 
-<figure><a href="http://www.isea-archives.org/sample-page/isea2016/isea2016-art-events/isea2016-artist-statement-ellen-pearlman-noor-a-brain-opera/"><img src="http://gallery.tinyletterapp.com/ca67ef9bca3fed76645ad088e2465add6bfb22c2/images/4847b271-8b0a-477a-8275-5303c3f768b2.jpg"/></a><figcaption>Noor: A Brain Opera by Ellen Pearlman</figcaption></figure>
+{% include image.html file='noor.jpg'
+   link='http://www.isea-archives.org/sample-page/isea2016/isea2016-art-events/isea2016-artist-statement-ellen-pearlman-noor-a-brain-opera/'
+   caption='Noor: A Brain Opera by Ellen Pearlman' %}
 
 <h2>Directors and Alumni News</h2>
 
