@@ -5,8 +5,9 @@ module GenerateMetaTags
     def generate(site)
       begin_benchmark
       load_regexes
-      load_prefixes
+      load_prefixes "/images/posts"
       generate_meta_tags site.collections["posts"]
+      load_prefixes "/images/newsletters"
       generate_meta_tags site.collections["newsletters"]
       end_benchmark
     end
@@ -37,8 +38,8 @@ module GenerateMetaTags
       @paragraph_wo_tag_regex = /^(?!<[a-z])(.*)\n/i
     end
 
-    def load_prefixes
-      @img_url_prefix = "/images/posts"
+    def load_prefixes(img_prefix)
+      @img_url_prefix = img_prefix
       @vimeo_url_prefix = "http://vimeo.com/"
       @youtube_url_prefix = "http://www.youtube.com/watch?v="
     end
