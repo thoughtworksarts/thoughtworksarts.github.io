@@ -111,9 +111,9 @@ Art Forum
 
 ### Presentations
 
-**Ellen Pearlman** (**Director)**  
+**Ellen Pearlman (Director)**  
 Panel Speaker - Brain Surveillance and New Media Art  
-[Wording the Brain 2017](https://worldingthebrain2017.com/)  
+[Worlding the Brain 2017](https://worldingthebrain2017.com/)  
 Amsterdam, The Netherlands  
 
 Lecturer - Brain Surveillance and New Media Art  
@@ -130,7 +130,7 @@ Leipaja, Latvia
 Riga, Latvia
 
 {% include image.html file='neil-harbisson.jpg'
-   caption='Neil Harbisson speaking at &#39;Human Hardware&#39; in Barcelona, October 2017' %}
+   caption='Neil Harbisson speaking at \'Human Hardware\' in Barcelona, October 2017' %}
 
 **Neil Harbisson (Past Resident)**  
 [Human Hardware](https://www.mazda.es/noticias/mazda-rebels/cyborg-neil-harbisson/)  
