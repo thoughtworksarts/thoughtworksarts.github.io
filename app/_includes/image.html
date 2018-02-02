@@ -28,7 +28,11 @@
 	replace: '</p>', ''
 }}{% endcapture %}
 
-<figure>
+{% if include.class.size > 0 %}
+	{% capture figureclass %} class="{{ include.class }}"{% endcapture %}
+{% endif %}
+
+<figure{{ figureclass }}>
 	{% if include.link.size > 0 %}
 	<a href="{{ include.link }}">
 	{% endif %}
@@ -46,3 +50,10 @@
 		<figcaption>{{ captiontext }}</figcaption>
 	{% endif %}
 </figure>
+
+{% capture imagepath %}{% endcapture %}
+{% capture image  %}{% endcapture %}
+{% capture image2 %}{% endcapture %}
+{% capture alttext %}{% endcapture %}
+{% capture captiontext %}{% endcapture %}
+{% capture figureclass %}{% endcapture %}
