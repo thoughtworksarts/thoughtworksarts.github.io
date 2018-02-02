@@ -10,10 +10,23 @@
 {% capture image2 %}{{ imagepath | append: include.file2 }}{% endcapture %}
 
 {% if include.alt.size > 0 %}
-	{% capture alttext %} alt="{{ include.alt }}"{% endcapture %}
+	{% capture alttext %}{{ include.alt }}{% endcapture %}
 {% elsif include.caption.size > 0 %}
-	{% capture alttext %} alt="{{ include.caption | strip_html }}"{% endcapture %}
+	{% capture alttext %}{{ include.caption }}{% endcapture %}
 {% endif %}
+
+{% capture alttext %} alt="{{
+	alttext |
+	markdownify |
+	strip_html
+}}"{% endcapture %}
+
+{% capture captiontext %}{{
+	include.caption |
+	markdownify |
+	replace: '<p>', '' |
+	replace: '</p>', ''
+}}{% endcapture %}
 
 <figure>
 	{% if include.link.size > 0 %}
@@ -30,6 +43,6 @@
 	{% endif %}
 
 	{% if include.caption.size > 0 %}
-		<figcaption>{{ include.caption }}</figcaption>
+		<figcaption>{{ captiontext }}</figcaption>
 	{% endif %}
 </figure>
