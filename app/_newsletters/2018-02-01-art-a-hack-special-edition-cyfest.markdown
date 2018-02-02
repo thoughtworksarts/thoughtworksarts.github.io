@@ -8,7 +8,7 @@ Art-A-Hack™ special edition for [CYFEST 2018](http://cyland.org/lab/cyland-pro
 
 {% include image.html file='cyland.png'
    alt='CYLAND media art laboratory'
-   class='small' %}
+   class='small no-border' %}
 
 Artists, programmers and other creative practitioners met each other for the first time to start discussing their project ideas in preparation for the first workshops.
 

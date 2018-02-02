@@ -19,6 +19,7 @@ In addition to this, Heather had previously created [a unique DNA-based portrait
 
 {% include image.html file='suppressed-images.jpg'
    link='https://suppressedimages.net'
+   class='no-border'
    caption='The cover page of <a href="http://suppressedimages.net/">suppressedimages.net</a>' %}
 
 Heather, Shoili and Chelsea decided to use the moment to create a [new graphic story](https://suppressedimages.net/) explaining the DNA portraiture technique to general audiences, showing how it was applied to Chelsea in 2015, and ending with an appeal for the commutation of Chelsea's sentence before the inauguration of President Trump.
@@ -27,6 +28,7 @@ They named the story "Suppressed Images", a reference to the fact that Chelsea w
 
 {% include image.html file='heather-shoili.jpg'
    link='https://thoughtworksarts.io/projects/suppressed-images/'
+   class='no-border'
    caption='Heather Dewey-Hagborg and Shoili Kanungo' %}
 
 The [published graphic story](https://suppressedimages.net/), thanks to Shoili's beautifully inked designs, is a fascinating and relatable introduction to a fairly complex subject. We are pleased to say that Chelsea's sentence was in fact commuted, during Obama's last days in office. You can see [a writeup of the project here](https://thoughtworksarts.io/projects/suppressed-images/), and more detail [on the blog](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/).
@@ -37,6 +39,7 @@ The Cyborg Foundation [joined us](https://thoughtworksarts.io/blog/introducing-c
 
 {% include image.html file='cyborg.jpg'
    link='https://thoughtworksarts.io/projects/'
+   class='no-border'
    caption='Neil and Moon experimenting with prototype \'exo-senses\'' %}
 
 These are external sensory organs, or 'exo-senses', which are designed to be worn permanently to give users a new intuitive sensation based on incoming data, which is otherwise inaccessible to humans. Moon and Neil are famous for [their existing implants](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/), which were permanently installed in their bodies via surgery.
