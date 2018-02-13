@@ -56,6 +56,39 @@ body>header.flex-col {
 	}
 }
 
+body.site-banner>header {
+	margin-bottom: 54px;
+
+	.banner {
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		bottom: -54px;
+		z-index: 1;
+
+		a {
+			height: 28px;
+			padding: 13px;
+			background-color: #d62a28;
+			color: #ffffff;
+			display: block;
+			z-index: 1000;
+			position: relative;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+
+		a:link, a:visited {
+			text-decoration: underline;
+		}
+
+		a:hover, a:active {
+			text-decoration: none;
+		}
+	}
+}
+
+
 a {
 	transition: color 0.12s;
 }
@@ -466,6 +499,12 @@ ul.progress li, ol.progress li {
 @media (max-width: 499px) {
 	hr {
 		margin-bottom: 0.8em;
+	}
+}
+
+@media (max-width: 399px) {
+	body.site-banner>header .banner a {
+		font-size: 0.9em;
 	}
 }
 

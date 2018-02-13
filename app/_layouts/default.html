@@ -23,6 +23,19 @@
   {% assign description = page.description %}
 {% endif %}
 
+{% if page.url contains site.banner-url %}
+  {% assign display-banner = false %}
+{% else %}
+  {% assign display-banner = site.display-banner %}
+{% endif %}
+
+{% if display-banner %}
+  {% capture bodyclass %}{{ page.bodyclass }} site-banner{% endcapture %}
+  {% capture bodyclass %}{{ bodyclass | strip }}{% endcapture %}
+{% else %}
+  {% capture bodyclass %}{{ page.bodyclass }}{% endcapture %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,13 +69,18 @@
   <link rel="shortcut icon" href="/images/favicon.ico">
 </head>
 
-<body id="{{ page.bodyid }}" class="{{ page.bodyclass }}">
+<body id="{{ page.bodyid }}" class="{{ bodyclass }}">
   <header role="banner" class="flex-col">
     <section id="logonav">
       <h1>ThoughtWorks Arts Residency</h1>
       <a href="/" class="logo">
         <img src="/images/twartsresidency.png" alt="ThoughtWorks Arts Residency" />
       </a>
+      {% if display-banner %}
+        <aside class="banner">
+          <a href="{{ site.banner-url }}">{{ site.banner-text }}</a>
+        </aside>
+      {% endif %}
       <nav role="navigation">
         <h2>Navigation</h2>
         <a id="menu-button" href="#">

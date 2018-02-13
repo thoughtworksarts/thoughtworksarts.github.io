@@ -9,6 +9,10 @@ author:
   name: Andrew McWilliams
   email: andy@jahya.net
 
+display-banner: true
+banner-url: /open-call/2018-mechanical-movement/
+banner-text: "Apply Now for Robotics Open Call"
+
 # Grunt handles images and assets.
 exclude: ['images', 'stylesheets', 'javascript', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
