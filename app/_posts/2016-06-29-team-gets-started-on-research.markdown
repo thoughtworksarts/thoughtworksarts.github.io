@@ -92,4 +92,4 @@ To do this, Samual Sadtler and Oryan Inbar have been experimenting with a [therm
 
 Using the online service [Infragram](http://infragram.org/), the team is able to position a mouse cursor over an RGB image, and take a reading of the same pixel from the thermal camera. In this way, they can test changes in temperature while applying various currents to resistors around the circumference of the dummy head, and ultimately Neil's head.
 
-With these test rigs in place, and these experiments underway, the team is ready to start designing prototypes based on acquired knowledge. Stay tuned for more updates, and follow along or drop us a line on [github](https://github.com/thoughtworksresidency) or [twitter](https://twitter.com/tw_arts).
+With these test rigs in place, and these experiments underway, the team is ready to start designing prototypes based on acquired knowledge. Stay tuned for more updates, and follow along or drop us a line on [github](https://github.com/thoughtworksarts) or [twitter](https://twitter.com/tw_arts).
