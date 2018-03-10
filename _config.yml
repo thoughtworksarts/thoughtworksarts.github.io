@@ -33,7 +33,7 @@ pagination:
 
 permalink: /blog/:title/
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate-v2
