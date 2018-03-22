@@ -244,12 +244,12 @@ figure.video.ratio-80 {
 	font-style: italic;
 }
 
-img.small {
+img.small, figure.small img {
 	margin-top: 0.6em;
 	max-width: 230px;
 }
 
-img.no-border {
+img.no-border, figure.no-border img {
 	border: 0 !important;
 
 	img {
