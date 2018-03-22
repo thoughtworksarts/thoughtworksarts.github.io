@@ -1,12 +1,12 @@
 ---
 title : "ThoughtWorks Arts at SPRING/BREAK Art Show in NYC"
 ---
-We are thrilled to announce that ThoughtWorks Arts has teamed up with Harvestworks to stage ThoughtWorks Stranger Than Life Hacks, a special projects exhibition for the 7th annual [SPRING/BREAK Art Show](http://www.springbreakartshow.com/) (part of Armory Arts Week) at 4 Times Square, March 6 - 12, 2018.
+We are thrilled to announce that ThoughtWorks Arts has teamed up with Harvestworks to stage _ThoughtWorks Stranger Than Life Hacks,_ a special projects exhibition for the 7th annual [SPRING/BREAK Art Show](http://www.springbreakartshow.com/) (part of Armory Arts Week) at 4 Times Square, March 6 - 12, 2018.
 
 {% include image.html file='dual-brains.jpg'
    caption='Dual Brains by Eva Lee and Aaron Trocola' %}
 
-For the opening night VIP event on March 6th, 5pm - 9pm, we will be presenting a live performance of Dual Brains, an Art-A-Hack project that uses shared empathy between two brains to create a visual and sonic environment.
+For the opening night VIP event on March 6th, 5pm - 9pm, we will be presenting alive performance of _Dual Brains,_ an Art-A-Hack project that uses shared empathy between two brains to create a visual and sonic environment.
 
 <!--excerpt-ends-->
 
