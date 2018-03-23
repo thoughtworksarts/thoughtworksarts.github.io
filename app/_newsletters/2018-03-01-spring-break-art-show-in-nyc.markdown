@@ -23,7 +23,7 @@ For the first time ever, Art-A-Hack™ was in St. Petersburg, Russia for [CYFEST
 
 Projects from this Art-A-Hack included _Digital Hologram_, a projected, animated hologram that responds to a typed question asked to a Google AI API; _Word Cloud_, that produced sonic and visual elements relating to questions asked to the ‘emotional’ response of IBM’s Watson API;  and _Blinking_, which used Open CV to detect nuances in an observer’s blinking to edit a movie. _Hologram_ will be shown at Tate Modern’s Tate Exchange special program, March 6 - 11, 2018.
 
-## News from Art-A-Hack Alumni Sam Arsenault- Brassard & Javier Molina
+## News from Art-A-Hack Alumni Sam Arsenault-Brassard & Javier Molina
 
 Samuel Arsenault-Brassard is working on a new VR/AR focused gallery in Montreal, [LiL Pocket Gallery](https://www.facebook.com/lilpocketgallery). The inaugural AR show, [Illusive Sympathy](https://www.youtube.com/watch?v=jp_TSieRzNo) opened on February 23rd with work by street artist Cryote.
 
