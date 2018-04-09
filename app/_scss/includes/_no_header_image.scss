@@ -1,4 +1,4 @@
-.content-page {
+.no-header-image {
 	background-image: url('/images/full-bleed/pattern-1600.png');
 	background-position: 0 189px;
 	background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 1299px) {
-	.content-page {
+	.no-header-image {
 		background-position: 0 175px;
 
 		header.flex-col {
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 1099px) {
-	.content-page {
+	.no-header-image {
 		background-position: 0 160px;
 
 		header.flex-col {
@@ -48,7 +48,7 @@
 }
 
 @media (max-width: 899px) {
-	.content-page {
+	.no-header-image {
 		background-position: 0 114px;
 
 		header.flex-col {
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 639px) {
-	.content-page {
+	.no-header-image {
 		background-image: inherit;
 
 		>main>section:first-of-type {

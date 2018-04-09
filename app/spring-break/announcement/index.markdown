@@ -1,7 +1,7 @@
 ---
 layout     : post-special
 title	   : "Harvestworks, ThoughtWorks Arts, and Art-A-Hack™ team up for SPRING/BREAK Art Show exhibition “ThoughtWorks Stranger Than Life Hacks”"
-bodyclass  : content-page
+bodyclass  : no-header-image
 description: An exhibition of ThoughtWorks Arts incubated art projects for Armory Week in 2018
 image      : /images/posts-special/spring-break/announcement.jpg
 alias      : /announcement/2018-spring-break/index.html

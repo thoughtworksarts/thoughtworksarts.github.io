@@ -60,22 +60,22 @@ defaults:
     values:
       layout    : post
       bodyid    : blog
-      bodyclass : content-page
+      bodyclass : no-header-image
   - scope:
       type: newsletters
     values:
       layout    : newsletter
       bodyid    : blog
-      bodyclass : content-page newsletter
+      bodyclass : no-header-image newsletter
   - scope:
       type: projects
     values:
       layout    : project
       bodyid    : projects
-      bodyclass : content-page
+      bodyclass : no-header-image
   - scope:
       type: people
     values:
       layout    : bio
       bodyid    : projects
-      bodyclass : content-page
+      bodyclass : no-header-image
