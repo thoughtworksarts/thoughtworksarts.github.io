@@ -1,10 +1,19 @@
-{% capture imagepath %}{{
-	page.path |
-	replace: '_posts/', '/images/posts/' |
-	replace: '_newsletters/', '/images/newsletters/' |
-	replace: '.markdown', '' |
-	append: '/'
-}}{% endcapture %}
+{% if page.path contains '_posts' or page.path contains '_newsletters' %}
+	{% capture imagepath %}{{
+		page.path |
+		replace: '_posts/', '/images/posts/' |
+		replace: '_newsletters/', '/images/newsletters/' |
+		replace: '.markdown', '' |
+		append: '/'
+	}}{% endcapture %}
+{% else %}
+	{% capture imagepath %}{{
+		page.path |
+		prepend: '/images/posts-special/' |
+		replace: '/index.markdown', '' |
+		append: '/'
+	}}{% endcapture %}
+{% endif %}
 
 {% capture image  %}{{ imagepath | append: include.file  }}{% endcapture %}
 {% capture image2 %}{{ imagepath | append: include.file2 }}{% endcapture %}
