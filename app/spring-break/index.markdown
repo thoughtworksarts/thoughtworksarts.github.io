@@ -96,6 +96,6 @@ The work was conceptualized and created by Javier Molina and David Gochfeld with
 Relativity Five is a table-top heart sensing and reflecting light sculpture by artist Sofy Yuditskaya. The work is an extension of a [concept incubated at Art-A-Hack](https://artahack.io/projects/aurora-borealis/), in which lasers are used to display viewer’s biometrics.
 
 {% include image.html file='relativity-five.jpg'
-   caption='Relativity Five' %}
+   caption='The biometric sculpture \'Relativity Five\'' %}
 
 This work magnifies and immerses audiences in their own bodily rhythms, with their heartbeats pulsing in laser form as they touch buttons on the sculptures.
