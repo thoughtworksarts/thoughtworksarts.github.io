@@ -95,6 +95,18 @@ footer:after {
 			width: 200px;
 			padding: 0.5em 0;
 			text-align: center;
+
+			li {
+				display: block;
+			}
+
+			li:first-of-type {
+				height: 1.3em;
+			}
+
+			li:last-of-type {
+				height: 1.8em;
+			}
 		}
 	}
 }
