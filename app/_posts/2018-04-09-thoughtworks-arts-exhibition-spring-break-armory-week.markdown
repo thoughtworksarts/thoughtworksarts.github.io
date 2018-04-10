@@ -1,9 +1,5 @@
 ---
-layout     : post-special
-title	     : "ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018"
-bodyclass  : spring-break-header-image
-description: Artists incubated by ThoughtWorks Arts presented an exhibition at SPRING/BREAK for New York's Armory Week in 2018
-image      : /images/posts-special/spring-break/dual-brains.jpg
+title     : "ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018"
 ---
 The work of ThoughtWorks Arts artists were exhibited together at the closely-watched SPRING/BREAK Art Show in March 2018. The exhibition took place at 4 Times Square as part of New York's Armory Week.
 
@@ -11,6 +7,8 @@ The work of ThoughtWorks Arts artists were exhibited together at the closely-wat
    caption='The exhibition space just prior to opening' %}
 
 The exhibition, sponsored by the media art center [Harvestworks](http://www.harvestworks.org/), was comprised of works incubated by ThoughtWorks Arts programs over the last four years. This includes work from [Art-A-Hack](https://artahack.io) and the [ThoughtWorks Arts Residency](https://thoughtworksarts.io), and by the directors of these programs, Andrew McWilliams and Ellen Pearlman, who are also practicing artists.
+
+<!--excerpt-ends-->
 
 The show’s curator Lee Tusman, says:
 > These works show the tipping point of innovation socially transforming our world over the next 25-30 years. They cross over into areas of virtuality and nature and the artificial and the real. As the real (nature/climate change) is threatened, the artificial (VR/AR/immersion) grows. As one world is being destroyed, another opens up.
