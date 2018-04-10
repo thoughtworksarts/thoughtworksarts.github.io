@@ -3,7 +3,7 @@ layout     : post-special
 title	   : "ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018"
 bodyclass  : spring-break-header-image
 description: Artists incubated by ThoughtWorks Arts presented an exhibition at SPRING/BREAK for New York's Armory Week in 2018
-image      : /images/posts-special/spring-break/announcement.jpg
+image      : /images/posts-special/spring-break/dual-brains.jpg
 ---
 The work of ThoughtWorks Arts artists were exhibited together at the closely-watched SPRING/BREAK Art Show in March 2018. The exhibition took place at 4 Times Square as part of New York's Armory Week.
 
