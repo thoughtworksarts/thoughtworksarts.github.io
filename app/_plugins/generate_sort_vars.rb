@@ -34,7 +34,8 @@ module GenerateSortVars
       collection.each do |item|
         if item.data['season']
           season = item.data['season'].split ' '
-          item.data['season-code'] = "#{season[1]}-#{seasons[season[0]]}"
+          order_within_season = item.data['order-within-season'] ? "-#{100-item.data['order-within-season']}" : ''
+          item.data['season-code'] = "#{season[1]}-#{seasons[season[0]]}#{order_within_season}"
         end
       end
     end

@@ -7,6 +7,8 @@ teaser        :
    <p>Catie Cuan is a performer, choreographer, filmmaker, and technologist. She is interested in the physical manifestations of digital identities and the friction between discrete structures and qualitative human phenomena.</p>
    <p>Performances of her work include the Ferst Center (Atlanta), MOCO (Genoa), CODAME (San Francisco), and Joe's Pub/Dance NOW (New York). Catie is a 2018 TED Resident and the Artist-in-Residence at the Robotics, Automation, and Dance (RAD) Lab at the University of Illinois.</p>
 
+order-within-season: 2
+
 links:
  - icon    : "fa-globe"
    name    : "Website"
