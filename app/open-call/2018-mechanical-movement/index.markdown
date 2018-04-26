@@ -4,7 +4,7 @@ title	   : "Mechanical &amp; Movement: Robotics Open Call"
 bodyclass  : no-header-image
 description: An Open Call for artists investigating robotics and related issues in 2018
 ---
-<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted.</p>
+<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. <a href="/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/">Click here to learn more</a>.</p>
 
 Dates: June 4 - September 21, 2018
 
