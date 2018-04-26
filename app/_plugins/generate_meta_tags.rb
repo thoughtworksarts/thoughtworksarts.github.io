@@ -1,4 +1,5 @@
 require 'video_thumb'
+require 'pragmatic_segmenter'
 
 module GenerateMetaTags
   class Generator < Jekyll::Generator
@@ -9,6 +10,7 @@ module GenerateMetaTags
       generate_meta_tags site.collections["posts"]
       load_prefixes "/images/newsletters"
       generate_meta_tags site.collections["newsletters"]
+      generate_people_meta_tags site.collections["people"]
       end_benchmark
     end
 
@@ -52,6 +54,13 @@ module GenerateMetaTags
         if item.data['description'].nil? then
           generate_description_tag(item)
         end
+      end
+    end
+
+    def generate_people_meta_tags(collection)
+      collection.docs.each do |item|
+        item.data['image'] = "/images/people/#{item.data['slug']}.png"
+        item.data['description'] = PragmaticSegmenter::Segmenter.new(text: item.data['excerpt'].to_s).segment[0]
       end
     end
 
