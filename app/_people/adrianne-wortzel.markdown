@@ -12,7 +12,7 @@ order-within-season: 1
 links:
  - icon    : "fa-globe"
    name    : "Website"
-   display : "catiecuan.com"
+   display : "adriannewortzel.com"
    url     : "http://www.adriannewortzel.com/"
 
  - icon    : "fa-facebook"
@@ -27,7 +27,7 @@ links:
 
  - icon    : "fa-linkedin"
    name    : "LinkedIn"
-   display : "catiecuan"
+   display : "adriannewortzel"
    url     : "https://www.linkedin.com/in/adriannewortzel/"
 
  - icon    : "fa-instagram"
