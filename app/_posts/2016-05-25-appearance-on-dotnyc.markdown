@@ -1,5 +1,5 @@
 ---
-title     : "Discussing the residency on dotNYC with Jeff Jarvis"
+title     : "Discussing the Residency on dotNYC with Jeff Jarvis"
 author    : Andrew McWilliams
 tags      : [time-sense, seismic-sense]
 ---
