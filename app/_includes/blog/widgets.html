@@ -10,16 +10,16 @@
     <figure>
       <a href="/bio/andrew-mcwilliams/"><img src="/images/people/andrew-mcwilliams.png" alt="Andrew McWilliams" /></a>
       <a href="/bio/ellen-pearlman/"><img src="/images/people/ellen-pearlman.png" alt="Ellen Pearlman" /></a>
-      <figcaption class="postmetadata">Posted by the Residency Directors<br /><span class="updated">{{ datestr }}</span></figcaption>
+      <figcaption>Posted by the Residency Directors<br />{{ datestr }}</figcaption>
     </figure>
   {% elsif author == nil %}
     <figure class="empty">
-      <figcaption class="postmetadata">Posted by the Residency Team<br /><span class="updated">{{ datestr }}</span></figcaption>
+      <figcaption>Posted by the Residency Team<br />{{ datestr }}</figcaption>
     </figure>
   {% else %}
     <figure>
       <a href="{{ author.url }}"><img src="/images/people/{{ author.photo }}" alt="{{ author.name }}" /></a>
-      <figcaption class="postmetadata">Posted by <a href="{{ author.url }}">{{ author.name }}</a><br /><span class="updated">{{ datestr }}</span></figcaption>
+      <figcaption>Posted by <a href="{{ author.url }}">{{ author.name }}</a><br />{{ datestr }}</figcaption>
     </figure>
   {% endif %}
 </div>
