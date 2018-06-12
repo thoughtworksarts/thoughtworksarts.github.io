@@ -7,4 +7,7 @@
     {% assign person = site.people | where: "name", member.name | first %}
     {% include projects/person-item.html role=member.role %}
   {% endfor %}
+  {% for member in page.extended-team %}
+    {% include projects/person-item.html link=member.link status='extended' %}
+  {% endfor %}
 </ul>

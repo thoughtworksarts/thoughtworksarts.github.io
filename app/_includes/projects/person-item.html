@@ -1,11 +1,15 @@
 <li class="person-item">
-  <figure class="person">
-    <a href="{{ person.url }}">
-      <img src="/images/people/{{ person.photo }}" alt="{{ person.name }}">
-      <figcaption>
-        <h3>{{ person.name }}</h3>
-        <p>{{ include.role }}</p>
-      </figcaption>
-    </a>
-  </figure>
+  {% if include.status == 'extended' %}
+    <h3>{{ member.name }}</h3>
+  {% else %}
+    <figure class="person">
+      <a href="{{ person.url }}">
+        <img src="/images/people/{{ person.photo }}" alt="{{ person.name }}">
+        <figcaption>
+          <h3>{{ person.name }}</h3>
+          <p>{{ include.role }}</p>
+        </figcaption>
+      </a>
+    </figure>
+  {% endif %}
 </li>
