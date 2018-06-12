@@ -12,6 +12,11 @@ module GenerateSortVars
         project.data['team'].each do |member|
           member['lastname'] = member['name'].split.last
         end
+        if project.data.include? 'extended-team' then
+          project.data['extended-team'].each do |member|
+            member['lastname'] = member['name'].split.last
+          end
+        end
       end
     end
 
