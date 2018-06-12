@@ -1,6 +1,10 @@
 <li class="person-item">
   {% if include.status == 'extended' %}
-    <h3>{{ member.name }}</h3>
+    {% if member.link %}
+      <h3><a href="{{ member.link }}">{{ member.name }}</a></h3>
+    {% else %}
+      <h3>{{ member.name }}</h3>
+    {% endif %}
   {% else %}
     <figure class="person">
       <a href="{{ person.url }}">
