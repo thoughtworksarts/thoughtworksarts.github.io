@@ -19,7 +19,7 @@ team :
 
 extended-team :
   - name : Aldo Noyola
-  - name : Andy McWilliams
+  - name : Andrew McWilliams
     link : /bio/andrew-mcwilliams/
   - name : Andy Slocum
   - name : Ankit Shukla
