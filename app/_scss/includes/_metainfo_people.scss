@@ -198,7 +198,7 @@
 			padding: 0.8em 0;
 			border-bottom: 1px solid #222222;
 
-			.person-item{
+			.person-item {
 				margin: 0;
 				width: inherit;
 				text-align: left;
@@ -210,13 +210,13 @@
 			}
 
 			.person-item:after {
-				content: ", ";
+				content: ', ';
 				position: relative;
 				left: -0.25em;
 			}
 
 			.person-item:last-child:after {
-				content: "";
+				content: '';
 			}
 		}
 
