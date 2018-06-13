@@ -5,36 +5,41 @@
 		padding-top: 0;
 	}
 
+	.person-item {
+		text-align: center;
+
+		h3 {
+			font-size: 1.6rem;
+			margin-top: 0.2rem;
+			margin-bottom: 0;
+		}
+
+		p {
+			padding-top: 0.4em;
+			margin-bottom: 1.2rem;
+			font-size: 1.2rem;
+		}
+	}
+
 	.person {
 		width: 100%;
+		text-align: center;
 
 		img {
 			width: 100%;
 		}
+	}
 
-		a:link, a:visited {
-			text-decoration: none;
-		}
+	a:link, a:visited {
+		text-decoration: none;
+	}
 
-		a:hover, a:active {
-			text-decoration: underline;
-		}
+	a:hover, a:active {
+		text-decoration: underline;
+	}
 
-		figcaption {
-			text-align: center;
-
-			h3 {
-				font-size: 1.6rem;
-				margin-top: 0.2rem;
-				margin-bottom: 0;
-			}
-
-			p {
-				padding-top: 0.4em;
-				margin-bottom: 1.2rem;
-				font-size: 1.2rem;
-			}
-		}
+	figcaption {
+		text-align: center;
 	}
 
 	.profile-info {
@@ -120,7 +125,7 @@
 
 @media (max-width: 1299px) {
 	.metainfo {
-		.person figcaption {
+		.person-item {
 			h3 {
 				font-size: 1.2rem;
 			}
@@ -167,35 +172,34 @@
 			flex-flow: row;
 			flex-wrap: wrap;
 			margin: 0.9em 0 0 0;
+		}
 
-			.person-item {
-				flex: 0 0 auto;
-				margin-left: 0.6em;
-				width: 6em;
+		.person-item {
+			flex: 0 0 auto;
+			margin-left: 0.6em;
+			width: 6em;
+
+			figcaption {
+				position: relative;
+				top: -0.1em;
 			}
 		}
 
-		.person figcaption {
-			position: relative;
-			top: -0.1em;
-			text-align: center;
+		h3 {
+			margin: 0 0 0.3em 0;
+			font-size: 0.8em;
+		}
 
-			h3 {
-				margin: 0 0 0.3em 0;
-				font-size: 0.8em;
-			}
+		p {
+			padding-top: 0.15em;
+			padding-bottom: 0;
+			font-size: 0.8em;
+			font-style: italic;
+			margin-bottom: 0;
+		}
 
-			p {
-				padding-top: 0.15em;
-				padding-bottom: 0;
-				font-size: 0.8em;
-				font-style: italic;
-				margin-bottom: 0;
-			}
-
-			h3, p {
-				line-height: 1rem;
-			}
+		h3, p {
+			line-height: 1rem;
 		}
 	}
 
@@ -216,10 +220,10 @@
 				height: 100%;
 				width: inherit;
 			}
+		}
 
-			figcaption {
-				display: none;
-			}
+		figcaption {
+			display: none;
 		}
 
 		.profile-info {
@@ -238,10 +242,10 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 1.4em;
+		}
 
-			.person-item {
-				width: 18%;
-			}
+		.person-item {
+			width: 18%;
 		}
 	}
 }
@@ -250,10 +254,10 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 5%;
+		}
 
-			.person-item {
-				width: 17%;
-			}
+		.person-item {
+			width: 17%;
 		}
 	}
 }
@@ -304,10 +308,10 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 5.5%;
+		}
 
-			.person-item {
-				width: 20%;
-			}
+		.person-item {
+			width: 20%;
 		}
 	}
 }
@@ -316,10 +320,10 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 2em;
+		}
 
-			.person-item {
-				width: 4.2em;
-			}
+		.person-item {
+			width: 4.2em;
 		}
 	}
 
