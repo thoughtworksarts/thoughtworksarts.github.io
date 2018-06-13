@@ -49,4 +49,4 @@ links:
    url     : ""
 
 ---
-Ella Holmes bio here.
+Ella Holmes is a software development consultant at ThoughtWorks, where she works on commercial projects implementing application and web-based software development and testing, using Agile methodologies. Previously Ella was a Graduate Research Assistant at Missouri University of Science and Technology, and tutored object-oriented programming at Mount Holyoke College.

@@ -15,13 +15,13 @@ links:
 
  - icon    : "fa-twitter"
    name    : "Twitter"
-   display : ""
-   url     : ""
+   display : "developingviews"
+   url     : "https://twitter.com/developingviews"
 
  - icon    : "fa-linkedin"
    name    : "LinkedIn"
-   display : ""
-   url     : ""
+   display : "sofia-tania"
+   url     : "https://www.linkedin.com/in/sofia-tania/"
 
  - icon    : "fa-instagram"
    name    : "Instagram"
@@ -49,4 +49,6 @@ links:
    url     : "https://github.com/stania1"
 
 ---
-Sofia Tania bio here
+Sofia Tania is a lead software developer at ThoughtWorks, specializing in pragmatic application of engineering practices, including test-driven development, continuous delivery, infrastructure as code, and evolutionary architecture. Her current primary interests are in building intelligent real-time systems with machine learning and data engineering practices.
+
+At ThoughtWorks, while based in Singapore and New York, Tania has engaged in numerous commercial projects, in global retail banking, government &amp; civil service, and in global fashion retail. She has built systems using Ruby, Java, Scala, Clojure, R, Rails, Play for Scala, Sinatra, Cucumber, Spark, neo4j, Kafka and many more.
