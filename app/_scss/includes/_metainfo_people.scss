@@ -193,6 +193,33 @@
 			}
 		}
 
+		.person-list.extended {
+			margin: 0.2em 0 0.8em 0;
+			padding: 0.8em 0;
+			border-bottom: 1px solid #222222;
+
+			.person-item{
+				margin: 0;
+				width: inherit;
+				text-align: left;
+
+				h3 {
+					margin: 0;
+					display: inline;
+				}
+			}
+
+			.person-item:after {
+				content: ", ";
+				position: relative;
+				left: -0.25em;
+			}
+
+			.person-item:last-child:after {
+				content: "";
+			}
+		}
+
 		h3 {
 			margin: 0 0 0.3em 0;
 			font-size: 0.8em;
