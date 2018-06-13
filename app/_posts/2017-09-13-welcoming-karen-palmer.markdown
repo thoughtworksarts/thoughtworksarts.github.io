@@ -1,5 +1,6 @@
 ---
 title     : "Welcoming Karen Palmer to the ThoughtWorks Arts Residency"
+tags      : riot
 ---
 We are delighted to welcome our latest art resident [Karen Palmer](/bio/karen-palmer) to ThoughtWorks. Karen joins us for the fall 2017 season to work on a project looking at Artificial Intelligence, facial recognition and storytelling. 
 

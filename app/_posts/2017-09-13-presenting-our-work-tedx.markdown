@@ -1,6 +1,7 @@
 ---
 title     : "Presenting Our Art & Technology Projects at TEDxVilnius"
 author    : Andrew McWilliams
+tags      : [seismic-sense, time-sense, suppressed-images]
 ---
 I was pleased to be asked to present our work at a recent TEDx event in Lithuania. The video has just been posted online.
 

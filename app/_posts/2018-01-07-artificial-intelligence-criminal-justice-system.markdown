@@ -1,6 +1,7 @@
 ---
 title     : "How Artificial Intelligence is Transforming the Criminal Justice System"
 author    : Stephanie Weber
+tags      : riot
 ---
 
 Many of us are familiar with the idea that Artificial Intelligence systems are regularly making benign decisions, like recommendations on Netflix or Amazon. What about decisions that have a significant impact on someone's life though?

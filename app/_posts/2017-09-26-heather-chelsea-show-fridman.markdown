@@ -1,6 +1,7 @@
 ---
 title     : "Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery"
 author    : Ellen Pearlman
+tags      : suppressed-images
 ---
 On August 2, 2017 [Heather Dewey-Hagborg](/bio/heather-dewey-hagborg/) in conjunction with [Chelsea Manning](/bio/chelsea-manning/) had a show “A Becoming Resemblance” at Fridman Gallery in New York.
 

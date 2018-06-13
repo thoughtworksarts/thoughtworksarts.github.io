@@ -1,6 +1,7 @@
 ---
 title     : "Why We Are Investigating the Biases of Artificial Intelligence"
 author    : Directors
+tags      : riot
 ---
 
 ThoughtWorks Arts has an [open call out now](https://thoughtworksarts.io/open-call/2017-implications-of-ai/) for artists and technologists investigating the implications of Artificial Intelligence for society today.

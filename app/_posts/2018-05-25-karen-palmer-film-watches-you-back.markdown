@@ -1,6 +1,7 @@
 ---
 title : "Karen Palmer: The Film That Watches You Back"
 image : https://i.ytimg.com/vi/Rw8gLEkFdSw/hqdefault.jpg
+tags  : riot
 ---
 In her TED talk, former resident Karen Palmer discusses the inspiration behind her immersive, emotionally responsive film RIOT.
 
