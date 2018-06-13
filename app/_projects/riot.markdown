@@ -8,12 +8,47 @@ image       : /images/projects/riot/og.jpg
 artist      : Karen Palmer
 
 team :
-  - name : Oryan Inbar
-    role : Engineer / Industrial Designer
-  - name : Sam Sadtler
-    role : Engineer
-  - name : Caihong Liu
-    role : Materials Researcher
+  - name : Angelica Perez
+    role : Developer & Project Lead
+  - name : Stephanie Weber
+    role : Developer & Researcher
+  - name : Sofia Tania
+    role : Developer
+  - name : Ella Holmes
+    role : Developer
+
+extended-team :
+  - name : Aldo Noyola
+  - name : Andy McWilliams
+    link : /bio/andrew-mcwilliams/
+  - name : Andy Slocum
+  - name : Ankit Shukla
+    link : https://www.linkedin.com/in/ankit-shukla-562912143/
+  - name : Ashni Mehta
+    link : http://twitter.com/@ashni_mehta
+  - name : Juba Trajano
+    link : https://www.linkedin.com/in/trajanoneto
+  - name : Ellen Pearlman
+    link : /bio/ellen-pearlman/
+  - name : Emily Wu
+    link : https://www.emilyjwu.com/
+  - name : Marina Tassi
+  - name : Mason Richins
+  - name : Megan Louw
+  - name : Miguel Enriquez
+    link : https://twitter.com/eldermael
+  - name : MR Ngo
+  - name : Nathan Zeplowitz
+  - name : Puneetha Pai
+    link : https://www.linkedin.com/in/puneeth-pai-b3b299a1/
+  - name : Ricardo Peters
+    link : https://www.linkedin.com/in/petersricardo
+  - name : Sanin Adnan
+    link : http://blog.saninsoftware.com/
+  - name : Sriram Viswanathan
+    link : https://www.linkedin.com/in/sriramvish/
+  - name : Tim Kadom
+
 ---
 
 *RIOT* is an immersive, emotionally responsive, live-action film that positions viewers in the middle of a riot in progress. The film responds to participants’ emotional state using artificial intelligence, altering the video story journey in real-time.

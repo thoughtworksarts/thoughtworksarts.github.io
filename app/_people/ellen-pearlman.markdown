@@ -8,8 +8,8 @@ teaser        :
 links:
  - icon    : "fa-globe"
    name    : "Website"
-   display : "ellen_pearlman"
-   url     : "http://epmexico.wix.com/ellen_pearlman"
+   display : "ellenpearlman"
+   url     : "https://epmexico.wixsite.com/ellenpearlman"
 
  - icon    : "fa-facebook"
    name    : "Facebook"
