@@ -21,6 +21,14 @@
 		}
 	}
 
+	.person-list.extended {
+		border-top: 1px solid #222222;
+
+		.person-item h3 {
+			margin: 1.8em 0;
+		}
+	}
+
 	.person {
 		width: 100%;
 		text-align: center;

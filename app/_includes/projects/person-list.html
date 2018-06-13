@@ -1,4 +1,4 @@
-<h2 class="first"><span class="hide">Project&nbsp;</span>Team</h2><ul class="second person-list">
+<h2 class="first"><span class="hide">Project&nbsp;</span>Team</h2><div class="second"><ul class="person-list">
   {% assign person = site.people | where: "name", page.artist | first %}
   {% include projects/person-item.html role="Artist in Residence" %}
 
@@ -7,7 +7,9 @@
     {% assign person = site.people | where: "name", member.name | first %}
     {% include projects/person-item.html role=member.role %}
   {% endfor %}
-
+</ul>
+<h2 class="hide"><span>Extended&nbsp;Team</span></h2>
+<ul class="person-list extended">
   {% if page.extended-team %}
     {% assign extended-team = page.extended-team | sort: 'lastname' %}
     {% for member in extended-team %}
@@ -15,3 +17,4 @@
     {% endfor %}
   {% endif %}
 </ul>
+</div>
