@@ -19,7 +19,7 @@ Technologists engage with artists in the creation of new systems, algorithms and
 
 How can arts practice function as technology research? What kinds of insights does art derive? How can art help us build a picture of the risks and opportunities of emerging technology landscapes?
 
-In this article I will explore these questions and more, looking at why art and technology make such a powerful combination, and showing some practical examples. In the following article I will show how ThoughtWorks has designed programs to collaborate with artists, exploring issues such as transhumanism, machine intelligence, robotics and more.
+In this article I will explore these questions and more, looking at why art and technology make such a powerful combination, and showing some practical examples. This article is the first in a series. In the next article I will show how ThoughtWorks has designed programs to collaborate with artists, exploring issues such as transhumanism, machine intelligence, robotics and more.
 
 ## This Has Been Done Before
 
