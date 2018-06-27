@@ -159,6 +159,10 @@
 		.widgets ul.social {
 			display: none;
 		}
+
+		h1:not(.newsletter-heading) {
+			width: 97%;
+		}
 	}
 }
 
@@ -181,6 +185,10 @@
 				margin-left: 0;
 				margin-top: 1.6em;
 			}
+		}
+
+		h1:not(.newsletter-heading) {
+			width: 95%;
 		}
 	}
 }
