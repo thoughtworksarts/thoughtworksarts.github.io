@@ -176,7 +176,7 @@ blockquote {
 	border-left: 10px solid #ccc;
 	margin: 1.5em 10px;
 	padding: 0.5em 10px;
-	quotes: '\201C''\201D''\2018''\2019';
+	quotes: '\201C''\201D''\201C''\201D';
 }
 
 blockquote:before {
@@ -190,6 +190,13 @@ blockquote:before {
 
 blockquote p {
 	display: inline;
+}
+
+blockquote .quotee {
+	text-align: right;
+	width: 100%;
+	display: block;
+	margin-top: 0.6em;
 }
 
 figure.video {
