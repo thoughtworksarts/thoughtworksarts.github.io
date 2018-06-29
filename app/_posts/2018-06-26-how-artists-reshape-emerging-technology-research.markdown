@@ -19,7 +19,7 @@ Technologists engage with artists in the creation of new systems, algorithms and
 
 How can arts practice function as technology research? What kinds of insights does art derive? How can art help us build a picture of the risks and opportunities of emerging technology landscapes?
 
-This article will explore these questions and more. It is the first in a series examining the symbiosis of art and technology, and will demonstrate why art and technology make such a powerful combination. The next article in the series will build on this, explaining how ThoughtWorks has designed programs to incubate artists dealing with issues like cyborgism and transhumanism, bias in machine intelligence and movement in robotics.
+This article will explore these questions and more. It is the first in a series examining the symbiosis of art and technology, and will demonstrate why art and technology make such a powerful combination. The [next article in the series](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) builds on this, explaining how ThoughtWorks has designed programs to incubate artists dealing with issues like cyborgism and transhumanism, bias in machine intelligence and movement in robotics.
 
 ## This Has Been Done Before
 
@@ -96,6 +96,4 @@ To put our exploration of these complex issues into practice, we created three p
 
 {% include image.html file='thoughtworks-arts.jpg' %}
 
-The next article in this series will explore the structure of these programs, how they each attract different communities, and how they reinforce each other.
-
-I will explain how the artists we collaborate with produce valuable critiques and new vantage points in art, social practice and technology. I will then illustrate further examples of how these projects engage our employees and produce valuable insights that we bring to our clients.
+The [next article in this series](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) explores the structure of these programs, how they each attract different communities, and how they reinforce each other. It explains how the artists we collaborate with produce valuable critiques and new vantage points in art, social practice and technology. It then illustrates further examples of how these projects engage our employees and produce valuable insights that we bring to our clients.
