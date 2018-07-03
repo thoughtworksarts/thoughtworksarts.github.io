@@ -111,7 +111,7 @@ Stefanie Grewenig in Germany looked at [ways to become a cyborg](https://thought
 
 The residency program directors [wrote up research on AI and bias](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) gathered in collaboration with partners at the MacArthur Foundation funded [AI Now Institute](https://ainowinstitute.org/) housed at New York University.
 
-The ThoughtWorks Arts Residency is the most recent addition to this suite of creative programs at ThoughtWorks. The three programs are calibrated to achieve depth, breadth, and consistency of technology innovation. All use art practice and community engagement as framing principals for the creation and distribution of original research and creation.
+The ThoughtWorks Arts Residency is the most recent addition to this suite of creative programs at ThoughtWorks. Using art practice and community engagement as framing principals, the three programs are calibrated to achieve depth, breadth, and consistency of innovation.
 
 ## Art's role within ThoughtWorks culture
 
