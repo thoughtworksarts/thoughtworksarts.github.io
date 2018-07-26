@@ -117,6 +117,33 @@
 		}
 	}
 
+	#calls-to-action {
+		margin: 2em 0 1em 0;
+		border-top: 1px solid #afafaf;
+		border-bottom: 1px solid #afafaf;
+		font-size: 1.2em;
+
+		p, ul li, ul li a {
+			color: #afafaf;
+			font-size: inherit;
+			font-style: italic;
+		}
+
+		ul li a {
+			font-size: 0.9em;
+		}
+
+		ul {
+			position: relative;
+			top: -0.5em;
+		}
+
+		p {
+			position: relative;
+			top: 0.5em;
+		}
+	}
+
 	#paging {
 		text-align: center;
 		border-top: 5px solid #eeeeee;
