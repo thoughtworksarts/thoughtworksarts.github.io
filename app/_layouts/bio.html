@@ -6,7 +6,7 @@ layout: default
 
 {% for post in site_posts %}
   {% if post.author == page.name %}
-    {% capture post-list %}{{ post-list }}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endcapture %}
+    {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
   {% endif %}
 {% endfor %}
 
@@ -18,7 +18,7 @@ layout: default
 
         {% if tag == project.projectid %}
           {% unless post-list contains post.url %}
-            {% capture post-list %}{{ post-list }}<li><a href="{{ post.url }}">{{ post.title }}</a></li>{% endcapture %}
+            {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
           {% endunless %}
         {% endif %}
 

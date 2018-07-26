@@ -25,7 +25,7 @@ bodyclass : no-header-image
         {% for post in site_posts %}
           {% for tag in post.tags %}
             {% if tag == page.projectid %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% include related-post.html %}
             {% endif %}
           {% endfor %}
         {% endfor %}
