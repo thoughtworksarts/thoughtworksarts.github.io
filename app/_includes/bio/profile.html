@@ -22,10 +22,10 @@
           <a href="{{ project.url }}">{{ project.title }}</a>
         {% else %}
           <ul class="project-list">
-            {% for p in projects %}
-              {% assign project = site.projects | where: 'projectid', p.projectid | first %}
-              <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-            {% endfor %}
+          {% for p in projects %}
+            {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+          {% endfor %}
           </ul>
         {% endif %}
       </span>
