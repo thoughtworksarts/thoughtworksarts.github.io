@@ -5,7 +5,14 @@ layout: default
 {% assign site_posts = site.posts %}
 
 {% for post in site_posts %}
-  {% if post.author == page.name %}
+
+  {% assign director-include = 'false' %}
+
+  {% if page.participation == 'Residency Director' and post.author == 'Directors' %}
+    {% assign director-include = 'true' %}
+  {% endif %}
+
+  {% if post.author == page.name or director-include == 'true' %}
     {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
   {% endif %}
 {% endfor %}
