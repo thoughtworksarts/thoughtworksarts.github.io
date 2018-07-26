@@ -8,7 +8,7 @@ teaser        :
    <p>His recent work investigates the possibilities of biofeedback in virtual reality environments, incorporating heart rate, breath and more into experiences.</p>
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "hannesbend.com"
    url     : "http://www.hannesbend.com/"

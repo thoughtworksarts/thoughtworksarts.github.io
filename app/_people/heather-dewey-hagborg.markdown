@@ -8,7 +8,7 @@ teaser        :
    <p>Her controversial biopolitical art practice includes the project <em>Stranger Visions</em> in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.</p>
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "deweyhagborg.com"
    url     : "http://deweyhagborg.com/"

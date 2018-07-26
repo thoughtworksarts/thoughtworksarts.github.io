@@ -8,7 +8,7 @@ teaser        :
    <p>Her work has been honored as part of the Digital Dozen Break Throughs in Storytelling 2016, and exhibited at the V&A Museum London, Museum of Modern Art Peru and The Future of Storytelling Festival NY.</p>
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "karenpalmer.uk"
    url     : "http://karenpalmer.uk/"

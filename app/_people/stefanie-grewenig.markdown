@@ -3,7 +3,7 @@ name          : Stefanie Grewenig
 occupation    : Software Developer
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : ""
    url     : ""

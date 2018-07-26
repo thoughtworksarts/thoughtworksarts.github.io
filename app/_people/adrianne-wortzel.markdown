@@ -10,7 +10,7 @@ teaser        :
 order-within-season: 1
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "adriannewortzel.com"
    url     : "http://www.adriannewortzel.com/"

@@ -10,7 +10,7 @@ teaser        :
 order-within-season: 2
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "catiecuan.com"
    url     : "http://www.catiecuan.com/"

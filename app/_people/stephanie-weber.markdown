@@ -4,7 +4,7 @@ occupation    : Software Developer
 season        : Fall 2017
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "websonthewebs.com"
    url     : "http://websonthewebs.com/"

@@ -6,7 +6,7 @@ teaser        :
    <p>Andrew McWilliams is a New York-based artist, technologist and program director. He is Director of the ThoughtWorks Arts Residency and a Lead Consultant at ThoughtWorks. Andrew has exhibited work at HarvestWorks New York, Currents New Mexico, and AlphaVille Festival in London. He is Director of Art-A-Hack&trade; and the Hardware Hack Lab.</p>
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "jahya.net"
    url     : "https://jahya.net"

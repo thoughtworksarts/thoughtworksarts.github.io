@@ -6,7 +6,7 @@ participation : Resident
 season        : Summer 2016
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "cyborgfoundation.com"
    url     : "http://cyborgfoundation.com/"

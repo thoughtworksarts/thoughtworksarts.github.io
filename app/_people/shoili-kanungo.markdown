@@ -5,7 +5,7 @@ participation : Collaborator
 season        : Fall 2016
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "shoilikanungo.com"
    url     : "http://shoilikanungo.com/"

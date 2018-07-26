@@ -35,7 +35,7 @@
     {% if link.url != "" %}
       <li>
         <span class="key">{{ link.name }}</span>
-        <span class="value"><i class="fa {{ link.icon }}"></i> <a href="{{ link.url }}">{{ link.display }}</a></span>
+        <span class="value"><i class="{% if link.icon == 'fa-globe-americas' %}fa{% else %}fab{% endif %} {{ link.icon }}"></i> <a href="{{ link.url }}">{{ link.display }}</a></span>
       </li>
     {% endif %}
   {% endfor %}

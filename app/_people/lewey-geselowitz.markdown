@@ -5,7 +5,7 @@ participation : Collaborator
 season        : Winter 2017
 
 links:
- - icon    : "fa-globe"
+ - icon    : "fa-globe-americas"
    name    : "Website"
    display : "lewcid.com"
    url     : "http://www.lewcid.com/"
