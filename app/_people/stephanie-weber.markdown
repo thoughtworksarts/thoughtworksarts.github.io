@@ -1,6 +1,7 @@
 ---
 name          : Stephanie Weber
 occupation    : Software Developer
+season        : Fall 2017
 
 links:
  - icon    : "fa-globe"
