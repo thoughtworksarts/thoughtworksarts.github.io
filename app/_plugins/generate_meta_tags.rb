@@ -50,7 +50,10 @@ module GenerateMetaTags
       collection.docs.each do |item|
         if item.data['image'].nil? then
           generate_image_tag(item)
+        else
+          ensure_full_path(item)
         end
+
         if item.data['description'].nil? then
           generate_description_tag(item)
         end
@@ -105,8 +108,7 @@ module GenerateMetaTags
 
     def get_img_md_url(item)
       file = item.content[@img_md_regex, 1]
-      itempath = item.path.split('/')[-1]
-      itempath = itempath.split('.')[0]
+      itempath = get_item_path(item)
       "#{@img_url_prefix}/#{itempath}/#{file}"
     end
 
@@ -137,6 +139,17 @@ module GenerateMetaTags
         content[@paragraph_tag_regex, 1]
       when :without_tag
         content[@paragraph_wo_tag_regex, 1]
+      end
+    end
+
+    def get_item_path(item)
+      itempath = item.path.split('/')[-1]
+      itempath.split('.')[0]
+    end
+
+    def ensure_full_path(item)
+      unless item.data['image'].include? '/' then
+        item.data['image'].insert(0, "#{@img_url_prefix}/#{get_item_path(item)}/")
       end
     end
 

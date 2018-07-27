@@ -1,7 +1,7 @@
 ---
 title  : "How Artists Are Reshaping Emerging Technology Research"
 author : Andrew McWilliams
-image  : "/images/posts/2018-06-26-how-artists-reshape-emerging-technology-research/neil-harbisson.jpg"
+image  : "developers.jpg"
 tags   : [time-sense, seismic-sense, riot]
 ---
 Waves of technology-driven change now regularly disrupt industry, culture and society. The challenge of navigating this turbulence grows increasingly complex, requiring deep examination of overlapping trajectories in search of hidden insights.

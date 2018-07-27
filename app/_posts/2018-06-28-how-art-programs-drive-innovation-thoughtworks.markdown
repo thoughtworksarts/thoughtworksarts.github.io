@@ -1,7 +1,7 @@
 ---
 title  : "How Art Programs Drive Innovation at ThoughtWorks"
 author : Andrew McWilliams
-image  : "/images/posts/2018-06-26-how-artists-reshape-emerging-technology-research/neil-harbisson.jpg"
+image  : "cyborg-foundation.jpg"
 tags   : [time-sense, seismic-sense, riot, suppressed-images]
 ---
 Artists working with emerging technologies frequently generate new insights on the future of culture, industry and society.

@@ -1,6 +1,6 @@
 ---
 title     : "Three Views on Biometrics and Immersion for Creative Tech Week"
-image     : "/images/posts/2017-06-02-three-views-biometrics-immersion/andy.jpg"
+image     : "andy.jpg"
 tags      : biofields
 ---
 
