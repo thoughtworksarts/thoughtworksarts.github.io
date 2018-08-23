@@ -34,14 +34,18 @@
 		line-height: 1.3em;
 	}
 
-	table, tr, td {
+	table, tr, td, th {
 		border: 1px solid #222222;
 		background: #ffffff;
 	}
 
-	tr, td {
+	tr, td, th {
 		padding: 0.7em;
 		overflow: hidden;
+	}
+
+	th {
+		background: #eeeeee;
 	}
 
 	thead td {
