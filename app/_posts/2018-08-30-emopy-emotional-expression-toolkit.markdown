@@ -8,26 +8,24 @@ I recently led a project team at ThoughtWorks to create and open source a new [F
 {% include image.html file='emopy-development.jpg'
    caption='Working with Sofia Tania (left) and Karen Palmer (right) to create EmoPy' %}
 
-This article explains how the EmoPy system is designed and how it can be used. It will examine the architecture and data choices we made, and illustrate why those choices were made.<!--excerpt-ends--> This should be useful for those considering using EmoPy in their own projects, for those considering contributing to EmoPy, and for those considering creating their own custom toolkits using EmoPy as a template.
+This article explains how the EmoPy system is designed and how it can be used. It will examine the architectures and datasets selected, and illustrate why those choices were made.<!--excerpt-ends--> This should be helpful for those considering using EmoPy in their own projects, contributing to EmoPy, or developing custom toolkits using EmoPy as a template.
+
+Facial Expression Recognition is a rapidly-developing field. If you are new to this technology, you might like to read my previously published [overview of the field of FER](/blog/recognizing-facial-expressions-machine-learning).
 
 Our aim is to widen public access to this crucial emerging technology, one for which the development usually takes place behind commercially closed doors. We welcome raised issues and contributions from the open source development community, and hope you find EmoPy useful for your projects.
-
-Facial Expression Recognition is a rapidly-developing field, and it is useful to have a general understanding before diving into using a toolkit. If you are new to this technology, you may wish first to read my previously published [overview of the field of FER](/blog/recognizing-facial-expressions-machine-learning).
 
 ## The Origins of EmoPy
 
 The EmoPy toolkit was created as part of [ThoughtWorks Arts](http://thoughtworksarts.io/), a program which incubates artists investigating intersections of technology and society. Our development team supported the [artist-in-residence Karen Palmer](https://thoughtworksarts.io/bio/karen-palmer/) to create a new version her [interactive film experience, RIOT](https://thoughtworksarts.io/projects/riot/).
 
-RIOT positions viewers first-person in an installation space watching a video unfold in front of them. A dangerous riot is in progress, and viewers meet filmed characters, including looters and riot police. Each viewer's facial expressions are recorded and analyzed via a webcam which feeds into EmoPy as the movie unfolds.
+RIOT positions viewers first-person in an installation space watching a video unfold in front of them. A dangerous riot is in progress, and viewers meet filmed characters, including looters and riot police. Each viewer's facial expressions are recorded and analyzed via a webcam, which feeds into EmoPy as the movie unfolds.
 
 {% include image.html file='riot.jpg'
    caption='RIOT installed in New York, 2018' %}
 
 The story branches in different directions depending on each viewer's perceived emotional response to the film. Each viewer encounters different pathways through the story, depending on whether their dominant perceived emotion at given moments is fear, anger, or calm.
 
-As we developed new features for RIOT, we generated new requirements for EmoPy, which was created in tandem. Our emotion recognition toolkit was built from scratch, inspired initially by the research of [Dr Hongying Meng](https://www.brunel.ac.uk/people/hongying-meng), one of Karen's previous technical partners. Dr Meng's [time-delay neural network approach](https://ieeexplore.ieee.org/document/7090979/?part=1) has been approximated in the [TimeDelayConvNN architecture](https://github.com/thoughtworksarts/EmoPy#timedelayconvnn) included in EmoPy.
-
-However, from the start of this project we worked towards EmoPy becoming what it is today — an autonomous general-purpose system that anyone can download and use for various FER applications. The rest of this article will describe and analyze the EmoPy toolkit, and important considerations around its use.
+As we developed new features for RIOT, we generated new requirements for EmoPy, which was created in tandem as a standalone emotion recognition toolkit. The system was built from scratch, inspired initially by the research of [Dr Hongying Meng](https://www.brunel.ac.uk/people/hongying-meng), one of Karen's previous technical partners. Dr Meng's [time-delay neural network approach](https://ieeexplore.ieee.org/document/7090979/?part=1) has been approximated in the [TimeDelayConvNN architecture](https://github.com/thoughtworksarts/EmoPy#timedelayconvnn) included in EmoPy.
 
 ## #1. Neural Network Architecture
 
@@ -44,13 +42,13 @@ The image shows the differences in size of each of the network layers. Pooling l
 
 Some architectures have many more layers than shown in the example diagram above. The Transfer Learning model for example, which has Google's Inception-v3 architecture, has hundreds of layers.
 
-The full list of initial architectures provided with EmoPy are listed in the [neuralnets.py class definition file](https://github.com/thoughtworksarts/EmoPy/blob/master/src/neuralnets.py), as well as in [the EmoPy documentation](https://emopy.readthedocs.io/en/latest/neuralnets.html). A comparison of neural network models is also included in [the EmoPy readme](https://github.com/thoughtworksarts/EmoPy#comparison-of-neural-network-models) and also [this overview article](/blog/recognizing-facial-expressions-machine-learning/).
+The full list of initial architectures provided with EmoPy are listed in the [neuralnets.py class definition file](https://github.com/thoughtworksarts/EmoPy/blob/master/src/neuralnets.py), as well as in [the EmoPy documentation](https://emopy.readthedocs.io/en/latest/neuralnets.html). A comparison of neural network models is also included in [the EmoPy readme](https://github.com/thoughtworksarts/EmoPy#comparison-of-neural-network-models) and also in [this overview article](/blog/recognizing-facial-expressions-machine-learning/).
 
 Each of the four subclasses in [neuralnets.py](https://github.com/thoughtworksarts/EmoPy/blob/master/src/neuralnets.py) implements a different neural network architecture using the [Keras framework](https://keras.io/) with a [Tensorflow backend](https://www.tensorflow.org/), allowing users to experiment and see which one performs best for their needs.
 
 ## #2. Selecting Datasets
 
-The next consideration in relation to EmoPy is the selection of datasets. As previously described, ideally our neural networks would be trained with millions of image samples. This would increase accuracy and improve generalizability of the models.
+The next consideration in relation to EmoPy is the selection of datasets. As described [in the overview article](/blog/recognizing-facial-expressions-machine-learning/), ideally our neural networks would be trained with millions of image samples. This would increase accuracy and improve generalizability of the models.
 
 Unfortunately datasets of this size don't exist publicly, but we do have access to two public datasets — Microsoft's [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) and the [Extended Cohn-Kanade](http://www.consortium.ri.cmu.edu/ckagree/) dataset.
 
