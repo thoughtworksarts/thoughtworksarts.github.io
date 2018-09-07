@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <title>EmoPy: A Machine Learning Toolkit For Emotional Expression | ThoughtWorks Arts Residency</title>
+
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+  <meta name=Description content="I recently led a project team at ThoughtWorks to create and open source a new Facial Expression Recognition . The system produces accuracy rates comparable to the highest rates achievable in FER, and is now available for anyone to use for free.">
+
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content=@tw_arts>
+  <meta name=twitter:creator content=@tw_arts>
+  <meta property=og:url content="https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/">
+  <meta property=og:title content="EmoPy: A Machine Learning Toolkit For Emotional Expression | ThoughtWorks Arts Residency">
+  <meta property=og:image content=https://thoughtworksarts.io/images/posts/2018-09-06-emopy-emotional-expression-toolkit/emopy-development.c48f.jpg>
+  <meta property=og:description content="I recently led a project team at ThoughtWorks to create and open source a new Facial Expression Recognition . The system produces accuracy rates comparable to the highest rates achievable in FER, and is now available for anyone to use for free.">
+
+  <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.2.0/css/all.css integrity=sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ crossorigin=anonymous>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel=stylesheet type=text/css>
+  <link rel=canonical href="https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/">
+  <link rel=stylesheet href=/stylesheets/style.f24e.css>
+
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  <link rel="shortcut icon" href=/images/favicon.ico>
+</head>
+
+<body id=blog class=no-header-image>
+  <header role=banner class=flex-col>
+    <section id=logonav>
+      <h1>ThoughtWorks Arts Residency</h1>
+      <a href="/" class=logo>
+        <img src=/images/twartsresidency.c173.png alt="ThoughtWorks Arts Residency">
+      </a>
+      
+      <nav role=navigation>
+        <h2>Navigation</h2>
+        <a id=menu-button href=#>
+          <i class="fa fa-bars"></i>
+          <i class="fa fa-times"></i>
+        </a>
+        <ul>
+          <li><a href="/program/" class=program>Program</a></li>
+          <li><a href="/residents/" class=residents>Residents</a></li>
+          <li><a href="/projects/" class=projects>Projects</a></li>
+          <li><a href="/blog/" class=blog>Blog</a></li>
+        </ul>
+      </nav>
+    </section>
+    <figure id=image-splash class=bottom>
+      
+    </figure>
+  </header>
+  <main>
+  <section>
+  <header>
+    <h1>Blog</h1>
+  </header>
+  <article role=article>
+    <header>
+      <h1>EmoPy: A Machine Learning Toolkit For Emotional Expression</h1>
+      
+
+
+<div class=entry-meta><a class="entry-date published">Thursday, 6 September 2018</a></div>
+<div class=widgets>
+  <ul class=social>
+  <li>
+    <a href="http://twitter.com/share?text=EmoPy:%20A%20Machine%20Learning%20Toolkit%20For%20Emotional%20Expression&amp;url=http://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/&amp;via=tw_arts"><i class="fab fa-twitter"></i></a>
+  </li>
+  <li>
+    <a href="http://www.facebook.com/sharer/sharer.php?title=EmoPy:%20A%20Machine%20Learning%20Toolkit%20For%20Emotional%20Expression&amp;u=http://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/"><i class="fab fa-facebook"></i></a>
+  </li>
+  <li>
+    <a href="http://www.tumblr.com/share?v=3&amp;t=EmoPy:%20A%20Machine%20Learning%20Toolkit%20For%20Emotional%20Expression&amp;u=http://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/"><i class="fab fa-tumblr"></i></a>
+  </li>
+</ul>
+  
+    <figure>
+      <a href="/bio/angelica-perez/"><img src=/images/people/angelica-perez.d1ed.png alt="Angelica Perez"></a>
+      <figcaption>Posted by <a href="/bio/angelica-perez/">Angelica Perez</a><br>Thursday, 6 September 2018</figcaption>
+    </figure>
+  
+</div>
+    </header>
+    <div class=text-content>
+      <p>I recently led a project team at ThoughtWorks to create and open source a new <a href=/blog/recognizing-facial-expressions-machine-learning>Facial Expression Recognition (FER)</a> toolkit named <a href=https://github.com/thoughtworksarts/EmoPy>EmoPy</a>. The system produces accuracy rates comparable to the highest rates achievable in FER, and is now available for anyone to use for free.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/emopy-development.c48f.jpg alt="Working with Sofia Tania (left) and Karen Palmer (right) to create EmoPy
+">
+		
+
+	
+
+	
+		<figcaption>Working with Sofia Tania (left) and Karen Palmer (right) to create EmoPy
+</figcaption>
+	
+</figure>
+
+<p>This article explains how the EmoPy system is designed and how it can be used. It will examine the architectures and datasets selected, and illustrate why those choices were made.<!--excerpt-ends--> This should be helpful for those considering using EmoPy in their own projects, contributing to EmoPy, or developing custom toolkits using EmoPy as a template.</p>
+
+<p>Facial Expression Recognition is a rapidly-developing field. If you are new to this technology, you might like to read my previously published <a href=/blog/recognizing-facial-expressions-machine-learning>overview of the field of FER</a>.</p>
+
+<p>Our aim is to widen public access to this crucial emerging technology, one for which the development usually takes place behind commercially closed doors. We welcome raised issues and contributions from the open source development community, and hope you find EmoPy useful for your projects.</p>
+
+<h2 id=the-origins-of-emopy>The Origins of EmoPy</h2>
+
+<p>The EmoPy toolkit was created as part of <a href="http://thoughtworksarts.io/">ThoughtWorks Arts</a>, a program which incubates artists investigating intersections of technology and society. Our development team supported the <a href="https://thoughtworksarts.io/bio/karen-palmer/">artist-in-residence Karen Palmer</a> to create a new version her <a href="https://thoughtworksarts.io/projects/riot/">interactive film experience, RIOT</a>.</p>
+
+<p>RIOT positions viewers first-person in an installation space watching a video unfold in front of them. A dangerous riot is in progress, and viewers meet filmed characters, including looters and riot police. Each viewer’s facial expressions are recorded and analyzed via a webcam, which feeds into EmoPy as the movie unfolds.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/riot.8402.jpg alt="RIOT installed in New York, 2018
+">
+		
+
+	
+
+	
+		<figcaption>RIOT installed in New York, 2018
+</figcaption>
+	
+</figure>
+
+<p>The story branches in different directions depending on each viewer’s perceived emotional response to the film. Each viewer encounters different pathways through the story, depending on whether their dominant perceived emotion at given moments is fear, anger, or calm.</p>
+
+<p>As we developed new features for RIOT, we generated new requirements for EmoPy, which was created in tandem as a standalone emotion recognition toolkit. The system was built from scratch, inspired initially by the research of <a href=https://www.brunel.ac.uk/people/hongying-meng>Dr Hongying Meng</a>, one of Karen’s previous technical partners. Dr Meng’s <a href="https://ieeexplore.ieee.org/document/7090979/?part=1">time-delay neural network approach</a> has been approximated in the <a href=https://github.com/thoughtworksarts/EmoPy#timedelayconvnn>TimeDelayConvNN architecture</a> included in EmoPy.</p>
+
+<h2 id=1-neural-network-architecture>#1. Neural Network Architecture</h2>
+
+<p>The first consideration when evaluating EmoPy is the choice of initial model architectures. Neural network architectures are combinations of layers which feed outputs to each other in sequence. We chose these initial architectures based on approaches we encountered during our general research of existing FER implementations.</p>
+
+<p>Very different performance results are achieved depending on the choice and sequence of layers making up neural network architectures. To improve on what we found in our research, we began a process of experimentation and testing with various combinations.</p>
+
+<p>The example shown below is <a href=https://github.com/thoughtworksarts/EmoPy#convolutionalnn>ConvolutionalNN</a>, which under test proved to be the best performing of the convolutional architectures. This architecture has layers arranged as shown in the diagram below.</p>
+
+<figure class=no-border>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/cnn-layers.6e65.png alt="The layers of our best-performing convolutional architecture
+">
+		
+
+	
+
+	
+		<figcaption>The layers of our best-performing convolutional architecture
+</figcaption>
+	
+</figure>
+
+<p>The image shows the differences in size of each of the network layers. Pooling layers are used to reduce the input space and thus complexity and processing time. The flattening layer converts the output of the previous layer to a one dimensional vector and the final layer takes that vector and calculates a final classification output.</p>
+
+<p>Some architectures have many more layers than shown in the example diagram above. The <a href=https://github.com/thoughtworksarts/EmoPy#transferlearningnn>TransferLearningNN</a> model for example, which has Google’s Inception-v3 architecture, has hundreds of layers.</p>
+
+<p>The full list of initial architectures provided with EmoPy are listed in the <a href=https://github.com/thoughtworksarts/EmoPy/blob/master/src/neuralnets.py>neuralnets.py class definition file</a>, as well as in <a href=https://emopy.readthedocs.io/en/latest/neuralnets.html>the EmoPy documentation</a>. A comparison of neural network models is also included in <a href=https://github.com/thoughtworksarts/EmoPy#comparison-of-neural-network-models>the EmoPy readme</a> and also in <a href="/blog/recognizing-facial-expressions-machine-learning/">this overview article</a>.</p>
+
+<p>Each of the four subclasses in <a href=https://github.com/thoughtworksarts/EmoPy/blob/master/src/neuralnets.py>neuralnets.py</a> implements a different neural network architecture using the <a href="https://keras.io/">Keras framework</a> with a <a href="https://www.tensorflow.org/">Tensorflow backend</a>, allowing users to experiment and see which one performs best for their needs.</p>
+
+<h2 id=2-selecting-datasets>#2. Selecting Datasets</h2>
+
+<p>The next consideration in relation to EmoPy is the selection of datasets. As described <a href="/blog/recognizing-facial-expressions-machine-learning/">in the overview article</a>, ideally our neural networks would be trained with millions of image samples. This would increase accuracy and improve generalizability of the models.</p>
+
+<p>Unfortunately datasets of this size don’t exist publicly, but we do have access to two public datasets — Microsoft’s <a href=https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data>FER2013</a> and the <a href="http://www.consortium.ri.cmu.edu/ckagree/">Extended Cohn-Kanade</a> dataset.</p>
+
+<p>The FER2013 dataset contains over 35,000 facial expression images for seven emotion classes, including anger, disgust, fear, happiness, sadness, surprise, and calm. The image label breakdown shows a skew towards happiness and away from disgust, as demonstrated in the table below.</p>
+
+<figure>
+  <table>
+    <tr>
+      <th><strong>Emotion</strong></th>
+      <th><strong>Quantity</strong></th>
+    </tr>
+    <tr>
+      <td>Disgust</td>
+      <td>547</td>
+    </tr>
+    <tr>
+      <td>Anger</td>
+      <td>4953</td>
+    </tr>
+    <tr>
+      <td>Surprise</td>
+      <td>4002</td>
+    </tr>
+    <tr>
+      <td>Sadness</td>
+      <td>6077</td>
+    </tr>
+    <tr>
+      <td>Calm</td>
+      <td>6198</td>
+    </tr>
+    <tr>
+      <td>Happiness</td>
+      <td>8989</td>
+    </tr>
+    <tr>
+      <td>Fear</td>
+      <td>5121</td>
+    </tr>
+  </table>
+  <figcaption>Microsoft FER2013 dataset label breakdown</figcaption>
+</figure>
+
+<p>The Cohn-Kanade dataset is made up of facial expression sequences rather than still images. Each sequence starts with a neutral expression and transitions to a peak emotion.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/cohn-kanade.eb34.png alt="Images from the Cohn-Kanade dataset
+">
+		
+
+	
+
+	
+</figure>
+
+<p>The peak emotions available are calm, anger, contempt, disgust, fear, happy, sadness, and surprise. The Cohn-Kanade dataset contains 327 sequences, from which we extracted still images.</p>
+
+<p>Since the FER dataset is much larger, we trained our models with 85% of its images and validated with the remaining 15% as well as with the Cohn-Kanade dataset during testing.</p>
+
+<p>We used data augmentation techniques to improve our model’s performance, applied to both datasets. These techniques create an increase in the size of existing datasets by applying various transformations to existing images to create new ones. Example transformations we used are mirroring, cropping, and rotation.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/augmentation.9bab.jpg alt="Sample image augmentations generated by the imgaug library
+">
+		
+
+	
+
+	
+		<figcaption>Sample image augmentations generated by <a href=https://github.com/aleju/imgaug>the imgaug library</a>
+</figcaption>
+	
+</figure>
+
+<p>Application of data augmentation drastically increased the accuracy of our neural networks. This was particularly true for the <a href=https://github.com/thoughtworksarts/EmoPy#convolutionalnn>ConvolutionalNN</a> model, whose accuracy increased by about thirty percent.</p>
+
+<h2 id=3-the-training-process>#3. The Training Process</h2>
+
+<p>The third important consideration relating to EmoPy is the process of training the neural networks with the selected datasets. First, we split the dataset into two parts: the <em>training set</em> and <em>validation set</em>. Next we took sample images from the training set and used them to train our neural networks.</p>
+
+<p>The following process occurs for each image passed through a neural network during training:</p>
+
+<ol>
+  <li>The neural network makes an emotion prediction based on its current weights and parameters</li>
+  <li>The neural network compares the predicted emotion to the true emotion of the image to calculate a loss value</li>
+  <li>The loss value is used to adjust the weights of the neural network</li>
+</ol>
+
+<p>The purpose of the <em>training set</em> is to build the model by adjusting its weights to more accurately make predictions in the future, with each iteration of the process refining what the network has ‘learned’.</p>
+
+<p>The <em>validation set</em> is used to test the neural network after it has been trained. By having a separate set of sample images in the <em>validation set</em> which were not used for training, we can evaluate the model more objectively.</p>
+
+<p>The <em>training accuracy</em> describes how well the neural network is predicting emotions from samples in the training set. The <em>validation accuracy</em> shows how well the neural network is predicting emotions from samples in the validation set. Training accuracy is usually higher than validation accuracy. This is because the neural network learns patterns from the training samples which may not be present in the validation set.</p>
+
+<p>A common problem with machine learning models is to suffer from <em>overfitting</em>. This is when the neural network learns patterns from the training samples so well that it is unable to generalize when given new samples. This is seen when the training accuracy is much higher than the validation accuracy.</p>
+
+<h2 id=4-measuring-performance>#4. Measuring Performance</h2>
+
+<p>The fourth and final consideration of EmoPy is the measurement of performance. How accurate are given architectures when predicting emotions based on the training set, and the validation set?</p>
+
+<p>In our tests, the <a href=https://github.com/thoughtworksarts/EmoPy#convolutionalnn>ConvolutionalNN</a> model performed the best, especially after adding data augmentation to our image preprocessing. In fact, for certain emotion sets such as “disgust, happiness, surprise” this neural network correctly predicts nine out of ten images it has never seen before.</p>
+
+<figure>
+  <table>
+    <tr>
+      <th>&nbsp;</th>
+      <th colspan=2><strong>TransferLearningNN</strong></th>
+      <th colspan=2><strong>ConvolutionalNN</strong></th>
+      <th colspan=2><strong>ConvolutionalLstmNN</strong></th>
+    </tr>
+    <tr>
+      <td>Emotion Set</td>
+      <td>Training Accuracy</td>
+      <td>Validation Accuracy</td>
+      <td>Training Accuracy</td>
+      <td>Validation Accuracy</td>
+      <td>Training Accuracy</td>
+      <td>Validation Accuracy</td>
+    </tr>
+    <tr>
+      <td>Anger, fear, surprise, calm</td>
+      <td>0.6636</td>
+      <td>0.4947</td>
+      <td>0.6064</td>
+      <td>0.5637</td>
+      <td>0.6451</td>
+      <td>0.5125</td>
+    </tr>
+    <tr>
+      <td>Disgust, happiness, surprise</td>
+      <td>0.7797</td>
+      <td>0.7877</td>
+      <td>0.9246</td>
+      <td>0.9045</td>
+      <td>0.7391</td>
+      <td>0.7074</td>
+    </tr>
+    <tr>
+      <td>Anger, happiness, calm</td>
+      <td>0.5385</td>
+      <td>0.5148</td>
+      <td>0.7575</td>
+      <td>0.7218</td>
+      <td>0.7056</td>
+      <td>0.6653</td>
+    </tr>
+    <tr>
+      <td>Anger, fear, surprise</td>
+      <td>0.771</td>
+      <td>0.5914</td>
+      <td>0.6851</td>
+      <td>0.6503</td>
+      <td>0.5501</td>
+      <td>0.3523</td>
+    </tr>
+    <tr>
+      <td>Anger, disgust</td>
+      <td>0.9182</td>
+      <td>0.9094</td>
+      <td>0.958</td>
+      <td>0.9404</td>
+      <td>0.8971</td>
+      <td>0.9118</td>
+    </tr>
+    <tr>
+      <td>Anger, fear</td>
+      <td>0.6691</td>
+      <td>0.6381</td>
+      <td>0.7791</td>
+      <td>0.7029</td>
+      <td>0.5609</td>
+      <td>0.5567</td>
+    </tr>
+    <tr>
+      <td>Disgust, surprise</td>
+      <td>0.9256</td>
+      <td>0.9019</td>
+      <td>0.9893</td>
+      <td>0.9624</td>
+      <td>0.8846</td>
+      <td>0.8806</td>
+    </tr>
+  </table>
+  <figcaption>Model performance test results</figcaption>
+</figure>
+
+<p>The <a href=https://github.com/thoughtworksarts/EmoPy#convolutionallstmnn>ConvolutionalLstmNN</a> model performed decently on still images, but is actually an architecture meant to be trained on time series samples. The <a href=https://github.com/thoughtworksarts/EmoPy#transferlearningnn>TransferLearningNN</a> model performed very well on some subsets of emotions, but the most performant was the <a href=https://github.com/thoughtworksarts/EmoPy#convolutionalnn>ConvolutionalNN</a> model.</p>
+
+<p>Based on these test results, we chose to proceed with the <a href=https://github.com/thoughtworksarts/EmoPy#convolutionalnn>ConvolutionalNN</a> model exclusively when moving forward with the RIOT project.</p>
+
+<h2 id=analyzing-misclassifications>Analyzing Misclassifications</h2>
+
+<p>A useful approach to analyzing and improving neural networks is using <em>confusion matrices</em>. These visual tools illustrate clearly the rates of misclassification alongside correct classifications, providing valuable insights to help adjust the training of future models.</p>
+
+<p>On the x axis of confusion matrices are the predicted labels classified by the neural network, and on the y axis are the actual labels. With a highly accurate model we would expect to see a strong diagonal line, leading from the top-left down to the bottom-right of the matrix. This would show that each of the predicted labels was matching the true labels at a high rate. A less accurate model will produce a more checkered matrix.</p>
+
+<p>The confusion matrices below show the results generated when testing neural networks against both of the datasets used in EmoPy. All of the matrices show results from models which were trained on FER2013. However, importantly, the matrices <em>on the left</em> show results when that network was <em>validated using FER2013</em>. The matrices <em>on the right</em> show results when matrices were <em>validated using Cohn-Kanade</em>.</p>
+
+<figure class=no-border>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/anger-fear-calm-surprise.16fc.png alt="Confusion matrices for anger, fear, calm and surprise
+">
+		
+
+	
+
+	
+		<figcaption>Confusion matrices for anger, fear, calm and surprise
+</figcaption>
+	
+</figure>
+
+<figure class=no-border>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/anger-fear-surprise.dafc.png alt="Confusion matrices for anger, fear and surprise
+">
+		
+
+	
+
+	
+		<figcaption>Confusion matrices for anger, fear and surprise
+</figcaption>
+	
+</figure>
+
+<figure class=no-border>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/sadness-surprise-disgust.51dd.png alt="Confusion matrices for sadness, surprise and disgust
+">
+		
+
+	
+
+	
+		<figcaption>Confusion matrices for sadness, surprise and disgust
+</figcaption>
+	
+</figure>
+
+<figure class=no-border>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/anger-calm-happiness.1cbd.png alt="Confusion matrices for anger, calm and happiness
+">
+		
+
+	
+
+	
+		<figcaption>Confusion matrices for anger, calm and happiness
+</figcaption>
+	
+</figure>
+
+<p>The matrices show that when the validation set is drawn from the same dataset as the training set, validation results tend to be better. This is clear because the ‘accurate’ diagonal is somewhat darker in the matrices on the left. With the matrices on the right, it is harder to trace a dark diagonal. This tells us that the model we are validating doesn’t generalize well.</p>
+
+<p>Below are two image samples, one from each dataset. Notably, images from Cohn-Kanade are all frontal views, whereas images in FER2013 were taken from many different angles.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/sample-images.111c.jpg alt="A sample image from Cohn-Kanade (left), alongside a sample image from FER2013 (right)
+">
+		
+
+	
+
+	
+		<figcaption>A sample image from Cohn-Kanade (left), alongside a sample image from FER2013 (right)
+</figcaption>
+	
+</figure>
+
+<p>Moreover, when the Cohn-Kanade dataset was created, participants were given examples of facial expressions and then asked to act them out. FER2013 images are much more varied. They come from many sources on the web — some appear to be raw ‘authentic’ emotions, whereas others are clearly exaggerated or acted out.</p>
+
+<p>Because of these types of differences in datasets, it is important to cross-validate performance using multiple datasets. It’s also important to note how the neural network performs on specific emotions. For example, fear tends to be misclassified more often than other emotions, as seen in the first pair of confusion matrices above. Looking at sample images from each dataset shows why this could be the case.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/sample-fear.bd5d.jpg alt="Sample fear images from Cohn-Kanade (left) and FER2013 (right)
+">
+		
+
+	
+
+	
+		<figcaption>Sample fear images from Cohn-Kanade (left) and FER2013 (right)
+</figcaption>
+	
+</figure>
+
+<figure>
+	
+
+		<img src=/images/posts/2018-09-06-emopy-emotional-expression-toolkit/sample-calm-anger.892d.jpg alt="A sample calm image from Cohn-Kanade (left), and anger image from FER2013 (right)
+">
+		
+
+	
+
+	
+		<figcaption>A sample calm image from Cohn-Kanade (left), and anger image from <em>FER2013</em> (right)
+</figcaption>
+	
+</figure>
+
+<p>Facial expressions are by their nature ambiguous, and certain distinct emotions can lead to very similar facial expressions. In the case of fear, sometimes a person’s eyes are open very widely, which can be very similar to anger. Fear can also produce tight lips, which in other moments may be an indicator of calm.</p>
+
+<p>The best way to avoid these misclassifications, particularly in deep learning approaches, is to use the largest dataset possible. Moreover, as shown in the confusion matrices, better results are achieved when training on a smaller quantity of emotion classifications.</p>
+
+<h2 id=contributing-to-emopy>Contributing to EmoPy</h2>
+
+<p>We have made EmoPy an open source project to increase public access to technology that is often out of reach. The goal of the project is to make it easy for anyone to experiment with neural networks for FER and to share high-performing pre-trained models with all.</p>
+
+<p>Open source projects rely on contributions, and if you find this system useful I hope you’ll consider helping develop it. You can fork the repository and send a pull request, however it might be beneficial to <a href=https://github.com/thoughtworksarts/EmoPy/graphs/contributors>contact one of the EmoPy contributors</a> to discuss your input.</p>
+
+<p>Whether you are considering contributing, utilizing or replicating EmoPy, we hope you find the system useful. We have used an unrestrictive license to enable the widest possible access. However please take a moment to <a href=https://github.com/thoughtworksarts/EmoPy#guiding-principles>review our guiding principles</a>, which include championing integrity, transparency, and awareness around FER.</p>
+
+<p>We hope to see this technology used for good purposes, and look forward to hearing about your implementations going forward.</p>
+
+    </div>
+    <section id=calls-to-action>
+      <p>Keep on top of ThoughtWorks Arts updates and articles:</p>
+      <ul>
+        <li><a href="/newsletters/">Subscribe to our newsletter</a></li>
+        <li><a href=https://twitter.com/tw_arts>Follow us on Twitter</a></li>
+        <li><a href=https://medium.com/thoughtworks-arts>Follow us on Medium</a></li>
+      </ul>
+    </section>
+  </article>
+  <div class=progress>
+    <a href="/blog/" class="blog forwards">View all posts</a>
+  </div>
+</section>
+  </main>
+  <footer>
+    <div class=subscribe>
+  <form class=newsletter-form action=https://tinyletter.com/thoughtworksarts method=post target=popupwindow onsubmit="window.open('https://tinyletter.com/thoughtworksarts', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <label for=tlemail>Keep up to date with residency program news:</label>
+    <input type=email name=email id=tlemail value="your email" class=faded>
+    <input type=hidden value=1 name=embed>
+    <input type=submit value=Subscribe id=tlsubmit>
+  </form>
+</div>
+    <ul class=social>
+      <li>
+        <a href=https://twitter.com/tw_arts><i class="fab fa-twitter" id=twitter></i></a>
+      </li>
+      <li>
+        <a href="https://medium.com/thoughtworks-arts/"><i class="fab fa-medium"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/thoughtworksarts/"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
+    <ul class=notices>
+      <li>
+        <a href=/newsletters>Newsletter Archive</a>
+      </li>
+      <li>
+        <a href=https://www.thoughtworks.com/privacy-policy>Privacy Policy</a>
+      </li>
+    </ul>
+  </footer>
+  <script src=/javascript/script.a5cc.js></script>
+</body>
+
+</html>
