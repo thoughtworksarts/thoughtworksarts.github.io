@@ -23,7 +23,7 @@ As the lead developer on that project, I worked with a team to help Karen to cre
 {% include image.html file='karen-palmer.jpg'
    caption='Karen Palmer using the EmoPy toolkit in her artwork' %}
 
-EmoPy is published as an open source project, helping to increase public access to a technology which is often locked behind closed doors. In a follow-up article I will explain more about the creation of the EmoPy toolkit, and explain why and how you might use it in your own projects.
+EmoPy is published as an open source project, helping to increase public access to a technology which is often locked behind closed doors. In [this follow-up article](/blog/emopy-emotional-expression-toolkit) I explain more about the creation of the EmoPy toolkit, and explain why and how you might use it in your own projects.
 
 Before joining ThoughtWorks, I graduated from Stanford with a degree focusing on Artificial Intelligence. A large part of my research was in comparative approaches to machine learning problems, including looking at FER systems.
 
@@ -253,4 +253,4 @@ The size of our dataset was smaller than those that were publicly-available, but
 
 ## What's next
 
-This overview has outlined some of the broad topics and concerns of FER system development. Another article will be published soon explaining more about the creation of the EmoPy toolkit, and why and how you might use it in your own projects.
+This overview has outlined some of the broad topics and concerns of FER system development. My follow-up article explains [more about the creation of the EmoPy toolkit](/blog/emopy-emotional-expression-toolkit), and why and how you might use it in your own projects.
