@@ -50,6 +50,6 @@ links:
    url     : "https://github.com/kizerxl"
 
 ---
-Felix is a consultant software engineer at ThoughtWorks, specializing in iOS and Unity game development. He is the creator of the [iOS Augmented Reality with ARKit](https://www.packtpub.com/web-development/ios-augmented-reality-arkit-video) web video course, which tours various APIs and tools needed to develop Augmented Reality apps for iOS devices. He has a background in [painting and visual art](https://www.deviantart.com/el-chango/).
+Felix is a consultant software engineer at ThoughtWorks, specializing in iOS and Unity game development. He is the creator of the [iOS Augmented Reality with ARKit](https://www.packtpub.com/web-development/ios-augmented-reality-arkit-video) web video course, which tours various APIs and tools needed to develop Augmented Reality apps for iOS devices.
 
 During the summer of 2018, Felix collaborated with artist Catie Cuan to create a visualization system for robotics and choreography.
