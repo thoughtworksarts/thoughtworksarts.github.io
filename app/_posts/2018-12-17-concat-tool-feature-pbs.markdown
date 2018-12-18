@@ -15,20 +15,20 @@ The software, named [CONCAT](https://github.com/thoughtworksarts/concat/), was c
 {% include image.html file='catie-crr.jpg'
    caption='Catie working on-site with the industrial robot arm' %}
 
-The tool plays back carefully choreographed sequences designed for a 15 foot "ABB IRB 6700" robot at the [Consortium for Research and Robotics](http://consortiumrr.com) in the Brooklyn Navy Yard. It allows Catie to rehearse, record and alter choreographic elements both on and off-site with large industrial robots.
+The tool renders carefully choreographed sequences designed for a 15 foot "ABB IRB 6700" robot at the [Consortium for Research and Robotics](http://consortiumrr.com) in the Brooklyn Navy Yard. It allows Catie to design and rehearse her movements both on and off-site with large industrial robots.
 
-Upon completion of her residency at ThoughtWorks, Catie took CONCAT to work with as part of her PhD at Stanford University, where PBS NewsHour [interviewed her about her work](https://www.pbs.org/newshour/show/how-these-humanities-graduates-are-finding-jobs-in-silicon-valley).
+Upon completion of her residency at ThoughtWorks, Catie began her PhD in Mechanical Engineering at Stanford University. There, PBS NewsHour [interviewed Catie about her work](https://www.pbs.org/newshour/show/how-these-humanities-graduates-are-finding-jobs-in-silicon-valley), and she demonstrated CONCAT's usefulness for creative movement research.
 
 {% include image.html file='felix-andy.jpg'
-   caption='ThoughtWorks developers Felix Changoo and Andy Allen' %}
+   caption='ThoughtWorks developers Felix Changoo and Andrea Allen' %}
 
-The NewsHour team were interested in Catie's work because of the potential impacts of public perception of robots, especially as related technology becomes increasingly present in the workplace.
+The PBS NewsHour team were interested in Catie's work because of the increasing importance of the public perception of robots, especially as related technologies proliferate in the workplace. Catie's work [deals with these themes](/blog/movement-industrial-robotic-arm/), investigating the communication flows between human and robotic agents.
 
-A [Kinect depth sensor](https://developer.microsoft.com/en-us/windows/kinect) is used to monitor Catie's movements in real-time, generating a 3D representation on screen alongside the virtual robot arm.
+In addition to rendering robotic movements, CONCAT uses a [Kinect depth sensor](https://developer.microsoft.com/en-us/windows/kinect) to monitor Catie's movements in real-time, generating a 3D representation on screen alongside the virtual robot arm.
 
 {% include image.html file='concat.jpg'
    caption='The CONCAT software alongside the ABB robot' %}
 
-The software behind the project was written in [openFrameworks](http://openframeworks.cc), a C++ creative coding useful for creating fast prototypes incorporating hardware interfaces and computer graphics. The tool relies on the [ofxKinectV2-OSC plugin](https://github.com/microcosm/ofxKinectV2-OSC) written by ThoughtWorks developer Andrew McWilliams.
+The software behind the project was written in [openFrameworks](http://openframeworks.cc), a C++ creative coding platform useful for creating fast prototypes incorporating hardware interfaces and computer graphics.
 
-All of the software used in creating CONCAT is free and open source.
+The tool relies on the [ofxKinectV2-OSC plugin](https://github.com/microcosm/ofxKinectV2-OSC), also written by Andrew McWilliams as a community contribution. All of the software used in creating CONCAT is free and open source.
