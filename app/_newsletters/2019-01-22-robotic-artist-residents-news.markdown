@@ -93,45 +93,70 @@ EmoPy, the facial expression recognition software created for RIOT by ThoughtWor
 
 ### Exhibitions
 
-**Heather Dewey-Hagborg (Past Resident)** [SPIRIT MOLECULE](https://northeastofnorth.com/event/spirit-molecule-i/) Lifespace Science Art Research Gallery, University of Dundee Dundee, Scotland
+**Heather Dewey-Hagborg (Past Resident)**  
+[SPIRIT MOLECULE](https://northeastofnorth.com/event/spirit-molecule-i/)  
+Lifespace Science Art Research Gallery, University of Dundee Dundee, Scotland
 
 ### Publications
 
 **Ellen Pearlman (Director)**
 
-[Ellen Pearlman: Brain Opera, Telematic Performance, And Decoding Dreams](https://thetheatretimes.com/ellen-pearlman-brain-opera-telematic-performance-and-decoding-dreams/) The Theatre Times
+[Ellen Pearlman: Brain Opera, Telematic Performance, And Decoding Dreams](https://thetheatretimes.com/ellen-pearlman-brain-opera-telematic-performance-and-decoding-dreams/)  
+The Theatre Times
 
-[A Co-Lab on Developing Cyborg Arts - Interdisciplinary Collaborations and Practice Based Solutions](https://journals.aau.dk/index.php/pbl/article/view/1948/1915) Journal of Problem Based Learning in Higher Education
+[A Co-Lab on Developing Cyborg Arts - Interdisciplinary Collaborations and Practice Based Solutions](https://journals.aau.dk/index.php/pbl/article/view/1948/1915)  
+Journal of Problem Based Learning in Higher Education
 
-[Living with Robots - A Review](https://www.leonardo.info/review/2019/01/review-of-living-with-robots) Leonardo Reviews **Moon Ribas & Neil Harbisson (Past Residents)**
+[Living with Robots - A Review](https://www.leonardo.info/review/2019/01/review-of-living-with-robots)  
+Leonardo Reviews  
 
-[Live Q&A Session](https://answers.thenextweb.com/s/moon-ribas-neil-harbisson-r5DRg3) The Next Web **Moon Ribas (Past Resident)**
+**Moon Ribas & Neil Harbisson (Past Residents)**
 
-[Moon Ribas: The cyborg who can detect earthquakes](https://edition.cnn.com/videos/design/2018/10/22/moon-ribas-smart-creativity-vision-style-orig.cnn) CNN Style **Heather Dewey-Hagborg (Past Resident)**
+[Live Q&A Session](https://answers.thenextweb.com/s/moon-ribas-neil-harbisson-r5DRg3)  
+The Next Web  
 
-[DNA Spliced with Plants in Bizarre Art Show](https://www.thecourier.co.uk/fp/news/local/dundee/736652/dna-spliced-with-plants-in-bizarre-art-show/) The Courier
+**Moon Ribas (Past Resident)**
 
-[Generative Representation](https://unthinking.photography/articles/generative-representation) Unthinking Photography
+[Moon Ribas: The cyborg who can detect earthquakes](https://edition.cnn.com/videos/design/2018/10/22/moon-ribas-smart-creativity-vision-style-orig.cnn)  
+CNN Style  
+
+**Heather Dewey-Hagborg (Past Resident)**
+
+[DNA Spliced with Plants in Bizarre Art Show](https://www.thecourier.co.uk/fp/news/local/dundee/736652/dna-spliced-with-plants-in-bizarre-art-show/)  
+The Courier
+
+[Generative Representation](https://unthinking.photography/articles/generative-representation)  
+Unthinking Photography
 
 ### Presentations
 
 **Andrew McWilliams (Director)**
 
-[How Technologists Can Fight Climate Change](https://sustainableux.com/talks/2019/how-technologists-can-fight-climate-change/) SustainableUX 2019 February 12, 2019
+[How Technologists Can Fight Climate Change](https://sustainableux.com/talks/2019/how-technologists-can-fight-climate-change/)  
+SustainableUX  
+2019 February 12, 2019
 
-[Sustainability and Art](http://greenhomenyc.org/blog/november-forum-recap-sustainability-and-art/) GreenHome NYC New York, NY
+[Sustainability and Art](http://greenhomenyc.org/blog/november-forum-recap-sustainability-and-art/)  
+GreenHome NYC  
+New York, NY
 
-[How Technologists Can Fight Climate Change](https://youtu.be/jF91WnebaKU?t=8385) Aaron Swartz Day, Internet Archive San Francisco, CA
+[How Technologists Can Fight Climate Change](https://youtu.be/jF91WnebaKU?t=8385)  
+Aaron Swartz Day, Internet Archive  
+San Francisco, CA
 
-[How Artists Are Reshaping Tech Research](https://youtu.be/ES-yennfyjg?t=3997) Aaron Swartz Day, Internet Archive San Francisco, CA
+[How Artists Are Reshaping Tech Research](https://youtu.be/ES-yennfyjg?t=3997)  
+Aaron Swartz Day, Internet Archive  
+San Francisco, CA
 
 **Ellen Pearlman (Director)**
 
-[International Symposium on Computational Media Art 2019](https://iscma.scm.cityu.edu.hk/openconf/modules/request.php?module=oc_program&action=program.php&p=program) Hong Kong
+[International Symposium on Computational Media Art 2019](https://iscma.scm.cityu.edu.hk/openconf/modules/request.php?module=oc_program&action=program.php&p=program)  
+Hong Kong  
 
 **Moon Ribas (Past Resident)**
 
-Speaker [DMEXCO](https://dmexco.com/conference/) Cologne, Germany
+[DMEXCO](https://dmexco.com/conference/)  
+Cologne, Germany  
 
 ## Blog Posts
 
