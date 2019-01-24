@@ -27,7 +27,7 @@ Adrianne Wortzel, also a resident at ThoughtWorks Arts over the summer of 2018, 
 Curator and researcher Ashley Lee Wong [interviewed ThoughtWorks Arts directors Andrew McWilliams and Ellen Pearlman for CLOT Magazine](http://www.clotmag.com/thoughtworks-arts-residency-leveraging-corporate-resources-for-art-social-change-by-ashley-lee-wong) about their ambitious arts residency to engage with socially relevant projects using emerging technologies.
 
 {% include image.html file='heather-dewey-hagborg.jpg'
-   caption='Past resident Heather Dewey-Haborg speaking at the opening of ‘A Becoming Resemblance’ at Fridman Gallery in 2017' %}
+   caption='Past resident Heather Dewey-Hagborg speaking at the opening of ‘A Becoming Resemblance’ at Fridman Gallery in 2017' %}
 
 The article highlights the achievements and challenges of merging artists with technology and how ThoughtWorks Arts is leveraging corporate resources for art and social change.
 
