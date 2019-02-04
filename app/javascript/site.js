@@ -1,43 +1,9 @@
 $(document).ready(function() {
 	function init() {
-		populateEvents();
 		enableMenuButton();
 		enableSocialLinks();
 		fixResizableHeights();
 		populateSignupBox();
-	}
-
-	function populateEvents() {
-		if(window.location.pathname == '/') {
-			$.ajax({
-				url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,description,link,venue&page=2",
-				jsonp: "callback",
-				dataType: "jsonp",
-				data: { format: "json" },
-				success: function(response) {
-					var eventsElement = $('.listing.events');
-					var listElement = $('.listing.events ul');
-					var listItemTemplateHtml = listElement.html();
-					listElement.html('');
-
-					response.data.forEach(function(meetup) {
-						var newListItem = listItemTemplateHtml;
-						
-						newListItem = newListItem.replace('Event Name', meetup.name);
-						newListItem = newListItem.replace('Event Date', meetup.local_date);
-						newListItem = newListItem.replace('Event Time', meetup.local_time);
-						newListItem = newListItem.replace('Event Location', meetup.venue.name);
-						newListItem = newListItem.replace('Event City', meetup.venue.city);
-						newListItem = newListItem.replace('Event Description', meetup.description);
-						newListItem = newListItem.replace('event-url', meetup.link);
-
-						//if undefined, exit now
-						listElement.append(newListItem);
-					});
-					eventsElement.removeClass('hidden');
-				}
-			});
-		}
 	}
 
 	function enableMenuButton() {
