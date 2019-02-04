@@ -1,5 +1,6 @@
 ---
 title : "New Robotics, AI, and Climate Change projects at ThoughtWorks Arts"
+listing-teaser : Our Art-A-Hack Special Edition has produced projects ranging from emotionally-intelligent AI through climate change.
 ---
 This summer we were thrilled to host a Special Edition Art-A-Hack in collaboration with [The Volumetric Society](http://www.meetup.com/volumetric/), the [Human Impacts Institute](https://www.humanimpactsinstitute.org/) and the [New York City College of Technology (City Tech)](http://www.citytech.cuny.edu/).
 

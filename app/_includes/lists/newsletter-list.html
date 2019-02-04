@@ -1,3 +1,6 @@
-{% for newsletter in site.newsletters %}
-	{{ newsletter.title }}
+{% assign newsletters = site.newsletters | reverse %}
+<ul>
+{% for newsletter in newsletters | limit: 2 %}
+	{% include lists/newsletter-item.html %}
 {% endfor %}
+</ul>
