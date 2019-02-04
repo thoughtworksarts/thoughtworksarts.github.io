@@ -1,9 +1,25 @@
 $(document).ready(function() {
 	function init() {
+		populateEvents();
 		enableMenuButton();
 		enableSocialLinks();
 		fixResizableHeights();
 		populateSignupBox();
+	}
+
+	function populateEvents() {
+		if(window.location.pathname == '/') {
+			$.ajax({
+			  url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,link,venue&page=2",
+			  jsonp: "callback",
+			  dataType: "jsonp",
+			  data: { format: "json" },
+			  success: function(response) {
+			    alert(JSON.stringify(response.data[0]));
+			    alert(JSON.stringify(response.data[1]));
+			  }
+			});
+		}
 	}
 
 	function enableMenuButton() {
