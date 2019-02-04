@@ -4,17 +4,24 @@ bodyclass : home-page
 ---
 <section>
 	<header>
-		<h1>About the program</h1>
+		<h1>News and updates</h1>
 	</header>
-	<p class="intro">The ThoughtWorks Arts Residency program supports artists exploring new lines of inquiry intersecting technology and society.</p>
-	<p>The aim of this program is to facilitate dialog, partnership and collaboration at the intersection of technology and exploratory arts. By focusing on this synthesis, the program aims to empower resident artists to make work which inspires shifts in perspective and debate.</p>
-	<div class="progress">
-		<a href="/programs/" class="programs forwards">More</a>
-	</div>
-</section>
-<section class="listing residents expanded">
-	<header>
-		<h1>Residents</h1>
-	</header>
-	{% include residents/resident-list.html %}
+	<section class="listing updates">
+		<p style="color: red">Updates</p>
+	</section>
+	<section class="program-teaser">
+		<p style="color: red">Programs</p>
+		<div class="progress">
+			<a href="/programs/" class="programs forwards">More</a>
+		</div>
+	</section>
+	<section class="listing newsletters">
+		{% include lists/newsletter-list.html %}
+	</section>
+	<section class="listing social">
+		<p style="color: red">Social</p>
+	</section>
+	<section class="listing announcement">
+		<p style="color: red">Announcement</p>
+	</section>
 </section>
