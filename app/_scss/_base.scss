@@ -308,7 +308,7 @@ a#menu-button {
 	}
 }
 
-a.program {
+a.programs {
 	color: #ac1f58;
 }
 
@@ -369,7 +369,7 @@ ul.progress li, ol.progress li {
 	}
 }
 
-.progress a.program.forwards:after {
+.progress a.programs.forwards:after {
 	background-image: url('/images/icons/arrow-purple.png');
 }
 
@@ -385,7 +385,7 @@ ul.progress li, ol.progress li {
 	background-image: url('/images/icons/arrow-green.png');
 }
 
-.progress a.program.backwards:before {
+.progress a.programs.backwards:before {
 	background-image: url('/images/icons/arrow-purple.png');
 }
 
