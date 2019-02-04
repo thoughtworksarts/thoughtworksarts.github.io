@@ -10,14 +10,32 @@ $(document).ready(function() {
 	function populateEvents() {
 		if(window.location.pathname == '/') {
 			$.ajax({
-			  url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,link,venue&page=2",
-			  jsonp: "callback",
-			  dataType: "jsonp",
-			  data: { format: "json" },
-			  success: function(response) {
-			    alert(JSON.stringify(response.data[0]));
-			    alert(JSON.stringify(response.data[1]));
-			  }
+				url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,description,link,venue&page=2",
+				jsonp: "callback",
+				dataType: "jsonp",
+				data: { format: "json" },
+				success: function(response) {
+					var eventsElement = $('.listing.events');
+					var listElement = $('.listing.events ul');
+					var listItemTemplateHtml = listElement.html();
+					listElement.html('');
+
+					response.data.forEach(function(meetup) {
+						var newListItem = listItemTemplateHtml;
+						
+						newListItem = newListItem.replace('Event Name', meetup.name);
+						newListItem = newListItem.replace('Event Date', meetup.local_date);
+						newListItem = newListItem.replace('Event Time', meetup.local_time);
+						newListItem = newListItem.replace('Event Location', meetup.venue.name);
+						newListItem = newListItem.replace('Event City', meetup.venue.city);
+						newListItem = newListItem.replace('Event Description', meetup.description);
+						newListItem = newListItem.replace('event-url', meetup.link);
+
+						//if undefined, exit now
+						listElement.append(newListItem);
+					});
+					eventsElement.removeClass('hidden');
+				}
 			});
 		}
 	}
@@ -38,7 +56,7 @@ $(document).ready(function() {
 	function enableSocialLinks() {
 		$('.social a').click(function(event) {
 			var width =  575,
-			    height = 400,
+				height = 400,
 				left =   ($(window).width()	- width) / 2,
 				top	 =   ($(window).height() - height) / 2,
 				url	=    this.href,
