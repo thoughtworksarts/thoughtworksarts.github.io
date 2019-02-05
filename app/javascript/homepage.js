@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	var invalidValueStr = 'INVALID_VALUE';
+
 	function init() {
 		if(window.location.pathname == '/') {
 			populateEvents();
@@ -26,16 +28,28 @@ $(document).ready(function() {
 
 		meetupJson.data.forEach(function(meetup) {
 			var newListItem = listItemTemplateHtml;
-			newListItem = newListItem.replace(/Event Name/g, meetup.name);
-			newListItem = newListItem.replace(/Event Date/g, meetup.local_date);
-			newListItem = newListItem.replace(/Event Time/g, meetup.local_time);
-			newListItem = newListItem.replace(/Event Location/g, meetup.venue.name);
-			newListItem = newListItem.replace(/Event City/g, meetup.venue.city);
-			newListItem = newListItem.replace(/Event Description/g, generateTeaser(meetup.description, 80));
-			newListItem = newListItem.replace(/event-url/g, meetup.link);
+			newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
+			newListItem = newListItem.replace(/Event Date/g,        safeRead(meetup.local_date));
+			newListItem = newListItem.replace(/Event Time/g,        safeRead(meetup.local_time));
+			newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
+			newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
+			newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
+			newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
+
+			if(newListItem.indexOf(invalidValueStr) >= 0) {
+				return;
+			}
 
 			listElement.append(newListItem);
 		});
+	}
+
+	function safeRead(str){
+		if(str == 'undefined' || str == '' || str == null) {
+			return invalidValueStr;
+		} else {
+			return str;
+		}
 	}
 
 	function generateTeaser(html, maxLength) {
