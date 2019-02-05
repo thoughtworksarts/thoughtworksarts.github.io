@@ -58,11 +58,12 @@ $(document).ready(function() {
 		if(str.length > maxLength) {
 			var str = str.substr(0, maxLength);
 			str = str.substr(0, Math.min(str.length, str.lastIndexOf(" ")));
-		}
 
-		while(!str[str.length -1].match(/[a-zA-Z0-9]/)) {
-			str = str.slice(0, -1);
-			console.log(str + "\n");
+			while(!str[str.length -1].match(/[a-zA-Z0-9]/)) {
+				str = str.slice(0, -1);
+			}
+
+			str += '...';
 		}
 
 		return str;
