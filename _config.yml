@@ -48,6 +48,8 @@ collections:
   people:
     output: true
     permalink: /bio/:path/
+  features:
+    output: false
 
 defaults:
   - scope:
