@@ -1,6 +1,5 @@
 ---
 title : "Catie Cuan Featured in Engadget Video Overview"
-image : catie.jpg
 link  : /link/somewhere
 feature-position : 1
 ---

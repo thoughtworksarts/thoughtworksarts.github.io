@@ -1,5 +1,11 @@
 <li>
 	<h2><a href="{{ feature.link }}">{{ feature.title }}</a></h2>
-	<a href="{{ feature.link }}"><img src="{{ feature.image }}" alt="{{ feature.title }}" /></a>
+
+	{% if feature.feature-position == 1 then %}
+	<a href="{{ feature.link }}">
+		<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title }}" />
+	</a>
+	{% endif %}
+
 	<a href="{{ feature.link }}"><p>{{ feature.content }}</p></a>
 </li>

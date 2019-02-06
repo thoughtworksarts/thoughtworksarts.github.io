@@ -1,6 +1,5 @@
 ---
 title : "Open Call: The Rise of Volumetric Video Capture"
-image : volumetric.jpg
 link  : /link/somewhere
 feature-position : 2
 ---
