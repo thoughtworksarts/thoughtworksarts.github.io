@@ -2,29 +2,30 @@
 bodyid    : home
 bodyclass : home-page
 ---
-<section>
-	<header>
-		<h1>News and updates</h1>
-	</header>
-	<section class="listing features">
-		{% include lists/feature-list.html %}
-	</section>
-	<section class="program-teaser">
-		<p style="color: red">Programs</p>
-		<div class="progress">
-			<a href="/programs/" class="programs forwards">More</a>
-		</div>
-	</section>
-	<section class="listing newsletters">
-		{% include lists/newsletter-list.html %}
-		<div class="progress continue-reading">
-			<a href="/newsletters" class="blog forwards">All newsletters</a>
-		</div>
-	</section>
-	<section class="listing events hidden">
-		{% include lists/event-list.html %}
-	</section>
-	<section class="listing social">
-		{% include lists/social-list.html %}
-	</section>
+<section class="updates flex-row">
+	<div>
+		<section class="listing features">
+			{% include lists/feature-list.html %}
+		</section>
+		<section class="program-teaser">
+			<p style="color: red">Programs</p>
+			<div class="progress">
+				<a href="/programs/" class="programs forwards">More</a>
+			</div>
+		</section>
+	</div>
+	<div>
+		<section class="listing newsletters">
+			{% include lists/newsletter-list.html %}
+			<div class="progress continue-reading">
+				<a href="/newsletters" class="blog forwards">All newsletters</a>
+			</div>
+		</section>
+		<section class="listing events hidden">
+			{% include lists/event-list.html %}
+		</section>
+		<section class="listing social">
+			{% include lists/social-list.html %}
+		</section>
+	</div>
 </section>
