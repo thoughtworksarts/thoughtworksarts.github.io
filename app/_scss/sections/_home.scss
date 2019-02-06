@@ -64,8 +64,16 @@
 	//See also .residents
 
 	.updates {
-		div {
-			width: 50%;
+		img {
+			width: 100%;
+		}
+
+		.left {
+			width: 65%;
+		}
+
+		.right {
+			width: 35%;
 		}
 	}
 }
