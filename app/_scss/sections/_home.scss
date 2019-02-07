@@ -1,44 +1,4 @@
 #home {
-	#image-splash {
-		flex: 1 0 auto;
-		background-image: url('/images/full-bleed/residency-home-1600.jpg');
-		background-position: 50% 24%;
-		background-size: cover;
-		background-color: #000000;
-		background-repeat: no-repeat;
-		margin: 0 0 2em;
-		position: relative;
-
-		.small-screens {
-			display: none;
-		}
-
-		.intro-container {
-			width: 100%;
-			position: absolute;
-			bottom: 0;
-
-			.intro {
-				color: #eee;
-				text-shadow: 0 0 2px #000000, 0 0 6px #000000, 0 0 16px #000000, 0 0 32px #000000, 0 0 64px #000000, 0 0 128px #000000;
-				font-size: 1.7em;
-				line-height: 1.7em;
-				opacity: 0.9;
-				font-style: italic;
-				margin: 1.1em 3.5em;
-
-				.space {
-					display: none;
-				}
-			}
-		}
-	}
-
-	>header {
-		height: 100%;
-		min-height: 600px;
-	}
-
 	>main>section {
 		width: 100%;
 		margin: 0;

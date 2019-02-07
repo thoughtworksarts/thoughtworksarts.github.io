@@ -70,7 +70,7 @@
 </head>
 
 <body id="{{ page.bodyid }}" class="{{ bodyclass }}">
-  <header role="banner" class="flex-col">
+  <header role="banner" class="flex-col{% if page.bodyid != 'home' %} splash{% endif %}">
     <section id="logonav">
       <h1>ThoughtWorks Arts Residency</h1>
       <a href="/" class="logo">
@@ -95,14 +95,9 @@
         </ul>
       </nav>
     </section>
-    <figure id="image-splash" class="bottom">
-      {% if page.bodyid == 'home' %}
-      <div class="intro-container">
-        <p class="intro">A residency for artists exploring new technologies
-          <br /><span class="space"> </span> and how they relate to society</p>
-      </div>
-      {% endif %}
-    </figure>
+    {% if page.bodyid != 'home' %}
+    <figure id="image-splash" class="bottom"></figure>
+    {% endif %}
   </header>
   <main>
   {{ content }}
