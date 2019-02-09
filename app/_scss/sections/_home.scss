@@ -21,8 +21,6 @@
 		cursor: default;
 	}
 
-	//See also .residents
-
 	.updates {
 		img {
 			width: 100%;
@@ -34,6 +32,34 @@
 
 		.right {
 			width: 35%;
+		}
+
+		.features h1 {
+			display: none;
+		}
+
+		.listing ul {
+			list-style-type: none;
+		}
+
+		.main-feature {
+			figure {
+				position: relative;
+				line-height: 0;
+			}
+
+			figcaption {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				padding: 6em 1em 2em 1em;
+				text-transform: uppercase;
+				color: #ffffff;
+				background: linear-gradient(rgba(0,0,0,0), rgba(10,10,10,1));
+				font-size: 2em;
+				letter-spacing: -0.01em;
+				line-height: 1.1em;
+			}
 		}
 	}
 }
