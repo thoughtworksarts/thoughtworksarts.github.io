@@ -2,44 +2,40 @@
 bodyid    : home
 bodyclass : home-page
 ---
-<section class="updates flex-row">
-	<div class="left">
-		<section class="listing features">
-			<header>
-				<h1>Features</h1>
-			</header>
-			{% include lists/feature-list.html %}
-		</section>
-		<section class="program-teaser">
-			<header>
-				<h1 style="color: red">Programs</h1>
-			</header>
-			<div class="progress">
-				<a href="/programs/" class="programs forwards">More</a>
-			</div>
-		</section>
-	</div>
-	<div class="right">
-		<section class="listing newsletters">
-			<header>
-				<h1>Newsletters</h1>
-			</header>
-			{% include lists/newsletter-list.html %}
-			<div class="progress continue-reading">
-				<a href="/newsletters" class="blog forwards">All newsletters</a>
-			</div>
-		</section>
-		<section class="listing events hidden">
-			<header>
-				<h1>Events</h1>
-			</header>
-			{% include lists/event-list.html %}
-		</section>
-		<section class="listing social">
-			<header>
-				<h1>Social Media</h1>
-			</header>
-			{% include lists/social-list.html %}
-		</section>
-	</div>
+<section class="updates">
+	<section class="listing features">
+		<header>
+			<h1>Features</h1>
+		</header>
+		{% include lists/feature-list.html %}
+	</section>
+	<section class="program-teaser">
+		<header>
+			<h1 style="color: red">Programs</h1>
+		</header>
+		<div class="progress">
+			<a href="/programs/" class="programs forwards">More</a>
+		</div>
+	</section>
+	<section class="listing newsletters">
+		<header>
+			<h1>Newsletters</h1>
+		</header>
+		{% include lists/newsletter-list.html %}
+		<div class="progress continue-reading">
+			<a href="/newsletters" class="blog forwards">All newsletters</a>
+		</div>
+	</section>
+	<section class="listing events hidden">
+		<header>
+			<h1>Events</h1>
+		</header>
+		{% include lists/event-list.html %}
+	</section>
+	<section class="listing social">
+		<header>
+			<h1>Social Media</h1>
+		</header>
+		{% include lists/social-list.html %}
+	</section>
 </section>

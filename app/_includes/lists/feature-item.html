@@ -1,5 +1,5 @@
+<li class="feature-{{ feature.feature-position }}">
 {% if feature.feature-position == 1 then %}
-<li class="main-feature">
 	<a href="{{ feature.link }}">
 		<figure>
 			<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title }}" />
@@ -9,8 +9,6 @@
 			</figcaption>
 		</figure>
 	</a>
-{% else %}
-<li>
 {% endif %}
 	<h2><a href="{{ feature.link }}">{{ feature.title }}</a></h2>
 	<a href="{{ feature.link }}"><p>{{ feature.content }}</p></a>
