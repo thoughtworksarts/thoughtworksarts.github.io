@@ -28,11 +28,12 @@
 
 		.listing ul {
 			list-style-type: none;
-			padding: 0;
-			margin: 0;
 			width: 100%;
 			display: grid;
 			grid-template-columns: 63% 37%;
+			grid-gap: 1.8em;
+			margin: 1.6em 1em;
+			padding: 0;
 
 			.feature-1 {
 				grid-column: 1;

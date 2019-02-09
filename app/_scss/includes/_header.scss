@@ -1,20 +1,20 @@
 #logonav {
-	height: 189px;
+	height: 136px;
 	position: relative;
 
 	h1 {
 		display: none;
 	}
 
-	.logo, >nav {
+	>nav {
 		margin: 9px 16px;
 	}
 
 	.logo {
-		position: absolute; bottom: 0; left: 20px;
+		position: absolute; bottom: -0.9em; left: 1.2em;
 
 		img {
-			height: 10em;
+			height: 7.4em;
 		}
 	}
 
@@ -37,7 +37,7 @@
 			letter-spacing: inherit;
 
 			li {
-				margin-left: 1em;
+				margin-left: 0.6em;
 				display: inline;
 
 				a {
