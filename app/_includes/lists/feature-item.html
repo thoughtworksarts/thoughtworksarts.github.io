@@ -3,7 +3,10 @@
 	<a href="{{ feature.link }}">
 		<figure>
 			<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title }}" />
-			<figcaption>{{ feature.title }}</figcaption>
+			<figcaption>
+				<p class="title">{{ feature.title }}</p>
+				<p class="details">{{ feature.details }}</p>
+			</figcaption>
 		</figure>
 	</a>
 {% else %}
