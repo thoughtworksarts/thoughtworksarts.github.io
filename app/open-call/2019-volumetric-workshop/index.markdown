@@ -6,13 +6,11 @@ description: Open Call for a Volumetric Filmmaking workshop to learn Depthkit, h
 ---
 **Application Deadline: March 8, 2019**
 
-ThoughtWorks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
+ThoughtWorks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free, intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
 
 Volumetric filmmaking is a growing movement in 3-dimensional capture of people, places and things, which can be presented in an immersive (AR/VR/MR) context or rendered in 2D. The technique redefines how a narrative can be developed and experienced, allowing creators to expand beyond the boundaries of traditional media.
 
 In this two-day learning intensive, participants will explore how to create volumetric video with Depthkit, and learn how to incorporate it into their own creative practice. The workshop includes a hands-on exploration of Depthkit tools and workflow, as well as an opportunity for collaboration with fellow makers and artists.
-
-The workshop carries the goal of sharing knowledge with the community to make emerging technology accessible and inclusive for all. We welcome artists of all experience levels to join us. No previous 3D experience is required.
 
 Participants will explore: 
 <ul class="closer">
@@ -21,6 +19,10 @@ Participants will explore:
 	<li>single sensor volumetric capture with Depthkit Pro</li>
 	<li>a brief overview for setting up volumetric assets in the Unity game engine (note that previous Unity experience is not necessary)</li>
 </ul>
+
+We welcome artists of all experience levels to apply. No previous 3D or programming experience is required.
+
+The workshop carries the goal of sharing knowledge with the community to make emerging technology accessible and inclusive for all. Space is limited to 15 applicants, an attendees will be invited to shre what they learn with the broader community at future facilitated co-working events.
 
 ## Workshop Schedule 
 **March 16th, 10am - 6pm**  
