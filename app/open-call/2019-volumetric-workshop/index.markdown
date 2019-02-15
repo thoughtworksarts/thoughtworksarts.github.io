@@ -4,6 +4,8 @@ title	   : "Volumetric Filmmaking Workshop with Depthkit"
 bodyclass  : no-header-image
 description: Open Call for a Volumetric Filmmaking workshop to learn Depthkit, hosted by ThoughtWorks Arts and Scatter in New York
 ---
+**Application Deadline: March 8, 2019**
+
 ThoughtWorks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
 
 Volumetric filmmaking is a growing movement in 3-dimensional capture of people, places and things, which can be presented in an immersive (AR/VR/MR) context or rendered in 2D. The technique redefines how a narrative can be developed and experienced, allowing creators to expand beyond the boundaries of traditional media.
