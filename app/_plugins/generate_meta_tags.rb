@@ -17,12 +17,12 @@ module GenerateMetaTags
     def begin_benchmark
       @start = Time.now
       puts
-      puts "Generating image and description meta tags on newsletters and blog posts..."
+      puts "Generating image and description meta tags..."
     end
 
     def end_benchmark
       @finish = Time.now
-      puts "Done in #{ @finish - @start } seconds."
+      puts "Generated in #{ @finish - @start } seconds."
       puts
     end
 
