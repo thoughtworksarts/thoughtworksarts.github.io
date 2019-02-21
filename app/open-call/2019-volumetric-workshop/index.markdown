@@ -25,7 +25,7 @@ Participants will explore:
 
 We welcome artists of all experience levels to apply. No previous 3D or programming experience is required.
 
-The workshop carries the goal of sharing knowledge with the community to make emerging technology accessible and inclusive for all. Space is limited to 15 applicants, an attendees will be invited to shre what they learn with the broader community at future facilitated co-working events.
+The workshop carries the goal of sharing knowledge with the community to make emerging technology accessible and inclusive for all. Space is limited to 15 applicants, and attendees will be invited to share what they learn with the broader community at future facilitated co-working events.
 
 ## Workshop Schedule 
 **March 16th, 10am - 6pm**  
