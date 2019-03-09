@@ -9,9 +9,9 @@ author:
   name: Andrew McWilliams
   email: andy@jahya.net
 
-display-banner: true
-banner-url: /open-call/2019-volumetric-workshop/
-banner-text: "Apply Now for Volumetric Workshop"
+display-banner: false
+banner-url: 
+banner-text: 
 
 # Grunt handles images and assets.
 exclude: ['images', 'stylesheets', 'javascript', 'fonts',

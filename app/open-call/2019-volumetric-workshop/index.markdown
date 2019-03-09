@@ -5,7 +5,7 @@ bodyclass  : no-header-image
 description: Open Call for a Volumetric Filmmaking workshop to learn Depthkit, hosted by ThoughtWorks Arts and Scatter in New York
 image      : /images/posts-special/open-call/2019-volumetric-workshop/og_volumetric.jpg
 ---
-**Application Deadline: March 8, 2019**
+<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. Applicants will be contacted by email regarding participation.</p>
 
 ThoughtWorks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free, intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
 
