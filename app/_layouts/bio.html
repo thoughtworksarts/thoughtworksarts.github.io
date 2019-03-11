@@ -13,7 +13,7 @@ layout: default
   {% endif %}
 
   {% if post.author == page.name or director-include == 'true' %}
-    {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
+    {% capture post-list %}{{ post-list }}{% include projects-bios/related-post.html %}{% endcapture %}
   {% endif %}
 {% endfor %}
 
@@ -25,7 +25,7 @@ layout: default
 
         {% if tag == project.projectid %}
           {% unless post-list contains post.url %}
-            {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
+            {% capture post-list %}{{ post-list }}{% include projects-bios/related-post.html %}{% endcapture %}
           {% endunless %}
         {% endif %}
 
@@ -40,7 +40,7 @@ layout: default
       <header>
         <h1>{{ page.name }}</h1>
         <section class="metainfo small bio">
-          {% include bio/profile.html %}
+          {% include projects-bios/profile.html %}
         </section>
       </header>
       <div class="post-content">
@@ -57,6 +57,6 @@ layout: default
   {% endunless %}
   </section>
   <section class="right metainfo large bio">
-    {% include bio/profile.html %}
+    {% include projects-bios/profile.html %}
   </section>
 </section>

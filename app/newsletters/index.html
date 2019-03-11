@@ -13,13 +13,13 @@ description: Keep up to date with our residents and their projects. Sign up for 
 	<section class="subscribe-box">
 		<h1 class="newsletter-heading">Newsletters</h1>
 		<p>Newsletters are sent out once every quarter, and are archived below. Sign up to receive these updates in your email inbox:</p>
-		{% include subscribe-email.html %}
+		{% include blog-news/subscribe-email.html %}
 	</section>
 	{% for newsletter in paginator.posts %}
 	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
 			<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
-			{% include newsletters/widgets.html %}
+			{% include blog-news/newsletter-date.html %}
 		</header>
 		<div class="text-content">
 			{{ newsletter.excerpt }}
@@ -30,5 +30,5 @@ description: Keep up to date with our residents and their projects. Sign up for 
 	</article>
 	{% endfor %}
 
-	{% include pagination.html folder='newsletters' %}
+	{% include blog-news/pagination.html folder='newsletters' %}
 </section>

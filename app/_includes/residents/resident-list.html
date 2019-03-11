@@ -2,6 +2,6 @@
 {% for resident in residents %}
 	{% assign group_members = site.people | where: "group",resident.name | sort: 'lastname' %}
 	{% if resident.group == nil %}
-		{% include lists/resident-item.html %}
+		{% include residents/resident-item.html %}
 	{% endif %}
 {% endfor %}
