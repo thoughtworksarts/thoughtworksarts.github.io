@@ -2,10 +2,8 @@
 	<a href="{{ feature.link }}">
 		<figure>
 			<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title }}" />
-			<figcaption>
-				<h2>{{ feature.title }}</h2>
-				<p>{{ feature.details }}</p>
-			</figcaption>
 		</figure>
+		<h2>{{ feature.title }}</h2>
+		<p>{{ feature.details }}</p>
 	</a>
 </li>

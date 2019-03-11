@@ -23,16 +23,17 @@ footer {
 	}
 
 	.social {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		margin: 0 3em 2.5em 0;
+		position: absolute; right: 0; bottom: 0;
 
-		li i {
-			font-size: 1.8em;
-			transition: all 0.24s;
-			padding: 5px 10px;
-			margin-right: 5px;
+		ul {
+			margin: 0 3em 2.5em 0;
+
+			li i {
+				font-size: 1.8em;
+				transition: all 0.24s;
+				padding: 5px 10px;
+				margin-right: 5px;
+			}
 		}
 	}
 
