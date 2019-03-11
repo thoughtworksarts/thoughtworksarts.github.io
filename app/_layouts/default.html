@@ -81,6 +81,7 @@
           <a href="{{ site.banner-url }}">{{ site.banner-text }}</a>
         </aside>
       {% endif %}
+      {% include header-footer/social.html %}
       <nav role="navigation">
         <h2>Navigation</h2>
         <a id="menu-button" href="#">
@@ -104,25 +105,8 @@
   </main>
   <footer>
     {% include blog-news/subscribe-email.html %}
-    <ul class="social">
-      <li>
-        <a href="https://twitter.com/tw_arts"><i class="fab fa-twitter" id="twitter"></i></a>
-      </li>
-      <li>
-        <a href="https://medium.com/thoughtworks-arts/"><i class="fab fa-medium"></i></a>
-      </li>
-      <li>
-        <a href="https://github.com/thoughtworksarts/"><i class="fab fa-github"></i></a>
-      </li>
-    </ul>
-    <ul class="notices">
-      <li>
-        <a href="/newsletters">Newsletter Archive</a>
-      </li>
-      <li>
-        <a href="https://www.thoughtworks.com/privacy-policy">Privacy Policy</a>
-      </li>
-    </ul>
+    {% include header-footer/social.html %}
+    {% include header-footer/notices.html %}
   </footer>
   <!-- build:js(app) /javascript/script.js -->
   <script src="/javascript/jquery.js"></script>
