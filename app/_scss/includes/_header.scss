@@ -1,5 +1,5 @@
 #logonav {
-	height: 128px;
+	height: 144px;
 	position: relative;
 
 	h1, h2 {
@@ -9,8 +9,8 @@
 	.logo {
 		position: absolute; bottom: 0; left: 0;
 		line-height: 0;
-		margin-left: 1.5em;
-		margin-bottom: 0.45em;
+		margin-left: 1.2em;
+		margin-bottom: 1em;
 
 		img {
 			height: 5.4em;
@@ -19,7 +19,7 @@
 
 	.social {
 		position: absolute; top: 0; right: 0;
-		margin: 1.1em 1em;
+		margin: 1em 1.5em;
 
 		ul {
 			list-style: none;
@@ -33,14 +33,14 @@
 
 			a i {
 				color: $grey;
-				font-size: 1.3em;
+				font-size: 1.1em;
 			}
 		}
 	}
 
 	.navigation {
 		position: absolute; bottom: 0; right: 0;
-		margin: 0.6em 1em;
+		margin: 1em 1.5em;
 
 		#menu-button {
 			display: none;
