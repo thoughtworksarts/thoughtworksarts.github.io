@@ -11,7 +11,11 @@ $large_lineheight: 1.8em;
 $small_lineheight: 1.7em;
 $smallest_lineheight: 1.2em;
 
-$grey: #f1f1f1;
+$grey: #e8e8e8;
+$maroon: #ac1f58;
+$teal: #00b1c3;
+$green: #4ead49;
+$yellow: #f5ac1d;
 
 html, body {
 	width: 100%; height: 100%;
@@ -319,19 +323,19 @@ a#menu-button {
 }
 
 a.programs, a.programs>* {
-	color: #ac1f58;
+	color: $maroon;
 }
 
 a.residents, a.residents>* {
-	color: #00b1c3;
-}
-
-a.blog, a.blog>* {
-	color: #f5ac1d;
+	color: $teal;
 }
 
 a.projects, a.projects>* {
-	color: #4ead49;
+	color: $green;
+}
+
+a.blog, a.blog>* {
+	color: $yellow;
 }
 
 ul.progress, ol.progress {

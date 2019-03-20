@@ -28,12 +28,32 @@
 		}
 
 		li {
-			display: inline;
-			margin-left: 0.7em;
+			display: inline-block;
+			margin-left: 0.1em;
+			vertical-align: middle;
+			width: 40px; height: 40px;
 
-			a i {
-				color: $grey;
-				font-size: 1.1em;
+
+			a {
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				width: 40px; height: 40px;
+				text-decoration: none;
+
+				i {
+					color: $grey;
+					font-size: 1.1em;
+					transition: all 0.18s ease-out;
+				}
+			}
+
+			a:hover, a:active {
+				font-size: 1.3em;
+
+				i {
+					color: $yellow;
+				}
 			}
 		}
 	}
@@ -81,7 +101,7 @@
 					opacity: 0;
 				}
 
-				a:hover, a:active, a:focus {
+				a:hover, a:active {
 					top: 4px;
 					height: 88px;
 				}
