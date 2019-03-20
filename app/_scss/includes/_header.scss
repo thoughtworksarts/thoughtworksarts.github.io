@@ -40,7 +40,7 @@
 
 	.navigation {
 		position: absolute; bottom: 0; right: 0;
-		margin: 1em 1.5em;
+		margin: 1em 1.5em 0.4em 1.5em;
 
 		#menu-button {
 			display: none;
@@ -54,14 +54,21 @@
 			letter-spacing: inherit;
 
 			li {
-				margin-left: 2em;
 				display: inline;
 
 				a {
-					font-family: 'Bebas Neue', sans-serif;
-					font-size: 1.9em;
-					letter-spacing: 0.05em;
 					text-decoration: none;
+					position: relative; top: 0;
+					height: 84px;
+					display: inline-flex;
+					align-items: flex-end;
+					padding: 0 1em;
+
+					span {
+						font-family: 'Bebas Neue', sans-serif;
+						font-size: 1.9em;
+						letter-spacing: 0.05em;
+					}
 				}
 
 				a:before {
@@ -70,16 +77,22 @@
 					width: 17px;
 					height: 34px;
 					content: '';
-					position: relative; left: 18px; top: -31px;
+					position: relative; left: 18px; top: 20px;
 					opacity: 0;
 				}
 
-				a:hover:before, a:active:before, a:focus:before {
+				a:hover, a:active, a:focus {
+					top: 4px;
+					height: 88px;
+				}
+
+				a:hover:before, a:active:before {
 					opacity: 1;
+					top: -37px;
 				}
 
 				a, a:before, a:after {
-					transition: opacity 0.32s ease-out;
+					transition: all 0.18s ease-out;
 				}
 
 				a.programs:before {
@@ -90,12 +103,16 @@
 					background-image: url('/images/icons/diamond-teal.png');
 				}
 
+				a.projects:before {
+					background-image: url('/images/icons/diamond-green.png');
+				}
+
 				a.blog:before {
 					background-image: url('/images/icons/diamond-canary.png');
 				}
 
-				a.projects:before {
-					background-image: url('/images/icons/diamond-green.png');
+				a.blog {
+					padding-right: 0;
 				}
 			}
 		}

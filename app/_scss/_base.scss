@@ -318,19 +318,19 @@ a#menu-button {
 	}
 }
 
-a.programs {
+a.programs, a.programs>* {
 	color: #ac1f58;
 }
 
-a.residents {
+a.residents, a.residents>* {
 	color: #00b1c3;
 }
 
-a.blog {
+a.blog, a.blog>* {
 	color: #f5ac1d;
 }
 
-a.projects {
+a.projects, a.projects>* {
 	color: #4ead49;
 }
 
