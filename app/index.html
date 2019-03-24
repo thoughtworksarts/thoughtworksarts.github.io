@@ -2,40 +2,38 @@
 bodyid    : home
 bodyclass : home-page
 ---
-<section class="updates">
-	<section class="listing features">
-		<header>
-			<h1>Features</h1>
-		</header>
-		{% include home/feature-list.html %}
-	</section>
-	<section class="program-teaser">
-		<header>
-			<h1 style="color: red">Programs</h1>
-		</header>
-		<div class="progress">
-			<a href="/programs/" class="programs forwards">More</a>
-		</div>
-	</section>
-	<section class="listing newsletters">
-		<header>
-			<h1>Newsletters</h1>
-		</header>
-		{% include home/newsletter-list.html %}
-		<div class="progress continue-reading">
-			<a href="/newsletters" class="blog forwards">All newsletters</a>
-		</div>
-	</section>
-	<section class="listing events hidden">
-		<header>
-			<h1>Events</h1>
-		</header>
-		{% include home/event-list.html %}
-	</section>
-	<section class="listing social">
-		<header>
-			<h1>Social Media</h1>
-		</header>
-		{% include home/twitter-timeline.html %}
-	</section>
+<section class="features">
+	<header>
+		<h1>Features</h1>
+	</header>
+	{% include home/feature-list.html %}
+</section>
+<section class="program-teaser">
+	<header>
+		<h1>Programs</h1>
+	</header>
+	<div class="progress">
+		<a href="/programs/" class="programs forwards">More</a>
+	</div>
+</section>
+<section class="newsletters">
+	<header>
+		<h1>Newsletters</h1>
+	</header>
+	{% include home/newsletter-list.html %}
+	<div class="progress continue-reading">
+		<a href="/newsletters" class="blog forwards">All newsletters</a>
+	</div>
+</section>
+<section class="events hidden">
+	<header>
+		<h1>Events</h1>
+	</header>
+	{% include home/event-list.html %}
+</section>
+<section class="social">
+	<header>
+		<h1>Social Media</h1>
+	</header>
+	{% include home/twitter-timeline.html %}
 </section>
