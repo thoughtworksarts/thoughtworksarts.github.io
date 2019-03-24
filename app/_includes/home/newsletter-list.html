@@ -1,6 +1,6 @@
 {% assign newsletters = site.newsletters | reverse %}
 <ul>
-{% for newsletter in newsletters | limit: 2 %}
-	{% include home/newsletter-item.html %}
+{% for newsletter in newsletters | limit: 3 %}
+	{% include home/newsletter-item.html position=forloop.index %}
 {% endfor %}
 </ul>

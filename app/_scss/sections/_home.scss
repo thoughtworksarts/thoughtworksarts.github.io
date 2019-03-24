@@ -45,7 +45,7 @@
 
 				li {
 					padding: 0;
-					margin: 2em 0 0 0;
+					margin: 2em 1.5em 0 0;
 
 					* {
 						transition: all 0.25s ease-in;
@@ -69,7 +69,8 @@
 
 						img {
 							width: 100%;
-							height: auto;
+							height: 180px;
+							object-fit: cover;
 						}
 
 						figure {
@@ -89,6 +90,10 @@
 					a:hover p span, a:hover h2, a:active p span, a:active h2 {
 						color: #484848;
 					}
+				}
+
+				li:last-of-type {
+					margin-right: 0;
 				}
 			}
 		}
@@ -122,7 +127,6 @@
 				.feature-1 {
 					grid-column: 1;
 					grid-row: 1 / span 2;
-					margin-right: 1.5em;
 
 					a {
 						height: calc(100% - 5px);
@@ -130,7 +134,6 @@
 						grid-template-rows: auto 2.8em 4.8em;
 
 						img {
-							object-fit: cover;
 							height: 100%;
 						}
 					}
@@ -139,6 +142,7 @@
 				.feature-2 {
 					grid-column: 2;
 					grid-row: 1;
+					margin-right: 0;
 				}
 
 				.feature-3 {
@@ -193,6 +197,12 @@
 				figcaption {
 					display: none;
 				}
+			}
+		}
+
+		.newsletters {
+			ul {
+				grid-template-columns: 33% 33% 33%;
 			}
 		}
 	}
