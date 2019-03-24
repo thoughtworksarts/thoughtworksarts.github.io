@@ -1,74 +1,5 @@
 #home {
 	>main {
-		.features {
-			background-image: url('/images/full-bleed/pattern-1600.png');
-			background-repeat: no-repeat;
-			background-position: top;
-			box-shadow: inset 0 0 50px -15px rgba(0,0,0,0.05);
-			position: relative;
-		}
-
-		.features::after {
-			content: '';
-			background-image: url('/images/full-bleed/pattern-1600.png');
-			background-repeat: no-repeat;
-			background-position: bottom;
-			height: 510px;
-			width: 100%;
-			display: block;
-			position: absolute;
-			bottom: 0;
-			z-index: -1;
-			transform: rotate(180deg);
-		}
-
-		.mission {
-			p {
-				font-size: 1.9em;
-				text-align: center;
-				max-width: 700px;
-				margin: 2rem auto 0 auto;
-				font-style: italic;
-			}
-		}
-
-		.programs {
-			padding-top: 2.5em;
-
-			>.content {
-				display: grid;
-				grid-template-columns: 50% 50%;
-			}
-
-			.explanation {
-				grid-column: 1;
-				grid-row: 1;
-				padding: 0 2em 0 0;
-
-				a {
-					font-weight: bold;
-				}
-
-				a::after {
-					content: ' >>';
-				}
-			}
-
-			figure {
-				grid-column: 2;
-				grid-row: 1;
-				padding: 1em 2em;
-
-				img {
-					width: 500px;
-				}
-
-				figcaption {
-					display: none;
-				}
-			}
-		}
-
 		>section {
 			margin: 0;
 			width: 100%;
@@ -159,6 +90,34 @@
 						color: #484848;
 					}
 				}
+			}
+		}
+
+		>section:not(.mission):not(.programs) {
+			background-image: url('/images/full-bleed/pattern-1600.png');
+			background-repeat: no-repeat;
+			background-position: top;
+			box-shadow: inset 0 0 50px -15px rgba(0,0,0,0.05);
+			position: relative;
+		}
+
+		>section:not(.mission):not(.programs)::after {
+			content: '';
+			background-image: url('/images/full-bleed/pattern-1600.png');
+			background-repeat: no-repeat;
+			background-position: bottom;
+			height: 510px;
+			width: 100%;
+			display: block;
+			position: absolute;
+			bottom: 0;
+			z-index: -1;
+			transform: rotate(180deg);
+		}
+
+		.features {
+			ul {
+				grid-template-columns: 67% 33%;
 
 				.feature-1 {
 					grid-column: 1;
@@ -186,6 +145,53 @@
 					grid-column: 2;
 					grid-row: 2;
 					margin-top: 1em;
+				}
+			}
+		}
+
+		.mission {
+			p {
+				font-size: 1.9em;
+				text-align: center;
+				max-width: 700px;
+				margin: 2rem auto 0 auto;
+				font-style: italic;
+			}
+		}
+
+		.programs {
+			padding-top: 2.5em;
+
+			>.content {
+				display: grid;
+				grid-template-columns: 50% 50%;
+			}
+
+			.explanation {
+				grid-column: 1;
+				grid-row: 1;
+				padding: 0 2em 0 0;
+
+				a {
+					font-weight: bold;
+				}
+
+				a::after {
+					content: ' >>';
+				}
+			}
+
+			figure {
+				grid-column: 2;
+				grid-row: 1;
+				padding: 1em 2em;
+
+				img {
+					width: 500px;
+				}
+
+				figcaption {
+					display: none;
 				}
 			}
 		}
