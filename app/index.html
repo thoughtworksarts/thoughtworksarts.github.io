@@ -6,7 +6,9 @@ bodyclass : home-page
 	<header>
 		<h1>Features</h1>
 	</header>
-	{% include home/feature-list.html %}
+	<div>
+		{% include home/feature-list.html %}
+	</div>
 </section>
 <section class="program-teaser">
 	<header>
@@ -20,20 +22,26 @@ bodyclass : home-page
 	<header>
 		<h1>Newsletters</h1>
 	</header>
-	{% include home/newsletter-list.html %}
-	<div class="progress continue-reading">
-		<a href="/newsletters" class="blog forwards">All newsletters</a>
+	<div>
+		{% include home/newsletter-list.html %}
+		<div class="progress continue-reading">
+			<a href="/newsletters" class="blog forwards">All newsletters</a>
+		</div>
 	</div>
 </section>
 <section class="events hidden">
 	<header>
 		<h1>Events</h1>
 	</header>
-	{% include home/event-list.html %}
+	<div>
+		{% include home/event-list.html %}
+	</div>
 </section>
 <section class="social">
 	<header>
 		<h1>Social Media</h1>
 	</header>
-	{% include home/twitter-timeline.html %}
+	<div>
+		{% include home/twitter-timeline.html %}
+	</div>
 </section>

@@ -6,9 +6,13 @@
 
 		>section {
 			margin: 0;
-			width: 1100px;
-			margin: 0 auto;
+			width: 100%;
 			border-top: 5px solid #f1f1f1;
+
+			>div {
+				width: 1100px;
+				margin: 0 auto;
+			}
 
 			h1, h2, p {
 				cursor: default;
