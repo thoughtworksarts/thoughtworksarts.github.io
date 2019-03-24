@@ -6,7 +6,7 @@ bodyclass : home-page
 	<header>
 		<h1>Features</h1>
 	</header>
-	<div>
+	<div class="content">
 		{% include home/feature-list.html %}
 	</div>
 </section>
@@ -14,15 +14,30 @@ bodyclass : home-page
 	<header>
 		<h1>Mission</h1>
 	</header>
-	<div>
+	<div class="content">
 		<p>Incubating collaborations between artists and technologists. Researching impacts of emerging technology on society.</p>
+	</div>
+</section>
+<section class="programs">
+	<header>
+		<h1>Programs</h1>
+	</header>
+	<div class="content">
+		<section class="explanation">
+			<h2>What We Do</h2>
+			<p>ThoughtWorks Arts incubates artists investigating issues intersecting emerging technology with industry, culture and society. We run programs designed to connect technology professionals with an active community of researchers, creative professionals and our growing network of partners.</p>
+			<p><a href="/programs/">Learn more about our programs</a></p>
+		</section>
+		{% include image.html file='/images/programs.png'
+				   caption='Learn how ThoughtWorks Arts programs work'
+				   link='/programs/' %}
 	</div>
 </section>
 <section class="newsletters">
 	<header>
 		<h1>Newsletters</h1>
 	</header>
-	<div>
+	<div class="content">
 		{% include home/newsletter-list.html %}
 		<div class="progress continue-reading">
 			<a href="/newsletters" class="blog forwards">All newsletters</a>
@@ -33,7 +48,7 @@ bodyclass : home-page
 	<header>
 		<h1>Events</h1>
 	</header>
-	<div>
+	<div class="content">
 		{% include home/event-list.html %}
 	</div>
 </section>
@@ -41,7 +56,7 @@ bodyclass : home-page
 	<header>
 		<h1>Social Media</h1>
 	</header>
-	<div>
+	<div class="content">
 		{% include home/twitter-timeline.html %}
 	</div>
 </section>
