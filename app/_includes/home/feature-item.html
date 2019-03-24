@@ -4,6 +4,6 @@
 			<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title }}" />
 		</figure>
 		<h2>{{ feature.title }}</h2>
-		<p><span>{{ feature.details }}</span></p>
+		{% if feature.feature-position == 1 then %}<p><span>{{ feature.details }}</span></p>{% endif %}
 	</a>
 </li>
