@@ -14,7 +14,7 @@ $(document).ready(function() {
 			dataType: "jsonp",
 			data: { format: "json" },
 			success: function(meetupJson) {
-				var eventsElement = $('.listing.events');
+				var eventsElement = $('#home .events');
 				bindEventsHtml(meetupJson);
 				eventsElement.removeClass('hidden');
 			}
@@ -22,7 +22,7 @@ $(document).ready(function() {
 	}
 
 	function bindEventsHtml(meetupJson) {
-		var listElement = $('.listing.events ul');
+		var listElement = $('#home .events ul');
 		var listItemTemplateHtml = listElement.html();
 		listElement.html('');
 
