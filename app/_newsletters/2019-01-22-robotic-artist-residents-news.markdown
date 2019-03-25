@@ -1,6 +1,5 @@
 ---
 title          : "Robotic Artist Residents in the News"
-listing-teaser : Artist Catie Cuan was recently featured by PBS and Engadget about her work with ThoughtWorks Arts.
 ---
 Robotics resident Catie Cuan was recently featured in a video feature for [Engadget](https://www.engadget.com/2018/10/12/robot-choreography-catie-cuan/), highlighting the importance of machine movement.
 
