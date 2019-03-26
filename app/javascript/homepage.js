@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 	function populateEvents() {
 		$.ajax({
-			url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,description,link,venue&page=2",
+			url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,description,link,venue&page=3",
 			jsonp: "callback",
 			dataType: "jsonp",
 			data: { format: "json" },

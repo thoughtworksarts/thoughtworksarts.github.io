@@ -62,6 +62,12 @@
 							padding-top: 0.1em;
 						}
 
+						.info {
+							padding-bottom: 0.3rem;
+							font-weight: bold;
+							font-size: 0.9rem;
+						}
+
 						h2, span {
 							display: block;
 							max-width: 630px;
@@ -208,7 +214,7 @@
 			}
 		}
 
-		.newsletters {
+		.news {
 			ul {
 				grid-template-columns: 33.3333% 33.3333% 33.3333%;
 			}

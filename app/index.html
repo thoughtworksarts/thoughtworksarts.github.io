@@ -33,30 +33,29 @@ bodyclass : home-page
 				   link='/programs/' %}
 	</div>
 </section>
-<section class="newsletters">
-	<header>
-		<h1>Newsletters</h1>
-	</header>
-	<div class="content">
+<section class="news">
+	<section class="content">
+		<header>
+			<h1>Newsletters</h1>
+		</header>
 		{% include home/newsletter-list.html %}
 		<div class="progress continue-reading">
-			<a href="/newsletters" class="blog forwards">All newsletters</a>
+			<a href="/newsletters" class="blog forwards">More newsletters</a>
 		</div>
-	</div>
-</section>
-<section class="events hidden">
-	<header>
-		<h1>Events</h1>
-	</header>
-	<div class="content">
+	</section>
+	<section class="events content hidden">
 		{% include home/event-list.html %}
-	</div>
-</section>
-<section class="social">
-	<header>
-		<h1>Social Media</h1>
-	</header>
-	<div class="content">
+		<div class="progress continue-reading">
+			<a href="/newsletters" class="blog forwards">More events</a>
+		</div>
+	</section>
+	<section class="content">
+		<header>
+			<h1>Social Media</h1>
+		</header>
 		{% include home/twitter-timeline.html %}
-	</div>
+		<div class="progress continue-reading">
+			<a href="/newsletters" class="blog forwards">More social media</a>
+		</div>
+	</section>
 </section>
