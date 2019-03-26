@@ -34,7 +34,7 @@ bodyclass : home-page
 	</div>
 </section>
 <section class="news">
-	<section class="content">
+	<section class="newsletters content">
 		<header>
 			<h1>Newsletters</h1>
 		</header>
@@ -44,6 +44,9 @@ bodyclass : home-page
 		</div>
 	</section>
 	<section class="events content hidden">
+		<header>
+			<h1>Events</h1>
+		</header>
 		{% include home/event-list.html %}
 		<div class="progress continue-reading">
 			<a href="/newsletters" class="blog forwards">More events</a>
@@ -51,11 +54,11 @@ bodyclass : home-page
 	</section>
 	<section class="content">
 		<header>
-			<h1>Social Media</h1>
+			<h1>Social</h1>
 		</header>
 		{% include home/twitter-timeline.html %}
 		<div class="progress continue-reading">
-			<a href="/newsletters" class="blog forwards">More social media</a>
+			<a href="/newsletters" class="blog forwards">More social</a>
 		</div>
 	</section>
 </section>
