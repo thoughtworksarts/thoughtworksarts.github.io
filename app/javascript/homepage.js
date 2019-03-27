@@ -29,8 +29,7 @@ $(document).ready(function() {
 		meetupJson.data.forEach(function(meetup) {
 			var newListItem = listItemTemplateHtml;
 			newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
-			newListItem = newListItem.replace(/Event Date/g,        safeRead(meetup.local_date));
-			newListItem = newListItem.replace(/Event Time/g,        safeRead(meetup.local_time));
+			newListItem = newListItem.replace(/Event Date/g,        safeRead(formatDate(meetup.local_date, meetup.local_time)));
 			newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
 			newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
 			newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
@@ -50,6 +49,11 @@ $(document).ready(function() {
 		} else {
 			return str;
 		}
+	}
+
+	function formatDate(dateStr, timeStr) {
+		var date = new Date(dateStr + 'T' + timeStr);
+		return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' });
 	}
 
 	function generateTeaser(html, maxLength) {
