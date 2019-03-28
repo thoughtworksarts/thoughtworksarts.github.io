@@ -37,4 +37,4 @@ Applicants must submit a proposal using the form below before the application de
 
 <a href="https://forms.gle/T5ignb9zqudqFKKP8" class="attention">Apply now</a>
 
-For any questions, please reach out to Paige King at this email address: [mailto:info@thoughtworksarts.io](info@thoughtworksarts.io).
+For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io).
