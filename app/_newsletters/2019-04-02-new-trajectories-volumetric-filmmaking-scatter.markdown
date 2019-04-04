@@ -3,8 +3,7 @@ title : "New Trajectories in Volumetric Filmmaking with Scatter"
 ---
 ThoughtWorks Arts in collaboration with groundbreaking film studio [Scatter](http://scatter.nyc) teamed up on March 16-17 to run a free community workshop for 24 participants. Together, they taught artists, technologists, designers and filmmakers the newest version of the [Depthkit](https://www.depthkit.tv/) technology.
 
-{% include image.html
-   file='jillian-morrow.jpg'
+{% include image.html file='jillian-morrow.jpg'
    caption='Jillian Morrow of Scatter providing an introduction to workshop participants' %}
 
 Scatter, a Brooklyn-based creative company, produces immersive experiences, provides tools and training, and empowers creators using volumetric filmmaking techniques.<!--excerpt-ends-->Workshop attendees came from Toronto, Philadelphia and the greater New York metropolitan area to disseminate what they learned back to their respective communities. Weekly Support will be ongoing for learning and experimenting with Depthkit at [Hardware Hack Lab](https://hardwarehacklab.io/) held in conjunction with the Volumetric Society.
@@ -13,8 +12,7 @@ Scatter, a Brooklyn-based creative company, produces immersive experiences, prov
 
 ThoughtWorks Arts, in partnership with Scatter, has published an [Open Call for a funded artist residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) focusing on depth technology in New York City over the summer. Applications are open until April 25th.
 
-{% include image.html
-   file='volumetric-filmmaking-residency.jpg'
+{% include image.html file='volumetric-filmmaking-residency.jpg'
    alt='Volumetric Filmmaking Residency'
    link='https:\//thoughtworksarts.io/open-call/2019-volumetric-residency/' %}
 
@@ -31,8 +29,7 @@ To apply for this residency please [read the Open Call and use the form provided
 
 ## Ellen Pearlman, ThoughtWorks Arts Director, Named EU Vertigo STARTS Laureate
 
-{% include image.html
-   file='starts-residencies.jpg'
+{% include image.html file='starts-residencies.jpg'
    caption='Brain computer interface performers on STARTS residencies'
    link='https:\//vertigo.starts.eu/calls/starts-residencies-call-3/residencies/aibo/detail/' %}
 
@@ -44,8 +41,7 @@ Ellen Pearlman has been [named a 2019 Vertigo STARTS Laureate](https://vertigo.s
 
 **hannes bend** launched [breathing.ai](http://breathing.ai/), which was presented as a first prototype at [TransTech Conference](https://youtu.be/M87_npSaJkI), and will demo at [Collision Conference](https://collisionconf.com/) where the project was selected from a competitive pool. The breathing.ai project was also mentioned in a recent [Forbes article](https://www.forbes.com/sites/gregoryferenstein/2018/12/29/the-assemblage-opens-a-co-working-community-for-social-entrepreneurs/?). hannes is part of a team which recently created a [healthcare AR project at MIT](https://devpost.com/software/heart-304i5h).
 
-{% include image.html
-   file='andrew-mcwilliams-heather-dewey-hagborg.jpg'
+{% include image.html file='andrew-mcwilliams-heather-dewey-hagborg.jpg'
    caption='ThoughtWorks Arts Director Andy McWilliams with past resident Heather Dewey-Hagborg at the opening of Refiguring The Future in New York City' %}
 
 **Heather Dewey-Hagborg** co-curated _[Refiguring The Future](https://refreshart.tech/#why)_, a politically engaged exhibition focusing on inclusion, and how the intersection of art, science and technology is an explicitly key force in radical change. This was [REFRESH](https://refreshart.tech/#about)'s inaugural exhibition, which received a Catherine T. MacArthur Foundation grant.
