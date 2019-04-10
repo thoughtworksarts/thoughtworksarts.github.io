@@ -14,7 +14,7 @@ team :
   - name : Kira Davies
     role : Performer & Choreographer
   - name : David Yarnall
-    role : Technical Developer
+    role : Technical Assistant
   - name : Ketak Dhiman
     role : Cinematographer
   - name : Josh Tuthill
