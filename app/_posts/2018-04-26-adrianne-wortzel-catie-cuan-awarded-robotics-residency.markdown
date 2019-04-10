@@ -1,5 +1,6 @@
 ---
-title     : "Adrianne Wortzel and Catie Cuan Awarded Robotics Residency"
+title  : "Adrianne Wortzel and Catie Cuan Awarded Robotics Residency"
+tags   : [sentient-thespian]
 ---
 We are pleased to announce that the [Mechanical & Movement: Robotics](https://thoughtworksarts.io/open-call/2018-mechanical-movement/) residency has been jointly awarded to two artists, Adrianne Wortzel and Catie Cuan.
 
