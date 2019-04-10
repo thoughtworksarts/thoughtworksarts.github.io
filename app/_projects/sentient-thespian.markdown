@@ -4,7 +4,7 @@ season      : Fall 2018
 
 description : The Sentient Thespian is a film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution.
 
-image       : /images/projects/sentient-thespian/the-sentient-thespian.jpg
+image       : /images/projects/sentient-thespian/og.jpg
 
 artist      : Adrianne Wortzel
 
