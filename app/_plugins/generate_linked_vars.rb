@@ -24,17 +24,14 @@ module GenerateLinkedVars
     #Functions
     def build_project_ids
       @projects.each do |project|
-        project.data['projectid'] = project.data['title'].dup
-        project.data['projectid'].downcase!
-        project.data['projectid'].gsub!(' ','-')
+        project.data['projectid'] = File.basename(project.path, '.*')
       end
     end
 
     def build_person_photos
       @people.each do |person|
-        person.data['photo'] = "#{person.data['name']}.png"
-        person.data['photo'].downcase!
-        person.data['photo'].gsub!(' ','-')
+        basename = File.basename(person.path, '.*')
+        person.data['photo'] = "#{basename}.png"
       end
     end
 
