@@ -53,4 +53,4 @@ psychotherapeutic tools.”
 
 “MekaMon, as Puck, attempts to create a transformative experience for the human and robots, only to realize that the synthetic emotion does not in the least resemble the parallel complex emotions of sentient beings like himself. It is a fascinating concept to explore and one that leapt directly from the advanced articulation of the robot itself.”
 
-*The Sentiant Thespian* premieres at Pioneer Works on Sunday, April 14 2019.
+*The Sentiant Thespian* previews at Pioneer Works on Sunday, April 14 2019.
