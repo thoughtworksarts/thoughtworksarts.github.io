@@ -5,6 +5,8 @@ bodyclass  : no-header-image
 description: Open Call for a Volumetric Filmmaking residency, hosted by ThoughtWorks Arts and Scatter in New York City
 image      : /images/posts-special/open-call/2019-volumetric-residency/og_volumetric.jpg
 ---
+<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. Applicants will be contacted by email by May 8, 2019.</p>
+
 Residency Dates: June 10 - September 27, 2019
 
 ThoughtWorks, a global software consultancy with an arts residency based in New York City is partnering with [Scatter](http://scatter.nyc/) and their groundbreaking volumetric video software [Depthkit](https://www.depthkit.tv) to offer a funded artist residency focusing on volumetric filmmaking technology.
@@ -34,7 +36,5 @@ The residency dates run from June 10 to September 27, 2019, and artists should b
 This sixteen week residency comes with a stipend of $11,000. We are able to provide a letter of intent to any external funding agencies that might facilitate with the residency.
 
 Applicants must submit a proposal using the form below before the application deadline of midnight, April 25 2019, Eastern Daylight Time. Your proposal should tell us who you are, what your project idea is, and how you plan to implement it. It should also include the skills and equipment you have, and the skills and equipment you will require to develop your project. We will contact applicants with final selection information by May 8, 2019.
-
-<a href="https://forms.gle/T5ignb9zqudqFKKP8" class="attention">Apply now</a>
 
 For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io).
