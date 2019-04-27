@@ -9,9 +9,9 @@ author:
   name: Andrew McWilliams
   email: andy@jahya.net
 
-display-banner: false
-banner-url: /open-call/2019-volumetric-residency/
-banner-text: "Open Call: Volumetric Residency"
+display-banner: true
+banner-url: /open-call/2019-democratization-ai-blockchain/
+banner-text: "Open Call - San Francisco"
 
 # Grunt handles images and assets.
 exclude: ['images', 'stylesheets', 'javascript', 'fonts',
