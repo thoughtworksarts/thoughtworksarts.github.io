@@ -20,11 +20,16 @@ ThoughtWorks will provide a work space, facilitation in downtown San Francisco, 
 
 The residency spans sixteen weeks, with time for a break over the holidays, and comes with a stipend of $11,000. We can provide assistance, if necessary, in supplying a letter of intent to any external funding agencies that might facilitate the residency. Individuals who need to apply for visas should be particularly sensitive to recent issues surrounding work visas and consult with their own country's authorities for assistance in crafting their applications to visit San Francisco.
 
-Applicants must submit a proposal using the application form below by the application deadline of May 23, 2019. Your proposal should tell us who you are, what your project idea is, and how you plan to implement it. It should also include the skills you have, and the skills and equipment you require for the project. Where there are skills required which you do not have or cannot supply, please let us know. We will contact applicants with final selection information by June 14, 2019.
+Applicants must submit a proposal using the application form below by the application deadline of May 23, 2019. Your proposal should tell us who you are, what your project idea is, and how you plan to implement it. It should also include the skills you have, and the skills and equipment you require for the project. Where there are skills required which you do not have or cannot supply, please let us know.
 
 <a href="https://forms.gle/QTuBdqU3uLUnfjf59" class="attention">Apply now</a>
 
-For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io).
+We will contact applicants with final selection information by June 14, 2019.
+
+## Additional Resources
+
+- The program directors have published this explanatory article: [Why We Are Investigating the Democratization of Artificial Intelligence via Blockchain](/blog/why-democratization-ai-blockchain/)
+- For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io)
 
 <a href="https://snark.art">
 	<img src="/images/partners/snark-art.png" alt="Snark Art" class="small" />
