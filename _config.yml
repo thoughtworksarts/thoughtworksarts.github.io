@@ -11,7 +11,7 @@ author:
 
 display-banner: true
 banner-url: /open-call/2019-democratization-ai-blockchain/
-banner-text: "Open Call - San Francisco"
+banner-text: "Open Call: Blockchain & AI"
 
 # Grunt handles images and assets.
 exclude: ['images', 'stylesheets', 'javascript', 'fonts',
