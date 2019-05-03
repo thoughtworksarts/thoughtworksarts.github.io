@@ -4,7 +4,8 @@ author : Directors
 ---
 ThoughtWorks Arts has [published an open call](/open-call/2019-democratization-ai-blockchain/) for artists to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
 
-{% include image.html file='crowd.jpg' %}
+{% include image.html file='closing.jpg'
+   caption='Image by [Radek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)' %}
 
 A key theme in the open call is for an artist to explore how this control of AI could impact society, and the potential impacts of alternative and open approaches.
 
