@@ -3,7 +3,7 @@ layout     : post-special
 title	   : "Open Call: The Democratization of Artificial Intelligence via Blockchain"
 bodyclass  : no-header-image
 description: Open Call for an AI & Blockchain Residency, hosted by ThoughtWorks Arts and Snark.art in San Francisco
-image      :
+image      : /images/posts-special/open-call/2019-democratization-ai-blockchain/closing.jpg
 ---
 
 Residency Dates: September 30 2019 — January 31, 2020
