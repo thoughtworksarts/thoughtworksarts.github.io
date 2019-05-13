@@ -1,11 +1,11 @@
 {% if page.bodyid == 'home' %}
-  {% assign title = 'ThoughtWorks Arts Residency' %}
+  {% assign title = 'ThoughtWorks Arts' %}
 {% else %}
   {% capture title %}{{ page.title }}{% endcapture %}
   {% if title == '' %}
-    {% assign title = page.name | append: ' | ThoughtWorks Arts Residency' %}
+    {% assign title = page.name | append: ' | ThoughtWorks Arts' %}
   {% else %}
-    {% assign title = page.title | append: ' | ThoughtWorks Arts Residency' %}
+    {% assign title = page.title | append: ' | ThoughtWorks Arts' %}
   {% endif %}
 {% endif %}
 
@@ -18,7 +18,7 @@
 
 {% capture description %}{{ page.description }}{% endcapture %}
 {% if description == '' %}
-  {% assign description = 'The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.' %}
+  {% assign description = 'ThoughtWorks Arts is a unique creative research laboratory, incubating artist and technologist collaborations, exploring impacts of emerging technologies on industry, culture and society.' %}
 {% else %}
   {% assign description = page.description %}
 {% endif %}
@@ -73,7 +73,7 @@
 <body id="{{ page.bodyid }}" class="{{ bodyclass }}">
   <header role="banner" class="flex-col{% if page.bodyid != 'home' %} splash{% endif %}">
     <section id="logonav">
-      <h1>ThoughtWorks Arts Residency</h1>
+      <h1>ThoughtWorks Arts</h1>
       <a href="/" class="logo">
         <img src="/images/thoughtworks-arts.png" alt="ThoughtWorks Arts" />
       </a>

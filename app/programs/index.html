@@ -23,7 +23,7 @@ description   : ThoughtWorks Arts programs include Art-A-Hack, Hardware Hack Lab
 	<header>
 		<h1>The residency team</h1>
 	</header>
-	{% assign directors = site.people | where: "participation","Residency Director" | sort: 'lastname' %}
+	{% assign directors = site.people | where: "participation","Director" | sort: 'lastname' %}
 	{% for director in directors %}
 		<section class="listing-item flex-row">
 			<div class="image">
