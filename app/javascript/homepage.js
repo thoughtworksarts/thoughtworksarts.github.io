@@ -17,8 +17,16 @@ $(document).ready(function() {
 				var eventsElement = $('#home .events');
 				bindEventsHtml(meetupJson);
 				eventsElement.removeClass('hidden');
+			},
+			error: function(errorJson) {
+				bindErrorHtml(errorJson);
 			}
 		});
+	}
+
+	function bindErrorHtml(errorJson) {
+		var listElement = $('#home .events ul');
+		listElement.replaceWith('<!--' + JSON.stringify(errorJson) + '-->');
 	}
 
 	function bindEventsHtml(meetupJson) {
