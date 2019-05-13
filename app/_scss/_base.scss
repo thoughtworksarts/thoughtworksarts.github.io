@@ -107,6 +107,15 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
+a.attention {
+	font-weight: bold;
+	font-size: 1.5em;
+	font-style: italic;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
 p, ul, ol, .progress, blockquote {
 	font-size: $even_larger_font;
 	letter-spacing: $large_spacing;
@@ -116,6 +125,10 @@ p, ul, ol, .progress, blockquote {
 
 ul, ol {
 	margin-left: 1.1em;
+}
+
+ul.closer, ol.closer {
+	padding-top: 0;
 }
 
 figcaption {
