@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 	function formatDate(dateStr, timeStr) {
 		var date = new Date(dateStr + 'T' + timeStr);
-		return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' });
+		return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' });
 	}
 
 	function generateTeaser(html, maxLength) {
