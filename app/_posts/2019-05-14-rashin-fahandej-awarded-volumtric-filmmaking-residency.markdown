@@ -13,7 +13,7 @@ _A Father's Lullaby_ is a multi-platform, community engaged interactive work tha
 
 {% include vimeo.html id='260516353' caption='[_A Father\'s Lullaby_ - a sample video](https://vimeo.com/260516353)' %}
 
-Rashin Fahandej will explore volumetric filmmaking using Depthkit, expanding her practice, and enhancing possibilities for visual poetry. She will be in residence at ThoughtWorks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
+Rashin Fahandej will explore volumetric filmmaking using [Depthkit](https://www.depthkit.tv?utm_medium=web&utm_source=tw_blog&utm_campaign=thoughtworks&utm_content=winner), expanding her practice, and enhancing possibilities for visual poetry. She will be in residence at ThoughtWorks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
 
 Scatter is an Emmy Award-winning creative company defining the emerging discipline of volumetric filmmaking. Scatter creates original volumetric film productions and AR/VR creativity tools. Scatter’s first product, Depthkit, is the most widely used toolkit for accessible volumetric video capture.
 
