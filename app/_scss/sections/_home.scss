@@ -108,10 +108,6 @@
 			}
 		}
 
-		>section:not(.features) h2 {
-			height: 2.2em;
-		}
-
 		>section:not(.mission):not(.programs) {
 			background-image: url('/images/full-bleed/pattern-1600.png');
 			background-repeat: no-repeat;
@@ -228,6 +224,25 @@
 
 				li {
 					margin-top: 0.6em;
+
+					a {
+						height: 100%;
+						max-height: 395px;
+						overflow: hidden;
+						box-sizing: border-box;
+						position: relative;
+					}
+
+					a:before {
+						content: '';
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						background: linear-gradient(transparent, white);
+						background-size: 100% 52px;
+						background-repeat: no-repeat;
+						background-position: bottom;
+					}
 				}
 			}
 

@@ -70,7 +70,7 @@ $(document).ready(function() {
 		newListItem = newListItem.replace(/Event Date/g,        safeRead(formatDate(meetup.local_date, meetup.local_time)));
 		newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
 		newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
-		newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
+		newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 300)));
 		newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
 
 		if(newListItem.indexOf(invalidValueStr) < 0) {
