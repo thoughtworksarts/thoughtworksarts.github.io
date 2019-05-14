@@ -27,9 +27,22 @@ $(document).ready(function() {
 		});
 	}
 
-	function populateListItemTemplateHtml(){
+	function populateListItemTemplateHtml() {
 		listElement = $('#home .events ul');
 		listItemTemplateHtml = listElement.html();
+	}
+
+	function isAcceptableMeetup(meetup) {
+		var name = safeRead(meetup.name);
+		var eventDate = toDateObject(meetup.local_date, meetup.local_time);
+		var today = new Date();
+		var oneWeekFwd = new Date();
+		oneWeekFwd.setDate(oneWeekFwd.getDate() + 7);
+
+		var isAnythingOtherThanHackLab = name != 'Hardware Hack Lab';
+		var isNextUpcomingHackLab = name == 'Hardware Hack Lab' && eventDate > today && eventDate < oneWeekFwd;
+
+		return isAnythingOtherThanHackLab || isNextUpcomingHackLab;
 	}
 
 	function bindErrorHtml(errorJson) {
@@ -39,16 +52,18 @@ $(document).ready(function() {
 	function bindEventsHtml(meetupJson) {
 		listElement.html('');
 
-		for(let meetup of meetupJson.data){
-			bindEventHtml(meetup);
+		for(let meetup of meetupJson.data) {
+			if(isAcceptableMeetup(meetup)) {
+				bindEventHtml(meetup);
+			}
 
-			if(listElement.children().length == 3){
+			if(listElement.children().length == 3) {
 				break;
 			}
 		}
 	}
 
-	function bindEventHtml(meetup){
+	function bindEventHtml(meetup) {
 		var newListItem = listItemTemplateHtml;
 
 		newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
@@ -58,7 +73,7 @@ $(document).ready(function() {
 		newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
 		newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
 
-		if(newListItem.indexOf(invalidValueStr) < 0){
+		if(newListItem.indexOf(invalidValueStr) < 0) {
 			listElement.append(newListItem);
 		}
 	}
@@ -72,8 +87,12 @@ $(document).ready(function() {
 	}
 
 	function formatDate(dateStr, timeStr) {
-		var date = new Date(dateStr + 'T' + timeStr);
+		var date = toDateObject(dateStr, timeStr);
 		return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' });
+	}
+
+	function toDateObject(dateStr, timeStr) {
+		return new Date(dateStr + 'T' + timeStr);
 	}
 
 	function generateTeaser(html, maxLength) {
