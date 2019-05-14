@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 	function populateEvents() {
 		$.ajax({
-			url: "https://api.meetup.com/volumetric/events?only=name,local_date,local_time,description,link,venue&page=3",
+			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&only=name,local_date,local_time,description,link,venue",
 			jsonp: "callback",
 			dataType: "jsonp",
 			data: { format: "json" },
@@ -34,7 +34,7 @@ $(document).ready(function() {
 		var listItemTemplateHtml = listElement.html();
 		listElement.html('');
 
-		meetupJson.data.forEach(function(meetup) {
+		for(let meetup of meetupJson.data){
 			var newListItem = listItemTemplateHtml;
 			newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
 			newListItem = newListItem.replace(/Event Date/g,        safeRead(formatDate(meetup.local_date, meetup.local_time)));
@@ -43,12 +43,14 @@ $(document).ready(function() {
 			newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
 			newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
 
-			if(newListItem.indexOf(invalidValueStr) >= 0) {
-				return;
+			if(newListItem.indexOf(invalidValueStr) < 0) {
+				listElement.append(newListItem);
 			}
 
-			listElement.append(newListItem);
-		});
+			if(listElement.children().length == 3){
+				break;
+			}
+		}
 	}
 
 	function safeRead(str){
