@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	var invalidValueStr = 'INVALID_VALUE';
+	var listElement;
+	var listItemTemplateHtml;
 
 	function init() {
 		if(window.location.pathname == '/') {
@@ -8,6 +10,7 @@ $(document).ready(function() {
 	}
 
 	function populateEvents() {
+		populateListItemTemplateHtml();
 		$.ajax({
 			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&only=name,local_date,local_time,description,link,venue",
 			jsonp: "callback",
@@ -24,32 +27,39 @@ $(document).ready(function() {
 		});
 	}
 
+	function populateListItemTemplateHtml(){
+		listElement = $('#home .events ul');
+		listItemTemplateHtml = listElement.html();
+	}
+
 	function bindErrorHtml(errorJson) {
-		var listElement = $('#home .events ul');
 		listElement.replaceWith('<!--' + JSON.stringify(errorJson) + '-->');
 	}
 
 	function bindEventsHtml(meetupJson) {
-		var listElement = $('#home .events ul');
-		var listItemTemplateHtml = listElement.html();
 		listElement.html('');
 
 		for(let meetup of meetupJson.data){
-			var newListItem = listItemTemplateHtml;
-			newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
-			newListItem = newListItem.replace(/Event Date/g,        safeRead(formatDate(meetup.local_date, meetup.local_time)));
-			newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
-			newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
-			newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
-			newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
-
-			if(newListItem.indexOf(invalidValueStr) < 0) {
-				listElement.append(newListItem);
-			}
+			bindEventHtml(meetup);
 
 			if(listElement.children().length == 3){
 				break;
 			}
+		}
+	}
+
+	function bindEventHtml(meetup){
+		var newListItem = listItemTemplateHtml;
+
+		newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
+		newListItem = newListItem.replace(/Event Date/g,        safeRead(formatDate(meetup.local_date, meetup.local_time)));
+		newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
+		newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
+		newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 80)));
+		newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
+
+		if(newListItem.indexOf(invalidValueStr) < 0){
+			listElement.append(newListItem);
 		}
 	}
 
