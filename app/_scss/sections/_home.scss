@@ -110,6 +110,18 @@
 			.crt-load-more {
 				display: none !important;
 			}
+
+			.crt-feed .galcolumn {
+				column-count: 3;
+				column-gap: 1em;
+				column-width: 33%;
+				width: 100%;
+
+				.crt-post{
+					break-inside: avoid;
+					margin: 0 0 1em 0;
+				}
+			}
 		}
 
 		>section:not(.mission):not(.programs) {
