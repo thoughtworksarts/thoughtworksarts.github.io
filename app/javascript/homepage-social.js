@@ -15,8 +15,16 @@ $(document).ready(function() {
 			filter: {
 				showNetworks: false,
 				showSources: false
+			},
+			waterfall: {
+				gridWidth: 10000,
+				animate: false
 			}
 		});
+
+		widget.on(Curator.Events.POSTS_LOADED, function() {
+			$('#home .social').removeClass('hidden');
+		})
 	}
 
 	init();
