@@ -22,9 +22,23 @@ $(document).ready(function() {
 			}
 		});
 
-		widget.on(Curator.Events.POSTS_LOADED, function() {
+		widget.on(Curator.Events.POSTS_RENDERED, function() {
+			removePostsWithoutImages();
 			$('#home .social').removeClass('hidden');
 		})
+	}
+
+	function removePostsWithoutImages() {
+		$('#curator-feed .crt-post').each(function() {
+			var post = $(this);
+			post.find('.crt-image-c>img').each(function() {
+				var image = $(this);
+				if(image.attr('src') == '') {
+					post.remove();
+				}
+			});
+		});
+
 	}
 
 	init();
