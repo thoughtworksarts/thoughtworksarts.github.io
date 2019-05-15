@@ -7,9 +7,14 @@ ThoughtWorks Arts Residency, in conjunction with [Scatter](http://scatter.nyc), 
    alt='Rashin Fahandej standing in front of A Father\'s Lullaby'
    caption='Rashin Fahandej standing in front of _A Father\'s Lullaby_'
    class='no-border' %}
+
+_A Father's Lullaby_ is a multi-platform, community engaged interactive work that highlights the role of men in raising children and their absence due to the racial disparities in the criminal justice system with its direct impact on children, women and lower income communities.
+
 <!--excerpt-ends-->
 
-_A Father's Lullaby_ is a multi-platform, community engaged interactive work that highlights the role of men in raising children and their absence due to the racial disparities in the criminal justice system with its direct impact on children, women and lower income communities. The project is centered on marginalized voices of absent fathers, while inviting all men to participate by singing lullabies and sharing memories of childhood. _A Father's Lullaby_ is a “Poetic Cyber Movement for Social Justice,” where art and technology mobilizes a plethora of voices to ignite a more inclusive dialogue to effect social change. Explored through the space of love and intimacy, the project is being developed with community members as creative collaborators.
+The project is centered on marginalized voices of absent fathers, while inviting all men to participate by singing lullabies and sharing memories of childhood. _A Father's Lullaby_ is a “Poetic Cyber Movement for Social Justice,” where art and technology mobilizes a plethora of voices to ignite a more inclusive dialogue to effect social change.
+
+Explored through the space of love and intimacy, the project is being developed with community members as creative collaborators.
 
 {% include vimeo.html id='260516353' caption='[_A Father\'s Lullaby_ - a sample video](https://vimeo.com/260516353)' %}
 
