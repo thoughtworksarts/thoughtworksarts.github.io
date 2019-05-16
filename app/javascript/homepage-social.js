@@ -8,6 +8,8 @@ $(document).ready(function() {
 	}
 
 	function showSocialFeed() {
+		Curator.Templates['post-v2'] = getSocialItemTemplate();
+
 		var widget = new Curator.Widgets.Waterfall({
 			container: '#curator-feed',
 			feedId: 'd4196ede-5a4b-4aaa-a284-2c32e3cbd6df',
@@ -68,6 +70,14 @@ $(document).ready(function() {
 
 	function trim(text) {
 		return text.replace(/^\s+|\s+$/g, '');
+	}
+
+	function getSocialItemTemplate(text) {
+		var template = $('#curator-feed').html();
+		$('#curator-feed').html('');
+		template = template.replace(/\<\!\-\-/g, '');
+		template = template.replace(/\-\-\>/g, '');
+		return template;
 	}
 
 	init();
