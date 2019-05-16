@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	var texts;
+
 	function init() {
 		if(window.location.pathname == '/') {
 			showSocialFeed();
@@ -11,7 +13,7 @@ $(document).ready(function() {
 			feedId: 'd4196ede-5a4b-4aaa-a284-2c32e3cbd6df',
 			postClickAction: 'goto-source',
 			postClickReadMoreAction: 'goto-source',
-			postsPerPage: 26,
+			postsPerPage: 30,
 			filter: {
 				showNetworks: false,
 				showSources: false
@@ -24,6 +26,7 @@ $(document).ready(function() {
 
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
 			removePostsWithoutImages();
+			deduplicatePosts();
 			$('#home .social').removeClass('hidden');
 		})
 	}
@@ -38,7 +41,33 @@ $(document).ready(function() {
 				}
 			});
 		});
+	}
 
+	function deduplicatePosts() {
+		texts = new Array();
+		$('#curator-feed .crt-post').each(function() {
+			var post = $(this);
+			post.find('.text').each(function() {
+				var text = $(this).text();
+				if(hasBeenSeenBefore(text)) {
+					post.remove();
+				}
+			});
+		});
+	}
+
+	function hasBeenSeenBefore(text) {
+		var candidate = trim(text).substr(0, 18);
+		if(texts.includes(candidate)) {
+			return true;
+		} else {
+			texts.push(candidate);
+			return false;
+		}
+	}
+
+	function trim(text) {
+		return text.replace(/^\s+|\s+$/g, '');
 	}
 
 	init();
