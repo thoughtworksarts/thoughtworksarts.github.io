@@ -16,10 +16,6 @@ $(document).ready(function() {
 			postsPerPage: 30
 		});
 
-		widget.on(Curator.Events.FEED_LOADED, function(event, data) {
-			console.log(data);
-		});
-
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
 			removePostsWithoutImages();
 			deduplicatePosts();

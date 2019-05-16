@@ -1,11 +1,16 @@
 <div>
-    <li class="crt-post crt-post-<%=this.networkIcon()%>">
-        <a href="<%=url%>">
-            <figure>
-                <img src="<%=image%>" alt="Image posted by <%=user_screen_name%> to <%=this.networkName()%>" />
-            </figure>
-            <span class="crt-social-icon"><i class="crt-icon-<%=this.networkIcon()%>"></i></span>
-            <p class="post-text"><%=text%></p>
-        </a>
-    </li>
+	<li class="crt-post crt-post-<%=this.networkIcon()%>-square">
+		<a href="<%=url%>">
+			<section class="meta">
+				<img class="author-icon" src="<%=user_image%>" alt="Profile image for <%=user_full_name%>" />
+				<i class="social-network-icon crt-icon-<%=this.networkIcon()%>"></i>
+				<br />
+				<span class="author-name">@<%=user_full_name%> posted <%=this.prettyDate(source_created_at)%></span>
+			</section>
+			<figure>
+				<img src="<%=image%>" alt="Image posted by <%=user_screen_name%> to <%=this.networkName()%>" />
+			</figure>
+			<p class="post-text"><%=text%></p>
+		</a>
+	</li>
 </div>
