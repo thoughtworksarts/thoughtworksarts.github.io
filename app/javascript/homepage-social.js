@@ -13,17 +13,7 @@ $(document).ready(function() {
 		var widget = new Curator.Widgets.Waterfall({
 			container: '#curator-feed',
 			feedId: 'd4196ede-5a4b-4aaa-a284-2c32e3cbd6df',
-			postClickAction: 'goto-source',
-			postClickReadMoreAction: 'goto-source',
-			postsPerPage: 30,
-			filter: {
-				showNetworks: false,
-				showSources: false
-			},
-			waterfall: {
-				gridWidth: 10000,
-				animate: false
-			}
+			postsPerPage: 30
 		});
 
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
