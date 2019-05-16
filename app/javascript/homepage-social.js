@@ -29,6 +29,7 @@ $(document).ready(function() {
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
 			removePostsWithoutImages();
 			deduplicatePosts();
+			cleanUpHtml();
 			$('#home .social').removeClass('hidden');
 		})
 	}
@@ -72,12 +73,22 @@ $(document).ready(function() {
 		return text.replace(/^\s+|\s+$/g, '');
 	}
 
-	function getSocialItemTemplate(text) {
+	function getSocialItemTemplate() {
 		var template = $('#curator-feed').html();
 		$('#curator-feed').html('');
 		template = template.replace(/\<\!\-\-/g, '');
 		template = template.replace(/\-\-\>/g, '');
 		return template;
+	}
+
+	function cleanUpHtml() {
+		var list = $('#curator-feed');
+		var items = $('#curator-feed li');
+		console.log(items);
+		list.html('');
+		items.each(function(index, item) {
+			list.append(item);
+		});
 	}
 
 	init();
