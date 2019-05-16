@@ -106,22 +106,6 @@
 					margin-right: 0;
 				}
 			}
-
-			.crt-load-more {
-				display: none !important;
-			}
-
-			.crt-feed .galcolumn {
-				column-count: 3;
-				column-gap: 1em;
-				column-width: 33%;
-				width: 100%;
-
-				.crt-post{
-					break-inside: avoid;
-					margin: 0 0 1em 0;
-				}
-			}
 		}
 
 		>section:not(.mission):not(.programs) {
@@ -258,6 +242,27 @@
 						background-size: 100% 52px;
 						background-repeat: no-repeat;
 						background-position: bottom;
+					}
+				}
+			}
+
+			ul#curator-feed {
+				column-count: 3;
+				column-gap: 1em;
+				column-width: 33%;
+				width: 100%;
+				display: block;
+
+				li {
+					break-inside: avoid;
+					margin: 0 0 1em 0;
+
+					a {
+						max-height: inherit;
+					}
+
+					a:before {
+						background: transparent;
 					}
 				}
 			}
