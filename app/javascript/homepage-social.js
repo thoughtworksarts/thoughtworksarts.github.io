@@ -74,7 +74,7 @@ $(document).ready(function() {
 	function cleanUpHtml() {
 		var list = $('#curator-feed');
 		var items = $('#curator-feed li');
-		console.log(items);
+
 		list.html('');
 		items.each(function(index, item) {
 			list.append(item);
