@@ -35,9 +35,9 @@ $(document).ready(function() {
 	}
 
 	function removePostsWithoutImages() {
-		$('#curator-feed .crt-post').each(function() {
+		$('#curator-feed li').each(function() {
 			var post = $(this);
-			post.find('.crt-image-c>img').each(function() {
+			post.find('figure>img').each(function() {
 				var image = $(this);
 				if(image.attr('src') == '') {
 					post.remove();
@@ -48,9 +48,9 @@ $(document).ready(function() {
 
 	function deduplicatePosts() {
 		texts = new Array();
-		$('#curator-feed .crt-post').each(function() {
+		$('#curator-feed li').each(function() {
 			var post = $(this);
-			post.find('.text').each(function() {
+			post.find('.post-text').each(function() {
 				var text = $(this).text();
 				if(hasBeenSeenBefore(text)) {
 					post.remove();
