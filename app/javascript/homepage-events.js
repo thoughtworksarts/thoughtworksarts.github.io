@@ -17,6 +17,10 @@ $(document).ready(function() {
 			dataType: "jsonp",
 			data: { format: "json" },
 			success: function(meetupJson) {
+				if(isDebug()) {
+					console.log('Meetup:');
+					console.log(meetupJson);
+				}
 				var eventsElement = $('#home .events');
 				bindEventsHtml(meetupJson);
 				eventsElement.removeClass('hidden');

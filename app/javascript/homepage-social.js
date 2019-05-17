@@ -16,8 +16,9 @@ $(document).ready(function() {
 			postsPerPage: 30
 		});
 
-		if(getQueryStringParams().has('debug')) {
+		if(isDebug()) {
 			widget.on(Curator.Events.FEED_LOADED, function(event, data) {
+				console.log('Curator:');
 				console.log(data);
 			});
 		}
