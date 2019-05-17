@@ -12,7 +12,7 @@ $(document).ready(function() {
 	function populateEvents() {
 		populateListItemTemplateHtml();
 		$.ajax({
-			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&only=name,local_date,local_time,description,link,venue",
+			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming",
 			jsonp: "callback",
 			dataType: "jsonp",
 			data: { format: "json" },
@@ -71,10 +71,11 @@ $(document).ready(function() {
 		var newListItem = listItemTemplateHtml;
 
 		newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
-		newListItem = newListItem.replace(/Event Date/g,        safeRead(formatDate(meetup.local_date, meetup.local_time)));
+		newListItem = newListItem.replace(/Event Image/g,       extractImage(meetup.description));
+		newListItem = newListItem.replace(/Event Date/g,        formatDate(meetup.local_date, meetup.local_time));
 		newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
 		newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
-		newListItem = newListItem.replace(/Event Description/g, safeRead(generateTeaser(meetup.description, 300)));
+		newListItem = newListItem.replace(/Event Description/g, generateTeaser(meetup.description, 300));
 		newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
 
 		if(newListItem.indexOf(invalidValueStr) < 0) {
@@ -114,6 +115,16 @@ $(document).ready(function() {
 		}
 
 		return str;
+	}
+
+	function extractImage(str) {
+		var regex = /<img.*?src=['"](.*?)['"]/;
+		var matches = regex.exec(str);
+		if(matches == null || matches.length < 2) {
+			return 'NOT FOUND';
+		} else {
+			return matches[1];
+		}
 	}
 
 	init();
