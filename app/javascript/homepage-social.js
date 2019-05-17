@@ -18,8 +18,7 @@ $(document).ready(function() {
 
 		if(isDebug()) {
 			widget.on(Curator.Events.FEED_LOADED, function(event, data) {
-				console.log('Curator:');
-				console.log(data);
+				log('Curator', data);
 			});
 		}
 
