@@ -16,6 +16,12 @@ $(document).ready(function() {
 			postsPerPage: 30
 		});
 
+		if(getQueryStringParams().has('debug')) {
+			widget.on(Curator.Events.FEED_LOADED, function(event, data) {
+				console.log(data);
+			});
+		}
+
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
 			removePostsWithoutImages();
 			deduplicatePosts();
