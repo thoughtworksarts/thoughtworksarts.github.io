@@ -32,5 +32,5 @@ We will contact applicants with final selection information by June 14, 2019.
 - For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io)
 
 <a href="https://snark.art">
-	<img src="/images/partners/snark-art.png" alt="Snark Art" class="small" />
+	<img src="/images/logos/snark-art.png" alt="Snark Art" class="small" />
 </a>

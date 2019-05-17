@@ -266,27 +266,41 @@
 
 						.meta {
 							position: relative;
+							font-size: 0.75em;
+							width: 100%;
 
-							.author-icon {
-								width: 1.3em;
-								height: 1.3em;
-								display: inline;
+							.icon {
+								position: absolute;
+								top: 0;
 							}
 
-							.author-name {
-								font-size: 0.8em;
+							.social-author-icon {
+								width: 1.8em;
 								display: inline;
-								vertical-align: middle;
+								left: 0;
+								margin: 0.5em;
 							}
 
 							.social-network-icon {
-								position: absolute;
 								right: 0;
-								font-size: 1.4em;
-								margin: 0.3em 0.3em 0 0;
-								color: #3C5A99;
+								width: 1.8em;
+								margin: 0.8em;
+							}
+
+							.name-date {
+								display: inline-block;
+								margin: 0.3em 3em 0.3em 2.5em;
+								line-height: 1.3em;
+
+								.author-handle {
+									font-weight: bold;
+								}
 							}
 						}
+					}
+
+					a:hover .icon, a:active .icon {
+						transform: inherit;
 					}
 
 					a:before {

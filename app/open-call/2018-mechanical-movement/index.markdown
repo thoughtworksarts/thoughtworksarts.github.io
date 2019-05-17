@@ -25,5 +25,5 @@ Applicants must submit a proposal by email to [apply@thoughtworksarts.io](mailto
 Send applications to [apply@thoughtworksarts.io](mailto:apply@thoughtworksarts.io) by midnight March 26th, 2018.
 
 <a href="http://consortiumrr.com/">
-	<img src="/images/partners/consortiumrr.jpg" alt="Consortium for Research &amp; Robotics" class="small" />
+	<img src="/images/logos/consortiumrr.jpg" alt="Consortium for Research &amp; Robotics" class="small" />
 </a>
