@@ -26,6 +26,7 @@ $(document).ready(function() {
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
 			removePostsWithoutImages();
 			deduplicatePosts();
+			removeLinksFromPostTexts();
 			cleanUpHtml();
 			$('#home .social').removeClass('hidden');
 		});
@@ -52,6 +53,17 @@ $(document).ready(function() {
 				if(hasBeenSeenBefore(text)) {
 					post.remove();
 				}
+			});
+		});
+	}
+
+	function removeLinksFromPostTexts() {
+		$('#curator-feed li').each(function() {
+			var post = $(this);
+			post.find('.post-text').each(function() {
+				var text = $(this).text();
+				text = text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+				$(this).text(text);
 			});
 		});
 	}
