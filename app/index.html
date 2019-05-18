@@ -3,26 +3,26 @@ bodyid    : home
 bodyclass : home-page
 ---
 <section class="features">
-	<header>
-		<h1>Features</h1>
-	</header>
 	<div class="content">
+		<header>
+			<h1>Features</h1>
+		</header>
 		{% include home/feature-list.html %}
 	</div>
 </section>
 <section class="mission">
-	<header>
-		<h1>Mission</h1>
-	</header>
 	<div class="content">
+		<header>
+			<h1>Mission</h1>
+		</header>
 		<p>Incubating collaborations between artists and technologists. Researching impacts of emerging technology on society.</p>
 	</div>
 </section>
 <section class="programs">
-	<header>
-		<h1>Programs</h1>
-	</header>
 	<div class="content">
+		<header>
+			<h1>Programs</h1>
+		</header>
 		<section class="explanation">
 			<h2>What We Do</h2>
 			<p>ThoughtWorks Arts incubates artists investigating issues intersecting emerging technology with industry, culture and society. We run programs designed to connect technology professionals with an active community of researchers, creative professionals and our growing network of partners.</p>
@@ -33,8 +33,8 @@ bodyclass : home-page
 				   link='/programs/' %}
 	</div>
 </section>
-<section class="news">
-	<section class="newsletters content">
+<section class="feed newsletters">
+	<div class="content">
 		<header>
 			<h1>Newsletters</h1>
 		</header>
@@ -42,8 +42,10 @@ bodyclass : home-page
 		<div class="progress continue-reading">
 			<a href="/newsletters" class="blog forwards">More newsletters</a>
 		</div>
-	</section>
-	<section class="events content hidden">
+	</div>
+</section>
+<section class="feed events hidden">
+	<div class="content">
 		<header>
 			<h1>Events</h1>
 		</header>
@@ -51,8 +53,10 @@ bodyclass : home-page
 		<div class="progress continue-reading">
 			<a href="/newsletters" class="blog forwards">More events</a>
 		</div>
-	</section>
-	<section class="social content hidden">
+	</div>
+</section>
+<section class="feed social hidden">
+	<div class="content">
 		<header>
 			<h1>Social</h1>
 		</header>
@@ -60,5 +64,5 @@ bodyclass : home-page
 		<div class="progress continue-reading">
 			<a href="/newsletters" class="blog forwards">More social</a>
 		</div>
-	</section>
+	</div>
 </section>
