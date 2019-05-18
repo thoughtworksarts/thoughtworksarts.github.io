@@ -12,14 +12,14 @@ $(document).ready(function() {
 	function populateEvents() {
 		populateListItemTemplateHtml();
 		$.ajax({
-			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming",
+			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&only=name,local_date,local_time,description,link,venue",
 			jsonp: "callback",
 			dataType: "jsonp",
 			data: { format: "json" },
-			success: function(meetupJson) {
-				log('Meetup', meetupJson);
+			success: function(json) {
+				log('Meetup Events', json);
 				var eventsElement = $('#home .events');
-				bindEventsHtml(meetupJson);
+				bindEventsHtml(json);
 				eventsElement.removeClass('hidden');
 			},
 			error: function(errorJson) {
