@@ -1,9 +1,20 @@
+{% assign d = newsletter.date | date: "%-d" %}
+{% case d %}
+	{% when "1" or "21" or "31" %}{% capture dateext %}st{% endcapture %}
+	{% when "2" or "22" %}{% capture dateext %}nd{% endcapture %}
+	{% when "3" or "23" %}{% capture dateext %}rd{% endcapture %}
+	{% else %}{% capture dateext %}th{% endcapture %}
+{% endcase %}
+
+{% capture datestr %}{{ newsletter.date | date: "%A, %-d" }}{{ dateext }}{{ newsletter.date | date: " %B, %Y" }}{% endcapture %}
+
 <li>
 	<a href="{{ newsletter.url }}">
 		<figure>
 			<img src="{{ newsletter.image }}" alt="{{ newsletter.title }}" />
 		</figure>
 		<h2>{{ newsletter.title }}</h2>
+		<p class="info">{{ datestr }}</p>
 		<p>{{ newsletter.content | truncate: 300 }}</p>
 	</a>
 </li>
