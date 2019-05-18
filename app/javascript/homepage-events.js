@@ -12,7 +12,7 @@ $(document).ready(function() {
 	function populateEvents() {
 		populateListItemTemplateHtml();
 		$.ajax({
-			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&only=name,local_date,local_time,description,link,venue",
+			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&fields=featured_photo",
 			jsonp: "callback",
 			dataType: "jsonp",
 			data: { format: "json" },
@@ -68,7 +68,7 @@ $(document).ready(function() {
 		var newListItem = listItemTemplateHtml;
 
 		newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
-		newListItem = newListItem.replace(/Event Image/g,       extractImage(meetup.description));
+		newListItem = newListItem.replace(/Event Image/g,       extractImage(meetup));
 		newListItem = newListItem.replace(/Event Date/g,        formatDate(meetup.local_date, meetup.local_time));
 		newListItem = newListItem.replace(/Event Location/g,    safeRead(meetup.venue.name));
 		newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
@@ -114,14 +114,24 @@ $(document).ready(function() {
 		return str;
 	}
 
-	function extractImage(str) {
-		var regex = /<img.*?src=['"](.*?)['"]/;
-		var matches = regex.exec(str);
-		if(matches == null || matches.length < 2) {
-			return 'NOT FOUND';
-		} else {
-			return matches[1];
+	function extractImage(meetup) {
+		if(isHardwareHackLab(meetup)) {
+			return '/images/events/hardware-hack-lab.jpg';
 		}
+		if(hasFeaturedPhoto(meetup)) {
+			return meetup.featured_photo.photo_link;
+		}
+		return '/images/events/generic-event.jpg';
+	}
+
+	function isHardwareHackLab(meetup) {
+		return safeRead(meetup.name) == 'Hardware Hack Lab';
+	}
+
+	function hasFeaturedPhoto(meetup) {
+		return meetup.featured_photo != null &&
+		       meetup.featured_photo.photo_link != null &&
+		       meetup.featured_photo.photo_link.length > 5;
 	}
 
 	init();
