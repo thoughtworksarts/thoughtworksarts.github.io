@@ -77,10 +77,6 @@ $(document).ready(function() {
 		}
 	}
 
-	function trim(text) {
-		return text.replace(/^\s+|\s+$/g, '');
-	}
-
 	function getSocialItemTemplate() {
 		var template = $('#curator-feed').html();
 		$('#curator-feed').html('');

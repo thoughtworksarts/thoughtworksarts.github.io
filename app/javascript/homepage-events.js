@@ -84,7 +84,7 @@ $(document).ready(function() {
 		if(str == 'undefined' || str == '' || str == null) {
 			return invalidValueStr;
 		} else {
-			return str;
+			return trim(str);
 		}
 	}
 

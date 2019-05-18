@@ -12,3 +12,7 @@ function log(label, contents) {
 		console.log(contents);
 	}
 }
+
+function trim(text) {
+	return text.replace(/^\s+|\s+$/g, '');
+}
