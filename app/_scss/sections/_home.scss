@@ -184,6 +184,9 @@
 		}
 
 		.mission {
+			position: relative;
+			border-top: 1px solid $grey;
+
 			p {
 				font-size: 1.9em;
 				text-align: center;
@@ -191,6 +194,16 @@
 				margin: 2rem auto 0 auto;
 				font-style: italic;
 			}
+		}
+
+		.mission:before {
+			background: linear-gradient(to right, $teal 25%, $green 25%, $green 50%, $yellow 50%, $yellow 75%, $maroon 75%);
+			position: absolute;
+			content: '';
+			height: 1em;
+			right: 0;
+			left: 0;
+			top: 0;
 		}
 
 		.programs {
