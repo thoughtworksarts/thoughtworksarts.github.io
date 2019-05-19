@@ -90,7 +90,7 @@
 					}
 				}
 
-				a:before {
+				a::before {
 					background-size: 17px 34px;
 					display: inline-block;
 					width: 17px;
@@ -105,28 +105,28 @@
 					height: 88px;
 				}
 
-				a:hover:before, a:active:before {
+				a:hover::before, a:active::before {
 					opacity: 1;
 					top: -37px;
 				}
 
-				a, a:before, a:after {
+				a, a::before, a::after {
 					transition: all 0.18s ease-out;
 				}
 
-				a.programs:before {
+				a.programs::before {
 					background-image: url('/images/icons/diamond-purple.png');
 				}
 
-				a.residents:before {
+				a.residents::before {
 					background-image: url('/images/icons/diamond-teal.png');
 				}
 
-				a.projects:before {
+				a.projects::before {
 					background-image: url('/images/icons/diamond-green.png');
 				}
 
-				a.blog:before {
+				a.blog::before {
 					background-image: url('/images/icons/diamond-canary.png');
 				}
 
@@ -158,7 +158,7 @@
 				padding: 0.3em 0.6em;
 			}
 
-			a:before {
+			a::before {
 				top: -30px;
 			}
 		}
@@ -252,7 +252,7 @@
 					font-size: 2em;
 				}
 
-				a:before {
+				a::before {
 					background-image: inherit;
 					display: none;
 				}

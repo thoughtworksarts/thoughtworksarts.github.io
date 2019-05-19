@@ -95,7 +95,7 @@
 					margin-bottom: 0.2em;
 				}
 
-				li:before {
+				li::before {
 					content: '-';
 					position: absolute;
 					left: -0.65em;
@@ -209,13 +209,13 @@
 				}
 			}
 
-			.person-item:after {
+			.person-item::after {
 				content: ', ';
 				position: relative;
 				left: -0.25em;
 			}
 
-			.person-item:last-child:after {
+			.person-item:last-child::after {
 				content: '';
 			}
 		}

@@ -64,7 +64,7 @@ footer {
 	}
 }
 
-footer:after {
+footer::after {
 	content: ' ';
 	display: block;
 	clear: both;

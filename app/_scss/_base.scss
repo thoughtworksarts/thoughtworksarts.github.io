@@ -163,7 +163,7 @@ h2, h2 span {
 	}
 }
 
-h2:before {
+h2::before {
 	background-size: 70px 80px;
 	display: inline-block;
 	width: 70px;
@@ -198,7 +198,7 @@ blockquote {
 	quotes: '\201C''\201D''\201C''\201D';
 }
 
-blockquote:before {
+blockquote::before {
 	color: #ccc;
 	content: open-quote;
 	font-size: 4em;
@@ -365,15 +365,15 @@ ul.progress li, ol.progress li {
 		opacity: 0.8;
 	}
 
-	a, a:before, a:after {
+	a, a::before, a::after {
 		transition: opacity 0.32s ease-out;
 	}
 
-	a:hover, a:active, a:focus, a:hover:before, a:active:before, a:focus:before, a:hover:after, a:active:after, a:focus:after {
+	a:hover, a:active, a:focus, a:hover::before, a:active::before, a:focus::before, a:hover::after, a:active::after, a:focus::after {
 		opacity: 1;
 	}
 
-	a.forwards:after {
+	a.forwards::after {
 		background-size: 34px 39px;
 		display: inline-block;
 		width: 34px;
@@ -382,7 +382,7 @@ ul.progress li, ol.progress li {
 		position: relative; left: 8px; top: 13px;
 	}
 
-	a.backwards:before {
+	a.backwards::before {
 		background-size: 34px 39px;
 		display: inline-block;
 		width: 34px;
@@ -392,39 +392,39 @@ ul.progress li, ol.progress li {
 	}
 }
 
-.progress a.programs.forwards:after {
+.progress a.programs.forwards::after {
 	background-image: url('/images/icons/arrow-purple.png');
 }
 
-.progress a.residents.forwards:after {
+.progress a.residents.forwards::after {
 	background-image: url('/images/icons/arrow-teal.png');
 }
 
-.progress a.blog.forwards:after {
+.progress a.blog.forwards::after {
 	background-image: url('/images/icons/arrow-canary.png');
 }
 
-.progress a.projects.forwards:after {
+.progress a.projects.forwards::after {
 	background-image: url('/images/icons/arrow-green.png');
 }
 
-.progress a.programs.backwards:before {
+.progress a.programs.backwards::before {
 	background-image: url('/images/icons/arrow-purple.png');
 }
 
-.progress a.residents.backwards:before {
+.progress a.residents.backwards::before {
 	background-image: url('/images/icons/arrow-teal.png');
 }
 
-.progress a.blog.backwards:before {
+.progress a.blog.backwards::before {
 	background-image: url('/images/icons/arrow-canary.png');
 }
 
-.progress a.projects.backwards:before {
+.progress a.projects.backwards::before {
 	background-image: url('/images/icons/arrow-green.png');
 }
 
-.progress a.backwards:before {
+.progress a.backwards::before {
 	transform: rotate(180deg);
 }
 
