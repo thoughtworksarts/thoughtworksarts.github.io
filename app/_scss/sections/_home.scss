@@ -24,7 +24,7 @@
 			h1 {
 				display: block;
 				border-top: 0;
-				margin-top: 0.4em;
+				margin: 0.9em 0 0.4em 0;
 			}
 
 			h2 {
@@ -133,9 +133,9 @@
 
 		>section::after {
 			content: '';
-			background-image: url('/images/full-bleed/pattern-1600.png');
-			background-repeat: no-repeat;
-			background-position: bottom;
+			background:
+				linear-gradient(#f1f1f1, transparent) top/100% 4px no-repeat,
+				url('/images/full-bleed/pattern-1600.png') no-repeat bottom;
 			height: 510px;
 			width: 100%;
 			display: block;
@@ -146,9 +146,9 @@
 		}
 
 		.features {
-			background-image: url('/images/full-bleed/pattern-1600.png');
-			background-repeat: no-repeat;
-			background-position: top;
+			background:
+				linear-gradient(#f1f1f1, transparent) top/100% 4px no-repeat,
+				url('/images/full-bleed/pattern-1600.png') no-repeat top;
 			box-shadow: inset 0 0 50px -15px rgba(0,0,0,0.05);
 
 			h1 {
