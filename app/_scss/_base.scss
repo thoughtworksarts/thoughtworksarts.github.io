@@ -150,7 +150,7 @@ h1 {
 }
 
 h2, h2 span {
-	margin: 140px 0 0.1rem 0;
+	margin: 0 0 0.1rem 0;
 	font-size: 2.1rem;
 	line-height: $smallest_lineheight;
 	font-family: 'Bebas Neue', sans-serif;
@@ -161,16 +161,6 @@ h2, h2 span {
 		font-family: inherit;
 		color: inherit;
 	}
-}
-
-h2::before {
-	background-size: 70px 80px;
-	display: inline-block;
-	width: 70px;
-	height: 80px;
-	content: '';
-	position: absolute; top: -100px;
-	background-image: url('/images/icons/arrow-black.png');
 }
 
 h3 {

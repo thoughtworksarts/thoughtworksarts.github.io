@@ -4,29 +4,33 @@ bodyid      : projects
 description : Look through the projects created on the ThoughtWorks Arts Residency program, which supports artists exploring new lines of inquiry intersecting technology and society.
 ---
 <section class="shorter">
-	<header>
-		<h1>Projects</h1>
-	</header>
-	<p>Since the program's inception in 2016, residents at ThoughtWorks have been supported in projects which explore emerging technologies, and how they relate to society. Artists have the opportunity to assemble project teams, and often collaborate with ThoughtWorks employees as part of their process.</p>
+	<div class="info-content">
+		<header>
+			<h1>Projects</h1>
+		</header>
+		<p>Since the program's inception in 2016, residents at ThoughtWorks have been supported in projects which explore emerging technologies, and how they relate to society. Artists have the opportunity to assemble project teams, and often collaborate with ThoughtWorks employees as part of their process.</p>
+	</div>
 </section>
 <section class="listing projects expanded">
-	{% assign projects = site.projects | sort: 'season-code' | reverse %}
-	{% for project in projects %}
-		<section class="listing-item flex-row">
-			<div class="image">
-				<figure>
-					<a href="{{ project.url }}">
-						<img src="/images/projects/{{ project.projectid }}/thumb.png" />
-					</a>
-				</figure>
-			</div>
-			<div class="text">
-				<h2><a href="{{ project.url }}">{{ project.artist }}: {{ project.title }}</a></h2>
-				<p>{{ project.description }}</p>
-				<div class="progress">
-					<a href="{{ project.url }}" class="projects forwards">View project</a>
+	<div class="info-content">
+		{% assign projects = site.projects | sort: 'season-code' | reverse %}
+		{% for project in projects %}
+			<section class="listing-item flex-row">
+				<div class="image">
+					<figure>
+						<a href="{{ project.url }}">
+							<img src="/images/projects/{{ project.projectid }}/thumb.png" />
+						</a>
+					</figure>
 				</div>
-			</div>
-		</section>
-	{% endfor %}
+				<div class="text">
+					<h2><a href="{{ project.url }}">{{ project.artist }}: {{ project.title }}</a></h2>
+					<p>{{ project.description }}</p>
+					<div class="progress">
+						<a href="{{ project.url }}" class="projects forwards">View project</a>
+					</div>
+				</div>
+			</section>
+		{% endfor %}
+	</div>
 </section>

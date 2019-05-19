@@ -1,3 +1,19 @@
+.info-content {
+	h2 {
+		margin-top: 140px;
+	}
+
+	h2::before {
+		background-size: 70px 80px;
+		display: inline-block;
+		width: 70px;
+		height: 80px;
+		content: '';
+		position: absolute; top: -100px;
+		background-image: url('/images/icons/arrow-black.png');
+	}
+}
+
 .text-content {
 	position: relative;
 	top: 0.7em;
