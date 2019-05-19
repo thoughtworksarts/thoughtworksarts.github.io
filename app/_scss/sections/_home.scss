@@ -21,7 +21,9 @@
 			}
 
 			h1 {
-				display: none;
+				display: block;
+				border-top: 0;
+				margin-top: 0.4em;
 			}
 
 			h2 {
@@ -128,7 +130,7 @@
 			}
 		}
 
-		>section:not(.mission):not(.programs) {
+		>section:not(.about-us) {
 			background-image: url('/images/full-bleed/pattern-1600.png');
 			background-repeat: no-repeat;
 			background-position: top;
@@ -137,6 +139,10 @@
 		}
 
 		.features {
+			h1 {
+				display: none;
+			}
+
 			ul {
 				grid-template-columns: 67% 33%;
 
@@ -183,20 +189,43 @@
 			transform: rotate(180deg);
 		}
 
-		.mission {
+		.about-us {
 			position: relative;
 			border-top: 1px solid $grey;
+			padding-top: 2.5em;
 
-			p {
-				font-size: 1.9em;
-				text-align: center;
-				max-width: 700px;
-				margin: 2rem auto 0 auto;
-				font-style: italic;
+			>.content {
+				display: grid;
+				grid-template-columns: 40% 60%;
+			}
+
+			h1 {
+				grid-column: 1;
+				grid-row: 1;
+			}
+
+			.explanation {
+				grid-column: 1;
+				grid-row: 2;
+				padding: 0 2em 0 0;
+			}
+
+			figure {
+				grid-column: 2;
+				grid-row: 1 / span 2;
+				padding: 2.6em 0 0 1.5em;
+
+				img {
+					width: 100%;
+				}
+
+				figcaption {
+					display: none;
+				}
 			}
 		}
 
-		.mission:before {
+		.about-us:before {
 			background: linear-gradient(to right, $teal 25%, $green 25%, $green 50%, $yellow 50%, $yellow 75%, $maroon 75%);
 			position: absolute;
 			content: '';
@@ -204,43 +233,6 @@
 			right: 0;
 			left: 0;
 			top: 0;
-		}
-
-		.programs {
-			padding-top: 2.5em;
-
-			>.content {
-				display: grid;
-				grid-template-columns: 50% 50%;
-			}
-
-			.explanation {
-				grid-column: 1;
-				grid-row: 1;
-				padding: 0 2em 0 0;
-
-				a {
-					font-weight: bold;
-				}
-
-				a::after {
-					content: ' >>';
-				}
-			}
-
-			figure {
-				grid-column: 2;
-				grid-row: 1;
-				padding: 1em 2em;
-
-				img {
-					width: 500px;
-				}
-
-				figcaption {
-					display: none;
-				}
-			}
 		}
 
 		.feed {
@@ -332,12 +324,6 @@
 						background: transparent;
 					}
 				}
-			}
-
-			h1 {
-				display: block;
-				border-top: 0;
-				margin-top: 0.4em;
 			}
 		}
 	}
