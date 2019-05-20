@@ -46,8 +46,8 @@
 					padding: 0;
 					margin: 2em 0.75em 0 0.75em;
 
-					* {
-						transition: all 0.25s ease;
+					a, img, p, figure {
+						transition: all 0.4s ease;
 						cursor: pointer;
 					}
 
@@ -109,7 +109,7 @@
 					}
 
 					a:hover img, a:active img {
-						transform: scale(1.025);
+						transform: scale(1.07);
 					}
 				}
 
@@ -279,6 +279,7 @@
 
 						img {
 							height: inherit;
+							transform: scale(1.02);
 						}
 
 						figure {
@@ -326,6 +327,10 @@
 								}
 							}
 						}
+					}
+
+					a:hover img, a:active img {
+						transform: scale(1.07);
 					}
 
 					a:hover .icon, a:active .icon {
