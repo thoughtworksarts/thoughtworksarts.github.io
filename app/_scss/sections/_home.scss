@@ -47,7 +47,7 @@
 					margin: 2em 0.75em 0 0.75em;
 
 					* {
-						transition: all 0.25s ease-in;
+						transition: all 0.25s ease;
 						cursor: pointer;
 					}
 
@@ -60,10 +60,6 @@
 						p {
 							padding: 0.1em 1rem;
 							font-size: 1rem;
-						}
-
-						p.post-text {
-							padding: 0.8em 1rem;
 						}
 
 						.info {
@@ -241,69 +237,6 @@
 					}
 				}
 			}
-
-			ul#curator-feed {
-				column-count: 3;
-				column-gap: 1em;
-				column-width: 33%;
-				width: 100%;
-				display: block;
-
-				li {
-					break-inside: avoid;
-					margin: 0 0 1em 0;
-
-					a {
-						max-height: inherit;
-
-						img {
-							height: inherit;
-						}
-
-						.meta {
-							position: relative;
-							font-size: 0.75em;
-							width: 100%;
-
-							.icon {
-								position: absolute;
-								top: 0;
-							}
-
-							.social-author-icon {
-								width: 1.8em;
-								display: inline;
-								left: 0;
-								margin: 0.5em;
-							}
-
-							.social-network-icon {
-								right: 0;
-								width: 1.8em;
-								margin: 0.8em;
-							}
-
-							.name-date {
-								display: inline-block;
-								margin: 0.3em 3em 0.3em 2.5em;
-								line-height: 1.3em;
-
-								.author-handle {
-									font-weight: bold;
-								}
-							}
-						}
-					}
-
-					a:hover .icon, a:active .icon {
-						transform: inherit;
-					}
-
-					a::before {
-						background: transparent;
-					}
-				}
-			}
 		}
 
 		.social {
@@ -327,6 +260,82 @@
 					linear-gradient(transparent, #fbfbfb) bottom/100% 26px no-repeat,
 					linear-gradient(transparent, white) bottom/100% 140px no-repeat;
 				z-index: 1;
+			}
+
+			ul#curator-feed {
+				column-count: 3;
+				column-gap: 1.5em;
+				width: 100%;
+				display: block;
+
+				li {
+					width: 100%;
+					break-inside: avoid;
+					margin: 0 0 1.5em 0;
+
+					a {
+						max-height: inherit;
+						text-align: center;
+
+						img {
+							height: inherit;
+						}
+
+						figure {
+							max-height: 350px;
+							border-radius: 18px;
+							width: 90%;
+							display: inline-block;
+							transform: scale(1); //Explanation: https://stackoverflow.com/questions/53068471/css-column-count-transform-scale-transition-strange-behavior
+						}
+
+						.meta, .post-text {
+							margin-bottom: 0.4em;
+							text-align: left;
+						}
+
+						.meta {
+							text-align: left;
+							position: relative;
+							font-size: 0.75em;
+							width: 100%;
+
+							.icon {
+								position: absolute;
+							}
+
+							.social-author-icon {
+								top: 1rem;
+								left: 1rem;
+								width: 2.3em;
+							}
+
+							.social-network-icon {
+								top: 1.3rem;
+								right: 1.2rem;
+								width: 1.8em;
+							}
+
+							.name-date {
+								display: inline-block;
+								margin: 0.9em 0 0 3.6em;
+								line-height: 1.3em;
+
+								.author-handle {
+									font-weight: bold;
+								}
+							}
+						}
+					}
+
+					a:hover .icon, a:active .icon {
+						transform: inherit;
+					}
+
+					a::before {
+						background: transparent;
+					}
+				}
 			}
 		}
 	}
