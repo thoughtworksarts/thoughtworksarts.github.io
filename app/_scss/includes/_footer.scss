@@ -23,16 +23,24 @@ footer {
 	}
 
 	.social-links {
-		position: absolute; right: 0; bottom: 0;
+		bottom: 0;
+		margin: 0 3em 4.4em 0;
 
-		ul {
-			margin: 0 3em 2.5em 0;
+		li {
+			margin-right: 0.4em;
+			width: 50px; height: 50px;
+		}
 
-			li i {
-				font-size: 1.8em;
-				transition: all 0.24s;
-				padding: 5px 10px;
-				margin-right: 5px;
+		a {
+			width: 50px; height: 50px;
+			font-size: 1.6em;
+		}
+
+		a:hover, a:active {
+			font-size: 2em;
+
+			i {
+				color: $yellow;
 			}
 		}
 	}

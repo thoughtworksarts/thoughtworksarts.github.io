@@ -17,41 +17,28 @@
 	}
 
 	.social-links {
-		position: absolute; top: 0; right: 0;
+		top: 0;
 		margin: 1em 1.5em;
 
-		ul {
-			list-style: none;
-			padding: 0;
-			line-height: 0;
+		li {
+			margin-left: 0.1em;
+			width: 40px; height: 40px;
 		}
 
-		li {
-			display: inline-block;
-			margin-left: 0.1em;
-			vertical-align: middle;
+		a {
 			width: 40px; height: 40px;
+			font-size: 1.1em;
 
-			a {
-				display: inline-flex;
-				justify-content: center;
-				align-items: center;
-				width: 40px; height: 40px;
-				text-decoration: none;
-
-				i {
-					color: $grey;
-					font-size: 1.1em;
-					transition: all 0.18s ease-out;
-				}
+			i {
+				color: $grey;
 			}
+		}
 
-			a:hover, a:active {
-				font-size: 1.3em;
+		a:hover, a:active {
+			font-size: 1.3em;
 
-				i {
-					color: #484848;
-				}
+			i {
+				color: #484848;
 			}
 		}
 	}
