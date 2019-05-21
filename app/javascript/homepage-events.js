@@ -70,8 +70,6 @@ $(document).ready(function() {
 		newListItem = newListItem.replace(/Event Name/g,        safeRead(meetup.name));
 		newListItem = newListItem.replace(/Event Image/g,       extractImage(meetup));
 		newListItem = newListItem.replace(/Event Date/g,        formatDate(meetup.local_date, meetup.local_time));
-		newListItem = newListItem.replace(/Event Location/g,    safeReadVenue(meetup.venue.name));
-		newListItem = newListItem.replace(/Event City/g,        safeRead(meetup.venue.city));
 		newListItem = newListItem.replace(/Event Description/g, generateTeaser(meetup.description, 300));
 		newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
 
@@ -86,11 +84,6 @@ $(document).ready(function() {
 		} else {
 			return trim(str);
 		}
-	}
-
-	function safeReadVenue(str){
-		var venue = safeRead(str);
-		return venue == 'ThoughtWorks, Inc.' ? 'ThoughtWorks' : venue;
 	}
 
 	function formatDate(dateStr, timeStr) {
