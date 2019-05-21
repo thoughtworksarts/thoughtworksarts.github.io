@@ -1,7 +1,10 @@
 $(document).ready(function() {
 	var texts;
-	var numPostsRequested;
-	var numPostsRequired;
+	var numPostsRequested = 50;
+	var numPostsRequired = 12;
+	var countSetupAttempts = 20;
+	var maxSetupAttempts = 20;
+	var setupAttemptInterval = 250;
 
 	function init() {
 		if(window.location.pathname == '/') {
@@ -10,8 +13,6 @@ $(document).ready(function() {
 	}
 
 	function showSocialFeed() {
-		numPostsRequested = 50;
-		numPostsRequired = 12;
 		Curator.Templates['post-v2'] = extractTemplateHtml('#curator-feed');
 
 		var widget = new Curator.Widgets.Waterfall({
@@ -27,7 +28,8 @@ $(document).ready(function() {
 		}
 
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
-			setTimeout(setupSocialFeed, 250);
+			countSetupAttempts = 0;
+			setTimeout(setupSocialFeed, setupAttemptInterval);
 		});
 	}
 
@@ -39,7 +41,10 @@ $(document).ready(function() {
 			cleanUpHtml();
 			displaySocialFeed();
 		} else {
-			setTimeout(setupSocialFeed, 250);
+			countSetupAttempts++;
+			if(countSetupAttempts < maxSetupAttempts) {
+				setTimeout(setupSocialFeed, setupAttemptInterval);
+			}
 		}
 	}
 
