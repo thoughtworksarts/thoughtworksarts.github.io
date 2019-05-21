@@ -71,7 +71,7 @@ $(document).ready(function() {
 		newListItem = newListItem.replace(/Event Image/g,       extractImage(meetup));
 		newListItem = newListItem.replace(/Event Date/g,        formatDate(meetup.local_date, meetup.local_time));
 		newListItem = newListItem.replace(/Event Description/g, generateTeaser(meetup.description, 300));
-		newListItem = newListItem.replace(/event-url/g,         safeRead(meetup.link));
+		newListItem = newListItem.replace(/Event Link/g,         safeRead(meetup.link));
 
 		if(newListItem.indexOf(invalidValueStr) < 0) {
 			listElement.append(newListItem);
