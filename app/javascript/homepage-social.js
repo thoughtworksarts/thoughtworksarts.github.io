@@ -8,7 +8,7 @@ $(document).ready(function() {
 	}
 
 	function showSocialFeed() {
-		Curator.Templates['post-v2'] = getSocialItemTemplate();
+		Curator.Templates['post-v2'] = extractTemplateHtml('#curator-feed');
 
 		var widget = new Curator.Widgets.Waterfall({
 			container: '#curator-feed',
@@ -64,14 +64,6 @@ $(document).ready(function() {
 			texts.push(candidate);
 			return false;
 		}
-	}
-
-	function getSocialItemTemplate() {
-		var template = $('#curator-feed').html();
-		$('#curator-feed').html('');
-		template = template.replace(/\<\!\-\-/g, '');
-		template = template.replace(/\-\-\>/g, '');
-		return template;
 	}
 
 	function cleanUpHtml() {

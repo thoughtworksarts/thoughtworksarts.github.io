@@ -41,3 +41,11 @@ function safeRead(str){
 		return trim(str);
 	}
 }
+
+function extractTemplateHtml(selector) {
+	var template = $(selector).html();
+	$(selector).html('');
+	template = template.replace(/\<\!\-\-/g, '');
+	template = template.replace(/\-\-\>/g, '');
+	return template;
+}

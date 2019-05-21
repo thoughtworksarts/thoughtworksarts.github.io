@@ -5,12 +5,14 @@ $(document).ready(function() {
 
 	function init() {
 		if(window.location.pathname == '/') {
+			listElement = $('#meetup-feed');
 			populateEvents();
 		}
 	}
 
 	function populateEvents() {
-		populateListItemTemplateHtml();
+		listItemTemplateHtml = extractTemplateHtml('#meetup-feed');
+
 		$.ajax({
 			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&fields=featured_photo",
 			jsonp: "callback",
@@ -18,19 +20,13 @@ $(document).ready(function() {
 			data: { format: "json" },
 			success: function(json) {
 				log('Meetup Events', json);
-				var eventsElement = $('#home .events');
 				bindEventsHtml(json);
-				eventsElement.removeClass('hidden');
+				$('#home .events').removeClass('hidden');
 			},
 			error: function(errorJson) {
 				bindErrorHtml(errorJson);
 			}
 		});
-	}
-
-	function populateListItemTemplateHtml() {
-		listElement = $('#home .events ul');
-		listItemTemplateHtml = listElement.html();
 	}
 
 	function isAcceptableMeetup(meetup) {
@@ -51,8 +47,6 @@ $(document).ready(function() {
 	}
 
 	function bindEventsHtml(meetupJson) {
-		listElement.html('');
-
 		for(let meetup of meetupJson.data) {
 			if(isAcceptableMeetup(meetup)) {
 				bindEventHtml(meetup);
@@ -71,7 +65,7 @@ $(document).ready(function() {
 		newListItem = newListItem.replace(/Event Image/g,       extractImage(meetup));
 		newListItem = newListItem.replace(/Event Date/g,        formatDate(meetup.local_date, meetup.local_time));
 		newListItem = newListItem.replace(/Event Description/g, generateTeaser(meetup.description, 300));
-		newListItem = newListItem.replace(/Event Link/g,         safeRead(meetup.link));
+		newListItem = newListItem.replace(/Event Link/g,        safeRead(meetup.link));
 
 		if(newListItem.indexOf(invalidValueStr) < 0) {
 			listElement.append(newListItem);
