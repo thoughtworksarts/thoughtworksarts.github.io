@@ -32,14 +32,10 @@ $(document).ready(function() {
 	}
 
 	function removePostsWithoutImages() {
-		$('#curator-feed li').each(function() {
-			var post = $(this);
-			post.find('figure>img').each(function() {
-				var image = $(this);
-				if(image.attr('src') == '') {
-					post.remove();
-				}
-			});
+		$('#curator-feed li figure>img').each(function() {
+			if($(this).attr('src') == '') {
+				$(this).closest('li').remove();
+			}
 		});
 	}
 
