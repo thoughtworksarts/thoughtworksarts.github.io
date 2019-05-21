@@ -281,7 +281,7 @@
 
 						img {
 							height: inherit;
-							transform: scale(1.02);
+							transform: scale(1.02) translateZ(0); //Explanation: https://stackoverflow.com/questions/30108825/chrome-opacity-transition-bug;
 							z-index: 1;
 						}
 
