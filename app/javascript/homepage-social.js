@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	var texts;
+	var numPostsRequested;
+	var numPostsRequired;
 
 	function init() {
 		if(window.location.pathname == '/') {
@@ -8,12 +10,14 @@ $(document).ready(function() {
 	}
 
 	function showSocialFeed() {
+		numPostsRequested = 50;
+		numPostsRequired = 12;
 		Curator.Templates['post-v2'] = extractTemplateHtml('#curator-feed');
 
 		var widget = new Curator.Widgets.Waterfall({
 			container: '#curator-feed',
 			feedId: 'd4196ede-5a4b-4aaa-a284-2c32e3cbd6df',
-			postsPerPage: 50
+			postsPerPage: numPostsRequested
 		});
 
 		if(isDebug()) {
@@ -23,12 +27,30 @@ $(document).ready(function() {
 		}
 
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
+			setTimeout(setupSocialFeed, 250);
+		});
+	}
+
+	function setupSocialFeed() {
+		if(countNumCompleteImages() == numPostsRequested){
 			removePostsWithImageProblems();
 			deduplicatePosts();
 			removeLinksFromPostTexts();
 			cleanUpHtml();
 			displaySocialFeed();
+		} else {
+			setTimeout(setupSocialFeed, 250);
+		}
+	}
+
+	function countNumCompleteImages() {
+		var numComplete = 0;
+		$('#curator-feed li figure>img').each(function() {
+			if($(this).get(0).complete){
+				numComplete++;
+			}
 		});
+		return numComplete;
 	}
 
 	function removePostsWithImageProblems() {
@@ -88,7 +110,7 @@ $(document).ready(function() {
 	}
 
 	function displaySocialFeed() {
-		if($('#curator-feed li').length > 12) {
+		if($('#curator-feed li').length > numPostsRequired) {
 			$('#home .social').removeClass('hidden');
 		}
 	}
