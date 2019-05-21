@@ -78,14 +78,6 @@ $(document).ready(function() {
 		}
 	}
 
-	function safeRead(str){
-		if(str == 'undefined' || str == '' || str == null) {
-			return invalidValueStr;
-		} else {
-			return trim(str);
-		}
-	}
-
 	function formatDate(dateStr, timeStr) {
 		var date = toDateObject(dateStr, timeStr);
 		return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' });
@@ -93,23 +85,6 @@ $(document).ready(function() {
 
 	function toDateObject(dateStr, timeStr) {
 		return new Date(dateStr + 'T' + timeStr);
-	}
-
-	function generateTeaser(html, maxLength) {
-		var str = $(html).text();
-
-		if(str.length > maxLength) {
-			var str = str.substr(0, maxLength);
-			str = str.substr(0, Math.min(str.length, str.lastIndexOf(" ")));
-
-			while(!str[str.length -1].match(/[a-zA-Z0-9]/)) {
-				str = str.slice(0, -1);
-			}
-
-			str += '...';
-		}
-
-		return str;
 	}
 
 	function extractImage(meetup) {
