@@ -23,7 +23,7 @@ $(document).ready(function() {
 		}
 
 		widget.on(Curator.Events.POSTS_RENDERED, function() {
-			removePostsWithoutImages();
+			removePostsWithImageProblems();
 			deduplicatePosts();
 			removeLinksFromPostTexts();
 			cleanUpHtml();
@@ -31,12 +31,23 @@ $(document).ready(function() {
 		});
 	}
 
-	function removePostsWithoutImages() {
+	function removePostsWithImageProblems() {
 		$('#curator-feed li figure>img').each(function() {
-			if($(this).attr('src') == '') {
+			if(hasImageProblems($(this))) {
 				$(this).closest('li').remove();
 			}
 		});
+	}
+
+	function hasImageProblems(img) {
+		var hasProblems = false;
+		if(img.attr('src') == '') {
+			hasProblems = true;
+		}
+		if(img.get(0).naturalWidth < 300 || img.get(0).naturalHeight < 220) {
+			hasProblems = true;
+		}
+		return hasProblems;
 	}
 
 	function deduplicatePosts() {
