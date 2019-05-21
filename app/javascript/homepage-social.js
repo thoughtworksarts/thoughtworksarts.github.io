@@ -57,13 +57,10 @@ $(document).ready(function() {
 	}
 
 	function removeLinksFromPostTexts() {
-		$('#curator-feed li').each(function() {
-			var post = $(this);
-			post.find('.post-text').each(function() {
-				var text = $(this).text();
-				text = text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
-				$(this).text(text);
-			});
+		$('#curator-feed li .post-text').each(function() {
+			var text = $(this).text();
+			text = text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+			$(this).text(text);
 		});
 	}
 
