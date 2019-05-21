@@ -45,14 +45,10 @@ $(document).ready(function() {
 
 	function deduplicatePosts() {
 		texts = new Array();
-		$('#curator-feed li').each(function() {
-			var post = $(this);
-			post.find('.post-text').each(function() {
-				var text = $(this).text();
-				if(hasBeenSeenBefore(text)) {
-					post.remove();
-				}
-			});
+		$('#curator-feed li .post-text').each(function() {
+			if(hasBeenSeenBefore($(this).text())) {
+				$(this).closest('li').remove();
+			}
 		});
 	}
 
