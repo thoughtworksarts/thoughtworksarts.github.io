@@ -13,7 +13,7 @@ $(document).ready(function() {
 		var widget = new Curator.Widgets.Waterfall({
 			container: '#curator-feed',
 			feedId: 'd4196ede-5a4b-4aaa-a284-2c32e3cbd6df',
-			postsPerPage: 30
+			postsPerPage: 50
 		});
 
 		if(isDebug()) {
@@ -27,7 +27,7 @@ $(document).ready(function() {
 			deduplicatePosts();
 			removeLinksFromPostTexts();
 			cleanUpHtml();
-			$('#home .social').removeClass('hidden');
+			displaySocialFeed();
 		});
 	}
 
@@ -85,6 +85,12 @@ $(document).ready(function() {
 		items.each(function(index, item) {
 			list.append(item);
 		});
+	}
+
+	function displaySocialFeed() {
+		if($('#curator-feed li').length > 12) {
+			$('#home .social').removeClass('hidden');
+		}
 	}
 
 	init();
