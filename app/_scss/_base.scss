@@ -284,6 +284,10 @@ figure.video.ratio-16-9 {
 	}
 }
 
+.notice.black {
+	color: #000000;
+}
+
 .strapline {
 	font-style: italic;
 }
@@ -441,7 +445,7 @@ ul.progress li, ol.progress li {
 
 	>div:first-child {
 		flex: 1 0 auto;
-	}	
+	}
 }
 
 @media (max-width: 1299px) {
