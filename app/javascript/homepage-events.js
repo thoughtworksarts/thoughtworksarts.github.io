@@ -72,15 +72,6 @@ $(document).ready(function() {
 		}
 	}
 
-	function formatDate(dateStr, timeStr) {
-		var date = toDateObject(dateStr, timeStr);
-		return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' });
-	}
-
-	function toDateObject(dateStr, timeStr) {
-		return new Date(dateStr + 'T' + timeStr);
-	}
-
 	function extractImage(meetup) {
 		if(isHardwareHackLab(meetup)) {
 			return '/images/events/hardware-hack-lab.jpg';
