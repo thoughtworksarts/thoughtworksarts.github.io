@@ -244,7 +244,7 @@
 
 			.content {
 				position: relative;
-				max-height: 1150px;
+				max-height: 1250px;
 				overflow: hidden;
 				margin-bottom: 2.2em;
 				border-bottom: 5px solid #e8e8e8;
@@ -306,6 +306,7 @@
 
 							.icon {
 								position: absolute;
+								z-index: 0;
 							}
 
 							.social-author-icon {
