@@ -15,11 +15,11 @@ During her ThoughtWorks Arts Residency, with support from [Scatter](http://scatt
 
 <!--excerpt-ends-->
 
-A Father’s Lullaby is a multi-platform, community engaged interactive work that highlights the role of men in raising children and their absence due to the racial disparities in the criminal justice system. The project is a “Poetic Cyber Movement for Social Justice,” where art and technology mobilizes a plethora of voices to ignite a more inclusive dialogue to effect social change.
+_A Father’s Lullaby_ is a multi-platform, community engaged interactive work that highlights the role of men in raising children and their absence due to the racial disparities in the criminal justice system. The project is a “Poetic Cyber Movement for Social Justice,” where art and technology mobilizes a plethora of voices to ignite a more inclusive dialogue to effect social change.
 
 Rashin is currently a research fellow at MIT Open Documentary Lab and a visiting faculty at Massachusetts College of Art and Design. She will be in residence at ThoughtWorks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
 
-You can learn more about Rashin, her project, and our residency partner Scatter, in the [announcement blog post](https://https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/).
+You can learn more about Rashin, her project, and our residency partner Scatter, in the [announcement blog post](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/).
 
 
 ## Extension of The Open Call for The Democratization of Artificial Intelligence
