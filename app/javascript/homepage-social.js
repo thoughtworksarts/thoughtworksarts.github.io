@@ -36,10 +36,10 @@ $(document).ready(function() {
 	function setupSocialFeed() {
 		if(countNumCompleteImages() == numPostsRequested){
 			removePostsWithImageProblems();
-			deduplicatePosts();
 			removeLinksFromPostTexts();
-			cleanUpHtml();
-			displaySocialFeed();
+			deduplicatePosts();
+			insertPostsDirectlyIntoListElement();
+			displaySocialWall();
 		} else {
 			countSetupAttempts++;
 			if(countSetupAttempts < maxSetupAttempts) {
@@ -95,16 +95,18 @@ $(document).ready(function() {
 	}
 
 	function hasBeenSeenBefore(text) {
-		var candidate = trim(text).substr(0, 18);
-		if(texts.includes(candidate)) {
+		var front = trim(text).slice(0, 18);
+		var back = trim(text).slice(-18);
+		if(texts.includes(front) || texts.includes(back)) {
 			return true;
 		} else {
-			texts.push(candidate);
+			texts.push(front);
+			texts.push(back);
 			return false;
 		}
 	}
 
-	function cleanUpHtml() {
+	function insertPostsDirectlyIntoListElement() {
 		var list = $('#curator-feed');
 		var items = $('#curator-feed li');
 
@@ -114,7 +116,7 @@ $(document).ready(function() {
 		});
 	}
 
-	function displaySocialFeed() {
+	function displaySocialWall() {
 		if($('#curator-feed li').length > numPostsRequired) {
 			$('#home .social').removeClass('hidden');
 		}
