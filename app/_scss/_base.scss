@@ -24,8 +24,7 @@ html, body {
 }
 
 body>main>section {
-	margin: 2em auto 4.1em 3em;
-	width: 720px;
+	margin: 2em auto 4.1em 3em;;
 }
 
 body>main>section.shorter {
@@ -448,10 +447,6 @@ ul.progress li, ol.progress li {
 		min-height: 560px;
 	}
 
-	body>main>section {
-		width: 674px;
-	}
-
 	body>main>section.expanded {
 		width: 1010px;
 	}
@@ -478,10 +473,6 @@ ul.progress li, ol.progress li {
 }
 
 @media (max-width: 1099px) {
-	body>main>section {
-		width: 661px;
-	}
-
 	body>main>section.expanded {
 		width: 90%;
 		max-width: inherit;
@@ -502,7 +493,6 @@ ul.progress li, ol.progress li {
 	}
 
 	body>main>section {
-		width: 80%;
 		max-width: 650px;
 		margin: 2.3em auto 4.8em 3em;
 	}
@@ -542,7 +532,6 @@ ul.progress li, ol.progress li {
 	}
 
 	body>main>section {
-		width: 92%;
 		margin: 2em auto 3.8em 1.1em;
 	}
 

@@ -72,7 +72,7 @@
 </head>
 
 <body id="{{ page.bodyid }}" class="{{ bodyclass }}">
-  <header role="banner" class="flex-col{% if page.bodyid != 'home' %} splash{% endif %}">
+  <header role="banner" class="{% if page.bodyid != 'home' %}flex-col splash{% endif %}">
     <section id="logonav">
       <h1>ThoughtWorks Arts</h1>
       <a href="/" class="logo">
