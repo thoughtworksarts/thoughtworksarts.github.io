@@ -282,7 +282,9 @@
 
 						img {
 							height: inherit;
-							transform: scale(1.02) translateZ(0); //Explanation: https://stackoverflow.com/questions/30108825/chrome-opacity-transition-bug
+							perspective: 1000;
+							backface-visibility: hidden;
+							transform: scale(1.02) translateZ(0); //Explanations: https://stackoverflow.com/questions/30108825/chrome-opacity-transition-bug
 							z-index: 1;
 						}
 
@@ -356,97 +358,17 @@
 }
 
 @media (max-width: 1299px) {
-	#home {
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-1200.jpg');
 
-			.intro-container {
-				margin-top: -1em;
-
-				.intro {
-					font-size: 1.5em;
-					margin: 3em;
-				}
-			}
-		}
-	}
 }
 
 @media (max-width: 1099px) {
-	#home {
-		>header {
-			min-height: 540px;
-		}
 
-		#image-splash .intro-container .intro {
-			font-size: 1.4em;
-		}
-	}
-}
-
-@media (max-width: 999px) {
-	#home {
-		>header {
-			min-height: 576px;
-		}
-	}
 }
 
 @media (max-width: 799px) {
-	#home {
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-800.jpg');
-			background-position: 85% 79%;
 
-			.intro-container .intro {
-				text-shadow: 0 0 2px #000000, 0 0 7px #000000, 0 0 74px #000000;
-			}
-		}
-
-		#image-splash .intro-container .intro {
-			margin: 2em;
-		}
-
-		>main>section .intro {
-			display: block;
-		}
-	}
-}
-
-@media (max-width: 729px) {
-	#home {
-		#image-splash .intro-container .intro {
-			font-size: 1.3em;
-			margin: 1.3em 2em;
-		}
-	}
 }
 
 @media (max-width: 639px) {
-	#home {
-		#image-splash {
-			background-position: 85% 63%;
 
-			.intro-container .intro {
-				text-align: center;
-
-				br {
-					display: none;
-				}
-
-				.space {
-					display: inline;
-				}
-			}
-		}
-
-		>header {
-			min-height: 500px;
-			max-height: 100%; // Firefox mobile
-		}
-
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-560.jpg');
-		}
-	}
 }
