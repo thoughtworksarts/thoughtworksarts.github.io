@@ -244,7 +244,7 @@
 
 			.content {
 				position: relative;
-				max-height: 1150px;
+				max-height: 1250px;
 				overflow: hidden;
 				margin-bottom: 2.2em;
 				border-bottom: 5px solid #e8e8e8;
@@ -252,14 +252,40 @@
 
 			.content::before {
 				content: '';
+				background: linear-gradient(transparent, white) bottom/100% 100% no-repeat;
+				z-index: 1;
+				margin-bottom: 40px;
+				height: 120px;
+			}
+
+			.content::before, .scroll {
 				width: 100%;
-				height: 140px;
 				position: absolute;
 				bottom: 0;
-				background:
-					linear-gradient(transparent, #fbfbfb) bottom/100% 26px no-repeat,
-					linear-gradient(transparent, white) bottom/100% 140px no-repeat;
-				z-index: 1;
+			}
+
+			.scroll {
+				display: block;
+				height: 160px;
+				text-decoration: none;
+				text-align: center;
+				z-index: 2;
+
+				.solid {
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					background: #FFFFFF;
+					width: 100%;
+					height: 40px;
+
+					.arrow {
+						display: block;
+						transform: scaleX(22.8) scaleY(9.7);
+						color: #e8e8e8;
+						padding-bottom: 4px;
+					}
+				}
 			}
 
 			ul#curator-feed {
@@ -306,6 +332,7 @@
 
 							.icon {
 								position: absolute;
+								z-index: 0;
 							}
 
 							.social-author-icon {
