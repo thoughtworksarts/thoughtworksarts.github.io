@@ -193,6 +193,19 @@
 		nav {
 			#menu-button {
 				display: block;
+				text-decoration: none;
+				position: relative;
+				z-index: 20;
+
+				i {
+					font-size: 1.7em;
+					margin: 0 0.125em;
+					color: #4d2822;
+				}
+
+				i.fa-times {
+					color: #ffffff;
+				}
 
 				.fa-bars {
 					display: block;

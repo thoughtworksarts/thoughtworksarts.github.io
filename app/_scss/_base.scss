@@ -303,22 +303,6 @@ img.no-border, figure.no-border img {
 	}
 }
 
-a#menu-button {
-	text-decoration: none;
-	position: relative;
-	z-index: 20;
-
-	i {
-		font-size: 1.7em;
-		margin: 0 0.125em;
-		color: #4d2822;
-	}
-
-	i.fa-times {
-		color: #ffffff;
-	}
-}
-
 a.programs, a.programs>* {
 	color: $maroon;
 }
