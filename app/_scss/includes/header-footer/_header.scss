@@ -6,6 +6,16 @@
 		display: none;
 	}
 
+	a i {
+		color: $grey;
+	}
+
+	a:hover, a:active {
+		i {
+			color: #484848;
+		}
+	}
+
 	.logo {
 		position: absolute; bottom: 0; left: 0;
 		line-height: 0;
@@ -28,18 +38,10 @@
 		a {
 			width: 40px; height: 40px;
 			font-size: 1.1em;
-
-			i {
-				color: $grey;
-			}
 		}
 
 		a:hover, a:active {
 			font-size: 1.3em;
-
-			i {
-				color: #484848;
-			}
 		}
 	}
 
@@ -124,73 +126,20 @@
 	}
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1150px) {
 	#logonav {
-		height: 158px;
-
-		.logo img {
-			height: 8em;
-		}
-
-		.logo, >nav {
-			margin: 9px 13px;
-		}
-
-		nav ul li {
-			margin-left: 0.8em;
-
-			a {
-				font-size: 1.9em;
-				padding: 0.3em 0.6em;
-			}
-
-			a::before {
-				top: -30px;
-			}
-		}
-	}
-}
-
-@media (max-width: 1099px) {
-	#logonav {
-		height: 145px;
-
-		.logo img {
-			height: 7.4em;
-		}
-
-		.logo, >nav {
-			margin: 7px 3px;
-		}
-
-		nav ul li {
-			margin-left: 0.6em;
-
-			a {
-				font-size: 1.75em;
-			}
-		}
-	}
-}
-
-@media (max-width: 899px) {
-	#logonav {
-		height: 130px;
+		height: 138px;
 		background-color: #ffffff;
 
 		.logo img {
-			height: 6.6em;
+			height: 5.8em;
 		}
 
 		.logo {
-			margin: 4px 1px;
+			margin: 13px 18px;
 		}
 
-		>nav {
-			margin: 6px;
-		}
-
-		nav {
+		.navigation {
 			#menu-button {
 				display: block;
 				text-decoration: none;
@@ -200,18 +149,15 @@
 				i {
 					font-size: 1.7em;
 					margin: 0 0.125em;
-					color: #4d2822;
-				}
-
-				i.fa-times {
-					color: #ffffff;
 				}
 
 				.fa-bars {
 					display: block;
+					transition: all 0.18s ease;
 				}
 
 				.fa-times {
+					color: #ffffff;
 					display: none;
 				}
 			}
@@ -221,14 +167,19 @@
 			}
 		}
 
-		nav.popout {
+		.navigation.popout {
 			#menu-button {
+				text-decoration: none;
+				position: relative;
+				z-index: 20;
+
 				.fa-bars {
 					display: none;
 				}
 
 				.fa-times {
 					display: block;
+					color: #ffffff;
 				}
 			}
 
