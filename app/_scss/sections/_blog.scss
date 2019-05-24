@@ -44,7 +44,7 @@
 			}
 
 			figcaption {
-				color: #afafaf;
+				color: $grey-mid;
 				cursor: default;
 				font-style: italic;
 				position: absolute; top: 0;
@@ -104,11 +104,11 @@
 			}
 
 			a:link, a:visited {
-				color: #d3d3d3;
+				color: $grey-mid;
 			}
 
 			a:hover, a:active {
-				color: #f5ac1d;
+				color: $yellow;
 			}
 
 			i {
@@ -119,12 +119,12 @@
 
 	#calls-to-action {
 		margin: 2em 0 1em 0;
-		border-top: 1px solid #afafaf;
-		border-bottom: 1px solid #afafaf;
+		border-top: 1px solid $grey-mid;
+		border-bottom: 1px solid $grey-mid;
 		font-size: 1.2em;
 
 		p, ul li, ul li a {
-			color: #afafaf;
+			color: $grey-mid;
 			font-size: inherit;
 			font-style: italic;
 		}
@@ -146,7 +146,7 @@
 
 	#paging {
 		text-align: center;
-		border-top: 5px solid #eeeeee;
+		border-top: 5px solid $grey-light2;
 		padding-top: 1.2em;
 		margin-top: 4.5em;
 		margin-left: 0;

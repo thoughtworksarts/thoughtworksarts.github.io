@@ -2,8 +2,8 @@ footer {
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 4em 2em 3.8em 2em;
-	background-color: #222222;
-	color: #ffffff;
+	background-color: $black;
+	color: $white;
 	position: relative;
 
 	ul li {
@@ -14,11 +14,11 @@ footer {
 		}
 
 		i, a:link, a:visited {
-			color: #ffffff;
+			color: $white;
 		}
 
 		i:hover, a:hover, a:active {
-			color: #f5ac1d;
+			color: $yellow;
 		}
 	}
 
@@ -56,12 +56,12 @@ footer {
 		}
 
 		i, a:link, a:visited {
-			color: #ffffff;
+			color: $white;
 			text-decoration: none;
 		}
 
 		i:hover, a:hover, a:active {
-			color: #f5ac1d;
+			color: $yellow;
 			text-decoration: underline;
 		}
 	}

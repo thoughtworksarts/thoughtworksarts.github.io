@@ -12,7 +12,7 @@
 		text-align: left;
 
 		label {
-			color: #ffffff;
+			color: $white;
 			display: block;
 			margin-bottom: 1em;
 			font-style: italic;
@@ -30,7 +30,7 @@
 		}
 
 		input.faded {
-			color: #cccccc;
+			color: $grey-mid;
 			font-style: italic;
 		}
 
@@ -43,7 +43,7 @@
 			background-color: transparent;
 			letter-spacing: 0.1em;
 			text-transform: lowercase;
-			color: #ffffff;
+			color: $white;
 			-webkit-appearance: button;
 			cursor: pointer;
 			text-align: left;
@@ -58,7 +58,7 @@
 		}
 
 		input[type='submit']:hover {
-			color: #f5ac1d;
+			color: $yellow;
 			background-image: url('/images/icons/arrow-canary.png');
 		}
 	}
@@ -66,7 +66,7 @@
 
 .subscribe-box {
 	.subscribe {
-		background-color: #222222;
+		background-color: $black;
 		margin: 0.7em 0 5.7em 0;
 		padding: 4%;
 		width: 92%;

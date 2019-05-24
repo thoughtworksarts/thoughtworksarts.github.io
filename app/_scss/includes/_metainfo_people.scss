@@ -22,7 +22,7 @@
 	}
 
 	.person-list.extended {
-		border-top: 1px solid #222222;
+		border-top: 1px solid $black;
 
 		.person-item h3 {
 			margin: 1.8em 0;
@@ -57,11 +57,11 @@
 		list-style-type: none;
 
 		>li:last-of-type {
-			border-bottom: 1px solid #eeeeee;
+			border-bottom: 1px solid $grey-light2;
 		}
 
 		>li {
-			border-top: 1px solid #eeeeee;
+			border-top: 1px solid $grey-light2;
 
 			.key, .value {
 				padding: 3%;
@@ -196,7 +196,7 @@
 		.person-list.extended {
 			margin: 0.2em 0 0.8em 0;
 			padding: 0.8em 0;
-			border-bottom: 1px solid #222222;
+			border-bottom: 1px solid $black;
 
 			.person-item {
 				margin: 0;

@@ -32,7 +32,7 @@
 
 		img {
 			width: 100%;
-			border: 2px solid #eeeeee;
+			border: 2px solid $grey-light2;
 		}
 
 		figcaption {
@@ -51,8 +51,8 @@
 	}
 
 	table, tr, td, th {
-		border: 1px solid #222222;
-		background: #ffffff;
+		border: 1px solid $black;
+		background: $white;
 	}
 
 	tr, td, th {
@@ -61,12 +61,12 @@
 	}
 
 	th {
-		background: #eeeeee;
+		background: $grey-light2;
 	}
 
 	thead td {
 		font-weight: bold;
-		background: #eeeeee;
+		background: $grey-light2;
 	}
 }
 

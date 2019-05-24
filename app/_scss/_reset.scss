@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	background: transparent;
 	font-family: 'Open Sans', sans-serif;
-	color: #222222;
+	color: $black;
 	letter-spacing: 0.03em;
 }
 
@@ -51,14 +51,14 @@ q::before, q::after {
 }
 
 ins {
-	background-color: #ff9;
-	color: #000;
+	background-color: $white;
+	color: $black;
 	text-decoration: none;
 }
 
 mark {
-	background-color: #ff9;
-	color: #000; 
+	background-color: $white;
+	color: $black;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -81,7 +81,7 @@ hr {
 	display: block;
 	height: 1px;
 	border: 0;   
-	border-top: 1px solid #cccccc;
+	border-top: 1px solid $grey-mid;
 	margin: 1em 0;
 	padding: 0;
 }

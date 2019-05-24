@@ -7,12 +7,12 @@
 	}
 
 	a i {
-		color: $grey;
+		color: $grey-light2;
 	}
 
 	a:hover, a:active {
 		i {
-			color: #484848;
+			color: $black;
 		}
 	}
 
@@ -145,7 +145,7 @@
 @media (max-width: 1029px) {
 	#logonav {
 		height: 138px;
-		background-color: #ffffff;
+		background-color: $white;
 
 		.logo img {
 			height: 5.8em;
@@ -173,7 +173,7 @@
 				}
 
 				.fa-times {
-					color: #ffffff;
+					color: $white;
 					display: none;
 				}
 			}
@@ -195,7 +195,7 @@
 
 				.fa-times {
 					display: block;
-					color: #ffffff;
+					color: $white;
 				}
 			}
 
