@@ -126,7 +126,23 @@
 	}
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1129px) {
+	#logonav {
+		.navigation ul li a {
+			padding: 0 0.2em;
+		}
+
+		.logo img {
+			height: 5.8em;
+		}
+
+		.logo {
+			margin: 13px 18px;
+		}
+	}
+}
+
+@media (max-width: 1029px) {
 	#logonav {
 		height: 138px;
 		background-color: #ffffff;
