@@ -44,7 +44,7 @@
 
 				li {
 					padding: 0;
-					margin: 2em 0.75em 0 0.75em;
+					margin: 2em 1rem 0 1rem;
 
 					a, img, p, figure, h2 {
 						transition: all 0.4s ease;
@@ -57,8 +57,16 @@
 						border-bottom: 5px solid $grey-light2;
 						background: $white;
 
+						h2 {
+							padding: 0 1rem;
+						}
+
+						h2, p {
+							max-width: 580px;
+						}
+
 						p {
-							padding: 0.1em 1rem;
+							padding: 0.1em 1rem 1rem 1rem;
 						}
 
 						.info {
@@ -68,15 +76,6 @@
 							line-height: 1.2em;
 							font-size: 0.9rem;
 							text-transform: uppercase;
-						}
-
-						h2, span {
-							display: block;
-							max-width: 580px;
-						}
-
-						h2 {
-							padding: 0 1rem;
 						}
 
 						img {
@@ -156,7 +155,7 @@
 					a {
 						height: calc(100% - 5px);
 						display: grid;
-						grid-template-rows: auto 2.8em 4.8em;
+						grid-template-rows: auto min-content min-content;
 
 						img {
 							height: 100%;
@@ -356,18 +355,101 @@
 	}
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1149px) {
+	#home {
+		>main {
+			>section {
+				header, .content, >.progress {
+					width: 100%;
 
+					>h1, >ul, >a {
+						width: calc(100% - 3rem);
+						margin-left: 1.5rem;
+						margin-right: 1.5rem;
+					}
+				}
+
+				ul li {
+					margin-left: 0.75rem;
+					margin-right: 0.75rem;
+				}
+			}
+		}
+	}
 }
 
-@media (max-width: 1099px) {
-
+@media (max-width: 1069px) {
+	#home {
+		>main {
+			>section {
+				ul li a img {
+					height: 170px;
+				}
+			}
+		}
+	}
 }
 
-@media (max-width: 799px) {
-
+@media (max-width: 999px) {
+	#home {
+		>main {
+			.features {
+				ul li a img {
+					height: 150px;
+				}
+			}
+		}
+	}
 }
 
-@media (max-width: 639px) {
+@media (max-width: 924px) {
+	#home {
+		>main {
+			.features {
+				ul {
+					grid-template-columns: 50% 50%;
 
+					li {
+						height: calc(100% - 5px);
+
+						a {
+							height: 100%;
+
+							img {
+								height: 200px;
+							}
+						}
+					}
+
+					.feature-1 {
+						grid-column: 1 / span 2;
+						grid-row: 1;
+						margin-right: 0;
+						height: 520px;
+					}
+
+					.feature-2 {
+						grid-column: 1;
+						grid-row: 2;
+						margin-left: 0;
+						margin-right: 0.75rem;
+						margin-top: 1em;
+					}
+
+					.feature-3 {
+						grid-column: 2;
+						grid-row: 2;
+						margin-left: 0.75rem;
+						margin-right: 0;
+					}
+
+					.feature-2, .feature-3 {
+						h2 {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
 }

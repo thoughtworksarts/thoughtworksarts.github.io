@@ -414,10 +414,6 @@ ul.progress li, ol.progress li {
 		width: 1010px;
 	}
 
-	p, ul, ol, .progress, blockquote {
-		font-size: $largest_font;
-	}
-
 	figcaption {
 		font-size: 1em;
 	}
@@ -436,20 +432,11 @@ ul.progress li, ol.progress li {
 		width: 90%;
 		max-width: inherit;
 	}
-
-	p, ul, ol, blockquote {
-		font-size: 1.07em;
-	}
 }
 
 @media (max-width: 999px) {
 	h1 {
 		margin-top: 0.2em;
-	}
-
-	body>main>section {
-		max-width: 650px;
-		margin: 2.3em auto 4.8em 3em;
 	}
 
 	body>main>section.shorter {
