@@ -226,3 +226,65 @@
 		}
 	}
 }
+
+@media (max-width: 749px) {
+	#logonav {
+		height: 127px;
+
+		.logo img {
+			height: 5.2em;
+		}
+
+		.social-links {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 499px) {
+	#logonav {
+		height: 117px;
+		text-align: center;
+		border-bottom: 24px solid $grey-light1;
+
+		.logo, .navigation {
+			width: 100%;
+			margin: 0;
+		}
+
+		.logo {
+			position: inherit;
+
+			img {
+				margin-top: 1.2em;
+				height: 4.8em;
+			}
+		}
+
+		.navigation {
+			position: absolute;
+			bottom: 0;
+
+			#menu-button {
+				right: 0;
+				bottom: -2em;
+
+				i {
+					color: $grey-mid;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 429px) {
+	#logonav {
+		height: inherit;
+
+		.logo img {
+			height: inherit;
+			width: 95%;
+			max-width: 292px;
+		}
+	}
+}
