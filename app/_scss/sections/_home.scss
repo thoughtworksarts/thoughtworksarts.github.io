@@ -490,6 +490,27 @@
 	}
 }
 
+@media (max-width: 889px) {
+	#home {
+		>main {
+			.about-us {
+				>.content {
+					display: block;
+
+					.explanation, figure{
+						width: 100%;
+						max-width: 580px;
+					}
+
+					figure a img {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
 @media (max-width: 799px) {
 	#home {
 		>main {
