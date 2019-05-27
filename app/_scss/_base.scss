@@ -73,6 +73,10 @@ body.site-banner>header {
 	}
 }
 
+body.no-scroll {
+	overflow: hidden;
+}
+
 a {
 	transition: color 0.12s;
 }

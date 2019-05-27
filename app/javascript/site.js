@@ -12,8 +12,10 @@ $(document).ready(function() {
 		$('#menu-button').click(function() {
 			if(menuOverlaid){
 				$('header>#logonav>nav').removeClass('popout');
+				$('body').removeClass('no-scroll');
 			} else {
 				$('header>#logonav>nav').addClass('popout');
+				$('body').addClass('no-scroll');
 			}
 			menuOverlaid = !menuOverlaid;
 		});
