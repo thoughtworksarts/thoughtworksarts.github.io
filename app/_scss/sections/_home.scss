@@ -198,21 +198,17 @@
 				figure {
 					grid-column: 2;
 					grid-row: 1 / span 2;
-					padding: 0 0 0 1.5em;
 					min-width: 320px;
 
 					a {
 						display: block;
+						width: 100%;
 						height: 100%;
 
 						img {
 							margin-top: 5.7em;
 							width: 100%;
 						}
-					}
-
-					figcaption {
-						display: none;
 					}
 				}
 			}
@@ -381,6 +377,25 @@
 					margin-right: 0.75rem;
 				}
 			}
+
+			>.about-us {
+				header, .content, >.progress {
+					width: 100%;
+
+					.explanation {
+						width: auto;
+						margin-left: 1.5rem;
+						margin-right: 0;
+						max-width: 500px;
+					}
+
+					figure {
+						margin-right: 1.5rem;
+						margin-left: 0;
+						min-width: auto;
+					}
+				}
+			}
 		}
 	}
 }
@@ -391,6 +406,20 @@
 			>section {
 				ul li a img {
 					height: 170px;
+				}
+			}
+
+			.about-us >.content{
+				h1 {
+					height: auto;
+				}
+
+				.explanation {
+					width: 400px;
+				}
+
+				figure a img {
+					margin-top: 7.7em;
 				}
 			}
 		}
