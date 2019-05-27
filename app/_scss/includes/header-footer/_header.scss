@@ -6,8 +6,12 @@
 		display: none;
 	}
 
-	a i {
+	a:link i, a:visited i {
 		color: $grey-light2;
+	}
+
+	a:hover i, a:active i {
+		color: $black;
 	}
 
 	.logo {
