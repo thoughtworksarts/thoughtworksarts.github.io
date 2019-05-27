@@ -497,13 +497,25 @@
 				>.content {
 					display: block;
 
-					.explanation, figure{
-						width: 100%;
+					.explanation, figure {
+						width: calc(100% - 3rem);
+						margin-left: 1.5rem;
+						margin-right: 1.5rem;
 						max-width: 580px;
+						padding: 0;
 					}
 
-					figure a img {
-						margin-top: 0;
+					.explanation {
+						width: calc(100% - 3rem);
+					}
+
+					figure {
+						margin: 0;
+						width: 100%;
+
+						a img {
+							margin-top: 0;
+						}
 					}
 				}
 			}
