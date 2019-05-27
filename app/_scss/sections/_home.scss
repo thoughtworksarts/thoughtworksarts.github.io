@@ -182,31 +182,38 @@
 
 			>.content {
 				display: grid;
-				grid-template-columns: 40% 60%;
-			}
 
-			h1 {
-				grid-column: 1;
-				grid-row: 1;
-			}
-
-			.explanation {
-				grid-column: 1;
-				grid-row: 2;
-				padding: 0 2em 0 0;
-			}
-
-			figure {
-				grid-column: 2;
-				grid-row: 1 / span 2;
-				padding: 2.6em 0 0 1.5em;
-
-				img {
-					width: 100%;
+				h1 {
+					grid-column: 1;
+					grid-row: 1;
+					height: 1rem;
 				}
 
-				figcaption {
-					display: none;
+				.explanation {
+					grid-column: 1;
+					grid-row: 2;
+					padding: 0 2em 0 0;
+				}
+
+				figure {
+					grid-column: 2;
+					grid-row: 1 / span 2;
+					padding: 0 0 0 1.5em;
+					min-width: 320px;
+
+					a {
+						display: block;
+						height: 100%;
+
+						img {
+							margin-top: 5.7em;
+							width: 100%;
+						}
+					}
+
+					figcaption {
+						display: none;
+					}
 				}
 			}
 		}
@@ -362,7 +369,7 @@
 				header, .content, >.progress {
 					width: 100%;
 
-					>h1, >ul, >a {
+					>h1, >ul, >a, >section {
 						width: calc(100% - 3rem);
 						margin-left: 1.5rem;
 						margin-right: 1.5rem;
