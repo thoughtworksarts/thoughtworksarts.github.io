@@ -363,12 +363,10 @@
 		>main {
 			>section {
 				header, .content, >.progress {
-					width: 100%;
+					width: calc(100% - 3rem);
 
 					>h1, >ul, >a, >section {
-						width: calc(100% - 3rem);
-						margin-left: 1.5rem;
-						margin-right: 1.5rem;
+						width: 100%
 					}
 				}
 
@@ -380,11 +378,8 @@
 
 			.about-us {
 				header, .content, >.progress {
-					width: 100%;
-
 					.explanation {
 						width: auto;
-						margin-left: 1.5rem;
 						margin-right: 0;
 						max-width: 500px;
 					}
@@ -509,7 +504,6 @@
 
 					.explanation, figure {
 						width: calc(100% - 3rem);
-						margin-left: 1.5rem;
 						margin-right: 1.5rem;
 						max-width: 580px;
 						padding: 0;
@@ -522,6 +516,7 @@
 					figure {
 						margin: 0;
 						width: 100%;
+						position: relative; left: -28px;
 
 						a img {
 							margin-top: 0;
