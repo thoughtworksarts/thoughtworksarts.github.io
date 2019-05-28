@@ -123,7 +123,7 @@ $(document).ready(function() {
 
 		var col = 0;
 		var row = 0;
-		var numCols = 3;
+		var numCols = $('#curator-feed').css('column-count');
 		var listItems = $('#curator-feed li').detach();
 
 		listItems.each(function(index) {
