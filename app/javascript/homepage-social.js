@@ -5,6 +5,7 @@ $(document).ready(function() {
 	var countSetupAttempts = 20;
 	var maxSetupAttempts = 20;
 	var setupAttemptInterval = 250;
+	var columnStartIndices;
 
 	function init() {
 		if(window.location.pathname == '/') {
@@ -40,6 +41,7 @@ $(document).ready(function() {
 			deduplicatePosts();
 			insertPostsDirectlyIntoListElement();
 			displaySocialWall();
+			reorderColumnsForScreenSize();
 		} else {
 			countSetupAttempts++;
 			if(countSetupAttempts < maxSetupAttempts) {
@@ -113,6 +115,42 @@ $(document).ready(function() {
 		list.html('');
 		items.each(function(index, item) {
 			list.append(item);
+		});
+	}
+
+	function reorderColumnsForScreenSize() {
+		populateColumnStartIndices();
+
+		var col = 0;
+		var row = 0;
+		var numCols = 3;
+		var listItems = $('#curator-feed li').detach();
+
+		listItems.each(function(index) {
+			$(this).attr('data-new-order', columnStartIndices[col] + row);
+
+			col++;
+			if(col == numCols) {
+				col = 0;
+				row++;
+			}
+		});
+
+		listItems.sort(function(a, b) {
+			return $(a).data('new-order') - $(b).data('new-order');
+		}).appendTo('#curator-feed');
+	}
+
+	function populateColumnStartIndices() {
+		columnStartIndices = [];
+		var lastColumnPosition = -1;
+
+		$('#curator-feed li').each(function(index) {
+			var currentColumnPosition = $(this).position().left;
+			if(currentColumnPosition > lastColumnPosition) {
+				columnStartIndices.push(index);
+				lastColumnPosition = currentColumnPosition;
+			}
 		});
 	}
 
