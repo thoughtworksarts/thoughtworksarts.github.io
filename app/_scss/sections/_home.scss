@@ -291,7 +291,7 @@
 						figure {
 							max-height: 350px;
 							border-radius: 18px;
-							width: 90%;
+							width: calc(100% - 2rem);
 							display: inline-block;
 							transform: scale(1); //Explanation: https://stackoverflow.com/questions/53068471/css-column-count-transform-scale-transition-strange-behavior
 						}
@@ -434,6 +434,16 @@
 					height: 150px;
 				}
 			}
+
+			.social {
+				.content {
+					max-height: 900px;
+				}
+
+				ul#curator-feed {
+					column-count: 2;
+				}
+			}
 		}
 	}
 }
@@ -526,7 +536,7 @@
 @media (max-width: 859px) {
 	#home {
 		>main {
-			.feed {
+			.feed:not(.social) {
 				ul {
 					display: block;
 
@@ -567,7 +577,7 @@
 				}
 			}
 
-			.feed ul li a img {
+			.feed:not(.social) ul li a img {
 				height: 270px;
 			}
 		}
@@ -589,7 +599,7 @@
 				}
 			}
 
-			.feed ul li a img {
+			.feed:not(.social) ul li a img {
 				height: 240px;
 			}
 		}
@@ -608,6 +618,16 @@
 					.feature-1 {
 						height: 430px;
 					}
+				}
+			}
+
+			.social {
+				.content {
+					max-height: 1350px;
+				}
+
+				ul#curator-feed {
+					column-count: 1;
 				}
 			}
 		}
@@ -681,7 +701,7 @@
 				}
 			}
 
-			.feed ul li a {
+			.feed:not(.social) ul li a {
 				img {
 					height: 220px;
 				}
@@ -707,8 +727,24 @@
 				}
 			}
 
-			.feed ul li a img {
+			.feed:not(.social) ul li a img {
 				height: 160px;
+			}
+		}
+	}
+}
+
+@media (max-width: 359px) {
+	#home {
+		>main {
+			.social ul#curator-feed li a .meta {
+				.name-date {
+					margin-left: 1.1em;
+				}
+
+				.social-author-icon {
+					display: none;
+				}
 			}
 		}
 	}
