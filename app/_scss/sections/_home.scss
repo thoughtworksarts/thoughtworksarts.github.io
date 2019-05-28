@@ -266,7 +266,6 @@
 			ul#curator-feed {
 				column-count: 3;
 				column-gap: 0.5em;
-				width: 100%;
 				display: block;
 
 				li {
@@ -336,6 +335,7 @@
 
 								.when-posted {
 									text-transform: lowercase;
+									display: block;
 								}
 							}
 						}
@@ -378,7 +378,7 @@
 				}
 			}
 
-			>.about-us {
+			.about-us {
 				header, .content, >.progress {
 					width: 100%;
 
