@@ -5,7 +5,9 @@ $(document).ready(function() {
 	var countSetupAttempts = 20;
 	var maxSetupAttempts = 30;
 	var setupAttemptInterval = 250;
-	var columnStartIndices;
+	var postReorderingHasRunBefore = false;
+	var numCols;
+	var prevNumCols = -1;
 
 	function init() {
 		if(window.location.pathname == '/') {
@@ -41,7 +43,7 @@ $(document).ready(function() {
 			deduplicatePosts();
 			insertPostsDirectlyIntoListElement();
 			displaySocialWall();
-			reorderColumnsForScreenSize();
+			reorderPostsOnColumnCountChange();
 		} else {
 			countSetupAttempts++;
 			if(countSetupAttempts < maxSetupAttempts) {
@@ -118,16 +120,45 @@ $(document).ready(function() {
 		});
 	}
 
-	function reorderColumnsForScreenSize() {
-		populateColumnStartIndices();
+	function reorderPostsOnColumnCountChange() {
+		numCols = $('#curator-feed').css('column-count');
+		if(numCols != prevNumCols) {
+			prevNumCols = numCols;
+			reorderPosts();
 
+			if(!postReorderingHasRunBefore) {
+				$(window).resize(reorderPostsOnColumnCountChange);
+				postReorderingHasRunBefore = true;
+			}
+		}
+	}
+
+	function reorderPosts() {
+		var listItems = $('#curator-feed li');
+
+		if(postReorderingHasRunBefore) {
+			sortByAttribute(listItems, 'original-order');
+		} else {
+			assignOriginalOrderAttributes(listItems, 'original-order');
+		}
+
+		assignReplacementOrderAttributes(listItems, 'replacement-order');
+		sortByAttribute(listItems, 'replacement-order');
+	}
+
+	function assignOriginalOrderAttributes(listItems, attrName) {
+		listItems.each(function(index) {
+			$(this).attr('data-' + attrName, index);
+		});
+	}
+
+	function assignReplacementOrderAttributes(listItems, attrName) {
+		var columnStartIndices = getColumnStartIndices();
 		var col = 0;
 		var row = 0;
-		var numCols = $('#curator-feed').css('column-count');
-		var listItems = $('#curator-feed li').detach();
 
 		listItems.each(function(index) {
-			$(this).attr('data-new-order', columnStartIndices[col] + row);
+			$(this).attr('data-' + attrName, columnStartIndices[col] + row);
 
 			col++;
 			if(col == numCols) {
@@ -135,13 +166,17 @@ $(document).ready(function() {
 				row++;
 			}
 		});
-
-		listItems.sort(function(a, b) {
-			return $(a).data('new-order') - $(b).data('new-order');
-		}).appendTo('#curator-feed');
 	}
 
-	function populateColumnStartIndices() {
+	function sortByAttribute(listItems, sortBy) {
+		listItems.detach().sort(function(a, b) {
+			return parseInt($(a).attr('data-' + sortBy)) - parseInt($(b).attr('data-' + sortBy));
+		});
+
+		$('#curator-feed').append(listItems);
+	}
+
+	function getColumnStartIndices() {
 		columnStartIndices = [];
 		var lastColumnPosition = -1;
 
@@ -152,6 +187,8 @@ $(document).ready(function() {
 				lastColumnPosition = currentColumnPosition;
 			}
 		});
+
+		return columnStartIndices;
 	}
 
 	function displaySocialWall() {
