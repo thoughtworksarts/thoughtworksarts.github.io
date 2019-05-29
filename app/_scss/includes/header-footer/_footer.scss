@@ -6,19 +6,27 @@ footer {
 	color: $white;
 	position: relative;
 
-	ul li {
-		display: inline;
+	h2 {
+		display: none;
+	}
 
-		i, a {
-			text-decoration: none;
-		}
+	ul {
+		margin-left: 0;
 
-		i, a:link, a:visited {
-			color: $white;
-		}
+		li {
+			display: inline;
 
-		i:hover, a:hover, a:active {
-			color: $yellow;
+			i, a {
+				text-decoration: none;
+			}
+
+			i, a:link, a:visited {
+				color: $white;
+			}
+
+			i:hover, a:hover, a:active {
+				color: $yellow;
+			}
 		}
 	}
 
@@ -91,18 +99,24 @@ footer::after {
 
 @media (max-width: 999px) {
 	footer {
+		padding-top: 7em;
+
+		.subscribe {
+			display: none;
+		}
+
 		.social-links {
 			width: 100%;
 			float: none;
 			text-align: center;
-			margin-right: 0;
+			margin: 0 0 5.6em 0;
 		}
 
 		.notices {
 			left: 50%;
 			margin: 0 0 0 -100px;
 			width: 200px;
-			padding: 0.5em 0;
+			padding: 0.9em 0;
 			text-align: center;
 
 			li {
@@ -120,8 +134,26 @@ footer::after {
 	}
 }
 
-@media (max-width: 849px) {
+@media (max-width: 409px) {
 	footer {
-		margin-top: 3em;
+		.social-links {
+			li {
+				margin-right: 0;
+			}
+
+			a {
+				font-size: 1.2em;
+			}
+		}
+	}
+}
+
+@media (max-width: 309px) {
+	footer {
+		padding-top: 3.2em;
+
+		.social-links {
+			display: none;
+		}
 	}
 }
