@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var numPostsRequested = 50;
 	var numPostsRequired = 12;
 	var countSetupAttempts = 20;
-	var maxSetupAttempts = 20;
+	var maxSetupAttempts = 30;
 	var setupAttemptInterval = 250;
 	var columnStartIndices;
 
