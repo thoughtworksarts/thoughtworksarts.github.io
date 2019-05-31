@@ -133,7 +133,7 @@ h1 {
 	text-transform: uppercase;
 	margin: 0.9em 0 0.4em 0;
 	line-height: $smallest_lineheight;
-	font-size: 2.2rem;
+	font-size: $h1-font;
 
 	a:link, a:visited {
 		text-decoration: none;
@@ -142,7 +142,7 @@ h1 {
 
 h2, h2 span {
 	line-height: $smallest_lineheight;
-	font-size: $h1-font;
+	font-size: $h2-font;
 	letter-spacing: 0;
 	font-weight: bold;
 	margin: 0.5em 0;
