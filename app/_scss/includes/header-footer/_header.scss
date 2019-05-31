@@ -70,7 +70,8 @@
 					padding: 0 1em;
 
 					span {
-						font-family: 'Bebas Neue', sans-serif;
+						font-family: $bebas;
+						text-transform: uppercase;
 						font-size: 1.9em;
 						letter-spacing: 0.05em;
 					}

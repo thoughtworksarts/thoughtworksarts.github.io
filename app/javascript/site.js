@@ -4,6 +4,7 @@ $(document).ready(function() {
 		enableSocialLinks();
 		fixResizableHeights();
 		populateSignupBox();
+		pingFontUseageCounter();
 	}
 
 	function enableMenuButton() {
@@ -79,6 +80,15 @@ $(document).ready(function() {
 	function unprepForEmailEntry(el){
 		el.val('your email');
 		el.addClass('faded');
+	}
+
+	function pingFontUseageCounter() {
+		var counterURL = 'https://hello.myfonts.net/count/398209';
+		if (document.createStyleSheet) {
+			document.createStyleSheet(counterURL);
+		} else {
+			$('head').append($("<link rel='stylesheet' href='" + counterURL + "' type='text/css' media='screen' />"));
+		}
 	}
 
 	init();
