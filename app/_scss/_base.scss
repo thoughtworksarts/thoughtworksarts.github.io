@@ -5,7 +5,7 @@ html, body {
 }
 
 body>main>section {
-	margin: 2em auto 4.1em 3em;;
+	width: 100%;
 }
 
 body>main>section.shorter {
@@ -99,10 +99,14 @@ a.attention {
 }
 
 p, ul, ol, .progress, blockquote {
-	font-size: $even_larger_font;
+	font-size: $standard-font;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
 	padding: 0.9em 0;
+}
+
+p {
+	max-width: 580px;
 }
 
 ul, ol {
@@ -117,14 +121,28 @@ figcaption {
 	font-size: 1.25em;
 }
 
+h1, h2, p {
+	cursor: default;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin: 0.9em 0 0.4em 0;
+}
+
+h2 {
+	letter-spacing: -0.03em;
+	font-size: 1.7rem;
+	margin: 0.5em 0;
+}
+
 h1 {
 	line-height: $smallest_lineheight;
-	font-family: 'Bebas Neue', sans-serif;
-	border-top: 3px solid;
-	display: inline-block;
-	padding: 0.28em 0.35em 0 0;
-	margin-top: 0.3em;
-	font-size: 2.75em;
+	font-size: 2.2rem;
 
 	a:link, a:visited {
 		text-decoration: none;
@@ -132,10 +150,7 @@ h1 {
 }
 
 h2, h2 span {
-	margin: 0 0 0.1rem 0;
-	font-size: 2.1rem;
 	line-height: $smallest_lineheight;
-	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 400;
 	position: relative;
 
@@ -147,8 +162,6 @@ h2, h2 span {
 
 h3 {
 	margin: 1.5em 0 0.3em 0;
-	font-size: 1.5em;
-	line-height: $smallest_lineheight;
 	font-weight: bold;
 }
 
@@ -312,6 +325,7 @@ ul.progress li, ol.progress li {
 
 .progress {
 	a {
+		font-size: $largest_font;
 		font-weight: bold;
 		text-decoration: none;
 		text-transform: lowercase;

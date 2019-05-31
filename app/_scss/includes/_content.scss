@@ -1,4 +1,10 @@
-.info-content {
+.content, .progress {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 0 2.5em 0;
+}
+
+.general-info {
 	h2 {
 		margin-top: 140px;
 	}
