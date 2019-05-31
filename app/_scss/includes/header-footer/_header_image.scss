@@ -6,12 +6,12 @@
 	}
 }
 
-.pattern-header-image {
+.pattern-header-image:not(#home) {
 	background-image: url('/images/full-bleed/pattern-1600.png');
 	background-position: 0 189px;
 	background-repeat: no-repeat;
 
-	header.flex-col {
+	>header.flex-col {
 		height: 204px;
 		min-height: 0;
 
@@ -28,10 +28,10 @@
 }
 
 @media (max-width: 1299px) {
-	.pattern-header-image {
+	.pattern-header-image:not(#home) {
 		background-position: 0 175px;
 
-		header.flex-col {
+		>header.flex-col {
 			height: 175px;
 		}
 
@@ -42,10 +42,10 @@
 }
 
 @media (max-width: 1099px) {
-	.pattern-header-image {
+	.pattern-header-image:not(#home) {
 		background-position: 0 160px;
 
-		header.flex-col {
+		>header.flex-col {
 			height: 160px;
 		}
 
@@ -56,10 +56,10 @@
 }
 
 @media (max-width: 899px) {
-	.pattern-header-image {
+	.pattern-header-image:not(#home) {
 		background-position: 0 114px;
 
-		header.flex-col {
+		>header.flex-col {
 			height: 143px;
 		}
 
@@ -70,7 +70,7 @@
 }
 
 @media (max-width: 639px) {
-	.pattern-header-image {
+	.pattern-header-image:not(#home) {
 		background-image: inherit;
 
 		>main>section:first-of-type {
