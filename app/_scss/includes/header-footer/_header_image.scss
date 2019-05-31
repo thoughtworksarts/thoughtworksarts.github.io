@@ -7,10 +7,6 @@
 }
 
 .pattern-header-image:not(#home) {
-	background-image: url('/images/full-bleed/pattern-1600.png');
-	background-position: 0 189px;
-	background-repeat: no-repeat;
-
 	>header.flex-col {
 		height: 204px;
 		min-height: 0;
@@ -24,6 +20,15 @@
 
 	>main>section:first-of-type {
 		margin-top: 9.8em;
+	}
+}
+
+#home, .pattern-header-image {
+	>main>section:first-of-type {
+		background:
+			linear-gradient($grey-light1, transparent) top/100% 4px no-repeat,
+			url('/images/full-bleed/pattern-1600.png') no-repeat top;
+		box-shadow: inset 0 0 50px -15px rgba(0,0,0,0.05);
 	}
 }
 
