@@ -4,15 +4,15 @@ bodyid      : projects
 description : Look through the projects created on the ThoughtWorks Arts Residency program, which supports artists exploring new lines of inquiry intersecting technology and society.
 ---
 <section>
-	<div class="info-content">
+	<div class="content">
 		<header>
 			<h1>Projects</h1>
 		</header>
 		<p>Since the program's inception in 2016, residents at ThoughtWorks have been supported in projects which explore emerging technologies, and how they relate to society. Artists have the opportunity to assemble project teams, and often collaborate with ThoughtWorks employees as part of their process.</p>
 	</div>
 </section>
-<section class="listing projects expanded">
-	<div class="info-content">
+<section class="listing projects">
+	<div class="content">
 		{% assign projects = site.projects | sort: 'season-code' | reverse %}
 		{% for project in projects %}
 			<section class="listing-item flex-row">
