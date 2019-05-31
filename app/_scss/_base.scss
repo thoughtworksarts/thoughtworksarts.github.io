@@ -24,7 +24,7 @@ body>main>section:last-of-type {
 	margin-bottom: 5em;
 }
 
-body>header.flex-col.splash {
+body:not(#home)>header.flex-col {
 	height: 67%;
 	min-height: 635px;
 
