@@ -8,10 +8,6 @@ body>main>section {
 	width: 100%;
 }
 
-body>main>section.shorter {
-	margin-bottom: 3em;
-}
-
 body>main>section.expanded {
 	width: 1060px;
 }
@@ -443,10 +439,6 @@ ul.progress li, ol.progress li {
 		margin-top: 0.2em;
 	}
 
-	body>main>section.shorter {
-		margin-bottom: 2.8em;
-	}
-
 	body>main>section.expanded {
 		width: 89%;
 		max-width: inherit;
@@ -475,10 +467,6 @@ ul.progress li, ol.progress li {
 
 	body>main>section {
 		margin: 2em auto 3.8em 1.1em;
-	}
-
-	body>main>section.shorter {
-		margin-bottom: 1.3em;
 	}
 }
 
