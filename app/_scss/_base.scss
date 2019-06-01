@@ -38,7 +38,7 @@ a.attention {
 }
 
 p, ul, ol, .progress, blockquote {
-	font-size: $standard-font;
+	font-size: $standard-font-size;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
 	padding: 0.9em 0;
@@ -72,7 +72,7 @@ h1 {
 	text-transform: uppercase;
 	margin: 0.9em 0 0.4em 0;
 	line-height: $smallest_lineheight;
-	font-size: $h1-font;
+	font-size: $h1-font-size;
 
 	a:link, a:visited {
 		text-decoration: none;
@@ -81,7 +81,7 @@ h1 {
 
 h2, h2 span {
 	line-height: $smallest_lineheight;
-	font-size: $h2-font;
+	font-size: $h2-font-size;
 	letter-spacing: 0;
 	font-weight: bold;
 	margin: 0.5em 0;
@@ -258,7 +258,7 @@ ul.progress li, ol.progress li {
 
 .progress {
 	a {
-		font-size: $largest_font;
+		font-size: $standard-font-size;
 		font-weight: bold;
 		text-decoration: none;
 		text-transform: lowercase;
