@@ -6,21 +6,8 @@
 	}
 }
 
-.pattern-header-image:not(#home) {
-	>header.flex-col {
-		height: 204px;
-		min-height: 0;
-
-		#image-splash {
-			background-image: inherit !important;
-			background-color: $grey-light2;
-			margin: 0;
-		}
-	}
-
-	>main>section:first-of-type {
-		margin-top: 9.8em;
-	}
+.pattern-header-image:not(#home) #image-splash {
+	display: none;
 }
 
 #home, .pattern-header-image {
@@ -29,6 +16,7 @@
 			linear-gradient($grey-light1, transparent) top/100% 4px no-repeat,
 			url('/images/full-bleed/pattern-1600.png') no-repeat top;
 		box-shadow: inset 0 0 50px -15px rgba(0,0,0,0.05);
+		border-top: $header-divider-size solid $grey-light1;
 	}
 }
 

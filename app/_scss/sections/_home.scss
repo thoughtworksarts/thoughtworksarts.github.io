@@ -3,7 +3,7 @@
 		>section {
 			margin: 0;
 			position: relative;
-			border-top: 12px solid $grey-light1;
+			border-top: $header-divider-size solid $grey-light1;
 
 			ul {
 				list-style-type: none;
