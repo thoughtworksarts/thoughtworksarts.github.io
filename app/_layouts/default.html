@@ -71,7 +71,7 @@
   <link rel="shortcut icon" href="/images/favicon.ico">
 </head>
 
-<body id="{{ page.bodyid }}" class="{{ bodyclass }}">
+<body id="{{ page.bodyid }}"{% if bodyclass != '' %} class="{{ bodyclass }}"{% endif %}>
   <header role="banner" class="flex-col">
     <section id="logonav">
       <h1>ThoughtWorks Arts</h1>
@@ -86,8 +86,8 @@
       {% include header-footer/social.html %}
       {% include header-footer/navigation.html %}
     </section>
-    {% if page.bodyid != 'home' %}
-    <figure id="image-splash" class="bottom"></figure>
+    {% if bodyclass contains 'splash-image' %}
+      <figure id="image-splash" class="bottom"></figure>
     {% endif %}
   </header>
   <main>

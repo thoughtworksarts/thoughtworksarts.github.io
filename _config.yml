@@ -57,27 +57,25 @@ defaults:
     values:
       layout    : default
       bodyclass : landing-page
+      bodyclass : splash-image
   - scope:
       type: posts
     values:
       layout    : post
       bodyid    : blog
-      bodyclass : pattern-header-image
   - scope:
       type: newsletters
     values:
       layout    : newsletter
       bodyid    : blog
-      bodyclass : pattern-header-image newsletter
+      bodyclass : newsletter
   - scope:
       type: projects
     values:
       layout    : project
       bodyid    : projects
-      bodyclass : pattern-header-image
   - scope:
       type: people
     values:
       layout    : bio
       bodyid    : projects
-      bodyclass : pattern-header-image

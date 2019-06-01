@@ -1,7 +1,6 @@
 ---
 layout     : post-special
 title	   : "Open Call: The Implications of AI"
-bodyclass  : pattern-header-image
 description: An Open Call for artists investigating artificial intelligence and related issues in 2017
 ---
 <p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. <a href="/blog/karen-palmer-ai-residency/">Click here to learn more</a>.</p>

@@ -1,7 +1,6 @@
 ---
 layout     : post-special
 title	   : "Volumetric Filmmaking Workshop with Depthkit"
-bodyclass  : pattern-header-image
 description: Open Call for a Volumetric Filmmaking workshop to learn Depthkit, hosted by ThoughtWorks Arts and Scatter in New York
 image      : /images/posts-special/open-call/2019-volumetric-workshop/og_volumetric.jpg
 ---

@@ -1,7 +1,6 @@
 ---
 layout     : post-special
 title	   : "New Trajectories in Volumetric Filmmaking: Open Call"
-bodyclass  : pattern-header-image
 description: Open Call for a Volumetric Filmmaking residency, hosted by ThoughtWorks Arts and Scatter in New York City
 image      : /images/posts-special/open-call/2019-volumetric-residency/og_volumetric.jpg
 ---
