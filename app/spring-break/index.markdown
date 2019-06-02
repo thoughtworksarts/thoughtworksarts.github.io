@@ -1,7 +1,7 @@
 ---
 layout     : post-special
-title	     : "ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018"
-bodyclass  : spring-break-header-image
+title	     : ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018
+bodyclass  : landing-page spring-break
 description: Artists incubated by ThoughtWorks Arts presented an exhibition at SPRING/BREAK for New York's Armory Week in 2018
 image      : /images/posts-special/spring-break/dual-brains.jpg
 ---
