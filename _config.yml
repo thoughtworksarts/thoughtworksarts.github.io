@@ -57,7 +57,6 @@ defaults:
     values:
       layout    : default
       bodyclass : landing-page
-      bodyclass : splash-image
   - scope:
       type: posts
     values:

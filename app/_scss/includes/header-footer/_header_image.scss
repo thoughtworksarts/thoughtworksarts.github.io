@@ -6,7 +6,7 @@
 	}
 }
 
-body:not(.splash-image) {
+body:not(.landing-page) {
 	>main>section:first-of-type {
 		background:
 			linear-gradient($grey-light1, transparent) top/100% 4px no-repeat,
@@ -17,7 +17,7 @@ body:not(.splash-image) {
 }
 
 @media (max-width: 1299px) {
-	body:not(.splash-image) {
+	body:not(.landing-page) {
 		background-position: 0 175px;
 
 		>header.flex-col {
@@ -31,7 +31,7 @@ body:not(.splash-image) {
 }
 
 @media (max-width: 1099px) {
-	body:not(.splash-image) {
+	body:not(.landing-page) {
 		background-position: 0 160px;
 
 		>header.flex-col {
@@ -45,7 +45,7 @@ body:not(.splash-image) {
 }
 
 @media (max-width: 899px) {
-	body:not(.splash-image) {
+	body:not(.landing-page) {
 		background-position: 0 114px;
 
 		>header.flex-col {
@@ -59,7 +59,7 @@ body:not(.splash-image) {
 }
 
 @media (max-width: 639px) {
-	body:not(.splash-image) {
+	body:not(.landing-page) {
 		background-image: inherit;
 
 		>main>section:first-of-type {
