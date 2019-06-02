@@ -16,6 +16,10 @@
 	article:first-of-type {
 		margin-top: 3.125em;
 	}
+
+	.subscribe {
+		float: none;
+	}
 }
 
 #news:not(.landing-page) {
@@ -40,7 +44,7 @@
 		display: none;
 	}
 
-	h1:not(.newsletter-heading) {
+	h1 {
 		cursor: default;
 		width: 100%;
 		transition: border 0.16s ease-out;
@@ -203,7 +207,7 @@
 			display: none;
 		}
 
-		h1:not(.newsletter-heading) {
+		h1 {
 			width: 97%;
 		}
 	}
@@ -230,7 +234,7 @@
 			}
 		}
 
-		h1:not(.newsletter-heading) {
+		h1 {
 			width: 95%;
 		}
 	}

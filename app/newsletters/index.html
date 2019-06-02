@@ -12,12 +12,10 @@ description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date wi
 			<h1>Newsletters</h1>
 		</header>
 		<section class="subscribe-box">
-			<h1 class="newsletter-heading">Newsletters</h1>
-			<p>Newsletters are sent regularly. Sign up to receive these updates in your email inbox:</p>
-			{% include news/subscribe-email.html %}
+			{% include news/subscribe-email.html label='Get these newsletters in your inbox:' %}
 		</section>
 		{% for newsletter in paginator.posts %}
-		<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+		<article role="article">
 			<header>
 				<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
 				{% include news/newsletter-date.html %}
