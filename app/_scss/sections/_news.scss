@@ -1,4 +1,6 @@
-#blog {
+//Blog & Newsletter sections
+
+#news {
 	position: relative;
 
 	#image-splash {
@@ -157,14 +159,14 @@
 	}
 }
 
-#blog.landing-page {
+#news.landing-page {
 	h1:hover {
 		border-top: 3px solid rgba(34, 34, 34, 0);
 	}
 }
 
 @media (max-width: 1299px) {
-	#blog .widgets {
+	#news .widgets {
 		top: 0.2em;
 
 		figure figcaption {
@@ -182,7 +184,7 @@
 }
 
 @media (max-width: 639px) {
-	#blog {
+	#news {
 		.widgets ul.social-links {
 			display: none;
 		}
@@ -194,7 +196,7 @@
 }
 
 @media (max-width: 599px) {
-	#blog {
+	#news {
 		article {
 			margin-top: 2.5em;
 		}
@@ -202,7 +204,7 @@
 }
 
 @media (max-width: 489px) {
-	#blog {
+	#news {
 		#paging {
 			li {
 				display: block;

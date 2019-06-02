@@ -61,12 +61,12 @@ defaults:
       type: posts
     values:
       layout    : post
-      bodyid    : blog
+      bodyid    : news
   - scope:
       type: newsletters
     values:
       layout    : newsletter
-      bodyid    : blog
+      bodyid    : news
       bodyclass : newsletter
   - scope:
       type: projects
