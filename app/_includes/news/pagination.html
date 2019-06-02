@@ -11,9 +11,13 @@
 		{% endif %}
 
 		{% if paginator.next_page and paginator.previous_page %}
-			{% assign text = "Next page" %}
+			{% assign text = 'Next page' %}
 		{% elsif paginator.next_page %}
-			{% assign text = "See more posts" %}
+			{% if include.folder == 'blog' %}
+				{% assign text = 'See more posts' %}
+			{% else %}
+				{% assign text = 'More ' | append: include.folder %}
+			{% endif %}
 		{% endif %}
 
 		{% if paginator.next_page %}
