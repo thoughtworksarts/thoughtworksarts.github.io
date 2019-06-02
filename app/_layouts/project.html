@@ -12,7 +12,7 @@ bodyid    : expo
           <p class="when">{% if page.status == 'in-progress' %}Project ongoing{% else %}Project Summary: {{ page.season }}{% endif %}</p>
         </header>
         <section class="metainfo small">
-          {% include projects-bios/person-list.html %}
+          {% include expo/person-list.html %}
         </section>
         <div class="text-content">
           {{ content }}
@@ -25,7 +25,7 @@ bodyid    : expo
           {% for post in site_posts %}
             {% for tag in post.tags %}
               {% if tag == page.projectid %}
-                {% include projects-bios/related-post.html %}
+                {% include expo/related-post.html %}
               {% endif %}
             {% endfor %}
           {% endfor %}
@@ -36,7 +36,7 @@ bodyid    : expo
       </div>
     </section>
     <section class="right metainfo large">
-      {% include projects-bios/person-list.html %}
+      {% include expo/person-list.html %}
     </section>
   </div>
 </section>
