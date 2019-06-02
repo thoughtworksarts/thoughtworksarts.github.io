@@ -15,7 +15,7 @@ description : News and posts from the ThoughtWorks Arts community, including pos
 		<article role="article">
 			<header>
 				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-				{% include blog-news/blog-attribution.html %}
+				{% include news/blog-attribution.html %}
 			</header>
 			<div class="text-content">
 				{{ post.excerpt }}
@@ -27,5 +27,5 @@ description : News and posts from the ThoughtWorks Arts community, including pos
 		{% endfor %}
 	</div>
 
-	{% include blog-news/pagination.html folder='blog' %}
+	{% include news/pagination.html folder='blog' %}
 </section>

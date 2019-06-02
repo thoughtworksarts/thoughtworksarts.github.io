@@ -5,7 +5,7 @@
 {% capture datestr %}{{ post.date | date: "%A, %-d %B %Y" }}{% endcapture %}
 <div class="entry-meta"><a class="entry-date published">{{ datestr }}</a></div>
 <div class="widgets">
-  {% include blog-news/social-links.html post=post %}
+  {% include news/social-links.html post=post %}
   {% if post.author == "Directors" %}
     <figure>
       <a href="/bio/andrew-mcwilliams/"><img src="/images/people/andrew-mcwilliams.png" alt="Andrew McWilliams" /></a>
