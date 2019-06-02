@@ -1,10 +1,40 @@
-.landing-page.spring-break {
-	#image-splash {
-		background-image: url('/images/full-bleed/banner-spring-break-1400.jpg');
-		background-repeat: no-repeat;
-		background-position: 50% 50%;
+/* Landing pages */
+/* ============= */
+
+#news #image-splash {
+	background-image: url('/images/full-bleed/banner-a-1400.jpg');
+	background-position: 48% 50%;
+}
+
+#programs #image-splash {
+	background-image: url('/images/full-bleed/banner-d-1400.jpg');
+	background-position: 100% 100%;
+}
+
+#residents #image-splash {
+	background-image: url('/images/full-bleed/banner-c-1400.jpg');
+	background-position: 10% 50%;
+}
+
+#expo #image-splash {
+	background-image: url('/images/full-bleed/banner-b-1400.jpg');
+	background-position: 84% 83%;
+}
+
+@media (max-width: 999px) {
+	#expo #image-splash {
+		background-position: 53% 83%;
 	}
 }
+
+#spring-break #image-splash {
+	background-image: url('/images/full-bleed/banner-spring-break-1400.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+/* Non-landing pages */
+/* ================= */
 
 body:not(.landing-page) {
 	>main>section:first-of-type {

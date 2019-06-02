@@ -1,11 +1,6 @@
 //Projects & Biography sections
 
 #expo {
-	#image-splash {
-		background-image: url('/images/full-bleed/banner-b-1400.jpg');
-		background-position: 84% 83%;
-	}
-
 	.when {
 		font-family: $bebas;
 		font-weight: bold;
@@ -21,14 +16,6 @@
 	#expo {
 		.when {
 			font-size: 1.3rem;
-		}
-	}
-}
-
-@media (max-width: 999px) {
-	#expo {
-		#image-splash {
-			background-position: 53% 83%;
 		}
 	}
 }
