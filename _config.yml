@@ -72,9 +72,9 @@ defaults:
       type: projects
     values:
       layout    : project
-      bodyid    : projects
+      bodyid    : expo
   - scope:
       type: people
     values:
       layout    : bio
-      bodyid    : projects
+      bodyid    : expo
