@@ -1,34 +1,36 @@
 ---
 title	   : Newsletters
-bodyid	   : blog
+bodyid	   : news
 pagination :
   enabled	 : true
   collection : newsletters
 description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date with artists, projects, presentations, exhibitions and events.
 ---
 <section>
-	<header>
-		<h1>Newsletters</h1>
-	</header>
-	<section class="subscribe-box">
-		<h1 class="newsletter-heading">Newsletters</h1>
-		<p>Newsletters are sent regularly. Sign up to receive these updates in your email inbox:</p>
-		{% include blog-news/subscribe-email.html %}
-	</section>
-	{% for newsletter in paginator.posts %}
-	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="content">
 		<header>
-			<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
-			{% include blog-news/newsletter-date.html %}
+			<h1>Newsletters</h1>
 		</header>
-		<div class="text-content">
-			{{ newsletter.excerpt }}
-		</div>
-		<div class="progress continue-reading">
-			<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
-		</div>
-	</article>
-	{% endfor %}
+		<section class="subscribe-box">
+			<h1 class="newsletter-heading">Newsletters</h1>
+			<p>Newsletters are sent regularly. Sign up to receive these updates in your email inbox:</p>
+			{% include news/subscribe-email.html %}
+		</section>
+		{% for newsletter in paginator.posts %}
+		<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			<header>
+				<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
+				{% include news/newsletter-date.html %}
+			</header>
+			<div class="text-content">
+				{{ newsletter.excerpt }}
+			</div>
+			<div class="progress continue-reading">
+				<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
+			</div>
+		</article>
+		{% endfor %}
+	</div>
 
-	{% include blog-news/pagination.html folder='newsletters' %}
+	{% include news/pagination.html folder='newsletters' %}
 </section>
