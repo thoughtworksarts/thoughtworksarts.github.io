@@ -1,3 +1,19 @@
+.landing-page {
+	article {
+		margin-top: 4.5em;
+	}
+
+	article:first-of-type {
+		margin-top: 3.125em;
+	}
+}
+
+body:not(.landing-page) {
+	article {
+		margin-top: 7em;
+	}
+}
+
 .content, .progress {
 	width: 1100px;
 	margin: 0 auto;
