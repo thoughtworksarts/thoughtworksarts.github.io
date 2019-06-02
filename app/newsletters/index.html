@@ -4,7 +4,7 @@ bodyid	   : blog
 pagination :
   enabled	 : true
   collection : newsletters
-description: Keep up to date with our residents and their projects. Sign up for email updates, or browse the message archive.
+description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date with artists, projects, presentations, exhibitions and events.
 ---
 <section>
 	<header>
@@ -12,7 +12,7 @@ description: Keep up to date with our residents and their projects. Sign up for 
 	</header>
 	<section class="subscribe-box">
 		<h1 class="newsletter-heading">Newsletters</h1>
-		<p>Newsletters are sent out once every quarter, and are archived below. Sign up to receive these updates in your email inbox:</p>
+		<p>Newsletters are sent regularly. Sign up to receive these updates in your email inbox:</p>
 		{% include blog-news/subscribe-email.html %}
 	</section>
 	{% for newsletter in paginator.posts %}
