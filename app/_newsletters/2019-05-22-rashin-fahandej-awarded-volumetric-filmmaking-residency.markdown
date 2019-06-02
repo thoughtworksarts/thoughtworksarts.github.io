@@ -29,7 +29,7 @@ Artists are invited to investigate the monopolization and centralization of arti
 
 {% include image.html file='closing.jpg'
    alt='Radek Bet Closing Gate'
-   caption='Image by Redek Bet'
+   caption='Image by [Redek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)'
    link='https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/'
 %}
 
