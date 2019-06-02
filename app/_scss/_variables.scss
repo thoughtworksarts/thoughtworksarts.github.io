@@ -1,11 +1,17 @@
 $bebas: BebasNeuePro-Regular, sans-serif;
+$header-divider-size: 10px;
 
+/* font sizes */
 $standard-font-size: 1.3rem;
 $smaller-font-size: 1.2rem;
 $smallest-font-size: 0.9rem;
-$h1-font-size: 2.5rem;
+$h1-font-size: 2.75rem;
 $h2-font-size: 1.9rem;
 
+$apply-now-font-size: 1.5rem;
+$blockquote-mark-font-size: 4rem;
+
+/* spacing */
 $large_spacing: 0.04em;
 $small_spacing: 0.03em;
 
@@ -13,9 +19,11 @@ $large_lineheight: 1.8em;
 $small_lineheight: 1.7em;
 $smallest_lineheight: 1.2em;
 
+/* colors */
 $white: #ffffff;
 $black: #222222;
 $red: #ff0000;
+$transparent: rgba(0, 0, 0, 0);
 
 $maroon: #ac1f58;
 $teal: #00b1c3;
@@ -26,5 +34,3 @@ $grey-lightest: #f9f9f9;
 $grey-light1: #f1f1f1;
 $grey-light2: #e8e8e8;
 $grey-mid: #cccccc;
-
-$header-divider-size: 10px;

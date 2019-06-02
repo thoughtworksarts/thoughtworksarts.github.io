@@ -2,26 +2,28 @@
 layout: default
 ---
 <section>
-  <header>
-    <h1>Blog</h1>
-  </header>
-  <article role="article">
+  <div class="content">
     <header>
-      <h1>{{ page.title }}</h1>
-      {% include blog-news/blog-attribution.html %}
+      <h1>Blog</h1>
     </header>
-    <div class="text-content">
-      {{ content }}
-    </div>
-    <section id="calls-to-action">
-      <p>Keep on top of ThoughtWorks Arts updates and articles:</p>
-      <ul>
-        <li><a href="/newsletters/">Subscribe to our newsletter</a></li>
-        <li><a href="https://twitter.com/tw_arts">Follow us on Twitter</a></li>
-        <li><a href="https://medium.com/thoughtworks-arts">Follow us on Medium</a></li>
-      </ul>
-    </section>
-  </article>
+    <article role="article">
+      <header>
+        <h1>{{ page.title }}</h1>
+        {% include blog-news/blog-attribution.html %}
+      </header>
+      <div class="text-content">
+        {{ content }}
+      </div>
+      <section id="calls-to-action">
+        <p>Keep on top of ThoughtWorks Arts updates and articles:</p>
+        <ul>
+          <li><a href="/newsletters/">Subscribe to our newsletter</a></li>
+          <li><a href="https://twitter.com/tw_arts">Follow us on Twitter</a></li>
+          <li><a href="https://medium.com/thoughtworks-arts">Follow us on Medium</a></li>
+        </ul>
+      </section>
+    </article>
+  </div>
   <div class="progress">
     <a href="/blog/" class="blog forwards">View all posts</a>
   </div>

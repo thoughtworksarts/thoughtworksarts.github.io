@@ -30,7 +30,7 @@ a:hover, a:active {
 
 a.attention {
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: $apply-now-font-size;
 	font-style: italic;
 	width: 100%;
 	display: block;
@@ -44,10 +44,6 @@ p, ul, ol, .progress, blockquote {
 	padding: 0.9em 0;
 }
 
-p {
-	max-width: 580px;
-}
-
 ul, ol {
 	margin-left: 1.1em;
 }
@@ -57,7 +53,7 @@ ul.closer, ol.closer {
 }
 
 figcaption {
-	font-size: 1.25em;
+	font-size: $smaller-font-size;
 }
 
 h1, h2, p {
@@ -98,12 +94,6 @@ h3 {
 	font-weight: bold;
 }
 
-address {
-	font-size: 1.1em;
-	font-style: normal;
-	line-height: 1.2em;
-}
-
 hr {
 	margin: 2em 0;
 }
@@ -119,7 +109,7 @@ blockquote {
 blockquote::before {
 	color: $grey-mid;
 	content: open-quote;
-	font-size: 4em;
+	font-size: $blockquote-mark-font-size;
 	line-height: 0.1em;
 	margin-right: 0.25em;
 	vertical-align: -0.4em;
@@ -359,10 +349,6 @@ ul.progress li, ol.progress li {
 @media (max-width: 1299px) {
 	body>header.flex-col {
 		min-height: 560px;
-	}
-
-	figcaption {
-		font-size: 1em;
 	}
 }
 

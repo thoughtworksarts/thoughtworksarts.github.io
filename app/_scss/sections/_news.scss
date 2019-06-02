@@ -1,5 +1,16 @@
 //Blog & Newsletter sections
 
+#news.landing-page {
+	h1 {
+		border-top: 3px solid $black;
+		//font-size: $article-h1-size;
+	}
+
+	h1:hover {
+		border-top: 3px solid $transparent;
+	}
+}
+
 #news {
 	position: relative;
 
@@ -25,6 +36,7 @@
 		width: 100%;
 		transition: border 0.16s ease-out;
 		font-family: 'Open Sans', sans-serif;
+		text-transform: inherit;
 	}
 
 	.continue-reading {
@@ -156,12 +168,6 @@
 		li:nth-child(2) {
 			margin-left: 3em;
 		}
-	}
-}
-
-#news.landing-page {
-	h1:hover {
-		border-top: 3px solid rgba(34, 34, 34, 0);
 	}
 }
 
