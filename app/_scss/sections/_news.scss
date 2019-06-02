@@ -3,11 +3,24 @@
 #news.landing-page {
 	h1 {
 		border-top: 3px solid $black;
-		//font-size: $article-h1-size;
 	}
 
 	h1:hover {
 		border-top: 3px solid $transparent;
+	}
+
+	article {
+		margin-top: 4.5em;
+	}
+
+	article:first-of-type {
+		margin-top: 3.125em;
+	}
+}
+
+#news:not(.landing-page) {
+	article {
+		margin-top: 7em;
 	}
 }
 
