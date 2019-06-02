@@ -6,11 +6,12 @@ pagination:
 description : News and posts from the ThoughtWorks Arts community, including posts from artists, ThoughtWorkers, partners and collaborators.
 ---
 <section>
-	<header>
-		<h1>Blog</h1>
-	</header>
 	<div class="content">
-	{% for post in paginator.posts %}
+		<header>
+			<h1>Blog</h1>
+		</header>
+
+		{% for post in paginator.posts %}
 		<article role="article">
 			<header>
 				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
