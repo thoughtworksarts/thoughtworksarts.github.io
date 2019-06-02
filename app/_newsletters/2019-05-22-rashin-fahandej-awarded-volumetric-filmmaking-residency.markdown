@@ -29,7 +29,7 @@ Artists are invited to investigate the monopolization and centralization of arti
 
 {% include image.html file='closing.jpg'
    alt='Radek Bet Closing Gate'
-   caption='Image by Redek Bet'
+   caption='Image by [Redek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)'
    link='https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/'
 %}
 
@@ -107,7 +107,4 @@ Visit our [Open Call: Blockchain & AI page](https://thoughtworksarts.io/open-cal
 * [ Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 * [ Global Visioning Session with the Cyborgs ](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)by Andrew McWilliams
 
-
 Love this newsletter? Check out our [archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!
-
-[view all newsletters](https://thoughtworksarts.io/newsletters/)
