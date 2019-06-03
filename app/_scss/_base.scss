@@ -347,12 +347,6 @@ body>header {
 	}
 }
 
-@media (max-width: 1299px) {
-	body>header {
-		min-height: 560px;
-	}
-}
-
 @media (max-width: 999px) {
 	h1 {
 		margin-top: 0.2em;
@@ -366,10 +360,6 @@ body>header {
 }
 
 @media (max-width: 639px) {
-	body>header {
-		min-height: 340px;
-	}
-
 	h1 {
 		margin-top: 0;
 	}
