@@ -21,7 +21,7 @@ body:not(.landing-page) {
 }
 
 .content {
-	>article, >section, >div, >ul {
+	>article, >section, >div, >ul, >p, >h1, >h2, >h3, >header, >footer {
 		max-width: 740px;
 		margin: 0 auto;
 	}
