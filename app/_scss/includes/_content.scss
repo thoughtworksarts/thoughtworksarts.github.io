@@ -1,45 +1,36 @@
-.landing-page {
-	article {
-		margin-top: 4.5em;
-	}
-
-	article:first-of-type {
-		margin-top: 3.125em;
-	}
-}
-
-body:not(.landing-page) {
-	article {
-		margin-top: 7em;
-	}
-}
-
 .content, .progress {
 	width: 1100px;
 	margin: 0 auto;
 	padding: 0 0 2.5em 0;
 }
 
-.content {
-	>article, >section, >div, >ul, >p, >h1, >h2, >h3, >header, >footer {
-		max-width: 740px;
-		margin: 0 auto;
+body:not(.home-page) {
+	.content {
+		article, .text, header, footer, .related-posts, .progress {
+			max-width: 740px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 }
 
-.general-info {
-	h2 {
-		margin-top: 140px;
-	}
+.landing-page {
+	.content {
+		article {
+			margin-top: 4.5em;
+		}
 
-	h2::before {
-		background-size: 70px 80px;
-		display: inline-block;
-		width: 70px;
-		height: 80px;
-		content: '';
-		position: absolute; top: -100px;
-		background-image: url('/images/icons/arrow-black.png');
+		article:first-of-type {
+			margin-top: 3.125em;
+		}
+	}
+}
+
+body:not(.landing-page) {
+	.content {
+		article {
+			margin-top: 7em;
+		}
 	}
 }
 
@@ -100,7 +91,7 @@ body:not(.landing-page) {
 }
 
 @media (max-width: 1299px) {
-	body:not(#home) {
+	body:not(.home-page) {
 		.text {
 			top: 0;
 		}
@@ -108,7 +99,7 @@ body:not(.landing-page) {
 }
 
 @media (max-width: 1149px) {
-	body:not(#home) {
+	body:not(.home-page) {
 		.content, .progress {
 			width: calc(100% - 3rem);
 		}
@@ -116,7 +107,7 @@ body:not(.landing-page) {
 }
 
 @media (max-width: 799px) {
-	body:not(#home) {
+	body:not(.home-page) {
 		.text figure img {
 			width: 100%;
 		}
@@ -124,7 +115,7 @@ body:not(.landing-page) {
 }
 
 @media (max-width: 599px) {
-	body:not(#home) {
+	body:not(.home-page) {
 		.content {
 			width: 100%;
 

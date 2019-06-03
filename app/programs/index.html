@@ -4,23 +4,27 @@ bodyid        : programs
 redirect_from : /program/
 description   : ThoughtWorks Arts programs include Art-A-Hack, Hardware Hack Lab and the ThoughtWorks Arts Residency. Each program support artists and creative practitioners in exploring lines of inquiry intersecting technology and society.
 ---
-<section class="general-info">
+<section>
 	<div class="content">
 		<header>
 			<h1>About the programs</h1>
 		</header>
-		<p style="color: red">This page describes programs in detail.</p>
-		<p>The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.</p>
-		<p>The aim of this program is to facilitate dialog, partnership and collaboration at the intersection of technology and exploratory arts. By focusing on this synthesis, the program aims to empower resident artists to make work which inspires shifts in perspective and debate.</p>
+		<div class="text">
+			<p style="color: red">This page describes programs in detail.</p>
+			<p>The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.</p>
+			<p>The aim of this program is to facilitate dialog, partnership and collaboration at the intersection of technology and exploratory arts. By focusing on this synthesis, the program aims to empower resident artists to make work which inspires shifts in perspective and debate.</p>
+		</div>
 	</div>
 </section>
-<section class="general-info">
+<section>
 	<div class="content">
 		<header>
 			<h2>How it works</h2>
 		</header>
-		<p>Artists are invited spend 16 weeks in residence in New York, at <a href="http://thoughtworks.com">ThoughtWorks</a>, a global technology consultancy. During their stay, artists receive a regular stipend and project production support from a global network of analysts, designers, developers and other experts in the company.</p>
-		<p>ThoughtWorks runs the residency out of an desire to openly experiment, collaborate and share ideas with those asking hard questions about emerging technologies. Therefore, artists own all physical and intellectual property generated during their stay.</p>
+		<div class="text">
+			<p>Artists are invited spend 16 weeks in residence in New York, at <a href="http://thoughtworks.com">ThoughtWorks</a>, a global technology consultancy. During their stay, artists receive a regular stipend and project production support from a global network of analysts, designers, developers and other experts in the company.</p>
+			<p>ThoughtWorks runs the residency out of an desire to openly experiment, collaborate and share ideas with those asking hard questions about emerging technologies. Therefore, artists own all physical and intellectual property generated during their stay.</p>
+		</div>
 	</div>
 </section>
 <section class="listing team">
@@ -44,19 +48,21 @@ description   : ThoughtWorks Arts programs include Art-A-Hack, Hardware Hack Lab
 		{% endfor %}
 	</div>
 </section>
-<section class="general-info">
+<section>
 	<div class="content">
 		<header>
 			<h1>Newsletters</h1>
 		</header>
-		<p>We send out occasional newsletter updates to keep you informed of our residents and their progress. We also include information from our other creative technology initiatives, such as <a href="https://artahack.io/">Art-A-Hack</a> and <a href="https://hardwarehacklab.io">Hardware Hack Lab</a>.</p>
-		<p>To learn more browse the listing below, or head over to our <a href="/newsletters/">newsletters page</a>.</p>
-		<ul>
-		{% assign newsletters = site.newsletters | reverse %}
-		{% for newsletter in newsletters %}
-			<li>{{ newsletter.date | date: "%B %-d, %Y" }}: <a href="{{ newsletter.url }}">{{ newsletter.title }}</a></li>
-		{% endfor %}
-		</ul>
-		<p>Subscribe to our mailing list below to get these updates in your email inbox, usually sent around once every quarter.</p>
+		<div class="text">
+			<p>We send out occasional newsletter updates to keep you informed of our residents and their progress. We also include information from our other creative technology initiatives, such as <a href="https://artahack.io/">Art-A-Hack</a> and <a href="https://hardwarehacklab.io">Hardware Hack Lab</a>.</p>
+			<p>To learn more browse the listing below, or head over to our <a href="/newsletters/">newsletters page</a>.</p>
+			<ul>
+			{% assign newsletters = site.newsletters | reverse %}
+			{% for newsletter in newsletters %}
+				<li>{{ newsletter.date | date: "%B %-d, %Y" }}: <a href="{{ newsletter.url }}">{{ newsletter.title }}</a></li>
+			{% endfor %}
+			</ul>
+			<p>Subscribe to our mailing list below to get these updates in your email inbox, usually sent around once every quarter.</p>
+		</div>
 	</div>
 </section>
