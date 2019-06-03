@@ -1,12 +1,14 @@
 //Blog & Newsletter sections
 
 #news.landing-page {
-	h1 {
-		border-top: 3px solid $black;
-	}
+	article {
+		h1 {
+			border-top: 3px solid $black;
+		}
 
-	h1:hover {
-		border-top: 3px solid $transparent;
+		h1:hover {
+			border-top: 3px solid $transparent;
+		}
 	}
 
 	.subscribe {
@@ -18,19 +20,15 @@
 	position: relative;
 
 	article {
-		margin-top: 4.5em;
-	}
+		padding-top: 4.5em;
 
-	.content>header>h1 {
-		display: none;
-	}
-
-	h1 {
-		cursor: default;
-		width: 100%;
-		transition: border 0.16s ease-out;
-		font-family: 'Open Sans', sans-serif;
-		text-transform: inherit;
+		h1 {
+			cursor: default;
+			width: 100%;
+			transition: border 0.16s ease-out;
+			font-family: 'Open Sans', sans-serif;
+			text-transform: inherit;
+		}
 	}
 
 	.continue-reading {
@@ -197,7 +195,7 @@
 @media (max-width: 599px) {
 	#news {
 		article {
-			margin-top: 2.5em;
+			padding-top: 2.5em;
 		}
 	}
 }

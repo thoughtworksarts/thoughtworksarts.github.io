@@ -1,6 +1,15 @@
 /* Landing pages */
 /* ============= */
 
+#image-splash {
+	flex: 1 0 auto;
+	background-size: cover;
+	background-color: $black;
+	background-repeat: no-repeat;
+	margin: 0;
+	position: relative;
+}
+
 #news #image-splash {
 	background-image: url('/images/full-bleed/banner-a-1400.jpg');
 	background-position: 48% 50%;

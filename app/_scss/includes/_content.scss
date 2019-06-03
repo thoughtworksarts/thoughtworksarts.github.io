@@ -1,5 +1,5 @@
 .content, .progress {
-	width: 1100px;
+	width: $max-page-width;
 	margin: 0 auto;
 	padding: 0 0 2.5em 0;
 }
@@ -7,21 +7,30 @@
 body:not(.home-page) {
 	.content {
 		article, .text, header, footer, .related-posts, .progress {
-			max-width: 740px;
+			max-width: $max-text-width;
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
 }
 
-.landing-page {
+.landing-page>main>section:first-of-type {
 	.content {
-		article {
-			margin-top: 4.5em;
+		>header>h1 {
+			position: absolute;
+			font-size: $h1-font-size;
+			background: $white;
+			position: absolute; top: -70px;
+			margin: 0;
+			padding: 16px 42px 10px 42px;
 		}
 
-		article:first-of-type {
-			margin-top: 3.125em;
+		article {
+			padding-top: 4.5em;
+		}
+
+		article:first-of-type, >.text {
+			padding-top: 3.125em;
 		}
 	}
 }
@@ -29,7 +38,7 @@ body:not(.home-page) {
 body:not(.landing-page) {
 	.content {
 		article {
-			margin-top: 7em;
+			padding-top: 7em;
 		}
 	}
 }

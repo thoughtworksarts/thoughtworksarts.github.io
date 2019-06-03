@@ -4,6 +4,10 @@ html, body {
 	line-height: $small_lineheight;
 }
 
+body>main {
+	position: relative;
+}
+
 body>main>section {
 	width: 100%;
 }
@@ -223,19 +227,19 @@ img.no-border, figure.no-border img {
 	}
 }
 
-a.programs, a.programs>* {
+.programs, .programs>* {
 	color: $maroon;
 }
 
-a.residents, a.residents>* {
+.residents, .residents>* {
 	color: $teal;
 }
 
-a.projects, a.projects>* {
+.projects, .projects>* {
 	color: $green;
 }
 
-a.blog, a.blog>* {
+.blog, .blog>* {
 	color: $yellow;
 }
 
