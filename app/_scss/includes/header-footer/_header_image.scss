@@ -50,7 +50,7 @@ body:not(.landing-page) {
 	body:not(.landing-page) {
 		background-position: 0 175px;
 
-		>header.flex-col {
+		>header {
 			height: 175px;
 		}
 
@@ -64,7 +64,7 @@ body:not(.landing-page) {
 	body:not(.landing-page) {
 		background-position: 0 160px;
 
-		>header.flex-col {
+		>header {
 			height: 160px;
 		}
 
@@ -78,7 +78,7 @@ body:not(.landing-page) {
 	body:not(.landing-page) {
 		background-position: 0 114px;
 
-		>header.flex-col {
+		>header {
 			height: 143px;
 		}
 

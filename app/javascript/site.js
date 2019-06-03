@@ -43,7 +43,7 @@ $(document).ready(function() {
 	function fixResizableHeights() {
 		//Fixes problem with viewport height changing on mobile, as the URL bar disappears
 		if($(window).width() <= 639) {
-			$('.flex-col').each(function(index, value) {
+			$('body>header').each(function(index, value) {
 				$(this).css('height', $(this).height() + 'px');
 			});
 		}

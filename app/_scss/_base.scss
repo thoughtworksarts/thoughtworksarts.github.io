@@ -333,7 +333,7 @@ ul.progress li, ol.progress li {
 	display: none;
 }
 
-.flex-col {
+body>header {
 	display: flex;
 	flex-flow: column;
 }
@@ -348,7 +348,7 @@ ul.progress li, ol.progress li {
 }
 
 @media (max-width: 1299px) {
-	body>header.flex-col {
+	body>header {
 		min-height: 560px;
 	}
 }
@@ -366,7 +366,7 @@ ul.progress li, ol.progress li {
 }
 
 @media (max-width: 639px) {
-	body>header.flex-col {
+	body>header {
 		min-height: 340px;
 	}
 
