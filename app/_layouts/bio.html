@@ -35,28 +35,30 @@ layout: default
 {% endunless %}
 
 <section class="flex-row">
-  <section class="left">
-    <article role="article">
-      <header>
-        <h1>{{ page.name }}</h1>
-        <section class="metainfo small bio">
-          {% include expo/profile.html %}
-        </section>
-      </header>
-      <div class="post-content">
-        {{ content }}
-      </div>
-    </article>
-  {% unless post-list.size == 0 %}
-    <section class="related-posts">
-      <h2>Related posts</h2>
-      <ul>
-        {{ post-list }}
-      </ul>
+  <div class="content">
+    <section class="left">
+      <article role="article">
+        <header>
+          <h1>{{ page.name }}</h1>
+          <section class="metainfo small bio">
+            {% include expo/profile.html %}
+          </section>
+        </header>
+        <div class="text">
+          {{ content }}
+        </div>
+      </article>
+    {% unless post-list.size == 0 %}
+      <section class="related-posts">
+        <h2>Related posts</h2>
+        <ul>
+          {{ post-list }}
+        </ul>
+      </section>
+    {% endunless %}
     </section>
-  {% endunless %}
-  </section>
-  <section class="right metainfo large bio">
-    {% include expo/profile.html %}
-  </section>
+    <section class="right metainfo large bio">
+      {% include expo/profile.html %}
+    </section>
+  </div>
 </section>
