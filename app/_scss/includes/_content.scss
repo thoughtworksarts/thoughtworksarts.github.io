@@ -41,7 +41,7 @@ body:not(.landing-page) {
 	}
 }
 
-.text-content {
+.text {
 	position: relative;
 	top: 0.7em;
 
@@ -98,49 +98,49 @@ body:not(.landing-page) {
 }
 
 @media (max-width: 1299px) {
-	.text-content {
+	.text {
 		top: 0;
 	}
 }
 
 @media (max-width: 799px) {
-	.text-content figure img {
+	.text figure img {
 		width: 100%;
 	}
 }
 
 @media (max-width: 599px) {
-	.text-content table {
+	.text table {
 		font-size: 0.8em;
 	}
 }
 
 @media (max-width: 489px) {
-	.text-content figure {
+	.text figure {
 		width: 99%;
 	}
 }
 
 @media (max-width: 399px) {
-	.text-content figure {
+	.text figure {
 		width: 98%;
 	}
 }
 
 @media (max-width: 359px) {
-	.text-content figure {
+	.text figure {
 		width: 97%;
 	}
 }
 
 @media (max-width: 329px) {
-	.text-content figure {
+	.text figure {
 		width: 96%;
 	}
 }
 
 @media (max-width: 314px) {
-	.text-content figure {
+	.text figure {
 		width: 95%;
 	}
 }
