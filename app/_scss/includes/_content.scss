@@ -20,9 +20,11 @@ body:not(.landing-page) {
 	padding: 0 0 2.5em 0;
 }
 
-.content article, .progress, .subscribe-box {
-	max-width: 740px;
-	margin: 0 auto;
+.content {
+	>article, >section, >div, >ul {
+		max-width: 740px;
+		margin: 0 auto;
+	}
 }
 
 .general-info {
