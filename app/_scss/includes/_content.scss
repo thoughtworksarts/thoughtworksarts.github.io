@@ -63,8 +63,8 @@ body:not(.landing-page) {
 		}
 
 		figcaption {
-			margin-top: 0.2em;
-			width: 100%;
+			margin: 0.2em auto 0 auto;
+			width: calc(100% - 3rem);
 			text-align: center;
 			font-weight: bold;
 		}
@@ -98,49 +98,49 @@ body:not(.landing-page) {
 }
 
 @media (max-width: 1299px) {
-	.text {
-		top: 0;
+	body:not(#home) {
+		.text {
+			top: 0;
+		}
+	}
+}
+
+@media (max-width: 1149px) {
+	body:not(#home) {
+		.content, .progress {
+			width: calc(100% - 3rem);
+		}
 	}
 }
 
 @media (max-width: 799px) {
-	.text figure img {
-		width: 100%;
+	body:not(#home) {
+		.text figure img {
+			width: 100%;
+		}
 	}
 }
 
 @media (max-width: 599px) {
-	.text table {
-		font-size: 0.8em;
-	}
-}
+	body:not(#home) {
+		.content {
+			width: 100%;
 
-@media (max-width: 489px) {
-	.text figure {
-		width: 99%;
-	}
-}
+			header, .text >* {
+				margin: 0 1.5rem;
+			}
 
-@media (max-width: 399px) {
-	.text figure {
-		width: 98%;
-	}
-}
+			.text {
+				figure, img {
+					margin: 0;
+					border: 0;
+					width: 100%;
+				}
 
-@media (max-width: 359px) {
-	.text figure {
-		width: 97%;
-	}
-}
-
-@media (max-width: 329px) {
-	.text figure {
-		width: 96%;
-	}
-}
-
-@media (max-width: 314px) {
-	.text figure {
-		width: 95%;
+				table {
+					font-size: 0.8em;
+				}
+			}
+		}
 	}
 }
