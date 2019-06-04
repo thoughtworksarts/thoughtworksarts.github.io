@@ -26,7 +26,6 @@ description : News and posts from the ThoughtWorks Arts community, including pos
 			</div>
 		</article>
 		{% endfor %}
+		{% include news/pagination.html folder='blog' %}
 	</div>
-
-	{% include news/pagination.html folder='blog' %}
 </section>

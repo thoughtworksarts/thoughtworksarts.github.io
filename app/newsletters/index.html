@@ -29,7 +29,6 @@ description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date wi
 			{% include news/subscribe-email.html label='Get these newsletters in your inbox:' %}
 		</section>
 		{% endfor %}
+		{% include news/pagination.html folder='newsletters' %}
 	</div>
-
-	{% include news/pagination.html folder='newsletters' %}
 </section>
