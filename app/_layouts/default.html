@@ -29,12 +29,17 @@
   {% assign display-banner = site.display-banner %}
 {% endif %}
 
-{% if display-banner %}
-  {% capture bodyclass %}{{ page.bodyclass }} site-banner{% endcapture %}
-  {% capture bodyclass %}{{ bodyclass | strip }}{% endcapture %}
-{% else %}
-  {% capture bodyclass %}{{ page.bodyclass }}{% endcapture %}
+{% assign bodyclass = page.bodyclass %}
+
+{% if page.layout == 'project' or page.layout == 'bio' %}
+  {% capture bodyclass %}{{ bodyclass }} detail-page{% endcapture %}
 {% endif %}
+
+{% if display-banner %}
+  {% capture bodyclass %}{{ bodyclass }} site-banner{% endcapture %}
+{% endif %}
+
+{% capture bodyclass %}{{ bodyclass | strip }}{% endcapture %}
 
 <!DOCTYPE html>
 <html lang="en">
