@@ -5,7 +5,7 @@
 
 	.listing-item {
 		align-items: center;
-		margin-bottom: 6em;
+		margin-bottom: 5em;
 		display: flex;
 		flex-flow: row;
 
@@ -128,8 +128,6 @@
 @media (max-width: 599px) {
 	.listing {
 		.listing-item, .listing-item.alternating:nth-child(even) {
-			margin-bottom: 5em;
-
 			.image {
 				margin-left: 1.5rem;
 				margin-right: 1.5rem;
