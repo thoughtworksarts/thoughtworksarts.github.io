@@ -14,6 +14,12 @@ body:not(.home-page) {
 	}
 }
 
+body:not(.landing-page) {
+	.content>header>h1 {
+		display: none;
+	}
+}
+
 .landing-page>main>section:first-of-type {
 	.content {
 		>header>h1 {
