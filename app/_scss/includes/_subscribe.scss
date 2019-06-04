@@ -6,7 +6,7 @@
 	text-align: left;
 
 	.newsletter-form {
-		max-width: 727px;
+		max-width: $max-text-width;
 		width: 100%;
 		display: inline-block;
 		text-align: left;
@@ -65,11 +65,24 @@
 }
 
 .subscribe-box {
+	padding-top: 1em;
+	max-width: $max-text-width;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 1.5em;
+
 	.subscribe {
+		display: inline-block;
+		background-color: $grey-mid;
+		padding: 1.7em;
+		width: calc(60% - 6em);
+		margin: 0;
+		transition: all 0.4s;
+	}
+
+	.subscribe:hover {
 		background-color: $black;
-		margin: 0.7em 0 5.7em 0;
-		padding: 4%;
-		width: 92%;
 	}
 }
 

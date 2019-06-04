@@ -10,11 +10,8 @@ description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date wi
 <section>
 	<div class="content">
 		<header>
-			<h1>Newsletters</h1>
+			<h1 class="blog">Newsletters</h1>
 		</header>
-		<section class="subscribe-box">
-			{% include news/subscribe-email.html label='Get these newsletters in your inbox:' %}
-		</section>
 		{% for newsletter in paginator.posts %}
 		<article role="article">
 			<header>
@@ -28,6 +25,9 @@ description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date wi
 				<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
 			</div>
 		</article>
+		<section class="subscribe-box">
+			{% include news/subscribe-email.html label='Get these newsletters in your inbox:' %}
+		</section>
 		{% endfor %}
 	</div>
 
