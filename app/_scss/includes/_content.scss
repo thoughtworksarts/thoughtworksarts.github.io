@@ -1,4 +1,4 @@
-.content, .progress {
+.content {
 	width: $max-page-width;
 	margin: 0 auto;
 	padding: 0 0 2.5em 0;
@@ -115,7 +115,7 @@ body:not(.landing-page) {
 
 @media (max-width: 1149px) {
 	body:not(.home-page) {
-		.content, .progress {
+		.content {
 			width: calc(100% - 3rem);
 		}
 	}
@@ -134,7 +134,7 @@ body:not(.landing-page) {
 		.content {
 			width: 100%;
 
-			header, .text >* {
+			header, .text >*, .progress {
 				margin-left: 1.5rem;
 				margin-right: 1.5rem;
 			}

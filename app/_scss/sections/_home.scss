@@ -328,7 +328,7 @@
 	#home {
 		>main {
 			>section {
-				header, .content, >.progress {
+				header, .content {
 					width: calc(100% - 3rem);
 
 					>h1, >ul, >a, >section {
@@ -343,7 +343,7 @@
 			}
 
 			.about-us {
-				header, .content, >.progress {
+				header, .content {
 					.explanation {
 						width: auto;
 						margin-right: 0;
