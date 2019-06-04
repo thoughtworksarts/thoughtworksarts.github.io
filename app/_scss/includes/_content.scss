@@ -14,7 +14,7 @@ body:not(.home-page) {
 	}
 }
 
-body:not(.landing-page) {
+body:not(.landing-page):not(.home-page) {
 	.content>header>h1 {
 		display: none;
 	}
