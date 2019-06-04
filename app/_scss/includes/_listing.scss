@@ -6,8 +6,12 @@
 	.listing-item {
 		align-items: center;
 		margin-bottom: 6em;
+		display: flex;
+		flex-flow: row;
 
 		.image {
+			flex: 1 0 auto;
+
 			figure {
 				height: 100%;
 
@@ -20,6 +24,7 @@
 		}
 
 		.text {
+			position: inherit;
 			width: 62%;
 
 			h2, p {
@@ -27,7 +32,7 @@
 			}
 
 			h2 {
-				margin-top: 100px;
+				margin-top: 0;
 			}
 
 			a:link, a:visited {
@@ -38,7 +43,7 @@
 				text-decoration: underline;
 			}
 
-			p:last-of-type {
+			.progress {
 				padding-bottom: 0;
 			}
 		}
@@ -81,9 +86,13 @@
 		.image {
 			order: 2;
 
-			figure img {
-				margin-left: 2em;
-				margin-right: 0;
+			figure {
+				text-align: right;
+
+				img {
+					margin-left: 2em;
+					margin-right: 0;
+				}
 			}
 		}
 	}

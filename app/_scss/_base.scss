@@ -342,15 +342,6 @@ body>header {
 	flex-flow: column;
 }
 
-.flex-row {
-	display: flex;
-	flex-flow: row;
-
-	>div:first-child {
-		flex: 1 0 auto;
-	}
-}
-
 @media (max-width: 999px) {
 	h1 {
 		margin-top: 0.2em;

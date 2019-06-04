@@ -17,7 +17,7 @@ description : Projects created on the ThoughtWorks Arts Residency program, which
 	<div class="content">
 		{% assign projects = site.projects | sort: 'season-code' | reverse %}
 		{% for project in projects %}
-			<section class="listing-item flex-row">
+			<section class="listing-item">
 				<div class="image">
 					<figure>
 						<a href="{{ project.url }}">
