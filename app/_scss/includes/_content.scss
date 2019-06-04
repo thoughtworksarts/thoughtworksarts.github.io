@@ -140,6 +140,10 @@ body:not(.landing-page) {
 			}
 
 			.text {
+				ul, ol {
+					margin-left: calc(1.5rem + 1.1em);
+				}
+
 				figure, img {
 					margin: 0;
 					border: 0;
