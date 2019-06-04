@@ -147,24 +147,17 @@
 			padding-top: 2.5em;
 
 			>.content {
-				display: grid;
-
-				h1 {
-					grid-column: 1;
-					grid-row: 1;
-					height: 1rem;
-				}
+				position: relative;
 
 				.explanation {
-					grid-column: 1;
-					grid-row: 2;
 					padding: 0 2em 0 0;
+					width: 50%;
 				}
 
 				figure {
-					grid-column: 2;
-					grid-row: 1 / span 2;
-					min-width: 320px;
+					position: absolute;
+					top: 0; right: 0;
+					width: 50%;
 
 					a {
 						display: block;
@@ -172,7 +165,6 @@
 						height: 100%;
 
 						img {
-							margin-top: 5.7em;
 							width: 100%;
 						}
 					}
@@ -345,15 +337,15 @@
 			.about-us {
 				header, .content {
 					.explanation {
-						width: auto;
+						width: 100%;
 						margin-right: 0;
-						max-width: 500px;
 					}
 
 					figure {
-						margin-right: 1.5rem;
-						margin-left: 0;
-						min-width: auto;
+						width: 100%;
+						position: relative;
+						right: inherit;
+						left: -10px;
 					}
 				}
 			}
@@ -367,20 +359,6 @@
 			>section {
 				ul li a img {
 					height: 170px;
-				}
-			}
-
-			.about-us >.content{
-				h1 {
-					height: auto;
-				}
-
-				.explanation {
-					width: 400px;
-				}
-
-				figure a img {
-					margin-top: 7.7em;
 				}
 			}
 		}
@@ -453,35 +431,6 @@
 					.feature-2, .feature-3 {
 						h2 {
 							margin-bottom: 0;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 889px) {
-	#home {
-		>main {
-			.about-us {
-				>.content {
-					display: block;
-
-					.explanation, figure {
-						width: calc(100% - 3rem);
-						margin-right: 1.5rem;
-						max-width: 580px;
-						padding: 0;
-					}
-
-					figure {
-						margin: 0;
-						width: 100%;
-						position: relative; left: -28px;
-
-						a img {
-							margin-top: 0;
 						}
 					}
 				}

@@ -12,16 +12,16 @@ bodyclass : home-page
 </section>
 <section class="about-us">
 	<div class="content">
-		<header>
-			<h1>About Us</h1>
-		</header>
 		<section class="explanation">
+			<header>
+				<h1>About Us</h1>
+			</header>
 			<p>ThoughtWorks Arts incubates artists and technologist collaborations to investigate the impacts of emerging technologies on industry, culture and society.</p>
+			{% include image.html file='/images/programs.png'
+			   alt='ThoughtWorks Arts runs several sub-programs'
+			   link='/programs/' %}
 			<p>Together, the ThoughtWorks Arts suite of programs is structured to enable practice-based research, directed by cutting-edge artistic inquiry and driven by the capabilities of the global commercial technology community.</p>
 		</section>
-		{% include image.html file='/images/programs.png'
-		   alt='ThoughtWorks Arts runs several sub-programs'
-		   link='/programs/' %}
 		<div class="progress continue-reading">
 			<a href="/programs" class="blog forwards">Learn more</a>
 		</div>
