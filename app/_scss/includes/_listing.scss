@@ -11,6 +11,7 @@
 
 		.image {
 			flex: 1 0 auto;
+			margin: 0 3em 0 0;
 
 			figure {
 				height: 100%;
@@ -18,14 +19,12 @@
 				img {
 					border: 0;
 					width: 20em;
-					margin-right: 2em;
 				}
 			}
 		}
 
 		.text {
 			position: inherit;
-			width: 62%;
 
 			h2, p {
 				width: 100%;
@@ -45,6 +44,7 @@
 
 			.progress {
 				padding-bottom: 0;
+				margin: 0;
 			}
 		}
 	}
@@ -85,14 +85,10 @@
 
 		.image {
 			order: 2;
+			margin: 0 0 0 3em;
 
 			figure {
 				text-align: right;
-
-				img {
-					margin-left: 2em;
-					margin-right: 0;
-				}
 			}
 		}
 	}
@@ -101,107 +97,28 @@
 @media (max-width: 999px) {
 	.listing {
 		.listing-item {
+			display: block;
 			margin-bottom: 4em;
 
 			.text {
-				width: inherit;
-
-				h2, p {
-					width: 73%;
-				}
-
 				h2 {
-					margin: 2.2em 0 0.4em 0;
+					margin: 1em 0 0 0;
 				}
 			}
 
-			.image figure img {
-				position: inherit;
-				top: inherit;
-				transform: inherit;
+			.image {
+				max-width: $max-text-width;
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 
-		.listing-item.double-image {
+		.listing-item.alternating:nth-child(even) {
 			.image {
+				margin: 0 auto;
+
 				figure {
-					position: inherit;
-					width: inherit;
-					height: inherit;
-
-					img:first-of-type {
-						position: inherit;
-					}
-
-					img:last-of-type {
-						position: inherit;
-					}
-				}
-			}
-		}
-
-		.listing-item.alternating {
-			.image {
-				figure img {
-					margin-left: 0 !important;
-					margin-right: 0.7em !important;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 749px) {
-	.listing {
-		.listing-item {
-			.text {
-				p, h2 {
-					width: 100%;
-				}	
-			}
-		}
-
-		.listing-item.double-image {
-			.image {
-				figure img {
-					width: 45%;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 529px) {
-	.listing {
-		.listing-item:not(.double-image) {
-			.image {
-				figure img {
-					width: 73%;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 451px) {
-	.listing {
-		.listing-item.double-image {
-			.image {
-				figure img {
-					margin-right: 0 !important;
-					width: 49%;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 409px) {
-	.listing {
-		.listing-item:not(.double-image) {
-			.image {
-				figure img {
-					width: 83%;
+					text-align: left;
 				}
 			}
 		}
