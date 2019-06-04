@@ -1,14 +1,41 @@
 //Projects & Biography sections
 
-#expo {
-	.when {
-		font-family: $bebas;
-		font-weight: bold;
-		color: $grey-mid;
-		font-size: 1.8rem;
-		padding: 0.2em 0;
-		position: relative;
-		top: 0.75em;
+#expo.detail-page {
+	.content {
+		display: flex;
+		flex-flow: row;
+
+		h1, h2, h2 span, h3 {
+			text-transform: uppercase;
+			font-family: $bebas;
+		}
+
+		.when {
+			font-family: $bebas;
+			font-weight: bold;
+			color: $grey-mid;
+			font-size: 1.8rem;
+			padding: 0.2em 0;
+			position: relative;
+			top: 0.75em;
+			text-transform: uppercase;
+		}
+
+		.left {
+			flex: 1 1 auto;
+
+			article {
+				margin: 0;
+			}
+		}
+
+		.right {
+			flex: 1 1 18em;
+
+			.first, .second {
+				width: 100%;
+			}
+		}
 	}
 }
 
