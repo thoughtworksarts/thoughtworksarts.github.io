@@ -1,7 +1,7 @@
 .landing-page {
 	>header {
-		height: 67%;
-		min-height: 635px;
+		height: 63%;
+		min-height: 605px;
 	}
 }
 
@@ -173,6 +173,13 @@ body.site-banner>header {
 	}
 }
 
+@media (max-width: 1299px) {
+	.landing-page>header {
+		height: 50%;
+		min-height: 500px;
+	}
+}
+
 @media (max-width: 1129px) {
 	#logonav {
 		.navigation ul li a {
@@ -304,6 +311,11 @@ body.site-banner>header {
 }
 
 @media (max-width: 639px) {
+	.landing-page>header {
+		height: 50%;
+		min-height: 420px;
+	}
+
 	body:not(.landing-page) {
 		>main>section:first-of-type {
 			background: inherit;
@@ -318,6 +330,7 @@ body.site-banner>header {
 			border-top: 0;
 		}
 	}
+
 	#logonav {
 		height: 117px;
 		text-align: center;
@@ -361,13 +374,18 @@ body.site-banner>header {
 }
 
 @media (max-width: 429px) {
+	.landing-page>header {
+		height: 45%;
+		min-height: inherit;
+	}
+
 	#logonav {
-		height: inherit;
+		height: auto;
 
 		.logo img {
-			height: inherit;
-			width: 95%;
-			max-width: 292px;
+			height: auto;
+			width: 90%;
+			margin-bottom: 6px;
 		}
 	}
 }
