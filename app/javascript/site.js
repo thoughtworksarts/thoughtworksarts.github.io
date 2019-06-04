@@ -50,24 +50,15 @@ $(document).ready(function() {
 	}
 
 	function populateSignupBox() {
-		$('#tlemail').focusin(function(){
+		$('.subscribe-email').focusin(function(){
 			if($(this).val() === 'your email'){
 				prepForEmailEntry($(this));
 			}
 		});
 
-		$('#tlemail').focusout(function(){
+		$('.subscribe-email').focusout(function(){
 			if($(this).val() === ''){
 				unprepForEmailEntry($(this));
-			}
-		});
-
-		$('form.newsletter-form').submit(function(e){
-			var tlemail = $('#tlemail');
-			if(tlemail.val() === 'your email'){
-				prepForEmailEntry(tlemail);
-				e.preventDefault();
-				unprepForEmailEntry(tlemail);
 			}
 		});
 	}
