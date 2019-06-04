@@ -50,9 +50,6 @@ body:not(.landing-page) {
 }
 
 .text {
-	position: relative;
-	top: 0.7em;
-
 	h2 {
 		margin-top: 1em;
 	}
@@ -105,14 +102,6 @@ body:not(.landing-page) {
 	}
 }
 
-@media (max-width: 1299px) {
-	body:not(.home-page) {
-		.text {
-			top: 0;
-		}
-	}
-}
-
 @media (max-width: 1149px) {
 	body:not(.home-page) {
 		.content {
@@ -134,7 +123,7 @@ body:not(.landing-page) {
 		.content {
 			width: 100%;
 
-			header, .text >*, .progress {
+			header, .text >*, .progress, .metainfo, .related-posts {
 				margin-left: 1.5rem;
 				margin-right: 1.5rem;
 			}

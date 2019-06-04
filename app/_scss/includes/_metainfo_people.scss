@@ -183,7 +183,7 @@
 
 		.person-item {
 			flex: 0 0 auto;
-			margin-left: 0.6em;
+			margin: 0 0.6em 0.6em 0;
 			width: 6em;
 
 			figcaption {
@@ -277,10 +277,6 @@
 		.person-list {
 			margin-top: 1.4em;
 		}
-
-		.person-item {
-			width: 18%;
-		}
 	}
 }
 
@@ -288,10 +284,6 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 5%;
-		}
-
-		.person-item {
-			width: 17%;
 		}
 	}
 }
@@ -342,10 +334,11 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 5.5%;
-		}
 
-		.person-item {
-			width: 20%;
+			.person-item {
+				width: 5.3em;
+				margin-right: 0.4em;
+			}
 		}
 	}
 }
@@ -354,10 +347,6 @@
 	.metainfo.small {
 		.person-list {
 			margin-top: 2em;
-		}
-
-		.person-item {
-			width: 4.2em;
 		}
 	}
 

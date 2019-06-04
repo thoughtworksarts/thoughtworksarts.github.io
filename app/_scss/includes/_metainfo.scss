@@ -11,6 +11,18 @@
 	display: none;
 }
 
+@media (max-width: 1099px) {
+	.metainfo.large {
+		margin-left: 4em;
+	}
+}
+
+@media (max-width: 999px) {
+	.metainfo.large {
+		margin-left: 3.5em;
+	}
+}
+
 @media (max-width: 899px) {
 	.metainfo.small {
 		display: flex;
