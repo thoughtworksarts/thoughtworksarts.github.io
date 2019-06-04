@@ -144,5 +144,51 @@
 				}
 			}
 		}
+
+		.listing-item.double-image {
+			.image {
+				figure {
+					position: inherit;
+					width: inherit;
+					height: inherit;
+
+					img:first-of-type {
+						position: inherit;
+					}
+
+					img:last-of-type {
+						position: inherit;
+					}
+
+					img {
+						width: 43%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 399px) {
+	.listing {
+		.listing-item {
+			.image {
+				figure {
+					img {
+						width: 96%;
+					}
+				}
+			}
+		}
+
+		.listing-item.double-image {
+			.image {
+				figure {
+					img {
+						width: 48%;
+					}
+				}
+			}
+		}
 	}
 }
