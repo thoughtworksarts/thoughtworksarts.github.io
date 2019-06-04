@@ -43,7 +43,7 @@ body:not(.landing-page):not(.home-page) {
 
 body:not(.landing-page) {
 	.content {
-		article {
+		article, aside {
 			padding-top: 7em;
 		}
 
