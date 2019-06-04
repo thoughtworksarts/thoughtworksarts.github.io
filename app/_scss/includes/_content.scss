@@ -46,6 +46,11 @@ body:not(.landing-page) {
 		article {
 			padding-top: 7em;
 		}
+
+		h1, h2, h2 span, h3, h3 a {
+			text-transform: uppercase;
+			font-family: $bebas;
+		}
 	}
 }
 

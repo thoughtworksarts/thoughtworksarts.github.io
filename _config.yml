@@ -78,3 +78,4 @@ defaults:
     values:
       layout    : bio
       bodyid    : expo
+      bodyclass : detail-page
