@@ -124,3 +124,27 @@
 		}
 	}
 }
+
+@media (max-width: 599px) {
+	.listing {
+		.listing-item, .listing-item.alternating:nth-child(even) {
+			margin-bottom: 5em;
+
+			.image {
+				margin-left: 1.5rem;
+				margin-right: 1.5rem;
+			}
+
+			.text {
+				p, h2, .progress {
+					width: inherit;
+				}
+
+				.progress {
+					margin-left: 1.5rem;
+					margin-right: 1.5rem;
+				}
+			}
+		}
+	}
+}
