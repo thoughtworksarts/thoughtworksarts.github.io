@@ -34,33 +34,12 @@
 	}
 
 	.widgets {
-		margin: 1.2em 0 0 0;
 		position: relative;
-		top: 0.4em;
+		margin: 1.2em 0 0 0;
 
 		figure {
-			img {
-				position: relative; left: -1em;
-			}
-
-			img:first-of-type {
-				left: 0;
-			}
-
-			figcaption {
-				color: $grey-mid;
-				cursor: default;
-				font-style: italic;
-				position: absolute; top: 0;
-				display: inline;
-				margin: 0.4em 0.76em;
-				font-size: $p-subtraction-font-size;
-				line-height: 1.55em;
-			}
-
-			figcaption.indent {
-				left: 7.4em;
-			}
+			position: relative;
+			height: 4.7rem;
 
 			a {
 				color: inherit;
@@ -73,6 +52,32 @@
 			a:hover, a:active {
 				text-decoration: underline;
 			}
+
+			>a img {
+				height: 100%;
+			}
+
+			>a, figcaption {
+				height: 100%;
+				display: inline-block;
+			}
+
+			figcaption {
+				margin: auto 0;
+				height: 3em;
+				padding-left: 0.4em;
+				vertical-align: top;
+
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+
+				color: $grey-mid;
+				cursor: default;
+				font-style: italic;
+				font-size: $p-subtraction-font-size;
+				line-height: 1.55em;
+			}
 		}
 
 		figure.empty {
@@ -80,12 +85,8 @@
 			margin-top: -0.4em;
 
 			figcaption {
-				margin-left: 0;
+				padding-left: 0.1em;
 			}
-		}
-
-		img {
-			width: 4em;
 		}
 
 		ul.social-links {
@@ -93,6 +94,7 @@
 			padding: 0;
 			display: inline;
 			margin: 0.2em 0;
+			z-index: 20;
 
 			li {
 				width: 50px; height: 50px;
