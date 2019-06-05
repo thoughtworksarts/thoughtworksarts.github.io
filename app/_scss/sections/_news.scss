@@ -92,26 +92,23 @@
 			list-style-type: none;
 			padding: 0;
 			display: inline;
-			position: absolute; right: 0;
-			margin: 1.7em 0;
+			margin: 0.2em 0;
 
 			li {
-				display: inline;
+				width: 50px; height: 50px;
 			}
 
 			a {
-				margin-left: 0.8em;
-				position: relative; top: -5px;
-				transition: color 0.16s ease-out;
-				width: 10px;
-				font-size: $news-social-font-size;
+				width: 50px; height: 50px;
 			}
 
 			a:link, a:visited {
+				font-size: $footer-social-font-size;
 				color: $grey-mid;
 			}
 
 			a:hover, a:active {
+				font-size: $footer-social-bump-font-size;
 				color: $yellow;
 			}
 
@@ -164,16 +161,12 @@
 	#news .widgets {
 		top: 0.2em;
 
-		figure figcaption {
-			font-size: 1em;
+		ul.social-links {
+			margin-top: 0;
 		}
 
-		ul.social-links {
-			margin: 2.1em 0;
-
-			a {
-				font-size: 24px;
-			}
+		figure figcaption {
+			font-size: 1em;
 		}
 	}
 }
