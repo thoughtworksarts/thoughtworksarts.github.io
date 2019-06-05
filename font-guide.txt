@@ -1,0 +1,46 @@
+header {
+	.navigation a
+}
+
+footer {
+	.subscribe
+	.notices
+}
+
+h1
+h2
+p
+blockquote
+table
+ul
+ol
+
+.landing-page {
+	h1
+}
+
+.detail-page {
+	.when        //project date
+
+	aside {
+		h1
+		h2
+		p
+	}
+}
+
+.homepage {
+	h2
+	.info        //date, time, etc
+	.author-handle
+	.when-posted
+	p
+}
+
+.progress {
+	a
+}
+
+.blog {
+	h1
+}
