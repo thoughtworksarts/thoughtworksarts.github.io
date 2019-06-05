@@ -594,6 +594,16 @@
 	}
 }
 
+@media (max-width: 499px) {
+	#home {
+		>main {
+			>section:first-of-type {
+				border-top: 0;
+			}
+		}
+	}
+}
+
 @media (max-width: 479px) {
 	#home {
 		>main {
