@@ -138,7 +138,7 @@
 	}
 }
 
-.metainfo.large.bio {
+.bio .metainfo.large {
 	text-align: left;
 }
 
@@ -276,7 +276,7 @@
 		}
 	}
 
-	.metainfo.small.bio {
+	.bio .metainfo.small {
 		position: relative;
 
 		.person {
@@ -328,7 +328,7 @@
 }
 
 @media (max-width: 639px) {
-	.metainfo.small.bio {
+	.bio .metainfo.small {
 		.person {
 			min-height: 13em;
 		}
@@ -342,7 +342,7 @@
 		}
 	}
 
-	.metainfo.small.bio {
+	.bio .metainfo.small {
 		.person {
 			width: 40%;
 			max-width: 12em;
@@ -389,7 +389,7 @@
 		}
 	}
 
-	.metainfo.small.bio {
+	.bio .metainfo.small {
 		margin-top: 0.5em;
 		position: relative;
 		display: block;
@@ -419,7 +419,7 @@
 }
 
 @media (max-width: 439px) {
-	.metainfo.small.bio {
+	.bio .metainfo.small {
 		.person {
 			width: 85%;
 		}
@@ -427,7 +427,7 @@
 }
 
 @media (max-width: 389px) {
-	.metainfo.small.bio {
+	.bio .metainfo.small {
 		.person {
 			width: 100%;
 		}
