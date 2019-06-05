@@ -151,13 +151,14 @@
 				position: relative;
 
 				.explanation {
-					width: 50%;
+					width: 45%;
 				}
 
 				figure {
 					position: absolute;
 					top: 0; right: 0;
-					width: 50%;
+					width: 53%;
+					margin: 3.7em 0 0 0;
 
 					a {
 						display: block;
@@ -336,12 +337,19 @@
 
 			.about-us {
 				header, .content {
+					.explanation, figure {
+						max-width: $max-text-width;
+						margin-left: 0;
+						margin-right: auto;
+					}
+
 					.explanation {
 						width: 100%;
 						margin-right: 0;
 					}
 
 					figure {
+						margin-top: 0;
 						width: 100%;
 						position: relative;
 						right: inherit;
