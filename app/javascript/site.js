@@ -23,7 +23,7 @@ $(document).ready(function() {
 	}
 
 	function enableSocialLinks() {
-		$('.social.out a').click(function(event) {
+		$('.social.new-window a').click(function(event) {
 			var width =  575,
 				height = 400,
 				left =   ($(window).width()	- width) / 2,
