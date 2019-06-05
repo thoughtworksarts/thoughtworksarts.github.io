@@ -356,4 +356,12 @@ body>header {
 	body.site-banner>header .banner a {
 		font-size: $small-info-font-size;
 	}
+
+	h1 {
+		font-size: $h1-small-screen-font-size !important;
+	}
+
+	h2 {
+		font-size: $h2-small-screen-font-size !important;
+	}
 }
