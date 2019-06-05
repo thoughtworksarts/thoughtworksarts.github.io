@@ -334,12 +334,6 @@ body>header {
 	flex-flow: column;
 }
 
-@media (max-width: 999px) {
-	h1:not(.home-page) {
-		margin-top: 0.2em;
-	}
-}
-
 @media (max-width: 899px) {
 	hr {
 		margin-bottom: 0;

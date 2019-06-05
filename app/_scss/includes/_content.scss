@@ -111,6 +111,34 @@ body:not(.landing-page) {
 	body:not(.home-page) {
 		.content {
 			width: calc(100% - 3rem);
+
+			article, aside {
+				padding-top: 3.7em;
+			}
+		}
+	}
+}
+
+@media (max-width: 999px) {
+	body:not(.landing-page) {
+		.content {
+			article, aside {
+				padding-top: 3.7em;
+			}
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	body:not(.landing-page) {
+		.content {
+			article, aside {
+				padding-top: 1.5em;
+			}
+
+			article {
+				margin: 0 auto !important;
+			}
 		}
 	}
 }
