@@ -22,9 +22,9 @@
 		text-align: center;
 
 		h2 {
+			margin: 0.2rem 0 0 0;
+			font-weight: bold;
 			font-size: 1.6rem;
-			margin-top: 0.2rem;
-			margin-bottom: 0;
 		}
 
 		p {
@@ -38,7 +38,11 @@
 		border-top: 1px solid $black;
 
 		.person-item h2 {
-			margin: 1.8em 0;
+			margin: 0.5rem 0;
+		}
+
+		.person-item:first-of-type h2 {
+			margin-top: 1.5rem;
 		}
 	}
 
