@@ -1,11 +1,11 @@
 <h1 class="first hide">Project Team</h1><div class="second"><ul class="person-list">
-  {% assign person = site.people | where: "name", page.artist | first %}
-  {% include expo/person-item.html role="Artist in Residence" %}
+  {% assign person = site.people | where: 'name', page.artist | first %}
+  {% include expo/person-item.html role='Artist in Residence' style=include.style  %}
 
   {% assign team = page.team | sort: 'lastname' %}
   {% for member in team %}
     {% assign person = site.people | where: "name", member.name | first %}
-    {% include expo/person-item.html role=member.role %}
+    {% include expo/person-item.html role=member.role style=include.style  %}
   {% endfor %}
 </ul>
   {% if page.extended-team %}

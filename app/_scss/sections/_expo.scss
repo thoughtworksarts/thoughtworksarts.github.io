@@ -73,7 +73,7 @@
 		p {
 			padding-top: 0.4em;
 			margin-bottom: 1.2rem;
-			font-size: $p-subtraction-font-size;
+			font-size: $p-font-size;
 		}
 	}
 
@@ -195,18 +195,8 @@
 
 @media (max-width: 1299px) {
 	.metainfo {
-		.person-item {
-			h2 {
-				font-size: 1.2rem;
-			}
-
-			p {
-				font-size: 1rem;
-			}
-		}
-
 		.profile-info {
-			font-size: 1rem;
+			font-size: $p-subtraction-font-size;
 		}
 	}
 }
@@ -238,6 +228,10 @@
 }
 
 @media (max-width: 899px) {
+	.metainfo.large {
+		display: none;
+	}
+
 	.metainfo.small {
 		display: flex;
 		flex-flow: row;
@@ -245,19 +239,25 @@
 		.first {
 			flex: 0 0 auto;
 		}
-	}
 
-	.metainfo.large {
-		display: none;
-	}
-
-	.metainfo.small {
 		h2 {
-			margin-top: 120px;
-			width: 2.9em;
 			display: inline-block;
-			position: relative;
-			top: 0.5em;
+			margin: 0.2em 0;
+		}
+
+		h2, h2 a {
+			font-size: $p-font-size;
+			font-family: $open-sans !important;
+			text-transform: inherit !important;
+		}
+
+		p {
+			padding-top: 0.15em;
+			padding-bottom: 0;
+			font-size: $small-info-font-size;
+			font-style: italic;
+			margin-bottom: 0;
+			line-height: 1rem;
 		}
 
 		.person-list {
@@ -290,7 +290,6 @@
 
 				h2 {
 					margin: 0;
-					display: inline;
 				}
 			}
 
@@ -303,23 +302,6 @@
 			.person-item:last-child::after {
 				content: '';
 			}
-		}
-
-		h2 {
-			margin: 0 0 0.3em 0;
-			font-size: 0.8em;
-		}
-
-		p {
-			padding-top: 0.15em;
-			padding-bottom: 0;
-			font-size: 0.8em;
-			font-style: italic;
-			margin-bottom: 0;
-		}
-
-		h2, p {
-			line-height: 1rem;
 		}
 	}
 
@@ -406,10 +388,10 @@
 			width: 56%;
 
 			.key, .value {
-				font-size: 0.9rem;
+				font-size: $small-info-font-size;
 
 				.project-list li {
-					font-size: 0.9rem;
+					font-size: $small-info-font-size;
 				}
 			}
 		}

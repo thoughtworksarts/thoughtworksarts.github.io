@@ -6,11 +6,16 @@
       <h2>{{ member.name }}</h2>
     {% endif %}
   {% else %}
+    {% if include.style == 'small' %}
+      {% assign person-name = person.name | replace: ' ', '<br />' %}
+    {% else %}
+      {% assign person-name = person.name %}
+    {% endif %}
     <figure class="person">
       <a href="{{ person.url }}">
         <img src="/images/people/{{ person.photo }}" alt="{{ person.name }}">
         <figcaption>
-          <h2>{{ person.name }}</h2>
+          <h2>{{ person-name }}</h2>
           <p>{{ include.role }}</p>
         </figcaption>
       </a>

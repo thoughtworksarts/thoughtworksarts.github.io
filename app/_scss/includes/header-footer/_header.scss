@@ -217,8 +217,7 @@ body.site-banner>header {
 				position: relative; right: -0.1em; bottom: 0.9em;
 
 				i {
-					font-size: 1.7em;
-					margin: 0 0.125em;
+					font-size: $header-social-font-size;
 				}
 
 				.fa-bars {
@@ -276,7 +275,6 @@ body.site-banner>header {
 					}
 
 					a {
-						font-size: 1.3rem;
 						padding: 0;
 						height: inherit;
 						position: inherit;

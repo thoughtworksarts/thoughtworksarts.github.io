@@ -13,7 +13,6 @@ h2
 p
 figcaption
 blockquote
-table                //different on very small screens only
 ul
 ol
 .social              //in footer, blog and newsletters
