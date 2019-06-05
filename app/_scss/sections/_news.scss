@@ -7,7 +7,7 @@
 		}
 
 		h1:hover {
-			border-top: 3px solid $transparent;
+			border-top: 3px solid transparent;
 		}
 	}
 
@@ -24,7 +24,7 @@
 			cursor: default;
 			width: 100%;
 			transition: border 0.16s ease-out;
-			font-family: 'Open Sans', sans-serif;
+			font-family: $open-sans;
 			text-transform: inherit;
 		}
 	}
