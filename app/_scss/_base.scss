@@ -341,7 +341,7 @@ body>header {
 }
 
 @media (max-width: 639px) {
-	h1:not(.home-page) {
+	body:not(.home-page) h1 {
 		margin-top: 0;
 	}
 }
