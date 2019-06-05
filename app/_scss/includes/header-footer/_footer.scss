@@ -41,11 +41,11 @@ footer {
 
 		a {
 			width: 50px; height: 50px;
-			font-size: 1.6em;
+			font-size: $footer-social-font-size;
 		}
 
 		a:hover, a:active {
-			font-size: 2em;
+			font-size: $footer-social-bump-font-size;
 
 			i {
 				color: $yellow;
@@ -59,7 +59,7 @@ footer {
 		bottom: 0.2em;
 
 		li a {
-			font-size: 0.65em;
+			font-size: $small-info-font-size;
 			margin-right: 1em;
 		}
 

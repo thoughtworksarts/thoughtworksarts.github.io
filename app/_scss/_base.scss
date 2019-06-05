@@ -38,7 +38,7 @@ a.attention {
 }
 
 p, ul, ol, .progress, blockquote {
-	font-size: $standard-font-size;
+	font-size: $p-font-size;
 	letter-spacing: $large_spacing;
 	line-height: $small_lineheight;
 	padding: 0.9em 0;
@@ -53,7 +53,7 @@ ul.closer, ol.closer {
 }
 
 figcaption {
-	font-size: $smaller-font-size;
+	font-size: $p-subtraction-font-size;
 }
 
 h1, h2, p {
@@ -244,7 +244,7 @@ ul.progress li, ol.progress li {
 
 .progress {
 	a {
-		font-size: $standard-font-size;
+		font-size: $progress-font-size;
 		font-weight: bold;
 		text-decoration: none;
 		text-transform: lowercase;
@@ -359,6 +359,6 @@ body>header {
 
 @media (max-width: 399px) {
 	body.site-banner>header .banner a {
-		font-size: 0.9em;
+		font-size: $small-info-font-size;
 	}
 }

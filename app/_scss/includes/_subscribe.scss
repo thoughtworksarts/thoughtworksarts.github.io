@@ -22,7 +22,7 @@
 			border: 0;
 			outline: 0;
 			vertical-align: bottom;
-			font-size: 1.2em;
+			font-size: $p-subtraction-font-size;
 			font-weight: lighter;
 			font-style: normal;
 			padding: 7px;
@@ -48,7 +48,7 @@
 			cursor: pointer;
 			text-align: left;
 			transition: all 0.24s;
-			font-size: 1.1em;
+			font-size: $p-subtraction-font-size;
 			background-image: url('/images/icons/arrow-white.png');
 			background-repeat: no-repeat;
 			background-position: right;
@@ -100,7 +100,7 @@
 
 				input input[type=email] {
 					text-align: center;
-					font-size: 0.9em;
+					font-size: $small-info-font-size;
 				}
 			}
 		}
