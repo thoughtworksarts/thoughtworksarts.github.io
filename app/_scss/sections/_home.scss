@@ -2,6 +2,7 @@
 	>main {
 		>section {
 			margin: 0;
+			padding-top: 1.5rem;
 			position: relative;
 			border-top: $header-divider-size solid $grey-light1;
 
@@ -145,8 +146,6 @@
 		}
 
 		.about-us {
-			padding-top: 2.5em;
-
 			>.content {
 				position: relative;
 
