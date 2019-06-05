@@ -21,7 +21,7 @@
 	.person-item {
 		text-align: center;
 
-		h3 {
+		h2 {
 			font-size: 1.6rem;
 			margin-top: 0.2rem;
 			margin-bottom: 0;
@@ -37,7 +37,7 @@
 	.person-list.extended {
 		border-top: 1px solid $black;
 
-		.person-item h3 {
+		.person-item h2 {
 			margin: 1.8em 0;
 		}
 	}
@@ -149,7 +149,7 @@
 @media (max-width: 1299px) {
 	.metainfo {
 		.person-item {
-			h3 {
+			h2 {
 				font-size: 1.2rem;
 			}
 
@@ -241,7 +241,7 @@
 				width: inherit;
 				text-align: left;
 
-				h3 {
+				h2 {
 					margin: 0;
 					display: inline;
 				}
@@ -258,7 +258,7 @@
 			}
 		}
 
-		h3 {
+		h2 {
 			margin: 0 0 0.3em 0;
 			font-size: 0.8em;
 		}
@@ -271,7 +271,7 @@
 			margin-bottom: 0;
 		}
 
-		h3, p {
+		h2, p {
 			line-height: 1rem;
 		}
 	}

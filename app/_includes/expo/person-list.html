@@ -1,4 +1,4 @@
-<h2 class="first hide">Project Team</h2><div class="second"><ul class="person-list">
+<h1 class="first hide">Project Team</h1><div class="second"><ul class="person-list">
   {% assign person = site.people | where: "name", page.artist | first %}
   {% include expo/person-item.html role="Artist in Residence" %}
 
@@ -9,7 +9,7 @@
   {% endfor %}
 </ul>
   {% if page.extended-team %}
-    <h2 class="hide"><span>Extended Team</span></h2>
+    <h1 class="hide"><span>Extended Team</span></h1>
     <ul class="person-list extended">
         {% assign extended-team = page.extended-team | sort: 'lastname' %}
         {% for member in extended-team %}
