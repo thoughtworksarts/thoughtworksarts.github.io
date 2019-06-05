@@ -26,9 +26,9 @@ body:not(.landing-page):not(.home-page) {
 			position: absolute;
 			font-size: $h1-font-size;
 			background: $white;
-			position: absolute; top: -70px;
+			position: absolute; top: -56px;
 			margin: 0;
-			padding: 16px 42px 10px 42px;
+			padding: 16px 42px;
 		}
 
 		article {
@@ -145,7 +145,7 @@ body:not(.landing-page) {
 				}
 
 				table {
-					font-size: $table-font-size;
+					font-size: 0.8rem;
 				}
 			}
 		}

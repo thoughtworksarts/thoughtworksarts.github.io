@@ -41,11 +41,11 @@ footer {
 
 		a {
 			width: 50px; height: 50px;
-			font-size: $footer-social-font-size;
+			font-size: $social-font-size;
 		}
 
 		a:hover, a:active {
-			font-size: $footer-social-bump-font-size;
+			font-size: $social-bump-font-size;
 
 			i {
 				color: $yellow;

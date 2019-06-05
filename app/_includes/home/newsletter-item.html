@@ -14,7 +14,7 @@
 			<img src="{{ newsletter.image }}" alt="{{ newsletter.title }}" />
 		</figure>
 		<h2>{{ newsletter.title }}</h2>
-		<p class="info">{{ datestr }}</p>
+		<p class="date">{{ datestr }}</p>
 		<p>{{ newsletter.content | truncate: 300 }}</p>
 	</a>
 </li>

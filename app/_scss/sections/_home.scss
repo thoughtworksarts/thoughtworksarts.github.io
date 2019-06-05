@@ -38,16 +38,16 @@
 						}
 
 						p {
+							font-size: $p-subtraction-font-size;
 							padding: 0 1rem 1rem 1rem;
 						}
 
-						.info {
+						.date {
 							padding-top: 0;
 							padding-bottom: 0.3rem;
 							font-weight: bold;
 							line-height: 1.2em;
 							font-size: $small-info-font-size;
-							text-transform: uppercase;
 						}
 
 						img {
@@ -263,7 +263,6 @@
 							text-align: left;
 							position: relative;
 							width: 100%;
-							font-size: $small-info-font-size;
 
 							.icon {
 								position: absolute;
@@ -273,19 +272,20 @@
 							.social-author-icon {
 								top: 0.85rem;
 								left: 0.95rem;
-								width: 2.3em;
+								width: 2.1rem;
 							}
 
 							.social-network-icon {
 								top: 1rem;
 								right: 1rem;
-								width: 1.8em;
+								width: 1.7rem;
 							}
 
 							.name-date {
 								display: inline-block;
 								margin: 0.9em 0 0 3.6em;
 								line-height: 1.3em;
+								font-size: $small-info-font-size;
 
 								.author-handle {
 									font-weight: bold;
