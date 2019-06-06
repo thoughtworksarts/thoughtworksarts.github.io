@@ -11,9 +11,17 @@ description   : ThoughtWorks Arts programs include Art-A-Hack, Hardware Hack Lab
 			<h1 class="programs">Programs</h1>
 		</header>
 		<div class="text">
-			<p style="color: red">This page describes programs in detail.</p>
-			<p>The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.</p>
-			<p>The aim of this program is to facilitate dialog, partnership and collaboration at the intersection of technology and exploratory arts. By focusing on this synthesis, the program aims to empower resident artists to make work which inspires shifts in perspective and debate.</p>
+			<p>Art and technology partnerships represent a surprisingly unique and impactful approach to emerging technology research. To empower investigations and develop projects at this intersection, ThoughtWorks Arts runs a number of programs incubating artist and technologist collaborations.</p>
+			<p>The programs of ThoughtWorks Arts enable investigations into the impacts of emerging technologies on industry, culture and society. Our programs include Hardware Hack Lab, Art-A-Hack and the ThoughtWorks Arts Residency, each with a unique focus, approach and outcomes.</p>
+		</div>
+		{% include image.html file='/images/programs.png'
+		   alt='ThoughtWorks Arts includes programs such as Art-A-Hack, Hardware Hack Lab and the ThoughtWorks Arts Residency'
+		   class='no-border' %}
+		<div class="text">
+			<p>Together these programs cover a wide spectrum of modes of support, methods of inclusion, and nature of outcomes. They range from the open-access community support of Hardware Hack Lab, through the facilitated cross-disciplinary collaboration of Art-A-Hack, and into the deep, focused cutting edge issue research of the ThoughtWorks Arts Residency.</p>
+			<p>Each program is driven by the central insight that art provides a <a href="/blog/how-artists-reshape-emerging-technology-research/">powerful lens for engaging with technology</a>, in particular because of its high degree of freedom in making large conceptual leaps across technical, industrial and societal domains, delivering often unexpected outcomes.</p>
+			{% include youtube.html id='yrPegku0znk'
+			   caption='The art & technology behind ThoughtWorks Arts explained' %}
 		</div>
 	</div>
 </section>
@@ -47,23 +55,5 @@ description   : ThoughtWorks Arts programs include Art-A-Hack, Hardware Hack Lab
 				</div>
 			</section>
 		{% endfor %}
-	</div>
-</section>
-<section>
-	<div class="content">
-		<header>
-			<h1>Newsletters</h1>
-		</header>
-		<div class="text">
-			<p>We send out occasional newsletter updates to keep you informed of our residents and their progress. We also include information from our other creative technology initiatives, such as <a href="https://artahack.io/">Art-A-Hack</a> and <a href="https://hardwarehacklab.io">Hardware Hack Lab</a>.</p>
-			<p>To learn more browse the listing below, or head over to our <a href="/newsletters/">newsletters page</a>.</p>
-			<ul>
-			{% assign newsletters = site.newsletters | reverse %}
-			{% for newsletter in newsletters %}
-				<li>{{ newsletter.date | date: "%B %-d, %Y" }}: <a href="{{ newsletter.url }}">{{ newsletter.title }}</a></li>
-			{% endfor %}
-			</ul>
-			<p>Subscribe to our mailing list below to get these updates in your email inbox, usually sent around once every quarter.</p>
-		</div>
 	</div>
 </section>
