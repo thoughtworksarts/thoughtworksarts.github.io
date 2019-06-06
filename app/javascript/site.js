@@ -50,13 +50,13 @@ $(document).ready(function() {
 	}
 
 	function populateSignupBox() {
-		$('.subscribe-email').focusin(function(){
+		$('.subscribe-newsletter').focusin(function(){
 			if($(this).val() === 'your email'){
 				prepForEmailEntry($(this));
 			}
 		});
 
-		$('.subscribe-email').focusout(function(){
+		$('.subscribe-newsletter').focusout(function(){
 			if($(this).val() === ''){
 				unprepForEmailEntry($(this));
 			}
