@@ -11,49 +11,34 @@ description   : ThoughtWorks Arts programs include Art-A-Hack, Hardware Hack Lab
 			<h1 class="programs">Programs</h1>
 		</header>
 		<div class="text">
-			<p>Art and technology partnerships represent a surprisingly unique and impactful approach to emerging technology research. To empower investigations and develop projects at this intersection, ThoughtWorks Arts runs a number of programs incubating artist and technologist collaborations.</p>
-			<p>The programs of ThoughtWorks Arts enable investigations into the impacts of emerging technologies on industry, culture and society. Our programs include Hardware Hack Lab, Art-A-Hack and the ThoughtWorks Arts Residency, each with a unique focus, approach and outcomes.</p>
+			<p>Art and technology partnerships represent a unique and impactful approach to emerging technology research. To empower investigations and develop projects at this intersection, ThoughtWorks Arts runs a number of programs incubating artist and technologist collaborations.</p>
+			<p>Our work at ThoughtWorks Arts enables exploration into the impacts of emerging technologies on industry, culture and society. This includes programs such as Hardware Hack Lab, Art-A-Hack and the ThoughtWorks Arts Residency, each with a particular method, focus and outcomes.</p>
 		</div>
-		{% include image.html file='/images/programs.png'
+
+		{% include image.html file='/images/programs/thoughtworks-arts.png'
 		   alt='ThoughtWorks Arts includes programs such as Art-A-Hack, Hardware Hack Lab and the ThoughtWorks Arts Residency'
 		   class='no-border' %}
+
 		<div class="text">
-			<p>Together these programs cover a wide spectrum of modes of support, methods of inclusion, and nature of outcomes. They range from the open-access community support of Hardware Hack Lab, through the facilitated cross-disciplinary collaboration of Art-A-Hack, and into the deep, focused cutting edge issue research of the ThoughtWorks Arts Residency.</p>
-			<p>Each program is driven by the central insight that art provides a <a href="/blog/how-artists-reshape-emerging-technology-research/">powerful lens for engaging with technology</a>, in particular because of its high degree of freedom in making large conceptual leaps across technical, industrial and societal domains, delivering often unexpected outcomes.</p>
+			<p>Together these programs cover a wide spectrum of modes of production, mechanisms of support, and approaches to inclusion. They range from the open-access community engagement of Hardware Hack Lab, through the facilitated cross-disciplinary collaboration of Art-A-Hack, and into the deep, focused cutting-edge research of the ThoughtWorks Arts Residency.</p>
+			<p>Each program is driven by the central insight that art provides a <a href="/blog/how-artists-reshape-emerging-technology-research/">powerful lens for engaging with technology</a>, particularly given the high degree of freedom within arts practice to make large conceptual leaps across technical, industrial and societal domains.</p>
+
 			{% include youtube.html id='yrPegku0znk'
-			   caption='The art & technology behind ThoughtWorks Arts explained' %}
+			   caption='The art & technology behind ThoughtWorks Arts, explained' %}
+
+			<p>In his presentation at TEDxVilnius, program director Andrew McWilliams explains the evolution and structure of ThoughtWorks Arts programs, outlining incubated projects and subjects of research.</p>
+			<h2>Hardware Hack Lab</h2>
+			<p>Started in 2013, the Hardware Hack Lab has become a staple of the New York City creative technology scene. The lab is known as a free, weekly co-working community, offering access to high-end hardware and a community with a culture of exploration.</p>
 		</div>
-	</div>
-</section>
-<section>
-	<div class="content">
-		<header>
-			<h2>How it works</h2>
-		</header>
+
+		{% include image.html file='/images/programs/hardware-hack-lab.jpg'
+		   alt='The Hardware Hack Lab is a free space for artists, hackers and innovators every week in New York City' %}
+
 		<div class="text">
-			<p>Artists are invited spend 16 weeks in residence in New York, at <a href="http://thoughtworks.com">ThoughtWorks</a>, a global technology consultancy. During their stay, artists receive a regular stipend and project production support from a global network of analysts, designers, developers and other experts in the company.</p>
-			<p>ThoughtWorks runs the residency out of an desire to openly experiment, collaborate and share ideas with those asking hard questions about emerging technologies. Therefore, artists own all physical and intellectual property generated during their stay.</p>
+			<p>Members are encouraged to bring technology they are working on and to exchange and share with others. The lab is often visited by guests from academia, industry, technology and art, and maintains an accessible supply of VR/AR/MR, electronics equipment and devices, providing food and enabling social interaction.</p>
 		</div>
-	</div>
-</section>
-<section class="listing team">
-	<div class="content">
-		<header>
-			<h1>The residency team</h1>
-		</header>
-		{% assign directors = site.people | where: "participation","Director" | sort: 'lastname' %}
-		{% for director in directors %}
-			<section class="listing-item">
-				<div class="image">
-					<figure>
-						<a href="{{ director.url }}"><img src="/images/people/{{ director.photo }}" /></a>
-					</figure>
-				</div>
-				<div class="text">
-					<h2><a href="{{ director.url }}">{{ director.name }}</a></h2>
-					{{ director.teaser }}
-				</div>
-			</section>
-		{% endfor %}
+		<div class="progress">
+			<a href="https://hardwarehacklab.io/join/" class="programs forwards">Attend the next lab</a>
+		</div>
 	</div>
 </section>
