@@ -39,7 +39,7 @@ $(document).ready(function() {
 	function setupSocialFeed() {
 		if(countNumCompleteImages() == numPostsRequested){
 			removePostsWithImageProblems();
-			removeLinksFromPostTexts();
+			processPostTexts();
 			deduplicatePosts();
 			insertPostsDirectlyIntoListElement();
 			displaySocialWall();
@@ -90,12 +90,17 @@ $(document).ready(function() {
 		});
 	}
 
-	function removeLinksFromPostTexts() {
+	function processPostTexts() {
 		$('#curator-feed li .post-text').each(function() {
 			var text = $(this).text();
-			text = text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
+			text = removeLinksFromPostText(text);
+			text = generateTeaser(text, 170);
 			$(this).text(text);
 		});
+	}
+
+	function removeLinksFromPostText(text) {
+		return text.replace(/(?:https?|ftp):\/\/[\n\S]+/g, '');
 	}
 
 	function hasBeenSeenBefore(text) {

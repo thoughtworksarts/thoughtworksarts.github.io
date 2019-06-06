@@ -17,9 +17,7 @@ function trim(text) {
 	return text.replace(/^\s+|\s+$/g, '');
 }
 
-function generateTeaser(html, maxLength) {
-	var str = $(html).text();
-
+function generateTeaser(str, maxLength) {
 	if(str.length > maxLength) {
 		var str = str.substr(0, maxLength);
 		str = str.substr(0, Math.min(str.length, str.lastIndexOf(" ")));
