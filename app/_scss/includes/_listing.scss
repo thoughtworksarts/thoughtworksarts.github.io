@@ -78,7 +78,7 @@
 		}
 	}
 
-	.listing-item.alternating:nth-child(even) {
+	.listing-item.alternating:nth-of-type(even) {
 		.text {
 			order: 1;
 		}

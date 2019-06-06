@@ -1,0 +1,44 @@
+---
+title         : Team
+bodyid        : programs
+bodyclass     : landing-page
+description   : The team who run ThoughtWorks Arts, which supports artists and creative practitioners exploring lines of inquiry intersecting technology and society.
+---
+<section class="listing team">
+	<div class="content">
+		<header>
+			<h1 class="programs">The Team</h1>
+		</header>
+		<div class="text">
+			<p>Each of the programs and projects incubated at ThoughtWorks Arts are staffed and supported by a wide range of technical and creative practitioners. Our work is guided and influenced by our partner network and employees across the commercial ThoughtWorks operation.</p>
+		</div>
+		{% assign directors = site.people | where: "participation","Director" | sort: 'lastname' %}
+		{% for director in directors %}
+			<section class="listing-item alternating">
+				<div class="image">
+					<figure>
+						<a href="{{ director.url }}"><img src="/images/people/{{ director.photo }}" /></a>
+					</figure>
+				</div>
+				<div class="text">
+					<h2><a href="{{ director.url }}">{{ director.name }}</a></h2>
+					{{ director.teaser }}
+				</div>
+			</section>
+		{% endfor %}
+		{% assign directors = site.people | where: "participation","Team" | sort: 'lastname' %}
+		{% for director in directors %}
+			<section class="listing-item alternating">
+				<div class="image">
+					<figure>
+						<a href="{{ director.url }}"><img src="/images/people/{{ director.photo }}" /></a>
+					</figure>
+				</div>
+				<div class="text">
+					<h2><a href="{{ director.url }}">{{ director.name }}</a></h2>
+					{{ director.teaser }}
+				</div>
+			</section>
+		{% endfor %}
+	</div>
+</section>
