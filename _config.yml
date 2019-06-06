@@ -66,7 +66,6 @@ defaults:
     values:
       layout    : newsletter
       bodyid    : news
-      bodyclass : newsletter
   - scope:
       type: projects
     values:
