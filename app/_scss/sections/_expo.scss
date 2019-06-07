@@ -55,13 +55,13 @@
 		margin-top: 7.6rem;
 	}
 
-	.person-list {
+	.participant-list {
 		list-style-type: none;
 		margin-left: 0;
 		padding-top: 0;
 	}
 
-	.person-item {
+	.participant-item {
 		text-align: center;
 
 		h2 {
@@ -77,19 +77,19 @@
 		}
 	}
 
-	.person-list.extended {
+	.participant-list.extended {
 		border-top: 1px solid $black;
 
-		.person-item h2 {
+		.participant-item h2 {
 			margin: 0.5rem 0;
 		}
 
-		.person-item:first-of-type h2 {
+		.participant-item:first-of-type h2 {
 			margin-top: 1.5rem;
 		}
 	}
 
-	.person {
+	.participant {
 		width: 100%;
 		text-align: center;
 
@@ -168,7 +168,7 @@
 .metainfo.large {
 	text-align: center;
 
-	.person-list, h2 {
+	.participant-list, h2 {
 		display: inline-block;
 	}
 
@@ -260,14 +260,14 @@
 			line-height: 1rem;
 		}
 
-		.person-list {
+		.participant-list {
 			display: flex;
 			flex-flow: row;
 			flex-wrap: wrap;
 			margin: 0.9em 0 0 0;
 		}
 
-		.person-item {
+		.participant-item {
 			flex: 0 0 auto;
 			margin: 0 0.6em 0.6em 0;
 			width: 6em;
@@ -278,12 +278,12 @@
 			}
 		}
 
-		.person-list.extended {
+		.participant-list.extended {
 			margin: 0.2em 0 0.8em 0;
 			padding: 0.8em 0;
 			border-bottom: 1px solid $black;
 
-			.person-item {
+			.participant-item {
 				margin: 0;
 				width: inherit;
 				text-align: left;
@@ -293,13 +293,13 @@
 				}
 			}
 
-			.person-item::after {
+			.participant-item::after {
 				content: ', ';
 				position: relative;
 				left: -0.25em;
 			}
 
-			.person-item:last-child::after {
+			.participant-item:last-child::after {
 				content: '';
 			}
 		}
@@ -308,7 +308,7 @@
 	.bio .metainfo.small {
 		position: relative;
 
-		.person {
+		.participant {
 			height: 100%;
 			min-height: 16em;
 			width: inherit;
@@ -342,7 +342,7 @@
 
 @media (max-width: 729px) {
 	.metainfo.small {
-		.person-list {
+		.participant-list {
 			margin-top: 1.4em;
 		}
 	}
@@ -350,7 +350,7 @@
 
 @media (max-width: 674px) {
 	.metainfo.small {
-		.person-list {
+		.participant-list {
 			margin-top: 5%;
 		}
 	}
@@ -358,7 +358,7 @@
 
 @media (max-width: 639px) {
 	.bio .metainfo.small {
-		.person {
+		.participant {
 			min-height: 13em;
 		}
 	}
@@ -366,13 +366,13 @@
 
 @media (max-width: 611px) {
 	.metainfo.small {
-		.person-list {
+		.participant-list {
 			margin-top: 6%;
 		}
 	}
 
 	.bio .metainfo.small {
-		.person {
+		.participant {
 			width: 40%;
 			max-width: 12em;
 			height: inherit;
@@ -400,10 +400,10 @@
 
 @media (max-width: 580px) {
 	.metainfo.small {
-		.person-list {
+		.participant-list {
 			margin-top: 5.5%;
 
-			.person-item {
+			.participant-item {
 				width: 5.3em;
 				margin-right: 0.4em;
 			}
@@ -413,7 +413,7 @@
 
 @media (max-width: 535px) {
 	.metainfo.small {
-		.person-list {
+		.participant-list {
 			margin-top: 2em;
 		}
 	}
@@ -423,7 +423,7 @@
 		position: relative;
 		display: block;
 
-		.person {
+		.participant {
 			width: 65%;
 			max-width: inherit;
 			padding-left: 0;
@@ -449,7 +449,7 @@
 
 @media (max-width: 439px) {
 	.bio .metainfo.small {
-		.person {
+		.participant {
 			width: 85%;
 		}
 	}
@@ -457,7 +457,7 @@
 
 @media (max-width: 389px) {
 	.bio .metainfo.small {
-		.person {
+		.participant {
 			width: 100%;
 		}
 	}

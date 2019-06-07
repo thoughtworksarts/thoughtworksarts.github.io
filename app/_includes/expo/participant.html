@@ -1,4 +1,4 @@
-<li class="person-item">
+<li class="participant-item">
   {% if include.status == 'extended' %}
     {% if member.link %}
       <h2><a href="{{ member.link }}">{{ member.name }}</a></h2>
@@ -7,15 +7,15 @@
     {% endif %}
   {% else %}
     {% if include.style == 'small' %}
-      {% assign person-name = person.name | replace: ' ', '<br />' %}
+      {% assign participant-name = participant.name | replace: ' ', '<br />' %}
     {% else %}
-      {% assign person-name = person.name %}
+      {% assign participant-name = participant.name %}
     {% endif %}
-    <figure class="person">
-      <a href="{{ person.url }}">
-        <img src="/images/people/{{ person.photo }}" alt="{{ person.name }}">
+    <figure class="participant">
+      <a href="{{ participant.url }}">
+        <img src="/images/people/{{ participant.photo }}" alt="{{ participant.name }}">
         <figcaption>
-          <h2>{{ person-name }}</h2>
+          <h2>{{ participant-name }}</h2>
           <p>{{ include.role }}</p>
         </figcaption>
       </a>
