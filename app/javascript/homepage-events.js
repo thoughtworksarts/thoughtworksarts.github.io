@@ -47,15 +47,11 @@ $(document).ready(function() {
 	}
 
 	function bindEventsHtml(meetupJson) {
-		for(var meetup in meetupJson.data) {
-			if(isAcceptableMeetup(meetup)) {
+		meetupJson.data.forEach(function(meetup){
+			if(isAcceptableMeetup(meetup) && listElement.children().length < 3) {
 				bindEventHtml(meetup);
 			}
-
-			if(listElement.children().length == 3) {
-				break;
-			}
-		}
+		});
 	}
 
 	function bindEventHtml(meetup) {
