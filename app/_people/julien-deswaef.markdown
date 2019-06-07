@@ -2,6 +2,7 @@
 name          : Julien Deswaef
 occupation    : Artist
 participation : Team
+role          : Operations Manager
 teaser        :
    <p>Julien Deswaef is a digital artist, designer and developer based in Barcelona. Active both in visual arts and in free, libre and open source software movement, Julien regularly collaborates on art, and technology music projects. Julien is a member of NYCmesh, co-creator of the Open Source Design NYC chapter, and an organizer of the Libre Graphics Meeting.</p>
 

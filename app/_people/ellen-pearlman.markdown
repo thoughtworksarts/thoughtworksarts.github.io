@@ -2,6 +2,7 @@
 name          : Ellen Pearlman
 occupation    : Artist & Curator
 participation : Director
+role          : Program Director
 teaser        :
    <p>Ellen Pearlman is a new media artist, curator, writer and critic. She received her PhD from the School of Creative Media, Hong Kong City University, where she premiered her brain opera "Noor", an interactive immersive performance in a 360&deg; theater. Ellen is on the faculty of Parsons/New School University, Director of the Volumetric Society of New York, and President of Art-A-Hack&trade;.</p>
 

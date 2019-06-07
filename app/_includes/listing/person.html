@@ -12,6 +12,7 @@
 	</div>
 	<div class="text">
 		<h2><a href="{{ person.url }}">{{ person.name }}</a></h2>
+		{% if person.role %}<p class="additional">{{ person.role }}</p>{% endif %}
 		{{ person.teaser }}
 	</div>
 </section>
