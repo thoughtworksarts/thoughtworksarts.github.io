@@ -105,6 +105,10 @@
 .listing.compact {
 	.listing-item {
 		margin-bottom: 1em;
+
+		.text h2 {
+			margin-top: 0.4em;
+		}
 	}
 }
 
@@ -134,6 +138,17 @@
 				figure {
 					text-align: left;
 				}
+			}
+		}
+	}
+
+	.listing.compact {
+		.listing-item {
+			margin-bottom: 5em;
+
+			.progress {
+				padding-top: 0;
+				padding-bottom: 1em;
 			}
 		}
 	}
