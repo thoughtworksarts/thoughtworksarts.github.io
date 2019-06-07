@@ -47,7 +47,7 @@ $(document).ready(function() {
 	}
 
 	function bindEventsHtml(meetupJson) {
-		for(let meetup of meetupJson.data) {
+		for(var meetup in meetupJson.data) {
 			if(isAcceptableMeetup(meetup)) {
 				bindEventHtml(meetup);
 			}
