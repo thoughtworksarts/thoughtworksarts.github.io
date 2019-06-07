@@ -2,9 +2,9 @@
 {% assign team = site.people | where: "participation","Team" | sort: 'lastname' %}
 
 {% for person in directors %}
-	{% include people/person-item.html %}
+	{% include listing/person.html %}
 {% endfor %}
 
 {% for person in team %}
-	{% include people/person-item.html %}
+	{% include listing/person.html %}
 {% endfor %}

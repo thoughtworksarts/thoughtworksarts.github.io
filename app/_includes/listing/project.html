@@ -1,0 +1,16 @@
+<section class="listing-item">
+	<div class="image">
+		<figure>
+			<a href="{{ project.url }}">
+				<img src="/images/projects/{{ project.projectid }}/thumb.png" />
+			</a>
+		</figure>
+	</div>
+	<div class="text">
+		<h2><a href="{{ project.url }}">{{ project.artist }}: {{ project.title }}</a></h2>
+		<p>{{ project.description }}</p>
+		<div class="progress">
+			<a href="{{ project.url }}" class="projects forwards">View project</a>
+		</div>
+	</div>
+</section>

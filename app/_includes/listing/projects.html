@@ -1,0 +1,4 @@
+{% assign projects = site.projects | sort: 'season-code' | reverse %}
+{% for project in projects %}
+	{% include listing/project.html %}
+{% endfor %}
