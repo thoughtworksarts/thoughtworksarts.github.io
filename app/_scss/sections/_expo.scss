@@ -105,6 +105,10 @@
 
 	figcaption {
 		text-align: center;
+
+		p:nth-of-type(even) {
+			padding-top: 0;
+		}
 	}
 
 	.profile-info {

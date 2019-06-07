@@ -1,9 +1,18 @@
+{% if page.occupation == "Artist Group" %}
+  {% capture activity %}Group{% endcapture %}
+{% else %}
+  {% capture activity %}{{ page.occupation }}{% endcapture %}
+{% endif %}
+
+{% if page.role %}
+  {% assign activity = activity | append: '</p><p>ThoughtWorks Arts ' | append: page.role %}
+{% endif %}
+
 <figure class="participant first">
   <img src="/images/people/{{ page.photo }}" alt="{{ page.name }}">
   <figcaption>
     <h2>{{ page.name }}</h2>
-    <p>{% if page.occupation == "Artist Group" %}Group{% else %}{{ page.occupation }}{% endif %}
-    {% if page.participation == "Director" %}<br />ThoughtWorks Arts Director{% endif %}</p>
+    <p>{{ activity }}</p>
   </figcaption>
 </figure>
 <ul class="profile-info second">
