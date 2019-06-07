@@ -9,20 +9,17 @@
 	replace: '</p>', ''
 }}{% endcapture %}
 
-{% if include.caption.size > 0 %}
-	{% capture captionclass %} with-caption{% endcapture %}
-{% endif %}
-
-<figure class="video{{ ratioclass }}{{ captionclass }}">
-	{% if service == 'vimeo' %}
-		<iframe src="https://player.vimeo.com/video/{{ include.id }}"></iframe>
-	{% else %}
-		<iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
-	{% endif %}
+<figure>
+	<div class="video{{ ratioclass }}">
+		{% if service == 'vimeo' %}
+			<iframe src="https://player.vimeo.com/video/{{ include.id }}"></iframe>
+		{% else %}
+			<iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+		{% endif %}
+	</div>
 	{% if include.caption.size > 0 %}
 		<figcaption>{{ captiontext }}</figcaption>
 	{% endif %}
 </figure>
 
 {% capture captiontext %}{% endcapture %}
-{% capture captionclass %}{% endcapture %}

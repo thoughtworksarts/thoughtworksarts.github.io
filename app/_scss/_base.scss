@@ -122,17 +122,12 @@ blockquote .quotee {
 	margin-top: 0.6em;
 }
 
-figure.video {
+.video {
 	display: block;
 	position: relative;
 	width: 100%; height: 0;
 	padding-bottom: 57%;
-
-	figcaption {
-		position: absolute;
-		bottom: -2.1em;
-		max-height: 1.4em;
-	}
+	margin-bottom: 1.3em;
 
 	>iframe {
 		position: absolute; top: 0; left: 0;
@@ -140,35 +135,31 @@ figure.video {
 	}
 }
 
-figure.video.with-caption {
-	margin-bottom: 3.2em !important;
-}
-
-figure.video.ratio-54 {
+.video.ratio-54 {
 	padding-bottom: 54.8%;
 }
 
-figure.video.ratio-55 {
+.video.ratio-55 {
 	padding-bottom: 55.65%;
 }
 
-figure.video.ratio-56 {
+.video.ratio-56 {
 	padding-bottom: 56.25%;
 }
 
-figure.video.ratio-59 {
+.video.ratio-59 {
 	padding-bottom: 59.65%;
 }
 
-figure.video.ratio-71 {
+.video.ratio-71 {
 	padding-bottom: 71.15%;
 }
 
-figure.video.ratio-80 {
+.video.ratio-80 {
 	padding-bottom: 80%;
 }
 
-figure.video.ratio-16-9 {
+.video.ratio-16-9 {
 	padding-bottom: 55.75%;
 }
 

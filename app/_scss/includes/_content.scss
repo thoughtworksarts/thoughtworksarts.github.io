@@ -6,12 +6,6 @@
 
 body:not(.home-page) {
 	.content {
-		article, .text, header, footer, .related-posts, .progress {
-			max-width: $max-text-width;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
 		>figure {
 			position: relative; top: 2rem;
 		}
@@ -26,11 +20,21 @@ body:not(.home-page) {
 			}
 
 			figcaption {
-				margin: 0.2em 1.5rem 0 1.5rem;
+				margin: 0.7em 1.5rem 1em 1.5em;
 				width: calc(100% - 3rem);
 				text-align: center;
 				font-weight: bold;
 			}
+		}
+
+		.text>figure>figcaption {
+			margin-top: 0.4em;
+		}
+
+		article, .text, header, footer, .related-posts, .progress, >figure>figcaption {
+			max-width: $max-text-width;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		h2 {
@@ -85,7 +89,7 @@ body:not(.home-page) {
 		}
 
 		article:first-of-type, >.text {
-			padding-top: 3.125em;
+			padding-top: 2.5em;
 		}
 	}
 }
