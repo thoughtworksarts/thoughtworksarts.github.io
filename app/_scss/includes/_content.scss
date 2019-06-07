@@ -155,8 +155,10 @@ body:not(.landing-page):not(.home-page) {
 				margin-right: 1.5rem;
 			}
 
-			ul, ol {
-				margin-left: calc(1.5rem + 1.1em);
+			.text {
+				ul, ol {
+					margin-left: calc(1.5rem + 1.1em);
+				}
 			}
 
 			figure {
