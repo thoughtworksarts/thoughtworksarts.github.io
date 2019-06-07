@@ -55,6 +55,8 @@
 
 			>a img {
 				height: 100%;
+				width: auto;
+				border: 0;
 			}
 
 			>a, figcaption {
@@ -63,6 +65,8 @@
 			}
 
 			figcaption {
+				width: auto;
+				text-align: left;
 				margin: auto 0;
 				height: 3em;
 				padding-left: 0.4em;
