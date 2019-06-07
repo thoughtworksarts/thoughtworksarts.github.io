@@ -1,5 +1,6 @@
 ---
 name          : Andrew McWilliams
+title         : Andrew McWilliams
 occupation    : Artist & Technologist
 participation : Director
 role          : Program Director
