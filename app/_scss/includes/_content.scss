@@ -149,14 +149,6 @@ body:not(.landing-page):not(.home-page) {
 	}
 }
 
-@media (max-width: 799px) {
-	body:not(.home-page) {
-		.text figure img {
-			width: 100%;
-		}
-	}
-}
-
 @media (max-width: 599px) {
 	body:not(.home-page) {
 		.content {
@@ -167,15 +159,18 @@ body:not(.landing-page):not(.home-page) {
 				margin-right: 1.5rem;
 			}
 
-			.text {
-				ul, ol {
-					margin-left: calc(1.5rem + 1.1em);
-				}
+			ul, ol {
+				margin-left: calc(1.5rem + 1.1em);
+			}
 
-				figure, img {
-					margin: 0;
-					border: 0;
-					width: 100%;
+			figure {
+				width: 100%;
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+
+				img, iframe {
+					border-left: 0;
+					border-right: 0;
 				}
 			}
 		}
