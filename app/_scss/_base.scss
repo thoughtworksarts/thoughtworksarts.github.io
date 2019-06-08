@@ -335,7 +335,7 @@ body>header {
 		font-size: $h1-small-screen-font-size !important;
 	}
 
-	h2 {
+	h2:not(.participant-name) {
 		font-size: $h2-small-screen-font-size !important;
 	}
 }

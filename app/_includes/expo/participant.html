@@ -1,9 +1,9 @@
 <li class="participant-item">
   {% if include.status == 'extended' %}
     {% if member.link %}
-      <h2><a href="{{ member.link }}">{{ member.name }}</a></h2>
+      <h2 class="participant-name"><a href="{{ member.link }}">{{ member.name }}</a></h2>
     {% else %}
-      <h2>{{ member.name }}</h2>
+      <h2 class="participant-name">{{ member.name }}</h2>
     {% endif %}
   {% else %}
     {% if include.style == 'small' %}
@@ -15,7 +15,7 @@
       <a href="{{ participant.url }}">
         <img src="/images/people/{{ participant.photo }}" alt="{{ participant.name }}">
         <figcaption>
-          <h2>{{ participant-name }}</h2>
+          <h2 class="participant-name">{{ participant-name }}</h2>
           <p>{{ include.role }}</p>
         </figcaption>
       </a>
