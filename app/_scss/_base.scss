@@ -326,6 +326,20 @@ body>header {
 	}
 }
 
+@media (max-width: 739px) {
+	body:not(.home-page) h1 {
+		margin-top: 0;
+	}
+
+	h1 {
+		font-size: $h1-small-screen-font-size !important;
+	}
+
+	h2 {
+		font-size: $h2-small-screen-font-size !important;
+	}
+}
+
 @media (max-width: 639px) {
 	body:not(.home-page) h1 {
 		margin-top: 0;
@@ -341,13 +355,5 @@ body>header {
 @media (max-width: 399px) {
 	body.site-banner>header .banner a {
 		font-size: $small-info-font-size;
-	}
-
-	h1 {
-		font-size: $h1-small-screen-font-size !important;
-	}
-
-	h2 {
-		font-size: $h2-small-screen-font-size !important;
 	}
 }
