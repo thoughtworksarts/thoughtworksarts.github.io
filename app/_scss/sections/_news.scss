@@ -188,6 +188,11 @@
 		article {
 			padding-top: 2.5em;
 		}
+
+		#calls-to-action {
+			width: calc(100% - 3rem);
+			margin: 0 auto;
+		}
 	}
 }
 
