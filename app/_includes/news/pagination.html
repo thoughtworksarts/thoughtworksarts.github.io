@@ -7,7 +7,7 @@
 			{% else %}
 				{% assign url = folder %}
 			{% endif %}
-			<li><a href="{{ url }}" class="blog backwards">Previous page</a></li>
+			<li><a href="{{ url }}/" class="blog backwards">Previous page</a></li>
 		{% endif %}
 
 		{% if paginator.next_page and paginator.previous_page %}
