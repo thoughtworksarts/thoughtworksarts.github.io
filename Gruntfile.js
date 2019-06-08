@@ -208,7 +208,11 @@ module.exports = function (grunt) {
     // Usemin adds files to concat
     concat: {},
     // Usemin adds files to uglify
-    uglify: {},
+    uglify: {
+      options: {
+        mangle: false
+      }
+    },
     // Usemin adds files to cssmin
     cssmin: {
       dist: {
