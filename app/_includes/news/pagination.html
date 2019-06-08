@@ -22,7 +22,7 @@
 
 		{% if paginator.next_page %}
 			{% assign url = folder | append: 'page' | append: paginator.next_page %}
-			<li><a href="{{ url }}" class="blog forwards">{{ text }}</a></li>
+			<li><a href="{{ url }}/" class="blog forwards">{{ text }}</a></li>
 		{% endif %}
 	</ul>
 {% endif %}
