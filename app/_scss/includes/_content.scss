@@ -27,6 +27,17 @@ body:not(.home-page) {
 			}
 		}
 
+		.program-logo img {
+			max-width: 400px;
+			border: 0;
+			position: relative;
+			top: 0.9em;
+		}
+
+		.program-logo.wider img {
+			max-width: 500px;
+		}
+
 		.text>figure>figcaption {
 			margin-top: 0.4em;
 		}
