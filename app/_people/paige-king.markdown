@@ -1,8 +1,8 @@
 ---
 name          : Paige King
-occupation    : Artist
+occupation    : Occupation Goes Here
 participation : Team
-role          : Media Consultant
+role          : Role Goes Here
 teaser        :
    <p>Paige King is an arts consultant, and an event and content coordinator. Paige has supported projects at Cyland Media Arts Festival in St. Petersburg, Russia, and at Frants Gallery.</p>
 
