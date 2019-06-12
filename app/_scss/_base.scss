@@ -122,47 +122,6 @@ blockquote .quotee {
 	margin-top: 0.6em;
 }
 
-.video {
-	display: block;
-	position: relative;
-	width: 100%; height: 0;
-	padding-bottom: 57%;
-	margin-bottom: 1.3em;
-
-	>iframe {
-		position: absolute; top: 0; left: 0;
-		width: 100%; height: 100%;
-	}
-}
-
-.video.ratio-54 {
-	padding-bottom: 54.8%;
-}
-
-.video.ratio-55 {
-	padding-bottom: 55.65%;
-}
-
-.video.ratio-56 {
-	padding-bottom: 56.25%;
-}
-
-.video.ratio-59 {
-	padding-bottom: 59.65%;
-}
-
-.video.ratio-71 {
-	padding-bottom: 71.15%;
-}
-
-.video.ratio-80 {
-	padding-bottom: 80%;
-}
-
-.video.ratio-16-9 {
-	padding-bottom: 55.75%;
-}
-
 .hidden {
 	display: none;
 }
