@@ -23,14 +23,14 @@ body.site-banner>header {
 		text-align: center;
 		position: absolute;
 		bottom: -54px;
-		z-index: 1;
+		z-index: $up1;
 
 		a {
 			height: 28px;
 			padding: 13px;
 			color: $white;
 			display: block;
-			z-index: 1000;
+			z-index: $up5;
 			position: relative;
 			text-decoration: underline;
 			font-weight: bold;
@@ -213,7 +213,7 @@ body.site-banner>header {
 			#menu-button {
 				display: block;
 				text-decoration: none;
-				z-index: 20;
+				z-index: $up4;
 				position: relative; right: -0.1em; bottom: 0.9em;
 
 				i {
@@ -240,7 +240,7 @@ body.site-banner>header {
 			#menu-button {
 				text-decoration: none;
 				position: relative;
-				z-index: 20;
+				z-index: $up5;
 
 				.fa-bars {
 					display: none;
@@ -258,10 +258,10 @@ body.site-banner>header {
 				width: 100%; height: 100%;
 				text-align: center;
 				background-color: rgba(68, 68, 68, 0.96);
-				z-index: 2;
+				z-index: $up4;
 
 				ul {
-					z-index: 4;
+					z-index: $up5;
 					display: flex;
 					flex-direction: column;
 					height: 100%;

@@ -104,7 +104,7 @@
 			display: block;
 			position: absolute;
 			bottom: 0;
-			z-index: -1;
+			z-index: $sub1;
 			transform: rotate(180deg);
 		}
 
@@ -218,7 +218,7 @@
 				background:
 					linear-gradient(transparent, $grey-lightest) bottom/100% 26px no-repeat,
 					linear-gradient(transparent, white) bottom/100% 140px no-repeat;
-				z-index: 1;
+				z-index: $up1;
 			}
 
 			ul#curator-feed {
@@ -243,7 +243,7 @@
 							perspective: 1000;
 							backface-visibility: hidden;
 							transform: scale(1.02) translateZ(0); //Explanations: https://stackoverflow.com/questions/30108825/chrome-opacity-transition-bug
-							z-index: 1;
+							z-index: $up1;
 						}
 
 						figure {
@@ -266,7 +266,7 @@
 
 							.icon {
 								position: absolute;
-								z-index: 0;
+								z-index: $normal;
 							}
 
 							.social-author-icon {
