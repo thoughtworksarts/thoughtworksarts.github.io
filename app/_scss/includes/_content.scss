@@ -141,7 +141,21 @@ body:not(.home-page) {
 					}
 
 					a {
-						background: grey;
+						background: $grey-light2;
+						transition: all 0.32s ease-out;
+
+						span {
+							color: $maroon-faded;
+							transition: all 0.32s ease-out;
+						}
+					}
+
+					a:hover {
+						background: $grey-mid;
+
+						span {
+							color: $maroon;
+						}
 					}
 				}
 			}
