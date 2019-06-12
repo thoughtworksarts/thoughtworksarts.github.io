@@ -255,6 +255,14 @@ body:not(.landing-page):not(.home-page) {
 					border-right: 0;
 				}
 			}
+
+			figure.program-logo {
+				width: calc(100% - 3rem);
+
+				img {
+					width: 100%;
+				}
+			}
 		}
 	}
 }
