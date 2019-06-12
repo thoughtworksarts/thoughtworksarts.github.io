@@ -128,7 +128,7 @@ body:not(.home-page) {
 
 						span {
 							position: relative;
-							top: 3px;
+							top: 5px;
 							font-family: $bebas;
 							font-size: $h1-font-size;
 							text-transform: uppercase;
@@ -141,21 +141,16 @@ body:not(.home-page) {
 					}
 
 					a {
-						background: $grey-light2;
+						background: $grey-light1;
 						transition: all 0.32s ease-out;
 
 						span {
-							color: $maroon-faded;
 							transition: all 0.32s ease-out;
 						}
 					}
 
 					a:hover {
-						background: $grey-mid;
-
-						span {
-							color: $maroon;
-						}
+						background: $grey-light2;
 					}
 				}
 			}
