@@ -103,10 +103,48 @@ body:not(.home-page) {
 
 .landing-page:not(.normal-heading)>main>section:first-of-type {
 	.content {
-		>header>h1 {
-			position: absolute; top: -56px;
-			padding: 16px 42px;
-			margin: 0;
+		>header {
+			ul {
+				list-style-type: none;
+				position: absolute; top: -64px;
+				display: flex;
+				flex-direction: row;
+				margin: 0;
+				padding: 0;
+
+
+				li {
+					height: 64px;
+
+					h1, a {
+						padding-left: 42px;
+						padding-right: 42px;
+						margin: auto 0;
+						text-decoration: none;
+						display: block;
+						height: 100%;
+						line-height: 64px;
+						vertical-align: middle;
+
+						span {
+							position: relative;
+							top: 3px;
+							font-family: $bebas;
+							font-size: $h1-font-size;
+							text-transform: uppercase;
+							font-weight: bold;
+						}
+					}
+
+					h1 {
+						background: $white;
+					}
+
+					a {
+						background: grey;
+					}
+				}
+			}
 		}
 	}
 }
