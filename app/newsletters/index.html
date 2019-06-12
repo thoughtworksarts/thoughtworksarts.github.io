@@ -10,8 +10,12 @@ description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date wi
 <section>
 	<div class="content">
 		<header>
-			<h1 class="blog">Newsletters</h1>
+			<ul class="blog">
+				<li><a href="/blog/"><span>Blog</span></a></li>
+				<li><h1><span>Newsletters</span></h1></li>
+			</ul>
 		</header>
+
 		{% for newsletter in paginator.posts %}
 		<article role="article">
 			<header>
