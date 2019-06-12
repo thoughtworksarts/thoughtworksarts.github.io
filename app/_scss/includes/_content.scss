@@ -250,3 +250,11 @@ body:not(.landing-page):not(.home-page) {
 		}
 	}
 }
+
+@media (max-width: 535px) {
+	.landing-page:not(.normal-heading)>main>section:first-of-type {
+		.content >header ul li a {
+			display: none;
+		}
+	}
+}
