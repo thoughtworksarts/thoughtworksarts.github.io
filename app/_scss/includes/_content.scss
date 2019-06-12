@@ -7,7 +7,7 @@
 body:not(.home-page) {
 	.content {
 		>figure {
-			position: relative; top: 2rem;
+			position: relative; top: 1.6rem;
 		}
 
 		figure {
@@ -216,6 +216,14 @@ body:not(.landing-page):not(.home-page) {
 
 			article {
 				margin: 0 auto !important;
+			}
+		}
+	}
+
+	body:not(.home-page) {
+		.content {
+			>figure {
+				position: relative; top: 1rem;
 			}
 		}
 	}
