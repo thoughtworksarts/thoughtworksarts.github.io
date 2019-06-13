@@ -1,10 +1,10 @@
 ---
 name          : Paige King
-occupation    : Occupation Goes Here
+occupation    : Artist
 participation : Team
-role          : Role Goes Here
+role          : Media Strategist
 teaser        :
-   <p>Paige King is an arts consultant, and an event and content coordinator. Paige has supported projects at Cyland Media Arts Festival in St. Petersburg, Russia, and at Frants Gallery.</p>
+   <p>Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige has organized public programming at the Venice Biennal, Goldsmiths University in London, and CYFEST festivals in New York, USA, and St. Petersburg, Russia.</p>
 
 links:
  - icon    : "fa-globe-americas"
@@ -53,4 +53,8 @@ links:
    url     : ""
 
 ---
-Paige King is an arts consultant, and an event and content coordinator. Paige has supported projects at Cyland Media Arts Festival in St. Petersburg, Russia, and at Frants Gallery.
+Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige organizes project streams and exhibitions with ThoughtWorks Arts and the Cyland Media Art Lab.
+
+Paige's projects include CYFEST12: ID at University Ca’Foscari during the 58th Venice Biennale and at Made in NY Media Center by IFP, Leonardo/The International Society for the Arts, Sciences and Technology (ISAST) 50th Anniversary Convening in San Fransisco, SHOWFIELDS X Future/Past, NY, From Non-Conformism to Feminisms: Russian Women Artists at the Museum of Russian Art in Minneapolis, RAW Pop-Up in Miami, The Creative Machine 2 at Goldsmiths University of London, CYFEST11-Digital Cloudiness in NY and St. Petersburg, Russia.
+
+Paige worked previously at Frants Gallery Space in NY, at Dam Stulhtrager Gallery in Brooklyn, and assisted at the WYE creative production agency in Berlin.
