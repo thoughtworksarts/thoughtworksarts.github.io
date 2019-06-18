@@ -301,6 +301,11 @@ img.small, figure.small img {
 	max-width: 230px;
 }
 
+img.mid, figure.mid img {
+	margin-top: 0.6em;
+	max-width: 500px;
+}
+
 img.no-border, figure.no-border img {
 	border: 0 !important;
 
