@@ -31,6 +31,10 @@ We will contact applicants with final selection information by August 29, 2019.
 - The program directors have published this explanatory article: [Why We Are Investigating the Democratization of Artificial Intelligence via Blockchain](/blog/why-democratization-ai-blockchain/)
 - For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io)
 
-<a href="https://snark.art">
+<a href="https://snark.art/">
 	<img src="/images/logos/snark-art.png" alt="Snark Art" class="small" />
+</a>
+
+<a href="https://singularitynet.io/">
+	<img src="/images/logos/singularitynet.png" alt="SingularityNET" class="mid" />
 </a>
