@@ -4,7 +4,7 @@ occupation    : Artist
 participation : Team
 role          : Media Strategist
 teaser        :
-   <p>Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige has organized public programming at the Venice Biennal, Goldsmiths University in London, and CYFEST festivals in New York, USA, and St. Petersburg, Russia.</p>
+   <p>Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige has helped organize public programming at Goldsmiths University in London, Pratt Institute in Brooklyn, CYFEST in New York, USA, St. Petersburg, Russia, and Venice, Italy, during the Venice Biennale.</p>
 
 links:
  - icon    : "fa-globe-americas"
@@ -55,6 +55,6 @@ links:
 ---
 Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige organizes project streams and exhibitions with ThoughtWorks Arts and the Cyland Media Art Lab.
 
-Paige's projects include CYFEST12: ID at University Ca’Foscari during the 58th Venice Biennale and at Made in NY Media Center by IFP, Leonardo/The International Society for the Arts, Sciences and Technology (ISAST) 50th Anniversary Convening in San Fransisco, SHOWFIELDS X Future/Past, NY, From Non-Conformism to Feminisms: Russian Women Artists at the Museum of Russian Art in Minneapolis, RAW Pop-Up in Miami, The Creative Machine 2 at Goldsmiths University of London, CYFEST11-Digital Cloudiness in NY and St. Petersburg, Russia.
+Paige’s projects include CYFEST12: ID at University Ca’Foscari during the 58th Venice Biennale and at Made in NY Media Center by IFP, Leonardo/The International Society for the Arts, Sciences and Technology (ISAST) 50th Anniversary Convening in San Fransisco, SHOWFIELDS X Future/Past, NY, From Non-Conformism to Feminisms: Russian Women Artists at the Museum of Russian Art in Minneapolis, RAW Pop-Up in Miami, The Creative Machine 2 at Goldsmiths University of London, CYFEST11-Digital Cloudiness in NY and St. Petersburg, Russia.
 
-Paige worked previously at Frants Gallery Space in NY, at Dam Stulhtrager Gallery in Brooklyn, and assisted at the WYE creative production agency in Berlin.
+Paige worked previously at Frants Gallery Space in NY, at Dam Stulhtrager Gallery in Brooklyn, and assisted at the WYE art space in Berlin. She contributed to Humanizing Robots: A Workshop For Kids at The Boys and Girls Club of NY, volunteered at The Cooper Union for the Advancement of Science and Art’s continuing education programs, and at the Bowery Arts Program: Art For Men In Crisis, through Project Renewal. 
