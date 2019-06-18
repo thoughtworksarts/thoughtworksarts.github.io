@@ -16,13 +16,14 @@ body:not(.landing-page) {
 }
 
 body.site-banner>header {
-	margin-bottom: 54px;
+	margin-bottom: $header-banner-size;
 
 	.banner {
+		background-color: $maroon;
 		width: 100%;
 		text-align: center;
 		position: absolute;
-		bottom: -54px;
+		bottom: -$header-banner-size;
 		z-index: $up1;
 
 		a {
@@ -43,6 +44,18 @@ body.site-banner>header {
 		a:hover, a:active {
 			text-decoration: none;
 		}
+	}
+}
+
+body.site-banner:not(.landing-page) {
+	>main>section:first-of-type {
+		border-top: 0 !important;
+	}
+}
+
+body.site-banner.landing-page {
+	>header {
+		margin-bottom: 0 !important;
 	}
 }
 
