@@ -335,6 +335,20 @@ body.site-banner.landing-page {
 }
 
 @media (max-width: 499px) {
+	body.site-banner>header {
+		margin-bottom: 0;
+
+		.banner {
+			display: none;
+		}
+	}
+
+	body.site-banner:not(.landing-page) {
+		>main>section:first-of-type {
+			border-top: $header-divider-size solid $grey-light1;
+		}
+	}
+
 	body:not(.landing-page) {
 		>main>section:first-of-type {
 			box-shadow: inherit;
