@@ -298,6 +298,10 @@ body>header {
 	hr {
 		margin-bottom: 0.8em;
 	}
+
+	img.small, figure.small img, img.mid, figure.mid img {
+		width: 100%;
+	}
 }
 
 @media (max-width: 399px) {
