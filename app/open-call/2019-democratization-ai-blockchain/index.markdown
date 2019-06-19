@@ -1,7 +1,6 @@
 ---
 layout     : post-special
 title	   : "Open Call: The Democratization of Artificial Intelligence via Blockchain"
-bodyclass  : no-header-image
 description: Open Call for an AI & Blockchain Residency, hosted by ThoughtWorks Arts and Snark.art in San Francisco
 image      : /images/posts-special/open-call/2019-democratization-ai-blockchain/closing.jpg
 ---
@@ -33,9 +32,9 @@ We will contact applicants with final selection information by August 29, 2019.
 - For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io)
 
 <a href="https://snark.art/">
-	<img src="/images/partners/snark-art.png" alt="Snark Art" class="small" />
+	<img src="/images/logos/snark-art.png" alt="Snark Art" class="small" />
 </a>
 
 <a href="https://singularitynet.io/">
-	<img src="/images/partners/singularitynet.png" alt="SingularityNET" class="mid" />
+	<img src="/images/logos/singularitynet.png" alt="SingularityNET" class="mid" />
 </a>

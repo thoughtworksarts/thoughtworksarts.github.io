@@ -1,34 +1,38 @@
 ---
 title	   : Newsletters
-bodyid	   : blog
+bodyid	   : news
+bodyclass  : landing-page
 pagination :
   enabled	 : true
   collection : newsletters
-description: Keep up to date with our residents and their projects. Sign up for email updates, or browse the message archive.
+description: Subscribe to the ThoughtWorks Arts newsletter to keep up to date with artists, projects, presentations, exhibitions and events.
 ---
 <section>
-	<header>
-		<h1>Newsletters</h1>
-	</header>
-	<section class="subscribe-box">
-		<h1 class="newsletter-heading">Newsletters</h1>
-		<p>Newsletters are sent out once every quarter, and are archived below. Sign up to receive these updates in your email inbox:</p>
-		{% include subscribe-email.html %}
-	</section>
-	{% for newsletter in paginator.posts %}
-	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="content">
 		<header>
-			<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
-			{% include newsletters/widgets.html %}
+			<ul class="blog">
+				<li><a href="/blog/"><span>Blog</span></a></li>
+				<li><h1><span>Newsletters</span></h1></li>
+			</ul>
 		</header>
-		<div class="text-content">
-			{{ newsletter.excerpt }}
-		</div>
-		<div class="progress continue-reading">
-			<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
-		</div>
-	</article>
-	{% endfor %}
 
-	{% include pagination.html folder='newsletters' %}
+		{% for newsletter in paginator.posts %}
+		<article role="article">
+			<header>
+				<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
+				{% include news/newsletter-date.html %}
+			</header>
+			<div class="text">
+				{{ newsletter.excerpt }}
+			</div>
+			<div class="progress continue-reading">
+				<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
+			</div>
+		</article>
+		<section class="subscribe-box text">
+			{% include news/subscribe-newsletter.html label='Get these newsletters in your inbox:' %}
+		</section>
+		{% endfor %}
+		{% include news/pagination.html folder='newsletters' %}
+	</div>
 </section>

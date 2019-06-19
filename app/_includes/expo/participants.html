@@ -1,0 +1,20 @@
+<h1 class="first hide">Project Team</h1><div class="second"><ul class="participant-list">
+  {% assign participant = site.people | where: 'name', page.artist | first %}
+  {% include expo/participant.html role='Artist in Residence' style=include.style  %}
+
+  {% assign team = page.team | sort: 'lastname' %}
+  {% for member in team %}
+    {% assign participant = site.people | where: "name", member.name | first %}
+    {% include expo/participant.html role=member.role style=include.style  %}
+  {% endfor %}
+</ul>
+  {% if page.extended-team %}
+    <h1 class="hide"><span>Extended Team</span></h1>
+    <ul class="participant-list extended">
+        {% assign extended-team = page.extended-team | sort: 'lastname' %}
+        {% for member in extended-team %}
+          {% include expo/participant.html status='extended' %}
+        {% endfor %}
+    </ul>
+  {% endif %}
+</div>

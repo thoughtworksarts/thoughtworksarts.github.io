@@ -1,41 +1,44 @@
 ---
 layout    : default
-bodyid    : projects
-bodyclass : no-header-image
+bodyid    : expo
 ---
 {% assign artist = page.artists | first %}
-<section class="flex-row expanded">
-  <section class="left">
-    <article role="article">
-      <header>
-        <h1>{{ page.title }}</h1>
-        <p class="when">{% if page.status == 'in-progress' %}Project ongoing{% else %}Project Summary: {{ page.season }}{% endif %}</p>
-      </header>
-      <section class="metainfo small">
-        {% include projects/person-list.html %}
-      </section>
-      <div class="text-content">
-        {{ content }}
-      </div>
-    </article>
-    <section class="related-posts">
-      <h2>Related posts</h2>
-      <ul>
-        {% assign site_posts = site.posts %}
-        {% for post in site_posts %}
-          {% for tag in post.tags %}
-            {% if tag == page.projectid %}
-              {% include related-post.html %}
-            {% endif %}
+<section>
+  <div class="content">
+    <section class="left">
+      <article role="article">
+        <header>
+          <h1>{{ page.title }}</h1>
+          <p class="when">{% if page.status == 'in-progress' %}Project ongoing{% else %}Project Summary: {{ page.season }}{% endif %}</p>
+        </header>
+        <section class="metainfo small">
+          {% include expo/participants.html style='small' %}
+        </section>
+        <div class="text">
+          {{ content }}
+        </div>
+      </article>
+      <section class="related-posts text">
+        <h2>Related posts</h2>
+        <ul>
+          {% assign site_posts = site.posts %}
+          {% for post in site_posts %}
+            {% for tag in post.tags %}
+              {% if tag == page.projectid %}
+                {% include expo/related-post.html style='large' %}
+              {% endif %}
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </ul>
+        </ul>
+      </section>
+      <div class="progress">
+        <a href="/projects/" class="projects forwards">All projects</a>
+      </div>
     </section>
-    <div class="progress">
-      <a href="/projects/" class="projects forwards">View all projects</a>
-    </div>
-  </section>
-  <section class="right metainfo large">
-    {% include projects/person-list.html %}
-  </section>
+    <section class="right metainfo large">
+      <aside>
+        {% include expo/participants.html %}
+      </aside>
+    </section>
+  </div>
 </section>

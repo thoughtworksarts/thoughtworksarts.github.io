@@ -2,19 +2,60 @@
 bodyid    : home
 bodyclass : home-page
 ---
-<section>
-	<header>
-		<h1>About the program</h1>
-	</header>
-	<p class="intro">The ThoughtWorks Arts Residency program supports artists exploring new lines of inquiry intersecting technology and society.</p>
-	<p>The aim of this program is to facilitate dialog, partnership and collaboration at the intersection of technology and exploratory arts. By focusing on this synthesis, the program aims to empower resident artists to make work which inspires shifts in perspective and debate.</p>
-	<div class="progress">
-		<a href="/program/" class="program forwards">More</a>
+<section class="features">
+	<div class="content">
+		<header>
+			<h1>Features</h1>
+		</header>
+		{% include home/feature-list.html %}
 	</div>
 </section>
-<section class="listing residents expanded">
-	<header>
-		<h1>Residents</h1>
-	</header>
-	{% include residents/resident-list.html %}
+<section class="about-us">
+	<div class="content">
+		<section class="explanation">
+			<header>
+				<h1>About Us</h1>
+			</header>
+			<p>ThoughtWorks Arts incubates artists and technologist collaborations to investigate the impacts of emerging technologies on industry, culture and society.</p>
+
+			{% include image.html file='/images/programs/thoughtworks-arts.png'
+			   alt='ThoughtWorks Arts includes programs such as Art-A-Hack, Hardware Hack Lab and the ThoughtWorks Arts Residency'
+			   link='/programs/' %}
+
+			<p>The ThoughtWorks Arts suite of programs enables practice-based research, directed by cutting-edge artistic inquiry, driven by the capabilities of the global technology community.</p>
+		</section>
+		<div class="progress continue-reading">
+			<a href="/programs/" class="blog forwards">About our programs</a>
+		</div>
+	</div>
+</section>
+<section class="feed newsletters">
+	<div class="content">
+		<header>
+			<h1>Newsletters</h1>
+		</header>
+		{% include home/newsletter-list.html %}
+		<div class="progress continue-reading">
+			<a href="/newsletters/" class="blog forwards">All newsletters</a>
+		</div>
+	</div>
+</section>
+<section class="feed events hidden">
+	<div class="content">
+		<header>
+			<h1>Events</h1>
+		</header>
+		{% include home/event-list.html %}
+		<div class="progress continue-reading">
+			<a href="https://www.meetup.com/volumetric/" class="blog forwards">All events</a>
+		</div>
+	</div>
+</section>
+<section class="feed social hidden">
+	<div class="content">
+		<header>
+			<h1>Follow Us</h1>
+		</header>
+		{% include home/social-list.html %}
+	</div>
 </section>

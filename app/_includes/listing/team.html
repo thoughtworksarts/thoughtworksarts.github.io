@@ -1,0 +1,10 @@
+{% assign directors = site.people | where: "participation","Director" | sort: 'lastname' %}
+{% assign team = site.people | where: "participation","Team" | sort: 'lastname' %}
+
+{% for person in directors %}
+	{% include listing/person.html %}
+{% endfor %}
+
+{% for person in team %}
+	{% include listing/person.html %}
+{% endfor %}

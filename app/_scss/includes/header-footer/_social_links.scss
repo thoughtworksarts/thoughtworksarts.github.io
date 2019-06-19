@@ -1,0 +1,25 @@
+.social-links {
+	position: absolute; right: 0;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		line-height: 0;
+	}
+
+	li {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	a {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+
+		i {
+			transition: all 0.18s ease;
+		}
+	}
+}

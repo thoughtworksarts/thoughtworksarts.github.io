@@ -1,0 +1,6 @@
+{% assign features = site.features | sort: 'feature-position' %}
+<ul>
+{% for feature in features | limit: 3 %}
+	{% include home/feature-item.html %}
+{% endfor %}
+</ul>

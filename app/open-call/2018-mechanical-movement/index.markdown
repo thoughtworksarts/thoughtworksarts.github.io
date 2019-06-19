@@ -1,7 +1,6 @@
 ---
 layout     : post-special
 title	   : "Mechanical &amp; Movement: Robotics Open Call"
-bodyclass  : no-header-image
 description: An Open Call for artists investigating robotics and related issues in 2018
 ---
 <p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. <a href="/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/">Click here to learn more</a>.</p>
@@ -25,5 +24,5 @@ Applicants must submit a proposal by email to [apply@thoughtworksarts.io](mailto
 Send applications to [apply@thoughtworksarts.io](mailto:apply@thoughtworksarts.io) by midnight March 26th, 2018.
 
 <a href="http://consortiumrr.com/">
-	<img src="/images/partners/consortiumrr.jpg" alt="Consortium for Research &amp; Robotics" class="small" />
+	<img src="/images/logos/consortiumrr.jpg" alt="Consortium for Research &amp; Robotics" class="small" />
 </a>

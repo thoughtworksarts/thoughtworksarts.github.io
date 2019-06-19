@@ -1,4 +1,6 @@
-{% if page.path contains '_posts' or page.path contains '_newsletters' %}
+{% if include.file contains '/' %}
+	{% assign imagepath = '' %}
+{% elsif page.path contains '_posts' or page.path contains '_newsletters' %}
 	{% capture imagepath %}{{
 		page.path |
 		replace: '_posts/', '/images/posts/' |

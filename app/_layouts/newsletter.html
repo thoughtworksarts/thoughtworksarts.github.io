@@ -2,19 +2,21 @@
 layout: default
 ---
 <section>
-  <header>
-    <h1>Newsletter</h1>
-  </header>
-  <article role="article">
+  <div class="content">
     <header>
-      <h1>{{ page.title }}</h1>
-      {% include newsletters/widgets.html %}
+      <h1>Newsletter</h1>
     </header>
-    <div class="text-content">
-      {{ content }}
+    <article role="article">
+      <header>
+        <h1>{{ page.title }}</h1>
+        {% include news/newsletter-date.html %}
+      </header>
+      <div class="text">
+        {{ content }}
+      </div>
+    </article>
+    <div class="progress">
+      <a href="/newsletters/" class="blog forwards">All newsletters</a>
     </div>
-  </article>
-  <div class="progress">
-    <a href="/newsletters/" class="blog forwards">View all newsletters</a>
   </div>
 </section>

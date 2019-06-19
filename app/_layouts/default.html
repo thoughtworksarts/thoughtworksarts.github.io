@@ -1,11 +1,11 @@
 {% if page.bodyid == 'home' %}
-  {% assign title = 'ThoughtWorks Arts Residency' %}
+  {% assign title = 'ThoughtWorks Arts' %}
 {% else %}
   {% capture title %}{{ page.title }}{% endcapture %}
   {% if title == '' %}
-    {% assign title = page.name | append: ' | ThoughtWorks Arts Residency' %}
+    {% assign title = page.name | append: ' | ThoughtWorks Arts' %}
   {% else %}
-    {% assign title = page.title | append: ' | ThoughtWorks Arts Residency' %}
+    {% assign title = page.title | append: ' | ThoughtWorks Arts' %}
   {% endif %}
 {% endif %}
 
@@ -18,7 +18,7 @@
 
 {% capture description %}{{ page.description }}{% endcapture %}
 {% if description == '' %}
-  {% assign description = 'The ThoughtWorks Arts Residency supports artists exploring new lines of inquiry intersecting technology and society.' %}
+  {% assign description = 'ThoughtWorks Arts is a unique creative research laboratory, incubating artist and technologist collaborations, exploring impacts of emerging technologies on industry, culture and society.' %}
 {% else %}
   {% assign description = page.description %}
 {% endif %}
@@ -57,6 +57,8 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.curator.io/3.1/css/curator.css"/>
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <!-- build:css({app,.tmp}) /stylesheets/style.css -->
   <link href="/stylesheets/site.css" rel="stylesheet">
@@ -69,71 +71,41 @@
   <link rel="shortcut icon" href="/images/favicon.ico">
 </head>
 
-<body id="{{ page.bodyid }}" class="{{ bodyclass }}">
-  <header role="banner" class="flex-col">
+<body id="{{ page.bodyid }}"{% if bodyclass != '' %} class="{{ bodyclass }}"{% endif %}>
+  <header role="banner">
     <section id="logonav">
-      <h1>ThoughtWorks Arts Residency</h1>
+      <h1>ThoughtWorks Arts</h1>
       <a href="/" class="logo">
-        <img src="/images/twartsresidency.png" alt="ThoughtWorks Arts Residency" />
+        <img src="/images/logos/thoughtworks-arts.png" alt="ThoughtWorks Arts" />
       </a>
       {% if display-banner %}
         <aside class="banner">
           <a href="{{ site.banner-url }}">{{ site.banner-text }}</a>
         </aside>
       {% endif %}
-      <nav role="navigation">
-        <h2>Navigation</h2>
-        <a id="menu-button" href="#">
-          <i class="fa fa-bars"></i>
-          <i class="fa fa-times"></i>
-        </a>
-        <ul>
-          <li><a href="/program/" class="program">Program</a></li>
-          <li><a href="/residents/" class="residents">Residents</a></li>
-          <li><a href="/projects/" class="projects">Projects</a></li>
-          <li><a href="/blog/" class="blog">Blog</a></li>
-        </ul>
-      </nav>
+      {% include header-footer/social.html %}
+      {% include header-footer/navigation.html %}
     </section>
-    <figure id="image-splash" class="bottom">
-      {% if page.bodyid == 'home' %}
-      <div class="intro-container">
-        <p class="intro">A residency for artists exploring new technologies
-          <br /><span class="space"> </span> and how they relate to society</p>
-      </div>
-      {% endif %}
-    </figure>
+    {% if bodyclass contains 'landing-page' %}
+      <figure id="image-splash"></figure>
+    {% endif %}
   </header>
   <main>
   {{ content }}
   </main>
   <footer>
-    {% include subscribe-email.html %}
-    <ul class="social">
-      <li>
-        <a href="https://twitter.com/tw_arts"><i class="fab fa-twitter" id="twitter"></i></a>
-      </li>
-      <li>
-        <a href="https://medium.com/thoughtworks-arts/"><i class="fab fa-medium"></i></a>
-      </li>
-      <li>
-        <a href="https://github.com/thoughtworksarts/"><i class="fab fa-github"></i></a>
-      </li>
-    </ul>
-    <ul class="notices">
-      <li>
-        <a href="/newsletters">Newsletter Archive</a>
-      </li>
-      <li>
-        <a href="https://www.thoughtworks.com/privacy-policy">Privacy Policy</a>
-      </li>
-    </ul>
+    {% include news/subscribe-newsletter.html label='Keep up to date with news:' %}
+    {% include header-footer/social.html %}
+    {% include header-footer/notices.html %}
   </footer>
   <!-- build:js(app) /javascript/script.js -->
-  <script src="/javascript/jquery.js"></script>
+  <script src="/javascript/external/jquery3.4.1.js"></script>
+  <script src="/javascript/external/curator3.1.js"></script>
+  <script src="/javascript/util.js"></script>
   <script src="/javascript/site.js"></script>
+  <script src="/javascript/homepage-events.js"></script>
+  <script src="/javascript/homepage-social.js"></script>
   <script src="/javascript/analytics.js"></script>
   <!-- endbuild -->
 </body>
-
 </html>

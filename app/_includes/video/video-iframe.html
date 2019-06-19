@@ -1,0 +1,9 @@
+<div class="video-wrapper">
+	<div class="video{{ ratioclass }}">
+		{% if service == 'vimeo' %}
+			<iframe src="https://player.vimeo.com/video/{{ include.videoid }}"></iframe>
+		{% else %}
+			<iframe src="https://www.youtube.com/embed/{{ include.videoid }}" frameborder="0" allowfullscreen></iframe>
+		{% endif %}
+	</div>
+</div>

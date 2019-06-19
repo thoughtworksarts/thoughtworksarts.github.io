@@ -208,7 +208,11 @@ module.exports = function (grunt) {
     // Usemin adds files to concat
     concat: {},
     // Usemin adds files to uglify
-    uglify: {},
+    uglify: {
+      options: {
+        mangle: false
+      }
+    },
     // Usemin adds files to cssmin
     cssmin: {
       dist: {
@@ -284,7 +288,9 @@ module.exports = function (grunt) {
             '<%= yeoman.dist %>/stylesheets/**/*.css',
             '<%= yeoman.dist %>/images/**/*.{gif,jpg,jpeg,png,svg,webp}',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}',
-            '!<%= yeoman.dist %>/images/email/**'
+            '!<%= yeoman.dist %>/images/email/**',
+            '!<%= yeoman.dist %>/images/logos/**',
+            '!<%= yeoman.dist %>/images/events/**'
           ]
         }]
       }

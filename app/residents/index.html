@@ -1,15 +1,24 @@
 ---
 title       : Residents
 bodyid      : residents
-description : Discover current and past residents of the ThoughtWorks Arts Residency program, which supports artists exploring new lines of inquiry intersecting technology and society.
+bodyclass   : landing-page
+description : Current and past residents of the ThoughtWorks Arts Residency program, which supports artists exploring new lines of inquiry intersecting technology and society.
 ---
-<section class="shorter">
-	<header>
-		<h1>Residents</h1>
-	</header>
-	<p>Each season of the program we support one resident for a 16-week cycle. We are delighted to have worked with influential artists working on a range of important contemporary issues.</p>
-	<p>As residents progress through their projects week by week, updates are posted to the <a href="/blog/">blog</a>. At the completion of each residency, the project is added to the <a href="/projects/">projects archive</a>, which documents activity and any outcomes.</p>
+<section>
+	<div class="content">
+		<header>
+			<ul class="residents">
+				<li><h1><span>Residents</span></h1></li>
+			</ul>
+		</header>
+		<div class="text">
+			<p>Each season of the program we support one resident for a 16-week cycle. We are delighted to have worked with influential artists working on a range of important contemporary issues.</p>
+			<p>As residents progress through their projects week by week, updates are posted to the <a href="/blog/">blog</a>. At the completion of each residency, the project is added to the <a href="/projects/">projects archive</a>, which documents activity and any outcomes.</p>
+		</div>
+	</div>
 </section>
-<section class="listing residents expanded">
-	{% include residents/resident-list.html %}
+<section class="listing residents">
+	<div class="content">
+		{% include listing/residents.html %}
+	</div>
 </section>

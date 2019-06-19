@@ -1,28 +1,34 @@
 ---
 title	   : Blog
-bodyid	   : blog
+bodyid	   : news
+bodyclass  : landing-page
 pagination:
   enabled: true
-description : Look through blog posts from the ThoughtWorks Arts Residency program, which supports artists exploring new lines of inquiry intersecting technology and society.
+description : News and posts from the ThoughtWorks Arts community, including posts from artists, ThoughtWorks employees, partners and collaborators.
 ---
 <section>
-	<header>
-		<h1>Blog</h1>
-	</header>
-	{% for post in paginator.posts %}
-	<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="content">
 		<header>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			{% include blog/widgets.html %}
+			<ul class="blog">
+				<li><h1><span>Blog</span></h1></li>
+				<li><a href="/newsletters/"><span>Newsletters</span></a></li>
+			</ul>
 		</header>
-		<div class="text-content">
-			{{ post.excerpt }}
-		</div>
-		<div class="progress continue-reading">
-			<a href="{{ post.url }}" class="blog forwards">Continue reading</a>
-		</div>
-	</article>
-	{% endfor %}
 
-	{% include pagination.html folder='blog' %}
+		{% for post in paginator.posts %}
+		<article role="article">
+			<header>
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				{% include news/blog-attribution.html %}
+			</header>
+			<div class="text">
+				{{ post.excerpt }}
+			</div>
+			<div class="progress continue-reading">
+				<a href="{{ post.url }}" class="blog forwards">Continue reading</a>
+			</div>
+		</article>
+		{% endfor %}
+		{% include news/pagination.html folder='blog' %}
+	</div>
 </section>

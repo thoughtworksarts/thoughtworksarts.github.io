@@ -1,158 +1,674 @@
 #home {
-	#image-splash {
-		flex: 1 0 auto;
-		background-image: url('/images/full-bleed/residency-home-1600.jpg');
-		background-position: 50% 24%;
-		background-size: cover;
-		background-color: #000000;
-		background-repeat: no-repeat;
-		margin: 0 0 2em;
-		position: relative;
+	>main {
+		>section {
+			margin: 0;
+			padding-top: 1.5rem;
+			position: relative;
+			border-top: $header-divider-size solid $grey-light1;
 
-		.small-screens {
-			display: none;
+			ul {
+				list-style-type: none;
+				width: 100%;
+				display: grid;
+				padding: 0;
+				margin: 0;
+
+				li {
+					padding: 0;
+					margin: 2em 1rem 0 1rem;
+
+					a, img, p, figure, h2 {
+						transition: all 0.4s ease;
+						cursor: pointer;
+					}
+
+					a {
+						display: block;
+						text-decoration: none;
+						border-bottom: 5px solid $grey-light2;
+						background: $white;
+
+						h2 {
+							padding: 0 1rem;
+							margin: 0.275em 0 0.225em 0;
+							text-transform: inherit;
+						}
+
+						h2, p {
+							max-width: 580px;
+						}
+
+						p {
+							font-size: $p-subtraction-font-size;
+							padding: 0 1rem 1rem 1rem;
+						}
+
+						.date {
+							padding-top: 0;
+							padding-bottom: 0.3rem;
+							font-weight: bold;
+							line-height: 1.2em;
+							font-size: $small-info-font-size;
+						}
+
+						img {
+							width: 100%;
+							height: 160px;
+							object-fit: cover;
+						}
+
+						figure {
+							line-height: 0;
+							overflow: hidden;
+						}
+					}
+
+					a:visited, a:link {
+						background: $grey-lightest;
+
+						p, span, h2 {
+							color: $black;
+						}
+					}
+
+					a:hover, a:active {
+						background: $grey-light2;
+
+						p, span, h2 {
+							color: inherit;
+						}
+					}
+
+					a:hover img, a:active img {
+						transform: scale(1.07);
+					}
+				}
+
+				li:first-of-type {
+					margin-left: 0;
+				}
+
+				li:last-of-type {
+					margin-right: 0;
+				}
+			}
 		}
 
-		.intro-container {
+		>section::after {
+			content: '';
+			background:
+				linear-gradient($grey-light1, $transparent) top/100% 4px no-repeat,
+				url('/images/full-bleed/pattern-1600.png') no-repeat bottom;
+			height: 510px;
 			width: 100%;
+			display: block;
 			position: absolute;
 			bottom: 0;
+			z-index: $sub1;
+			transform: rotate(180deg);
+		}
 
-			.intro {
-				color: #eee;
-				text-shadow: 0 0 2px #000000, 0 0 6px #000000, 0 0 16px #000000, 0 0 32px #000000, 0 0 64px #000000, 0 0 128px #000000;
-				font-size: 1.7em;
-				line-height: 1.7em;
-				opacity: 0.9;
-				font-style: italic;
-				margin: 1.1em 3.5em;
+		.features {
+			h1 {
+				display: none;
+			}
 
-				.space {
-					display: none;
+			ul {
+				grid-template-columns: 68% 32%;
+
+				.feature-1 {
+					grid-column: 1;
+					grid-row: 1 / span 2;
+
+					a {
+						height: calc(100% - 5px);
+						display: grid;
+						grid-template-rows: auto min-content min-content;
+
+						img {
+							height: 100%;
+						}
+					}
+				}
+
+				.feature-2 {
+					grid-column: 2;
+					grid-row: 1;
+					margin-right: 0;
+				}
+
+				.feature-3 {
+					grid-column: 2;
+					grid-row: 2;
+					margin-top: 1em;
+				}
+			}
+		}
+
+		.about-us {
+			>.content {
+				position: relative;
+
+				.explanation {
+					width: 45%;
+				}
+
+				figure {
+					position: absolute;
+					top: 0; right: 0;
+					width: 53%;
+					margin: 3.7em 0 0 0;
+
+					a {
+						display: block;
+						width: 100%;
+						height: 100%;
+
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+
+		.feed {
+			ul {
+				grid-template-columns: 33.3333% 33.3333% 33.3333%;
+
+				li {
+					margin-top: 0.6em;
+
+					a {
+						height: 100%;
+						max-height: 405px;
+						overflow: hidden;
+						box-sizing: border-box;
+						position: relative;
+					}
+
+					a::before {
+						content: '';
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						background: linear-gradient($transparent, white) bottom/100% 52px no-repeat;
+					}
+				}
+			}
+		}
+
+		.social {
+			padding-bottom: 100px;
+
+			.content {
+				position: relative;
+				max-height: 1250px;
+				overflow: hidden;
+				margin-bottom: 2.2em;
+				border-bottom: 5px solid $grey-light2;
+			}
+
+			.content::before {
+				content: '';
+				width: 100%;
+				height: 140px;
+				position: absolute;
+				bottom: 0;
+				background:
+					linear-gradient($transparent, $grey-lightest) bottom/100% 26px no-repeat,
+					linear-gradient($transparent, white) bottom/100% 140px no-repeat;
+				z-index: $up1;
+			}
+
+			ul#curator-feed {
+				column-count: 3;
+				column-gap: 0.5em;
+				display: block;
+
+				li {
+					width: 100%;
+					break-inside: avoid;
+					margin: 0 0 0.5em 0;
+					border-radius: 6px;
+					overflow: hidden;
+					transform: translateZ(0); //Explanation: https://stackoverflow.com/questions/53068471/css-column-count-transform-scale-transition-strange-behavior
+
+					a {
+						max-height: inherit;
+						text-align: center;
+
+						img {
+							height: inherit;
+							perspective: 1000;
+							backface-visibility: hidden;
+							transform: scale(1.02) translateZ(0); //Explanations: https://stackoverflow.com/questions/30108825/chrome-opacity-transition-bug
+							z-index: $up1;
+						}
+
+						figure {
+							max-height: 200px;
+							border-radius: 18px;
+							width: calc(100% - 2rem);
+							display: inline-block;
+							transform: scale(1); //Explanation: https://stackoverflow.com/questions/53068471/css-column-count-transform-scale-transition-strange-behavior
+						}
+
+						.meta, .post-text {
+							margin-bottom: 0.4em;
+							text-align: left;
+						}
+
+						.meta {
+							text-align: left;
+							position: relative;
+							width: 100%;
+
+							.icon {
+								position: absolute;
+								z-index: $normal;
+							}
+
+							.social-author-icon {
+								top: 0.85rem;
+								left: 0.95rem;
+								width: 2.1rem;
+							}
+
+							.social-network-icon {
+								top: 1rem;
+								right: 1rem;
+								width: 1.7rem;
+							}
+
+							.name-date {
+								display: inline-block;
+								margin: 0.9em 0 0 3.6em;
+								line-height: 1.3em;
+								font-size: $small-info-font-size;
+
+								.author-handle {
+									font-weight: bold;
+								}
+
+								.when-posted {
+									text-transform: lowercase;
+									display: block;
+								}
+							}
+						}
+					}
+
+					a:hover img, a:active img {
+						transform: scale(1.07);
+					}
+
+					a:hover .icon, a:active .icon {
+						transform: inherit;
+					}
+
+					a::before {
+						background: transparent;
+					}
 				}
 			}
 		}
 	}
-
-	>header {
-		height: 100%;
-		min-height: 600px;
-	}
-
-	>main>section {
-		.intro {
-			display: none;
-		}
-
-		.progress {
-			text-align: right;
-			padding: 0;
-
-			a {
-				margin: 1.2em;
-			}
-		}
-	}
-
-	h1, h2, p {
-		cursor: default;
-	}
-
-	//See also .residents
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1149px) {
 	#home {
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-1200.jpg');
+		>main {
+			>section {
+				header, .content {
+					width: calc(100% - 3rem);
 
-			.intro-container {
-				margin-top: -1em;
+					>h1, >ul, >a, >section {
+						width: 100%
+					}
+				}
 
-				.intro {
-					font-size: 1.5em;
-					margin: 3em;
+				ul li {
+					margin-left: 0.75rem;
+					margin-right: 0.75rem;
+				}
+			}
+
+			.about-us {
+				header, .content {
+					.explanation, figure {
+						max-width: $max-text-width;
+						margin-left: 0;
+						margin-right: auto;
+					}
+
+					.explanation {
+						width: 100%;
+						margin-right: 0;
+					}
+
+					figure {
+						margin-top: 0;
+						width: 100%;
+						position: relative;
+						right: inherit;
+						left: -10px;
+					}
 				}
 			}
 		}
 	}
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 1069px) {
 	#home {
-		>header {
-			min-height: 540px;
-		}
-
-		#image-splash .intro-container .intro {
-			font-size: 1.4em;
+		>main {
+			>section {
+				ul li a img {
+					height: 170px;
+				}
+			}
 		}
 	}
 }
 
 @media (max-width: 999px) {
 	#home {
-		>header {
-			min-height: 576px;
+		>main {
+			.features {
+				ul li a img {
+					height: 150px;
+				}
+			}
+
+			.social {
+				.content {
+					max-height: 900px;
+				}
+
+				ul#curator-feed {
+					column-count: 2;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 924px) {
+	#home {
+		>main {
+			.features {
+				ul {
+					grid-template-columns: 50% 50%;
+
+					li {
+						height: calc(100% - 5px);
+
+						a {
+							height: 100%;
+
+							img {
+								height: 200px;
+							}
+						}
+					}
+
+					.feature-1 {
+						grid-column: 1 / span 2;
+						grid-row: 1;
+						margin-right: 0;
+						height: 520px;
+					}
+
+					.feature-2 {
+						grid-column: 1;
+						grid-row: 2;
+						margin-left: 0;
+						margin-right: 0.75rem;
+						margin-top: 1em;
+					}
+
+					.feature-3 {
+						grid-column: 2;
+						grid-row: 2;
+						margin-left: 0.75rem;
+						margin-right: 0;
+					}
+
+					.feature-2, .feature-3 {
+						h2 {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 859px) {
+	#home {
+		>main {
+			.feed:not(.social) {
+				ul {
+					display: block;
+
+					li {
+						margin: 0 0 1rem 0;
+
+						a {
+							max-height: inherit;
+
+							img {
+								height: 310px;
+							}
+
+							p {
+								max-height: 70px;
+								max-width: 540px;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
 
 @media (max-width: 799px) {
 	#home {
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-800.jpg');
-			background-position: 85% 79%;
+		>main {
+			.features {
+				ul {
+					li a img {
+						height: 180px;
+					}
 
-			.intro-container .intro {
-				text-shadow: 0 0 2px #000000, 0 0 7px #000000, 0 0 74px #000000;
+					.feature-1 {
+						height: 480px;
+					}
+				}
 			}
-		}
 
-		#image-splash .intro-container .intro {
-			margin: 2em;
-		}
-
-		>main>section .intro {
-			display: block;
+			.feed:not(.social) ul li a img {
+				height: 270px;
+			}
 		}
 	}
 }
 
 @media (max-width: 729px) {
 	#home {
-		#image-splash .intro-container .intro {
-			font-size: 1.3em;
-			margin: 1.3em 2em;
+		>main {
+			.features {
+				ul {
+					li a img {
+						height: 160px;
+					}
+
+					.feature-1 {
+						height: 460px;
+					}
+				}
+			}
+
+			.feed:not(.social) ul li a img {
+				height: 240px;
+			}
 		}
 	}
 }
 
-@media (max-width: 639px) {
+@media (max-width: 619px) {
 	#home {
-		#image-splash {
-			background-position: 85% 63%;
+		>main {
+			.features {
+				ul {
+					li a img {
+						height: 145px;
+					}
 
-			.intro-container .intro {
-				text-align: center;
+					.feature-1 {
+						height: 430px;
+					}
+				}
+			}
 
-				br {
-					display: none;
+			.social {
+				.content {
+					max-height: 1350px;
 				}
 
-				.space {
-					display: inline;
+				ul#curator-feed {
+					column-count: 1;
 				}
 			}
 		}
+	}
+}
 
-		>header {
-			min-height: 500px;
-			max-height: 100%; // Firefox mobile
+@media (max-width: 589px) {
+	#home {
+		>main {
+			.features {
+				ul {
+					grid-template-columns: 100%;
+					margin: 1em 0 0 0;
+
+					.feature-1, .feature-2, .feature-3 {
+						height: inherit;
+						margin: 0.6em 0;
+
+						a {
+							height: inherit;
+
+							img {
+								height: 230px;
+							}
+						}
+
+						p {
+							display: none;
+						}
+
+						h2 {
+							margin: 0.5em 0;
+						}
+					}
+
+					.feature-1 {
+						grid-column: 1 / span 1;
+						grid-row: 1;
+
+						a {
+							height: 100%;
+							display: block;
+						}
+					}
+
+					.feature-2 {
+						grid-column: 1;
+						grid-row: 2;
+					}
+
+					.feature-3 {
+						grid-column: 1;
+						grid-row: 3;
+					}
+				}
+			}
 		}
+	}
+}
 
-		#image-splash {
-			background-image: url('/images/full-bleed/residency-home-560.jpg');
+@media (max-width: 499px) {
+	#home {
+		>main {
+			>section:first-of-type {
+				border-top: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 479px) {
+	#home {
+		>main {
+			.features {
+				ul {
+					.feature-1, .feature-2, .feature-3 {
+						a img {
+							height: 200px;
+						}
+					}
+				}
+			}
+
+			.feed:not(.social) ul li a {
+				img {
+					height: 220px;
+				}
+
+				p {
+					max-height: 47px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 399px) {
+	#home {
+		>main {
+			.features {
+				ul {
+					.feature-1, .feature-2, .feature-3 {
+						a img {
+							height: 180px;
+						}
+					}
+				}
+			}
+
+			.feed:not(.social) ul li a img {
+				height: 160px;
+			}
+		}
+	}
+}
+
+@media (max-width: 359px) {
+	#home {
+		>main {
+			.social ul#curator-feed li a .meta {
+				.name-date {
+					margin-left: 1.1em;
+				}
+
+				.social-author-icon {
+					display: none;
+				}
+			}
 		}
 	}
 }

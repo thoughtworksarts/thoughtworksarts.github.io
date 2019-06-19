@@ -1,0 +1,50 @@
+.programs, .programs>* {
+	color: $maroon;
+}
+
+.residents, .residents>* {
+	color: $teal;
+}
+
+.projects, .projects>* {
+	color: $green;
+}
+
+.blog, .blog>* {
+	color: $yellow;
+}
+
+
+.landing-page:not(.normal-heading)>main>section:first-of-type .content >header {
+	ul.programs li {
+		a span {
+			color: $maroon-faded;
+		}
+
+		a:hover span, h1 span {
+			color: $maroon;
+		}
+	}
+
+	ul.residents li {
+		a:hover span, h1 span {
+			color: $teal;
+		}
+	}
+
+	ul.projects li {
+		a:hover span, h1 span {
+			color: $green;
+		}
+	}
+
+	ul.blog li {
+		a span {
+			color: $yellow-faded;
+		}
+
+		a:hover span, h1 span {
+			color: $yellow;
+		}
+	}
+}

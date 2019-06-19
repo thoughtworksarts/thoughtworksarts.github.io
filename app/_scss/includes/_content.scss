@@ -1,0 +1,276 @@
+.content {
+	width: $max-page-width;
+	margin: 0 auto;
+	padding: 0 0 2.5em 0;
+}
+
+body:not(.home-page) {
+	.content {
+		>figure {
+			position: relative; top: 1.6rem;
+		}
+
+		figure {
+			margin: 1em 0 0.7em 0;
+			width: 99%;
+
+			img, iframe {
+				width: 100%;
+				border: 2px solid $grey-light2;
+			}
+
+			figcaption {
+				margin: 0.7em 1.5rem 1em 1.5em;
+				width: calc(100% - 3rem);
+				text-align: center;
+				font-weight: bold;
+			}
+		}
+
+		.program-logo img {
+			max-width: 400px;
+			border: 0;
+			position: relative;
+			top: 0.9em;
+		}
+
+		.program-logo.wider img {
+			max-width: 500px;
+		}
+
+		.text>figure>figcaption {
+			margin-top: 0.4em;
+		}
+
+		article, .text, header, footer, .related-posts, .progress, >figure>figcaption {
+			max-width: $max-text-width;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h2 {
+			margin-top: 1em;
+		}
+
+		h2::before {
+			display: none;
+		}
+
+		table {
+			table-layout: fixed;
+			width: 100%;
+			margin: 1em 0;
+			line-height: 1.3em;
+		}
+
+		table, tr, td, th {
+			border: 1px solid $black;
+			background: $white;
+		}
+
+		tr, td, th {
+			padding: 0.7em;
+			overflow: hidden;
+		}
+
+		th {
+			background: $grey-light2;
+		}
+
+		thead td {
+			font-weight: bold;
+			background: $grey-light2;
+		}
+	}
+}
+
+.landing-page>main>section:first-of-type {
+	.content {
+		>header>h1 {
+			font-size: $h1-font-size;
+			background: $white;
+		}
+
+		article {
+			padding-top: 4.5em;
+		}
+
+		article:first-of-type, >.text {
+			padding-top: 2.5em;
+		}
+	}
+}
+
+.landing-page:not(.normal-heading)>main>section:first-of-type {
+	.content {
+		>header {
+			ul {
+				list-style-type: none;
+				position: absolute; top: -64px;
+				display: flex;
+				flex-direction: row;
+				margin: 0;
+				padding: 0;
+
+
+				li {
+					height: 64px;
+
+					h1, a {
+						padding-left: 42px;
+						padding-right: 42px;
+						margin: auto 0;
+						text-decoration: none;
+						display: block;
+						height: 100%;
+						line-height: 64px;
+						vertical-align: middle;
+
+						span {
+							position: relative;
+							top: 5px;
+							font-family: $bebas;
+							font-size: $h1-font-size;
+							text-transform: uppercase;
+							font-weight: bold;
+						}
+					}
+
+					h1 {
+						background: $white;
+					}
+
+					a {
+						background: $grey-light1;
+						transition: all 0.32s ease-out;
+
+						span {
+							transition: all 0.32s ease-out;
+						}
+					}
+
+					a:hover {
+						background: $grey-light2;
+					}
+				}
+			}
+		}
+	}
+}
+
+.landing-page.normal-heading>main>section:first-of-type {
+	.content {
+		>header>h1 {
+			position: relative; top: 1em;
+		}
+	}
+}
+
+body:not(.landing-page) {
+	.content {
+		article, aside {
+			padding-top: 7em;
+		}
+
+		h1, h2, h2 span, h2 a {
+			text-transform: uppercase;
+			font-family: $bebas;
+		}
+	}
+}
+
+body:not(.landing-page):not(.home-page) {
+	.content>header>h1 {
+		display: none;
+	}
+}
+
+@media (max-width: 1149px) {
+	body:not(.home-page) {
+		.content {
+			width: calc(100% - 3rem);
+
+			article, aside {
+				padding-top: 3.7em;
+			}
+		}
+	}
+}
+
+@media (max-width: 999px) {
+	body:not(.landing-page) {
+		.content {
+			article, aside {
+				padding-top: 3.7em;
+			}
+		}
+	}
+}
+
+@media (max-width: 899px) {
+	body:not(.landing-page) {
+		.content {
+			article, aside {
+				padding-top: 1.5em;
+			}
+
+			article {
+				margin: 0 auto !important;
+			}
+		}
+	}
+
+	body:not(.home-page) {
+		.content {
+			>figure {
+				position: relative; top: 1rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 599px) {
+	body:not(.home-page) {
+		.content {
+			width: 100%;
+
+			header, .text >*, .progress, .metainfo {
+				margin-left: 1.5rem;
+				margin-right: 1.5rem;
+			}
+
+			.text {
+				ul, ol {
+					margin-left: calc(1.5rem + 1.1em);
+				}
+			}
+
+			figure:not(.program-logo) {
+				width: 100%;
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+
+				img, iframe {
+					border-left: 0;
+					border-right: 0;
+				}
+			}
+
+			figure.program-logo {
+				width: calc(100% - 3rem);
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 535px) {
+	.landing-page:not(.normal-heading)>main>section:first-of-type {
+		.content >header ul li a {
+			display: none;
+		}
+	}
+}

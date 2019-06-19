@@ -48,34 +48,33 @@ collections:
   people:
     output: true
     permalink: /bio/:path/
+  features:
+    output: false
 
 defaults:
   - scope:
       type: pages
     values:
       layout    : default
-      bodyclass : landing-page
   - scope:
       type: posts
     values:
       layout    : post
-      bodyid    : blog
-      bodyclass : no-header-image
+      bodyid    : news
   - scope:
       type: newsletters
     values:
       layout    : newsletter
-      bodyid    : blog
-      bodyclass : no-header-image newsletter
+      bodyid    : news
   - scope:
       type: projects
     values:
       layout    : project
-      bodyid    : projects
-      bodyclass : no-header-image
+      bodyid    : expo
+      bodyclass : detail-page
   - scope:
       type: people
     values:
       layout    : bio
-      bodyid    : projects
-      bodyclass : no-header-image
+      bodyid    : expo
+      bodyclass : detail-page bio

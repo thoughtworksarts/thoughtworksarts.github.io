@@ -1,0 +1,51 @@
+{% if page.occupation == "Artist Group" %}
+  {% capture activity %}Group{% endcapture %}
+{% else %}
+  {% capture activity %}{{ page.occupation }}{% endcapture %}
+{% endif %}
+
+{% if page.role %}
+  {% assign activity = activity | append: '</p><p>ThoughtWorks Arts ' | append: page.role %}
+{% endif %}
+
+<figure class="participant first">
+  <img src="/images/people/{{ page.photo }}" alt="{{ page.name }}">
+  <figcaption>
+    <h2>{{ page.name }}</h2>
+    <p>{{ activity }}</p>
+  </figcaption>
+</figure>
+<ul class="profile-info second">
+  {% unless page.projects.size == 0 %}
+    <li>
+      <span class="key">{% if page.participation == "Resident" %}{{ page.participation }}{% else %}Season{% endif %}</span>
+      <span class="value">{{ page.season }}</span>
+    </li>
+    <li>
+      {% assign projects = page.projects | sort: 'projectid' %}
+      <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
+      <span class="value">
+        {% if projects.size == 1 %}
+          {% assign p = projects | first %}
+          {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+          <a href="{{ project.url }}">{{ project.title }}</a>
+        {% else %}
+          <ul class="project-list">
+          {% for p in projects %}
+            {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </span>
+    </li>
+  {% endunless %}
+  {% for link in page.links %}
+    {% if link.url != "" %}
+      <li>
+        <span class="key">{{ link.name }}</span>
+        <span class="value"><i class="{% if link.icon == 'fa-globe-americas' %}fa{% else %}fab{% endif %} {{ link.icon }}"></i> <a href="{{ link.url }}">{{ link.display }}</a></span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

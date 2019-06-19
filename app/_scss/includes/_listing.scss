@@ -1,33 +1,45 @@
 .listing {
+	margin-top: 2rem;
+
 	h1 {
 		margin-bottom: 0.6em;
 	}
 
 	.listing-item {
 		align-items: center;
-		margin-bottom: 6em;
+		margin-bottom: 4em;
+		display: flex;
+		flex-flow: row;
 
 		.image {
+			flex: 1 0 auto;
+			margin: 0 3em 0 0;
+
 			figure {
 				height: 100%;
 
 				img {
 					border: 0;
 					width: 20em;
-					margin-right: 2em;
 				}
 			}
 		}
 
+		.additional {
+			font-style: italic;
+			font-weight: bold;
+			padding: 0;
+		}
+
 		.text {
-			width: 62%;
+			position: inherit;
 
 			h2, p {
 				width: 100%;
 			}
 
 			h2 {
-				margin-top: 100px;
+				margin-top: 0;
 			}
 
 			a:link, a:visited {
@@ -38,8 +50,9 @@
 				text-decoration: underline;
 			}
 
-			p:last-of-type {
+			.progress {
 				padding-bottom: 0;
+				margin: 0;
 			}
 		}
 	}
@@ -73,18 +86,28 @@
 		}
 	}
 
-	.listing-item.alternating:nth-child(even) {
+	.listing-item.alternating:nth-of-type(even) {
 		.text {
 			order: 1;
 		}
 
 		.image {
 			order: 2;
+			margin: 0 0 0 3em;
 
-			figure img {
-				margin-left: 2em;
-				margin-right: 0;
+			figure {
+				text-align: right;
 			}
+		}
+	}
+}
+
+.listing.compact {
+	.listing-item {
+		margin-bottom: 1em;
+
+		.text h2 {
+			margin-top: 0.4em;
 		}
 	}
 }
@@ -92,24 +115,62 @@
 @media (max-width: 999px) {
 	.listing {
 		.listing-item {
-			margin-bottom: 4em;
+			display: block;
+			margin-bottom: 6em;
 
 			.text {
-				width: inherit;
-
-				h2, p {
-					width: 73%;
-				}
-
 				h2 {
-					margin: 2.2em 0 0.4em 0;
+					margin: 1em 0 0 0;
 				}
 			}
 
-			.image figure img {
-				position: inherit;
-				top: inherit;
-				transform: inherit;
+			.image {
+				max-width: $max-text-width;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.listing-item.alternating:nth-child(even) {
+			.image {
+				margin: 0 auto;
+
+				figure {
+					text-align: left;
+				}
+			}
+		}
+	}
+
+	.listing.compact {
+		.listing-item {
+			margin-bottom: 5em;
+
+			.progress {
+				padding-top: 0;
+				padding-bottom: 1em;
+			}
+		}
+	}
+}
+
+@media (max-width: 599px) {
+	.listing {
+		.listing-item, .listing-item.alternating:nth-child(even) {
+			.image {
+				margin-left: 1.5rem;
+				margin-right: 1.5rem;
+			}
+
+			.text {
+				p, h2, .progress {
+					width: inherit;
+				}
+
+				.progress {
+					margin-left: 1.5rem;
+					margin-right: 1.5rem;
+				}
 			}
 		}
 
@@ -127,72 +188,34 @@
 					img:last-of-type {
 						position: inherit;
 					}
-				}
-			}
-		}
 
-		.listing-item.alternating {
-			.image {
-				figure img {
-					margin-left: 0 !important;
-					margin-right: 0.7em !important;
+					img {
+						width: 43%;
+					}
 				}
 			}
 		}
 	}
 }
 
-@media (max-width: 749px) {
+@media (max-width: 399px) {
 	.listing {
 		.listing-item {
-			.text {
-				p, h2 {
-					width: 100%;
-				}	
+			.image {
+				figure {
+					img {
+						width: 96%;
+					}
+				}
 			}
 		}
 
 		.listing-item.double-image {
 			.image {
-				figure img {
-					width: 45%;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 529px) {
-	.listing {
-		.listing-item:not(.double-image) {
-			.image {
-				figure img {
-					width: 73%;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 451px) {
-	.listing {
-		.listing-item.double-image {
-			.image {
-				figure img {
-					margin-right: 0 !important;
-					width: 49%;
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 409px) {
-	.listing {
-		.listing-item:not(.double-image) {
-			.image {
-				figure img {
-					width: 83%;
+				figure {
+					img {
+						width: 48%;
+					}
 				}
 			}
 		}

@@ -1,0 +1,48 @@
+header {
+	.navigation a
+	.social
+}
+
+footer {
+	.subscribe
+	.notices
+}
+
+h1
+h2
+p
+figcaption
+blockquote
+ul
+ol
+.social              //in footer, blog and newsletters
+
+.landing-page {
+	h1               //same size as regular h1, but colored in
+}
+
+.detail-page {
+	.when            //i.e. project date
+
+	aside {
+		h1           //uses h2
+		h2           //uses h3 equivalent
+		p            //uses p-subtraction
+	}
+}
+
+.homepage {
+	h2               //same as h2 size but lowercase
+	.date            //on events, newsletters
+	.name-date       //on social
+	ul li p          //uses p-subtraction
+	p                //normal
+}
+
+.progress {
+	a
+}
+
+.blog {
+	h1               //regular size, different font family
+}

@@ -8,12 +8,12 @@ layout: default
 
   {% assign director-include = 'false' %}
 
-  {% if page.participation == 'Residency Director' and post.author == 'Directors' %}
+  {% if page.participation == 'Director' and post.author == 'Directors' %}
     {% assign director-include = 'true' %}
   {% endif %}
 
   {% if post.author == page.name or director-include == 'true' %}
-    {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
+    {% capture post-list %}{{ post-list }}{% include expo/related-post.html %}{% endcapture %}
   {% endif %}
 {% endfor %}
 
@@ -25,7 +25,7 @@ layout: default
 
         {% if tag == project.projectid %}
           {% unless post-list contains post.url %}
-            {% capture post-list %}{{ post-list }}{% include related-post.html %}{% endcapture %}
+            {% capture post-list %}{{ post-list }}{% include expo/related-post.html %}{% endcapture %}
           {% endunless %}
         {% endif %}
 
@@ -34,29 +34,33 @@ layout: default
   {% endfor %}
 {% endunless %}
 
-<section class="flex-row expanded">
-  <section class="left">
-    <article role="article">
-      <header>
-        <h1>{{ page.name }}</h1>
-        <section class="metainfo small bio">
-          {% include bio/profile.html %}
+<section>
+  <div class="content">
+    <section class="left">
+      <article role="article">
+        <header>
+          <h1>{{ page.name }}</h1>
+        </header>
+        <section class="metainfo small">
+          {% include expo/profile.html %}
         </section>
-      </header>
-      <div class="post-content">
-        {{ content }}
-      </div>
-    </article>
-  {% unless post-list.size == 0 %}
-    <section class="related-posts">
-      <h2>Related posts</h2>
-      <ul>
-        {{ post-list }}
-      </ul>
+        <div class="text">
+          {{ content }}
+        </div>
+      </article>
+    {% unless post-list.size == 0 %}
+      <section class="related-posts text">
+        <h2>Related posts</h2>
+        <ul>
+          {{ post-list }}
+        </ul>
+      </section>
+    {% endunless %}
     </section>
-  {% endunless %}
-  </section>
-  <section class="right metainfo large bio">
-    {% include bio/profile.html %}
-  </section>
+    <section class="right metainfo large">
+      <aside>
+        {% include expo/profile.html %}
+      </aside>
+    </section>
+  </div>
 </section>
