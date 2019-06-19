@@ -1,3 +1,5 @@
+var invalidValueStr = 'INVALID_VALUE';
+
 function getQueryStringParams() {
 	return new URLSearchParams(window.location.search);
 }
@@ -19,8 +21,8 @@ function trim(text) {
 
 function generateTeaser(str, maxLength) {
 	if(str.length > maxLength) {
-		var str = str.substr(0, maxLength);
-		str = str.substr(0, Math.min(str.length, str.lastIndexOf(" ")));
+		str = str.substr(0, maxLength);
+		str = str.substr(0, Math.min(str.length, str.lastIndexOf(' ')));
 
 		while(!str[str.length -1].match(/[a-zA-Z0-9]/)) {
 			str = str.slice(0, -1);
@@ -33,7 +35,7 @@ function generateTeaser(str, maxLength) {
 }
 
 function safeRead(str){
-	if(str == 'undefined' || str == '' || str == null) {
+	if(str === 'undefined' || str === '' || str == null) {
 		return invalidValueStr;
 	} else {
 		return trim(str);
@@ -43,16 +45,16 @@ function safeRead(str){
 function extractTemplateHtml(selector) {
 	var template = $(selector).html();
 	$(selector).html('');
-	template = template.replace(/\<\!\-\-/g, '');
+	template = template.replace(/<\!\-\-/g, '');
 	template = template.replace(/\-\-\>/g, '');
 	return template;
 }
 
-function formatDate(dateStr, timeStr) {
-	var date = toDateObject(dateStr, timeStr);
-	return date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' });
-}
-
 function toDateObject(dateStr, timeStr) {
 	return new Date(dateStr + 'T' + timeStr);
+}
+
+function formatDate(dateStr, timeStr) {
+	var date = toDateObject(dateStr, timeStr);
+	return date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric' });
 }

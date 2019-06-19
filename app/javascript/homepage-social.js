@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var prevNumCols = -1;
 
 	function init() {
-		if(window.location.pathname == '/') {
+		if(window.location.pathname === '/') {
 			showSocialFeed();
 		}
 	}
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	}
 
 	function setupSocialFeed() {
-		if(countNumCompleteImages() == numPostsRequested){
+		if(countNumCompleteImages() === numPostsRequested){
 			removePostsWithImageProblems();
 			processPostTexts();
 			deduplicatePosts();
@@ -72,7 +72,7 @@ $(document).ready(function() {
 
 	function hasImageProblems(img) {
 		var hasProblems = false;
-		if(img.attr('src') == '') {
+		if(img.attr('src') === '') {
 			hasProblems = true;
 		}
 		if(img.get(0).naturalWidth < 300 || img.get(0).naturalHeight < 220) {
@@ -82,7 +82,7 @@ $(document).ready(function() {
 	}
 
 	function deduplicatePosts() {
-		texts = new Array();
+		texts = [];
 		$('#curator-feed li .post-text').each(function() {
 			if(hasBeenSeenBefore($(this).text())) {
 				$(this).closest('li').remove();
@@ -127,7 +127,7 @@ $(document).ready(function() {
 
 	function reorderPostsOnColumnCountChange() {
 		numCols = $('#curator-feed').css('column-count');
-		if(numCols != prevNumCols) {
+		if(numCols !== prevNumCols) {
 			prevNumCols = numCols;
 			reorderPosts();
 
@@ -166,7 +166,7 @@ $(document).ready(function() {
 			$(this).attr('data-' + attrName, columnStartIndices[col] + row);
 
 			col++;
-			if(col == numCols) {
+			if(col === numCols) {
 				col = 0;
 				row++;
 			}
@@ -182,7 +182,7 @@ $(document).ready(function() {
 	}
 
 	function getColumnStartIndices() {
-		columnStartIndices = [];
+		var columnStartIndices = [];
 		var lastColumnPosition = -1;
 
 		$('#curator-feed li').each(function(index) {

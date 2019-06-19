@@ -16,6 +16,17 @@
   "trailing": true,
   "smarttabs": true,
   "globals": {
-    "$": false
+    "$": false,
+    "Curator": false,
+    "getQueryStringParams": false,
+    "isDebug": false,
+    "log": false,
+    "trim": false,
+    "generateTeaser": false,
+    "safeRead": false,
+    "extractTemplateHtml": false,
+    "formatDate": false,
+    "toDateObject": false,
+    "invalidValueStr": true
   }
 }

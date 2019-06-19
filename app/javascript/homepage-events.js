@@ -1,10 +1,9 @@
 $(document).ready(function() {
-	var invalidValueStr = 'INVALID_VALUE';
 	var listElement;
 	var listItemTemplateHtml;
 
 	function init() {
-		if(window.location.pathname == '/') {
+		if(window.location.pathname === '/') {
 			listElement = $('#meetup-feed');
 			populateEvents();
 		}
@@ -14,10 +13,10 @@ $(document).ready(function() {
 		listItemTemplateHtml = extractTemplateHtml('#meetup-feed');
 
 		$.ajax({
-			url: "https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&fields=featured_photo",
-			jsonp: "callback",
-			dataType: "jsonp",
-			data: { format: "json" },
+			url: 'https://api.meetup.com/volumetric/events?sign=true&photo-host=secure&desc=true&status=past,upcoming&fields=featured_photo',
+			jsonp: 'callback',
+			dataType: 'jsonp',
+			data: { format: 'json' },
 			success: function(json) {
 				log('Meetup Events', json);
 				bindEventsHtml(json);
@@ -36,8 +35,8 @@ $(document).ready(function() {
 		var oneWeekFwd = new Date();
 		oneWeekFwd.setDate(oneWeekFwd.getDate() + 7);
 
-		var isAnythingOtherThanHackLab = name != 'Hardware Hack Lab';
-		var isNextUpcomingHackLab = name == 'Hardware Hack Lab' && eventDate > today && eventDate < oneWeekFwd;
+		var isAnythingOtherThanHackLab = name !== 'Hardware Hack Lab';
+		var isNextUpcomingHackLab = name === 'Hardware Hack Lab' && eventDate > today && eventDate < oneWeekFwd;
 
 		return isAnythingOtherThanHackLab || isNextUpcomingHackLab;
 	}
@@ -79,7 +78,7 @@ $(document).ready(function() {
 	}
 
 	function isHardwareHackLab(meetup) {
-		return safeRead(meetup.name) == 'Hardware Hack Lab';
+		return safeRead(meetup.name) === 'Hardware Hack Lab';
 	}
 
 	function hasFeaturedPhoto(meetup) {

@@ -78,7 +78,7 @@ $(document).ready(function() {
 		if (document.createStyleSheet) {
 			document.createStyleSheet(counterURL);
 		} else {
-			$('head').append($("<link rel='stylesheet' href='" + counterURL + "' type='text/css' media='screen' />"));
+			$('head').append($('<link rel="stylesheet" href="' + counterURL + '" type="text/css" media="screen" />'));
 		}
 	}
 
