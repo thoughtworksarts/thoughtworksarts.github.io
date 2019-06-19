@@ -17,7 +17,7 @@
 
 #programs #image-splash {
 	background-image: url('/images/full-bleed/banner-c-1400.jpg');
-	background-position: 10% 50%;
+	background-position: 90% 50%;
 }
 
 #residents #image-splash {
@@ -34,4 +34,28 @@
 	background-image: url('/images/full-bleed/banner-spring-break-1400.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}
+
+@media (max-width: 1299px) {
+	#programs #image-splash {
+		background-position: 100% 50%;
+	}
+}
+
+@media (max-width: 999px) {
+	#programs #image-splash {
+		background-position: 70% 50%;
+	}
+}
+
+@media (max-width: 829px) {
+	#programs #image-splash {
+		background-position: 50% 50%;
+	}
+}
+
+@media (max-width: 659px) {
+	#programs #image-splash {
+		background-position: 30% 50%;
+	}
 }
