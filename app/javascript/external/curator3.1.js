@@ -1,3 +1,4 @@
+/* jshint ignore: start */
 /* Zepto v1.2.0-27-g324cd27 - zepto event ie fx fx_methods data - zeptojs.com/license */
 (function(global, factory) {
   if (typeof define === 'function' && define.amd) {
@@ -5831,3 +5832,4 @@ return Crt;
 
 	return Curator;
 }));
+/* jshint ignore: end */
