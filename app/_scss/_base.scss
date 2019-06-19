@@ -292,15 +292,15 @@ body>header {
 	body:not(.home-page) h1 {
 		margin-top: 0;
 	}
+
+	img.small, figure.small img, img.mid, figure.mid img {
+		width: 100%;
+	}
 }
 
 @media (max-width: 499px) {
 	hr {
 		margin-bottom: 0.8em;
-	}
-
-	img.small, figure.small img, img.mid, figure.mid img {
-		width: 100%;
 	}
 }
 
