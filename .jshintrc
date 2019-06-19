@@ -27,6 +27,7 @@
     "extractTemplateHtml": false,
     "formatDate": false,
     "toDateObject": false,
-    "invalidValueStr": true
+    "invalidValueStr": true,
+    "URLSearchParams": false
   }
 }
