@@ -1,0 +1,13 @@
+/* Safari only */
+
+@media not all and (min-resolution:.001dpcm) { 
+	@media {
+		body:not(.landing-page)>main>section:first-of-type {
+			background: url('/images/full-bleed/pattern-1600.png') no-repeat top;
+		}
+
+		#home>main>section::after {
+			background: inherit;
+		}
+	}
+}
