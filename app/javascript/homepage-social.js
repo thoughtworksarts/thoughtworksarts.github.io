@@ -126,7 +126,7 @@ $(document).ready(function() {
 	}
 
 	function reorderPostsOnColumnCountChange() {
-		numCols = $('#curator-feed').css('column-count');
+		numCols = parseInt($('#curator-feed').css('column-count'));
 		if(numCols !== prevNumCols) {
 			prevNumCols = numCols;
 			reorderPosts();
