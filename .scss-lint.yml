@@ -89,7 +89,7 @@ linters:
 
   PropertySpelling:
     enabled: true
-    extra_properties: []
+    extra_properties: ['grid-template-columns', 'grid-template-rows']
 
   QualifyingElement:
     enabled: false
