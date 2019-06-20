@@ -1,7 +1,7 @@
 $bebas: BebasNeuePro-Regular, sans-serif;
 $open-sans: 'Open Sans', sans-serif;
 
-/* font sizes - see font-guide.txt */
+// font sizes - see font-guide.txt
 $header-navigation-font-size: 2.1rem;
 $header-social-font-size: 1.6rem;
 $header-social-bump-font-size: 2rem;
@@ -24,14 +24,14 @@ $progress-font-size: 1.3rem;
 $apply-now-font-size: 1.6rem;
 $blockquote-mark-font-size: 4rem;
 
-/* element sizing */
+// element sizing
 $header-divider-size: 10px;
 $header-border-size: 30px;
 $header-banner-size: 54px;
 $max-page-width: 1050px;
 $max-text-width: 675px;
 
-/* spacing */
+// spacing
 $large_spacing: 0.04em;
 $small_spacing: 0.03em;
 
@@ -39,7 +39,7 @@ $large_lineheight: 1.8em;
 $small_lineheight: 1.7em;
 $smallest_lineheight: 1.2em;
 
-/* colors */
+// colors
 $white: #ffffff;
 $black: #222222;
 $red: #ff0000;
@@ -59,7 +59,7 @@ $grey-mid: #cccccc;
 
 $transparent: rgba(255, 255, 255, 0); //https://forum.webflow.com/t/strange-gradient-display-in-safari/57708
 
-/* z-indices */
+// z-indices
 $sub1: -1;
 $normal: 0;
 $up1: 1;

@@ -97,9 +97,8 @@
 
 		>section::after {
 			content: '';
-			background:
-				linear-gradient($grey-light1, $transparent) top/100% 4px no-repeat,
-				url('/images/full-bleed/pattern-1600.png') no-repeat bottom;
+			background: linear-gradient($grey-light1, $transparent) top/100% 4px no-repeat,
+						url('/images/full-bleed/pattern-1600.png') no-repeat bottom;
 			height: 510px;
 			width: 100%;
 			display: block;
@@ -193,7 +192,7 @@
 						width: 100%;
 						height: 100%;
 						position: absolute;
-						background: linear-gradient($transparent, white) bottom/100% 52px no-repeat;
+						background: linear-gradient($transparent, $white) bottom/100% 52px no-repeat;
 					}
 				}
 			}
@@ -216,9 +215,8 @@
 				height: 140px;
 				position: absolute;
 				bottom: 0;
-				background:
-					linear-gradient($transparent, $grey-lightest) bottom/100% 26px no-repeat,
-					linear-gradient($transparent, white) bottom/100% 140px no-repeat;
+				background: linear-gradient($transparent, $grey-lightest) bottom/100% 26px no-repeat,
+							linear-gradient($transparent, $white) bottom/100% 140px no-repeat;
 				z-index: $up1;
 			}
 
@@ -325,7 +323,7 @@
 					width: calc(100% - 3rem);
 
 					>h1, >ul, >a, >section {
-						width: 100%
+						width: 100%;
 					}
 				}
 

@@ -1,4 +1,11 @@
-@font-face {font-family: 'BebasNeuePro-Regular';src: url('/fonts/BebasNeuePro-Regular.eot');src: url('/fonts/BebasNeuePro-Regular.eot?#iefix') format('embedded-opentype'),url('/fonts/BebasNeuePro-Regular.woff2') format('woff2'),url('/fonts/BebasNeuePro-Regular.woff') format('woff'),url('/fonts/BebasNeuePro-Regular.ttf') format('truetype');}
+@font-face {
+	font-family: 'BebasNeuePro-Regular';
+	src: url('/fonts/BebasNeuePro-Regular.eot');
+	src: url('/fonts/BebasNeuePro-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/BebasNeuePro-Regular.woff2') format('woff2'),
+		 url('/fonts/BebasNeuePro-Regular.woff') format('woff'),
+		 url('/fonts/BebasNeuePro-Regular.ttf') format('truetype');
+}
 
 // Reset adapted from html5doctor.com v1.6.1
 html, body, div, span, object, iframe,

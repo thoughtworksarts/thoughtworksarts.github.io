@@ -7,10 +7,9 @@
 
 body:not(.landing-page) {
 	>main>section:first-of-type {
-		background:
-			linear-gradient($grey-light1, $transparent) top/100% 4px no-repeat,
-			url('/images/full-bleed/pattern-1600.png') no-repeat top;
-		box-shadow: inset 0 0 50px -15px rgba(0,0,0,0.05);
+		background: linear-gradient($grey-light1, $transparent) top/100% 4px no-repeat,
+					url('/images/full-bleed/pattern-1600.png') no-repeat top;
+		box-shadow: inset 0 0 50px -15px rgba(0, 0, 0, 0.05);
 		border-top: $header-divider-size solid $grey-light1;
 	}
 }
