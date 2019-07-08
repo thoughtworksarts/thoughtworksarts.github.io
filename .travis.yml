@@ -1,0 +1,17 @@
+language:
+  - ruby
+  - node_js
+
+before_install: npm install -g grunt-cli
+
+install:
+  - bundle install
+  - npm install
+
+script:
+- grunt build
+
+# blocklist
+branches:
+  except:
+    - master
