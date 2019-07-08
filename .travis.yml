@@ -16,6 +16,17 @@ install:
 script:
 - grunt build
 
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN   # Set in the settings page, as a secure variable
+  keep_history: true
+  committer_from_gh: true
+  local-dir: _site              # The build folder
+  target_branch: master         # Where to push the build
+  on:
+    branch: source              # Which branch to watch to trigger the deploy
+
 # blocklist
 branches:
   except:
