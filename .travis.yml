@@ -2,7 +2,10 @@ language:
   - ruby
   - node_js
 
-before_install: npm install -g grunt-cli
+before_install:
+  - gem update --system
+  - gem install bundler
+  - npm install -g grunt-cli
 
 install:
   - bundle install
