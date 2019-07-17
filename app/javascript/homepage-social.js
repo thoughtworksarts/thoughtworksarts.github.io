@@ -9,8 +9,13 @@ $(document).ready(function() {
 	var numCols;
 	var prevNumCols = -1;
 
+	function getChromeVersion() {
+		var raw = navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./);
+		return raw ? parseInt(raw[2], 10) : false;
+	}
+
 	function init() {
-		if(window.location.pathname === '/') {
+		if(window.location.pathname === '/' && getChromeVersion() <= 74) {
 			showSocialFeed();
 		}
 	}
