@@ -4,7 +4,7 @@ title	   : "Open Call: The Democratization of Artificial Intelligence via Blockc
 description: Open Call for an AI & Blockchain Residency, hosted by ThoughtWorks Arts and Snark.art in San Francisco
 image      : /images/posts-special/open-call/2019-democratization-ai-blockchain/closing.jpg
 ---
-<p class="notice black">Note: The deadline for this call has been extended until July 31, 2019.</p>
+<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. Applicants will be contacted by email by August 29, 2019.</p>
 
 Residency Dates: September 30 2019 — January 31, 2020
 
@@ -21,8 +21,6 @@ ThoughtWorks will provide a work space, facilitation in downtown San Francisco, 
 The residency spans sixteen weeks, with time for a break over the holidays, and comes with a stipend of $11,000. We can provide assistance, if necessary, in supplying a letter of intent to any external funding agencies that might facilitate the residency. Individuals who need to apply for visas should be particularly sensitive to recent issues surrounding work visas and consult with their own country's authorities for assistance in crafting their applications to visit San Francisco.
 
 Applicants must submit a proposal using the application form below by the application deadline of July 31, 2019. Your proposal should tell us who you are, what your project idea is, and how you plan to implement it. It should also include the skills you have, and the skills and equipment you require for the project. Where there are skills required which you do not have or cannot supply, please let us know.
-
-<a href="https://forms.gle/QTuBdqU3uLUnfjf59" class="attention">Apply now</a>
 
 We will contact applicants with final selection information by August 29, 2019.
 
