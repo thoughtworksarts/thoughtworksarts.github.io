@@ -20,8 +20,8 @@ links:
 
  - icon    : "fa-twitter"
    name    : "Twitter"
-   display : "thisisif"
-   url     : "https://twitter.com/thisisif"
+   display : "RIOTAIfilm"
+   url     : "https://twitter.com/RIOTAIfilm"
 
  - icon    : "fa-linkedin"
    name    : "LinkedIn"
@@ -30,8 +30,8 @@ links:
 
  - icon    : "fa-instagram"
    name    : "Instagram"
-   display : ""
-   url     : ""
+   display : "storytellerfromthefuture"
+   url     : "https://www.instagram.com/storytellerfromthefuture"
 
  - icon    : "fa-pinterest"
    name    : "Pinterest"
