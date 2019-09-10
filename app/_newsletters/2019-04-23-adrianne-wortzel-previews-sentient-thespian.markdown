@@ -51,7 +51,7 @@ Hardware Hack Lab is open to the public every Wednesday from 6:30pm - 9:30pm, lo
 
 **Tyler Parker** had a debut as a tenor in Frederick Fleet in [The Village Light Opera Group](https://villagelightopera.org/) presents: TITANIC the Musical!
 
-**Rene Anakwe** presents The Cosmology Of Water, an interactive performance, during her residency at [Issue Project Room](https://issueprojectroom.org/event/rena-anakwe-cosmology-water?fbclid=IwAR2bujgXPjZRRz8OL1QLEMfw4l8QKKh3otAyrv39l3rFOXYp_7rjdGz6GOQ).
+**Rena Anakwe** presents The Cosmology Of Water, an interactive performance, during her residency at [Issue Project Room](https://issueprojectroom.org/event/rena-anakwe-cosmology-water?fbclid=IwAR2bujgXPjZRRz8OL1QLEMfw4l8QKKh3otAyrv39l3rFOXYp_7rjdGz6GOQ).
 
 **Sharon de la Cruz** was a guest speaker and educator at [Processing Community Day at Medios Interactivos USFQ](http://www.pcdquito.com/).
 

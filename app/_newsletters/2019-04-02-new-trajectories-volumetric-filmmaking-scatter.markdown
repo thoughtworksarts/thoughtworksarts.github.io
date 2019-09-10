@@ -54,7 +54,7 @@ Ellen Pearlman has been [named a 2019 Vertigo STARTS Laureate](https://vertigo.s
 
 **Tyler Parker** had a debut as a tenor in Frederick Fleet in [The Village Light Opera Group](https://villagelightopera.org) presents: TITANIC the Musical!
 
-**Rene Anakwe** presents The Cosmology Of Water, an interactive performance, during her residency at [Issue Project Room](https://issueprojectroom.org/event/rena-anakwe-cosmology-water?fbclid=IwAR2bujgXPjZRRz8OL1QLEMfw4l8QKKh3otAyrv39l3rFOXYp_7rjdGz6GOQ).
+**Rena Anakwe** presents The Cosmology Of Water, an interactive performance, during her residency at [Issue Project Room](https://issueprojectroom.org/event/rena-anakwe-cosmology-water?fbclid=IwAR2bujgXPjZRRz8OL1QLEMfw4l8QKKh3otAyrv39l3rFOXYp_7rjdGz6GOQ).
 
 **Sharon de la Cruz** was a guest speaker and educator at [Processing Community Day](http://www.pcdquito.com/) at Medios Interactivos USFQ.
 
@@ -68,24 +68,24 @@ Ellen Pearlman has been [named a 2019 Vertigo STARTS Laureate](https://vertigo.s
 
 ## Exhibitions
 
-**Heather Dewey-Hagborg (Past Resident)**  
-[SPIRIT MOLECULE](https://northeastofnorth.com/event/spirit-molecule-i/)  
-Lifespace Science Art Research Gallery, University of Dundee  
+**Heather Dewey-Hagborg (Past Resident)**
+[SPIRIT MOLECULE](https://northeastofnorth.com/event/spirit-molecule-i/)
+Lifespace Science Art Research Gallery, University of Dundee
 Dundee, Scotland
 
 ## Publications
 
-**Ellen Pearlman**  
-[Leonardo NEWS](https://mailchi.mp/leonardo/opportunities-gatherings-and-news-tailored-especially-for-you) lists Ellen Pearlman as a top contributor to their MIT Press publications **Ellen Pearlman**  
+**Ellen Pearlman**
+[Leonardo NEWS](https://mailchi.mp/leonardo/opportunities-gatherings-and-news-tailored-especially-for-you) lists Ellen Pearlman as a top contributor to their MIT Press publications **Ellen Pearlman**
 [Planet 3D, on Brain Research](https://artdis.tumblr.com/post/182906207436/in-out-and-about-the-brain) - In, Out and About the Brain
 
 ## Presentations
 
-**Karen Palmer**  
-[Our Brain On AI : Who's In Control, Me or The Machine?](https://www.eventbrite.com/e/our-brain-on-ai-tickets-57015541018?fbclid=IwAR1mvr8JcP6ep-Fml2L37ks7bgoVyp_7n_cEnpPYkZVEMrfxexiZlmXiNJc#)  
-The Cooper Union for the Advancement of Science and Art  
+**Karen Palmer**
+[Our Brain On AI : Who's In Control, Me or The Machine?](https://www.eventbrite.com/e/our-brain-on-ai-tickets-57015541018?fbclid=IwAR1mvr8JcP6ep-Fml2L37ks7bgoVyp_7n_cEnpPYkZVEMrfxexiZlmXiNJc#)
+The Cooper Union for the Advancement of Science and Art
 
-**Andrew McWilliams**  
+**Andrew McWilliams**
 [How Technologists Can Flight Climate Change](https://youtube.com/watch?v=05x9mlipzSQ)
 
 ## Blog Posts

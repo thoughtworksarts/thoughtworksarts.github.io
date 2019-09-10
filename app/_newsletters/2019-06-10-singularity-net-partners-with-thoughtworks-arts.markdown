@@ -87,7 +87,7 @@ Moon is curious to see how this transition plays out, while looking forward to e
 
 ### Updates from Art-A-Hack™ Alumni
 
-**Rene Anakwe**, Artist-In-Resident at [Issue Project Room](https://issueprojectroom.org/), will present [Fast Forward to Silence](https://www.brownpapertickets.com/event/4248909), her second commissioned project, on July 11th.
+**Rena Anakwe**, Artist-In-Resident at [Issue Project Room](https://issueprojectroom.org/), will present [Fast Forward to Silence](https://www.brownpapertickets.com/event/4248909), her second commissioned project, on July 11th.
 
 **Tyler Parker** had a debut as a tenor in Frederick Fleet in [The Village Light Opera Group](https://villagelightopera.org/) presents: TITANIC the Musical!
 
