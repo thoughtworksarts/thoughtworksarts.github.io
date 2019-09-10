@@ -48,7 +48,10 @@ We look forward to including Barcelona's community in this program. Hardware Hac
 ## Former AI Resident Karen Palmer to Exhibit *Perception iO* at Cooper Hewitt Design Museum in NYC
 
 Artist Karen Palmer (TWA'18) who works in facial recognition and AI will be exhibiting her recent project *Perception iO* at the [Cooper Hewitt Design Museum](https://www.cooperhewitt.org/events/current-exhibitions/upcoming-exhibitions/) in NYC on September 20th.
-![Perception iO](https://i.imgur.com/g7qHTQT.jpg)
+
+{% include image.html file='perception.jpg'
+   alt='Perception iO'
+%}
 
 *Perception iO* is a facial emotion detection and eye tracking immersive film. Karen teamed up with a dedicated team of programmers at ThoughtWorks to develop *Perception iO*, and to integrate the [Tobii Pro](https://www.tobiipro.com/product-listing/nano/) eye gazing hardware into her installation.
 
