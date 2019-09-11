@@ -36,7 +36,7 @@ On Thu, Sep 26, at 7:00 PM Rashin and the other featured artists will come toget
 ## Hardware Hack Lab Opens at ThoughtWorks in Barcelona, Spain
 An offshoot of the Hardware Hack Lab, which began in New York in 2013 is now live in Barcelona, Spain.
 
-{% include image.html file='fathers-lullaby.jpg'
+{% include image.html file='hardwarehacklab.jpg'
    alt='People sitting around a table, looking at computers. One has a VR headset on.'
    caption='Hardware Hack Labers collaborating on a project in NYC.'
 %}
