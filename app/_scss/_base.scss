@@ -62,6 +62,11 @@ h1, h2, p {
 
 h1, h2 {
 	font-family: $bebas;
+
+	em {
+		font-family: $bebas;
+		font-style: normal;
+	}
 }
 
 h1 {
