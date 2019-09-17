@@ -9,7 +9,11 @@ ThoughtWorks Arts new San Francisco based residency has been awarded to a team o
    caption='Artists Max Razdow, Jamie Zigelbaum, and Ollie Razdow'
 %}
 
-During their residency, Max Razdow, Ollie Razdow, and Jamie Zigelbaum will work together developing a generative story-telling project, titled, *All Possible Pathways*. The project is a science fiction based narrative concerning A.I.'s future, co-authored and illustrated by Zigelbaum and M. Razdow and input into a decentralized public blockchain ledger. The blockchain based text will then be recomposed by O. Razdow through software coded at ThoughtWorks Arts in San Francisco. It will output an audio visual interpretation that changes each time it appears. The artists believe their work both informs and challenges the relationship between AI, its democratization, and its social impacts.
+During their residency, Max Razdow, Ollie Razdow, and Jamie Zigelbaum will work together developing a generative story-telling project, titled, *All Possible Pathways*.
+
+<!--excerpt-ends-->
+
+The project is a science fiction based narrative concerning A.I.'s future, co-authored and illustrated by Zigelbaum and M. Razdow and input into a decentralized public blockchain ledger. The blockchain based text will then be recomposed by O. Razdow through software coded at ThoughtWorks Arts in San Francisco. It will output an audio visual interpretation that changes each time it appears. The artists believe their work both informs and challenges the relationship between AI, its democratization, and its social impacts.
 
 The team will also receive additional support from both [SnarkArt](https://snark.art/) and [SingularityNet](https://singularitynet.io/).
 

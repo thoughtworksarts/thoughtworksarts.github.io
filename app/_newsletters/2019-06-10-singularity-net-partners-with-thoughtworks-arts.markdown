@@ -12,6 +12,8 @@ We are thrilled to be joining forces with the world’s first decentralized AI p
 
 Blockchains and AI are revolutionary technologies that will imminently change how humans and industry exist forever.
 
+<!--excerpt-ends-->
+
 Currently the two are somewhat separate, except in niche crypto currency applications. But SingularityNET’s CEO, [Dr. Ben Goertze](https://www.youtube.com/watch?v=wJrtpwgQozw&amp=&feature=youtu.be)l, sees their widespread combined potential and set out to create a system that not only captures the power of AI, but one that also is open to absolutely everyone, ensuring that AI is transparent and decentralized.
 
 It was this idea of individuals having better access and insight to AI development that became the inspiration of our residency's key theme. We’re so excited to now have SingularityNet on board. and look forward to exploring creative approaches to the implementation of a decentralized AI through a unique art work for this upcoming residency.
