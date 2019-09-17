@@ -136,5 +136,3 @@ American Arts Incubator (AAI) is an exchange program created for new media and d
 * [ Global Visioning Session with the Cyborgs ](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)by Andrew McWilliams
 
 Love this newsletter? Check out our [archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!
-
-[view all newsletters](https://thoughtworksarts.io/newsletters/)

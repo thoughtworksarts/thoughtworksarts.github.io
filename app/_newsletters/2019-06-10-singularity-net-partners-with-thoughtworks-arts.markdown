@@ -143,6 +143,4 @@ Moon is curious to see how this transition plays out, while looking forward to e
 
 Love this newsletter? Check out our [archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!
 
-[view all newsletters](https://thoughtworksarts.io/newsletters/)
-
 Happy summer, everyone!
