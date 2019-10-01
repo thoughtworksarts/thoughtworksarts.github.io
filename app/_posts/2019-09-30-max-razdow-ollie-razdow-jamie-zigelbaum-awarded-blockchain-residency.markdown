@@ -3,7 +3,7 @@ title  : "Max Razdow, Ollie Razdow, and Jamie Zigelbaum awarded The Democratizat
 ---
 ThoughtWorks Arts new San Francisco based residency has been awarded to a team of three artists working across media with a focus on remote collaboration and distributed story-telling.
 
-{% include image.html file='all-possible-Pathways.jpg'
+{% include image.html file='all-possible-pathways.jpg'
    alt='Portraits of Max Razdow, Jamie Zigelbaum, and Ollie Razdow'
    caption='Artists Max Razdow, Jamie Zigelbaum, and Ollie Razdow'
    class='no-border' %}
