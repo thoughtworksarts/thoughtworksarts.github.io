@@ -4,7 +4,7 @@ title	   : "Open Call: The Democratization of Artificial Intelligence via Blockc
 description: Open Call for an AI & Blockchain Residency, hosted by ThoughtWorks Arts and Snark.art in San Francisco
 image      : /images/posts-special/open-call/2019-democratization-ai-blockchain/closing.jpg
 ---
-<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. Applicants will be contacted by email by August 29, 2019.</p>
+<p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. <a href="/blog/max-razdow-ollie-razdow-jamie-zigelbaum-awarded-blockchain-residency/">Click here to learn more</a>.</p>
 
 Residency Dates: September 30 2019 — January 31, 2020
 
