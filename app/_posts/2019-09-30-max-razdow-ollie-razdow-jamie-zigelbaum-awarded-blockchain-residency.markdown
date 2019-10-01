@@ -1,5 +1,5 @@
 ---
-title  : "Max Razdow, Ollie Razdow, and Jamie Zigelbaum awarded The Democratization of AI via Blockchain Residency y"
+title  : "Max Razdow, Ollie Razdow, and Jamie Zigelbaum awarded The Democratization of AI via Blockchain Residency"
 ---
 ThoughtWorks Arts new San Francisco based residency has been awarded to a team of three artists working across media with a focus on remote collaboration and distributed story-telling.
 
