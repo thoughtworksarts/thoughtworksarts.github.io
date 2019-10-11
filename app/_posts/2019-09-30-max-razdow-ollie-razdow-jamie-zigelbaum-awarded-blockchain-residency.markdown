@@ -8,9 +8,13 @@ ThoughtWorks Arts new San Francisco based residency has been awarded to a team o
    caption='Artists Max Razdow, Jamie Zigelbaum, and Ollie Razdow'
    class='no-border' %}
 
-During their residency, Max Razdow, Ollie Razdow, and Jamie Zigelbaum will work together developing a generative story-telling project, titled, *All Possible Pathways*. The project is a science fiction based narrative concerning A.I.'s future, co-authored and illustrated by Zigelbaum and M. Razdow and input into a decentralized public blockchain ledger. <!--excerpt-ends--> The blockchain based text will then be recomposed by O. Razdow through software coded at ThoughtWorks Arts in San Francisco. It will output an audio visual interpretation that changes each time it appears. The artists believe their work both informs and challenges the relationship between AI, its democratization, and its social impacts.
+During their residency, Max Razdow, Ollie Razdow, and Jamie Zigelbaum will work together developing a generative story-telling project, titled, *All Possible Pathways*. The project is a science fiction based narrative concerning A.I.'s future, co-authored and illustrated by Zigelbaum and M. Razdow and input into a decentralized public blockchain ledger. <!--excerpt-ends--> The blockchain based text will then be recomposed by O. Razdow through software coded at ThoughtWorks Arts in San Francisco. It will output an audio visual interpretation that changes each time it appears.
+
+The artists believe their work both informs and challenges the relationship between AI, its democratization, and its social impacts.
 
 The team will also receive additional support from both [SnarkArt](https://snark.art/) and [SingularityNet](https://singularitynet.io/).
+
+The project was proposed in response to an Open Call by ThoughtWorks Arts for artists to explore the democratization of A.I. via blockchain. These topics are [explained in detail in this article](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/).
 
 **Max Razdow** is an artist, writer, and teacher living in Boston, MA.  He has taught art practice and theory at New York University, University of Massachusetts and Lesley University, and has shown his drawings and text based works internationally, and co-founded the online art theory journal Speculative Arts Research.
 
