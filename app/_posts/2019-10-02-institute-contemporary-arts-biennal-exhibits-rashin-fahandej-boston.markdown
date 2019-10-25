@@ -1,7 +1,7 @@
 ---
 title  : "The Institute of Contemporary Arts' Biennial Exhibits A Father’s Lullaby by Rashin Fahandej in Boston"
 ---
-The 2019 installment of [ICA's Biennial - James and Audrey Foster Prize exhibition](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize) showcases the work of four Boston-area artists, including ThoughtWorks Arts current volumetric filmmaking resident, Rashin Fahandej
+The 2019 installment of [ICA's Biennial - James and Audrey Foster Prize exhibition](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize) showcases the work of four Boston-area artists, including ThoughtWorks Arts current volumetric filmmaking resident, Rashin Fahandej.
 
 {% include image.html file='installation-shot.jpg'
    alt='Installation shot'
