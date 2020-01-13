@@ -24,10 +24,8 @@ As one of the founding members of the Cyborg Foundation, artist Moon Ribas is en
 
 This device is an example of an 'exosense', an external sensory organ. This means it is designed to be worn and felt consistently, twenty-four hours a day, seven days a week. The constant stream of sensations will allow Moon to develop an instinctual relationship with global seismic activity.
 
-<figure>
-	<img src="/images/projects/seismic-sense/seismic-sense.jpg" alt="Moon wearing the Seismic Sense" />
-	<figcaption>Moon wearing the Seismic Sense</figcaption>
-</figure>
+{% include image file='seismic-sense.jpg'
+   caption='Moon wearing the *Seismic Sense*' %}
 
 The wearable works by communicating over a cellular connection with a cloud-based server, which regularly parses a public [US Geological Survey data source](http://earthquake.usgs.gov/fdsnws/event/1/) for new quake data. When seismic activity is detected, the intensity, distance and duration are represented by small vibrations felt by the wearer. This interaction is based on an existing implant Moon has in her arm, which responds simply to the intensity of earthquakes.
 

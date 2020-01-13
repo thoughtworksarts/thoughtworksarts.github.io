@@ -29,14 +29,14 @@ The film is reminiscent of silent black and white films which explored the emerg
 
 Puck is played by [a MekaMon robot](https://mekamon.com/), a highly expressive gaming robot provided by [Reach Robotics](https://reachrobotics.com/) in the UK. As the story develops, Puck interacts with *Lysander*, played by a 15 foot [ABB IRB 6700 industrial robot](https://new.abb.com/products/robotics/industrial-robots/irb-6700).
 
-{% include image file='/images/projects/sentient-thespian/crr-film-shoot.jpg'
+{% include image file='crr-film-shoot.jpg'
    caption='Shooting on-site at the Consortium for Research &amp; Robotics' %}
 
 The IRB 6700 robot, as well as the film set and scenery, are contributed by the [Consortium for Research &amp; Robotics](https://consortiumrr.com/), hosted by the [Pratt Institute](https://www.pratt.edu/) in the Brooklyn Navy Yard.
 
 *The Sentient Thespian* is the first of a planned trilogy of films featuring MekaMon, to be titled *Golemopolis*. Artist Adrianne Wortzel is working on the second film now as part of a residency in the Costa Rican jungle.
 
-{% include image file='/images/projects/sentient-thespian/the-sentient-thespian.jpg'
+{% include image file='the-sentient-thespian.jpg'
    caption='A screenshot from *The Sentient Thespian*' %}
 
 Wortzel says of her work: “The playfulness of MekaMon has allowed me to emulate human emotions through gestures. This points to the potential for the creation of new social, dramaturgical and
