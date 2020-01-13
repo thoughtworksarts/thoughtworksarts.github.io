@@ -4,7 +4,7 @@ title  : "Ellen Pearlman and Rashin Fahandej Selected for ZERO1 2020 Incubator"
 We're thrilled to announce that both Ellen Pearlman and Rashin Fahandej have been selected for the highly competitive  [ZERO1 American Arts Incubator 2020 program](https://americanartsincubator.org/american-arts-incubator-2020-lead-artist-announcement/) in collaboration with the U.S. State Department's Bureau of Educational and Cultural Affairs.
 
 {% include image.html file='american-arts-incubator-2020.jpg'
-   caption='Lead Artists 2020 AAI' %}
+   caption='American Arts Incubator Lead Artists 2020' %}
 
 Of the six artists selected, Ellen will be working in Ukraine, and Rashin will be working in Austria.
 
