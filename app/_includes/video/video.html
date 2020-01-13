@@ -6,7 +6,8 @@
 	include.caption |
 	markdownify |
 	replace: '<p>', '' |
-	replace: '</p>', ''
+	replace: '</p>', '' |
+	strip_newlines
 }}{% endcapture %}
 
 {% if include.id2 %}
