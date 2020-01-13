@@ -2,7 +2,7 @@
 title       : The Sentient Thespian
 season      : Fall 2018
 
-description : The Sentient Thespian is a film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution.
+description : A film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution, featuring the expressive, spider-like Mekamon robot.
 
 image       : /images/projects/sentient-thespian/og.jpg
 
