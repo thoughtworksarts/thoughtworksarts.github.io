@@ -8,7 +8,7 @@ image      : /images/posts-special/open-call/2019-volumetric-workshop/og_volumet
 
 ThoughtWorks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free, intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
 
-{% include image.html file='volumetric-workshop.jpg' %}
+{% include image file='volumetric-workshop.jpg' %}
 
 Volumetric filmmaking is a growing movement in 3-dimensional capture of people, places and things, which can be presented in an immersive (AR/VR/MR) context or rendered in 2D. The technique redefines how a narrative can be developed and experienced, allowing creators to expand beyond the boundaries of traditional media.
 

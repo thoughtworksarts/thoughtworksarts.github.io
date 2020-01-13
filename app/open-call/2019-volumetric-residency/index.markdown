@@ -10,7 +10,7 @@ Residency Dates: June 10 - September 27, 2019
 
 ThoughtWorks, a global software consultancy with an arts residency based in New York City is partnering with [Scatter](http://scatter.nyc/) and their groundbreaking volumetric video software [Depthkit](https://www.depthkit.tv) to offer a funded artist residency focusing on volumetric filmmaking technology.
 
-{% include image.html file='volumetric-workshop.jpg' %}
+{% include image file='volumetric-workshop.jpg' %}
 
 Volumetric film has made great strides in recent years, gaining mainstream attention in virtual and mixed reality, music videos, telepresence and other areas. We seek artists to explore approaches around these new developments. This might include, but is not limited to:
 

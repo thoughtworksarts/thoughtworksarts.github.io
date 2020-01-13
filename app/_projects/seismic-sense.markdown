@@ -18,7 +18,7 @@ team :
 
 *Seismic Sense* is a wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity, as they happen, anywhere in the world.
 
-{% include youtube.html id='MdDfAdSeRNQ' ratio='55' %}
+{% include youtube id='MdDfAdSeRNQ' ratio='55' %}
 
 As one of the founding members of the Cyborg Foundation, artist Moon Ribas is engaged in exploring transhumanism through permanent implants. The creation of the *Seismic Sense* wearable prototype allows Moon and the team to learn and reflect about how the sense might operate as a permanent implant.
 

@@ -11,7 +11,7 @@ Our aim for this program is to create a space where leading technology artists a
 
 The residency is inspired by some of ThoughtWorks [core values](https://www.thoughtworks.com/about-us). Working with artists who are at the forefront of the creative technology field augments our ability to champion software excellence and provides an opportunity to think critically about its potential and use for social change.
 
-{% include image.html file='artahack.jpg'
+{% include image file='artahack.jpg'
    caption='Participants taking part in Art-A-Hack, 2015' %}
 
 The residency compliments our existing public programming from ThoughtWorks New York including the weekly meetup [Hardware Hack Lab](https://hardwarehacklab.io/) and the annual co-creation experiment [Art-A-Hack](https://artahack.io/).

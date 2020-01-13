@@ -3,7 +3,7 @@ title : "Mechanics & Movement: Announcing Our New Robotics Residents"
 ---
 We are pleased to announce that Adrianne Wortzel and Catie Cuan will join ThoughtWorks Arts this summer as our newest residents, exploring issues of movement and robotics.  
 
-{% include image.html file='adrianne-catie.jpg'
+{% include image file='adrianne-catie.jpg'
    caption='Adrianne Wortzel and Catie Cuan'
    class='no-border' %}
 
@@ -21,7 +21,7 @@ You can learn more about Adrianne and Catie and the projects they will be pursui
 
 We are now accepting applications for [Art-A-Hack™ Special Edition 2018](https://artahack.io/summer-2018/call/) in collaboration with CUNY City Tech. As always, Art-A-Hack is completely free to participate and open to anyone. We are seeking passionate and curious people to explore projects around two themes: Climate Change: Data & Disinformation; and Emotionally Intelligent Artificial Intelligence & Brain Computer Interfaces.
 
-{% include image.html file='art-a-hack.jpg'
+{% include image file='art-a-hack.jpg'
    alt='Art-A-Hack' class='no-border' %}
 
 This special edition of Art-A-Hack will take place in New York City over four Saturdays between June 9th and July 7th (with a break for the July 4th holiday). Final project presentations will be held at CUNY City Tech’s theater in downtown Brooklyn on July 13th. Deadline to apply is Tuesday, May 8th 11:59 PM ET. Please apply to join us and help spread the word by sharing the [Open Call](https://artahack.io/summer-2018/call/)!  
@@ -34,7 +34,7 @@ In 2017, ThoughtWorks Arts Director Andy McWilliams co-founded [ClimateAction.
   
 The program was recently highlighted in an article published by the Environmental Defense Fund, [4 Corporate Sustainability Trends All Business Leaders Should be Watching in 2018](http://business.edf.org/blog/2018/04/17/4-corporate-sustainability-trends-all-business-leaders-should-be-watching-in-2018).  
 
-{% include image.html file='emergency-room.jpg'
+{% include image file='emergency-room.jpg'
    caption='Still from Emergency Room Installation' %}
 
 Andy’s art practice is currently focused around linking the climate crisis to personal health emergencies. He most recent work, [Emergency Room](https://jahya.net/works/emergency-room), is an immersive media installation featuring images of environmental activism amid planetary impacts of climate change, surrounded by a beeping ECG display.  
@@ -43,7 +43,7 @@ Andy’s art practice is currently focused around linking the climate crisis to 
 
 [Watch the entire conversation](https://www.youtube.com/watch?v=CBxfyqS8LGM) where Heather and Chelsea speak on the social, technological, and economic ramifications of Artificial Intelligence, and on the practical applications of machine learning.
 
-{% include image.html file='suppressed-images.png'
+{% include image file='suppressed-images.png'
    caption='Heather Dewey-Hagborg and Chelsea Manning at the University of Michigan' %}
 
 While in her residency at ThoughtWorks, Heather partnered with ThoughtWorks designer Sholi Kanungo to create the graphic short story, [Suppressed Images](https://suppressedimages.net/), illustrating her collaboration with Chelsea Manning and imagining what future might unfold around artificial intelligence and DNA surveillance.  
@@ -54,7 +54,7 @@ Emmy-winning filmmaker **Lisa Russell** has launched [#Create2030](https://www.y
 
 During major social holidays (such as International Women's Day, World AIDS Day, Earth Day, etc), the campaign will be "activated" and artists will be encouraged to share their SDG-inspired creative content with the hashtag #Create2030. This allows UN/NGO agencies and other partners working on the SDGs to identify possible creative partners.  
 
-{% include image.html file='create-2030.png'
+{% include image file='create-2030.png'
    caption='The #Create2030 Campaign by Lisa Russell' %}
 
 Are you Interested in arts and machine learning? **Gene Kogan** is teaching a one-week [Machine Learning for New Media Art workshop at Anderson Ranch](https://www.andersonranch.org/workshop/machine-learning-for-new-media-art-p1026-18/) this August, in Aspen Colorado. You may be able to get a discount if you contact Director of Programs, Andrea Wallace, so act fast!  
@@ -63,7 +63,7 @@ Are you Interested in arts and machine learning? **Gene Kogan** is teaching a on
 
 [Creative Tech Week 2018](http://creativetechweek.nyc/) brings together interdisciplinary developers, designers, executives and artists in the creative technology field for networking, discovery, conferences, AR/VR, AI, interactive art, and performances. The programing features over 100 experts across New York City for events including [VR Night](https://www.eventbrite.com/e/vr-night-and-arts-hub-at-creative-tech-week-tickets-43636880083), the intimate [CryptoCreative](https://www.eventbrite.com/e/cryptocreative-symposium-at-creative-tech-week-tickets-43637596225?aff=erelpanelorg) symposium and the [CTW2018 Conference](https://www.eventbrite.com/e/creative-tech-week-conference-hub-tickets-43199425645?aff=erelpanelorg).
 
-{% include image.html file='ctw.jpg'
+{% include image file='ctw.jpg'
    alt='Creative Tech Week' %}
 
 [Get your tickets now](https://www.eventbrite.com/e/creative-tech-week-conference-hub-tickets-43199425645?discount=CREATIVETECH) for Creative Tech Week 2018 in NYC, May 3-12. Members of the ThoughtWorks Arts community can receive a special 20% discount with the code CREATIVETECH.  

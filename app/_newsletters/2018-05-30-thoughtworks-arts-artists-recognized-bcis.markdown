@@ -3,7 +3,7 @@ title : "ThoughtWorks Arts Artists Recognized for Work with BCIs"
 ---  
 Art-A-Hack project Dual Brains by Eva Lee and Aaron Trocola, and Noor: A Brain Opera by ThoughtWorks Director Ellen Pearlman were highlighted in a [Redshift article exploring the use of brain-computer interface technology (BCI) in art](https://www.autodesk.com/redshift/brain-computer-interface/).
 
-{% include image.html file='dual-brains.jpg'
+{% include image file='dual-brains.jpg'
    caption='3D rendering of the headsets used in Dual Brains' %}
 
 BCIs enable a communication pathway between a wired brain and an external sensor device. Artists like Lee, Trocola and Pearlman are using this emergent brainwave technology to create new artistic experiences and are currently leading the charge in exploring potential applications of the technology.  
@@ -14,7 +14,7 @@ BCIs enable a communication pathway between a wired brain and an external sensor
 
 TED recently posted past-resident [Karen Palmer discussing her immersive, emotionally-responsive film, RIOT](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/).
 
-{% include image.html file='karen-palmer.png'
+{% include image file='karen-palmer.png'
    caption='Karen Palmer\'s TED Residency Talk'
    link='https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/' %}
 
@@ -24,7 +24,7 @@ In this talk, Karen discusses her inspiration to create RIOT, the final developm
 
 Past resident Heather Dewey-Hagborg recently released a new video piece [T3511](https://vimeo.com/268580420), looking at critical issues around the impact of biotechnology and DNA privacy. The work premiered at MU artspace in The Netherlands.
 
-{% include image.html file='heather-dewey-hagborg.jpg'
+{% include image file='heather-dewey-hagborg.jpg'
    caption='Still from T3511' %}
 
 T3511 is a post-genomic love story and experimental documentary 4-channel video installation. It tells the (mostly) true tale of a biohacker who becomes increasingly obsessed with an anonymous donor whose saliva she purchases online.  
@@ -33,7 +33,7 @@ T3511 is a post-genomic love story and experimental documentary 4-channel video 
 
 ThoughtWorks Arts Director Ellen Pearlman is on The International Scientific Board for the [2018 HYBRID LABS Symposium](http://hybridlabs.aalto.fi/hls2018-symposium/) at Aalto University in Finland. This is the 3rd edition of the Renewable Futures conference that aims to challenge the future of knowledge creation through art and science, taking place from May 30th to June 1st, 2018.
 
-{% include image.html file='moon-ribas.jpg'
+{% include image file='moon-ribas.jpg'
    caption='Ellen worked with Cyborg Artist Moon Ribas to prototype a new sensor implant in her foot' %}
 
 During the symposium Ellen will be presenting on "The World's First Co-Lab On Developing Cyborg Arts – Interdisciplinary Collaboration Using Art-A- Hack™ Practice Methodology." The conference is also part of Leonardo's 50th Anniversary Celebration with Roger Malina.  

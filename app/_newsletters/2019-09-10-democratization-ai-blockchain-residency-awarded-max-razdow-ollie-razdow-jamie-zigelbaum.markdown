@@ -4,7 +4,7 @@ title : "The Democratization of AI via Blockchain Residency Awarded to Max Razdo
 
 ThoughtWorks Arts new San Francisco based residency has been awarded to a team of three artists working across media with a focus on remote collaboration and distributed story-telling.
 
-{% include image.html file='all-possible-pathways.jpg'
+{% include image file='all-possible-pathways.jpg'
    alt='Portraits of Max Razdow, Jamie Zigelbaum, and Ollie Razdow'
    caption='Artists Max Razdow, Jamie Zigelbaum, and Ollie Razdow'
 %}
@@ -29,7 +29,7 @@ The residency is scheduled to begin in San Francisco at the end of September, an
 
 The 2019 installment of [ICA's Biennial - James and Audrey Foster Prize exhibition](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize), will showcase the work of four Boston-area artists, including ThoughtWorks Arts current volumetric filmmaking resident, Rashin Fahandej
 
-{% include image.html file='fathers-lullaby.jpg'
+{% include image file='fathers-lullaby.jpg'
    alt='Photo of people sitting in front of projection screens displaying portraits'
    caption='An installation shot of *A Father\'s Lullaby* at ICA'
 %}
@@ -40,7 +40,7 @@ On Thu, Sep 26, at 7:00 PM Rashin and the other featured artists will come toget
 ## Hardware Hack Lab Opens at ThoughtWorks in Barcelona, Spain
 An offshoot of the Hardware Hack Lab, which began in New York in 2013 is now live in Barcelona, Spain.
 
-{% include image.html file='hardwarehacklab.jpg'
+{% include image file='hardwarehacklab.jpg'
    alt='People sitting around a table, looking at computers. One has a VR headset on.'
    caption='Hardware Hack Labers collaborating on a project in NYC.'
 %}
@@ -53,7 +53,7 @@ We look forward to including Barcelona's community in this program. Hardware Hac
 
 Artist Karen Palmer (TWA'18) who works in facial recognition and AI will be exhibiting her recent project *Perception iO* at the [Cooper Hewitt Design Museum](https://www.cooperhewitt.org/events/current-exhibitions/upcoming-exhibitions/) in NYC on September 20th.
 
-{% include image.html file='perception.jpg'
+{% include image file='perception.jpg'
    alt='Perception iO'
 %}
 
@@ -66,7 +66,7 @@ The project explores the intersection of AI, neuroscience, behavioral psychology
 ## Director Ellen Pearlman and TWA'19 Resident Rashin Fahandej Selected for the ZERO1 American Arts Incubator 2020 program
 We're thrilled to announce that both Ellen Pearlman and Rashin Fahandej have been selected for the highly competitive  [ZERO1 American Arts Incubator 2020 program](https://americanartsincubator.org/american-arts-incubator-2020-lead-artist-announcement/) in collaboration with the U.S. State Department's Bureau of Educational and Cultural Affairs. Of the six artists selected, Ellen will be working in Ukraine, and  Rashin will be working  in Austria.
 
-{% include image.html file='zero1.jpg'
+{% include image file='zero1.jpg'
    alt='Lead Artists 2020 AAI'
 %}
 
@@ -90,7 +90,7 @@ American Arts Incubator (AAI) is an exchange program created for new media and d
 
 ### Presentations
 
-{% include image.html file='xconf-brazil.jpg'
+{% include image file='xconf-brazil.jpg'
    alt='Person standing no stage'
    caption='Julien Deswaef speaking at XConf in São Paulo, Brazil'
 %}

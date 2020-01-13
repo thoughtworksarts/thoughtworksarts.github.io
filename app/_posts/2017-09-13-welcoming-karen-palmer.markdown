@@ -4,7 +4,7 @@ tags      : riot
 ---
 We are delighted to welcome our latest art resident [Karen Palmer](/bio/karen-palmer) to ThoughtWorks. Karen joins us for the fall 2017 season to work on a project looking at Artificial Intelligence, facial recognition and storytelling. 
 
-{% include image.html file='heather-karen.jpg'
+{% include image file='heather-karen.jpg'
    caption='Karen Palmer and Heather Dewey-Hagborg at the opening of \'A Becoming Resemblance\' in August 2017' %}
 
 Karen came to New York a little early and was able to attend the opening of previous resident [Heather Dewey-Hagborg](/bio/heather-dewey-hagborg)'s [opening at Fridman Gallery](https://www.fridmangallery.com/a-becoming-resemblance) last month.

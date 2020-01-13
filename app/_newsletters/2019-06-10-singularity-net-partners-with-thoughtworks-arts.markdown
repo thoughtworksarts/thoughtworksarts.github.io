@@ -4,7 +4,7 @@ title : "SingularityNet Partners With ThoughtWorks Arts"
 
 We are thrilled to be joining forces with the world’s first decentralized AI platform, [SingularityNET](https://singularitynet.io), for our next residency: [The Democratization of Artificial Intelligence via Blockchain](https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/).
 
-{% include image.html file='singularity-net.jpg'
+{% include image file='singularity-net.jpg'
    alt='SingularityNet'
    caption='SingularityNet'
    link='https://singularitynet.io'
@@ -27,7 +27,7 @@ Our open call for The Democratization of Artificial Intelligence via Blockchain 
 
 Past robotics resident Adrianne Wortzel's film project, The Sentient Thespian will be screening at the [Anthology Film Archives](http://anthologyfilmarchives.org/) through programming organized by NewFilmmakers.
 
-{% include image.html file='adrianne.jpg'
+{% include image file='adrianne.jpg'
    alt='Adrianne Wortzel on set of her film, The Sentient Thespian'
    caption='Adrianne Wortzel on set of her film, The Sentient Thespian - photo by Kevin Barry'
 %}
@@ -47,7 +47,7 @@ Her screening of The Sentient Thespian will start at 7:15 on Wednesday, July 17t
 
 Our newest resident Rashin Fahandej has begun her volumetric filmmaking residency. Rashin has hit the ground running here in New York, and is actively working with our partner and Emmy-award winning studio, [Scatter](http://scatter.nyc/), using their latest [Depthkit](https://www.depthkit.tv/) tools to further expand her social change project, A Father's Lullaby.
 
-{% include image.html file='a-fathers-lullaby.jpg'
+{% include image file='a-fathers-lullaby.jpg'
    alt='A Father\'s Lullaby still'
    caption='A still from _A Father\'s Lullaby_'
 %}
@@ -60,7 +60,7 @@ Rashin will be in residence at ThoughtWorks Arts through September 27, 2019, and
 
 
 ## ThoughtWorks Arts Launches New Website
-{% include image.html file='thoughtworks-arts-screenshot.jpg'
+{% include image file='thoughtworks-arts-screenshot.jpg'
    alt='ThoughtWorks Arts screenshot'
    link='https://thoughtworksarts.io'
 %}
@@ -77,7 +77,7 @@ We've recently launched our much awaited [new website](https://thoughtworksarts.
 
 **Heather Dewey-Hagborg** was recently interviewed by [DIGICULT](http://digicult.it/articles/the-future-around-the-corner-interview-with-heather-dewey-hagborg/) on how her work explores artificial intelligence and biological surveillance. Heather also  co-curated [*Refiguring The Future*](https://refreshart.tech/#why), a politically engaged exhibition focusing on inclusion, and how the intersection of art, science and technology is an explicitly key force in radical change. This was [REFRESH’s](https://refreshart.tech/#about) inaugural exhibition, which received a Catherine T. MacArthur Foundation grant.
 
-{% include image.html file='moon-ribas.jpg'
+{% include image file='moon-ribas.jpg'
    alt='Moon Ribas having her seismic sensors removed from her feet'
    caption='Moon Ribas having her seismic sensors removed from her feet - photo courtesy Moon Ribas Facebook'
 %}
@@ -98,13 +98,13 @@ Moon is curious to see how this transition plays out, while looking forward to e
 **Filip Baba** ran a community [XR jam](https://www.eventbrite.com/e/unitynyc-xr-jam-2019-tickets-59015269259) on April 26 at [RLab](https://www.rlab.nyc/), a warehouse-sized venue which is the first city-funded VR/AR center in the country.
 
 ### Presentations
-{% include image.html file='ellen-pearlman.jpg'
+{% include image file='ellen-pearlman.jpg'
    alt='Ellen Pearlman at UN/GREEN'
    caption='Ellen Pearlman presenting Art-A-Hack projects at UN/GREEN in Latvia - photo by Elke Reinhuber'
 %}
 **Ellen Pearlman** is on the scientific board for [UN/GREEN: NATURALLY ARTIFICIAL INTELLIGENCES](http://festival2019.rixc.org/), and presented at the conference July 4 - 6 in Riga, Latvia at The National Museum of Art, and the Art Academy in Riga. Ellen also presented a paper at the world renowned [ISEA (International Society Of Electronic Art)](http://isea2019.isea-international.org/) 2019, on her work with connecting brain computer interfaces to AI. This year ISEA took place in Gwangju, Republic of Korea, June 22th-28th.
 
-{% include image.html file='andy-mcwilliams.jpg'
+{% include image file='andy-mcwilliams.jpg'
    alt='Andrew McWilliams at Creative Tech Week NY'
    caption='Andrew McWilliams at Creative Tech Week NY'
    link='https://www.youtube.com/watch?v=4FRgdbsFvTo&fbclid=IwAR2NmrLw_vE91YekYvMuf0HSD7pWbpQpOKO4-ckPCH29LYCRdufRU9ive1w'

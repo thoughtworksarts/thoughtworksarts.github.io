@@ -5,7 +5,7 @@ tags  : riot
 ---
 In her TED talk, former resident Karen Palmer discusses the inspiration behind her immersive, emotionally responsive film RIOT.
 
-{% include youtube.html id='Rw8gLEkFdSw' %}
+{% include youtube id='Rw8gLEkFdSw' %}
 
 Karen begins the presentation with a simple question, ‘how would you respond in a riot situation?’ This is the question she asked herself beginning in 2014 as she watched riots unfold across the world.
 

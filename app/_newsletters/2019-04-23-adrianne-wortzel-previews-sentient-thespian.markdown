@@ -3,7 +3,7 @@ title : "Adrianne Wortzel Previews The Sentient Thespian at Pioneer Works"
 ---
 On April 14th, robotics resident Adrianne Wortzel gave a sneak preview of her film [_The Sentient Thespian_](https://thoughtworksarts.io/projects/sentient-thespian/) at [Pioneer Works](https://pioneerworks.org/) in Brooklyn.
 
-{% include image.html file='the-sentient-thespian.jpg'
+{% include image file='the-sentient-thespian.jpg'
    alt='The Sentient Thespian' %}
 
 This humorous and poignant short film explores an irritable and conniving four-legged robot’s intrigues with both a fellow 15-foot industrial robotic arm, and its human interlocutor.<!--excerpt-ends-->Based on elements of Shakespeare’s _“A Midsummer Night’s Dream”_, the film delves into technological transformations and humanity’s quandary on how best to advance towards this new 4th industrial revolution.
@@ -18,14 +18,14 @@ A full write-up of the project is published [on the ThoughtWorks Arts website](h
 
 Resident Catie Cuan also presented the results of her recent robotics and motion residency at ThoughtWorks Arts including [CONCAT](https://github.com/thoughtworksarts/concat), part of her larger [OUTPUT](https://www.youtube.com/watch?v=1NQQ1c4Z6I0) project.
 
-{% include image.html file='kira-catie.jpg'
+{% include image file='kira-catie.jpg'
    alt='Kira Davies and Catie Cuan at Pioneer Works' %}
 
 Catie Cuan is a dancer and roboticist whose practice examines how human-robot communications can be interpreted while progressing towards 21st century robot ubiquity. She is currently enrolled in the PhD program at Stanford University in Mechanical Engineering.
 
 Catie collaborated with ThoughtWorks developers to create a 3D visualization toolkit enabling her to rehearse her movements alongside those of different robots.
 
-{% include image.html file='kira-andrew-catie.jpg'
+{% include image file='kira-andrew-catie.jpg'
    caption='Choreographer Kira Davies, ThoughtWorks Arts director, Andrew McWilliams, and Catie Cuan at Pioneer Works during project OUTPUT' %}
 
 The OUTPUT project is nearing completion. [A teaser can be viewed here.](https://www.youtube.com/watch?v=1NQQ1c4Z6I0)
@@ -34,7 +34,7 @@ The OUTPUT project is nearing completion. [A teaser can be viewed here.](https:/
 
 With the success and interest generated during our free [Depthkit](https://www.depthkit.tv/) workshop in conjunction with [Scatter](https://scatter.nyc/) in March, and our funded [Volumetric Filmmaking residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) starting in June, we’ve initiated ongoing weekly support for learning and experimenting with Depthkit at the free [Hardware Hack Lab](https://hardwarehacklab.io/). Our aim is to make Depthkit technology and toolkits more accessible, and to help foster diverse collaborations for those who may not have the financial means to otherwise access these innovative and exciting technologies.
 
-{% include image.html file='hardware-hack-lab.jpg'
+{% include image file='hardware-hack-lab.jpg'
    caption='A team from the Volumetric Filmmaking Workshop testing Depthkit at ThoughtWorks' %}
 
 These weekly events have attracted hackers and filmmakers of all backgrounds who test ideas and partner on projects.

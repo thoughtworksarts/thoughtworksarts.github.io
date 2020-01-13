@@ -4,7 +4,7 @@ author : Directors
 ---
 ThoughtWorks Arts has [published an open call](/open-call/2019-democratization-ai-blockchain/) for artists to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
 
-{% include image.html file='closing.jpg'
+{% include image file='closing.jpg'
    caption='Image by [Radek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)' %}
 
 A key theme in the open call is for an artist to explore how this control of AI could impact society, and the potential impacts of alternative and open approaches.
@@ -25,7 +25,7 @@ Successful developers of open source projects are showered with huge incentives 
 
 Dr Goertzel cautions that without successful open alternatives, this advantage will likely lead to a total monopolization of AI, possibly within as few as five to seven years &mdash; a bleak prospect to consider.
 
-{% include youtube.html id='LZkADy2RRoA'
+{% include youtube id='LZkADy2RRoA'
    caption='Promotional video for SingularityNET' %}
 
 The SingularityNET project offers a viable alternative for independent developers. It acts as a marketplace for AI systems to be published and monetized, with blockchain enforcing contractual obligations around usage.
@@ -44,7 +44,7 @@ Whether in public using open source environments or behind closed corporate door
 
 As researchers like Ray Kurzweil have warned, this path leads towards the [technological singularity](https://en.wikipedia.org/wiki/Technological_singularity), beyond which humans will struggle to keep up with the [exponentially-advancing capabilities](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution.html) of AI.
 
-{% include image.html file='exponential.jpg'
+{% include image file='exponential.jpg'
    caption='Image courtesy of <a href="https://commons.wikimedia.org/wiki/File:PPTExponentialGrowthof_Computing.jpg">Ray Kurzweil</a>' %}
 
 Therefore the societal developments underpinning the development of AI today stand to have huge potential impacts on  both general AIs, and the nature of AI post-singularity. Will AI be benevolent or harmful? Will it be controlled? Will it be accessible?

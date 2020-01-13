@@ -96,7 +96,7 @@ Karen undertook research on human emotional understanding with Emily Balcetis, A
 
 In the fall of 2017 Karen [spoke at TED New York](/blog/karen-palmer-film-watches-you-back/), telling the story of her work from conception through to the ThoughtWorks Arts Residency. Karen goes on to explain the next stages of development for *RIOT*, which will deal with a greater range of emotions, more narratives and a multiplayer experience.
 
-{% include youtube.html id='Rw8gLEkFdSw' %}
+{% include youtube id='Rw8gLEkFdSw' %}
 
 The *RIOT* film experience was exhibited at the [SPRING/BREAK art fair](https://thoughtworksarts.io/spring-break/) as part of New York's Armory Week, alongside other ThoughtWorks Arts-incubated artists. It has been exhibited at the [Future of Storytelling Festival](https://futureofstorytelling.org/project/riot), the Museum of Modern Art Peru, and Festival of the Mind Sheffield.
 
