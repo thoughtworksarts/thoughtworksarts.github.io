@@ -3,7 +3,7 @@ title       : Biofields
 season      : Winter 2017
 status      : in-progress
 
-description : Biofields is an open-source framework combining biosensors with custom volumetric and interval arithmetic simulations to interactively model the feeling of energy around the body.
+description : An open-source framework combining biosensors with custom volumetric and interval arithmetic simulations to interactively model the feeling of energy around the body.
 
 image       : /images/projects/biofields/heart-chakra.jpg
 
