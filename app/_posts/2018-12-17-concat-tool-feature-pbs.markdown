@@ -1,5 +1,6 @@
 ---
 title  : "PBS Features ThoughtWorks Arts Resident &amp; Interaction Technology"
+tags   : [output]
 ---
 Over the summer ThoughtWorks Arts collaborated with dancer and roboticist Catie Cuan, exploring new modes of human-robot interaction.
 
