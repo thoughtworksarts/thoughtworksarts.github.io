@@ -146,7 +146,6 @@
 				.key, .value {
 					padding: 3%;
 					display: inline-block;
-					white-space: nowrap;
 				}
 
 				.key {
@@ -156,6 +155,10 @@
 
 				.value {
 					width: 63%;
+				}
+
+				.value.icon {
+					white-space: nowrap;
 				}
 
 				.project-list {
