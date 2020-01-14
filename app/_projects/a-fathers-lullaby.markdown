@@ -10,11 +10,23 @@ artist      : Rashin Fahandej
 
 team :
   - name : Jillian Morrow
-    role : Person
-  - name : Alex
-    role : Person
-  - name : James
-    role : Person
+    role : Jillian Morrow
+  - name : Austin Ratcliff
+    role : Austin Ratcliff
+  - name : Matthew DeGraffenreid
+    role : Matthew DeGraffenreid
+  - name : Kira Davies
+    role : Kira Davies
+  - name : Anna Rempe
+    role : Anna Rempe
+  - name : Megan Goodling
+    role : Megan Goodling
+  - name : Marisa Hoenig
+    role : Marisa Hoenig
+  - name : Brennan Pilcher
+    role : Brennan Pilcher
+  - name : Whelan Workmaster
+    role : Whelan Workmaster
 ---
 
 A multi-platform, community engaged project highlighting the role of men in raising children and their absence due to racial disparities in the criminal justice system.
