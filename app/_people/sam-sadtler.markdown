@@ -2,7 +2,6 @@
 name          : Sam Sadtler
 occupation    : Creative Technologist
 participation : Collaborator
-season        : Summer 2016
 
 links:
  - icon    : "fa-globe-americas"

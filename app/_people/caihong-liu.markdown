@@ -2,7 +2,6 @@
 name          : Caihong Liu
 occupation    : Enterprise Community Manager
 participation : Collaborator
-season        : Summer 2016
 
 links:
  - icon    : "fa-globe-americas"

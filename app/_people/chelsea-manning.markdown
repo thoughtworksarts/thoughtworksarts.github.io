@@ -2,7 +2,6 @@
 name          : Chelsea Manning
 occupation    : Writer
 participation : Collaborator
-season        : Fall 2016
 
 links:
  - icon    : "fa-globe-americas"

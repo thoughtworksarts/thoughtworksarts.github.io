@@ -2,7 +2,6 @@
 name          : Ketak Dhiman
 occupation    : Filmmaker
 participation : Collaborator
-season        : Fall 2018
 
 links:
  - icon    : "fa-globe-americas"

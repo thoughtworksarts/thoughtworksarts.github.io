@@ -2,7 +2,6 @@
 name          : Kira Davies
 occupation    : Performer & Designer
 participation : Collaborator
-season        : Fall 2018
 
 links:
  - icon    : "fa-globe-americas"

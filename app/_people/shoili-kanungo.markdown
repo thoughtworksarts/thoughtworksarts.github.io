@@ -2,7 +2,6 @@
 name          : Shoili Kanungo
 occupation    : Designer
 participation : Collaborator
-season        : Fall 2016
 
 links:
  - icon    : "fa-globe-americas"

@@ -2,7 +2,6 @@
 name          : Kevin Barry
 occupation    : Multimedia Specialist
 participation : Collaborator
-season        : Fall 2018
 
 links:
  - icon    : "fa-globe-americas"

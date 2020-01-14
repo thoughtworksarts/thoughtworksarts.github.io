@@ -1,7 +1,6 @@
 ---
 name          : Andrea Allen
 occupation    : Software Developer
-season        : Summer 2018
 
 links:
  - icon    : "fa-globe-americas"

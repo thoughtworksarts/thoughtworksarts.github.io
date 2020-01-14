@@ -2,7 +2,6 @@
 name          : Lewey Geselowitz
 occupation    : Interaction Designer
 participation : Collaborator
-season        : Winter 2017
 
 links:
  - icon    : "fa-globe-americas"

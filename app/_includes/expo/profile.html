@@ -4,9 +4,7 @@
   {% capture activity %}{{ page.occupation }}{% endcapture %}
 {% endif %}
 
-{% if page.role %}
-  {% assign activity = activity | append: '</p><p>ThoughtWorks Arts ' | append: page.role %}
-{% endif %}
+{% capture roledescription %}{{ page.role }}{% endcapture %}
 
 <figure class="participant first">
   <img src="/images/people/{{ page.photo }}" alt="{{ page.name }}">
@@ -16,30 +14,39 @@
   </figcaption>
 </figure>
 <ul class="profile-info second">
-  {% unless page.projects.size == 0 %}
+  {% if page.participation == "Resident" %}
     <li>
-      <span class="key">{% if page.participation == "Resident" %}{{ page.participation }}{% else %}Season{% endif %}</span>
+      <span class="key">Residency</span>
       <span class="value">{{ page.season }}</span>
     </li>
+  {% endif %}
+  {% if roledescription.size > 0 %}
     <li>
-      {% assign projects = page.projects | sort: 'projectid' %}
-      <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
-      <span class="value">
-        {% if projects.size == 1 %}
-          {% assign p = projects | first %}
-          {% assign project = site.projects | where: 'projectid', p.projectid | first %}
-          <a href="{{ project.url }}">{{ project.title }}</a>
-        {% else %}
-          <ul class="project-list">
-          {% for p in projects %}
-            {% assign project = site.projects | where: 'projectid', p.projectid | first %}
-            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-          {% endfor %}
-          </ul>
-        {% endif %}
-      </span>
+      <span class="key">Role</span>
+      <span class="value">ThoughtWorks Arts {{ roledescription }}</span>
     </li>
-  {% endunless %}
+  {% else %}
+    {% unless page.projects.size == 0 %}
+      <li>
+        {% assign projects = page.projects | sort: 'projectid' %}
+        <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
+        <span class="value">
+          {% if projects.size == 1 %}
+            {% assign p = projects | first %}
+            {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+            <a href="{{ project.url }}">{{ project.title }}</a>
+          {% else %}
+            <ul class="project-list">
+            {% for p in projects %}
+              {% assign project = site.projects | where: 'projectid', p.projectid | first %}
+              <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </span>
+      </li>
+    {% endunless %}
+  {% endif %}
   {% for link in page.links %}
     {% if link.url != "" %}
       <li>

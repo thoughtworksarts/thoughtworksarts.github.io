@@ -2,7 +2,6 @@
 name          : Josh Tuthill
 occupation    : Experimental Filmmaker
 participation : Collaborator
-season        : Fall 2018
 
 links:
  - icon    : "fa-globe-americas"

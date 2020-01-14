@@ -2,7 +2,6 @@
 name          : David Yarnall
 occupation    : Quality Analyst
 participation : Collaborator
-season        : Fall 2018
 
 links:
  - icon    : "fa-globe-americas"

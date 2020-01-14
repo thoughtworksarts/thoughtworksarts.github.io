@@ -2,7 +2,6 @@
 name          : Oryan Inbar
 occupation    : Engineer / Industrial Designer
 participation : Collaborator
-season        : Summer 2016
 
 links:
  - icon    : "fa-globe-americas"
