@@ -10,6 +10,25 @@ bodyclass : home-page
 		{% include home/feature-list.html %}
 	</div>
 </section>
+<section class="feed social hidden">
+	<div class="content">
+		<header>
+			<h1>Follow Us</h1>
+		</header>
+		{% include home/social-list.html %}
+	</div>
+</section>
+<section class="feed newsletters">
+	<div class="content">
+		<header>
+			<h1>Newsletters</h1>
+		</header>
+		{% include home/newsletter-list.html %}
+		<div class="progress continue-reading">
+			<a href="/newsletters/" class="blog forwards">All newsletters</a>
+		</div>
+	</div>
+</section>
 <section class="about-us">
 	<div class="content">
 		<section class="explanation">
@@ -27,35 +46,5 @@ bodyclass : home-page
 		<div class="progress continue-reading">
 			<a href="/programs/" class="blog forwards">About our programs</a>
 		</div>
-	</div>
-</section>
-<section class="feed newsletters">
-	<div class="content">
-		<header>
-			<h1>Newsletters</h1>
-		</header>
-		{% include home/newsletter-list.html %}
-		<div class="progress continue-reading">
-			<a href="/newsletters/" class="blog forwards">All newsletters</a>
-		</div>
-	</div>
-</section>
-<section class="feed events hidden">
-	<div class="content">
-		<header>
-			<h1>Events</h1>
-		</header>
-		{% include home/event-list.html %}
-		<div class="progress continue-reading">
-			<a href="https://www.meetup.com/volumetric/" class="blog forwards">All events</a>
-		</div>
-	</div>
-</section>
-<section class="feed social hidden">
-	<div class="content">
-		<header>
-			<h1>Follow Us</h1>
-		</header>
-		{% include home/social-list.html %}
 	</div>
 </section>
