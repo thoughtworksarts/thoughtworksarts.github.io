@@ -109,54 +109,31 @@
 </ul>
 	</div>
 </section>
-<section class=about-us>
+<section class="feed social hidden">
 	<div class=content>
-		<section class=explanation>
-			<header>
-				<h1>About Us</h1>
-			</header>
-			<p>ThoughtWorks Arts incubates artists and technologist collaborations to investigate the impacts of emerging technologies on industry, culture and society.</p>
-
-			
-
-
-
-
-
-
-
-
-
-
-
-
-<figure>
-	
-	<a href="/programs/">
-	
-
-		<img src=/images/programs/thoughtworks-arts.4fb5.png alt="ThoughtWorks Arts includes programs such as Art-A-Hack, Hardware Hack Lab and the ThoughtWorks Arts Residency">
-		
-
-	
-	</a>
-	
-
-	
-</figure>
-
-
-
-
-
-
-
-
-			<p>The ThoughtWorks Arts suite of programs enables practice-based research, directed by cutting-edge artistic inquiry, driven by the capabilities of the global technology community.</p>
-		</section>
-		<div class="progress continue-reading">
-			<a href="/programs/" class="blog forwards">About our programs</a>
-		</div>
+		<header>
+			<h1>Follow Us</h1>
+		</header>
+		<ul id=curator-feed>
+	<!--<div>
+	<li class="crt-post">
+		<a href="<%=url%>">
+			<section class="meta">
+				<img class="icon social-author-icon" src="/images/logos/thoughtworks-arts-icon.png" alt="Profile image for <%=user_full_name%>" />
+				<div class="name-date">
+					<span class="author-handle">@<%=user_screen_name%></span>
+					<span class="when-posted">Posted <%=this.prettyDate(source_created_at)%></span>
+				</div>
+				<img class="icon social-network-icon" src="/images/logos/<%=this.networkIcon()%>.png" />
+			</section>
+			<figure>
+				<img src="<%=image%>" alt="Image posted by <%=user_screen_name%> to <%=this.networkName()%>" />
+			</figure>
+			<p class="post-text"><%=text%></p>
+		</a>
+	</li>
+</div>-->
+</ul>
 	</div>
 </section>
 <section class="feed newsletters">
@@ -227,53 +204,54 @@ During her ThoughtWorks Arts Residency, with support from Scatter, Rashin will b
 		</div>
 	</div>
 </section>
-<section class="feed events hidden">
+<section class=about-us>
 	<div class=content>
-		<header>
-			<h1>Events</h1>
-		</header>
-		<ul id=meetup-feed>
-	<!--<li>
-	<a href="Event Link" target="_blank">
-		<figure>
-			<img src="Event Image" alt="Event Name" />
-		</figure>
-		<h2>Event Name</h2>
-		<p class="date">Event Date</p>
-		<p>Event Description</p>
+		<section class=explanation>
+			<header>
+				<h1>About Us</h1>
+			</header>
+			<p>ThoughtWorks Arts incubates artists and technologist collaborations to investigate the impacts of emerging technologies on industry, culture and society.</p>
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+	
+	<a href="/programs/">
+	
+
+		<img src=/images/programs/thoughtworks-arts.4fb5.png alt="ThoughtWorks Arts includes programs such as Art-A-Hack, Hardware Hack Lab and the ThoughtWorks Arts Residency">
+		
+
+	
 	</a>
-</li>-->
-</ul>
+	
+
+	
+</figure>
+
+
+
+
+
+
+
+
+			<p>The ThoughtWorks Arts suite of programs enables practice-based research, directed by cutting-edge artistic inquiry, driven by the capabilities of the global technology community.</p>
+		</section>
 		<div class="progress continue-reading">
-			<a href="https://www.meetup.com/volumetric/" class="blog forwards">All events</a>
+			<a href="/programs/" class="blog forwards">About our programs</a>
 		</div>
-	</div>
-</section>
-<section class="feed social hidden">
-	<div class=content>
-		<header>
-			<h1>Follow Us</h1>
-		</header>
-		<ul id=curator-feed>
-	<!--<div>
-	<li class="crt-post">
-		<a href="<%=url%>">
-			<section class="meta">
-				<img class="icon social-author-icon" src="/images/logos/thoughtworks-arts-icon.png" alt="Profile image for <%=user_full_name%>" />
-				<div class="name-date">
-					<span class="author-handle">@<%=user_screen_name%></span>
-					<span class="when-posted">Posted <%=this.prettyDate(source_created_at)%></span>
-				</div>
-				<img class="icon social-network-icon" src="/images/logos/<%=this.networkIcon()%>.png" />
-			</section>
-			<figure>
-				<img src="<%=image%>" alt="Image posted by <%=user_screen_name%> to <%=this.networkName()%>" />
-			</figure>
-			<p class="post-text"><%=text%></p>
-		</a>
-	</li>
-</div>-->
-</ul>
 	</div>
 </section>
   </main>
