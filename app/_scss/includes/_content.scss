@@ -27,6 +27,16 @@ body:not(.home-page) {
 			}
 		}
 
+		figure.small {
+			margin-top: 0;
+			width: 100%;
+			text-align: center;
+
+			img {
+				max-width: 360px;
+			}
+		}
+
 		.program-logo img {
 			max-width: 400px;
 			border: 0;

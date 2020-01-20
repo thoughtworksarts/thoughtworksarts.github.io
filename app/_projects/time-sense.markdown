@@ -18,10 +18,8 @@ team :
 
 *Time Sense* is a wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head. As the day progresses, a tiny heat sensation passes the length of the headband.
 
-<figure>
-	<img src="/images/projects/time-sense/time-sense.jpg" alt="Neil wearing the Time Sense" />
-	<figcaption>Neil wearing the Time Sense</figcaption>
-</figure>
+{% include image file='time-sense.jpg'
+   caption='Neil wearing the *Time Sense*' %}
 
 This device is an example of an 'exosense', an external sensory organ. This means it is designed to be worn and felt consistently, twenty-four hours a day, seven days a week. The constant stream of sensations will allow Neil to develop a new form of instinctual relationship with the time of the day.
 

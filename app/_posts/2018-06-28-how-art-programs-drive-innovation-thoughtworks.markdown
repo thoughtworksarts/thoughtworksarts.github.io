@@ -6,7 +6,7 @@ tags   : [time-sense, seismic-sense, riot, suppressed-images]
 ---
 Artists working with emerging technologies frequently generate new insights on the future of culture, industry and society.
 
-{% include image.html file='cyborg-foundation.jpg'
+{% include image file='cyborg-foundation.jpg'
    caption='Cyborg artists Neil Harbisson and Moon Ribas during their residency at ThoughtWorks' %}
 
 At ThoughtWorks we regularly engage with artists, collaborating on cutting edge technology projects, and enriching the perspectives we bring to our clients. Our recent explorations have taken us on journeys into cyborgism and transhumanism, bias in machine intelligence, movement in robotics, and more.
@@ -19,7 +19,7 @@ This is the second article in a series exploring the symbiosis of art and techno
 
 We refer to these initiatives collectively under the umbrella of _ThoughtWorks Arts_. This encompasses three programs, anchored in our New York office but with global reach: the [ThoughtWorks Arts Residency](https://thoughtworksarts.io/), [Art-A-Hack](https://artahack.io/) and [Hardware Hack Lab](https://hardwarehacklab.io/).
 
-{% include image.html file='logos.jpg' %}
+{% include image file='logos.jpg' %}
 
 ThoughtWorks Arts drives innovation by creating facilitated frameworks and contexts in which art can collide with commercial technology development.
 
@@ -33,7 +33,7 @@ Discovering a mutual love of emerging tech, Kent and I decided to start meeting 
 
 Hardware Hack Lab became a regular open-ended meeting space and demo exchange, where creative technologists of all backgrounds meet and share their latest projects and interests. The project runs every Wednesday evening, and continues to this day.
 
-{% include youtube.html id='A0NLoMr9tHQ'
+{% include youtube id='A0NLoMr9tHQ'
    caption='Introduction to the Hardware Hack Lab' %}
 
 The technology explored during these sessions ranges from from microcontrollers and circuit-building through sensors and displays, to virtual and augmented reality. Members frequently bring in prototypes and works-in-progress to develop and share. Others come to look over shoulders and get a handle on what's happening around them.
@@ -46,7 +46,7 @@ Among the earliest members of the Hardware Hack Lab were Joel Murphy and Conor R
 
 OpenBCI enables it's users to access a wide array of real-time electrical signals representing human mental activity via electrodes placed on the skull. Making the system free supports researchers, engineers, artists, scientists, designers and others to use what was previously a more esoteric technology.
 
-{% include youtube.html id='FIg-LXPul0A'
+{% include youtube id='FIg-LXPul0A'
    caption='OpenBCI launches it\'s Kickstarter at ThoughtWorks' %}
 
 We hosted an OpenBCI hackathon, helping them raise over $215,000 to build out the initial release of their system for the community.
@@ -63,7 +63,7 @@ Art-A-Hack curates and facilitates the creation of prototypes via team-based art
 
 We then curate projects and incubate teams in the development of a prototype or other exhibatable outcome.
 
-{% include youtube.html id='l1hfv_GlvGg'
+{% include youtube id='l1hfv_GlvGg'
    caption='An Overview of Art-A-Hack 2016' %}
 
 Each season we publish an Open Call, asking applicants to list their skills, backgrounds and any project proposals they may have. Based on the submissions, we build teams around the strongest ideas that can be achieved given the resources, skill sets and time available. In an average season we might support 30 participants over eight or nine teams, working to bring their ideas into reality.
@@ -72,7 +72,7 @@ Our partnerships with institutions such as Microsoft, NYU Tandon School of Engin
 
 Many projects we support often spur highly successful ongoing projects. In 2016 we [incubated the initial prototype](https://artahack.io/projects/hamlet-vr/) of _To Be With Hamlet_, the world's first live-time telepresence production of Shakespeare in virtual reality. The project then premiered at the Tribeca Film Festival in 2017.
 
-{% include image.html file='to-be-with-hamlet.jpg'
+{% include image file='to-be-with-hamlet.jpg'
    caption='"To Be With Hamlet" in VR, and (inset) the team' %}
 
 In addition to this, ThoughtWorks employees have worked on [multiple](https://artahack.io/projects/afro-futuristic-carnival/) [VR](https://artahack.io/projects/superficial-substantive/) [projects](https://artahack.io/projects/oculus-fiber/) during Art-A-Hack, learning new skills and investigating new technical domains.
@@ -89,7 +89,7 @@ The success and popularity of the first two ThoughtWorks Arts programs set the s
 
 The residency was launched in 2016 with a mission to support artists investigating new technologies and considering their implications for society. Residents are provided a workspace, stipend, active support and incubation, and access to the global network of tech sector employees at ThoughtWorks, lasting anywhere from 3-6 months.
 
-{% include image.html file='riot.jpg'
+{% include image file='riot.jpg'
    caption='Karen Palmer\'s AI installation, RIOT' %}
 
 Each residency invites artists to apply given a particular theme. So far we have worked with artists to explore issues including [transhumanism](https://thoughtworksarts.io/projects/time-sense/) and [cyborgism](https://thoughtworksarts.io/projects/seismic-sense/), [genetic data privacy](https://thoughtworksarts.io/projects/suppressed-images/), [biometrics in virtual reality](https://thoughtworksarts.io/projects/biofields/), the [biases of AI](https://thoughtworksarts.io/projects/riot) and [movement in robotics](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/).
@@ -102,7 +102,7 @@ China-based ThoughtWorks analyst Caihong Liu for example, researched [researched
 
 Most recently, ThoughtWorks software developer Angelica Perez [led a broad international development team](https://thoughtworksarts.io/projects/riot) in the USA to create [EmoPy](https://github.com/thoughtworksarts/EmoPy), an open source emotion expression analysis toolkit. This system is the engine behind resident artist Karen Palmer's AI film installation _RIOT_.
 
-{% include image.html file='time-sense.jpg'
+{% include image file='time-sense.jpg'
    caption='Cyborg Artist Neil Harbisson during his residency at ThoughtWorks' %}
 
 Inspired by these experiences, team members and collaborators often write articles, sharing what they have learned.
@@ -119,7 +119,7 @@ ThoughtWorks Arts programs have become deeply enmeshed in ThoughtWorks, with reg
 
 As a 5000-strong global tech consultancy, ThoughtWorks serves clients spanning industries and sectors, including retail, travel, finance, healthcare, energy and education.
 
-{% include image.html file='developers.jpg'
+{% include image file='developers.jpg'
    caption='ThoughtWorks developers working on EmoPy for Karen Palmer\'s RIOT' %}
 
 The increasing pace of technological change means that our clients are always looking for ways to rapidly innovate and lead their respective fields, and they are looking for varied sources of inspiration and technical knowledge to help them accomplish it.
@@ -128,7 +128,7 @@ Our work in ThoughtWorks Arts feeds into ThoughtWorks' views on emerging technol
 
 Further, the continued expansion of ThoughtWorks Arts' partner network continually injects fresh viewpoints into our internal and external discourse.
 
-{% include image.html file='three-pillars.png' class='no-border'
+{% include image file='three-pillars.png' class='no-border'
    caption='The \'three pillars\' of ThoughtWorks' %}
 
 At ThoughtWorks we are committed to our [pillar of social justice](https://www.thoughtworks.com/social-justice), supported by the deeply-held conviction of employees across the company. We continue to engage with progressive individuals and organizations, allowing employees to contribute their skills. ThoughtWorks Arts reinforces this arrangement, with employees contributing their skills to exploration of new and unexpected social impacts of emerging technologies.

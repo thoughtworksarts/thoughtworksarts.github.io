@@ -3,7 +3,7 @@ title : "Bio-feedback in VR: Meet our next Artist-in-Residence"
 ---
 Our latest artist-in-residence, [hannes bend](https://thoughtworksarts.io/bio/hannes-bend/), has now started his stay with the [ThoughtWorks Arts Residency](https://thoughtworksarts.io/). Hannes recently created [one of the first](http://www.hannesbend.com/index.php?/current/myndful/) Virtual Reality programs with heart-rate biofeedback in collaboration with the Neuroscience and Quantum Physics Alemán Lab, at the University of Oregon.
 
-{% include image.html file='hannes.jpg'
+{% include image file='hannes.jpg'
    link='https://thoughtworksarts.io/bio/hannes-bend'
    caption='hannes at an opening in Miami, USA' %}
 
@@ -17,7 +17,7 @@ Our fall 2016 resident was Heather Dewey-Hagborg, whose project took an unexpect
 
 In addition to this, Heather had previously created [a unique DNA-based portrait](http://deweyhagborg.com/projects/radical-love) of incarcerated whistleblower Chelsea Manning back in 2015\. This technique and it's implications had been [written up in essay form](https://thenewinquiry.com/sci-fi-crime-drama-with-a-strong-black-lead/), but remained somewhat inaccessible to broader audiences.
 
-{% include image.html file='suppressed-images.jpg'
+{% include image file='suppressed-images.jpg'
    link='https://suppressedimages.net'
    class='no-border'
    caption='The cover page of <a href="http://suppressedimages.net/">suppressedimages.net</a>' %}
@@ -26,7 +26,7 @@ Heather, Shoili and Chelsea decided to use the moment to create a [new graphic s
 
 They named the story "Suppressed Images", a reference to the fact that Chelsea was hidden from public view while incarcerated, and the DNA-based portraiture had been a way for people on the outside to still see her.
 
-{% include image.html file='heather-shoili.jpg'
+{% include image file='heather-shoili.jpg'
    link='https://thoughtworksarts.io/projects/suppressed-images/'
    class='no-border'
    caption='Heather Dewey-Hagborg and Shoili Kanungo' %}
@@ -37,7 +37,7 @@ The [published graphic story](https://suppressedimages.net/), thanks to Shoili's
 
 The Cyborg Foundation [joined us](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) for a residency during our Summer 2016 season. They worked with hardware engineers, and with ThoughtWorks resource specialist [Caihong Liu](https://thoughtworksarts.io/bio/caihong-liu/) from Chengdu, to develop prototypes of new wearable 'senses'.
 
-{% include image.html file='cyborg.jpg'
+{% include image file='cyborg.jpg'
    link='https://thoughtworksarts.io/projects/'
    class='no-border'
    caption='Neil and Moon experimenting with prototype \'exo-senses\'' %}

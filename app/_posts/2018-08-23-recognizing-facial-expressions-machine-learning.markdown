@@ -5,7 +5,7 @@ tags   : [riot]
 ---
 Machine learning systems can be trained to recognize emotional expressions from images of human faces, with a high degree of accuracy in many cases.
 
-{% include image.html file='tsukiko-kiyomidzu.jpg'
+{% include image file='tsukiko-kiyomidzu.jpg'
    caption='Image by <a href="https://pixabay.com/en/man-people-girl-woman-women-girls-2013447/">Tsukiko Kiyomidzu</a>' %}
 
 However, implementation can be a complex and difficult task. The technology is at a relatively early stage. High quality datasets can be hard to find. And there are various pitfalls to avoid when designing new systems.
@@ -20,7 +20,7 @@ The information presented in this article is based on a mixture of project exper
 
 As the lead developer on that project, I worked with a team to help Karen to create a new version of her [emotionally responsive film experience, RIOT](https://thoughtworksarts.io/projects/riot/). We built EmoPy from the ground up to handle the emotion recognition requirements [of the RIOT system](https://github.com/thoughtworksarts/riot).
 
-{% include image.html file='karen-palmer.jpg'
+{% include image file='karen-palmer.jpg'
    caption='Karen Palmer using the EmoPy toolkit in her artwork' %}
 
 EmoPy is published as an open source project, helping to increase public access to a technology which is often locked behind closed doors. In [this follow-up article](/blog/emopy-emotional-expression-toolkit) I explain more about the creation of the EmoPy toolkit, and explain why and how you might use it in your own projects.
@@ -47,7 +47,7 @@ These emotion classifications are illustrated in the image below, showing repres
 
 Classifying an image based on it's depiction can be a complicated task for machines. It is straightforward for humans to look at an image of a bicycle and know that it is a bicycle, or to look at a person's face and know that they are smiling and happy.
 
-{% include image.html file='labeled-images.jpg' class='no-border'
+{% include image file='labeled-images.jpg' class='no-border'
    caption='A selection of labeled images for expression analysis' %}
 
 When computers look at an image, what they 'see' is simply a matrix of pixel values. In order to classify an image, the computer has to discover and classify numerical patterns within the image matrix.
@@ -62,7 +62,7 @@ For example, higher accuracy can be achieved when classifying a smaller subset o
 
 Like most image classification systems, FER systems typically use _image preprocessing_ and _feature extraction_ followed by training on selected _training architectures_. The end result of training is the generation of a _model_ capable of assigning emotion categories to newly provided image examples.
 
-{% include image.html file='diagram.png' class='no-border'
+{% include image file='diagram.png' class='no-border'
    caption='Commonly used FER system architectures' %}
 
 The _image preprocessing_ stage can include image transformations such as scaling, cropping, or filtering images. It is often used to accentuate relevant image information, like cropping an image to remove a background. It can also be used to augment a dataset, for example to generate multiple versions from an original image with varying cropping or transformations applied.
@@ -108,7 +108,7 @@ As described above, FER models must be trained on a set of labeled images before
 
 Making a decision on which dataset to train the network on is no easy task, particularly because high quality FER datasets are hard to find. Few such datasets are publicly available, and those that are come with idiosyncrasies which must be understood and taken into account.
 
-{% include image.html file='cohn-kanade.png'
+{% include image file='cohn-kanade.png'
    caption='Images from the Cohn-Kanade dataset (described below)' %}
 
 The most crucial points to consider when making a dataset selection are the _size_ and _quality_ of the set. The size is arguably the most important, and also the simplest to explain. Ideally a dataset should contain thousands, or preferably millions of images.
@@ -244,7 +244,7 @@ When implementing new systems, it is necessary to look for weak spots and analyz
 
 We determined that the best way to achieve high accuracy [in our project](https://thoughtworksarts.io/projects/riot/) was to train our model on a small dataset that matched the expected conditions of the art installation as closely as possible.
 
-{% include vimeo.html id='275748144'
+{% include vimeo id='275748144'
    caption='Dataset creation video by Karen Palmer' %}
 
 These conditions can be changeable as the experience is positioned differently in every exhibition of the work, but generally we expect dark rooms with lights shining on the faces of participants from a high angle. Also we expect participant's facial expressions to be more subtle than 'posed', or acted-out expressions.

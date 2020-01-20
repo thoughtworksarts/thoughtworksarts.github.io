@@ -6,7 +6,7 @@ tags      : riot
 
 ThoughtWorks Arts has an [open call out now](https://thoughtworksarts.io/open-call/2017-implications-of-ai/) for artists and technologists investigating the implications of Artificial Intelligence for society today.
 
-{% include image.html file='message.jpg'
+{% include image file='message.jpg'
    caption='Image by [Roger Marks](https://www.flickr.com/photos/rpmarks/32144425053/)' %}
 
 AI has incredible potential to automate all kinds of decision-making, and revolutionize industries. However, because of the way in which AI systems are trained, they can also automate and amplify human biases in ways their designers do not intend.
@@ -37,7 +37,7 @@ In 2016, Meredith Whittaker and Kate Crawford founded a new independent research
 
 Meredith contributed to the framing of our open call, and we intend to keep the residency connected to the AI Now initiative as it progresses.
 
-{% include youtube.html id='ZsP6n06zKFg' ratio='55' %}
+{% include youtube id='ZsP6n06zKFg' ratio='55' %}
 
 In 2016, AI Now organized a White House symposium to spark cross-disciplinary dialog. All of the presentation recordings [are archived online](https://www.youtube.com/playlist?list=PLsHf1QGJz7usWgjBKoZIoJrYugNWSDQDK). Following the symposium, AI Now published [this report](https://artificialintelligencenow.com/media/documents/AINowSummaryReport_3_RpmwKHu.pdf) which analyses and makes recommendations across four subject areas: social inequality, labor, healthcare and ethical responsibility.
 

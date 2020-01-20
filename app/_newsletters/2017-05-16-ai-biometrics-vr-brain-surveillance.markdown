@@ -12,7 +12,7 @@ View the [open call here](https://thoughtworksarts.io/open-call/2017-implication
 
 Join us on Wednesday, May 17, 2017 at ThoughtWorks, 99 Madison, New York, for [three views on Biometrics and Immersion in tech](https://www.meetup.com/volumetric/events/239639066/). Current resident hannes bend, along with residency directors Ellen Pearlman and Andrew McWilliams will share their experiences working with brain waves, blood-glucose levels, and meditation & breath, to discuss the future of the physical body and immersive art practices. This event is a part of the city-wide [Creative Tech Week](http://creativetechweek.nyc/).
 
-{% include image.html file='insulin.png'
+{% include image file='insulin.png'
    link='https://jahya.net/works/insulin/'
    caption='Insulin, an blood-glucose visualization by Andrew McWilliams' %}
 
@@ -20,7 +20,7 @@ Join us on Wednesday, May 17, 2017 at ThoughtWorks, 99 Madison, New York, for [t
 
 You can also [join the Creative Tech Week conference](http://creativetechweek.nyc/sessions/afternoon-lightning-talks/) on Saturday, May 20, 2017 to hear the residency directors Andrew McWilliams and Ellen Pearlman talk about their work. Creative Tech Week is an industry-wide gathering for the creative technology field, held annually in New York City.
 
-{% include image.html file='noor.jpg'
+{% include image file='noor.jpg'
    link='http://www.isea-archives.org/sample-page/isea2016/isea2016-art-events/isea2016-artist-statement-ellen-pearlman-noor-a-brain-opera/'
    caption='Noor: A Brain Opera by Ellen Pearlman' %}
 

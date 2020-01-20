@@ -3,7 +3,7 @@ title : "ThoughtWorks Arts at SPRING/BREAK Art Show in NYC"
 ---
 We are thrilled to announce that ThoughtWorks Arts has teamed up with Harvestworks to stage _ThoughtWorks Stranger Than Life Hacks,_ a special projects exhibition for the 7th annual [SPRING/BREAK Art Show](http://www.springbreakartshow.com/) (part of Armory Arts Week) at 4 Times Square, March 6 - 12, 2018.
 
-{% include image.html file='dual-brains.jpg'
+{% include image file='dual-brains.jpg'
    caption='Dual Brains by Eva Lee and Aaron Trocola' %}
 
 For the opening night VIP event on March 6th, 5pm - 9pm, we will be presenting alive performance of _Dual Brains,_ an Art-A-Hack project that uses shared empathy between two brains to create a visual and sonic environment.
@@ -18,7 +18,7 @@ Artists whose work will be included in the show are: Eva Lee and Aaron Trocola; 
 
 For the first time ever, Art-A-Hack™ was in St. Petersburg, Russia for [CYFEST 2018](http://cyland.org/lab/cyland-projects/cyfest11/), produced in collaboration with [CYLAND MediaArtLab](http://cyland.org/lab/). Artists, programmers and creative practitioners [teamed up to develop their ideas over two consecutive weekends](https://www.youtube.com/watch?v=lOADin8YRoc) before presenting final projects in a public opening at the Berthold Centre in St. Petersburg on February 10th.
 
-{% include image.html file='hologram.jpg'
+{% include image file='hologram.jpg'
    caption='Digital Hologram by Kseniia Galkina, Dmitri Akhmediyev, and Leonid Gavrilov. This piece was created using Art-A-Hack\'s methodology in only 4 days' %}
 
 Projects from this Art-A-Hack included _Digital Hologram_, a projected, animated hologram that responds to a typed question asked to a Google AI API; _Word Cloud_, that produced sonic and visual elements relating to questions asked to the ‘emotional’ response of IBM’s Watson API;  and _Blinking_, which used Open CV to detect nuances in an observer’s blinking to edit a movie. _Hologram_ will be shown at Tate Modern’s Tate Exchange special program, March 6 - 11, 2018.
@@ -27,7 +27,7 @@ Projects from this Art-A-Hack included _Digital Hologram_, a projected, animated
 
 Samuel Arsenault-Brassard is working on a new VR/AR focused gallery in Montreal, [LiL Pocket Gallery](https://www.facebook.com/lilpocketgallery). The inaugural AR show, [Illusive Sympathy](https://www.youtube.com/watch?v=jp_TSieRzNo) opened on February 23rd with work by street artist Cryote.
 
-{% include image.html file='illusive-sympathy.jpg'
+{% include image file='illusive-sympathy.jpg'
    caption='A viewer at the opening of LiL Pocket in Montreal' %}
 
 Javier Molina is pursuing a PhD in Electronic Arts at Rensselaer Polytechnic Institute in Troy, NY, and has been invited to join as faculty at Banff Centre for Arts and Creativity. See Javier’s project from Art-A-Hack, [_To Be With Hamlet_](http://hamletvr.org/)_,_ a live theater performance in Virtual Reality that allows viewers anywhere to have an intimate experience of Shakespeare’s Hamlet, in the ThoughtWorks exhibit at SPRING/BREAK Art Show.  
@@ -36,7 +36,7 @@ Javier Molina is pursuing a PhD in Electronic Arts at Rensselaer Polytechnic Ins
 
 ThoughtWorks Arts Director, Ellen Pearlman, has been awarded an artist residency at [Quartariata](http://www.quartariata.com/) in Russia. The Q-Residence is an experimental center for audiovisual arts and technology, combining a country art residence and a multifunctional site for cultural and educational events in the field of multimedia, cinema, photography, performative art, modern choreography, subject design, architecture and urban planning.
 
-{% include image.html file='quartariata.jpg'
+{% include image file='quartariata.jpg'
    caption='Quartariata Arts Residency in Peterhof, Russia' %}
 
 Ellen will use the residency to work on a new brain opera that incorporates emotionally intelligent AIs and robotics. Ellen’s previous brain opera, _Noor_, will be on display at the ThoughtWorks exhibit at SPRING/BREAK Art Show.  
@@ -49,7 +49,7 @@ Applications are now being accepted for our next ThoughtWorks Arts residency for
 
 Past residents and Co-Founders of the Cyborg Foundation, Neil Harbisson and Moon Ribas, have launched a social project called the [Transpecies Society](https://www.transpeciessociety.com/about), a membership-based organization for people who identify as or would like to transition to non-human identities.
 
-{% include image.html file='neil-moon.jpg'
+{% include image file='neil-moon.jpg'
    caption='Neil Harbisson and Moon Ribas working at ThoughtWorks in NYC' %}
 
 The Transpecies Society is an association that gives voice to non-human identities, raises awareness of the challenges transpecies face, advocates for the freedom of self-design, and offers the development of new senses and organs.  
@@ -90,7 +90,7 @@ Cambridge, Massachusetts
 [Photos of the Week](https://www.theatlantic.com/photo/2018/02/photos-of-the-week-super-blue-blood-moon-starry-night-stratofortress/552239/)  
 The Atlantic
 
-{% include image.html file='probably-chelsea.jpg'
+{% include image file='probably-chelsea.jpg'
    caption='Visitors look at 3D-printed faces of what someone with Chelsea Manning\'s DNA could potentially look like in the installation, A Becoming Resemblance, by Heather Dewey-Hagborg the annual Transmediale art and digital culture show in Berlin, Germany (From The Atlantic)' %}
 
 [The Best Photos From Around the World This Week](http://www.refinery29.uk/best-photos-week-020218#slide-1)  

@@ -1,10 +1,11 @@
 {% if include.file contains '/' %}
 	{% assign imagepath = '' %}
-{% elsif page.path contains '_posts' or page.path contains '_newsletters' %}
+{% elsif page.path contains '_posts' or page.path contains '_newsletters' or page.path contains '_projects' %}
 	{% capture imagepath %}{{
 		page.path |
 		replace: '_posts/', '/images/posts/' |
 		replace: '_newsletters/', '/images/newsletters/' |
+		replace: '_projects/', '/images/projects/' |
 		replace: '.markdown', '' |
 		append: '/'
 	}}{% endcapture %}

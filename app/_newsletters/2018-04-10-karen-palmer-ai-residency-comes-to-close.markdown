@@ -3,7 +3,7 @@ title : "Karen Palmer’s AI Residency Comes to a Close"
 ---
 Karen Palmer, filmmaker and “storyteller from the future” has spent the last 6 months at ThoughtWorks as our Artist in Residence, focused on AI for her emotionally responsive immersive film, RIOT.
 
-{% include image.html file='riot.jpg'
+{% include image file='riot.jpg'
    caption='RIOT at the ThoughtWorks Arts booth during SPRING/BREAK Art Show in March 2018' %}
 
 During the residency, ThoughtWorks developers have written and open-sourced an emotional expression analysis system named [EmoPy](https://github.com/thoughtworksarts/EmoPy), building on the work Karen did with AI researcher [Dr. Hongying Meng](http://people.brunel.ac.uk/~eesthhm/) of Brunel University in London.
@@ -14,7 +14,7 @@ The system is performing well under test, and is usable by anyone for a variety 
 
 Leading the technical development effort is ThoughtWorker [Angelica Perez](https://www.linkedin.com/in/angelica-perez-56a501100/), a graduate from Stanford specializing in artificial intelligence research. RIOT is Angelica’s first project since joining ThoughtWorks in July 2017.
 
-{% include image.html file='developers.jpg'
+{% include image file='developers.jpg'
    caption='ThoughtWorks developers Angelica Perez & Sofia Tania working on the project' %}
 
 During the last six months, Karen has also completed a TED Residency, and exhibited her work at the Future of Storytelling festival on Staten Island. Her work and her residency at ThoughtWorks have been featured in [Forbes](https://www.forbes.com/sites/katmustatea/2017/12/30/this-filmmaker-from-the-future-can-teach-you-to-channel-your-fear/), [Fast Company](https://www.fastcompany.com/40498786/when-your-fear-is-the-remote-control), and [Engadget](https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/). ThoughtWorks team member Stephanie Weber was inspired by the project to write an article exploring [how artificial intelligence is transforming the criminal justice system](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/).  
@@ -23,7 +23,7 @@ During the last six months, Karen has also completed a TED Residency, and exhibi
 
 ThoughtWorks Arts in collaboration with HarvestWorks, exhibited at the SPRING/BREAK Art Show during New York's Armory Week in March 2018\. Artists from the ThoughtWorks Arts Residency, Art-A-Hack, and our Directors were all included in this critically acclaimed, curator driven alternate art fair at 4 Times Square. We were honored to be selected to show in the highly competitive Special Projects section.
 
-{% include image.html file='exhibition.jpg'
+{% include image file='exhibition.jpg'
    caption='The exhibition space just prior to opening' %}
 
 Read our [full write-up of the show](https://thoughtworksarts.io/spring-break/), and [read a great recap of the experience](http://www.evaleestudio.com/whats-new/spring-break-art-show-2018-thoughtworks-stranger-than-life-hacks-special-exhibition/) of participating in the show from Art-A-Hack alum and co-creator of _Dual Brains_, Eva Lee.  
@@ -32,7 +32,7 @@ Read our [full write-up of the show](https://thoughtworksarts.io/spring-break/),
 
 We are now reviewing all applications for our next ThoughtWorks Arts Residency for Summer 2018 in robotics. We are pleased to welcome guest panelists from [Baltan Labs](http://baltanlaboratories.org/) in Eindhoven, The Netherlands, and [The Consortium for Research and Robotics](http://consortiumrr.com/) at Pratt Institute in New York.
 
-{% include image.html file='consortium-research-robotics.jpg'
+{% include image file='consortium-research-robotics.jpg'
    caption='ThoughtWorks Arts Director Ellen Pearlman on-site with Mark Parsons, Founder & Executive Director of The Consortium for Research and Robotics' %}
 
 We have received a large number of extremely high quality applications, and we are working very hard on the selection process. We are reviewing every application in detail as quickly as possible and will announce final selection by April 16th, 2018.  
@@ -45,7 +45,7 @@ We have received a large number of extremely high quality applications, and we a
 
 **Samuel Arsenault-Brassard** is the Co-Founder & XR (Cross Reality) Director of [LiL Pocket Gallery](https://www.facebook.com/lilpocketgallery), a VR/AR focused gallery in Montreal. Their next show, [Start Pretending: Augmented Reality (anti)fashion Show](https://www.facebook.com/events/208923119858354/?active_tab=discussion), will be up April 20 - 21, 2018.
 
-{% include image.html file='ar-fashion.jpg'
+{% include image file='ar-fashion.jpg'
    caption='Still from a photoshoot for LiL Pocket Gallery\'s upcoming AR Fashion Show' %}
 
 **Kseniia Galkina** and **Dmitri Akhmediyev** from Art-A-Hack Special Edition Cyfest in St. Petersburg, Russia showed their project _Hologram_, created over just 2 weekends, at the [Tate Exchange](http://www.tate.org.uk/visit/tate-modern/tate-exchange) at the Tate Modern in London.
@@ -102,7 +102,7 @@ April 12, 2018 6-9 PM
 MIT Museum, Building N51  
 Cambridge, MA
 
-{% include image.html file='jason-levine.png'
+{% include image file='jason-levine.png'
    caption='Jason Levine performing at Babycastles' %}
 
 **Lisa Russell (Art-A-Hack Alum)**  

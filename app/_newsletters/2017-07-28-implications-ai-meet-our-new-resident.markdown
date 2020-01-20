@@ -3,7 +3,7 @@ title : "Implications of AI: Meet our New Resident"
 ---
 We are pleased to welcome our newest resident Karen Palmer, a London-based digital filmmaker and storyteller.
 
-{% include image.html file='karen-palmer.jpg'
+{% include image file='karen-palmer.jpg'
    caption='Karen Palmer speaking at TEDxSydney' %}
 
 During her ThoughtWorks Arts Residency, Karen will be furthering development of her interactive film, RIOT. This project is an emotionally responsive live-action film with 3D sound, and uses Artificial Intelligence (AI) technology, machine learning, and facial recognition to allow users to navigate through a dangerous riot in progress.
@@ -20,7 +20,7 @@ We reviewed sixty three exceptional applications for the AI residency from artis
 
 [Shirin Anlen](https://www.shirin.works/), an Israeli interactive creator working at the intersection of technology and exploratory arts. Her work looks at issues of mental illnesses, and how they apply to AI, and how we can use virtual reality and avatars to explore the nature of AI systems and their responses.
 
-{% include image.html file='tzina.jpg'
+{% include image file='tzina.jpg'
    caption='A still from Tzina: Symphony of Longing, webVR documentary by Shirin Anlen' %}
 
 **Olento Collective**, Jani Hietanen, Jaana Ristola and Ismo Torvinen, are working on a new theory of aesthetic motion. Their implementation is a new form of emotional AI, providing machines the ability to recognize the emotional content of embodied motion in a new way.
@@ -31,7 +31,7 @@ We reviewed sixty three exceptional applications for the AI residency from artis
 
 Our previous resident Heather Dewey-Hagborg joins forces with Chelsea Manning for [A Becoming Resemblance](https://www.fridmangallery.com/a-becoming-resemblance), an Exhibition at Fridman Gallery opening August 2nd. Frames from graphic short [Suppressed Images](http://deweyhagborg.com/projects/suppressed-images), a Thoughtworks Arts sponsored collaboration between Heather and Shoili Kanungo will be on view.
 
-{% include image.html file='suppressed-images.jpg'
+{% include image file='suppressed-images.jpg'
    caption='A frame from Suppressed Images' %}
 
 Noor: A Brain Opera, by Director, Ellen Pearlman, has been selected for [WomenCinemakers, special issue]( http://womencinemakers.com/) featuring independent filmmakers.

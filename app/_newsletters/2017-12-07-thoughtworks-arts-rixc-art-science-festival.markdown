@@ -4,7 +4,7 @@ title : "ThoughtWorks Arts at RIXC Art Science Festival"
 
 This fall the RIXC Art Science Festival, Virtualities and Realities, in Riga, Latvia hosted three members of the ThoughtWorks Arts community. RIXC Art Science Festival is an internationally renown gathering for artists and scholars working at the intersection of arts, digital humanities, and science. The Festival includes conferences, exhibitions, performances, and VR artwork showcases.
 
-{% include image.html file='ellen-pearlman.jpg'
+{% include image file='ellen-pearlman.jpg'
    caption='TWA Director, Ellen Pearlman, at the RIXC Center for New Media Art in Riga, Latvia' %}
 
 Director Ellen Pearlman was a conference keynote speaker with her topic: _The Approaching Storm: AI, Biometrics, Big Data, Immersion and Surveillance._ Director Andrew McWilliams’s multimedia installation _Insulin_, and Art-A-Hack alum Annie Berman’s video and VR experience, _Utopia 1.0_, were all included in the festival’s contemporary digital art exhibitions.
@@ -17,7 +17,7 @@ For a detailed recap on the Festival including Director Ellen Pearlman’s keyno
 
 Storytelling is as old as time itself. But with the advent of emerging technologies such as virtual/mixed/augmented reality, and AI storytelling, technology has the power to effect and impact our cognitive and neurological faculties like never before. What's new? What's not? In the age of information and unrest, when facts are under so much scrutiny, at least we know we can trust our feelings. Right...?
 
-{% include image.html file='karen-palmer.jpg'
+{% include image file='karen-palmer.jpg'
    alt='Karen Palmer' %}
 
 Join us on Tuesday, December 12th, 6:30 PM at ThoughtWorks NYC for a conversation about the ethical considerations of these forms of storytelling featuring Karen Palmer ([http://karenpalmer.uk/](http://karenpalmer.uk/)), current ThoughtWorks Artist-in-Residence, and TED Fellow.
@@ -28,7 +28,7 @@ Sign up [here](https://www.meetup.com/Ethical-Tech/events/243577410/).
 
 We are excited to announce a special Art-A-Hack™ in collaboration with CYBERFEST at the Cyland Media Art Lab in St. Petersburg Russia on January 21, 22, 28, and 29, 2018.
 
-{% include image.html file='dual-brains.jpg'
+{% include image file='dual-brains.jpg'
    caption='Dual Brains performance from Art-A-Hack Summer 2016' %}
 
 The topic of this year’s program is “Weather forecast: digital cloudiness,” and we will bring together artists and technologists to build projects exploring this theme.
@@ -50,7 +50,7 @@ RIXC Art Science Festival
 October 19 - 21, 2017  
 Riga, Latvia
 
-{% include image.html file='utopia.jpg'
+{% include image file='utopia.jpg'
    caption='Utopia 1.0: Post-Neo-Futurist-Capitalism in 3D! By Annie Berman' %}
 
 **Annie Berman (Art-A-Hack)**  
@@ -96,7 +96,7 @@ ThoughtWorks Arts
 [The outcome of this virtual riot depends on your emotions](https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/)  
 Engadget
 
-{% include image.html file='leonardo.jpg'
+{% include image file='leonardo.jpg'
    caption='Heather Dewey-Hagborg, Stranger Visions. Cover of Leonardo, October 2017' %}
 
 **Heather Dewey-Hagborg (Past resident)**  
@@ -129,7 +129,7 @@ Leipaja, Latvia
 [RISEBA University](http://www.riseba.lv/en)  
 Riga, Latvia
 
-{% include image.html file='neil-harbisson.jpg'
+{% include image file='neil-harbisson.jpg'
    caption='Neil Harbisson speaking at \'Human Hardware\' in Barcelona, October 2017' %}
 
 **Neil Harbisson (Past Resident)**  

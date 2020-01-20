@@ -3,7 +3,7 @@ title  : "Rashin Fahandej's Residency Project Exhibited at ICA Boston Biennial"
 ---
 The 2019 installment of [ICA's Biennial - James and Audrey Foster Prize exhibition](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize) showcases the work of four Boston-area artists, including ThoughtWorks Arts current volumetric filmmaking resident, Rashin Fahandej.
 
-{% include image.html file='installation-shot.jpg'
+{% include image file='installation-shot.jpg'
    alt='Installation shot'
    caption='An installation shot of *A Father\'s Lullaby* at ICA' %}
 
@@ -13,7 +13,7 @@ Rashin's multi-platform, community engaged interactive volumetric work, *A Fathe
 
 With support from our residency partner [Scatter](http://scatter.nyc/), Rashin Fahandej has incorporated volumetric filmmaking into her practice, using Depthkit technology. Volumetric filmmaking has allowed her to expand and enhance the possibilities for her immersive visual poetry.
 
-{% include image.html file='installation-shot-2.jpg'
+{% include image file='installation-shot-2.jpg'
    alt='Installation shot of the artwork' %}
 
 On September 26th Rashin and the other featured artists came together for a public conversation at [ICA](https://www.icaboston.org/), on life as visual artists, and discussed their creative practices. The evening also celebrated the exhibition, which will run through December 31st, 2019.

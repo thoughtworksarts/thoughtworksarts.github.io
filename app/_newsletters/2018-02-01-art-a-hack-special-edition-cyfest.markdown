@@ -3,10 +3,10 @@ title : "Art-A-Hack Special Edition CYFEST 2018 in St. Petersburg"
 ---
 Art-A-Hack™ special edition for [CYFEST 2018](http://cyland.org/lab/cyland-projects/cyfest11/) kicked off on January 17th in central St. Petersburg, Russia.
 
-{% include image.html file='art-a-hack.jpg'
+{% include image file='art-a-hack.jpg'
    alt='Teams sharing updates as part of the Art-A-Hack process' %}
 
-{% include image.html file='cyland.png'
+{% include image file='cyland.png'
    alt='CYLAND media art laboratory'
    class='small no-border' %}
 
@@ -23,7 +23,7 @@ The teams have many exciting projects underway, including interacting with a hol
 
 During her work on Karen Palmer's RIOT project, ThoughtWorks employee Stephanie Weber researched the [role AI is playing in the criminal justice system](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/). In Weber's write-up of the situation, she goes through topics of sentencing, risk of recidivism, and bias in automated systems, looking at the way AI is changing our perspectives on each topic.
 
-{% include image.html file='criminal-justice.jpg'
+{% include image file='criminal-justice.jpg'
    caption='Image created by Stephanie Weber' %}
 
 Stephanie worked on Karen Palmer's residency project at ThoughtWorks as a researcher and software developer during 2017.
@@ -33,7 +33,7 @@ Stephanie worked on Karen Palmer's residency project at ThoughtWorks as a resear
 
 The Volumetric Society ran a series of panels at ThoughtWork NYC on the general theme of artificial intelligence and emotion. Speakers included Patrick Levy-Rosenthal, CEO of EmoShape, Aaron Trucola of Three Form, and filmmaker Noah Hutton.
 
-{% include image.html file='patrick.jpg'
+{% include image file='patrick.jpg'
    caption='Patrick Levy-Rosenthal presenting at Volumetric Society' %}
 
 Check out Patrick Levy-Rosenthal's presentation on [EmoShape](https://www.youtube.com/watch?v=nLpW_tL1TLU&list=PL8f-F_Zx8XA_aCgRgLeWblbuaLVsap7ET&index=1&t=50s), [The Digital Body: Giving Technology an Awareness of Form](https://www.youtube.com/watch?v=WbP1wUyjjJw&index=2&list=PL8f-F_Zx8XA_aCgRgLeWblbuaLVsap7ET) with Aaron Trocola, and [The Case Against Neural Normality](https://www.youtube.com/watch?v=IX0W3JYyeiQ&list=PL8f-F_Zx8XA_aCgRgLeWblbuaLVsap7ET&index=3) with Noah Hutton. 
@@ -45,7 +45,7 @@ If you are interested in joining the Volumetric Society, please sign up on our [
 
 [REFRESH](https://refreshart.tech/) is a new art collective dedicated to diversifying the art/tech/science world, co-founded by former TWA resident, Heather Dewey Hagborg. REFRESH is the first biennial exhibit of its kind, showcasing feminist, queer, de-colonial, and historically marginalized artists. 
 
-{% include image.html file='kiss-my-ars.png'
+{% include image file='kiss-my-ars.png'
    caption='#KissMyArs Social Media Campaign Image' %}
 
 This initiative came about following the social media campaign, #KissMyArs, which Heather started in response to the gender problem perpetuated by the international arts and technology prize, the Golden Nika, awarded at the Ars Electronica festival annually. Heather co-authored a piece in the Guardian [explaining the rationale behind the #KissMyArs](https://www.theguardian.com/science/the-h-word/2016/sep/12/ars-electronica-festival-gender).
@@ -84,7 +84,7 @@ California Museum of the Arts
 Thousand Oaks, CA  
 January 19, 2018 - April 15, 2018  
 
-{% include image.html file='portrait.jpg'
+{% include image file='portrait.jpg'
    caption='New portrait print for \'Stranger Visions\' exhibition by Heather Dewey-Hagborg' %}
 
 [Unreal. The Algorithmic Present](http://www.chronusartcenter.org/en/unreal/)  
@@ -111,7 +111,7 @@ Fast Company
 [This Filmmaker From The Future Can Teach You To Channel Your Fear](https://www.forbes.com/sites/katmustatea/2017/12/30/this-filmmaker-from-the-future-can-teach-you-to-channel-your-fear/#48d6df157f41)  
 Forbes  
 
-{% include image.html file='riot.jpg'
+{% include image file='riot.jpg'
    caption='RIOT by Karen Palmer' %}
 
 [Inside Out: Emotion, Witness and Self-awareness from Immersive Experiences](https://suppo.site/inside-out-emotion-witness-and-self-awareness-from-immersive-experiences-2ec8d1001a9f)  

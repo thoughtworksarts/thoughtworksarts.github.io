@@ -3,7 +3,7 @@ title : "New Robotics, AI, and Climate Change projects at ThoughtWorks Arts"
 ---
 This summer we were thrilled to host a Special Edition Art-A-Hack in collaboration with [The Volumetric Society](http://www.meetup.com/volumetric/), the [Human Impacts Institute](https://www.humanimpactsinstitute.org/) and the [New York City College of Technology (City Tech)](http://www.citytech.cuny.edu/).
 
-{% include image.html file='artahack.jpg'
+{% include image file='artahack.jpg'
    caption='Final presentations at ThoughtWorks NYC' %}  
 
 Four teams met over four Saturdays to create projects around two parallel issues.
@@ -21,13 +21,13 @@ Exploring climate change issues were the teams _Climate Consciousness_ and _Ano
 
 Artist Adrianne Wortzel has been [exploring the movements and in-built motion of Reach Robotics' MekaMon robot](https://www.youtube.com/watch?v=YMQgA8xYZVc) as part of her ThoughtWorks Arts Residency. The MekaMon is a multi-functional, connected, battle bot with augmented reality capabilities. She also recently gave a talk about her work with the MekaMon, which runs on Swift, at the [Brooklyn Swift Meetup](https://vimeo.com/bklnswift/review/278044295/b8cbf2d8e7).
 
-{% include image.html file='kira-davies.jpg'
+{% include image file='kira-davies.jpg'
    caption='Adrianne Wortzel\'s exploration of the MekaMon Robot'
    link='https://www.youtube.com/watch?v=YMQgA8xYZVc' %}
 
 Resident Catie Cuan spoke at the symposium 'Humanities Innovators in a Tech World,' hosted by the University of Arizona College of Humanities. Tune in at 1:17:00 to hear her [discuss her robotics work](https://www.youtube.com/watch?time_continue=10&v=kL-CY9YWy9Y). Recently, she performed an excerpt of her work _Time to Compile_ featuring two human performers and the NAO robot at the [Dance NOW Festival at Joe's Pub](https://www.nytimes.com/2018/08/30/arts/dance/dance-in-nyc-this-week.html). Catie will be performing again in Brooklyn for the [10th Annual Collaborat­ions in Dance Festival](https://www.brooklynpaper.com/stories/41/35/24-dancing-with-robots-greenpoint-2018-08-31-bk.html) at Triseklion Arts on Friday, September 14th.
 
-{% include image.html file='catie-cuan.jpg'
+{% include image file='catie-cuan.jpg'
    caption='A preview of Catie Cuan’s new piece ‘OUTPUT’'
    link='https://www.youtube.com/watch?v=1NQQ1c4Z6I0' %}
 
@@ -37,7 +37,7 @@ Both residents worked with [Consortium for Research and Robotics](http://consor
 
 [In this short video](https://vimeo.com/275748144) ThoughtWorks engineer Angelica Perez discusses how to create a data set for AI. Angelica worked as the lead developer with Karen Palmer on her immersive film, RIOT. Angelica overviews how they developed a neural network to predict emotion through facial expression for the emotionally responsive artificial intelligence behind the film.  
 
-{% include image.html file='dataset.jpg'
+{% include image file='dataset.jpg'
    link='https://vimeo.com/275748144' %}
 
 Angelica also recently published two posts on her work with Karen: the first, an [introduction to the field of Facial Expression Recognition (FER)](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/), and the second [describing the design and uses of EmoPy](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/), the FER toolkit developed RIOT.  
@@ -46,7 +46,7 @@ Angelica also recently published two posts on her work with Karen: the first, an
 
 We have published two in-depth articles describing our suite of arts programs and how they are connected to innovation at ThoughtWorks.   
 
-{% include image.html file='developers.jpg'
+{% include image file='developers.jpg'
    caption='ThoughtWorks developers working on EmoPy for Karen Palmer’s RIOT' %}
 
 Learn about [How Artists Are Reshaping Emerging Technology Research](https://medium.com/thoughtworks-arts/how-artists-are-reshaping-emerging-technology-research-cb1b99189760) and [How Art Programs Drive Innovation at ThoughtWorks](https://medium.com/thoughtworks-arts/how-art-programs-drive-innovation-at-thoughtworks-33871013a151) to understand more about our programs and the types of valuable insights they help us uncover.   
@@ -55,7 +55,7 @@ Learn about [How Artists Are Reshaping Emerging Technology Research](https://me
 
 ThoughtWorks Arts Director Dr. Ellen Pearlman is Conference co-chair for the 3rd Open Fields Conference, GLOBAL CONTROL at [RIXC Art Science Festival](http://festival2018.rixc.org/) in Riga, Latvia. 
 
-{% include image.html file='rixc.jpg' %}
+{% include image file='rixc.jpg' %}
 
 During the conference Ellen is giving a keynote lecture, Total Control and Fragile Networks.  
 
@@ -63,7 +63,7 @@ During the conference Ellen is giving a keynote lecture, Total Control and Fragi
 
 We have launched a new [ThoughtWorks Arts Medium Publication](https://medium.com/thoughtworks-arts)! Come check it out for fresh and original content from the ThoughtWorks Arts team and network.
 
-{% include image.html file='medium.jpg' link='https://medium.com/thoughtworks-arts' %}
+{% include image file='medium.jpg' link='https://medium.com/thoughtworks-arts' %}
   
 Also, please help support our new Medium by following and sharing the publication and giving us claps on the pieces you love!  
 
@@ -71,7 +71,7 @@ Also, please help support our new Medium by following and sharing the publicatio
 
 Filmmaker and entrepreneur **Lisa Russell** recently [gave a talk at TEDxAshburyPark](https://www.youtube.com/watch?v=EEsVhuD9a_M) on what inspired her to create [StoryShifter](https://www.storyshifter.com/), a new entertainment portal for the social good, powered by machine learning and data analytics.
 
-{% include image.html file='lisa-russell.jpg'
+{% include image file='lisa-russell.jpg'
    link='https://www.youtube.com/watch?v=EEsVhuD9a_M' %}
 
 She is also hosting a [weekend workshop on Immersive Storytelling for the Global Good](https://www.eventbrite.com/e/immersive-storytelling-for-the-global-good-tickets-49339828756​) October 13th and 14th in NYC.  

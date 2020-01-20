@@ -53,19 +53,15 @@ extended-team :
 
 *RIOT* is an immersive, emotionally responsive, live-action film that positions viewers in the middle of a riot in progress. The film responds to participants’ emotional state using artificial intelligence, altering the video story journey in real-time.
 
-<figure>
-	<img src="/images/projects/riot/riot-1.jpg" alt="An audience member experiencing the RIOT installation" />
-	<figcaption>An audience member experiencing the RIOT installation</figcaption>
-</figure>
+{% include image file='riot-1.jpg'
+   caption='An audience member experiencing the *RIOT* installation' %}
 
 The *RIOT* film installation experience reveals to viewers how they might react in the face of imminent danger. A webcam or camera is used to monitor each viewer’s facial characteristics as they watch the film, and the video narrative responds accordingly.
 
 For example, if the viewer becomes agitated, the character in the film responds defensively or impatiently. The same is true for a number of other emotional responses, like calmness or fear.
 
-<figure>
-	<img src="/images/projects/riot/developers.jpg" alt="Karen working with ThoughtWorks developers Sofia Tania and Angelica Perez" />
-	<figcaption>Karen working with ThoughtWorks developers Sofia Tania and Angelica Perez</figcaption>
-</figure>
+{% include image file='developers.jpg'
+   caption='Karen working with ThoughtWorks developers Sofia Tania and Angelica Perez' %}
 
 *RIOT* provides feedback into the complex cultural issues surrounding split second decisions in times of actual crisis. It places viewers at the center of a provocative story for which there are a number of potential live time scenarios which may triggered by their authentic reaction.
 
@@ -74,19 +70,15 @@ During her time at the ThoughtWorks Arts Residency, Karen worked with ThoughtWor
 
 As a result, Karen can add new detectable emotions to the experience, and can add new narrative layers to the *RIOT* prototype via a custom-built user interface.
 
-<figure>
-	<img src="/images/projects/riot/open-studios.jpg" alt="Karen at one of her regular 'Open Studios'" />
-	<figcaption>Karen at one of her regular 'Open Studios'</figcaption>
-</figure>
+{% include image file='open-studios.jpg'
+   caption='Karen at one of her regular \'Open Studios\'' %}
 
 The *RIOT* experience works with a deep neural net toolkit for emotion analysis, created by ThoughtWorks, named *EmoPy*. The system has [been made open source](https://github.com/thoughtworksarts/EmoPy) in order to provide free access beyond existing closed-box commercial implementations, both widening access and encouraging debate.
 
 Karen's previous work with [Dr. Hongying Meng](https://www.brunel.ac.uk/people/hongying-meng) of Brunel University, London, was refined and developed as part of the piece. This includes his research and implementation of new facial expression analysis techniques.
 
-<figure>
-	<img src="/images/projects/riot/riot-2.jpg" alt="RIOT exhibited at SPRING/BREAK as part of a ThoughtWorks Arts exhibition during Armory Week" />
-	<figcaption><em>RIOT</em> exhibited at SPRING/BREAK as part of a ThoughtWorks Arts exhibition</figcaption>
-</figure>
+{% include image file='riot-2.jpg'
+   caption='*RIOT* exhibited at SPRING/BREAK as part of a ThoughtWorks Arts exhibition during Armory Week' %}
 
 During her residency, Karen hosted regular 'Open Studios' events at ThoughtWorks New York. Stakeholders from across industry, academia and the arts were invited to discuss the implications of AI technology, using the residency and artwork as a focal point for critical discussion.
 
@@ -96,7 +88,7 @@ Karen undertook research on human emotional understanding with Emily Balcetis, A
 
 In the fall of 2017 Karen [spoke at TED New York](/blog/karen-palmer-film-watches-you-back/), telling the story of her work from conception through to the ThoughtWorks Arts Residency. Karen goes on to explain the next stages of development for *RIOT*, which will deal with a greater range of emotions, more narratives and a multiplayer experience.
 
-{% include youtube.html id='Rw8gLEkFdSw' %}
+{% include youtube id='Rw8gLEkFdSw' %}
 
 The *RIOT* film experience was exhibited at the [SPRING/BREAK art fair](https://thoughtworksarts.io/spring-break/) as part of New York's Armory Week, alongside other ThoughtWorks Arts-incubated artists. It has been exhibited at the [Future of Storytelling Festival](https://futureofstorytelling.org/project/riot), the Museum of Modern Art Peru, and Festival of the Mind Sheffield.
 
