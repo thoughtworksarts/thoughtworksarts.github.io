@@ -84,6 +84,12 @@ body.site-banner.landing-page {
 		}
 	}
 
+	.strap {
+		position: absolute; bottom: 0; right: 0;
+		font-style: italic;
+		color: $grey-mid;
+	}
+
 	.social-links {
 		top: 0;
 		margin: 1em 0.9em;
