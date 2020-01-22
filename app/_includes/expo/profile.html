@@ -6,10 +6,18 @@
 
 {% capture roledescription %}{{ page.role }}{% endcapture %}
 
+{% if activity == "Company" %}
+  {% capture imageurl %}/images/logos/{{ page.photo }}{% endcapture %}
+{% else %}
+  {% capture imageurl %}/images/people/{{ page.photo }}{% endcapture %}
+{% endif %}
+
 <figure class="participant first">
-  <img src="/images/people/{{ page.photo }}" alt="{{ page.name }}">
+  <img src="{{ imageurl }}" alt="{{ page.name }}">
   <figcaption>
-    <h2>{{ page.name }}</h2>
+    {% unless activity == "Company" %}
+      <h2>{{ page.name }}</h2>
+    {% endunless %}
     <p>{{ activity }}</p>
   </figcaption>
 </figure>
