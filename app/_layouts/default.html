@@ -23,7 +23,7 @@
   {% assign description = page.description %}
 {% endif %}
 
-{% if page.url contains site.banner-url %}
+{% if page.url contains site.banner-url or page.url == '/' %}
   {% assign display-banner = false %}
 {% else %}
   {% assign display-banner = site.display-banner %}
