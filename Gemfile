@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'jekyll'
+gem "jekyll", ">= 3.7.4"
 gem 'kramdown'
 gem 'sass', '>=3.2'
 gem 'scss-lint', '>= 0.18.0'
