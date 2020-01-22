@@ -9,22 +9,20 @@ image       : /images/projects/sentient-thespian/og.jpg
 artist      : Rashin Fahandej
 
 team :
-  - name : Jillian Morrow
-    role : Jillian Morrow
   - name : Austin Ratcliff
-    role : Austin Ratcliff
+    role : Software Developer
   - name : Matthew DeGraffenreid
-    role : Matthew DeGraffenreid
+    role : Software Developer
   - name : Kira Davies
     role : Kira Davies
   - name : Anna Rempe
-    role : Anna Rempe
+    role : Software Developer
   - name : Megan Goodling
-    role : Megan Goodling
+    role : Developer & Project Manager
   - name : Marisa Hoenig
-    role : Marisa Hoenig
+    role : Developer & Project Anchor
   - name : Brennan Pilcher
-    role : Brennan Pilcher
+    role : Software Developer
   - name : Whelan Workmaster
     role : Whelan Workmaster
 ---
