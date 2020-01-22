@@ -26,9 +26,9 @@ Applicants must submit a proposal using the form below before the application de
 We will contact applicants with final selection information no later than April 1st, 2020. For any questions, please reach out to Paige King at this email address: [info@thoughtworksarts.io](mailto:info@thoughtworksarts.io)
 
 <a href="http://opendoclab.mit.edu/">
-	<img src="/images/logos/mit-open-doc-lab.jpg" alt="MIT Open Doc Lab" class="small" />
+	<img src="/images/logos/mit-open-doc-lab.png" alt="MIT Open Doc Lab" class="small" />
 </a>
 
 <a href="https://www.witness.org/">
-	<img src="/images/logos/witness.jpg" alt="WITNESS" class="small" />
+	<img src="/images/logos/witness.png" alt="WITNESS" class="small" />
 </a>
