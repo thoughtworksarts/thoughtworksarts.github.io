@@ -1,5 +1,6 @@
 ---
 title  : "Rashin Fahandej Awarded Volumetric Filmmaking Residency"
+tags   : a-fathers-lullaby
 ---
 ThoughtWorks Arts Residency, in conjunction with [Scatter](http://scatter.nyc), is pleased to announce that Rashin Fahandej as been awarded our [Volumetric Filmmaking Residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) to expand her project _A Father's Lullaby_.
 
