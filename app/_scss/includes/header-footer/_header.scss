@@ -85,7 +85,7 @@ body.site-banner.landing-page {
 	}
 
 	.strap {
-		position: absolute; bottom: 0; right: 0;
+		position: absolute; bottom: 0.2em; right: -1.1em;
 		font-style: italic;
 		color: $grey-mid;
 	}
@@ -211,6 +211,10 @@ body.site-banner.landing-page {
 		.logo {
 			margin: 13px 18px;
 		}
+
+		.strap {
+			right: -1.6em;
+		}
 	}
 }
 
@@ -323,6 +327,10 @@ body.site-banner.landing-page {
 		.social-links {
 			display: none;
 		}
+
+		.strap {
+			right: -3.1em;
+		}
 	}
 }
 
@@ -362,7 +370,7 @@ body.site-banner.landing-page {
 	}
 
 	#logonav {
-		height: 117px;
+		height: 121px;
 		text-align: center;
 		border-bottom: $header-border-size solid $grey-light1;
 
@@ -378,6 +386,11 @@ body.site-banner.landing-page {
 				margin-top: 1.2em;
 				height: 4.8em;
 			}
+		}
+
+		.strap {
+			right: 0.6em;
+			bottom: 0;
 		}
 
 		.navigation {
@@ -398,7 +411,7 @@ body.site-banner.landing-page {
 		}
 
 		.navigation.popout .overlay ul li:first-of-type {
-			margin-top: 220px;
+			margin-top: 224px;
 		}
 	}
 }
@@ -416,6 +429,10 @@ body.site-banner.landing-page {
 			height: auto;
 			width: 90%;
 			margin-bottom: 6px;
+		}
+
+		.strap {
+			display: none;
 		}
 	}
 }
