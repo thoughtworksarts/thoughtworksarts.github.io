@@ -15,6 +15,18 @@ team :
     role : Developer
   - name : Andrew McWilliams
     role : Lead Developer
+
+extended-team :
+  - name : Ellen Pearlman
+    link : /bio/ellen-pearlman
+  - name : Cole Belmont
+  - name : Mark Parsons
+    link : http://www.thatartist.com/
+  - name : Gina Nikbin
+  - name : Nour Sabs
+  - name : Kira Davies
+    link : /bio/kira-davies
+  - name : Cameron Scoggins
 ---
 Catie Cuan's _OUTPUT_ illuminates how bodies, both human and robotic, are mediated and represented through technology. It centers around a live performance which creates relationships between vestiges of real (human) and captured (technological) bodies.
 
