@@ -7,14 +7,22 @@ module GenerateSortVars
       order_people_by_season site
     end
 
+    def assign_lastname(member)
+      unless member['position'].nil? then
+        member['lastname'] = member['position']
+      else
+        member['lastname'] = member['name'].split.last
+      end
+    end
+
     def order_project_teams_by_lastname(site)
       site.collections['projects'].docs.each do |project|
         project.data['team'].each do |member|
-          member['lastname'] = member['name'].split.last
+          assign_lastname member
         end
         if project.data.include? 'extended-team' then
           project.data['extended-team'].each do |member|
-            member['lastname'] = member['name'].split.last
+            assign_lastname member
           end
         end
       end
