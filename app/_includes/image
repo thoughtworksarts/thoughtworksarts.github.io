@@ -6,6 +6,7 @@
 		replace: '_posts/', '/images/posts/' |
 		replace: '_newsletters/', '/images/newsletters/' |
 		replace: '_projects/', '/images/projects/' |
+		replace: '/#excerpt', '' |
 		replace: '.markdown', '' |
 		append: '/'
 	}}{% endcapture %}
