@@ -204,7 +204,7 @@
 			}
 		}
 
-		.listing-item.double-image {
+		.listing-item.double-image, .listing-item.triple-image {
 			.image {
 				figure {
 					position: inherit;
@@ -218,9 +218,29 @@
 					img:last-of-type {
 						position: inherit;
 					}
+				}
+			}
+		}
 
+		.listing-item.double-image {
+			.image {
+				figure {
 					img {
 						width: 43%;
+					}
+				}
+			}
+		}
+
+		.listing-item.triple-image {
+			.image {
+				figure {
+					img {
+						width: 31.5%;
+					}
+
+					a:nth-of-type(1) img {
+						margin: 0;
 					}
 				}
 			}
