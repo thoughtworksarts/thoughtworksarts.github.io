@@ -25,7 +25,7 @@ links:
 
  - icon    : "fa-mastodon"
    name    : "Mastodon"
-   display : "speculativeartsresearch.com/@max"
+   display : "mastodon"
    url     : "https://m.speculativeartsresearch.com/@max"
 
  - icon    : "fa-linkedin"
