@@ -1,5 +1,6 @@
 ---
 name          : Max Razdow
+group         : All Possible Pathways
 occupation    : Artist, Writer & Teacher
 participation : Resident
 season        : Fall 2019

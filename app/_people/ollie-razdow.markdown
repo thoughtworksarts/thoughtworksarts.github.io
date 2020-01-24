@@ -1,5 +1,6 @@
 ---
 name          : Ollie Razdow
+group         : All Possible Pathways
 occupation    : Programmer & Musician
 participation : Resident
 season        : Fall 2019

@@ -1,5 +1,6 @@
 ---
 name          : Jamie Zigelbaum
+group         : All Possible Pathways
 occupation    : Artist, Designer & Engineer
 participation : Resident
 season        : Fall 2019
