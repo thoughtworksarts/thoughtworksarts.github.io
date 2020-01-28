@@ -75,6 +75,8 @@ As a result, Karen can add new detectable emotions to the experience, and can ad
 
 The *RIOT* experience works with a deep neural net toolkit for emotion analysis, created by ThoughtWorks, named *EmoPy*. The system has [been made open source](https://github.com/thoughtworksarts/EmoPy) in order to provide free access beyond existing closed-box commercial implementations, both widening access and encouraging debate.
 
+As of 2019, EmoPy is [featured as a ThoughtWorks project on the Open Source homepage](https://www.thoughtworks.com/open-source).
+
 Karen's previous work with [Dr. Hongying Meng](https://www.brunel.ac.uk/people/hongying-meng) of Brunel University, London, was refined and developed as part of the piece. This includes his research and implementation of new facial expression analysis techniques.
 
 {% include image file='riot-2.jpg'
