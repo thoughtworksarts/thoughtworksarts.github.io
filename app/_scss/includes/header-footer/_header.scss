@@ -85,9 +85,9 @@ body.site-banner.landing-page {
 	}
 
 	.strap {
-		position: absolute; bottom: 0.2em; right: -1.1em;
+		position: absolute; bottom: 0.1em; right: -1.3em;
 		font-style: italic;
-		color: $grey-mid;
+		color: $grey-dark;
 	}
 
 	.social-links {
@@ -208,10 +208,6 @@ body.site-banner.landing-page {
 			height: 5.8em;
 		}
 
-		.logo {
-			margin: 13px 18px;
-		}
-
 		.strap {
 			right: -1.6em;
 		}
@@ -225,10 +221,6 @@ body.site-banner.landing-page {
 
 		.logo img {
 			height: 5.8em;
-		}
-
-		.logo {
-			margin: 13px 18px;
 		}
 
 		.navigation {
