@@ -26,7 +26,7 @@ team :
   - name : Whelan Workmaster
     role : Software Developer
   - name : Scatter
-    role : Production Studio
+    role : Creative Company
     position : "1"
 ---
 _A Father's Lullaby_ is a multi-platform, community engaged project highlighting the role of men in raising children and their absence due to racial disparities in the criminal justice system.
