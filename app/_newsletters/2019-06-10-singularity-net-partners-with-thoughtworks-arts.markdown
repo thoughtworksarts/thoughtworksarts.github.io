@@ -67,7 +67,7 @@ Rashin will be in residence at ThoughtWorks Arts through September 27, 2019, and
 
 We've recently launched our much awaited [new website](https://thoughtworksarts.io/). We feel this revamping better presents our extended programming and is easier to navigate as projects evolve. Please take a look around, and feel free to let us know what you think.
 
-### News from Past ThoughtWorks Arts Residents
+## News from Past ThoughtWorks Arts Residents
 
 **Karen Palmer** was the keynote at [AT&TShape](https://shape.att.com/): Where AI Meets Next-Gen Immersive Storytelling. She was also [interviewed by PCMag](https://www.pcmag.com/news/369219/at-t-shape-where-ai-meets-next-gen-immersive-storytelling?fbclid=IwAR1E3o0dLSEf-tZqRuqw4I9PoJAwZijGOYYuqfcMKYurBMc10WPO9D623WI) where they chatted about VR filmmaking and AI-powered storytelling. The article also included a GitHub link to the EmoPy code developed during her residency
 
@@ -87,7 +87,7 @@ We've recently launched our much awaited [new website](https://thoughtworksarts.
 
 Moon is curious to see how this transition plays out, while looking forward to experiencing movement through new forms in the future.
 
-### Updates from Art-A-Hack™ Alumni
+## Updates from Art-A-Hack™ Alumni
 
 **Rena Anakwe**, Artist-In-Resident at [Issue Project Room](https://issueprojectroom.org/), will present [Fast Forward to Silence](https://www.brownpapertickets.com/event/4248909), her second commissioned project, on July 11th.
 
@@ -97,7 +97,7 @@ Moon is curious to see how this transition plays out, while looking forward to e
 
 **Filip Baba** ran a community [XR jam](https://www.eventbrite.com/e/unitynyc-xr-jam-2019-tickets-59015269259) on April 26 at [RLab](https://www.rlab.nyc/), a warehouse-sized venue which is the first city-funded VR/AR center in the country.
 
-### Presentations
+## Presentations
 {% include image file='ellen-pearlman.jpg'
    alt='Ellen Pearlman at UN/GREEN'
    caption='Ellen Pearlman presenting Art-A-Hack projects at UN/GREEN in Latvia - photo by Elke Reinhuber'
@@ -111,12 +111,12 @@ Moon is curious to see how this transition plays out, while looking forward to e
 %}
 **Andrew McWilliams** was invited to give a lightning talk on the emotional detection and open source project, EmoPy, at [Creative Tech Week NY](http://creativetechweek.nyc/) in May. [You can now watch a video](https://www.youtube.com/watch?v=4FRgdbsFvTo&fbclid=IwAR2NmrLw_vE91YekYvMuf0HSD7pWbpQpOKO4-ckPCH29LYCRdufRU9ive1w) of it online and learn about how it was developed, and the considerations that went into detectiong emotions.
 
-### Publications
+## Publications
 **Ellen Pearlman:** [The Resurgence of Russian Cosmism](https://www.mitpressjournals.org/toc/pajj/41/2?fbclid=IwAR3ssrh_xF08CUIjyJyH_s9PflTnhmq5KkRDwoYqKM21KkvMkHuIiDgS3tQ) - Performance Arts Journal, MIT Press.
 
 **Catie Cuan, Ellen Pearlman, and Andrew McWilliams:** [OUTPUT: Translating Robot and Human Movers Across Platforms in a Sequentially Improvised Performance -](http://aisb2019.machinemovementlab.net/MTSB2019_Cuan_Pearlman_McWilliams.pdf?fbclid=IwAR1zcOPi8G4l2E3D89hNuv6X2EPWSyQp50eKkWe40NeRn7cBFs-TEo45sms) From the 2019 AISB (The Society for the Study of Artificial Intelligence and Simulation of Behaviour) Machine Movement Lab at Falmouth University, UK.
 
-### Blog Posts
+## Blog Posts
 * [Rashin Fahandej Awarded Volumetric Filmmaking Residency](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) by the Residency Team
 * [Why We Are Investigating the Democratization of AI via Blockchain](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/) by the Residency Directors
 * [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team

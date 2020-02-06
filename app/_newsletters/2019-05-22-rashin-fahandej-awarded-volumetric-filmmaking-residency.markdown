@@ -74,7 +74,7 @@ Visit our [Open Call: Blockchain & AI page](https://thoughtworksarts.io/open-cal
 
 **Ellen Pearlman** is scheduled to present a paper at the world renowned [ISEA (International Society Of Electronic Art)](http://isea2019.isea-international.org/) 2019, on her work with connecting brain computer interfaces to AI. This year ISEA will take place in Gwangju, Republic of Korea, June 22th-28th.
 
-**Andrew McWilliams** presented *RIOT: Recognizing Human Facial Expressions In A Climate Of Fear* for a lightnig talk at [Creative Tech Week NYC](https://www.eventbrite.com/e/ctw2019-conference-creative-tech-week-tickets-59667017656)
+**Andrew McWilliams** presented *RIOT: Recognizing Human Facial Expressions In A Climate Of Fear* for a lightning talk at [Creative Tech Week NYC](https://www.eventbrite.com/e/ctw2019-conference-creative-tech-week-tickets-59667017656)
 
 ## Publications
 **Ellen Pearlman:** [The Resurgence of Russian Cosmism](https://www.mitpressjournals.org/toc/pajj/41/2?fbclid=IwAR3ssrh_xF08CUIjyJyH_s9PflTnhmq5KkRDwoYqKM21KkvMkHuIiDgS3tQ) - Performance Arts Journal, MIT Press.

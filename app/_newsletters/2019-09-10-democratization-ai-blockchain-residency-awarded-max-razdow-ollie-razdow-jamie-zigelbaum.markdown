@@ -72,14 +72,14 @@ We're thrilled to announce that both Ellen Pearlman and Rashin Fahandej have bee
 
 American Arts Incubator (AAI) is an exchange program created for new media and digital artists to collaborate with communities abroad, and to develop community-driven public art projects that address a multitude of challenges at the local level.
 
-### News from Past ThoughtWorks Arts Residents
+## News from Past ThoughtWorks Arts Residents
 
 **Moon Ribas** is a jury member for this year’s [Prix Ars Electronica](https://ars.electronica.art/aeblog/en/2019/03/06/prixjury2019/).
 
 **Karen Palmer** was the keynote at [AT&TShape](https://shape.att.com/): Where AI Meets Next-Gen Immersive Storytelling. She was also [interviewed by PCMag](https://www.pcmag.com/news/369219/at-t-shape-where-ai-meets-next-gen-immersive-storytelling) where they chatted about VR filmmaking and AI-powered storytelling. The article also included a GitHub link to the EmoPy code developed during her residency
 
 
-### Updates from Art-A-Hack™ Alumni
+## Updates from Art-A-Hack™ Alumni
 **Sonya Yuditskaya** installed her interactive sound sculpture *Earth Bound Voyager Satelite* in the temporary metropolis of Black Rock City during [Burning Man 2019](https://burningman.org/event/brc/). This particular iteration was massive in scale, as she had the entire Black Rock Desert to work with. Sonya was included in our [SPRING/BREAK exhibition for Armory Week in 2018](https://thoughtworksarts.io/blog/thoughtworks-arts-exhibition-spring-break-armory-week/) where she showed *Relativity Five*, a series of table-top heart sensing and reflecting light sculptures.
 
 **Gene Kogan** will be teaching The Neural Aesthetic at [ITP NYU](https://forms.tisch.nyu.edu/page/s/itp-landing) this fall.
@@ -88,7 +88,7 @@ American Arts Incubator (AAI) is an exchange program created for new media and d
 
 **Rena Anakwe**, Artist-In-Resident at [Issue Project Room](https://issueprojectroom.org/), presented [Fast Forward to Silence](https://www.brownpapertickets.com/event/4248909), her second commissioned project, on July 11th.
 
-### Presentations
+## Presentations
 
 {% include image file='xconf-brazil.jpg'
    alt='Person standing no stage'
@@ -105,12 +105,12 @@ American Arts Incubator (AAI) is an exchange program created for new media and d
 
 **Andrew McWilliams** was invited to give a lightning talk on the emotional detection and open source project, EmoPy, at [Creative Tech Week NY](http://creativetechweek.nyc/) in May. [You can now watch a video](https://www.youtube.com/watch?v=4FRgdbsFvTo) of it online and learn about how it was developed, and the considerations that went into detecting emotions.
 
-### Publications
+## Publications
 **Ellen Pearlman:** [The Resurgence of Russian Cosmism](https://www.mitpressjournals.org/toc/pajj/41/2) - Performance Arts Journal(PAJ), MIT Press.
 
 **Catie Cuan, Ellen Pearlman, and Andrew McWilliams:** [OUTPUT: Translating Robot and Human Movers Across Platforms in a Sequentially Improvised Performance -](http://aisb2019.machinemovementlab.net/MTSB2019_Cuan_Pearlman_McWilliams.pdf) From the 2019 AISB (The Society for the Study of Artificial Intelligence and Simulation of Behaviour) Machine Movement Lab at Falmouth University, UK.
 
-### Blog Posts
+## Blog Posts
 * [Rashin Fahandej Awarded Volumetric Filmmaking Residency](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) by the Residency Team
 * [Why We Are Investigating the Democratization of AI via Blockchain](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/) by the Residency Directors
 * [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team

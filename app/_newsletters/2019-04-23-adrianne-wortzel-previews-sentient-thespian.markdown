@@ -41,13 +41,13 @@ These weekly events have attracted hackers and filmmakers of all backgrounds who
 
 Hardware Hack Lab is open to the public every Wednesday from 6:30pm - 9:30pm, located at ThoughtWorks Inc. 99 Madison Ave, 15th floor, New York, NY.
 
-### News From Past ThoughtWorks Arts Residents
+## News From Past ThoughtWorks Arts Residents
 
 **Moon Ribas** will be a juror for this year’s [Prix Ars Electronica](https://ars.electronica.art/aeblog/en/2019/03/06/prixjury2019/).
 
 **Heather Dewey-Hagborg** co-curated [_Refiguring The Future_](https://refreshart.tech/#why), a politically engaged exhibition focusing on inclusion, and how the intersection of art, science and technology is an explicitly key force in radical change. This was [REFRESH’s](https://refreshart.tech/#about) inaugural exhibition, which received a Catherine T. MacArthur Foundation grant.
 
-### Updates From Art-A-Hack™ Alumni
+## Updates From Art-A-Hack™ Alumni
 
 **Tyler Parker** had a debut as a tenor in Frederick Fleet in [The Village Light Opera Group](https://villagelightopera.org/) presents: TITANIC the Musical!
 
@@ -57,15 +57,15 @@ Hardware Hack Lab is open to the public every Wednesday from 6:30pm - 9:30pm, lo
 
 **Filip Baba** is running a community [XR jam](https://www.eventbrite.com/e/unitynyc-xr-jam-2019-tickets-59015269259) on April 26 at [RLab](https://www.rlab.nyc/), a warehouse-sized venue which is the first city-funded VR/AR center in the country.
 
-### Presentations
+## Presentations
 
-**Andrew McWilliams** will present _RIOT: Recognizing Human Facial Expressions In A Climate Of Fear_ for a lightnig talk at [Creative Tech Week NYC](https://www.eventbrite.com/e/ctw2019-conference-creative-tech-week-tickets-59667017656) on May 10th at 3pm.
+**Andrew McWilliams** will present _RIOT: Recognizing Human Facial Expressions In A Climate Of Fear_ for a lightning talk at [Creative Tech Week NYC](https://www.eventbrite.com/e/ctw2019-conference-creative-tech-week-tickets-59667017656) on May 10th at 3pm.
 
-### Publications
+## Publications
 
 **Andrew McWilliams, Ellen Pearlman, and Catie Cuan:** [OUTPUT: Translating Robot and Human Movers Across Platforms in a Sequentially Improvised Performance -](http://aisb2019.machinemovementlab.net/MTSB2019_Cuan_Pearlman_McWilliams.pdf?fbclid=IwAR1zcOPi8G4l2E3D89hNuv6X2EPWSyQp50eKkWe40NeRn7cBFs-TEo45sms) From the 2019 AISB (The Society for the Study of Artificial Intelligence and Simulation of Behaviour) Machine Movement Lab at Falmouth University, UK.
 
-### Blog Posts
+## Blog Posts
 
 *   [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 *   [EmoPy: A Machine Learning Toolkit For Emotional Expression](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) by Angelica Perez
