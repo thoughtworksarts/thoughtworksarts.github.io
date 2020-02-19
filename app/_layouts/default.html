@@ -23,6 +23,8 @@
   {% assign description = page.description %}
 {% endif %}
 
+{% capture meta-date %}{{ page.date | date: "%Y-%m-%dT12:00:00Z" }}{% endcapture %}
+
 {% if page.url contains site.banner-url or page.url == '/' %}
   {% assign display-banner = false %}
 {% else %}
@@ -54,6 +56,9 @@
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:image" content="{{ image }}" />
   <meta property="og:description" content="{{ description }}" />
+  {% unless meta-date == '' %}
+  <meta property="article:published_time" content="{{ meta-date }}"/>
+  {% endunless %}
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
