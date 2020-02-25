@@ -1,3 +1,4 @@
+ruby '2.5.3', patchlevel: '105'
 source "http://rubygems.org"
 
 gem "jekyll", ">= 3.7.4"
