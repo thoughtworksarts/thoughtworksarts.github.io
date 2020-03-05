@@ -4,7 +4,7 @@ title	   : "Simulacra & Similitude: Synthetic Media Open Call"
 description: Open Call for a Synthetic Media residency, hosted by ThoughtWorks Arts in New York City
 image      : /images/posts-special/open-call/2020-synthetic-media/og_synthetic.jpg
 ---
-Residency Dates: May 4 - August 1, 2020
+Residency Dates: May 4 - August 21, 2020
 
 ThoughtWorks, a global software consultancy with an arts residency based in New York City seeks an artist/technologist who works in their art practice with issues of synthetic media and deepfakes. The artist does not need to be an expert in machine learning or programming, but it is helpful if the artist has a basic understanding and some level of experience in or familiarity with visual, sonic and algorithmic technologies. A network of interested or supportive partners would also be a big plus.
 
