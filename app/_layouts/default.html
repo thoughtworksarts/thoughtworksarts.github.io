@@ -20,7 +20,7 @@
 {% if description == '' %}
   {% assign description = 'ThoughtWorks Arts is a unique creative research laboratory, incubating artist and technologist collaborations, exploring impacts of emerging technologies on industry, culture and society.' %}
 {% else %}
-  {% assign description = page.description %}
+  {% assign description = page.description | escape %}
 {% endif %}
 
 {% capture meta-date %}{{ page.date | date: "%Y-%m-%dT12:00:00Z" }}{% endcapture %}
