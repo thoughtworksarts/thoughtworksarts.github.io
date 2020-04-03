@@ -3,7 +3,7 @@ title  : "Rachel Uwa Shares the Origins of Her Berlin Art and Technology School"
 ---
 Rachel Uwa, founder of the [School of Machines, Making and Make-Believe](http://schoolofma.org/), presented as a guest of ThoughtWorks Arts in Germany. The event took place about two weeks before Berlin began shuttering public gatherings due to COVID-19.
 
-{% include youtube id='MajF7RIWpps'
+{% include youtube id='Ik8RSxdVYLo'
    ratio='56'
    caption='Rachel Uwa of the School of Machines, Making and Make-Believe' %}
 
