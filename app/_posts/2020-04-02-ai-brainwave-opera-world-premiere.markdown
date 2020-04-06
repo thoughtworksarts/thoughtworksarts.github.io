@@ -1,28 +1,26 @@
 ---
 title  : "A.I. Brainwave Opera Has World Premiere at the Estonian Academy of Music"
 ---
-Ellen Pearlman's new emotionally intelligent, artificially intelligent brainwave opera "AIBO" had its world premiere on February 22nd at the Estonian Academy of Music's [state of the art Black Box Theater](https://estonianworld.com/culture/the-estonian-academy-of-music-and-theatre-opens-a-new-concert-and-performance-centre/) in Tallinn.
+Ellen Pearlman's new "emotionally intelligent artificially intelligent" brainwave opera _AIBO_ had its world premiere on February 22nd at the Estonian Academy of Music's [state of the art Black Box Theater](https://estonianworld.com/culture/the-estonian-academy-of-music-and-theatre-opens-a-new-concert-and-performance-centre/) in Tallinn.
 
 {% include image file='brain-opera-1.jpg'
-   caption='Sniedze Strauta performing at the premiere (photo by Taavet Jansen)' %}
+   caption='Sniedze Strauta performing at the premiere wearing a bodysuit of light. AIBO’s emotion of frustration (red) is in the background (photo by Taavet Jansen)' %}
 
-The opera imagines Artificial Intelligence merging with fascism and love, and asks if epigenetics, or inherited traumatic memory can exist in AI. Human emotions are displayed on a bodysuit of light, and synthetic emotions display as red light in the performance space. 
+The opera investigates Artificial Intelligence and its effects on both fascism and love. In the performance viewers take part in an interaction between Eva, played by actor Sniedze Strauta, and AIBO, a ‘sicko’ AI. Eva is wearing an [Emotiv EEG brainwave headset](https://www.emotiv.com/) connected to a bodysuit of light, designed by smart textiles designer Dila Demir.
 
 <!--excerpt-ends-->
 
-In the performance, viewers take part in an interaction between _Eva_, played by actor Sniedze Strauta, and _AIBO_, a 'sicko' AI. Eva is wearing an [Emotiv EEG brainwave headset](https://www.emotiv.com/) connected to a bodysuit of light, which was designed by smart textiles designer Dila Demir.
-
 The spoken word libretto between the AIBO and Eva explores the troubled history of their love affair. The audience watches Eva's EEG brainwave emotional states manifest as colors on her bodysuit. For example, yellow lights indicate excitement, purple refers to interest, green for meditation and red for frustration.
 
-Meanwhile, emotionally themed databanks of videos and music, also driven by Eva's brainwaves, are projected onto hanging screens and played through speakers throughout the venue.
+Emotionally themed databanks of videos and music, also driven by Eva's brainwaves, are projected onto hanging screens and played throughout the theater.
 
-{% include youtube id='jA3-hVSFO2I'
+{% include youtube id='18tqDS0VelM'
    ratio='56'
-   caption='A two-minute clip from AIBO\'s premiere' %}
+   caption='A short clip from AIBO\'s premiere' %}
 
-Eva's spoken word libretto is converted to text, which is both projected onto a screen and uploaded to Google Cloud. There, AIBO's response is generated via a custom built [GPT-2 AI](https://openai.com/blog/better-language-models/), created by Pearlman and programmed by ThoughtWorks developers Jonathan Heng, Wasawat Somno and Andrew Zhou, with help from technical director Hans Gunter Lock.
+Eva's spoken word libretto is converted to text, which is both projected onto a screen and uploaded to the Google Cloud. There, AIBO's response is generated via a custom built [GPT-2 AI](https://openai.com/blog/better-language-models/), created by Pearlman and programmed by ThoughtWorks developers Jonathan Heng, Wasawat Somno and Andrew Zhou, with help from technical director Hans Gunter Lock.
 
-AIBO's response is projected on another screen as text in the performance space, and simultaneously sonified as artificial speech. In addition, AIBO's response is analyzed for its emotional sentiment, and categorized as positive, negative or neutral. Positive sentiments display as a green light, negative as red, and neutral as yellow.
+AIBO's response is projected as text on the same screen as Eva’s text, so the audience can read along. It is also sonified into artificial speech so the audience hears it. AIBO's response is analyzed for its emotional sentiment, and categorized as positive, negative or neutral. Positive sentiments display as a green light, negative as red, and neutral as yellow. This analysis is of a synthetic being’s synthetic emotions, as opposed to the very real and visceral emotions displayed live time on Eva’s body.
 
 Further, Pearlman explains that "AIBO attempts to emulate Eva's projected visual memories to make them it's own. It wants to become human, not 'sicko', but can only create broken video simulations. This allows viewers a glimpse into fractured memories."
 
@@ -43,9 +41,9 @@ In 2019, Pearlman received the European Union's prestigious [Vertigo Starts Resi
    ratio='56'
    caption='AIBO developmental highlight reel 2019, filmed by Mary Marinopoulou' %}
 
-From the summer 2019 through the winter of 2020, Pearlman worked with the [Human-Computer Interaction Lab at Tallinn University](https://www.tlu.ee/en/humancomputerinteraction) under the aegis of [GoProSocial](https://vertigo.starts.eu/calls/starts-residencies-call-3/projects/goprosocial/detail/), led by Aleksandar Väljamäe,  the [Estonian Academy of Art](https://www.artun.ee/en/home/) and the [Estonian Academy of Music and Theater](https://eamt.ee/en/).
+From the summer 2019 through the winter of 2020, Pearlman worked with the [Human-Computer Interaction Lab at Tallinn University](https://www.tlu.ee/en/humancomputerinteraction) under the aegis of [GoProSocial](https://vertigo.starts.eu/calls/starts-residencies-call-3/projects/goprosocial/detail/), led by Aleksandar Väljamäe. She also collaborated with the [Estonian Academy of Art](https://www.artun.ee/en/home/) and the [Estonian Academy of Music and Theater](https://eamt.ee/en/).
 
-Technical director Hans Gunter Lock worked with Pearlman to develop a [MaxMSP](https://cycling74.com/products/max/) speech-to-text feedback display as a mode of connection between the performer and the AIBO character in the Google Cloud.
+Technical director Hans Gunter Lock worked with Pearlman developing, among a number of tools, a [MaxMSP](https://cycling74.com/products/max/) speech-to-text feedback display as a mode of connection between the performer and the AIBO character in the Google Cloud.
 
 Rehearsals and specialized training were conducted with Strauta, including training in contact improvisation. Pearlman then worked with Heng, based in Singapore, Sonmo, based in Thailand and Zhou based in Texas to develop and test the GPT-2 database that formed the backbone of the AIBO character. 
 
