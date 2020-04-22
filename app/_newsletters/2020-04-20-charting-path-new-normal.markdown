@@ -1,5 +1,6 @@
 ---
 title : "Charting a Path in the New Normal"
+image : "nouf-aljowaysir-james-coupe.jpg"
 ---
 Dear Friends: We hope you and yours are staying safe and healthy as we all face and adjust to the new realities of life.
 
