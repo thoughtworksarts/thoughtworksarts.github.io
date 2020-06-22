@@ -4,7 +4,7 @@ occupation    : Artist
 participation : Resident
 season        : Summer 2020
 teaser        :
-   <p>Nouf is a Saudi-born, New York-based artist, creative coder and lead AI researcher at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots.</p>
+   <p>Nouf is a Saudi-born, New York-based artist, a lead researcher and developer in creative applications of AI at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots.</p>
    <p>Her work has been shown in galleries and festivals in the US and Europe, including the International Documentary Festival Amsterdam (IDFA), SXSW in 2019, and was selected for a Sundance New Frontier Story Lab Residency.</p>
 
 order-within-season: 1
@@ -61,7 +61,7 @@ links:
    url     : "https://github.com/noufali"
 
 ---
-Nouf is a Saudi-born, New York-based artist, creative coder and lead AI researcher at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots. With a light sense of humor and irony, Nouf's projects criticize how rapid technological advances have become a means of domination, control, and exploitation.
+Nouf is a Saudi-born, New York-based artist, a lead researcher and developer in creative applications of AI at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots. With a light sense of humor and irony, Nouf's projects criticize how rapid technological advances have become a means of domination, control, and exploitation.
 
 Her work has been shown in galleries and festivals in the US and Europe, including the International Documentary Festival Amsterdam (IDFA), SXSW in 2019, and was selected for a Sundance New Frontier Story Lab Residency.
 

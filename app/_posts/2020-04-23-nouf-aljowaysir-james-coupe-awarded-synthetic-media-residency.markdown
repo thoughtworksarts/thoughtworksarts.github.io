@@ -13,7 +13,7 @@ Our external partners for this residency are [MIT Open Doc Lab](http://opendocla
 Nouf and James’ innovative art practices possess different approaches to critical issues within synthetic media models, as they both challenge human-machine relationships in socially active ways.
 
 ## Nouf Aljowaysir
-Nouf is a [Saudi-born, New York-based artist](http://www.noufaljowaysir.com/), creative coder and lead AI researcher at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots. With a light sense of humor and irony, Nouf’s projects criticize how rapid technological advances have become a means of domination, control, and exploitation.
+Nouf is a [Saudi-born, New York-based artist](http://www.noufaljowaysir.com/), a lead researcher and developer in creative applications of AI at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots. With a light sense of humor and irony, Nouf’s projects criticize how rapid technological advances have become a means of domination, control, and exploitation.
 
 {% include image file='alexa-call-mom.jpg'
    caption='From Nouf Aljowaysir’s 2019 “Alexa, Call Mom” - an installation to contact the Beyond through Alexa'%}
