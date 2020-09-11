@@ -1,9 +1,9 @@
 <li class="feature-{{ feature.feature-position }}">
 	<a href="{{ feature.link }}">
 		<figure>
-			<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title }}" />
+			<img src="/images/features/{{ feature.path | replace: '_features/', '' | replace: '.md', '' }}.jpg" alt="{{ feature.title | escape }}" />
 		</figure>
-		<h2>{{ feature.title }}</h2>
+		<h2>{{ feature.title | escape }}</h2>
 		{% if feature.feature-position == 1 then %}<p>{{ feature.details }}</p>{% endif %}
 	</a>
 </li>
