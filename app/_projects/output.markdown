@@ -47,7 +47,7 @@ To create this performance, Catie collaborated with ThoughtWorks developers and 
 {% include image file='andy-felix.jpg'
    caption='ThoughtWorks developers working at the Consortium for Research &amp; Robotics' %}
 
-OUTPUT was featured on [PBS NewsHour](/blog/concat-tool-feature-pbs/) in a segment on the future of work, and in an [Engadget video feature and article on robotic choreography](https://www.engadget.com/2018/10/12/robot-choreography-catie-cuan/).
+OUTPUT was [featured in the New York Times](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), on [PBS NewsHour](/blog/concat-tool-feature-pbs/) in a segment on the future of work, and in an [Engadget video feature and article on robotic choreography](https://www.engadget.com/2018/10/12/robot-choreography-catie-cuan/).
 
 The project was also demonstrated at the TED Education Weekend in October, 2018, and at Pioneer Works Second Sunday in April, 2019, and at the Dance USA Conference in June, 2019.
 
