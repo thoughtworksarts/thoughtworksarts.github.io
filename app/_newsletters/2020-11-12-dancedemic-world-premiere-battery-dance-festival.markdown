@@ -84,7 +84,7 @@ To illustrate the power of this type of research, arts resident Nouf Aljowaysir 
 
 [To learn more about the live-streamed event and ReThink, read our latest blog](/blog/confront-unknown-research-service-design/).
 
-**Andrew McWilliams** presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at ThoughtWorks Berlin in early March, where  Rachel Uma, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?v=Ik8RSxdVYLo) also spoke. 
+**Andrew McWilliams** presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at ThoughtWorks Berlin in early March, where  Rachel Uwa, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?v=Ik8RSxdVYLo) also spoke. 
 
 In London, Andrew gave a talk on [*The origin of ClimateAction.tech*](https://www.youtube.com/watch?v=YEJ4Pu8c6bk) - an initiative he helped build to support and engage the entire tech sector in addressing the climate crisis.
 
