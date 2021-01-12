@@ -1,5 +1,5 @@
 ---
-title  : "New York Times Features Catie Cuan's Project With ThoughtWorks Arts"
+title  : "ThoughtWorks Arts Presents at Bozar Labs in Line With STARTS Prize 2020"
 ---
 In congruence with the [Starts Prize 2020 exhibition held at Bozar](https://www.bozar.be/en/activities/168310-starts-prize-20) this Fall, [Bozar Lab](https://www.bozar.be/en/homepages/129187-lab) organized a webinar on the topic of artist and technologist collaborations as a model for innovation.
 
