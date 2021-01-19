@@ -3,8 +3,7 @@ title  : "ThoughtWorks Arts Presents at Bozar Labs in Line With STARTS Prize 202
 ---
 In congruence with the [Starts Prize 2020 exhibition held at Bozar](https://www.bozar.be/en/activities/168310-starts-prize-20) this Fall, [Bozar Lab](https://www.bozar.be/en/homepages/129187-lab) organized a webinar on the topic of artist and technologist collaborations as a model for innovation.
 
-{% include youtube id='A-0kN5iEJV8'
-   caption='Catie working on-site with the industrial robot arm' %}
+{% include youtube id='A-0kN5iEJV8' %}
 
 Artist and ThoughtWorks Arts A.I. resident, Karen Palmer ([Storyteller From The Future](http://storytellerfromthefuture.com/)), presented her immersive film project [Perception IO](https://thoughtworksarts.io/blog/karen-palmer-exhibits-perception-cooper-hewitt-design-museum-nyc/), and shared how it explores the intersection of A.I., bias, policing, and new, innovative forms of storytelling.
 
