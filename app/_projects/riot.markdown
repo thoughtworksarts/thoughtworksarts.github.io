@@ -2,7 +2,7 @@
 title       : RIOT
 season      : Winter 2018
 
-description : An emotionally responsive live-action film which positions viewers in a dangerous riot in progress. The narrative branches based on facial cues, using artificial intelligence.
+description : An interactive film experience which positions viewers in a riot in progress. The narrative branches based on viwere's emotional facial expressions.
 image       : /images/projects/riot/og.jpg
 
 artist      : Karen Palmer
@@ -51,29 +51,29 @@ extended-team :
 
 ---
 
-*RIOT* is an immersive, emotionally responsive, live-action film that positions viewers in the middle of a riot in progress. The film responds to participants’ emotional state using artificial intelligence, altering the video story journey in real-time.
+*RIOT* is an immersive, emotionally responsive, live-action film that positions viewers in the middle of a riot in progress. The film responds to participants’ emotional expressions using artificial intelligence, altering the video story journey in real-time.
 
 {% include image file='riot-1.jpg'
    caption='An audience member experiencing the *RIOT* installation' %}
 
-The *RIOT* film installation experience reveals to viewers how they might react in the face of imminent danger. A webcam or camera is used to monitor each viewer’s facial characteristics as they watch the film, and the video narrative responds accordingly.
+The *RIOT* film installation experience allows viewers to consider how they might react in the face of imminent danger. A webcam or camera is used to monitor each viewer’s facial characteristics as they watch the film, and the video narrative responds accordingly.
 
-For example, if the viewer becomes agitated, the character in the film responds defensively or impatiently. The same is true for a number of other emotional responses, like calmness or fear.
+For example, if the viewer appears agitated, the character in the film responds defensively or impatiently. The same is true for a number of other assessed emotional expressions, such as calmness or fear.
 
 {% include image file='developers.jpg'
    caption='Karen working with ThoughtWorks developers Sofia Tania and Angelica Perez' %}
 
-*RIOT* provides feedback into the complex cultural issues surrounding split second decisions in times of actual crisis. It places viewers at the center of a provocative story for which there are a number of potential live time scenarios which may triggered by their authentic reaction.
+*RIOT* provides feedback into complex cultural issues surrounding split second decisions in times of actual crisis. It places viewers at the center of a provocative story for which there are a number of potential live time scenarios which may triggered by their authentic reaction.
 
 ## Development of a New Prototype
-During her time at the ThoughtWorks Arts Residency, Karen worked with ThoughtWorks developers on a [new machine learning-based facial expression detection system](https://github.com/thoughtworksarts/EmoPy), and on enhancing the [storyline management](https://github.com/thoughtworksarts/riot-storyline-manager) and [*RIOT* user experience](https://github.com/thoughtworksarts/riot).
+During her time at the ThoughtWorks Arts Residency, Karen worked with ThoughtWorks developers on a [new machine learning-based facial expression analysis system](https://github.com/thoughtworksarts/EmoPy), and on enhancing the [storyline management](https://github.com/thoughtworksarts/riot-storyline-manager) and [*RIOT* user experience](https://github.com/thoughtworksarts/riot).
 
-As a result, Karen can add new detectable emotions to the experience, and can add new narrative layers to the *RIOT* prototype via a custom-built user interface.
+As a result, Karen can add new emotional expressions to the experience, and can add new narrative layers to the *RIOT* prototype via a custom-built user interface.
 
 {% include image file='open-studios.jpg'
    caption='Karen at one of her regular \'Open Studios\'' %}
 
-The *RIOT* experience works with a deep neural net toolkit for emotion analysis, created by ThoughtWorks, named *EmoPy*. The system has [been made open source](https://github.com/thoughtworksarts/EmoPy) in order to provide free access beyond existing closed-box commercial implementations, both widening access and encouraging debate.
+The *RIOT* experience works with a deep neural net toolkit for emotional expression analysis, created by ThoughtWorks, named *EmoPy*. The system has [been made open source](https://github.com/thoughtworksarts/EmoPy) in order to provide free access beyond existing closed-box commercial implementations, both widening access and encouraging debate.
 
 As of 2019, EmoPy is [featured as a ThoughtWorks project on the Open Source homepage](https://www.thoughtworks.com/open-source).
 
