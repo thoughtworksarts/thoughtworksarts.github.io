@@ -3,7 +3,7 @@ title       : Perception iO
 season      : Winter 2019
 
 description : An immersive interactive film project exploring AI, bias, neuroscience, behavioral psychology, film, social justice, and the future of law enforcement.
-image       : /images/projects/riot/og.jpg
+image       : /images/projects/perception-io/og.jpg
 
 artist      : Karen Palmer
 
