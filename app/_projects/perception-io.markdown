@@ -71,7 +71,7 @@ Like RIOT, Perception iO aims to expand access to AI technologies already in use
 
 ThoughtWorks developers guided the technical development, by increasing the accuracy of EmoPy, and creating a new branching logic system which allows for multiple modalities of experience with different film characters. The developers designed the installation code and set up the prototype at the Cooper Hewitt Smithsonian Museum ready for public viewing.
 
-## Exhibitions and Publicatio
+## Exhibitions and Publications
 
 {% include image file='perception-screen.jpg'
    caption='A still shot from Perception iO' %}
