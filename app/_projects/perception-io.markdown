@@ -9,20 +9,20 @@ artist      : Karen Palmer
 
 team :
   - name : Tom Shannon
-    role : IDK
+    role : Developer & Researcher
     position : "1"
-  - name : J.C. Holder
-    role : IDK
   - name : Margaret Plumley
-    role : IDK
-  - name : Emilio Escobedo
-    role : IDK
-  - name : Lauren O’Neal
-    role : IDK
-  - name : Megan Andrea Louw
-    role : IDK
+    role : Experience Designer
+  - name : Meg Louw
+    role : Experience Consultant
 
 extended-team :
+  - name : Emilio Escobedo
+    link : https://www.linkedin.com/in/emilio-escobedo/
+  - name : Lauren O’Neal
+    link : https://www.linkedin.com/in/laurenaoneal/
+  - name : J.C. Holder
+    link : https://www.linkedin.com/in/jcholder2
   - name : Dan Lewis-Toakley
     link : https://www.linkedin.com/in/danlewistoakley/
   - name : Stephanie Weber
