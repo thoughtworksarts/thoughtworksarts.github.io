@@ -1,7 +1,7 @@
 ---
 title  : "Recognizing Human Facial Expressions With Machine Learning"
 author : Angelica Perez
-tags   : [riot]
+tags   : [riot, perception-io]
 ---
 Machine learning systems can be trained to recognize emotional expressions from images of human faces, with a high degree of accuracy in many cases.
 

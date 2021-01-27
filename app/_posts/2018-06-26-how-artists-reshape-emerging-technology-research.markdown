@@ -32,7 +32,7 @@ At the height of the European Renaissance period in the 15th Century, artists li
 
 These artists performed rigorous analytical study, working with physicians and even dissecting corpses themselves. Their investigations [surpassed much of the knowledge](https://www.metmuseum.org/toah/hd/anat/hd_anat.htm) of anatomy taught in universities at the time, and merged anatomical with architectural concepts &mdash; such as plan, section, elevation, and perspective &mdash; producing a new vocabulary for scientific illustration.
 
-The value of these contributions is hard to overstate. Achievements like these leap across domains, producing new foundations which are then built on anew for the betterment of all society. 
+The value of these contributions is hard to overstate. Achievements like these leap across domains, producing new foundations which are then built on anew for the betterment of all society.
 
 ## Detecting the Signals Today
 

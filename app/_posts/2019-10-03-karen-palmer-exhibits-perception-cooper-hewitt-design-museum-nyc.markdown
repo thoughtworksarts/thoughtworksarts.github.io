@@ -1,5 +1,6 @@
 ---
 title  : "Karen Palmer Exhibits at Cooper Hewitt, Smithsonian Design Museum in New York"
+tags   : perception-io
 ---
 Karen Palmer, working with a team at ThoughtWorks Arts, is exhibiting her recent project *Perception iO* at the [Cooper Hewitt Design Museum](https://www.cooperhewitt.org/events/current-exhibitions/face-values/) in New York, Sept. 20, 2019 - May 17, 2020.
 

@@ -1,7 +1,7 @@
 ---
 title  : "EmoPy: A Machine Learning Toolkit For Emotional Expression"
 author : Angelica Perez
-tags   : [riot]
+tags   : [riot, perception-io]
 ---
 I recently led a project team at ThoughtWorks to create and open source a new [Facial Expression Recognition (FER)](/blog/recognizing-facial-expressions-machine-learning) toolkit named [EmoPy](https://github.com/thoughtworksarts/EmoPy). The system produces accuracy rates comparable to the highest rates achievable in FER, and is now available for anyone to use for free.
 
