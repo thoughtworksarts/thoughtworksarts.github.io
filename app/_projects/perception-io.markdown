@@ -15,14 +15,14 @@ team :
     role : Experience Designer
   - name : Meg Louw
     role : Experience Consultant
+  - name : Emilio Escobedo
+    role : Software Consultant
+  - name : JC Holder
+    role : Software Development, Hardware Design
+  - name : Lauren O'Neal
+    role : Software Developer
 
 extended-team :
-  - name : Emilio Escobedo
-    link : https://www.linkedin.com/in/emilio-escobedo/
-  - name : Lauren O’Neal
-    link : https://www.linkedin.com/in/laurenaoneal/
-  - name : J.C. Holder
-    link : https://www.linkedin.com/in/jcholder2
   - name : Dan Lewis-Toakley
     link : https://www.linkedin.com/in/danlewistoakley/
   - name : Stephanie Weber
