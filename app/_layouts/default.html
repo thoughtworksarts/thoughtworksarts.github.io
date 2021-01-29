@@ -1,12 +1,12 @@
 {% if page.bodyid == 'home' %}
   {% assign title = 'ThoughtWorks Arts' %}
 {% else %}
-  {% capture title %}{{ page.title }}{% endcapture %}
-  {% if title == '' %}
-    {% assign title = page.name | append: ' | ThoughtWorks Arts' %}
+  {% if page.bodyclass contains 'bio' %}
+    {% capture title %}{{ page.name }}{% endcapture %}
   {% else %}
-    {% assign title = page.title | append: ' | ThoughtWorks Arts' %}
+    {% capture title %}{{ page.title }}{% endcapture %}
   {% endif %}
+  {% assign title = title | strip | append: ' | ThoughtWorks Arts' %}
 {% endif %}
 
 {% capture image %}{{ page.image }}{% endcapture %}
