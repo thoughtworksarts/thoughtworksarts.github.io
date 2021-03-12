@@ -1,6 +1,6 @@
 ---
 name          : Julien Deswaef
-occupation    : Digital Artist
+occupation    : Computational Artist
 participation : Team
 role          : European Operations
 teaser        :
