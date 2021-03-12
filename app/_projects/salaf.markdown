@@ -10,22 +10,22 @@ image       : /images/projects/salaf/og.jpg
 artist      : Nouf Aljowaysir
 
 team :
-- name : Austin Garrard
-  role : Software Developer
-- name : Nikola Savic
-  role : Software Engineer
-- name : Vini Macedo
-  role : Infrastructure Consultant
-- name : Tom Shannon
-  role : Developer Consultant
+  - name : Austin Garrard
+    role : Software Developer
+  - name : Nikola Savic
+    role : Software Engineer
+  - name : Vini Macedo
+    role : Infrastructure Consultant
+  - name : Tom Shannon
+    role : Developer Consultant
 
 extended-team :
   - name: Rohit Naidu
     link: https://in.linkedin.com/in/rohitnaidu-ai
-  - name : Andrew McWilliams
-    link : /bio/andrew-mcwilliams/
-  - name : Ellen Pearlman
-    link : /bio/ellen-pearlman/
+  - name: Andrew McWilliams
+    link: /bio/andrew-mcwilliams/
+  - name: Ellen Pearlman
+    link: /bio/ellen-pearlman/
   - name: Shraddha Surana
     link: https://in.linkedin.com/in/shraddhasurana
   - name: Alwina Oyewoleturner
