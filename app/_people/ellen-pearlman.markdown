@@ -4,7 +4,7 @@ occupation    : Artist & Curator
 participation : Director
 role          : Program Director
 teaser        :
-   <p>Dr. Ellen Pearlman is a new media artist, curator writer and critic. A Fulbright World Learning Specialist in Art, New Media and Technology, she received a prestigious European Union Vertigo STARTS Laureate Award to develop her new AI Brain Opera, based on the work of her first brain Opera “Noor”, an interactive immersive performance in a 360&deg; theater. Ellen is on faculty at Parsons/New School University, and Senior Assistant Research Professor at RISEBA University in Riga, Latvia, and a contributing editor to Performance Arts Journal (MIT Press). She is also President of Art-A-Hack&trade; and Director of the Volumetric Society of New York.</p>
+   <p>Dr. Ellen Pearlman is a new media artist, curator writer and critic. A Fulbright World Learning Specialist in Art, New Media and Technology, she received a prestigious European Union Vertigo STARTS Laureate Award to develop "AIBO" an emotionally intelligent AI brainwave opera on the work of her first brain Opera “Noor”, an interactive immersive brainwave opera in a 360° theater. Ellen is a Fellow at MIT's Open Doc Labs, Senior Assistant Research Professor at RISEBA University in Riga, Latvia, and a contributing editor to Performance Arts Journal (MIT Press). She is also President of Art-A-Hack™ and Director of the Volumetric Society of New York.</p>
 
 links:
  - icon    : "fa-globe-americas"
