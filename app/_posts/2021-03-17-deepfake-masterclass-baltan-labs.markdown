@@ -22,7 +22,7 @@ The projects were driven by questions about the societal impacts of this rapidly
 
 {% include image file='team-two-prototype.jpg'
    alt='Team 2'
-   caption='Team Two\’s prototype on the visualization of \'information bubbles\’ that included examining the at the time online controversial right-wing site Parler' %}
+   caption='Team Two\'s prototype on the visualization of \'information bubbles\' that included examining the at the time online controversial right-wing site Parler' %}
 
 **Team 2** used synthetic media to frame how ‘information bubbles’, or 'echo chambers', preselect information into our social media feeds - grabbing certain content that can inflame and reinforce the  user's biases. Their project explored existing models and algorithms, making a comparison between different infospheres by constructing two identical twin personas who belonged to different types of community feeds. Their aim was to learn how information from fictional personas can be compiled, and to what extent that derived content influences a chain of responses generated from user interaction. The implications of this inquiry on information bubbles became clear with the attack on the U.S. Capital building on January 6, 2021.
 
