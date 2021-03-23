@@ -12,7 +12,7 @@ ThoughtWorks Arts and [Baltan Laboratoratories](https://www.baltanlaboratories.o
 
 Participants from varying backgrounds were put into three interdisciplinary teams to collaborate remotely on prototyping a synthetic media project. During the intensive two weeks, each team explored the wide possibilities of artificially generated media and investigated artistic ways in which to innovatively apply their findings.
 
-The projects were driven by questions about the societal impacts of this rapidly growing field. Teams researched deepfake discrimination found in the algorithms and data sets that generate synthetic visuals. They also explored how synthetic media could influence the masses in subliminal ways and learned that by deconstructiong existing deepfake models, it is possible to highlight inherent biases.
+The projects were driven by questions about the societal impacts of this rapidly growing field. Teams researched deepfake discrimination found in the algorithms and data sets that generate synthetic visuals. They also explored how synthetic media could influence the masses in subliminal ways and learned that by deconstructing existing deepfake models, it is possible to highlight inherent biases.
 
 {% include image file='team-one-presentation.png'
    alt='Team One presentation'
