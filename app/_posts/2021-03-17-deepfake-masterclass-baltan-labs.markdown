@@ -2,7 +2,7 @@
 title  : "Deepfakes MasterClass&#58; ThoughtWorks Arts and Baltan Labs"
 ---
 
-ThoughtWorks Arts and [Baltan Laboratoratories](https://www.baltanlaboratories.org/) organized the two-week-long online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon) -led by director Ellen Pearlman and Thoughtworker Julien Deswaef, and facilitated by Leif Czakai of Baltan Labs.
+ThoughtWorks Arts and [Baltan Laboratories](https://www.baltanlaboratories.org/) organized the two-week-long online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon) -led by director Ellen Pearlman and Thoughtworker Julien Deswaef, and facilitated by Leif Czakai of Baltan Labs.
 
 {% include image file='team-one-prototype.jpg'
    alt='Team One prototype'
