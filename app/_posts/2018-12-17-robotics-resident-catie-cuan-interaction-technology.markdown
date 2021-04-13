@@ -1,6 +1,9 @@
 ---
 title  : "Robotics Resident Catie Cuan &amp; Interaction Technology"
 tags   : [output]
+redirect_from:
+  - /blog/new-york-times-features-output/
+  - /blog/concat-tool-feature-pbs/
 ---
 Over the summer ThoughtWorks Arts collaborated with dancer and roboticist Catie Cuan, exploring new modes of human-robot interaction.
 
