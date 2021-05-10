@@ -1,21 +1,24 @@
 ---
 title  : "James Coupe&#58; Continous Integration (CI) Art Toolkit"
+author : James Coupe
 ---
 
-> The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br/>
-Boris Groys, On The New
+> The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br><span class='quotee'>— Boris Groys, On The New</span>
 
-### Overview
-During my [2020 Synthetic Media residency at Thoughtworks Arts](/blog/welcoming-new-residents-synthetic-media/) I began developing a new work *Birds of the British Empire* that explores the linkages between historical, colonial archives and the training sets used in machine learning. Because of the COVID-19 pandemic the residency took place online via various cloud-based tools and servers. These distributed workflows opened up new ways for me to organize, store and potentially exhibit my work.
+During my [2020 Synthetic Media residency](/blog/welcoming-new-residents-synthetic-media/) at Thoughtworks Arts I began developing a new work *Birds of the British Empire* that explores the linkages between historical, colonial archives and the training sets used in machine learning.
 
 {% include image file='birds-of-british-empire.jpg'
-   alt='birb-like images'
+   class='no-border'
    caption='Preliminary experiments from Birds of the British Empire' %}
+
+Because of the COVID-19 pandemic the residency took place online via various cloud-based tools and servers. These distributed workflows opened up new ways for me to organize, store and potentially exhibit my work.
 
 <!--excerpt-ends-->
 
-### A Useful Tool For Artists and Galleries
-New media artworks that use machine learning, algorithmic and data-driven processes often require significant hardware resources - computers, graphics cards, power, cooling, etc. Putting these resources physically into a gallery can be problematic - most galleries do not have the infrastructure or environment to host them, and many do not have staff who are trained to maintain them or diagnose problems when they do occur. As a result, when artists install these kinds of works they come with the expectation of automation - i.e. that the works can run seamlessly without much or any intervention from gallery staff, and that when problems occur the artist can fix them remotely. Coupled with the fact that these are original works - i.e. one-off, unique systems, this is an invitation for new media artwork to present serious maintenance issues for artists and galleries.
+## A Useful Tool For Artists and Galleries
+New media artworks that use machine learning, algorithmic and data-driven processes often require significant hardware resources - computers, graphics cards, power, cooling, etc. Putting these resources physically into a gallery can be problematic - most galleries do not have the infrastructure or environment to host them, and many do not have staff who are trained to maintain them or diagnose problems when they do occur.
+
+As a result, when artists install these kinds of works they come with the expectation of automation - i.e. that the works can run seamlessly without much or any intervention from gallery staff, and that when problems occur the artist can fix them remotely. Coupled with the fact that these are original works - i.e. one-off, unique systems, this is an invitation for new media artwork to present serious maintenance issues for artists and galleries.
 
 | Continuous Integration / Github Actions |
 | -------- |
@@ -27,15 +30,17 @@ CI and Monorepos offer an alternative solution by relocating most of the hardwar
 | -------- |
 |A Monorepo is a repository in which code from multiple projects is stored in a single location, such as on GitHub. This simplifies integration between the different project components. My residency project involves many separate, interrelated machine learning processes. Ordinarily these processes would be separated out into different repositories. By putting them into a monorepo, we can run CI via Github Actions, test the relationships between the different parts of the project, and make sure the entire project works.     |
 
-The shift of artworks into the Cloud is generally consistent with the ways in which we encounter and experience digital media today. Streaming media has displaced CDs and DVDs, online storage has taken the place of external hard drives, and ebooks have succeeded print media. Yet in the case of CI, we take a further step since we are not dealing with fixed media forms. A closer analogy would be to imagine a film still in the editing room being streamed directly to a movie theater. As the edits change so does what is seen in the theater. In terms of a gallery-based artwork this process is not limited to screen-based work. We can envision installation work that receives updates, files, videos, coordinates, audio, etc.
+The shift of artworks into the Cloud is generally consistent with the ways in which we encounter and experience digital media today. Streaming media has displaced CDs and DVDs, online storage has taken the place of external hard drives, and ebooks have succeeded print media.
 
-### A Sample Repo
-Although Birds of the British Empire is still in development, for this blog post we have created a sample [GitHub repo](https://github.com/anupriyajo/continous-arts) that demonstrates the use of GitHub Actions. The repo can be understood as a framework for any art project that runs in the cloud, yet is exhibited in a gallery. In other words the ‘work’ is computationally based in the Cloud, and physically manifested in the gallery.
+Yet in the case of CI, we take a further step since we are not dealing with fixed media forms. A closer analogy would be to imagine a film still in the editing room being streamed directly to a movie theater. As the edits change so does what is seen in the theater. In terms of a gallery-based artwork this process is not limited to screen-based work. We can envision installation work that receives updates, files, videos, coordinates, audio, etc.
+
+## A Sample Repo
+Although *Birds of the British Empire* is still in development, for this blog post we have created a sample [GitHub repo](https://github.com/anupriyajo/continous-arts) that demonstrates the use of GitHub Actions. The repo can be understood as a framework for any art project that runs in the cloud, yet is exhibited in a gallery. In other words the ‘work’ is computationally based in the Cloud, and physically manifested in the gallery.
 
 In our demo we have a project that takes online images of protest banners and uses a machine learning algorithm to isolate what is written on them, converting them into machine-readable text. In the gallery there would be an LED message board that receives this text and displays it.
 
 {% include image file='workflow.png'
-   alt='diagram' %}
+   class='no-border' alt='A workflow diagram' %}
 
 The workflow involves:
 
@@ -50,4 +55,4 @@ The approaches I have explored are specific to my own practice, but I think can 
 
 Perhaps one day we will find an exhibition curated through a monorepo with works that synchronize with one another and share metadata. Boris Groys describes the museum as  “a machine to produce and stage the new art of today”. I would argue that separating the production from the staging is advantageous to both artists and galleries, bringing us closer to systems shows what the art of today is truely capable of.
 
-Special thanks to [Ellen Pearlman](/bio/ellen-pearlman/), [Andrew McWilliams](/bio/andrew-mcwilliams/), [Rahul De](/profiles/rahul-de), [Anupriya Johari](https://www.linkedin.com/in/anupriyajo/?originalSubdomain=uk), [Carlos Gabriel Gavidia Calderon](https://www.linkedin.com/in/cgavidia/?originalSubdomain=uk) and [Janani Venugopalan](https://www.linkedin.com/in/janani-venugopalan-7197103a/)  for contributing to the development of this project.
+Special thanks to [Ellen Pearlman](/bio/ellen-pearlman/), [Andrew McWilliams](/bio/andrew-mcwilliams/), [Rahul De](/profiles/rahul-de), [Anupriya Johari](https://www.linkedin.com/in/anupriyajo/?originalSubdomain=uk), [Carlos Gabriel Gavidia Calderon](https://www.linkedin.com/in/cgavidia/?originalSubdomain=uk) and [Janani Venugopalan](https://www.linkedin.com/in/janani-venugopalan-7197103a/) for contributing to the development of this project.
