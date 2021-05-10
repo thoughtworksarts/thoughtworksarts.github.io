@@ -1,5 +1,5 @@
 ---
-title  : "James Coupe&#58; Continous Integration (CI) Art Toolkit"
+title  : "James Coupe&#58; Continuous Integration (CI) Art Toolkit"
 author : James Coupe
 image: birds-of-british-empire-thumb.jpg
 ---
