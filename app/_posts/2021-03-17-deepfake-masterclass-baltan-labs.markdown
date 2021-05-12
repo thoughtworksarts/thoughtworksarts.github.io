@@ -2,7 +2,7 @@
 title  : "Deepfakes MasterClass&#58; ThoughtWorks Arts and Baltan Labs"
 ---
 
-ThoughtWorks Arts and [Baltan Laboratories](https://www.baltanlaboratories.org/) organized the two-week-long online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon) -led by director Ellen Pearlman and Thoughtworker Julien Deswaef, and facilitated by Leif Czakai of Baltan Labs.
+ThoughtWorks Arts and [Baltan Laboratories](https://www.baltanlaboratories.org/) organized the two-week-long online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon), led by director Ellen Pearlman and ThoughtWorker Julien Deswaef and facilitated by Leif Czakai of Baltan Labs.
 
 {% include image file='team-one-prototype.jpg'
    alt='Team One prototype'
@@ -30,6 +30,6 @@ The projects were driven by questions about the societal impacts of this rapidly
    alt='Team 3'
    caption='An installation shot from Team Three\'s interactive video' %}
 
-**Team 3** compared the mechanism found in smart and social technology by depicting a speculative story concerning computer and animal intelligence. Their project resulted in an interactive installation that was tested and presented in an exhibition space at Baltan Labs. The work encouraged viewers to consider the question: *' What is the difference between a smart horse trying to read someone’s mind and a computer trying to do the same thing? Does this mean that computers will magically be able to outsmart us on all levels?'*
+**Team 3** compared the mechanism found in smart and social technology by depicting a speculative story concerning computer and animal intelligence. Their project resulted in an interactive installation that was tested and presented in an exhibition space at Baltan Labs. The work encouraged viewers to consider the question: *"What is the difference between a smart horse trying to read someone’s mind and a computer trying to do the same thing? Does this mean that computers will magically be able to outsmart us on all levels?"*
 
 The masterclass concluded in final team presentations of their synthetic media prototypes, sharing what they learned to develop future projects on a larger scale.
