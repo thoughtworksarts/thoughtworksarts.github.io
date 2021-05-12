@@ -2,6 +2,8 @@
 title  : "James Coupe&#58; Continuous Integration (CI) Art Toolkit"
 author : James Coupe
 image: birds-of-british-empire-thumb.jpg
+redirect_from:
+  - /blog/james-coupe-continous-integration-art-toolkit/
 ---
 
 > The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br><span class='quotee'>— Boris Groys, On The New</span>
