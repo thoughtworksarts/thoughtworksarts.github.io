@@ -57,8 +57,8 @@ links:
 
  - icon    : "fa-github"
    name    : "Github"
-   display : "noufali"
-   url     : "https://github.com/noufali"
+   display : "noufpy"
+   url     : "https://github.com/noufpy"
 
 ---
 Nouf is a Saudi-born, New York-based artist, a lead researcher and developer in creative applications of AI at Havas New York. Her work focuses on the impact of current and emerging technologies on society, ranging from interactive physical installations to political Twitter bots. With a light sense of humor and irony, Nouf's projects criticize how rapid technological advances have become a means of domination, control, and exploitation.
