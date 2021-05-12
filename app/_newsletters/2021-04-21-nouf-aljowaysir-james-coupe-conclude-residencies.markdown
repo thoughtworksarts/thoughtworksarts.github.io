@@ -3,13 +3,11 @@ title : "Nouf Aljowaysir and James Coupe Conclude Their Residencies"
 ---
 ThoughtWorks Arts' [Simulacra & Similitude: Synthetic Media Residency](/open-call/2020-synthetic-media/) began in the summer of 2020. Due to Covid-19 it was entirely remote with Nouf working from her studio in Brooklyn, New York and James from his studio in Seattle, Washington.
 
-## Nouf Aljowaysir's Salaf Project
-
-[Nouf Aljowaysir's](/bio/nouf-aljowaysir/) residency developed [Salaf \[Arabic: سلف , ancestor\] (2020)](/projects/salaf/), an ongoing project investigating the cultural transmission of ideas and worldviews across generations.
-
 {% include image file='nouf.jpg'
    alt='A grid of images in black and white'
    caption='A collection of images generated from training a generative adversarial network (StyleGAN2) on absent figures in a historical dataset' %}
+
+[Nouf Aljowaysir's](/bio/nouf-aljowaysir/) residency developed [Salaf \[Arabic: سلف , ancestor\] (2020)](/projects/salaf/), an ongoing project investigating the cultural transmission of ideas and worldviews across generations.
 
 <!--excerpt-ends-->
 
