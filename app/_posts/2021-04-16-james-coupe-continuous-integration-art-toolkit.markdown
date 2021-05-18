@@ -6,19 +6,18 @@ redirect_from:
   - /blog/james-coupe-continous-integration-art-toolkit/
 ---
 
-> The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br><span class='quotee'>— Boris Groys, On The New</span>
-
-During my [2020 Synthetic Media residency](/blog/welcoming-new-residents-synthetic-media/) at ThoughtWorks Arts I began developing a new work *Birds of the British Empire* that explores the linkages between historical, colonial archives and the training sets used in machine learning.
+During my [2020 Synthetic Media residency](/blog/welcoming-new-residents-synthetic-media/) at ThoughtWorks Arts I began developing a new work *Birds of the British Empire* that explores the linkages between historical, colonial archives and the training sets used in machine learning. Because of the COVID-19 pandemic the residency took place online via various cloud-based tools and servers.
 
 {% include image file='birds-of-british-empire.jpg'
    class='no-border'
-   caption='Preliminary experiments from Birds of the British Empire' %}
+   alt='Preliminary experiments from Birds of the British Empire' %}
+> The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br><span class='quotee'>— Boris Groys, On The New</span>
 
-Because of the COVID-19 pandemic the residency took place online via various cloud-based tools and servers. These distributed workflows opened up new ways for me to organize, store and potentially exhibit my work.
+Working with ThoughtWorks developers we used [Continuous Integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) techniques to link together and automate our codebases, so that when for example I make changes to one Machine Learning algorithm the whole system can run end-to-end and generate new results. These types of distributed workflows open up new ways for artists to organize, store and exhibit work.
 
 <!--excerpt-ends-->
 
-## A Useful Tool For Artists and Galleries
+## A Tool For Artists and Galleries
 New media artworks that use machine learning, algorithmic and data-driven processes often require significant hardware resources - computers, graphics cards, power, cooling, etc. Putting these resources physically into a gallery can be problematic - most galleries do not have the infrastructure or environment to host them, and many do not have staff who are trained to maintain them or diagnose problems when they do occur.
 
 As a result, when artists install these kinds of works they come with the expectation of automation - i.e. that the works can run seamlessly without much or any intervention from gallery staff, and that when problems occur the artist can fix them remotely. Coupled with the fact that these are original works - i.e. one-off, unique systems, this is an invitation for new media artwork to present serious maintenance issues for artists and galleries.
