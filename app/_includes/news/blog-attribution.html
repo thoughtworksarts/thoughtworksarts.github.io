@@ -2,7 +2,7 @@
   {% assign post = page %}
 {% endif %}
 
-{% if post.author == nil or post.author == "Directors" %}
+{% if post.author == nil or post.author == "Directors" or post.author == "AIBO" %}
   {% assign author = post.author %}
 {% else %}
   {% assign author = site.people | where: "name", post.author | first %}
@@ -16,6 +16,12 @@
       <a href="/bio/andrew-mcwilliams/"><img src="/images/people/andrew-mcwilliams.png" alt="Andrew McWilliams" /></a>
       <a href="/bio/ellen-pearlman/"><img src="/images/people/ellen-pearlman.png" alt="Ellen Pearlman" /></a>
       <figcaption>ThoughtWorks Arts Directors<br />{{ datestr }}</figcaption>
+    </figure>
+  {% elsif author == "AIBO" %}
+    <figure>
+      <a href="/bio/ellen-pearlman/"><img src="/images/people/ellen-pearlman.png" alt="Ellen Pearlman" /></a>
+      <a href="/bio/jonathan-heng/"><img src="/images/people/jonathan-heng.png" alt="Jonathan Heng" /></a>
+      <figcaption>Ellen Pearlman &amp; Jonathan Heng<br />{{ datestr }}</figcaption>
     </figure>
   {% elsif author == nil %}
     <figure class="empty">
