@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <title>How We Created a GPT-2 AI “Sicko” Chatbot for a New Media Opera | ThoughtWorks Arts</title>
+
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
+  <meta name=Description content="AIBO  AI.">
+
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content=@tw_arts>
+  <meta name=twitter:creator content=@tw_arts>
+  <meta property=og:url content="https://thoughtworksarts.io/blog/sicko-chatbot-new-media-opera/">
+  <meta property=og:title content="How We Created a GPT-2 AI “Sicko” Chatbot for a New Media Opera | ThoughtWorks Arts">
+  <meta property=og:image content=https://thoughtworksarts.io/images/posts/2021-05-20-sicko-chatbot-new-media-opera/brainwave-emotions.986c.jpg>
+  <meta property=og:description content="AIBO  AI.">
+  
+  <meta property=article:published_time content=2021-05-20T12:00:00Z>
+  
+
+  <link rel=stylesheet href=https://use.fontawesome.com/releases/v5.2.0/css/all.css integrity=sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ crossorigin=anonymous>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel=stylesheet type=text/css>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel=stylesheet>
+  <link rel=stylesheet type=text/css href=//cdn.curator.io/3.1/css/curator.css>
+  <link rel=canonical href="https://thoughtworksarts.io/blog/sicko-chatbot-new-media-opera/">
+  <link rel=stylesheet href=/stylesheets/style.5cc7.css>
+
+  <!-- OneTrust Cookies Consent Notice start for thoughtworksarts.io -->
+  <script src=https://cdn.cookielaw.org/consent/bd7c7510-ea19-4768-be84-506398c462f3.js type=text/javascript charset=UTF-8></script>
+  <script type=text/javascript>
+  function OptanonWrapper() { }
+  </script>
+<!-- OneTrust Cookies Consent Notice end for thoughtworksarts.io -->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  <link rel="shortcut icon" href=/images/favicon.ico>
+</head>
+
+<body id=news>
+  <header role=banner>
+    <section id=logonav>
+      <h1>ThoughtWorks Arts</h1>
+      <a href="/" class=logo>
+        <img src=/images/logos/thoughtworks-arts.png alt="ThoughtWorks Arts">
+        <span class=strap>global technology research lab</span>
+      </a>
+      
+      <nav class=social-links>
+  <h2>Social Media</h2>
+  <ul>
+    <li><a href=https://twitter.com/tw_arts><i class="fab fa-twitter" id=twitter></i></a></li>
+    <li><a href="https://facebook.com/thoughtworksarts/"><i class="fab fa-facebook-f" id=facebook></i></a></li>
+    <li><a href="https://github.com/thoughtworksarts/"><i class="fab fa-github-alt" id=github></i></a></li>
+    <li><a href="https://medium.com/thoughtworksarts/"><i class="fab fa-medium-m" id=medium></i></a></li>
+    <li><a href="https://instagram.com/thoughtworksarts/"><i class="fab fa-instagram" id=instagram></i></a></li>
+  </ul>
+</nav>
+      <nav class=navigation>
+  <h2>Navigation</h2>
+  <a id=menu-button href=#>
+    <i class="fa fa-bars"></i>
+    <i class="fa fa-times"></i>
+  </a>
+  <div class=overlay>
+    <ul>
+      <li><a href="/programs/" class=programs><span>Programs</span></a></li>
+      <li><a href="/residents/" class=residents><span>Residents</span></a></li>
+      <li><a href="/projects/" class=projects><span>Projects</span></a></li>
+      <li><a href="/blog/" class=blog><span>News</span></a></li>
+    </ul>
+  </div>
+</nav>
+    </section>
+    
+  </header>
+  <main>
+  <section>
+  <div class=content>
+    <header>
+      <h1>Blog</h1>
+    </header>
+    <article role=article>
+      <header>
+        <h1>How We Created a GPT-2 AI “Sicko” Chatbot for a New Media Opera</h1>
+        
+
+
+
+
+<div class=widgets>
+  <ul class="social-links new-window">
+  <li>
+    <a href="http://twitter.com/share?text=How%20We%20Created%20a%20GPT-2%20AI%20%E2%80%9CSicko%E2%80%9D%20Chatbot%20for%20a%20New%20Media%20Opera&amp;url=http://thoughtworksarts.io/blog/sicko-chatbot-new-media-opera/&amp;via=tw_arts"><i class="fab fa-twitter"></i></a>
+  </li>
+  <li>
+    <a href="http://www.facebook.com/sharer/sharer.php?title=How%20We%20Created%20a%20GPT-2%20AI%20%E2%80%9CSicko%E2%80%9D%20Chatbot%20for%20a%20New%20Media%20Opera&amp;u=http://thoughtworksarts.io/blog/sicko-chatbot-new-media-opera/"><i class="fab fa-facebook"></i></a>
+  </li>
+  <li>
+    <a href="http://www.tumblr.com/share?v=3&amp;t=How%20We%20Created%20a%20GPT-2%20AI%20%E2%80%9CSicko%E2%80%9D%20Chatbot%20for%20a%20New%20Media%20Opera&amp;u=http://thoughtworksarts.io/blog/sicko-chatbot-new-media-opera/"><i class="fab fa-tumblr"></i></a>
+  </li>
+</ul>
+  
+    <figure>
+      <a href="/bio/ellen-pearlman/"><img src=/images/people/ellen-pearlman.fd3f.png alt="Ellen Pearlman"></a>
+      <a href="/bio/jonathan-heng/"><img src=/images/people/jonathan-heng.2a83.png alt="Jonathan Heng"></a>
+      <figcaption>Ellen Pearlman &amp; Jonathan Heng<br>Thursday, 20 May 2021</figcaption>
+    </figure>
+  
+</div>
+      </header>
+      <div class=text>
+        <p>AIBO (Artificial Intelligent Brainwave Opera) is an emotionally intelligent artificial intelligent brainwave opera. The performance piece follows two characters, Eva, a human performer wearing a bodysuit of light and AIBO, a “sicko” chatbot powered by a <a href="https://openai.com/blog/better-language-models/">GPT-2</a> AI.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2021-05-20-sicko-chatbot-new-media-opera/brainwave-emotions.986c.jpg alt="Eva’s brainwaves trigger colored “emotional” responses">
+		
+
+	
+
+	
+		<figcaption>Eva’s brainwaves trigger colored “emotional” responses of  lights on her smart textile bodysuit, as well as emotionally themed sound and videos. Photo by Taavet Jansen</figcaption>
+	
+</figure>
+
+<p>The opera’s spoken word libretto is adapted from the biography of Eva von Braun about her fourteen-year love affair with Adolph Hitler. It is a metaphor for humanity’s infatuations with AI.</p>
+
+<!--excerpt-ends-->
+
+<p>Eva, performed by Sneidze Strauta, wears an Emotiv brainwave headset that displays her four emotions live time on her body. They are interest (purple), excitement (yellow), meditation (green) and frustration (red). Her emotions also trigger four databanks of emotionally themed videos and sounds, projected overhead.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2021-05-20-sicko-chatbot-new-media-opera/eva-speech.0f85.jpg alt="Eva’s speech translated to text">
+		
+
+	
+
+	
+		<figcaption>Fig 1. Eva’s speech translated to text is on the upper left  in yellow. It is sent to the Google cloud. AIBO’s text response is in blue on the lower left. It is also translated to speech (white) for the audience to hear.</figcaption>
+	
+</figure>
+
+<p>Eva recites a spoken word libretto about her romantic relationship with the AI performer AIBO, displayed as text on a screen — just like a foreign language libretto text is displayed during an opera performance.</p>
+
+<p>AIBO analyzes Eva’s libretto and replies with a response generated from the Google cloud, also projected as text onto the screen. These replies are turned into audible speech so that audience members can hear the back-and-forth dialog between the human and artificial performer.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2021-05-20-sicko-chatbot-new-media-opera/body-suit.29ce.jpg alt="Performer Sniedze Strauta (Eva) wearing a body suit of light looking at the AI AIBO’s red (negative) light emotion">
+		
+
+	
+
+	
+		<figcaption>Fig 2. Performer Sniedze Strauta (Eva) wearing a body suit of light looking at the AI AIBO’s red (negative) light emotion. Photo by Taavent Jansen</figcaption>
+	
+</figure>
+
+<p>While Eva’s emotions are analyzed by an Emotiv EEG headset, AIBO’s answers are also analyzed for emotional sentiment using the <a href="https://www.nltk.org/">Natural Language Toolkit</a>. When AIBO’s responses are classified as positive, a green light glows; when negative, a red light appears, and when neutral, a yellow light shines.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2021-05-20-sicko-chatbot-new-media-opera/sentiment-analysis.083b.jpg alt="AIBO glowing green for a positive emotional sentiment">
+		
+
+	
+
+	
+		<figcaption>Fig 3. AIBO glowing green for a positive emotional sentiment. The glitchy image on the monitor is AIBO trying to take Eva’s last positive emotional memory and emulating it, but failing.</figcaption>
+	
+</figure>
+
+<p>AIBO also attempts to emulate Eva’semotional memory by creating a facsimile of her most recent projected visual, but fails. The visual renders in a fragmented, glitchy way because AIBO is an AI and does not really understand how to have real emotions.</p>
+
+<h2 id=how-the-aibo-sicko-chatbot-works>How the AIBO “sicko” chatbot works</h2>
+
+<p>The AIBO GPT-2 chatbot was developed as a collaboration between new media artist and ThoughtWorks Arts Director Ellen Pearlman and ThoughtWorks developer Jonathan Heng, with assistance from ThoughtWorks developers Watawat Somo and Andrew Zhou.</p>
+
+<p>The chatbot incorporates the advances, as of 2019, in Natural Language Processing using GPT-2, a language model developed by <a href="https://openai.com/">OpenAI</a>. Recently, GPT-3 has been released and promises to be an even more effective and powerful language model.</p>
+
+<p>AIBO was designed to be ‘sicko,’ or perverted for dramatic effect. This means it is a high level, specialized or “overfitted” chatbot.  This is an unusual scenario, as most chatbots are designed to answer questions with a high degree of accuracy using a wide range of data. Overfitting in this scenario meant narrowly defining the AI’s training data to make it speak in a dysfunctional emotional way.</p>
+
+<h2 id=the-deep-learning-language-model>The Deep Learning Language Model</h2>
+
+<p>GPT-2 is a type of machine learning or transformer network model using deep learning or neural nets, roughly modeled on the neural pathways inside the human brain. The “deep” in deep learning means there are multiple layers of connectivity between the input and output learning layers, so that the algorithm automatically learns what are the most useful features of the information analyzed, and implements them automatically.</p>
+
+<p>The GPT-2 machine learning model can be fine tuned. Along with the nuances in post-processing this makes it possible to transform AIBO into a twisted or perverted performer.</p>
+
+<p>The character AIBO uses a probability distribution over sequences of words. GPT-2 is trained to solve a simplified version of the above probability model, known as the n-gram model, which is one that predicts the next word in a given sequence of words.</p>
+
+<p>A language model like this is designed to complete a sentence or even an essay, given a range of prompts by generating sentences and even paragraphs that are both coherent and demonstrate creativity. Creativity here means demonstrating comprehension and originality in the generated text.The official GPT-2 release website showcases <a href="https://openai.com/blog/better-language-models/">samples that illustrate this technique</a>.</p>
+
+<h2 id=achieving-a-specific-linguistic-style>Achieving a specific linguistic style</h2>
+
+<p>During the opera, AIBO needed to be in dialogue with the human Eva, whose libretto was based on the biography “The Lost Life of Eva Braun” by Angela Lambert that details Eva’s fourteen year long love affair with Adolf Hitler.</p>
+
+<p>GPT-2’s power is unprecedented, as it can adapt style and content instantaneously. It is easily scalable and customizable, creating realistic and believable text and script models. GPT-2 outperforms state-of-art language modeling scores, known as “zero-shot” settings from any other known language models currently in use.</p>
+
+<p>The original pre-trained GPT-2 had strong language modeling capabilities, but it did not converse in the desired style for the opera performance. Ellen selected a variety of training sources for AIBO in the English language using both copyright free movie scripts and books.</p>
+
+<p>Due to the time frame where the performance is situated, it was important that the GPT-2 model avoid building a character who would speak incorporating a contemporary and up to date patois, and instead build a “twisted” character with a late 19th century to mid-20th century sensibility. This included antiquated ideas about masculinity and sexuality, good and evil, psychology and religion, rooted in a type of northern European framework that led to the outbreak of WWII.</p>
+
+<p>Below is a list of the various texts that were used to create the database for AIBO.</p>
+
+<figure class=no-border>
+	
+
+		<img src=/images/posts/2021-05-20-sicko-chatbot-new-media-opera/movie-scripts.199f.png alt="Movie scripts database for AIBO">
+		
+
+	
+
+	
+</figure>
+
+<p>These texts were chosen for a number of reasons. The first is they corresponded to the historical time frame used to represent the AIBO character - the turn of the 19th century to the 20th century up until the 1940s. The second is the sources were specifically skewed towards different types of pathologies, fetishes, and horror and war stories. The third is the sources were freely available in text form, and they were copyright free.</p>
+
+<h2 id=aibos-questions-and-answers>AIBO’s Questions and Answers</h2>
+
+<p>GPT-2 has an ability to perform question and answer tasks by conditioning itself to answer. A stylistically consistent outcome for the chatbot character can be built by conditioning each response within the context of  the chat history using the bot’s name. This primes the model to respond as the bot.</p>
+
+<p>The figure below illustrates a concrete example of how this conditioning works using Eva’s libretto and calling AIBO the “BOT”.</p>
+
+<figure>
+	
+
+		<img src=/images/posts/2021-05-20-sicko-chatbot-new-media-opera/bot-interactions.847b.png alt="Initial overview of how to condition the GPT-2 model to achieve a chatbot-like behavior">
+		
+
+	
+
+	
+		<figcaption>Initial overview of how to condition the GPT-2 model to achieve a chatbot-like behavior</figcaption>
+	
+</figure>
+
+<p>Simple text cleaning including whitespace and symbol removal was done, and the first sentence of each output was then selected. Kaggle notebooks <a href=https://www.kaggle.com/code>were used</a> to train the AIBO GPT-2 machine learning model, as they provided GPUs with limited weekly run-time and execute files that run code sequentially. Google Cloud was used for the final live-time deployment during the actual performance of the opera.</p>
+
+<p>Evaluating the output from a data science point of view was a complex challenge. One option considered was using perplexity on a test set of the training data as a performance metric. <a href="https://towardsdatascience.com/perplexity-in-language-models-87a196019a94?gi=7c01ef96328f">Perplexity</a> measures how well the model predicts an answer on a test set. Typically when training a machine learning model there is an evaluation metric. However, being good at predicting on the test set had little to do with the final goal, which was to use the chatbot to converse with Eva, who had a scripted libretto already in place.</p>
+
+<p>Therefore the team landed on the approach of using qualitative evaluations. This meant Jonathan would output approximately 10 versions of answers from the GPT-2 ‘character’. Each answer was modulated by a different parameter, the temperature parameter. Ellen would read through each set of responses to determine which one made the most sense in terms of the AIBO GPT-2 character.</p>
+
+<h2 id=the-temperature-parameter>The temperature parameter</h2>
+
+<p>Another element of the final solution architecture was the ‘temperature’ parameter, a floating point value that controls the type of randomness of answers of GPT-2. Lower “temperature” results in less random completions while a higher temperature results in more random completions.</p>
+
+<p>Below are three early experiments of tweaking the temperature by 0.5 variations.</p>
+
+<table class="shrink-fit vertical-margin alternate">
+  <thead>
+    <tr>
+      <th colspan=2>VERSION 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EVA</strong></td><td>I was given my first camera at age 13.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>Well, I think I want to show me</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>The photo store I worked in was only 20 minutes from my home.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>(Suddenly snaps into action)  You were with the American forces in South Africa.</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>I was a junior assistant in the studio and darkroom.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>You would have been at home.</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>I  typed, filled in invoices and modeled in the photo studio.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>In his head.</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>My boss took photos of powerful men.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>That’s just why he is famous.</td>
+    </tr>
+  </tbody>
+</table>
+<table class="shrink-fit vertical-margin alternate">
+  <thead>
+    <tr>
+      <th colspan=2>VERSION 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EVA</strong></td><td>I was given my first camera at age 13.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>Goofy!</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>The photo store I worked in was only 20 minutes from my home.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>(frightened)</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>I was a junior assistant in the studio and darkroom.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>(breathless)What were you doing all this time?</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>I  typed, filled in invoices and modeled in the photo studio.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>Evil, driving woman, counterfeit magazines, phony cops — I was very useful in that fashion.</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>My boss took photos of powerful men.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>Who?</td>
+    </tr>
+  </tbody>
+</table>
+<table class="shrink-fit vertical-margin alternate">
+  <thead>
+    <tr>
+      <th colspan=2>VERSION 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>EVA</strong></td><td>I was given my first camera at age 13.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>What type is it?</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>The photo store I worked in was only 20 minutes from my home.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>You live on milk.</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>I was a junior assistant in the studio and darkroom.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>(Incoherently)  The “technofagetschap” ?</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>I  typed, filled in invoices and modeled in the photo studio.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>Where did you work for what company again?</td>
+    </tr>
+    <tr>
+      <td><strong>EVA</strong></td><td>My boss took photos of powerful men.</td>
+    </tr>
+    <tr>
+      <td><strong>BOT</strong></td><td>(Proudly) I am fond of powerful men, sir.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Sometimes the temperature variations included leftover references, like parenthesis, or movie script directions. Other times they made the AIBO character repeat itself too much, like a broken record, or it would use nonsensical or unrelated terms. It took a number of attempts to arrive at correct balance to create a believable character for the opera.</p>
+
+<h2 id=the-live-performance>The Live Performance</h2>
+<p>The live performance was challenging, as it required many different moving parts to be synchronized. One hour before the premier the Google Cloud froze, meaning it refused to return any answers except one word - “Evil”. It was as if the GPT-2 character AIBO had finally understood who it really was. After a late night frantic phone call to <a href="/bio/jonathan-heng/">Jonathan Heng</a>, who was based in Singapore, the Cloud console was rebooted, and the performance began on time.</p>
+
+<p>AIBO was funded by a Vertigo STARTS (EU) Laureate grant, in conjunction with the Human Computer Interaction Lab at Tallinn University, the Estonian Academy of Art, and GoPro Social. It premiered at the Estonian Academy of Music on February 21, 2020 in Tallinn, Estonia, and was featured at Vertigo STARTS Days in Paris, France.</p>
+
+      </div>
+      <section id=calls-to-action>
+        <p>Keep on top of ThoughtWorks Arts updates and articles:</p>
+        <ul>
+          <li><a href="/newsletters/">Subscribe to our newsletter</a></li>
+          <li><a href=https://twitter.com/tw_arts>Follow us on Twitter</a></li>
+          <li><a href=https://medium.com/thoughtworks-arts>Follow us on Medium</a></li>
+        </ul>
+      </section>
+    </article>
+    <div class=progress>
+      <a href="/blog/" class="blog forwards">All posts</a>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer>
+    <div class=subscribe>
+  <form class=newsletter-form action=https://tinyletter.com/thoughtworksarts method=post target=popupwindow onsubmit="window.open('https://tinyletter.com/thoughtworksarts', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <label>Keep up to date with news:</label>
+    <input type=email name=email value="your email" class="subscribe-newsletter faded">
+    <input type=hidden value=1 name=embed>
+    <input type=submit value=Subscribe>
+  </form>
+</div>
+    <nav class=social-links>
+  <h2>Social Media</h2>
+  <ul>
+    <li><a href=https://twitter.com/tw_arts><i class="fab fa-twitter" id=twitter></i></a></li>
+    <li><a href="https://facebook.com/thoughtworksarts/"><i class="fab fa-facebook-f" id=facebook></i></a></li>
+    <li><a href="https://github.com/thoughtworksarts/"><i class="fab fa-github-alt" id=github></i></a></li>
+    <li><a href="https://medium.com/thoughtworksarts/"><i class="fab fa-medium-m" id=medium></i></a></li>
+    <li><a href="https://instagram.com/thoughtworksarts/"><i class="fab fa-instagram" id=instagram></i></a></li>
+  </ul>
+</nav>
+    <ul class=notices>
+  <li>
+    <a href="/newsletters/">Newsletter Archive</a>
+  </li>
+  <li>
+    <a href="https://www.thoughtworks.com/privacy-policy/">Privacy Policy</a>
+  </li>
+</ul>
+  </footer>
+  <script src=/javascript/script.1259.js></script>
+</body>
+</html>
