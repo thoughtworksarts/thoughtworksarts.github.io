@@ -77,6 +77,14 @@ body:not(.home-page) {
 			line-height: 1.3em;
 		}
 
+		table.shrink-fit {
+			table-layout: inherit;	
+		}
+
+		table.alternate tbody tr:nth-child(even) td {
+			background: $grey-light1;
+		}
+
 		table, tr, td, th {
 			border: 1px solid $black;
 			background: $white;
@@ -94,6 +102,10 @@ body:not(.home-page) {
 		thead td {
 			font-weight: bold;
 			background: $grey-light2;
+		}
+
+		.vertical-margin {
+			margin-bottom: 2.5em;
 		}
 	}
 }
