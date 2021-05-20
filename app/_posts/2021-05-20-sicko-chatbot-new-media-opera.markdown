@@ -78,8 +78,7 @@ The figure below illustrates a concrete example of how this conditioning works u
 
 
 {% include image file='bot-interactions.png'
-   caption='Initial overview of how to condition the GPT-2 model to achieve a chatbot-like behavior'
-   class='no-border' %}
+   caption='Initial overview of how to condition the GPT-2 model to achieve a chatbot-like behavior' %}
 
 Simple text cleaning including whitespace and symbol removal was done, and the first sentence of each output was then selected. Kaggle notebooks [were used](https://www.kaggle.com/code) to train the AIBO GPT-2 machine learning model, as they provided GPUs with limited weekly run-time and execute files that run code sequentially. Google Cloud was used for the final live-time deployment during the actual performance of the opera.
 
