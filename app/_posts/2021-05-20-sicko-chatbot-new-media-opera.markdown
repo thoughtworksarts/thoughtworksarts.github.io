@@ -1,6 +1,7 @@
 ---
 title  : "How We Created a GPT-2 AI “Sicko” Chatbot for a New Media Opera"
 author : AIBO
+description : AIBO is an emotionally intelligent artificial intelligent brainwave opera, which follows Eva, a human performer wearing a bodysuit of light and AIBO, a “sicko” chatbot powered by a GPT-2 AI.
 ---
 AIBO (Artificial Intelligent Brainwave Opera) is an emotionally intelligent artificial intelligent brainwave opera. The performance piece follows two characters, Eva, a human performer wearing a bodysuit of light and AIBO, a “sicko” chatbot powered by a [GPT-2](https://openai.com/blog/better-language-models/) AI.
 
