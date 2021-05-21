@@ -9,7 +9,7 @@ AIBO (Artificial Intelligent Brainwave Opera) is an emotionally intelligent arti
    alt='Eva’s brainwaves trigger colored “emotional” responses'
    caption='Eva’s brainwaves trigger colored “emotional” responses of  lights on her smart textile bodysuit, as well as emotionally themed sound and videos. Photo by Taavet Jansen' %}
 
-The opera’s spoken word libretto is adapted from the biography of Eva von Braun about her fourteen-year love affair with Adolph Hitler. It is a metaphor for humanity’s infatuations with AI.
+The opera’s spoken word libretto is adapted from the biography of Eva von Braun about her fourteen-year love affair with Adolf Hitler. It is a metaphor for humanity’s infatuations with AI.
 
 <!--excerpt-ends-->
 
