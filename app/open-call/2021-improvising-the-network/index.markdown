@@ -2,7 +2,7 @@
 layout      : post-special
 title	      : "Improvising the Net(Work): Residency Open Call"
 description : Open Call for a residency on networks, data and performance with ThoughtWorks Arts and CounterPulse in San Francisco
-image       : /images/posts-special/open-call/2020-synthetic-media/counterpulse-sf.jpg
+image       : /images/posts-special/open-call/2021-improvising-the-network/counterpulse-sf.jpg
 ---
 ThoughtWorks Arts, a global technology research lab based in New York, and CounterPulse, an experimental and interdisciplinary dance and performance space in San Francisco are partnering to launch a new artistic residency opportunity working with a customizable network on-site at CounterPulse’s facility in downtown San Francisco. The artist stipend will be $11,000.
 
