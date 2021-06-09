@@ -3,7 +3,7 @@ title  : "Art-A-Hack Announces Open Call On Climate Action: BeFantastic Together
 ---
 Art-A-Hack and BeFantastic have [announced a 2021 open call](https://artahack.io/summer-2021/call/) focusing on Singapore, Switzerland, India, Germany, and the United States, with incubation and support from ThoughtWorks Arts. Together we are calling for artists, designers, technologists, and others to focus on the pressing issue of global climate crisis. 
 
-{% include image file='art-a-hack-be-fantastic.jpg'
+{% include image file='art-a-hack-be-fantastic.png'
    alt='BeFantastic and Art-A-Hack 2021 Open Call flyer' %}
 
 Exploring Artificial Intelligence (AI) and Machine Learning (ML), as well as data and networks, we aim to connect a diverse group of global practitioners to create collaborative artwork that will amplify voices and responses to the climate emergency.
