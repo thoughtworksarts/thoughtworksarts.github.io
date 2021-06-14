@@ -38,8 +38,8 @@ The selected artist or artist group can be based anywhere in the world, and work
 
 ## Timeline
 * June 1, 2021 - Open Call goes live 
-* June 16, 2021 - Info Session via Zoom
-* July 7, 2021 - Proposal Deadline
+* June 24, 2021 at 10am-11am PDT - [Info Session via Zoom](https://us02web.zoom.us/j/88424082096?pwd=ZVZnL3p4bFh0Wm9nSW9aUHVXZzlXdz09)
+* **July 7, 2021 - Proposal Deadline**
 * July 26, 2021 - Finalists invited for interviews
 * August 2-13, 2021 - Finalist interviews
 * August 17, 2021 - Finalist Notification
