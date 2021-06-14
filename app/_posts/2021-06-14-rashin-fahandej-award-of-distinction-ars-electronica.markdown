@@ -1,5 +1,6 @@
 ---
 title  : "Rashin Fahandej Receives Prix Ars Electronica Award of Distinction"
+description : "Rashin Fahandej has been awarded the Prix Ars Electronica Award of Distinction in Digital Music and Sound Art for A Father's Lullaby."
 ---
 Rashin Fahandej has been awarded the Prix Ars Electronica Award of Distinction in Digital Music and Sound Art for [A Father's Lullaby](/projects/a-fathers-lullaby/). The project was [incubated as part of](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) Rashin's residency at ThoughtWorks Arts.
 
