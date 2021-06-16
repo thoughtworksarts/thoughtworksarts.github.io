@@ -1,5 +1,6 @@
 ---
 title  : "Welcoming Our New Residents to ThoughtWorks Arts Residency"
+tags   : salaf
 ---
 We are delighted to welcome our latest residents Nouf Aljowaysir and James Coupe to our [Synthetic Media Residency](https://thoughtworksarts.io/open-call/2020-synthetic-media/).
 
