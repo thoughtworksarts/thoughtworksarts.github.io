@@ -15,7 +15,7 @@ She shared her untold Middle Eastern genealogical journey using two different vo
 
 The development of her residency project highlighted how Western AI models perpetuate the colonial western gaze and subsequent stereotypes. Using U-2 Net, Nouf erased the ‘oriental’ stereotypical figures in her historical archives, creating an “absent” dataset.
 
-*Salaf* exhibited at [NeurIPS](http://www.aiartonline.com/highlights-2020/nouf-aljowaysir/), the leading machine learning conference for creativity and design. You can learn more about Salaf [Arabic: سلف , ancestor] (2020) and how Nouf plans to move forward with its development in our [project write-up](/projects/salaf/).
+*Salaf* exhibited at [NeurIPS](http://www.aiartonline.com/highlights-2020/nouf-aljowaysir/), the leading machine learning conference for creativity and design. You can learn more about Salaf [Arabic: سلف , ancestor](2020) and how Nouf plans to move forward with its development in our [project write-up](/projects/salaf/).
 
 ## James Coupe's Continous Integration (CI) Art Toolkit
 
