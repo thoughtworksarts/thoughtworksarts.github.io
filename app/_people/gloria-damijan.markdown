@@ -5,8 +5,6 @@ group         : Dilate Ensemble
 participation : Resident
 season        : Fall 2021
 
-order-within-season: 2
-
 links:
  - icon    : "fa-globe-americas"
    name    : "Website"

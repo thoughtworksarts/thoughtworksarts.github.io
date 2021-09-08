@@ -1,7 +1,7 @@
 <section class="listing-item{% if group_members.size == 2 %} double-image{% elsif group_members.size == 3 %} triple-image{% endif %} alternating">
 	<div class="image">	
 		<figure>
-			{% if group_members.size > 0 %}
+			{% if group_members.size == 2 or group_members.size == 3 %}
 				{% for member in group_members %}
 					<a href="{{ member.url }}"><img src="/images/people/{{ member.photo }}" /></a>
 				{% endfor %}
