@@ -1,6 +1,6 @@
 {% if page.occupation == "Artist Group" %}
   {% capture activity %}Group{% endcapture %}
-  {% assign group_members = site.people | where: "group",page.name | sort: 'firstname' %}
+  {% assign group_members = site.people | where: "group",page.name | sort: 'lastname' %}
 {% else %}
   {% capture activity %}{{ page.occupation }}{% endcapture %}
 {% endif %}
