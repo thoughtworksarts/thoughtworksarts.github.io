@@ -29,6 +29,27 @@
       <span class="value">{{ page.season }}</span>
     </li>
   {% endif %}
+  {% if group_members.size > 0 %}
+    <li>
+      <span class="key">Resident Members</span>
+      <span class="value">
+        <ul class="project-list">
+        {% for member in group_members %}
+          <li><a href="{{ member.url }}">{{ member.name }}</a></li>
+        {% endfor %}
+        </ul>
+      </span>
+    </li>
+  {% endif %}
+  {% if page.group != nil and page.group != '' %}
+    {% assign group = site.people | where: "name",page.group | first %}
+    <li>
+      <span class="key">Group</span>
+      <span class="value">
+        <a href="{{ group.url }}">{{ group.name }}</a>
+      </span>
+    </li>
+  {% endif %}
   {% if roledescription.size > 0 %}
     <li>
       <span class="key">Role</span>
@@ -64,16 +85,4 @@
       </li>
     {% endif %}
   {% endfor %}
-  {% if group_members.size > 0 %}
-    <li>
-      <span class="key">Resident Members</span>
-      <span class="value">
-        <ul class="project-list">
-        {% for member in group_members %}
-          <li><a href="{{ member.url }}">{{ member.name }}</a></li>
-        {% endfor %}
-        </ul>
-      </span>
-    </li>
-  {% endif %}
 </ul>
