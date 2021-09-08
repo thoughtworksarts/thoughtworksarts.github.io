@@ -1,5 +1,6 @@
 {% if page.occupation == "Artist Group" %}
   {% capture activity %}Group{% endcapture %}
+  {% assign group_members = site.people | where: "group",page.name | sort: 'firstname' %}
 {% else %}
   {% capture activity %}{{ page.occupation }}{% endcapture %}
 {% endif %}
@@ -63,4 +64,16 @@
       </li>
     {% endif %}
   {% endfor %}
+  {% if group_members.size > 0 %}
+    <li>
+      <span class="key">Resident Members</span>
+      <span class="value">
+        <ul class="project-list">
+        {% for member in group_members %}
+          <li><a href="{{ member.url }}">{{ member.name }}</a></li>
+        {% endfor %}
+        </ul>
+      </span>
+    </li>
+  {% endif %}
 </ul>
