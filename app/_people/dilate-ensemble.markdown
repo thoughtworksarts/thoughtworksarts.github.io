@@ -3,6 +3,7 @@ name          : Dilate Ensemble
 occupation    : Artist Group
 participation : Resident
 season        : Fall 2021
+order-within-season : 2
 teaser        :
    <p>Dilate Ensemble is an audio-visual performance collective which produced a series of improvised online performances initiated by artist Carole Kim during COVID-19 lockdown.</p>
    <p>Carole compressed her video installation practice to fit beneath her kitchen table, and with outher members using realtime audio collaboration technology to generate a shared performance from remote locations.</p>
@@ -10,7 +11,7 @@ teaser        :
 links:
  - icon    : "fa-globe-americas"
    name    : "Website"
-   display : "cyborgfoundation.com"
+   display : "dilateensemble.com"
    url     : "https://www.dilateensemble.com/"
 
  - icon    : "fa-facebook"
