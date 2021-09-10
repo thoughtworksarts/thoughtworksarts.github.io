@@ -57,8 +57,8 @@ links:
    url     : ""
 
 ---
-Martim S. Galvão is a Brazilian-American composer, percussionist and multimedia artist. Much of his work is concerned with interfaces and how we interact with them. He is especially interested in exploring ideas related to consumer-facing technologies and the web.
+Martim S. Galvão is a Brazilian-American composer, percussionist and multimedia artist. Much of his work is concerned with interfaces and how we interact with them. He is especially interested in exploring ideas related to information technologies and the web.
 
-Galvão’s work has been performed at venues such as the International Conference on New Interfaces for Musical Expression (NIME), International Computer Music Conference (ICMC), ANT Fest at Ars Nova, SPLICE Institute, New York City Electroacoustic Music Festival (NYCEMF), and Babycastles among others.
+Galvão's work has been performed at venues such as the International Conference on New Interfaces for Musical Expression (NIME), International Computer Music Conference (ICMC), ANT Fest at Ars Nova, SPLICE Institute, New York City Electroacoustic Music Festival (NYCEMF), and Babycastles among others.
 
 Galvão earned his bachelor’s degree from Emory University. In 2014 he graduated from the Integrated Composition, Improvisation, and Technology (ICIT) MFA program at the University of California, Irvine. He is currently pursuing a PhD in Computer Music and Multimedia at Brown University.
