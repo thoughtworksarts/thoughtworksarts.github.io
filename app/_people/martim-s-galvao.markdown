@@ -8,7 +8,7 @@ season        : Fall 2021
 links:
  - icon    : "fa-globe-americas"
    name    : "Website"
-   display : "carole.kim"
+   display : "martim.xyz"
    url     : "https://www.martim.xyz/"
 
  - icon    : "fa-facebook"
