@@ -1,5 +1,5 @@
 ---
-title : "\"h0t club\" and Dilate Ensemble Awarded Thoughtworks Arts / CounterPulse Residencies"
+title : "“h0t club” and Dilate Ensemble Awarded Thoughtworks Arts / CounterPulse Residencies"
 ---
 We are pleased to announce the [Improvising the Net(Work) Residency](https://thoughtworksarts.io/open-call/2021-improvising-the-network/) has been jointly awarded to two creative collectives, h0t club and Dilate Ensemble.
 
