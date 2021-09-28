@@ -55,7 +55,7 @@ links:
    url     : ""
 
 ---
-hOt club is a psychedelic consumer-driven company of artist technologists and music makers performing the internet and beyond.
+h0t club is a psychedelic consumer-driven company of artist technologists and music makers performing the internet and beyond.
 
 The collective features Kate Bergstrom, Martim Galvão, Alex Dupuis, Todd Anderson with Miller Puckette and Bryan Jacobs. h0t club has been featured at Ars Nova, Culture Project NYC, Granoff Center for the Arts, San Diego Opera’s "Opera Hack", Culture Hub at La Mama, Festival of Live Digital Art with HowlRound and more. 
 
