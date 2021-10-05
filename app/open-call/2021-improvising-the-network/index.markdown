@@ -54,7 +54,7 @@ The selected artist or artist group can be based anywhere in the world, and work
 ThoughtWorks Arts runs programs incubating artist and technologist collaborations, empowering investigations into impacts of emerging technologies on industry, culture and society. Art and technology partnerships present a unique and powerful lens for engaging with technology. Art enables freedom to make large, cross-disciplinary conceptual and physical leaps across technical, scientific, industrial, creative and societal areas. The ThoughtWorks Arts Residency program embeds artists full-time within the ThoughtWorks global technology organization. The program includes logistical, financial, creative and technical support in the creation of a project proposed by the artist.
 
 <a href="/">
-	<img src="/images/logos/thoughtworks-arts.svg" alt="Snark Art" class="mid" />
+	<img src="/images/logos/thoughtworks-arts.svg" alt="ThoughtWorks Arts" class="mid" />
 </a>
 
 ## About CounterPulse
