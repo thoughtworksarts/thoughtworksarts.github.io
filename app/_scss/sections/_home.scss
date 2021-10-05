@@ -546,9 +546,13 @@
 	}
 }
 
-@media (max-width: 589px) {
+@media (max-width: 569px) {
 	#home {
 		>main {
+			>section:first-of-type {
+				border-top: 0;
+			}
+
 			.features {
 				ul {
 					grid-template-columns: 100%;
@@ -595,16 +599,6 @@
 						grid-row: 3;
 					}
 				}
-			}
-		}
-	}
-}
-
-@media (max-width: 499px) {
-	#home {
-		>main {
-			>section:first-of-type {
-				border-top: 0;
 			}
 		}
 	}

@@ -80,12 +80,12 @@ body.site-banner.landing-page {
 		margin: 0 0 1.2em 1.2em;
 
 		img {
-			height: 6.1em;
+			height: 3.9em;
 		}
 	}
 
 	.strap {
-		position: absolute; bottom: 0.1em; right: -1.3em;
+		position: absolute; bottom: -0.2em; right: -3.95em;
 		font-style: italic;
 		color: $grey-dark;
 	}
@@ -133,7 +133,7 @@ body.site-banner.landing-page {
 					height: 84px;
 					display: inline-flex;
 					align-items: flex-end;
-					padding: 0 1em;
+					padding: 0 0.6em;
 
 					span {
 						font-family: $bebas;
@@ -196,31 +196,33 @@ body.site-banner.landing-page {
 		height: 50%;
 		min-height: 500px;
 	}
-}
 
-@media (max-width: 1129px) {
 	#logonav {
 		.navigation ul li a {
 			padding: 0 0.2em;
 		}
 
 		.logo img {
-			height: 5.8em;
+			height: 3.6em;
 		}
 
 		.strap {
-			right: -1.6em;
+			right: -4.15em;
 		}
 	}
 }
 
-@media (max-width: 1029px) {
+@media (max-width: 1099px) {
 	#logonav {
 		height: 138px;
 		background-color: $white;
 
 		.logo img {
-			height: 5.8em;
+			height: 3.3em;
+		}
+
+		.strap {
+			right: -4.25em;
 		}
 
 		.navigation {
@@ -312,8 +314,12 @@ body.site-banner.landing-page {
 	#logonav {
 		height: 127px;
 
-		.logo img {
-			height: 5.2em;
+		.logo {
+			margin-bottom: 0.8em;
+
+			img {
+				height: 3.2em;
+			}
 		}
 
 		.social-links {
@@ -321,7 +327,7 @@ body.site-banner.landing-page {
 		}
 
 		.strap {
-			right: -3.1em;
+			display: none;
 		}
 	}
 }
@@ -339,7 +345,7 @@ body.site-banner.landing-page {
 	}
 }
 
-@media (max-width: 499px) {
+@media (max-width: 569px) {
 	body.site-banner>header {
 		margin-bottom: 0;
 
@@ -375,8 +381,8 @@ body.site-banner.landing-page {
 			position: inherit;
 
 			img {
-				margin-top: 1.2em;
-				height: 4.8em;
+				margin-top: 2.8em;
+				height: 2.8em;
 			}
 		}
 
