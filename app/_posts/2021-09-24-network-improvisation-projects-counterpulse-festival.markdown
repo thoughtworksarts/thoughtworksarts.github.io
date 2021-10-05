@@ -1,5 +1,6 @@
 ---
 title  : "Network Improvisation Residents Share Projects at CounterPulse Festival"
+image  : https://i.ytimg.com/vi/7t5vBMWMPpA/sddefault.jpg
 ---
 Our new residents, h0t Club & Dilate Ensemble presented their work September 15th online as part of the annual CounterPulse Festival, based in San Francisco. 
 
