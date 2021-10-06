@@ -282,7 +282,7 @@
 
 							.name-date {
 								display: inline-block;
-								margin: 0.9em 0 0 3.6em;
+								margin: 0.9em 0 0 3.9em;
 								line-height: 1.3em;
 								font-size: $small-info-font-size;
 
@@ -298,12 +298,8 @@
 						}
 					}
 
-					a:hover img, a:active img {
+					a:hover img.social-preview, a:active img.social-preview {
 						transform: scale(1.07);
-					}
-
-					a:hover .icon, a:active .icon {
-						transform: inherit;
 					}
 
 					a::before {
