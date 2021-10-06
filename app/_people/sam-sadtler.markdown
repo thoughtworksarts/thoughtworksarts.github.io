@@ -52,6 +52,6 @@ links:
 ---
 Sam Sadtler is a creative technologist with based in Brooklyn, NY, working at the intersection of software and hardware. Currently, he focuses on web development, IoT and wearable devices. He has his Masters from the Interactive Telecommunications Program at New York University. 
 
-Sam's wearable work explores ways to make technology enhance our senses. He and Oryan Inbar have worked with Moon Ribas and Neil Harbisson of the Cyborg Foundation, to develop new physical senses at the ThoughtWorks Arts Residency. 
+Sam's wearable work explores ways to make technology enhance our senses. He and Oryan Inbar have worked with Moon Ribas and Neil Harbisson of the Cyborg Foundation, to develop new physical senses at the Thoughtworks Arts Residency. 
 
 Sam's personal work explores our relationship to smartphones and our involvement in the current [Zombie Apocalypse](http://www.samsadtler.com/apocalypse). Sam has a B.S. in Mechanical Engineering from the University of Rochester, NY.

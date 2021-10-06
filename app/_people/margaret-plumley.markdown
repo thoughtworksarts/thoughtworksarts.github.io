@@ -49,7 +49,7 @@ links:
    url     : ""
 
 ---
-Margaret is a Product Strategist at ThoughtWorks and the XR Practice Lead in North America. She uses her background in Product Management, Research, and Design to help clients ranging from airlines to government reach their full potential.
+Margaret is a Product Strategist at Thoughtworks and the XR Practice Lead in North America. She uses her background in Product Management, Research, and Design to help clients ranging from airlines to government reach their full potential.
 
 Before joining Thoughtworks, Margaret has worked at PlayStation, Google, Dreamworks and Microsoft. She has a Master’s Degree in Educational Technology, a Bachelor’s in Broadcast Production, attended a Fine Arts Atelier and has an art studio in Monterey, California.
 

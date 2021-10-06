@@ -5,24 +5,24 @@ redirect_from:
   - /blog/new-york-times-features-output/
   - /blog/concat-tool-feature-pbs/
 ---
-Over the summer ThoughtWorks Arts collaborated with dancer and roboticist Catie Cuan, exploring new modes of human-robot interaction.
+Over the summer Thoughtworks Arts collaborated with dancer and roboticist Catie Cuan, exploring new modes of human-robot interaction.
 
 {% include image file='catie-crr.jpg'
    caption='Catie working on-site with the industrial robot arm' %}
 
 
-ThoughtWorks developers created a 3D visualization toolkit, enabling Catie to rehearse her own bodily movements alongside those of industrial-scale robots.
+Thoughtworks developers created a 3D visualization toolkit, enabling Catie to rehearse her own bodily movements alongside those of industrial-scale robots.
 
 <!--excerpt-ends-->
 
-The software, named [CONCAT](https://github.com/thoughtworksarts/concat/), was created by ThoughtWorks software developers [Andrew McWilliams](/bio/andrew-mcwilliams), [Andrea Allen](/bio/andrea-allen/) and [Felix Changoo](/bio/felix-changoo/).
+The software, named [CONCAT](https://github.com/thoughtworksarts/concat/), was created by Thoughtworks software developers [Andrew McWilliams](/bio/andrew-mcwilliams), [Andrea Allen](/bio/andrea-allen/) and [Felix Changoo](/bio/felix-changoo/).
 
 {% include image file='felix-andy.jpg'
-   caption='ThoughtWorks developers Felix Changoo and Andrea Allen' %}
+   caption='Thoughtworks developers Felix Changoo and Andrea Allen' %}
 
 The tool renders carefully choreographed sequences designed for a 15 foot "ABB IRB 6700" robot at the [Consortium for Research and Robotics](http://consortiumrr.com) in the Brooklyn Navy Yard. It allows Catie to design and rehearse her movements both on and off-site with large industrial robots.
 
-Catie's residency demonstrated CONCAT’s usefulness for creative movement research, and upon completion of her residency at ThoughtWorks, Catie began her PhD in Mechanical Engineering at Stanford University.
+Catie's residency demonstrated CONCAT’s usefulness for creative movement research, and upon completion of her residency at Thoughtworks, Catie began her PhD in Mechanical Engineering at Stanford University.
 
 {% include youtube id='uyrIfk30LaQ?start=30' ratio='55'
    caption='PBS NewsHour feature of Catie Cuan and CONCAT' %}

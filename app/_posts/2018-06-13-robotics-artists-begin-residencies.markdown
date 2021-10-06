@@ -1,8 +1,8 @@
 ---
-title : "Robotics Artists Begin Their Residencies at ThoughtWorks"
+title : "Robotics Artists Begin Their Residencies at Thoughtworks"
 tags  : [sentient-thespian, output]
 ---
-The robotics artists Adrianne Wortzel and Catie Cuan have begun [their dual residencies](/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) at ThoughtWorks.
+The robotics artists Adrianne Wortzel and Catie Cuan have begun [their dual residencies](/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) at Thoughtworks.
 
 {% include youtube id='YMQgA8xYZVc' ratio='16-9' %}
 
@@ -10,10 +10,10 @@ Adrianne has been exploring the expressive potential of the non-humanoid [MekaMo
 
 <!--excerpt-ends-->
 
-Both artists gave a webcast presentation to ThoughtWorks global last week, outlining their project ambitions. After the call, employees from all regions have the opportunity to volunteer some time to work with the artists in support of their projects.
+Both artists gave a webcast presentation to Thoughtworks global last week, outlining their project ambitions. After the call, employees from all regions have the opportunity to volunteer some time to work with the artists in support of their projects.
 
 {% include image file='catie-presentation.jpg'
-   caption='Catie Cuan presenting to ThoughtWorks at the start of her residency' %}
+   caption='Catie Cuan presenting to Thoughtworks at the start of her residency' %}
 
 Following the call, Catie visited our partners at the [Consortium for Research &amp; Robotics](http://consortiumrr.com/) in the Brooklyn Navy Yard. There she learned about the control algorithms that drive their [ABB IRB 6700 industrial robot](http://consortiumrr.com/robots-facilities/), as well as the data which can be produced representing it's motions.
 

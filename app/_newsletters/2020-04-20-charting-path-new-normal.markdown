@@ -8,7 +8,7 @@ Many of us in arts communities are dealing with canceled and postponed events, e
 
 <!--excerpt-ends-->
 
-In response to COVID-19, ThoughtWorks Arts has moved most of its operations entirely online. This includes a new, virtual Hardware Hack Lab in NYC, as well as our upcoming residencies.
+In response to COVID-19, Thoughtworks Arts has moved most of its operations entirely online. This includes a new, virtual Hardware Hack Lab in NYC, as well as our upcoming residencies.
 
 ## Synthetic Media Residency Awarded to Nouf Aljowaysir and James Coupe
 
@@ -28,16 +28,16 @@ Her work has been shown in galleries and festivals in the US and Europe, includi
 
 He has been making work for over twenty years, exhibiting at the International Center of Photography (ICP) in New York City, the Henry Art Gallery in Seattle, the Museum of Contemporary Canadian Art in Toronto, and has received an Honorable Mention for interactive art at the Prix Ars Electronica.
 
-## ThoughtWorks and Karen Palmer Featured in Wired Magazine
+## Thoughtworks and Karen Palmer Featured in Wired Magazine
 
 Artist [Karen Palmer](https://thoughtworksarts.io/bio/karen-palmer/), whose work challenges the societal implications of A.I. by using immersive film installations was [featured in the March edition of WIRED UK](https://www.wired.co.uk/article/karen-palmer-racist-bias), both online and in print.
 
 {% include image file='karen-palmer.jpg'
    caption='Feature photo of Karen Palmer. Credit - Hannah Starkey' %}
 
-The article highlights Karen's 2017 A.I. residency at ThoughtWorks Arts where she worked with ThoughtWorks employees to research algorithms and datasets. Based on this research, the team created [EmoPy, an open-source Facial Expression Recognition (FER) toolkit](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) to help democratize access to the technology.
+The article highlights Karen's 2017 A.I. residency at Thoughtworks Arts where she worked with Thoughtworks employees to research algorithms and datasets. Based on this research, the team created [EmoPy, an open-source Facial Expression Recognition (FER) toolkit](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) to help democratize access to the technology.
 
-The WIRED feature also goes into depth about Karen's latest work [Perception iO](https://thoughtworksarts.io/blog/karen-palmer-exhibits-perception-cooper-hewitt-design-museum-nyc/), an exhibit sponsored by the Cooper Hewitt Smithsonian Design Museum in New York. Karen worked with ThoughtWorks to develop an immersive film that exposes how our hidden biases can be explored through simulation of policing scenarios.
+The WIRED feature also goes into depth about Karen's latest work [Perception iO](https://thoughtworksarts.io/blog/karen-palmer-exhibits-perception-cooper-hewitt-design-museum-nyc/), an exhibit sponsored by the Cooper Hewitt Smithsonian Design Museum in New York. Karen worked with Thoughtworks to develop an immersive film that exposes how our hidden biases can be explored through simulation of policing scenarios.
 
 {% include youtube id='Bfgmo05XdXM'
    caption='Perception iO video Installation' %}
@@ -58,7 +58,7 @@ Viewers take part in an interaction between Eva, played by actor Sniedze Strauta
 {% include youtube id='18tqDS0VelM'
    caption='A clip from AIBO\'s premiere' %}
 
-AIBO’s response is generated via a custom built [GPT-2 AI](https://openai.com/blog/better-language-models/), created by Ellen and programmed by ThoughtWorks developers Jonathan Heng, Wasawat Somno and Andrew Zhou, with help from technical director Hans Gunter Lock.
+AIBO’s response is generated via a custom built [GPT-2 AI](https://openai.com/blog/better-language-models/), created by Ellen and programmed by Thoughtworks developers Jonathan Heng, Wasawat Somno and Andrew Zhou, with help from technical director Hans Gunter Lock.
 
 The opera explores two questions: “Can an AI be fascist? And can an AI have epigenetic, or inherited traumatic memory? These questions raise issues imagining a potential future where humans and machines may one day merge consciousness.”
 
@@ -80,23 +80,23 @@ Here's a list of spaces where artists and technologists are coming together to c
 
 There are some interesting initiatives coming from the tech community on how to respond to the crisis, many of which are looking for volunteers or interested parties:
 * [U.S. Digital Response](https://www.usdigitalresponse.org/) is a volunteer-run, non-partisan effort to help U.S. federal, state, and local government with technology, data, design, operations, communications, project management, and more during the COVID-19 crisis.
-* [Covid Tech Salon Series](https://www.linkedin.com/posts/amcwill_please-rsvp-now-how-can-the-technology-sector-activity-6654402757669199872-E-ZO) is a series of conversations and publications intended to guide the tech sector as it works out how to most effectively respond to the crisis. The series is sponsored by [ThoughtWorks](https://www.thoughtworks.com/). Andrew McWilliams is one of the organizers of the series, and Art-A-Hack alum Linda Raftree is the series' convener.
+* [Covid Tech Salon Series](https://www.linkedin.com/posts/amcwill_please-rsvp-now-how-can-the-technology-sector-activity-6654402757669199872-E-ZO) is a series of conversations and publications intended to guide the tech sector as it works out how to most effectively respond to the crisis. The series is sponsored by [Thoughtworks](https://www.thoughtworks.com/). Andrew McWilliams is one of the organizers of the series, and Art-A-Hack alum Linda Raftree is the series' convener.
 * [Coronavirus Tech Handbook](https://coronavirustechhandbook.com/home) is a crowdsourced resource for technologists building things related to the coronavirus outbreak.
 
 
 ## Presentations
 
-**Ellen Pearlman** presented her residency project AIBO at the [Starts Residencies Days](https://vertigo.starts.eu/starts-residencies-days/?fbclid=IwAR0nBjhzJm7KHunLMG0_fIeKbQN7N7TtBJl93ys07X2z0tlcSzJiVexgjlc) in Paris, France, February 29th - March 1st. Ellen  was the keynote at [World Usability Day](https://wud.ee/talk/creative-collaborations-between-art-and-tech-thoughtworks-arts/) in Estonia this past November. Her address was on *Creative Collaborations Between Art and Tech: ThoughtWorks Arts*.
+**Ellen Pearlman** presented her residency project AIBO at the [Starts Residencies Days](https://vertigo.starts.eu/starts-residencies-days/?fbclid=IwAR0nBjhzJm7KHunLMG0_fIeKbQN7N7TtBJl93ys07X2z0tlcSzJiVexgjlc) in Paris, France, February 29th - March 1st. Ellen  was the keynote at [World Usability Day](https://wud.ee/talk/creative-collaborations-between-art-and-tech-thoughtworks-arts/) in Estonia this past November. Her address was on *Creative Collaborations Between Art and Tech: Thoughtworks Arts*.
 
 She also presented a paper at the [New Media Caucus](http://bordercontrol.newmediacaucus.org/) (part of CAA - The College Art Association)  Symposium "Border Control"  at the Penny Stamps School of Art and Design at the University of Michigan, Ann Arbor, from September 19th to 22nd.
 
-**Andrew McWilliams** presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at ThoughtWorks Berlin in early March, where  Rachel Uma, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?time_continue=1133&v=Ik8RSxdVYLo&feature=emb_logo) also spoke. In London, Andrew gave a talk on [*The origin of ClimateAction.tech*](https://www.youtube.com/watch?v=YEJ4Pu8c6bk) - an initiative he helped build to support and engage the entire tech sector in addressing the climate crisis.
+**Andrew McWilliams** presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at Thoughtworks Berlin in early March, where  Rachel Uma, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?time_continue=1133&v=Ik8RSxdVYLo&feature=emb_logo) also spoke. In London, Andrew gave a talk on [*The origin of ClimateAction.tech*](https://www.youtube.com/watch?v=YEJ4Pu8c6bk) - an initiative he helped build to support and engage the entire tech sector in addressing the climate crisis.
 
-In October, Andrew presented at [All Tech Is Human](https://www.youtube.com/watch?v=yj_cQj-bKno&fbclid=IwAR2G9t_1FNeCukfBAbr0jDEAj3wq4ZAOBlGo_WuQ8Go0-fSDbUB65FCyer8) in San Francisco, where he illustrated how artist and technologist collaborations at ThoughtWorks Arts helped build social impact projects.
+In October, Andrew presented at [All Tech Is Human](https://www.youtube.com/watch?v=yj_cQj-bKno&fbclid=IwAR2G9t_1FNeCukfBAbr0jDEAj3wq4ZAOBlGo_WuQ8Go0-fSDbUB65FCyer8) in San Francisco, where he illustrated how artist and technologist collaborations at Thoughtworks Arts helped build social impact projects.
 
 Andrew also gave a lightning talk on the emotional detection and open source project EmoPy at [Creative Tech Week NY](http://creativetechweek.nyc/). [This video provides a good look at how the team focused their research](https://www.youtube.com/watch?v=4FRgdbsFvTo) and the many considerations that went into EmoPy’s development.
 
-## News from Past ThoughtWorks Arts Residents
+## News from Past Thoughtworks Arts Residents
 
 **Karen Palmer** delivered the keynote at the [St. Francis College Women's Film Festival](https://www.sfc.edu/academics/undergraduate/communicationarts/womensfilmfest): ["How Storytelling can get us through this Sh\*t!"](https://www.eventbrite.com/e/st-francis-college-5th-annual-womens-film-festival-tickets-102177553814?fbclid=IwAR2QwhJKFS-VdU6hrsz6mpMnDNQO0HLO2PJtZP1sNF0vEJMwjLRKXdswj6Q) on Wednesday, April 15th. The festival was entirely free and fully online.
 
@@ -120,7 +120,7 @@ Andrew also gave a lightning talk on the emotional detection and open source pro
 
 ## Blog Posts
 
-* [Showcase of Art & Emerging Technology Projects at ThoughtWorks Germany](https://thoughtworksarts.io/blog/showcase-art-tech-thoughtworks-germany/) by the Residency Team
+* [Showcase of Art & Emerging Technology Projects at Thoughtworks Germany](https://thoughtworksarts.io/blog/showcase-art-tech-thoughtworks-germany/) by the Residency Team
 * [A.I. Brainwave Opera Has World Premiere at the Estonian Academy of Music](https://thoughtworksarts.io/blog/ai-brainwave-opera-world-premiere/) by the Residency Team
 * [Rachel Uwa Shares the Origins of Her Berlin Art and Technology School](https://thoughtworksarts.io/blog/rachel-uwa-school-machines-making-make-believe/) by the Residency Team
 * [Ellen Pearlman Presents at U.S. Fulbright Alumni Exchange Seminar](https://thoughtworksarts.io/blog/ellen-pearlman-us-fulbright-alumni-exchange/) by the Residency Team.
@@ -130,25 +130,25 @@ Andrew also gave a lightning talk on the emotional detection and open source pro
 * [Max Razdow, Ollie Razdow, and Jamie Zigelbaum Awarded Blockchain AI Residency](https://thoughtworksarts.io/blog/max-razdow-ollie-razdow-jamie-zigelbaum-awarded-blockchain-residency/) by the Residency Team
 * [Rashin Fahandej Awarded Volumetric Filmmaking Residency](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) by the Residency Team
 * [Why We Are Investigating the Democratization of AI via Blockchain](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/) by the Residency Directors
-* [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
+* [PBS Features Thoughtworks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 * [EmoPy: A Machine Learning Toolkit For Emotional Expression](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) by Angelica Perez
 * [Industrial Robotics and Human Movement: New Experiments](https://thoughtworksarts.io/blog/movement-industrial-robotic-arm/) by the Residency Team
 * [Recognizing Human Facial Expression With Machine Learning](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/) by Angelica Perez
-* [How Arts Programs Drive Innovation at ThoughtWorks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
+* [How Arts Programs Drive Innovation at Thoughtworks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
 * [How Artists Are Reshaping Emerging Technology Research](https://thoughtworksarts.io/blog/how-artists-reshape-emerging-technology-research/) by Andrew McWilliams
-* [Robotics Artists Begin Their Residencies at ThoughtWorks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
+* [Robotics Artists Begin Their Residencies at Thoughtworks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
 * [Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/) by the Residency Team
 * [Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) by the Residency Team
-* [ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
+* [Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
 * [How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/) by Stephanie Weber
 * [Industrial Design Process for the ‘Time Sense’ Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 * [Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-* [Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+* [Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 * [Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by Andrew McWilliams
-* [Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+* [Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 
 * [Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-* [Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+* [Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 * [Suppressed Images: Advocating for Chelsea Manning’s Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 * [Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 * [Global Visioning Session with the Cyborgs](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)by Andrew McWilliams

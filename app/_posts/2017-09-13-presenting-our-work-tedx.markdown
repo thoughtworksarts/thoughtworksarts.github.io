@@ -13,7 +13,7 @@ My talk looks at how technology can be used as an artistic medium to explore the
 
 In the talk I begin by explaining my practice, and how during 2016 I went from looking at biometrics and health towards looking at our perceptions of global warming.
 
-Following on from that I explain my partnership with Ellen Pearlman, and the programs we continue to run together, such as the [Hardware Hack Lab](https://hardwarehacklab.io), [Art-A-Hack](https://artahack.io/), and the [ThoughtWorks Arts Residency](https://thoughtworksarts.io/).
+Following on from that I explain my partnership with Ellen Pearlman, and the programs we continue to run together, such as the [Hardware Hack Lab](https://hardwarehacklab.io), [Art-A-Hack](https://artahack.io/), and the [Thoughtworks Arts Residency](https://thoughtworksarts.io/).
 
 {% include image file='noor.jpg'
    caption='Excerpt from \'Noor: A Brain Opera\' in Hong Kong' %}

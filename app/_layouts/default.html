@@ -1,12 +1,12 @@
 {% if page.bodyid == 'home' %}
-  {% assign title = 'ThoughtWorks Arts' %}
+  {% assign title = 'Thoughtworks Arts' %}
 {% else %}
   {% if page.bodyclass contains 'bio' %}
     {% capture title %}{{ page.name }}{% endcapture %}
   {% else %}
     {% capture title %}{{ page.title }}{% endcapture %}
   {% endif %}
-  {% assign title = title | strip | append: ' | ThoughtWorks Arts' %}
+  {% assign title = title | strip | append: ' | Thoughtworks Arts' %}
 {% endif %}
 
 {% capture image %}{{ page.image }}{% endcapture %}
@@ -18,7 +18,7 @@
 
 {% capture description %}{{ page.description }}{% endcapture %}
 {% if description == '' %}
-  {% assign description = 'ThoughtWorks Arts is a global creative research laboratory, incubating artist and technologist collaborations, exploring impacts of emerging technologies on industry, culture and society.' %}
+  {% assign description = 'Thoughtworks Arts is a global creative research laboratory, incubating artist and technologist collaborations, exploring impacts of emerging technologies on industry, culture and society.' %}
 {% else %}
   {% assign description = page.description | escape %}
 {% endif %}
@@ -86,9 +86,9 @@
 <body id="{{ page.bodyid }}"{% if bodyclass != '' %} class="{{ bodyclass }}"{% endif %}>
   <header role="banner">
     <section id="logonav">
-      <h1>ThoughtWorks Arts</h1>
+      <h1>Thoughtworks Arts</h1>
       <a href="/" class="logo">
-        <img src="/images/logos/v2/thoughtworks-arts.png" alt="ThoughtWorks Arts" />
+        <img src="/images/logos/v2/thoughtworks-arts.png" alt="Thoughtworks Arts" />
         <span class="strap">global technology research lab</span>
       </a>
       {% if display-banner %}

@@ -1,8 +1,8 @@
 ---
-title : "ThoughtWorks Arts at RIXC Art Science Festival"
+title : "Thoughtworks Arts at RIXC Art Science Festival"
 ---
 
-This fall the RIXC Art Science Festival, Virtualities and Realities, in Riga, Latvia hosted three members of the ThoughtWorks Arts community. RIXC Art Science Festival is an internationally renown gathering for artists and scholars working at the intersection of arts, digital humanities, and science. The Festival includes conferences, exhibitions, performances, and VR artwork showcases.
+This fall the RIXC Art Science Festival, Virtualities and Realities, in Riga, Latvia hosted three members of the Thoughtworks Arts community. RIXC Art Science Festival is an internationally renown gathering for artists and scholars working at the intersection of arts, digital humanities, and science. The Festival includes conferences, exhibitions, performances, and VR artwork showcases.
 
 {% include image file='ellen-pearlman.jpg'
    caption='TWA Director, Ellen Pearlman, at the RIXC Center for New Media Art in Riga, Latvia' %}
@@ -20,7 +20,7 @@ Storytelling is as old as time itself. But with the advent of emerging technolog
 {% include image file='karen-palmer.jpg'
    alt='Karen Palmer' %}
 
-Join us on Tuesday, December 12th, 6:30 PM at ThoughtWorks NYC for a conversation about the ethical considerations of these forms of storytelling featuring Karen Palmer ([http://karenpalmer.uk/](http://karenpalmer.uk/)), current ThoughtWorks Artist-in-Residence, and TED Fellow.
+Join us on Tuesday, December 12th, 6:30 PM at Thoughtworks NYC for a conversation about the ethical considerations of these forms of storytelling featuring Karen Palmer ([http://karenpalmer.uk/](http://karenpalmer.uk/)), current Thoughtworks Artist-in-Residence, and TED Fellow.
 
 Sign up [here](https://www.meetup.com/Ethical-Tech/events/243577410/).
 
@@ -91,7 +91,7 @@ Art Radar
 
 **Karen Palmer** (**Current Resident)**  
 [RIOT Project Log](https://riot.thoughtworksarts.io/)  
-ThoughtWorks Arts  
+Thoughtworks Arts  
 
 [The outcome of this virtual riot depends on your emotions](https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/)  
 Engadget
@@ -151,21 +151,21 @@ Brussels, Belgium
 
 *   [**Industrial Design Process for the ‘Time Sense’ Prototype**](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 *   [**Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery**](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-*   [**Welcoming Karen Palmer to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+*   [**Welcoming Karen Palmer to the Thoughtworks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 *   [**Presenting Our Art & Technology Projects at TEDxVilnius**](https://thoughtworksarts.io/blog/presenting-our-work-tedx/) by Andrew McWilliams
-*   [**Karen Palmer Awarded ThoughtWorks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [**Karen Palmer Awarded Thoughtworks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 *   [**Three Views on Biometrics and Immersion for Creative Tech Week**](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/) by the Residency Team
 *   [**Why We Are Investigating the Biases of Artificial Intelligence**](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-*   [**Welcoming Hannes Bend to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+*   [**Welcoming Hannes Bend to the Thoughtworks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 *   [**Suppressed Images: Advocating for Chelsea Manning's Release**](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 *   [**How I Became a Cyborg**](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/) by Stefanie Grewenig
 *   [**Cyborg Senses: Weaving the Materials**](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/) by Caihong Liu
-*   [**Heather Dewey-Hagborg Begins Residency at ThoughtWorks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
+*   [**Heather Dewey-Hagborg Begins Residency at Thoughtworks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
 *   [**Developing a Cyborg Time Sense: Research and Experimentation**](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 *   [**Global Visioning Session with the Cyborgs**](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams
-*   [**Inside Our Brand New Lab at ThoughtWorks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
+*   [**Inside Our Brand New Lab at Thoughtworks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
 *   [**Discussing the residency on dotNYC with Jeff Jarvis**](https://thoughtworksarts.io/blog/appearance-on-dotnyc/) by Andrew McWilliams
 *   [**Introducing the Cyborg Foundation**](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) by the Residency Team
-*   [**Announcing the ThoughtWorks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
+*   [**Announcing the Thoughtworks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
 
 Love this newsletter? Please forward it to your friends and share this [subscription page](https://thoughtworksarts.io/newsletters/).

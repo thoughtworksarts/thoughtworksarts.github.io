@@ -18,7 +18,7 @@ Emotionally themed databanks of videos and music, also driven by Eva's brainwave
    ratio='56'
    caption='A short clip from AIBO\'s premiere' %}
 
-Eva's spoken word libretto is converted to text, which is both projected onto a screen and uploaded to the Google Cloud. There, AIBO's response is generated via a custom built [GPT-2 AI](https://openai.com/blog/better-language-models/), created by Pearlman and programmed by ThoughtWorks developers Jonathan Heng, Wasawat Somno and Andrew Zhou, with help from technical director Hans Gunter Lock.
+Eva's spoken word libretto is converted to text, which is both projected onto a screen and uploaded to the Google Cloud. There, AIBO's response is generated via a custom built [GPT-2 AI](https://openai.com/blog/better-language-models/), created by Pearlman and programmed by Thoughtworks developers Jonathan Heng, Wasawat Somno and Andrew Zhou, with help from technical director Hans Gunter Lock.
 
 AIBO's response is projected as text on the same screen as Eva’s text, so the audience can read along. It is also sonified into artificial speech so the audience hears it. AIBO's response is analyzed for its emotional sentiment, and categorized as positive, negative or neutral. Positive sentiments display as a green light, negative as red, and neutral as yellow. This analysis is of a synthetic being’s synthetic emotions, as opposed to the very real and visceral emotions displayed live time on Eva’s body.
 

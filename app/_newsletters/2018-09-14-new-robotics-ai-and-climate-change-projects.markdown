@@ -1,10 +1,10 @@
 ---
-title : "New Robotics, AI, and Climate Change projects at ThoughtWorks Arts"
+title : "New Robotics, AI, and Climate Change projects at Thoughtworks Arts"
 ---
 This summer we were thrilled to host a Special Edition Art-A-Hack in collaboration with [The Volumetric Society](http://www.meetup.com/volumetric/), the [Human Impacts Institute](https://www.humanimpactsinstitute.org/) and the [New York City College of Technology (City Tech)](http://www.citytech.cuny.edu/).
 
 {% include image file='artahack.jpg'
-   caption='Final presentations at ThoughtWorks NYC' %}  
+   caption='Final presentations at Thoughtworks NYC' %}  
 
 Four teams met over four Saturdays to create projects around two parallel issues.
 
@@ -13,13 +13,13 @@ Four teams met over four Saturdays to create projects around two parallel issues
 *   Climate Change: Data & Disinformation
 *   Emotionally Intelligent Artificial Intelligence & Brain-Computer Interfaces
 
-Following the hacking sessions, each team presented their project and initial prototypes in a final showcase at ThoughtWorks NYC.
+Following the hacking sessions, each team presented their project and initial prototypes in a final showcase at Thoughtworks NYC.
 
 Exploring climate change issues were the teams _Climate Consciousness_ and _Another World_. On the emotionally intelligent AI & BCI track we had _The Accessible Brain_ team and _Sentimental Feeling / Second Skin_. Stay tuned for project write-ups and videos this fall!
 
 ## Updates from our Robotics Residency
 
-Artist Adrianne Wortzel has been [exploring the movements and in-built motion of Reach Robotics' MekaMon robot](https://www.youtube.com/watch?v=YMQgA8xYZVc) as part of her ThoughtWorks Arts Residency. The MekaMon is a multi-functional, connected, battle bot with augmented reality capabilities. She also recently gave a talk about her work with the MekaMon, which runs on Swift, at the [Brooklyn Swift Meetup](https://vimeo.com/bklnswift/review/278044295/b8cbf2d8e7).
+Artist Adrianne Wortzel has been [exploring the movements and in-built motion of Reach Robotics' MekaMon robot](https://www.youtube.com/watch?v=YMQgA8xYZVc) as part of her Thoughtworks Arts Residency. The MekaMon is a multi-functional, connected, battle bot with augmented reality capabilities. She also recently gave a talk about her work with the MekaMon, which runs on Swift, at the [Brooklyn Swift Meetup](https://vimeo.com/bklnswift/review/278044295/b8cbf2d8e7).
 
 {% include image file='kira-davies.jpg'
    caption='Adrianne Wortzel\'s exploration of the MekaMon Robot'
@@ -35,33 +35,33 @@ Both residents worked with [Consortium for Research and Robotics](http://consor
 
 ## How to Make a Neural Net
 
-[In this short video](https://vimeo.com/275748144) ThoughtWorks engineer Angelica Perez discusses how to create a data set for AI. Angelica worked as the lead developer with Karen Palmer on her immersive film, RIOT. Angelica overviews how they developed a neural network to predict emotion through facial expression for the emotionally responsive artificial intelligence behind the film.  
+[In this short video](https://vimeo.com/275748144) Thoughtworks engineer Angelica Perez discusses how to create a data set for AI. Angelica worked as the lead developer with Karen Palmer on her immersive film, RIOT. Angelica overviews how they developed a neural network to predict emotion through facial expression for the emotionally responsive artificial intelligence behind the film.  
 
 {% include image file='dataset.jpg'
    link='https://vimeo.com/275748144' %}
 
 Angelica also recently published two posts on her work with Karen: the first, an [introduction to the field of Facial Expression Recognition (FER)](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/), and the second [describing the design and uses of EmoPy](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/), the FER toolkit developed RIOT.  
 
-## Learn More About the ThoughtWorks Arts Programs
+## Learn More About the Thoughtworks Arts Programs
 
-We have published two in-depth articles describing our suite of arts programs and how they are connected to innovation at ThoughtWorks.   
+We have published two in-depth articles describing our suite of arts programs and how they are connected to innovation at Thoughtworks.   
 
 {% include image file='developers.jpg'
-   caption='ThoughtWorks developers working on EmoPy for Karen Palmer’s RIOT' %}
+   caption='Thoughtworks developers working on EmoPy for Karen Palmer’s RIOT' %}
 
-Learn about [How Artists Are Reshaping Emerging Technology Research](https://medium.com/thoughtworks-arts/how-artists-are-reshaping-emerging-technology-research-cb1b99189760) and [How Art Programs Drive Innovation at ThoughtWorks](https://medium.com/thoughtworks-arts/how-art-programs-drive-innovation-at-thoughtworks-33871013a151) to understand more about our programs and the types of valuable insights they help us uncover.   
+Learn about [How Artists Are Reshaping Emerging Technology Research](https://medium.com/thoughtworks-arts/how-artists-are-reshaping-emerging-technology-research-cb1b99189760) and [How Art Programs Drive Innovation at Thoughtworks](https://medium.com/thoughtworks-arts/how-art-programs-drive-innovation-at-thoughtworks-33871013a151) to understand more about our programs and the types of valuable insights they help us uncover.   
 
 ## Dr. Ellen Pearlman at RIXC Art Science Festival
 
-ThoughtWorks Arts Director Dr. Ellen Pearlman is Conference co-chair for the 3rd Open Fields Conference, GLOBAL CONTROL at [RIXC Art Science Festival](http://festival2018.rixc.org/) in Riga, Latvia. 
+Thoughtworks Arts Director Dr. Ellen Pearlman is Conference co-chair for the 3rd Open Fields Conference, GLOBAL CONTROL at [RIXC Art Science Festival](http://festival2018.rixc.org/) in Riga, Latvia. 
 
 {% include image file='rixc.jpg' %}
 
 During the conference Ellen is giving a keynote lecture, Total Control and Fragile Networks.  
 
-## Follow ThoughtWorks Arts on Medium
+## Follow Thoughtworks Arts on Medium
 
-We have launched a new [ThoughtWorks Arts Medium Publication](https://medium.com/thoughtworks-arts)! Come check it out for fresh and original content from the ThoughtWorks Arts team and network.
+We have launched a new [Thoughtworks Arts Medium Publication](https://medium.com/thoughtworks-arts)! Come check it out for fresh and original content from the Thoughtworks Arts team and network.
 
 {% include image file='medium.jpg' link='https://medium.com/thoughtworks-arts' %}
   
@@ -151,30 +151,30 @@ Cologne, Germany
 *   **[EmoPy: A Machine Learning Toolkit for Emotional Expression Arts](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/)** by Angelica Perez
 *   **[Industrial Robotics and Human Movement: New Experiments](https://thoughtworksarts.io/blog/movement-industrial-robotic-arm/)** by the Residency Team
 *   **[Recognizing Human Facial Expressions with Machine Learning](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/)** by Angelica Peres
-*   **[How Arts Programs Drive Innovation at ThoughtWorks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/)** by Andrew McWilliams
+*   **[How Arts Programs Drive Innovation at Thoughtworks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/)** by Andrew McWilliams
 *   **[How Artists Are Reshaping Emerging Technology Research](https://thoughtworksarts.io/blog/how-artists-reshape-emerging-technology-research/)** by Andrew McWilliams
-*   **[Robotics Artists Begin Their Residencies at ThoughtWorks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/)** by the Residency Team
+*   **[Robotics Artists Begin Their Residencies at Thoughtworks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/)** by the Residency Team
 *   **[Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/)** by the Residency Team
 *   **[Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/)** by the Residency Team
-*   **[ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/)** by the Residency Team
+*   **[Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/)** by the Residency Team
 *   **[How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/)** by Stephanie Weber
 *   **[Industrial Design Process for the 'Time Sense' Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/)** by Oryan Inbar
 *   **[Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/)** by Ellen Pearlman
-*   **[Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/)** by the Residency Team
+*   **[Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/)** by the Residency Team
 *   **[Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/presenting-our-work-tedx/)** by Andrew McWilliams
-*   **[Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/)** by the Residency Team
+*   **[Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/)** by the Residency Team
 *   **[Three Views on Biometrics and Immersion for Creative Tech Week](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/)** by the Residency Team
 *   **[Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/)** by the Residency Directors
-*   **[Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/)** by the Residency Team
+*   **[Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/)** by the Residency Team
 *   **[Suppressed Images: Advocating for Chelsea Manning's Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/)** by the Residency Team
 *   **[How I Became a Cyborg](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/)** by Stefanie Grewenig
 *   **[Cyborg Senses: Weaving the Materials](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/)** by Caihong Liu
-*   **[Heather Dewey-Hagborg Begins Residency at ThoughtWorks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/)** by the Residency Team
+*   **[Heather Dewey-Hagborg Begins Residency at Thoughtworks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/)** by the Residency Team
 *   **[Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/)** by Andrew McWilliams
 *   **[Global Visioning Session with the Cyborgs](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)** by Andrew McWilliams
-*   **[Inside Our Brand New Lab at ThoughtWorks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/)** by the Residency Team
+*   **[Inside Our Brand New Lab at Thoughtworks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/)** by the Residency Team
 *   **[Discussing the residency on dotNYC with Jeff Jarvis](https://thoughtworksarts.io/blog/appearance-on-dotnyc/)** by Andrew McWilliams
 *   **[Introducing the Cyborg Foundation](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/)** by the Residency Team
-*   **[Announcing the ThoughtWorks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/)** by the Residency Team
+*   **[Announcing the Thoughtworks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/)** by the Residency Team
 
 Love this newsletter? Check out [our archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!

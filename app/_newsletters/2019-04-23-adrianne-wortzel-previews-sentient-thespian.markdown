@@ -12,21 +12,21 @@ The film, shot on location at the [Consortium for Research & Robotics](https://c
 
 Director of Photography Kevin Barry says, “_Our aim is to highlight how humans assign sentience to non-sentient machines. Working with robots allows us to explore psychology as it relates to emerging technologies, which really brings home how important it is for humans to see ourselves in the technologies we interact with._”
 
-A full write-up of the project is published [on the ThoughtWorks Arts website](https://thoughtworksarts.io/projects/sentient-thespian/). And a recent article by TechSPARK highlighting the collaboration with Reach Robotics [can be read here](https://techspark.co/mekamon-takes-the-stage-with-thoughtworks-arts-collaboration/). _The Sentient Thespian_ is the first of a planned trilogy of films by Wortzel featuring MekaMon, to be titled _Golemopolis_.
+A full write-up of the project is published [on the Thoughtworks Arts website](https://thoughtworksarts.io/projects/sentient-thespian/). And a recent article by TechSPARK highlighting the collaboration with Reach Robotics [can be read here](https://techspark.co/mekamon-takes-the-stage-with-thoughtworks-arts-collaboration/). _The Sentient Thespian_ is the first of a planned trilogy of films by Wortzel featuring MekaMon, to be titled _Golemopolis_.
 
 ## Robotics projects presented at Pioneer Works Second Sundays
 
-Resident Catie Cuan also presented the results of her recent robotics and motion residency at ThoughtWorks Arts including [CONCAT](https://github.com/thoughtworksarts/concat), part of her larger [OUTPUT](https://www.youtube.com/watch?v=1NQQ1c4Z6I0) project.
+Resident Catie Cuan also presented the results of her recent robotics and motion residency at Thoughtworks Arts including [CONCAT](https://github.com/thoughtworksarts/concat), part of her larger [OUTPUT](https://www.youtube.com/watch?v=1NQQ1c4Z6I0) project.
 
 {% include image file='kira-catie.jpg'
    alt='Kira Davies and Catie Cuan at Pioneer Works' %}
 
 Catie Cuan is a dancer and roboticist whose practice examines how human-robot communications can be interpreted while progressing towards 21st century robot ubiquity. She is currently enrolled in the PhD program at Stanford University in Mechanical Engineering.
 
-Catie collaborated with ThoughtWorks developers to create a 3D visualization toolkit enabling her to rehearse her movements alongside those of different robots.
+Catie collaborated with Thoughtworks developers to create a 3D visualization toolkit enabling her to rehearse her movements alongside those of different robots.
 
 {% include image file='kira-andrew-catie.jpg'
-   caption='Choreographer Kira Davies, ThoughtWorks Arts director, Andrew McWilliams, and Catie Cuan at Pioneer Works during project OUTPUT' %}
+   caption='Choreographer Kira Davies, Thoughtworks Arts director, Andrew McWilliams, and Catie Cuan at Pioneer Works during project OUTPUT' %}
 
 The OUTPUT project is nearing completion. [A teaser can be viewed here.](https://www.youtube.com/watch?v=1NQQ1c4Z6I0)
 
@@ -35,13 +35,13 @@ The OUTPUT project is nearing completion. [A teaser can be viewed here.](https:/
 With the success and interest generated during our free [Depthkit](https://www.depthkit.tv/) workshop in conjunction with [Scatter](https://scatter.nyc/) in March, and our funded [Volumetric Filmmaking residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) starting in June, we’ve initiated ongoing weekly support for learning and experimenting with Depthkit at the free [Hardware Hack Lab](https://hardwarehacklab.io/). Our aim is to make Depthkit technology and toolkits more accessible, and to help foster diverse collaborations for those who may not have the financial means to otherwise access these innovative and exciting technologies.
 
 {% include image file='hardware-hack-lab.jpg'
-   caption='A team from the Volumetric Filmmaking Workshop testing Depthkit at ThoughtWorks' %}
+   caption='A team from the Volumetric Filmmaking Workshop testing Depthkit at Thoughtworks' %}
 
 These weekly events have attracted hackers and filmmakers of all backgrounds who test ideas and partner on projects.
 
-Hardware Hack Lab is open to the public every Wednesday from 6:30pm - 9:30pm, located at ThoughtWorks Inc. 99 Madison Ave, 15th floor, New York, NY.
+Hardware Hack Lab is open to the public every Wednesday from 6:30pm - 9:30pm, located at Thoughtworks Inc. 99 Madison Ave, 15th floor, New York, NY.
 
-## News From Past ThoughtWorks Arts Residents
+## News From Past Thoughtworks Arts Residents
 
 **Moon Ribas** will be a juror for this year’s [Prix Ars Electronica](https://ars.electronica.art/aeblog/en/2019/03/06/prixjury2019/).
 
@@ -67,24 +67,24 @@ Hardware Hack Lab is open to the public every Wednesday from 6:30pm - 9:30pm, lo
 
 ## Blog Posts
 
-*   [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
+*   [PBS Features Thoughtworks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 *   [EmoPy: A Machine Learning Toolkit For Emotional Expression](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) by Angelica Perez
 *   [Industrial Robotics and Human Movement: New Experiments](https://thoughtworksarts.io/blog/movement-industrial-robotic-arm/) by the Residency Team
 *   [Recognizing Human Facial Expression With Machine Learning](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/) by Angelica Perez
-*   [How Arts Programs Drive Innovation at ThoughtWorks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
+*   [How Arts Programs Drive Innovation at Thoughtworks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
 *   [How Artists Are Reshaping Emerging Technology Research](https://thoughtworksarts.io/blog/how-artists-reshape-emerging-technology-research/) by Andrew McWilliams
-*   [Robotics Artists Begin Their Residencies at ThoughtWorks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
+*   [Robotics Artists Begin Their Residencies at Thoughtworks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
 *   [Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/) by the Residency Team
 *   [Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) by the Residency Team
-*   [ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
+*   [Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
 *   [How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/) by Stephanie Weber
 *   [Industrial Design Process for the ‘Time Sense’ Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 *   [Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-*   [Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+*   [Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 *   [Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by Andrew McWilliams
-*   [Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 *   [Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-*   [Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+*   [Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 *   [Suppressed Images: Advocating for Chelsea Manning’s Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 *   [Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 *   [Global Visioning Session with the Cyborgs](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams

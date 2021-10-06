@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-Anna Rempe is a consultant and software developer at ThoughtWorks with experience in AI research. She holds a Bachelor’s degree in Computer Science from Georgetown University.
+Anna Rempe is a consultant and software developer at Thoughtworks with experience in AI research. She holds a Bachelor’s degree in Computer Science from Georgetown University.
 
-As part of ThoughtWorks Arts Residency, Anna worked to rebuild the website for [A Father’s Lullaby](/projects/a-fathers-lullaby/) with an updated tech stack. She researched and implemented methods to create a mobile responsive website.
+As part of Thoughtworks Arts Residency, Anna worked to rebuild the website for [A Father’s Lullaby](/projects/a-fathers-lullaby/) with an updated tech stack. She researched and implemented methods to create a mobile responsive website.

@@ -4,7 +4,7 @@ author    : Directors
 tags      : riot
 ---
 
-ThoughtWorks Arts has an [open call out now](https://thoughtworksarts.io/open-call/2017-implications-of-ai/) for artists and technologists investigating the implications of Artificial Intelligence for society today.
+Thoughtworks Arts has an [open call out now](https://thoughtworksarts.io/open-call/2017-implications-of-ai/) for artists and technologists investigating the implications of Artificial Intelligence for society today.
 
 {% include image file='message.jpg'
    caption='Image by [Roger Marks](https://www.flickr.com/photos/rpmarks/32144425053/)' %}

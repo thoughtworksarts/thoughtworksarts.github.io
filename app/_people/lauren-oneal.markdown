@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-As a software development consultant and back-end developer at ThoughtWorks, Lauren O’Neal writes software and offers technical support for clients. Lauren received her B.S. in Computer Science from the University of Houston and worked in front-end development and recruiting at JP Morgan. While pursuing her undergraduate degree, Lauren helped organize hackathons, and later judged hackathons at JP Morgan.
+As a software development consultant and back-end developer at Thoughtworks, Lauren O’Neal writes software and offers technical support for clients. Lauren received her B.S. in Computer Science from the University of Houston and worked in front-end development and recruiting at JP Morgan. While pursuing her undergraduate degree, Lauren helped organize hackathons, and later judged hackathons at JP Morgan.
 
-During the [Perception iO](/projects/perception-io/) project with ThoughtWorks Arts, Lauren helped research eye-tracking technologies and contributed to development and installation of the project at the Cooper Hewitt Smithsonian Design Museum in New York.
+During the [Perception iO](/projects/perception-io/) project with Thoughtworks Arts, Lauren helped research eye-tracking technologies and contributed to development and installation of the project at the Cooper Hewitt Smithsonian Design Museum in New York.

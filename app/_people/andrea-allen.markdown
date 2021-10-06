@@ -49,6 +49,6 @@ links:
    url     : "https://github.com/andrea-allen"
 
 ---
-Andrea is a consultant developer at ThoughtWorks with a background in mathematics, movement and dance. Working alongside Catie and other developers, Andrea built the movement visualization tool [CONCAT](https://github.com/thoughtworksarts/concat), designed to assist artists in choreographing movement reflecting real-life robotics.
+Andrea is a consultant developer at Thoughtworks with a background in mathematics, movement and dance. Working alongside Catie and other developers, Andrea built the movement visualization tool [CONCAT](https://github.com/thoughtworksarts/concat), designed to assist artists in choreographing movement reflecting real-life robotics.
 
 Andrea sees her participation in the CONCAT project as a union between her interest in movement and her passion for the math and engineering behind technology-based art forms.

@@ -37,7 +37,7 @@ AIBO also attempts to emulate Eva’semotional memory by creating a facsimile of
 
 ## How the AIBO “sicko” chatbot works
 
-The AIBO GPT-2 chatbot was developed as a collaboration between new media artist and ThoughtWorks Arts Director Ellen Pearlman and ThoughtWorks developer Jonathan Heng, with assistance from ThoughtWorks developers Watawat Somo and Andrew Zhou.
+The AIBO GPT-2 chatbot was developed as a collaboration between new media artist and Thoughtworks Arts Director Ellen Pearlman and Thoughtworks developer Jonathan Heng, with assistance from Thoughtworks developers Watawat Somo and Andrew Zhou.
 
 The chatbot incorporates the advances, as of 2019, in Natural Language Processing using GPT-2, a language model developed by [OpenAI](https://openai.com/). Recently, GPT-3 has been released and promises to be an even more effective and powerful language model.
 

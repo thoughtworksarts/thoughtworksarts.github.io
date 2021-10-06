@@ -4,7 +4,7 @@ author    : Caihong Liu
 tags      : [time-sense, seismic-sense]
 ---
 
-I never knew that one day I would be part of a project to develop new human senses — but here I am. I’ve spent the last six months working with the [Cyborg Foundation](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) on their [ThoughtWorks Arts Residency](http://thoughtworksarts.io) project.
+I never knew that one day I would be part of a project to develop new human senses — but here I am. I’ve spent the last six months working with the [Cyborg Foundation](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) on their [Thoughtworks Arts Residency](http://thoughtworksarts.io) project.
 
 {% include image file='sam-oryan-prototyping.jpg'
    caption='Engineers Oryan Inbar and Sam Sadtler testing a prototype' %}

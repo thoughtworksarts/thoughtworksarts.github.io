@@ -50,6 +50,6 @@ links:
    url     : ""
 
 ---
-David Yarnall is a critical thinker, technologist and quality analyst with ThoughtWorks. He has years of experience in project manegemnet and the tech industry.
+David Yarnall is a critical thinker, technologist and quality analyst with Thoughtworks. He has years of experience in project manegemnet and the tech industry.
 
 David holds a Bachelor of Arts in Philosophy from Morehouse College, in Atlanta, Georgia.

@@ -43,4 +43,4 @@ Past resident hannes bend presented presented a virtual reality (VR) project and
 
 Residency Director **Ellen Pearlman** and past resident **hannes bend** will be presenting VR projects and moderating panels for [Jump into VR Fest](https://www.jumpintovrfest.com/).
 
-Residency Director Ellen Pearlman represented ThoughtWorks Arts at the Net Gain Retreat to analyse and discuss the “Quantified Society”. Past resident Heather Dewey-Hagborg and representatives from MacArthur, Open Society, Ford, Mozillia, Open Technology Fund, Harvard University Data Privacy Lab, Georgetown University Center on Privacy and Technology, ACLU, Data and Society, EFF, AINow were also there.
+Residency Director Ellen Pearlman represented Thoughtworks Arts at the Net Gain Retreat to analyse and discuss the “Quantified Society”. Past resident Heather Dewey-Hagborg and representatives from MacArthur, Open Society, Ford, Mozillia, Open Technology Fund, Harvard University Data Privacy Lab, Georgetown University Center on Privacy and Technology, ACLU, Data and Society, EFF, AINow were also there.

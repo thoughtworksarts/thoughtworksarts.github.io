@@ -49,6 +49,6 @@ links:
    url     : "https://github.com/jonheng"
 
 ---
-Jonathan Heng is a Software Developer at ThoughtWorks with interests in machine learning and data science and worked with [Ellen Pearlman](/bio/ellen-pearlman) on an [AI Brainwave Opera](https://thoughtworksarts.io/blog/ai-brainwave-opera-world-premiere/).
+Jonathan Heng is a Software Developer at Thoughtworks with interests in machine learning and data science and worked with [Ellen Pearlman](/bio/ellen-pearlman) on an [AI Brainwave Opera](https://thoughtworksarts.io/blog/ai-brainwave-opera-world-premiere/).
 
-Before joining ThoughtWorks, Jonathan attained a Master of Science in Computer Science at Imperial College London and a Bachelor of Engineering from Singapore University of Technology and Design.
+Before joining Thoughtworks, Jonathan attained a Master of Science in Computer Science at Imperial College London and a Bachelor of Engineering from Singapore University of Technology and Design.

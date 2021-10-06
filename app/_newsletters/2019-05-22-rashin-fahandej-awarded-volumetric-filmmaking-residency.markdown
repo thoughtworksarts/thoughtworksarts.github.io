@@ -10,20 +10,20 @@ We are very pleased to welcome our newest resident Rashin Fahandej, an Iranian-A
    link='https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/'
 %}
 
-During her ThoughtWorks Arts Residency, with support from [Scatter](http://scatter.nyc/), Rashin will be using [Depthkit](https://www.depthkit.tv/) to expand her practice, furthering the development of her project, _A Father's Lullaby_.
+During her Thoughtworks Arts Residency, with support from [Scatter](http://scatter.nyc/), Rashin will be using [Depthkit](https://www.depthkit.tv/) to expand her practice, furthering the development of her project, _A Father's Lullaby_.
 
 <!--excerpt-ends-->
 
 _A Father’s Lullaby_ is a multi-platform, community engaged interactive work that highlights the role of men in raising children and their absence due to the racial disparities in the criminal justice system. The project is a “Poetic Cyber Movement for Social Justice,” where art and technology mobilizes a plethora of voices to ignite a more inclusive dialogue to effect social change.
 
-Rashin is currently a research fellow at MIT Open Documentary Lab and a visiting faculty at Massachusetts College of Art and Design. She will be in residence at ThoughtWorks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
+Rashin is currently a research fellow at MIT Open Documentary Lab and a visiting faculty at Massachusetts College of Art and Design. She will be in residence at Thoughtworks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
 
 You can learn more about Rashin, her project, and our residency partner Scatter, in the [announcement blog post](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/).
 
 
 ## Extension of The Open Call for The Democratization of Artificial Intelligence
 
-ThoughtWorks Arts has extended the open call [The Democratization of Artificial Intelligence via Blockchain](https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/) until July 31, 2019.
+Thoughtworks Arts has extended the open call [The Democratization of Artificial Intelligence via Blockchain](https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/) until July 31, 2019.
 
 Artists are invited to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
 
@@ -42,7 +42,7 @@ For this fully funded, 16 week residency, we are looking for creatives to develo
 Visit our [Open Call: Blockchain & AI page](https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/) to learn more.
 
 
-## News from Past ThoughtWorks Arts Residents
+## News from Past Thoughtworks Arts Residents
 
 {% include image file='stanford-magazine.jpg'
    alt='Stanford Magazine cover'
@@ -85,24 +85,24 @@ Visit our [Open Call: Blockchain & AI page](https://thoughtworksarts.io/open-cal
 ## Blog Posts
 * [Rashin Fahandej Awarded Volumetric Filmmaking Residency](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) by the Residency Team
 * [Why We Are Investigating the Democratization of AI via Blockchain](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/) by the Residency Directors
-* [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
+* [PBS Features Thoughtworks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 * [EmoPy: A Machine Learning Toolkit For Emotional Expression](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) by Angelica Perez
 * [Industrial Robotics and Human Movement: New Experiments](https://thoughtworksarts.io/blog/movement-industrial-robotic-arm/) by the Residency Team
 * [Recognizing Human Facial Expression With Machine Learning](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/) by Angelica Perez
-* [How Arts Programs Drive Innovation at ThoughtWorks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
+* [How Arts Programs Drive Innovation at Thoughtworks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
 * [How Artists Are Reshaping Emerging Technology Research](https://thoughtworksarts.io/blog/how-artists-reshape-emerging-technology-research/) by Andrew McWilliams
-* [Robotics Artists Begin Their Residencies at ThoughtWorks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
+* [Robotics Artists Begin Their Residencies at Thoughtworks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
 * [Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/) by the Residency Team
 * [Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) by the Residency Team
-* [ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
+* [Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
 * [How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/) by Stephanie Weber
 * [Industrial Design Process for the ‘Time Sense’ Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 * [Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-* [Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+* [Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 * [Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by Andrew McWilliams
-* [Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+* [Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 * [Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-* [Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+* [Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 * [Suppressed Images: Advocating for Chelsea Manning’s Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 * [ Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 * [ Global Visioning Session with the Cyborgs ](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)by Andrew McWilliams

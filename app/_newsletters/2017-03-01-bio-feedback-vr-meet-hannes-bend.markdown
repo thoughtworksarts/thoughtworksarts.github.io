@@ -1,19 +1,19 @@
 ---
 title : "Bio-feedback in VR: Meet our next Artist-in-Residence"
 ---
-Our latest artist-in-residence, [hannes bend](https://thoughtworksarts.io/bio/hannes-bend/), has now started his stay with the [ThoughtWorks Arts Residency](https://thoughtworksarts.io/). Hannes recently created [one of the first](http://www.hannesbend.com/index.php?/current/myndful/) Virtual Reality programs with heart-rate biofeedback in collaboration with the Neuroscience and Quantum Physics Alemán Lab, at the University of Oregon.
+Our latest artist-in-residence, [hannes bend](https://thoughtworksarts.io/bio/hannes-bend/), has now started his stay with the [Thoughtworks Arts Residency](https://thoughtworksarts.io/). Hannes recently created [one of the first](http://www.hannesbend.com/index.php?/current/myndful/) Virtual Reality programs with heart-rate biofeedback in collaboration with the Neuroscience and Quantum Physics Alemán Lab, at the University of Oregon.
 
 {% include image file='hannes.jpg'
    link='https://thoughtworksarts.io/bio/hannes-bend'
    caption='hannes at an opening in Miami, USA' %}
 
-During his residency at ThoughtWorks, hannes intends to extend the range of biosensors which can be used in the VR environment, and to develop the user experience of the program towards an aim of increasing personal awareness and mindfulness.
+During his residency at Thoughtworks, hannes intends to extend the range of biosensors which can be used in the VR environment, and to develop the user experience of the program towards an aim of increasing personal awareness and mindfulness.
 
 <!--excerpt-ends-->
 
 ## Project Update: Heather Dewey-Hagborg
 
-Our fall 2016 resident was Heather Dewey-Hagborg, whose project took an unexpected turn due to political events. Heather initially joined us to begin her investigation of the [conversion of human DNA into corporate profits](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/), but found herself talking to ThoughtWorks employee and illustrator Shoili Kanungo just at the time the USA elected Donald Trump to the presidency.
+Our fall 2016 resident was Heather Dewey-Hagborg, whose project took an unexpected turn due to political events. Heather initially joined us to begin her investigation of the [conversion of human DNA into corporate profits](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/), but found herself talking to Thoughtworks employee and illustrator Shoili Kanungo just at the time the USA elected Donald Trump to the presidency.
 
 In addition to this, Heather had previously created [a unique DNA-based portrait](http://deweyhagborg.com/projects/radical-love) of incarcerated whistleblower Chelsea Manning back in 2015\. This technique and it's implications had been [written up in essay form](https://thenewinquiry.com/sci-fi-crime-drama-with-a-strong-black-lead/), but remained somewhat inaccessible to broader audiences.
 
@@ -35,7 +35,7 @@ The [published graphic story](https://suppressedimages.net/), thanks to Shoili's
 
 ## Project Update: Cyborg Foundation
 
-The Cyborg Foundation [joined us](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) for a residency during our Summer 2016 season. They worked with hardware engineers, and with ThoughtWorks resource specialist [Caihong Liu](https://thoughtworksarts.io/bio/caihong-liu/) from Chengdu, to develop prototypes of new wearable 'senses'.
+The Cyborg Foundation [joined us](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) for a residency during our Summer 2016 season. They worked with hardware engineers, and with Thoughtworks resource specialist [Caihong Liu](https://thoughtworksarts.io/bio/caihong-liu/) from Chengdu, to develop prototypes of new wearable 'senses'.
 
 {% include image file='cyborg.jpg'
    link='https://thoughtworksarts.io/projects/'
@@ -46,4 +46,4 @@ These are external sensory organs, or 'exo-senses', which are designed to be wor
 
 We have published full write-ups of Neil's new [Time Sense prototype](https://thoughtworksarts.io/projects/time-sense/) and Moon's new [Seismic Sense prototype](https://thoughtworksarts.io/projects/seismic-sense/). These wearables are still under development, with the silicone molding phase currently underway. Caihong collaborated with the cyborgs on [detailed materials research](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/), helping them discover the exact silicone product they have now come to use.
 
-We are looking forward to supporting hannes in his residency at ThoughtWorks, and will be providing occasional updates to you in this newsletter, to keep you up-to-date.
+We are looking forward to supporting hannes in his residency at Thoughtworks, and will be providing occasional updates to you in this newsletter, to keep you up-to-date.

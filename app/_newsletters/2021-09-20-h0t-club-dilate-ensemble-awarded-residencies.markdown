@@ -39,7 +39,7 @@ Dilate has embraced the latent nature of telematic performance, developing an ar
 ## Public presentation at CounterPulse
 Both collectives kicked off their respective 16-week residencies by participating at [The CounterPulse Festival 2021](https://counterpulse.org/event/festival2021/), including a presentation of their upcoming projects. This was followed by a roundtable conversation focusing on the themes of artist network collaborations.
 
-The event: [ThoughtWorks Arts Improvising The Net(Work) Kick-off Talk](https://counterpulse.org/event/improvising-the-network/) took place on September 15th at 3PM EDT Via Zoom.
+The event: [Thoughtworks Arts Improvising The Net(Work) Kick-off Talk](https://counterpulse.org/event/improvising-the-network/) took place on September 15th at 3PM EDT Via Zoom.
 
 You can learn more about [h0t club and Dilate Ensemble in our announcement blog](https://thoughtworksarts.io/blog/h0t-club-dilate-ensemble-counterpulse-residencies/).
 
@@ -82,13 +82,13 @@ On March 18th, Ellen presented online at the Neurotechnologies Freedom Conferenc
 
 **Andrew McWilliams** will moderate *Dialogue: Techart & Climate* on September 23rd, at 7 am EDT - [register via Zoom](https://zoom.us/meeting/register/tJYtc-uprzwqHdMADM9fFCcUMXbQSOkVl0No). This panel event is part of the [Art-A-Hack / BeFantastic program series](https://thoughtworksarts.io/blog/open-call-climate-action-artahack-befantastic/). Andrew also presented at [BeFantastic Together Dialog #1](https://www.youtube.com/watch?v=zUhPpkKxmwc&t=1487s) where he shared past community-based collaborations, how they drive innovation and social impact, and the ethos behind organizing the BeFantastic fellowship.
 
-## News from Past ThoughtWorks Arts Residents
+## News from Past Thoughtworks Arts Residents
 
 **Nouf Aljowaysir** exhibited her residency project *Salaf 2020* at [Computer Vision Art Gallery -CVPR 2021](https://computervisionart.com/). Nouf was also the winner of the conference's juried Computer Vision art competition.
 
-**Karen Palmer** was a guest artist speaker at Ars Electronica's A New Digital Deal Festival event *[Art Thinking Forum](https://ars.electronica.art/newdigitaldeal/en/art-thinking-forum/)*, on September 12th. Karen was featured in the article [“I put the participant in the middle of the experience”: Karen Palmer on AI storytelling, by Goethe Institute DE](https://www.goethe.de/prj/k40/en/fil/put.html/). Karen was awarded an [Honorary Mention for the Starts 2020 Prize of the European Commission honoring Innovation in Technology, Industry and Society stimulated by the Arts for Perception iO](https://starts-prize.aec.at/index.html), an immersive, AI video installation developed at ThoughtWorks Arts. Perception iO was also a part of the [Expo Starts Prize exhibition at Bozar in Brussels](https://rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), where art and science joined forces to think about the future. 
+**Karen Palmer** was a guest artist speaker at Ars Electronica's A New Digital Deal Festival event *[Art Thinking Forum](https://ars.electronica.art/newdigitaldeal/en/art-thinking-forum/)*, on September 12th. Karen was featured in the article [“I put the participant in the middle of the experience”: Karen Palmer on AI storytelling, by Goethe Institute DE](https://www.goethe.de/prj/k40/en/fil/put.html/). Karen was awarded an [Honorary Mention for the Starts 2020 Prize of the European Commission honoring Innovation in Technology, Industry and Society stimulated by the Arts for Perception iO](https://starts-prize.aec.at/index.html), an immersive, AI video installation developed at Thoughtworks Arts. Perception iO was also a part of the [Expo Starts Prize exhibition at Bozar in Brussels](https://rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), where art and science joined forces to think about the future. 
 
-**Catie Cuan** wrote the recent article [*Dances With Robots*](https://www.cambridge.org/core/journals/the-drama-review/article/dances-with-robots/D226859287E21B672557309618A935AD) for [TDR Cambridge Core](https://www.cambridge.org/core/journals/the-drama-review), on her work with robotics and movement, "...revealing how dancing with robots may provoke a more interanimate everyday world." Catie was highlighted in an article by The New York Times, [Dances With Robots, and Other Tales From the Outer Limits](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), which spotlighted work developed at ThoughtWorks Arts. Catie was also featured in the article, [Why Robots Need Choreographers by Dance Magazine](https://www.dancemagazine.com/catie-cuan-robots-2648562861.html?rebelltitem=1#rebelltitem1).
+**Catie Cuan** wrote the recent article [*Dances With Robots*](https://www.cambridge.org/core/journals/the-drama-review/article/dances-with-robots/D226859287E21B672557309618A935AD) for [TDR Cambridge Core](https://www.cambridge.org/core/journals/the-drama-review), on her work with robotics and movement, "...revealing how dancing with robots may provoke a more interanimate everyday world." Catie was highlighted in an article by The New York Times, [Dances With Robots, and Other Tales From the Outer Limits](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), which spotlighted work developed at Thoughtworks Arts. Catie was also featured in the article, [Why Robots Need Choreographers by Dance Magazine](https://www.dancemagazine.com/catie-cuan-robots-2648562861.html?rebelltitem=1#rebelltitem1).
 
 **Rashin Fahandej** exhibited A Father’s Lullaby at the virtual event *Sounds Like Home* hosted by [SOMArts Cultural Center](https://somarts.org/) on July 16th. A Father’s Lullaby was featured in MIT News - [Transformative truth-telling at the MIT Open Documentary Lab](https://news.mit.edu/2021/open-documentary-lab-0831), on August 31st
 
@@ -127,14 +127,14 @@ On March 18th, Ellen presented online at the Neurotechnologies Freedom Conferenc
 * [Rashin Fahandej Receives Prix Ars Electronica Award of Distinction](https://thoughtworksarts.io/blog/rashin-fahandej-award-of-distinction-ars-electronica/) by the Residency Team
 * [Art-A-Hack Announces Open Call On Climate Action: BeFantastic Together](https://thoughtworksarts.io/blog/open-call-climate-action-artahack-befantastic/) by the Residency Team
 * [How We Created a GPT-2 AI “Sicko” Chatbot for a New Media Opera](https://thoughtworksarts.io/blog/sicko-chatbot-new-media-opera/) by Ellen Pearlman & Jonathan Heng 
-* [Deepfakes MasterClass: ThoughtWorks Arts and Baltan Labs](https://thoughtworksarts.io/blog/deepfake-masterclass-baltan-labs/) by the Residency Team
-* [ThoughtWorks Arts Presents at Bozar Labs in Line With STARTS Prize 2020](https://thoughtworksarts.io/blog/bozar-labs-starts-prize/) by the Residency Team
-* [New York Times Features Catie Cuan's Project With ThoughtWorks Arts](https://thoughtworksarts.io/blog/new-york-times-features-output/) by the Residency Team
+* [Deepfakes MasterClass: Thoughtworks Arts and Baltan Labs](https://thoughtworksarts.io/blog/deepfake-masterclass-baltan-labs/) by the Residency Team
+* [Thoughtworks Arts Presents at Bozar Labs in Line With STARTS Prize 2020](https://thoughtworksarts.io/blog/bozar-labs-starts-prize/) by the Residency Team
+* [New York Times Features Catie Cuan's Project With Thoughtworks Arts](https://thoughtworksarts.io/blog/new-york-times-features-output/) by the Residency Team
 * [Life During (and After) Covid-19 - Artistic Strategies and Breakthrough Responses](https://thoughtworksarts.io/blog/covid-19-artistic-strategies/) by the Residency Team
 * [Confronting the Unknown: Art & Technology Research for Service Design](https://thoughtworksarts.io/blog/confront-unknown-research-service-design/) by the Residency Team
 * [Dancedemic World Premiere at Battery Dance Virtual Festival](https://thoughtworksarts.io/blog/dancedemic-art-a-hack-live/) by the Residency Team
-* [Welcoming Our New Residents to ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-new-residents-synthetic-media/) by the Residency Team
-* [Showcase of Art & Emerging Technology Projects at ThoughtWorks Germany](https://thoughtworksarts.io/blog/showcase-art-tech-thoughtworks-germany/) by the Residency Team
+* [Welcoming Our New Residents to Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-new-residents-synthetic-media/) by the Residency Team
+* [Showcase of Art & Emerging Technology Projects at Thoughtworks Germany](https://thoughtworksarts.io/blog/showcase-art-tech-thoughtworks-germany/) by the Residency Team
 * [A.I. Brainwave Opera Has World Premiere at the Estonian Academy of Music](https://thoughtworksarts.io/blog/ai-brainwave-opera-world-premiere/) by the Residency Team
 * [Rachel Uwa Shares the Origins of Her Berlin Art and Technology School](https://thoughtworksarts.io/blog/rachel-uwa-school-machines-making-make-believe/) by the Residency Team
 * [Ellen Pearlman Presents at U.S. Fulbright Alumni Exchange Seminar](https://thoughtworksarts.io/blog/ellen-pearlman-us-fulbright-alumni-exchange/) by the Residency Team.
@@ -144,6 +144,6 @@ On March 18th, Ellen presented online at the Neurotechnologies Freedom Conferenc
 * [Max Razdow, Ollie Razdow, and Jamie Zigelbaum Awarded Blockchain AI Residency](https://thoughtworksarts.io/blog/max-razdow-ollie-razdow-jamie-zigelbaum-awarded-blockchain-residency/) by the Residency Team
 * [Rashin Fahandej Awarded Volumetric Filmmaking Residency](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) by the Residency Team
 * [Why We Are Investigating the Democratization of AI via Blockchain](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/) by the Residency Directors
-* [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
+* [PBS Features Thoughtworks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 
 Love this newsletter? Check out our [archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign-up](https://thoughtworksarts.io/newsletters/)!

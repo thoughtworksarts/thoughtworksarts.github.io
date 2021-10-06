@@ -13,7 +13,7 @@ The chip is a 12mm x 2mm Near Field Communication ([NFC](https://en.wikipedia.or
 
 <!--excerpt-ends-->
 
-While I was initially researching this topic, I was excited to discover that the Cyborg Foundation was [beginning a project with](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/)) the ThoughtWorks Arts Residency. The Cyborg Foundation’s mission is "to help humans become cyborgs, to promote the use of cybernetics as part of the human body and to defend cyborg rights."
+While I was initially researching this topic, I was excited to discover that the Cyborg Foundation was [beginning a project with](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/)) the Thoughtworks Arts Residency. The Cyborg Foundation’s mission is "to help humans become cyborgs, to promote the use of cybernetics as part of the human body and to defend cyborg rights."
 
 ## How does the implant work?
 

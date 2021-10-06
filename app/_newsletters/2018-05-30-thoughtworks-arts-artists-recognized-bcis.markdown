@@ -1,7 +1,7 @@
 ---
-title : "ThoughtWorks Arts Artists Recognized for Work with BCIs"
+title : "Thoughtworks Arts Artists Recognized for Work with BCIs"
 ---  
-Art-A-Hack project Dual Brains by Eva Lee and Aaron Trocola, and Noor: A Brain Opera by ThoughtWorks Director Ellen Pearlman were highlighted in a [Redshift article exploring the use of brain-computer interface technology (BCI) in art](https://www.autodesk.com/redshift/brain-computer-interface/).
+Art-A-Hack project Dual Brains by Eva Lee and Aaron Trocola, and Noor: A Brain Opera by Thoughtworks Director Ellen Pearlman were highlighted in a [Redshift article exploring the use of brain-computer interface technology (BCI) in art](https://www.autodesk.com/redshift/brain-computer-interface/).
 
 {% include image file='dual-brains.jpg'
    caption='3D rendering of the headsets used in Dual Brains' %}
@@ -18,7 +18,7 @@ TED recently posted past-resident [Karen Palmer discussing her immersive, emotio
    caption='Karen Palmer\'s TED Residency Talk'
    link='https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/' %}
 
-In this talk, Karen discusses her inspiration to create RIOT, the final development stages of the film, and how she utilized her residency at ThoughtWorks to help democratize the AI used in her project. Karen completed a TED Residency while also at ThoughtWorks.  
+In this talk, Karen discusses her inspiration to create RIOT, the final development stages of the film, and how she utilized her residency at Thoughtworks to help democratize the AI used in her project. Karen completed a TED Residency while also at Thoughtworks.  
 
 ## Heather Dewey-Hagborg Premiers New Work
 
@@ -31,7 +31,7 @@ T3511 is a post-genomic love story and experimental documentary 4-channel video 
 
 ## Ellen Pearlman at the 2018 HYBRID LABS Symposium
 
-ThoughtWorks Arts Director Ellen Pearlman is on The International Scientific Board for the [2018 HYBRID LABS Symposium](http://hybridlabs.aalto.fi/hls2018-symposium/) at Aalto University in Finland. This is the 3rd edition of the Renewable Futures conference that aims to challenge the future of knowledge creation through art and science, taking place from May 30th to June 1st, 2018.
+Thoughtworks Arts Director Ellen Pearlman is on The International Scientific Board for the [2018 HYBRID LABS Symposium](http://hybridlabs.aalto.fi/hls2018-symposium/) at Aalto University in Finland. This is the 3rd edition of the Renewable Futures conference that aims to challenge the future of knowledge creation through art and science, taking place from May 30th to June 1st, 2018.
 
 {% include image file='moon-ribas.jpg'
    caption='Ellen worked with Cyborg Artist Moon Ribas to prototype a new sensor implant in her foot' %}
@@ -94,25 +94,25 @@ Creative Capital
 
 *   **[Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/)** by the Residency Team
 *   **[Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/)** by the Residency Team
-*   **[ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/)** by the Residency Team
+*   **[Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/)** by the Residency Team
 *   **[How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/)** by Stephanie Weber
 *   **[Industrial Design Process for the 'Time Sense' Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/)** by Oryan Inbar
 *   **[Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/)** by Ellen Pearlman
-*   **[Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/)** by the Residency Team
+*   **[Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/)** by the Residency Team
 *   **[Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/presenting-our-work-tedx/)** by Andrew McWilliams
-*   **[Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/)** by the Residency Team
+*   **[Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/)** by the Residency Team
 *   **[Three Views on Biometrics and Immersion for Creative Tech Week](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/)** by the Residency Team
 *   **[Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/)** by the Residency Directors
-*   **[Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/)** by the Residency Team
+*   **[Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/)** by the Residency Team
 *   **[Suppressed Images: Advocating for Chelsea Manning's Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/)** by the Residency Team
 *   **[How I Became a Cyborg](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/)** by Stefanie Grewenig
 *   **[Cyborg Senses: Weaving the Materials](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/)** by Caihong Liu
-*   **[Heather Dewey-Hagborg Begins Residency at ThoughtWorks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/)** by the Residency Team
+*   **[Heather Dewey-Hagborg Begins Residency at Thoughtworks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/)** by the Residency Team
 *   **[Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/)** by Andrew McWilliams
 *   **[Global Visioning Session with the Cyborgs](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)** by Andrew McWilliams
-*   **[Inside Our Brand New Lab at ThoughtWorks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/)** by the Residency Team
+*   **[Inside Our Brand New Lab at Thoughtworks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/)** by the Residency Team
 *   **[Discussing the residency on dotNYC with Jeff Jarvis](https://thoughtworksarts.io/blog/appearance-on-dotnyc/)** by Andrew McWilliams
 *   **[Introducing the Cyborg Foundation](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/)** by the Residency Team
-*   **[Announcing the ThoughtWorks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/)** by the Residency Team
+*   **[Announcing the Thoughtworks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/)** by the Residency Team
 
 Love this newsletter? Check out [our archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!

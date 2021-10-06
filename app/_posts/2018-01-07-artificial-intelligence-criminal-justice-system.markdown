@@ -15,7 +15,7 @@ Should AI systems be used in life-changing situations, like criminal sentencing?
 
 In fact, it's already happening, and has been for several years. It's about time we look at this tech and consider: what are the risks and what are the benefits of AI in criminal sentencing? Which problems does AI reinforce, and which does it alleviate?
 
-These questions came to light for me as part of my research work on the ThoughtWorks Arts Residency, where I was contributing to an AI system for [resident Karen Palmer](/blog/karen-palmer-ai-residency/). What I discovered was both shocking and fascinating.
+These questions came to light for me as part of my research work on the Thoughtworks Arts Residency, where I was contributing to an AI system for [resident Karen Palmer](/blog/karen-palmer-ai-residency/). What I discovered was both shocking and fascinating.
 
 One of the most important considerations in judicial decisions, from setting or denying bail to sentencing, is "risk of recidivism" — the likelihood of reoffending. Prior to using algorithms to make these decisions, something which has grown over the last 30 years, risk of recidivism along with flight risk determination was left to the subjective decision-making and gut choices of individual judges.
 

@@ -2,7 +2,7 @@
 title  : "Why We Are Investigating the Democratization of AI via Blockchain"
 author : Directors
 ---
-ThoughtWorks Arts has [published an open call](/open-call/2019-democratization-ai-blockchain/) for artists to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
+Thoughtworks Arts has [published an open call](/open-call/2019-democratization-ai-blockchain/) for artists to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
 
 {% include image file='closing.jpg'
    caption='Image by [Radek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)' %}

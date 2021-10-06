@@ -16,7 +16,7 @@ This article provides an introduction to the field known as Facial Expression Re
 
 ## Where our experience came from
 
-The information presented in this article is based on a mixture of project experience and academic research. At ThoughtWorks we created an [FER toolkit named EmoPy](https://github.com/thoughtworksarts/EmoPy), supporting the artist and filmmaker Karen Palmer during her [residency with ThoughtWorks Arts](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/).
+The information presented in this article is based on a mixture of project experience and academic research. At Thoughtworks we created an [FER toolkit named EmoPy](https://github.com/thoughtworksarts/EmoPy), supporting the artist and filmmaker Karen Palmer during her [residency with Thoughtworks Arts](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/).
 
 As the lead developer on that project, I worked with a team to help Karen to create a new version of her [emotionally responsive film experience, RIOT](https://thoughtworksarts.io/projects/riot/). We built EmoPy from the ground up to handle the emotion recognition requirements [of the RIOT system](https://github.com/thoughtworksarts/riot).
 
@@ -25,9 +25,9 @@ As the lead developer on that project, I worked with a team to help Karen to cre
 
 EmoPy is published as an open source project, helping to increase public access to a technology which is often locked behind closed doors. In [this follow-up article](/blog/emopy-emotional-expression-toolkit) I explain more about the creation of the EmoPy toolkit, and explain why and how you might use it in your own projects.
 
-Before joining ThoughtWorks, I graduated from Stanford with a degree focusing on Artificial Intelligence. A large part of my research was in comparative approaches to machine learning problems, including looking at FER systems.
+Before joining Thoughtworks, I graduated from Stanford with a degree focusing on Artificial Intelligence. A large part of my research was in comparative approaches to machine learning problems, including looking at FER systems.
 
-The overview presented in this article is drawn from both of these experiences, with Stanford and with ThoughtWorks Arts.
+The overview presented in this article is drawn from both of these experiences, with Stanford and with Thoughtworks Arts.
 
 ## Classifying images as emotions
 

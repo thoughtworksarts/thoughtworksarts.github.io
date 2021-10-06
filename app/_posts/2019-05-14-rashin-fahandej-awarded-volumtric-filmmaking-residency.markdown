@@ -2,7 +2,7 @@
 title  : "Rashin Fahandej Awarded Volumetric Filmmaking Residency"
 tags   : a-fathers-lullaby
 ---
-ThoughtWorks Arts Residency, in conjunction with [Scatter](http://scatter.nyc), is pleased to announce that Rashin Fahandej as been awarded our [Volumetric Filmmaking Residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) to expand her project _A Father's Lullaby_.
+Thoughtworks Arts Residency, in conjunction with [Scatter](http://scatter.nyc), is pleased to announce that Rashin Fahandej as been awarded our [Volumetric Filmmaking Residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) to expand her project _A Father's Lullaby_.
 
 {% include image file='rashin-fahandej.jpg'
    caption='Rashin Fahandej standing in front of _A Father\'s Lullaby_' %}
@@ -18,7 +18,7 @@ Explored through the space of love and intimacy, the project is being developed 
 {% include vimeo id='260516353'
    caption='_A Father\'s Lullaby_ - a sample video' %}
 
-Rashin Fahandej will explore volumetric filmmaking using [Depthkit](https://www.depthkit.tv), expanding her practice, and enhancing possibilities for visual poetry. She will be in residence at ThoughtWorks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
+Rashin Fahandej will explore volumetric filmmaking using [Depthkit](https://www.depthkit.tv), expanding her practice, and enhancing possibilities for visual poetry. She will be in residence at Thoughtworks Arts from June 10 to September 27, 2019, and her project is slated to be shown at the Institute of Contemporary Arts in Boston, MA.
 
 Scatter is an Emmy Award-winning creative company defining the emerging discipline of volumetric filmmaking. Scatter creates original volumetric film productions and AR/VR creativity tools. Scatter’s first product, Depthkit, is the most widely used toolkit for accessible volumetric video capture.
 

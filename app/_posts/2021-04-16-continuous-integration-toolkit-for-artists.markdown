@@ -7,14 +7,14 @@ redirect_from:
   - /blog/james-coupe-continous-integration-art-toolkit/
   - /blog/james-coupe-continuous-integration-art-toolkit/
 ---
-During my [Synthetic Media residency](/blog/welcoming-new-residents-synthetic-media/) at ThoughtWorks Arts I began developing a new work *Birds of the British Empire* that explores the linkages between historical, colonial archives and the training sets used in machine learning. Because of the COVID-19 pandemic the residency took place online via various cloud-based tools and servers.
+During my [Synthetic Media residency](/blog/welcoming-new-residents-synthetic-media/) at Thoughtworks Arts I began developing a new work *Birds of the British Empire* that explores the linkages between historical, colonial archives and the training sets used in machine learning. Because of the COVID-19 pandemic the residency took place online via various cloud-based tools and servers.
 
 {% include image file='birds-of-british-empire.jpg'
    class='no-border'
    alt='Preliminary experiments from Birds of the British Empire' %}
 > The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br><span class='quotee'>— Boris Groys, On The New</span>
 
-Working with ThoughtWorks developers we used [Continuous Integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) techniques to link together and automate our codebases, so that when for example I make changes to one Machine Learning algorithm the whole system can run end-to-end and generate new results.
+Working with Thoughtworks developers we used [Continuous Integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) techniques to link together and automate our codebases, so that when for example I make changes to one Machine Learning algorithm the whole system can run end-to-end and generate new results.
 
 These types of distributed workflows open up new ways for artists to organize, store and exhibit work.
 

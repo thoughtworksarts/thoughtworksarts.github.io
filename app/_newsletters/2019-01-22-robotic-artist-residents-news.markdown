@@ -10,26 +10,26 @@ In the interview, Catie explains her ideas on how robotics are impacting society
 
 <!--excerpt-ends-->
 
-Catie was also recently featured on a [PBS NewsHour segment on the future of work](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/). The segment shows how Catie is applying her project work created with ThoughtWorks Arts to her doctoral research in Mechanical Engineering at Stanford University.
+Catie was also recently featured on a [PBS NewsHour segment on the future of work](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/). The segment shows how Catie is applying her project work created with Thoughtworks Arts to her doctoral research in Mechanical Engineering at Stanford University.
 
 {% include image file='pbs-newshour.jpg'
    link='https://www.youtube.com/watch?time_continue=30&v=uyrIfk30LaQ' %}  
 
-The software featured in the video, [CONCAT](https://github.com/thoughtworksarts/concat), was created by developers at ThoughtWorks over the fall. The technology enables Catie to rehearse her own bodily movements alongside those of industrial-scale robots.
+The software featured in the video, [CONCAT](https://github.com/thoughtworksarts/concat), was created by developers at Thoughtworks over the fall. The technology enables Catie to rehearse her own bodily movements alongside those of industrial-scale robots.
 
 {% include image file='adrianne-wortzel.jpg'
    caption='Adrianne Wortzel - photo by Kevin Barry' %}
 
-Adrianne Wortzel, also a resident at ThoughtWorks Arts over the summer of 2018, is completing a film based on her explorations in robotics. The film, titled ROBOTA PERSONAE, will explore how “sentient” robots interact with non-sentient robots. Not a word is spoken in a choreographed dance, and yet movements and mime promote a totally visceral experience of comedy, tragedy, delight and horror. More updates coming in our next newsletter.
+Adrianne Wortzel, also a resident at Thoughtworks Arts over the summer of 2018, is completing a film based on her explorations in robotics. The film, titled ROBOTA PERSONAE, will explore how “sentient” robots interact with non-sentient robots. Not a word is spoken in a choreographed dance, and yet movements and mime promote a totally visceral experience of comedy, tragedy, delight and horror. More updates coming in our next newsletter.
 
-## ThoughtWorks Arts interview in CLOT Magazine
+## Thoughtworks Arts interview in CLOT Magazine
 
-Curator and researcher Ashley Lee Wong [interviewed ThoughtWorks Arts directors Andrew McWilliams and Ellen Pearlman for CLOT Magazine](http://www.clotmag.com/thoughtworks-arts-residency-leveraging-corporate-resources-for-art-social-change-by-ashley-lee-wong) about their ambitious arts residency to engage with socially relevant projects using emerging technologies.
+Curator and researcher Ashley Lee Wong [interviewed Thoughtworks Arts directors Andrew McWilliams and Ellen Pearlman for CLOT Magazine](http://www.clotmag.com/thoughtworks-arts-residency-leveraging-corporate-resources-for-art-social-change-by-ashley-lee-wong) about their ambitious arts residency to engage with socially relevant projects using emerging technologies.
 
 {% include image file='heather-dewey-hagborg.jpg'
    caption='Past resident Heather Dewey-Hagborg speaking at the opening of ‘A Becoming Resemblance’ at Fridman Gallery in 2017' %}
 
-The article highlights the achievements and challenges of merging artists with technology and how ThoughtWorks Arts is leveraging corporate resources for art and social change.
+The article highlights the achievements and challenges of merging artists with technology and how Thoughtworks Arts is leveraging corporate resources for art and social change.
 
 ## Final Projects from Art-A-Hack Special Edition Summer 2018
 
@@ -62,12 +62,12 @@ Don’t miss her [article on the use of the Art-A-Hack methodology](https://jour
 
 ## Karen Palmer at XConf
 
-Past resident and storyteller from the future Karen Palmer was featured at ThoughtWorks’ yearly conference, XConf. Check out [this video](https://www.youtube.com/watch?v=Yym-gVsZeeM) of her presentation on her immersive film combining gaming, art, science and technology and the work she did through her TWA residency.
+Past resident and storyteller from the future Karen Palmer was featured at Thoughtworks’ yearly conference, XConf. Check out [this video](https://www.youtube.com/watch?v=Yym-gVsZeeM) of her presentation on her immersive film combining gaming, art, science and technology and the work she did through her TWA residency.
 
 {% include image file='karen-palmer.jpg'
    caption='Past-resident Karen Palmer pointing out the facial recognition algorithms used for RIOT' %}
 
-EmoPy, the facial expression recognition software created for RIOT by ThoughtWorks developers, was recently [written about in InfoQ](https://www.infoq.com/news/2018/10/EmoPy-Computer-Vision). Join the 160 other developers using this [open source tookit on Github](https://github.com/thoughtworksarts/EmoPy) to work on the future of time based facial recognition!
+EmoPy, the facial expression recognition software created for RIOT by Thoughtworks developers, was recently [written about in InfoQ](https://www.infoq.com/news/2018/10/EmoPy-Computer-Vision). Join the 160 other developers using this [open source tookit on Github](https://github.com/thoughtworksarts/EmoPy) to work on the future of time based facial recognition!
 
 ## Updates from Art-A-Hack™ Alumni
 
@@ -160,34 +160,34 @@ Cologne, Germany
 
 ## Blog Posts
 
-*   [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
+*   [PBS Features Thoughtworks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 *   [EmoPy: A Machine Learning Toolkit For Emotional Expression](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) by Angelica Perez
 *   [Industrial Robotics and Human Movement: New Experiments](https://thoughtworksarts.io/blog/movement-industrial-robotic-arm/) by the Residency Team
 *   [Recognizing Human Facial Expression With Machine Learning](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/) by Angelica Perez
-*   [How Arts Programs Drive Innovation at ThoughtWorks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
+*   [How Arts Programs Drive Innovation at Thoughtworks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
 *   [How Artists Are Reshaping Emerging Technology Research](https://thoughtworksarts.io/blog/how-artists-reshape-emerging-technology-research/) by Andrew McWilliams
-*   [Robotics Artists Begin Their Residencies at ThoughtWorks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
+*   [Robotics Artists Begin Their Residencies at Thoughtworks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
 *   [Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/) by the Residency Team
 *   [Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) by the Residency Team
-*   [ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
+*   [Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018](https://thoughtworksarts.io/spring-break/) by the Residency Team
 *   [How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/) by Stephanie Weber
 *   [Industrial Design Process for the ‘Time Sense’ Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 *   [Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-*   [Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+*   [Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 *   [Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/presenting-our-work-tedx/) by Andrew McWilliams
-*   [Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 *   [Three Views on Biometrics and Immersion for Creative Tech Week](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/) by the Residency Team
 *   [Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-*   [Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+*   [Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 *   [Suppressed Images: Advocating for Chelsea Manning's Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 *   [How I Became a Cyborg](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/) by Stefanie Grewenig
 *   [Cyborg Senses: Weaving the Materials](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/) by Caihong Liu
-*   [Heather Dewey-Hagborg Begins Residency at ThoughtWorks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
+*   [Heather Dewey-Hagborg Begins Residency at Thoughtworks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
 *   [Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 *   [Global Visioning Session with the Cyborgs](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams
-*   [Inside Our Brand New Lab at ThoughtWorks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
+*   [Inside Our Brand New Lab at Thoughtworks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
 *   [Discussing the residency on dotNYC with Jeff Jarvis](https://thoughtworksarts.io/blog/appearance-on-dotnyc/) by Andrew McWilliams
 *   [Introducing the Cyborg Foundation](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) by the Residency Team
-*   [Announcing the ThoughtWorks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
+*   [Announcing the Thoughtworks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
 
 Love this newsletter? Check out [our archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!

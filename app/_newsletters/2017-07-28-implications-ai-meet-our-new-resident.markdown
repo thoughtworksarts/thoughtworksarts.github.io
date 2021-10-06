@@ -6,7 +6,7 @@ We are pleased to welcome our newest resident Karen Palmer, a London-based digit
 {% include image file='karen-palmer.jpg'
    caption='Karen Palmer speaking at TEDxSydney' %}
 
-During her ThoughtWorks Arts Residency, Karen will be furthering development of her interactive film, RIOT. This project is an emotionally responsive live-action film with 3D sound, and uses Artificial Intelligence (AI) technology, machine learning, and facial recognition to allow users to navigate through a dangerous riot in progress.
+During her Thoughtworks Arts Residency, Karen will be furthering development of her interactive film, RIOT. This project is an emotionally responsive live-action film with 3D sound, and uses Artificial Intelligence (AI) technology, machine learning, and facial recognition to allow users to navigate through a dangerous riot in progress.
 
 <!--excerpt-ends-->
 
@@ -36,6 +36,6 @@ Our previous resident Heather Dewey-Hagborg joins forces with Chelsea Manning fo
 
 Noor: A Brain Opera, by Director, Ellen Pearlman, has been selected for [WomenCinemakers, special issue]( http://womencinemakers.com/) featuring independent filmmakers.
 
-Creative Tech Week “Lightning Talks” given by directors [Andrew McWilliams](https://www.youtube.com/watch?v=mKTkPuMF7ho) and [Ellen Pearlman](https://www.youtube.com/watch?v=wwz5rysH9a4) about their own respective practices are online. Longer discussions by directors [Andrew McWilliams](https://www.youtube.com/watch?v=YOmvAV6eV2w&feature=youtu.be) and [Ellen Pearlman](https://www.youtube.com/watch?v=QdOnnytWvlY&feature=youtu.be), and resident [hannes bend](https://www.youtube.com/watch?v=b8IjNTji7w4&feature=youtu.be) at ThoughtWorks for Creative Tech Week are also online.
+Creative Tech Week “Lightning Talks” given by directors [Andrew McWilliams](https://www.youtube.com/watch?v=mKTkPuMF7ho) and [Ellen Pearlman](https://www.youtube.com/watch?v=wwz5rysH9a4) about their own respective practices are online. Longer discussions by directors [Andrew McWilliams](https://www.youtube.com/watch?v=YOmvAV6eV2w&feature=youtu.be) and [Ellen Pearlman](https://www.youtube.com/watch?v=QdOnnytWvlY&feature=youtu.be), and resident [hannes bend](https://www.youtube.com/watch?v=b8IjNTji7w4&feature=youtu.be) at Thoughtworks for Creative Tech Week are also online.
 
 Directors Andy McWilliams and Ellen Pearlman attended the [AI Now Symposium](https://artificialintelligencenow.com/schedule/2017-symposium) at MIT in July. The symposium addresses the near-term social impacts of artificial intelligence to ensure a more equitable future.

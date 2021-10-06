@@ -1,12 +1,12 @@
 ---
 layout     : post-special
 title	   : "Volumetric Filmmaking Workshop with Depthkit"
-description: Open Call for a Volumetric Filmmaking workshop to learn Depthkit, hosted by ThoughtWorks Arts and Scatter in New York
+description: Open Call for a Volumetric Filmmaking workshop to learn Depthkit, hosted by Thoughtworks Arts and Scatter in New York
 image      : /images/posts-special/open-call/2019-volumetric-workshop/og_volumetric.jpg
 ---
 <p class="notice">Note: The deadline for this call has passed and submissions are no longer being accepted. Applicants will be contacted by email regarding participation.</p>
 
-ThoughtWorks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free, intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
+Thoughtworks Arts is partnering with the creative studio [Scatter](http://scatter.nyc/) to host a unique, free, intensive learning workshop on volumetric filmmaking. Apply now to join us for a two-day weekend event exploring [Depthkit](https://www.depthkit.tv), Scatter’s toolkit for accessible volumetric video capture.
 
 {% include image file='volumetric-workshop.jpg' %}
 
@@ -34,7 +34,7 @@ Artists will be introduced to the tools and workflow with hands on learning, dem
 Continuation of immersive learning with practical sessions, including support and incubation for those who wish to collaborate with fellow workshop participants
 
 ## Location 
-ThoughtWorks  
+Thoughtworks  
 99 Madison Ave, 15th Floor  
 New York, NY 10016
 
@@ -44,7 +44,7 @@ It is highly recommended that participants bring their own PC laptop with Window
 If you are unable to bring your own computer or you cannot install Bootcamp, please mark the appropriate field in the application form. We will be able to provide a limited number of Windows PCs which you can use, most likely sharing with others.
 
 ## How to Apply
-ThoughtWorks seeks creators of all experience levels and backgrounds to apply for this 2-day volumetric filmmaking workshop. No 3D experience is required. All you need is an enthusiasm to explore, collaborate, and an interest in promoting community learning
+Thoughtworks seeks creators of all experience levels and backgrounds to apply for this 2-day volumetric filmmaking workshop. No 3D experience is required. All you need is an enthusiasm to explore, collaborate, and an interest in promoting community learning
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyhJJy377miwXjMmbl8xJrN1-bl1TWV_4BRgR0tiNryd4ZrA/viewform" class="attention">Apply now</a>
 

@@ -34,4 +34,4 @@ Battery Dance repositioned the framework of a traditional in-person festival to 
 
 With Art-A-Hack’s partnership, the first-ever biometric remote collaboration performance was produced - an exceptional example of how challenging times can breed innovation and collaboration.
 
-Art-A-Hack’s “DANCEDEMIC” was funded through an Alumni TIES small grant from the U.S. Department of State and supported by ThoughtWorks Arts, ThoughtWorks, Battery Dance, EmotiBit, and eˉlektron. You can learn more about how this year’s Art-A-Hack actualized in the Open Call that closed in June.
+Art-A-Hack’s “DANCEDEMIC” was funded through an Alumni TIES small grant from the U.S. Department of State and supported by Thoughtworks Arts, Thoughtworks, Battery Dance, EmotiBit, and eˉlektron. You can learn more about how this year’s Art-A-Hack actualized in the Open Call that closed in June.

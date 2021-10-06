@@ -19,7 +19,7 @@ These wearables allow the cyborgs to actually experience a new prototypical sens
 {% include image file='neil-harbisson-2.jpg'
    caption='Neil wearing the functional proof of concept' %}
 
-The first part of this ‘wearable prototyping’ stage was a functional proof of concept, shown above, [which we created during](/blog/team-gets-started-on-research/) the Cyborg Foundation’s residency at ThoughtWorks in the summer of 2016.
+The first part of this ‘wearable prototyping’ stage was a functional proof of concept, shown above, [which we created during](/blog/team-gets-started-on-research/) the Cyborg Foundation’s residency at Thoughtworks in the summer of 2016.
 
 I am now working on the next stage — creating a durable physical wearable, in which to combine new, miniature electronics with a unique industrial design, thereby creating a smoother user experience for the cyborgs.
 

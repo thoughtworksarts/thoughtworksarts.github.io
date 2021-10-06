@@ -1,5 +1,5 @@
 ---
-title     : "Heather Dewey-Hagborg Begins Residency at ThoughtWorks"
+title     : "Heather Dewey-Hagborg Begins Residency at Thoughtworks"
 tags      : suppressed-images
 ---
 We are pleased to welcome our second resident artist, Heather Dewey-Hagborg, who will be with us over the next four months.
@@ -32,7 +32,7 @@ In 2014, Heather released a new product line named _Invisible_, allowing users t
 
 The companion spray _Replace_ obfuscates the remaining DNA; it contains 50 random DNA samples, making detection of the single unique individual DNA prohibitively complex.
 
-During her time at ThoughtWorks, Heather intends to begin a new body of work, currently named _Sell/Bio_, in which she will research the "histories, infrastructures, protocols and business models" that position DNA as a "commodity to be bought and sold on the open market."
+During her time at Thoughtworks, Heather intends to begin a new body of work, currently named _Sell/Bio_, in which she will research the "histories, infrastructures, protocols and business models" that position DNA as a "commodity to be bought and sold on the open market."
 
 {% include image file='exhibition.jpg'
    caption='_Stranger Visions_ on display at Artefact 2015 (credit [Carolien Coenen](https://www.flickr.com/photos/carolienc/15983790824/))' %}

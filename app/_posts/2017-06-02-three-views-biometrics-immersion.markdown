@@ -21,4 +21,4 @@ Ellen Pearlman’s _Noor: A Brain Opera_ (2016) was an EEG enabled immersive, in
 
 {% include youtube id='b8IjNTji7w4' %}
 
-hannes bend’s VR project _mYnd_, currently under development at the ThoughtWorks Arts Residency, is a VR experience that integrates dynamic and adaptive biofeedback via biosensors into the immersive experience. The artist aims to promote mindfulness and greater awareness through virtual worlds which respond to breath, heart rate, and more.
+hannes bend’s VR project _mYnd_, currently under development at the Thoughtworks Arts Residency, is a VR experience that integrates dynamic and adaptive biofeedback via biosensors into the immersive experience. The artist aims to promote mindfulness and greater awareness through virtual worlds which respond to breath, heart rate, and more.

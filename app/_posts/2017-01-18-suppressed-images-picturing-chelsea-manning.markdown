@@ -16,7 +16,7 @@ The final pane of the graphic story was a speculative twist in which Manning was
 
 This collaboration was not planned from the beginning of the residency. It came about slowly as political events unfolded and connections were made.
 
-At the beginning of her residency, Heather presented her work over a conference call to an audience of global ThoughtWorks employees. Shoili Kanungo, a graphic designer and illustrator with ThoughtWorks India, watched the call and got in touch to suggest a collaboration.
+At the beginning of her residency, Heather presented her work over a conference call to an audience of global Thoughtworks employees. Shoili Kanungo, a graphic designer and illustrator with Thoughtworks India, watched the call and got in touch to suggest a collaboration.
 
 {% include image file='story-1.jpg' link='https://suppressedimages.net/'
    caption='The first page of \'Suppressed Images\'' %}

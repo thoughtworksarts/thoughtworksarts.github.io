@@ -49,8 +49,8 @@ links:
    url     : "https://github.com/SteffiPeTaffy"
 
 ---
-Stefanie Grewenig is a consultant and software developer at ThoughtWorks Germany. Since starting to code in 2009, Stefanie has studied engineering, research and development, and spends spare time experimenting with new technologies and speaking at conferences.
+Stefanie Grewenig is a consultant and software developer at Thoughtworks Germany. Since starting to code in 2009, Stefanie has studied engineering, research and development, and spends spare time experimenting with new technologies and speaking at conferences.
 
-During the Cyborg Foundation residency in 2016, Stefanie was inspired to experiment with biohacking. She has since [written about her experiences](/blog/how-i-became-a-cyborg) on the ThoughtWorks Arts Residency blog.
+During the Cyborg Foundation residency in 2016, Stefanie was inspired to experiment with biohacking. She has since [written about her experiences](/blog/how-i-became-a-cyborg) on the Thoughtworks Arts Residency blog.
 
 Stefanie is an advocate of functional programming and is writing Clojure/ClojureScript web applications.

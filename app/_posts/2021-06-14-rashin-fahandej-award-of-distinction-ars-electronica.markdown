@@ -3,7 +3,7 @@ title  : "Rashin Fahandej Receives Prix Ars Electronica Award of Distinction"
 description : "Rashin Fahandej has been awarded the Prix Ars Electronica Award of Distinction in Digital Music and Sound Art for A Father's Lullaby."
 tags   : a-fathers-lullaby
 ---
-Rashin Fahandej has been awarded the Prix Ars Electronica Award of Distinction in Digital Music and Sound Art for [A Father's Lullaby](/projects/a-fathers-lullaby/). The project was [incubated as part of](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) Rashin's residency at ThoughtWorks Arts.
+Rashin Fahandej has been awarded the Prix Ars Electronica Award of Distinction in Digital Music and Sound Art for [A Father's Lullaby](/projects/a-fathers-lullaby/). The project was [incubated as part of](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) Rashin's residency at Thoughtworks Arts.
 
 {% include image file='rashin-fahandej.jpg' %}
 
@@ -23,7 +23,7 @@ The project is centered on marginalized voices of absent fathers, while inviting
 {% include image file='ars-electronica-center.jpg'
    caption="Ars Electronica Center in Linz, Austrial &mdash; credit [Ars Electronica](https://www.flickr.com/photos/arselectronica/33698682675/)" %}
 
-Rashin's [residency with ThoughtWorks Arts](/projects/a-fathers-lullaby/) enabled the project to take on new dimensions in volumetric filmmaking technology, and in the online sharing and mapping of new father's voices to enter into the community effort.
+Rashin's [residency with Thoughtworks Arts](/projects/a-fathers-lullaby/) enabled the project to take on new dimensions in volumetric filmmaking technology, and in the online sharing and mapping of new father's voices to enter into the community effort.
 
 With support from our residency partner [Scatter](http://scatter.nyc/), Rashin Fahandej incorporated volumetric filmmaking into her practice, using Depthkit technology. Volumetric filmmaking has allowed her to expand and enhance the possibilities for her immersive visual poetry.
 

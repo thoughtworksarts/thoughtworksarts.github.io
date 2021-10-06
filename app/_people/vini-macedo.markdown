@@ -49,6 +49,6 @@ links:
    url     : "http://github.com/vinicyusmacedo"
 
 ---
-Vini Macedo is an infrastructure consultant at ThoughtWorks, based in São Paulo, Brazil. Vini has always loved hacking and investigating how technology can be used in a creative and exploratory way.
+Vini Macedo is an infrastructure consultant at Thoughtworks, based in São Paulo, Brazil. Vini has always loved hacking and investigating how technology can be used in a creative and exploratory way.
 
-As a part of the [Salaf \[Arabic&#58; سلف , ancestor\] \(2020\)](/projects/salaf/) project with ThoughtWorks Arts, Vini contributed by building the cloud infrastructure for the project, and by setting up Kubeflow clusters for training machine learning models.
+As a part of the [Salaf \[Arabic&#58; سلف , ancestor\] \(2020\)](/projects/salaf/) project with Thoughtworks Arts, Vini contributed by building the cloud infrastructure for the project, and by setting up Kubeflow clusters for training machine learning models.

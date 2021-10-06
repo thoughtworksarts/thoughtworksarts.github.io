@@ -47,4 +47,4 @@ Dilate has embraced the latent nature of telematic performance, developing an ar
 ## Public presentation at CounterPulse
 Both collectives will kick off their respective 16-week residencies by participating at [The CounterPulse Festival 2021](https://counterpulse.org/event/festival2021/), including a presentation of their upcoming projects. This will be followed by a roundtable conversation focusing on the themes of artist network collaborations.
 
-The event: [ThoughtWorks Arts Improvising The Net(Work) Kick-off Talk](https://counterpulse.org/event/improvising-the-network/) will take place on September 15th at 3PM EDT Via Zoom, with [tickets available now](https://www.eventbrite.com/e/thoughtworks-arts-improvising-the-network-kick-off-talk-tickets-169678467865).
+The event: [Thoughtworks Arts Improvising The Net(Work) Kick-off Talk](https://counterpulse.org/event/improvising-the-network/) will take place on September 15th at 3PM EDT Via Zoom, with [tickets available now](https://www.eventbrite.com/e/thoughtworks-arts-improvising-the-network-kick-off-talk-tickets-169678467865).

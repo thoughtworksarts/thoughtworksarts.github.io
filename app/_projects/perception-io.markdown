@@ -63,20 +63,20 @@ Participants are invited to analyze the data calibrated from their interaction w
 
 ## Branching Storylines
 
-Karen teamed up with a dedicated group of programmers at ThoughtWorks to develop EmoPy and build the Perception iO system. The project is an evolution of [RIOT](/projects/riot/), an installation artwork using facial recognition that Karen developed during her residency at ThoughtWorks Arts.
+Karen teamed up with a dedicated group of programmers at Thoughtworks to develop EmoPy and build the Perception iO system. The project is an evolution of [RIOT](/projects/riot/), an installation artwork using facial recognition that Karen developed during her residency at Thoughtworks Arts.
 
 Like RIOT, Perception iO aims to expand access to AI technologies already in use today.
 
 > Commercial companies usually keep the algorithms and datasets they use for facial recognition and emotion detection under wraps. As an artist, Palmer wants people to become aware of the privacy and human rights concerns around this and put the technology into their hands in order to democratise AI.<br><span class='quotee'>— WIRED, March 7th 2020</span>
 
-ThoughtWorks developers guided the technical development, by increasing the accuracy of EmoPy, and creating a new branching logic system which allows for multiple modalities of experience with different film characters. The developers designed the installation code and set up the prototype at the Cooper Hewitt Smithsonian Museum ready for public viewing.
+Thoughtworks developers guided the technical development, by increasing the accuracy of EmoPy, and creating a new branching logic system which allows for multiple modalities of experience with different film characters. The developers designed the installation code and set up the prototype at the Cooper Hewitt Smithsonian Museum ready for public viewing.
 
 ## Exhibitions and Publications
 
 {% include image file='perception-screen.jpg'
    caption='A still shot from Perception iO' %}
 
-Perception iO was commissioned for the 2019-2020 exhibition [Face Values: Exploring Artificial Intelligence at The Cooper Hewitt Smithsonian Design Museum](https://www.cooperhewitt.org/events/current-exhibitions/face-values/). The project was also part of the exhibitions [In Kepler's Gardens](https://ars.electronica.art/keplersgardens/en/perception/) at Ars Electronica, and [Expo Starts Prize à Bozar](https://www.rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), and Karen and the ThoughtWorks team receieved an [honorable mention as part of STARTS Prize 2020](https://starts-prize.aec.at/en/perception/).
+Perception iO was commissioned for the 2019-2020 exhibition [Face Values: Exploring Artificial Intelligence at The Cooper Hewitt Smithsonian Design Museum](https://www.cooperhewitt.org/events/current-exhibitions/face-values/). The project was also part of the exhibitions [In Kepler's Gardens](https://ars.electronica.art/keplersgardens/en/perception/) at Ars Electronica, and [Expo Starts Prize à Bozar](https://www.rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), and Karen and the Thoughtworks team receieved an [honorable mention as part of STARTS Prize 2020](https://starts-prize.aec.at/en/perception/).
 
 Perception iO has been reviewed in [Wired](https://www.wired.co.uk/article/karen-palmer-racist-bias), [BioMetric Update](https://www.biometricupdate.com/202003/artist-demonstrates-emotion-detecting-videos-may-help-people-see-their-own-biases), [Immersive Futures](https://immersivefutures.io/perception-io/) and the [Smithsonian Magazine](https://www.smithsonianmag.com/smithsonian-institution/heres-why-ai-cant-be-taken-face-value-180973235/).
 

@@ -3,7 +3,7 @@ title  : "EmoPy: A Machine Learning Toolkit For Emotional Expression"
 author : Angelica Perez
 tags   : [riot, perception-io]
 ---
-I recently led a project team at ThoughtWorks to create and open source a new [Facial Expression Recognition (FER)](/blog/recognizing-facial-expressions-machine-learning) toolkit named [EmoPy](https://github.com/thoughtworksarts/EmoPy). The system produces accuracy rates comparable to the highest rates achievable in FER, and is now available for anyone to use for free.
+I recently led a project team at Thoughtworks to create and open source a new [Facial Expression Recognition (FER)](/blog/recognizing-facial-expressions-machine-learning) toolkit named [EmoPy](https://github.com/thoughtworksarts/EmoPy). The system produces accuracy rates comparable to the highest rates achievable in FER, and is now available for anyone to use for free.
 
 {% include image file='emopy-development.jpg'
    caption='Working with Sofia Tania (left) and Karen Palmer (right) to create EmoPy' %}
@@ -16,7 +16,7 @@ Our aim is to widen public access to this crucial emerging technology, one for w
 
 ## The Origins of EmoPy
 
-The EmoPy toolkit was created as part of [ThoughtWorks Arts](http://thoughtworksarts.io/), a program which incubates artists investigating intersections of technology and society. Our development team supported the [artist-in-residence Karen Palmer](https://thoughtworksarts.io/bio/karen-palmer/) to create a new version her [interactive film experience, RIOT](https://thoughtworksarts.io/projects/riot/).
+The EmoPy toolkit was created as part of [Thoughtworks Arts](http://thoughtworksarts.io/), a program which incubates artists investigating intersections of technology and society. Our development team supported the [artist-in-residence Karen Palmer](https://thoughtworksarts.io/bio/karen-palmer/) to create a new version her [interactive film experience, RIOT](https://thoughtworksarts.io/projects/riot/).
 
 RIOT positions viewers first-person in an installation space watching a video unfold in front of them. A dangerous riot is in progress, and viewers meet filmed characters, including looters and riot police. Each viewer's facial expressions are recorded and analyzed via a webcam, which feeds into EmoPy as the movie unfolds.
 

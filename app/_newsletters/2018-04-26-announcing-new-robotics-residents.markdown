@@ -1,13 +1,13 @@
 ---
 title : "Mechanics & Movement: Announcing Our New Robotics Residents"
 ---
-We are pleased to announce that Adrianne Wortzel and Catie Cuan will join ThoughtWorks Arts this summer as our newest residents, exploring issues of movement and robotics.  
+We are pleased to announce that Adrianne Wortzel and Catie Cuan will join Thoughtworks Arts this summer as our newest residents, exploring issues of movement and robotics.  
 
 {% include image file='adrianne-catie.jpg'
    caption='Adrianne Wortzel and Catie Cuan'
    class='no-border' %}
 
-[Adrianne Wortzel](http://www.adriannewortzel.com/) is an acclaimed artist who creates unique and innovative interactive web-based works, robotic and telerobotic installations, performance productions, videos, and writings. During her residency at ThoughtWorks Arts, Adrianne will be initiating a project to develop a social and psychotherapeutic tool for nonverbal expression through gesture.
+[Adrianne Wortzel](http://www.adriannewortzel.com/) is an acclaimed artist who creates unique and innovative interactive web-based works, robotic and telerobotic installations, performance productions, videos, and writings. During her residency at Thoughtworks Arts, Adrianne will be initiating a project to develop a social and psychotherapeutic tool for nonverbal expression through gesture.
 
 <!--excerpt-ends-->
   
@@ -15,7 +15,7 @@ We are pleased to announce that Adrianne Wortzel and Catie Cuan will join Thoug
   
 The residency was awarded to these two artists respectively, because of their unique and complementary views on important issues. Their practices provide different critical approaches to issues of the mechanical and movement, as it pertains to robotics and human-computer interaction.  
   
-You can learn more about Adrianne and Catie and the projects they will be pursuing through their residency at ThoughtWorks in the [announcement blog post](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/).  
+You can learn more about Adrianne and Catie and the projects they will be pursuing through their residency at Thoughtworks in the [announcement blog post](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/).  
 
 ## Open Call for Art-A-Hack™ Special Edition Summer 2018
 
@@ -28,7 +28,7 @@ This special edition of Art-A-Hack will take place in New York City over four Sa
 
 ## ClimateAction.tech, Co-Founded by TWA Director, Highlighted by the Environmental Defense Fund
 
-In 2017, ThoughtWorks Arts Director Andy McWilliams co-founded [ClimateAction.tech](https://climateaction.tech/), a community of technology professionals using their skills, tools, and influence to amplify the Climate Movement.  
+In 2017, Thoughtworks Arts Director Andy McWilliams co-founded [ClimateAction.tech](https://climateaction.tech/), a community of technology professionals using their skills, tools, and influence to amplify the Climate Movement.  
   
 [ClimateAction.tech](https://climateaction.tech/) is currently focused on empowering tech sector employees to move their companies forward with sustainability agendas and climate advocacy. Their "Sustainability Accelerator" program has linked emerging technology/environmental advocate employees to successful senior-level sustainability coaches in major tech firms.   
   
@@ -46,7 +46,7 @@ Andy’s art practice is currently focused around linking the climate crisis to 
 {% include image file='suppressed-images.png'
    caption='Heather Dewey-Hagborg and Chelsea Manning at the University of Michigan' %}
 
-While in her residency at ThoughtWorks, Heather partnered with ThoughtWorks designer Sholi Kanungo to create the graphic short story, [Suppressed Images](https://suppressedimages.net/), illustrating her collaboration with Chelsea Manning and imagining what future might unfold around artificial intelligence and DNA surveillance.  
+While in her residency at Thoughtworks, Heather partnered with Thoughtworks designer Sholi Kanungo to create the graphic short story, [Suppressed Images](https://suppressedimages.net/), illustrating her collaboration with Chelsea Manning and imagining what future might unfold around artificial intelligence and DNA surveillance.  
 
 ## Updates from Art-A-Hack™ Alumni
 
@@ -66,7 +66,7 @@ Are you Interested in arts and machine learning? **Gene Kogan** is teaching a on
 {% include image file='ctw.jpg'
    alt='Creative Tech Week' %}
 
-[Get your tickets now](https://www.eventbrite.com/e/creative-tech-week-conference-hub-tickets-43199425645?discount=CREATIVETECH) for Creative Tech Week 2018 in NYC, May 3-12. Members of the ThoughtWorks Arts community can receive a special 20% discount with the code CREATIVETECH.  
+[Get your tickets now](https://www.eventbrite.com/e/creative-tech-week-conference-hub-tickets-43199425645?discount=CREATIVETECH) for Creative Tech Week 2018 in NYC, May 3-12. Members of the Thoughtworks Arts community can receive a special 20% discount with the code CREATIVETECH.  
 
 ## Directors and Alumni News
 
@@ -113,25 +113,25 @@ Porto, Portugal
 
 ## Blog Posts
 
-*   [**ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018**](https://thoughtworksarts.io/spring-break/) by the Residency Team
+*   [**Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018**](https://thoughtworksarts.io/spring-break/) by the Residency Team
 *   [**How Artificial Intelligence is Transforming the Criminal Justice System**](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/) by Stephanie Weber
 *   [**Industrial Design Process for the ‘Time Sense’ Prototype**](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 *   [**Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery**](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-*   [**Welcoming Karen Palmer to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+*   [**Welcoming Karen Palmer to the Thoughtworks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 *   [**Presenting Our Art & Technology Projects at TEDxVilnius**](https://thoughtworksarts.io/blog/presenting-our-work-tedx/) by Andrew McWilliams
-*   [**Karen Palmer Awarded ThoughtWorks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [**Karen Palmer Awarded Thoughtworks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 *   [**Three Views on Biometrics and Immersion for Creative Tech Week**](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/) by the Residency Team
 *   [**Why We Are Investigating the Biases of Artificial Intelligence**](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-*   [**Welcoming Hannes Bend to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+*   [**Welcoming Hannes Bend to the Thoughtworks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 *   [**Suppressed Images: Advocating for Chelsea Manning's Release**](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 *   [**How I Became a Cyborg**](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/) by Stefanie Grewenig
 *   [**Cyborg Senses: Weaving the Materials**](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/) by Caihong Liu
-*   [**Heather Dewey-Hagborg Begins Residency at ThoughtWorks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
+*   [**Heather Dewey-Hagborg Begins Residency at Thoughtworks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
 *   [**Developing a Cyborg Time Sense: Research and Experimentation**](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 *   [**Global Visioning Session with the Cyborgs**](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams
-*   [**Inside Our Brand New Lab at ThoughtWorks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
+*   [**Inside Our Brand New Lab at Thoughtworks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
 *   [**Discussing the residency on dotNYC with Jeff Jarvis**](https://thoughtworksarts.io/blog/appearance-on-dotnyc/) by Andrew McWilliams
 *   [**Introducing the Cyborg Foundation**](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) by the Residency Team
-*   [**Announcing the ThoughtWorks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
+*   [**Announcing the Thoughtworks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
 
 Love this newsletter? Check out [our archive](https://thoughtworksarts.io/newsletters/), forward to your friends, and share our [subscription sign up](https://thoughtworksarts.io/newsletters/)!

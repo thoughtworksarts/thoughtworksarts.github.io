@@ -50,8 +50,8 @@ links:
    url     : ""
 
 ---
-Caihong Liu is a Resource Manager for ThoughtWorks, based in Chengdu, China. Her main area of recent expertise has been in resource management (people and project management). Caihong is passionate about creative projects and is inspired by new ideas.
+Caihong Liu is a Resource Manager for Thoughtworks, based in Chengdu, China. Her main area of recent expertise has been in resource management (people and project management). Caihong is passionate about creative projects and is inspired by new ideas.
 
 Prior to this, Caihong worked in the telecoms industry, managing research and development efforts aswell as technical software delivery. She has rich experience on 2G/2.5G/3G/4G core networks system analysis, software development, system integration and testing.
 
-On the ThoughtWorks Arts Residency, Caihong played a pivotal role in conducting [materials research](/blog/cyborg-senses-weaving-materials/), working with industrial designers on the implementation of cyborg senses.
+On the Thoughtworks Arts Residency, Caihong played a pivotal role in conducting [materials research](/blog/cyborg-senses-weaving-materials/), working with industrial designers on the implementation of cyborg senses.

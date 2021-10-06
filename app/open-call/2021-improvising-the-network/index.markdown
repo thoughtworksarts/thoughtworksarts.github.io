@@ -1,12 +1,12 @@
 ---
 layout      : post-special
 title	      : "Improvising the Net(Work): Residency Open Call"
-description : Open Call for a residency on networks, data and performance with ThoughtWorks Arts and CounterPulse in San Francisco
+description : Open Call for a residency on networks, data and performance with Thoughtworks Arts and CounterPulse in San Francisco
 image       : /images/posts-special/open-call/2021-improvising-the-network/counterpulse-sf.jpg
 ---
 <p class="notice">The deadline for this call has passed and submissions are no longer being accepted. We are working carefully through submissions and applicants will be contacted by email.</p>
 
-ThoughtWorks Arts, a global technology research lab, and CounterPulse, an experimental and interdisciplinary dance and performance space in San Francisco are partnering to launch a new artistic residency opportunity working with a customizable network on-site at CounterPulse’s facility in downtown San Francisco. The artist stipend will be $11,000.
+Thoughtworks Arts, a global technology research lab, and CounterPulse, an experimental and interdisciplinary dance and performance space in San Francisco are partnering to launch a new artistic residency opportunity working with a customizable network on-site at CounterPulse’s facility in downtown San Francisco. The artist stipend will be $11,000.
 
 {% include image file='counterpulse-sf.jpg'
    caption='CounterPulse’s neon sign lighting, Scott Finn, 2016' %}
@@ -15,7 +15,7 @@ We seek an artist/technologist or collective working with the possibilities of a
 
 This residency will take place in collaboration with the CounterPulse artistic community, rooted in dance and movement practices with a strong legacy of improvisation. The lens of improvisation is often organized around scores (systems) built on collaboration, affirmation, and responsive spontaneity.  Applicants do not need to be expert in computer network design or dance improvisation, but an understanding of these disciplines would enhance your application. 
 
-ThoughtWorks Arts will mentor, facilitate and help foster, through weekly meetings and its wide reaching cohort of developers, the artistic and technical needs of the selected artist(s), as well as the expertise of its Directors.
+Thoughtworks Arts will mentor, facilitate and help foster, through weekly meetings and its wide reaching cohort of developers, the artistic and technical needs of the selected artist(s), as well as the expertise of its Directors.
 
 CounterPulse will serve as the physical location of the network topology and as the liaison between the selected artist and the community of artists working and creating at CounterPulse. Support and resources from CounterPulse could, but do not necessarily need to include:
 
@@ -36,7 +36,7 @@ Applicants must submit a proposal using the form below before the application **
 
 **Applications Closed**
 
-The selected artist or artist group can be based anywhere in the world, and work either remotely or on-site at CounterPulse and at ThoughtWorks offices in San Francisco.
+The selected artist or artist group can be based anywhere in the world, and work either remotely or on-site at CounterPulse and at Thoughtworks offices in San Francisco.
 
 ## Timeline
 * June 1, 2021 - Open Call goes live 
@@ -50,11 +50,11 @@ The selected artist or artist group can be based anywhere in the world, and work
 * September 9-18, 2021 - Kick-off event as part of CounterPulse Festival, TBD
 * November 22-28 & Dec 20, 2021 - Jan 2, 2022 - Holiday Breaks (3 weeks)
 
-## About ThoughtWorks Arts
-ThoughtWorks Arts runs programs incubating artist and technologist collaborations, empowering investigations into impacts of emerging technologies on industry, culture and society. Art and technology partnerships present a unique and powerful lens for engaging with technology. Art enables freedom to make large, cross-disciplinary conceptual and physical leaps across technical, scientific, industrial, creative and societal areas. The ThoughtWorks Arts Residency program embeds artists full-time within the ThoughtWorks global technology organization. The program includes logistical, financial, creative and technical support in the creation of a project proposed by the artist.
+## About Thoughtworks Arts
+Thoughtworks Arts runs programs incubating artist and technologist collaborations, empowering investigations into impacts of emerging technologies on industry, culture and society. Art and technology partnerships present a unique and powerful lens for engaging with technology. Art enables freedom to make large, cross-disciplinary conceptual and physical leaps across technical, scientific, industrial, creative and societal areas. The Thoughtworks Arts Residency program embeds artists full-time within the Thoughtworks global technology organization. The program includes logistical, financial, creative and technical support in the creation of a project proposed by the artist.
 
 <a href="/">
-	<img src="/images/logos/thoughtworks-arts.svg" alt="ThoughtWorks Arts" class="mid" />
+	<img src="/images/logos/thoughtworks-arts.svg" alt="Thoughtworks Arts" class="mid" />
 </a>
 
 ## About CounterPulse

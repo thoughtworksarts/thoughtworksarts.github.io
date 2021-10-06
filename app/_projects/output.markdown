@@ -42,10 +42,10 @@ The _CONCAT_ system [visualizes a realtime 3D animation](https://github.com/thou
 
 The _MOSAIC_ software used a webcam to generate time-delayed video segments, stacked side by side. The two softwares allow space for improvisation during live performance, creating a link between the human form and the robotic arm.
 
-To create this performance, Catie collaborated with ThoughtWorks developers and the [Consortium for Research and Robotics](https://consortiumrr.com/), a research center of Pratt Institute in New York.
+To create this performance, Catie collaborated with Thoughtworks developers and the [Consortium for Research and Robotics](https://consortiumrr.com/), a research center of Pratt Institute in New York.
 
 {% include image file='andy-felix.jpg'
-   caption='ThoughtWorks developers working at the Consortium for Research &amp; Robotics' %}
+   caption='Thoughtworks developers working at the Consortium for Research &amp; Robotics' %}
 
 OUTPUT was [featured in the New York Times](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), on [PBS NewsHour](/blog/concat-tool-feature-pbs/) in a segment on the future of work, and in an [Engadget video feature and article on robotic choreography](https://www.engadget.com/2018/10/12/robot-choreography-catie-cuan/).
 

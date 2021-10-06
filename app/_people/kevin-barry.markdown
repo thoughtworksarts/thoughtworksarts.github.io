@@ -50,4 +50,4 @@ links:
    url     : ""
 
 ---
-Kevin Barry is a multimedia marketing specialist at ThoughtWorks with a passion for telling stories in new ways. His experience in television and film helps him apply traditional storytelling techniques to the ever-evolving media-technology landscape.
+Kevin Barry is a multimedia marketing specialist at Thoughtworks with a passion for telling stories in new ways. His experience in television and film helps him apply traditional storytelling techniques to the ever-evolving media-technology landscape.

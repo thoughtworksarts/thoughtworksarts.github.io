@@ -14,7 +14,7 @@ American Arts Incubator (AAI) is an exchange program created for new media and d
 
 ## Rashin Fahandej
 
-Rashin Fahandej is a ThoughtWorks Arts resident who developed her project _A Father's Lullaby_ using volumetric filmmaking technology in 2019.
+Rashin Fahandej is a Thoughtworks Arts resident who developed her project _A Father's Lullaby_ using volumetric filmmaking technology in 2019.
 
 {% include image file='rashin-fahandej-boston.jpg'
    caption='Rashin working on project _IN-SIGHT_ with Boston\'s youth' %}
@@ -25,7 +25,7 @@ Rashin Fahandej is a ThoughtWorks Arts resident who developed her project _A Fat
 
 ## Ellen Pearlman
 
-Dr. Ellen Pearlman is a new media artist, critic, curator and Director of ThoughtWorks Arts. She created _Noor: A Brain Opera_, the world’s first immersive interactive brain opera in a 360 degree theater.
+Dr. Ellen Pearlman is a new media artist, critic, curator and Director of Thoughtworks Arts. She created _Noor: A Brain Opera_, the world’s first immersive interactive brain opera in a 360 degree theater.
 
 {% include image file='ellen-pearlman-noor.jpg'
    caption='Ellen Pearlman directing _Noor_' %}

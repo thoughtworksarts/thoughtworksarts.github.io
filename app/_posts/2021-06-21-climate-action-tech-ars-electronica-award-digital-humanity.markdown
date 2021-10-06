@@ -8,7 +8,7 @@ ClimateAction.tech [has been awarded](https://calls.ars.electronica.art/prix/win
    caption='Branch covers by [Hélène Baum](https://www.helene-baum.com/) and [Gica Tam](https://www.gicatam.com/)'
    link='https://branch.climateaction.tech/' %}
 
-The magazine was spearheaded by Michelle Thorne, Chris Adams, Laurence Bascle, Carrie Hou, Tom Jarrett, Jack Lenox, Hannah Smith and others as part of an international community effort. ClimateAction.tech was co-founded by ThoughtWorks Arts Director Andrew McWilliams.
+The magazine was spearheaded by Michelle Thorne, Chris Adams, Laurence Bascle, Carrie Hou, Tom Jarrett, Jack Lenox, Hannah Smith and others as part of an international community effort. ClimateAction.tech was co-founded by Thoughtworks Arts Director Andrew McWilliams.
 
 <!--excerpt-ends-->
 

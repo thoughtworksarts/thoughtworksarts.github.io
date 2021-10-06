@@ -49,8 +49,8 @@ links:
    url     : "https://github.com/angelicaperez37"
 
 ---
-Angelica Perez is a consultant and software developer at ThoughtWorks San Francisco. She graduated from Stanford University with an undergraduate degree in Computer Science with a focus on Artificial Intelligence.
+Angelica Perez is a consultant and software developer at Thoughtworks San Francisco. She graduated from Stanford University with an undergraduate degree in Computer Science with a focus on Artificial Intelligence.
 
 During her undergraduate career, Angelica used machine learning techniques to complete several software projects, including an automated crossword puzzle constructor and a Spanish to English translator.
 
-As part of the ThoughtWorks Arts Residency, Angelica contributed to [EmoPy](https://github.com/thoughtworksarts/EmoPy), an open-source library containing artificial neural networks for facial expression recognition, and investigated the role of social psychology in the context of riots to further develop [Karen Palmer’s RIOT film experience](/projects/riot/).
+As part of the Thoughtworks Arts Residency, Angelica contributed to [EmoPy](https://github.com/thoughtworksarts/EmoPy), an open-source library containing artificial neural networks for facial expression recognition, and investigated the role of social psychology in the context of riots to further develop [Karen Palmer’s RIOT film experience](/projects/riot/).

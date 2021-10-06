@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-JC Holder (they/them) is a senior consultant and software developer at ThoughtWorks in addition to their personal work as a writer and game developer. They are the creator of [Anthrotari](https://anthrotari.com) and the author of [Planet Oz](https://planetoz.net).
+JC Holder (they/them) is a senior consultant and software developer at Thoughtworks in addition to their personal work as a writer and game developer. They are the creator of [Anthrotari](https://anthrotari.com) and the author of [Planet Oz](https://planetoz.net).
 
 They live in New York with their girlfriend and their towering collection of books, board games, and 3D printers. JC graduated from the University of Georgia Department of Theatre and Film Studies.

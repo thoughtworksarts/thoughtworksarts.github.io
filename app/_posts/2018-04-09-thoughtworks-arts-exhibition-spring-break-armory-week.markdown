@@ -1,14 +1,14 @@
 ---
-title     : "ThoughtWorks Arts Exhibition at SPRING/BREAK for Armory Week 2018"
+title     : "Thoughtworks Arts Exhibition at SPRING/BREAK for Armory Week 2018"
 image     : "dual-brains.jpg"
 tags      : [riot, biofields]
 ---
-The work of ThoughtWorks Arts artists were exhibited together at the closely-watched SPRING/BREAK Art Show in March 2018. The exhibition took place at 4 Times Square as part of New York's Armory Week.
+The work of Thoughtworks Arts artists were exhibited together at the closely-watched SPRING/BREAK Art Show in March 2018. The exhibition took place at 4 Times Square as part of New York's Armory Week.
 
 {% include image file='show.jpg'
    caption='The exhibition space just prior to opening' %}
 
-The exhibition, sponsored by the media art center [Harvestworks](http://www.harvestworks.org/), was comprised of works incubated by ThoughtWorks Arts programs over the last four years. This includes work from [Art-A-Hack](https://artahack.io) and the [ThoughtWorks Arts Residency](https://thoughtworksarts.io), and by the directors of these programs, Andrew McWilliams and Ellen Pearlman, who are also practicing artists.
+The exhibition, sponsored by the media art center [Harvestworks](http://www.harvestworks.org/), was comprised of works incubated by Thoughtworks Arts programs over the last four years. This includes work from [Art-A-Hack](https://artahack.io) and the [Thoughtworks Arts Residency](https://thoughtworksarts.io), and by the directors of these programs, Andrew McWilliams and Ellen Pearlman, who are also practicing artists.
 
 <!--excerpt-ends-->
 
@@ -18,14 +18,14 @@ The show’s curator Lee Tusman, says:
 The exhibited works are listed below, each showcasing the intersection between art, technology and society.
 
 ## Dual Brains
-Dual Brains is a [real-time visual performance](https://artahack.io/projects/dual-brains/) of the brain data of two performers who are wearing 3D-printed brainwave headsets. The work was incubated as part of Art-A-Hack 2014 and 2016, and first performed at ThoughtWorks New York.
+Dual Brains is a [real-time visual performance](https://artahack.io/projects/dual-brains/) of the brain data of two performers who are wearing 3D-printed brainwave headsets. The work was incubated as part of Art-A-Hack 2014 and 2016, and first performed at Thoughtworks New York.
 
 The work showcases shared empathy between two brains, creating a live-time visual and sonic environment.
 
 {% include image file='dual-brains.jpg'
    caption='A performance of \'Dual Brains\' on opening night' %}
 
-First conceptualized by artist Eva Lee, the piece uses custom EEG headsets created by 3D fashion designer Aaron Trocola. The software behind the performance was [extended and refined](https://github.com/thoughtworksarts/Dual_Brains) for the exhibition by ThoughtWorks developer Julien Deswaef.
+First conceptualized by artist Eva Lee, the piece uses custom EEG headsets created by 3D fashion designer Aaron Trocola. The software behind the performance was [extended and refined](https://github.com/thoughtworksarts/Dual_Brains) for the exhibition by Thoughtworks developer Julien Deswaef.
 
 ## RIOT
 RIOT is an [emotionally responsive, live-action film](/blog/karen-palmer-ai-residency/) with 3D sound, which uses facial expression recognition technology to navigate through a dangerous riot in progress. In the experience, audience’s emotions are used to adjust the story of the film, so that their emotions drive the narrative of the film forwards.
@@ -33,11 +33,11 @@ RIOT is an [emotionally responsive, live-action film](/blog/karen-palmer-ai-resi
 {% include image file='riot.jpg'
    caption='The RIOT AI installation' %}
 
-This project was incubated as part of artist Karen Palmer’s 2017-2018 residency at ThoughtWorks. During this time a [new version of the emotion analysis engine](https://github.com/thoughtworksarts/EmoPy) and [RIOT user experience](https://github.com/thoughtworksarts/riot) have been built from the ground up by ThoughtWorks developers.
+This project was incubated as part of artist Karen Palmer’s 2017-2018 residency at Thoughtworks. During this time a [new version of the emotion analysis engine](https://github.com/thoughtworksarts/EmoPy) and [RIOT user experience](https://github.com/thoughtworksarts/riot) have been built from the ground up by Thoughtworks developers.
 
 The RIOT installation has been shown at South by Southwest, the [Future of Storytelling](https://futureofstorytelling.org/project/riot), and was selected as one of the [Digital Dozen breakthroughs in Storytelling](http://digitaldozen.io/2017-awards/), 2017.
 
-Karen's collaboration with ThoughtWorks has been covered in [Forbes](https://www.forbes.com/sites/katmustatea/2017/12/30/this-filmmaker-from-the-future-can-teach-you-to-channel-your-fear/) and [Fast Company](https://www.fastcompany.com/40498786/when-your-fear-is-the-remote-control). The RIOT pototype has been further covered in [Engadget](https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/), [CBS](http://newyork.cbslocal.com/2017/06/16/impulse-response/), [Guardian](https://www.theguardian.com/science/blog/2017/mar/29/its-a-riot-the-stressful-ai-simulation-built-to-understand-your-emotions), [Fast Company](https://www.fastcompany.com/3066396/this-film-lets-you-know-how-you-would-handle-yourself-in-a-riot), [NBC](http://www.nbcnews.com/tech/security/facial-recognition-technology-raises-privacy-concerns-n676836) and the [New York Times](https://www.nytimes.com/2016/10/02/nyregion/storytelling-in-the-virtual-age-at-fost-fest.html).
+Karen's collaboration with Thoughtworks has been covered in [Forbes](https://www.forbes.com/sites/katmustatea/2017/12/30/this-filmmaker-from-the-future-can-teach-you-to-channel-your-fear/) and [Fast Company](https://www.fastcompany.com/40498786/when-your-fear-is-the-remote-control). The RIOT pototype has been further covered in [Engadget](https://www.engadget.com/2017/10/13/riot-2-interactive-film-karen-palmer-interview/), [CBS](http://newyork.cbslocal.com/2017/06/16/impulse-response/), [Guardian](https://www.theguardian.com/science/blog/2017/mar/29/its-a-riot-the-stressful-ai-simulation-built-to-understand-your-emotions), [Fast Company](https://www.fastcompany.com/3066396/this-film-lets-you-know-how-you-would-handle-yourself-in-a-riot), [NBC](http://www.nbcnews.com/tech/security/facial-recognition-technology-raises-privacy-concerns-n676836) and the [New York Times](https://www.nytimes.com/2016/10/02/nyregion/storytelling-in-the-virtual-age-at-fost-fest.html).
 
 ## Suppressed Images
 
@@ -48,9 +48,9 @@ The story illustrates a collaboration between the then-incarcerated whistleblowe
 {% include image file='suppressed-images.jpg'
    caption='Suppressed Images wall-mounted prints' %}
 
-Designed by ThoughtWorks graphic illustrator Shoili Kanungo, the story discusses this collaboration and explores societal issues surrounding the use of DNA analysis technology.
+Designed by Thoughtworks graphic illustrator Shoili Kanungo, the story discusses this collaboration and explores societal issues surrounding the use of DNA analysis technology.
 
-The piece was created as part of Heather’s residency at ThoughtWorks in 2016, and can be viewed online at [Suppressed Images](https://suppressedimages.net/). Heather's collaboration with ThoughtWorks and the creation of the work was covered in [Guardian](https://www.theguardian.com/culture/2017/aug/03/chelsea-manning-hair-clippings-artist-portraits-dna), [Huffington Post](https://www.huffingtonpost.co.uk/entry/chelsea-manning-dna-art_us_595cf03de4b0da2c73264c1c), [Vice](https://creators.vice.com/en_us/article/ez5jgp/chelsea-manning-suppressed-images-graphic-novel), the [New York Times](https://www.nytimes.com/2017/06/30/arts/design/chelsea-manning-dna-art-show-lower-manhattan.html), [e-flux](https://conversations.e-flux.com/t/heather-dewey-hagborg-hacking-biopolitics/6045), [Paper Mag](http://www.papermag.com/artist-heather-dewey-hagborg-on-working-with-chelsea-manning-and-their-2197635582.html), [ArtNet](https://news.artnet.com/exhibitions/chelsea-manning-1041596), [SF MoMA](https://openspace.sfmoma.org/2017/03/suppressed-images-and-radical-love/), [HyperAllergic](https://hyperallergic.com/394117/chelsea-manning-heather-dewey-hagborg-fridman-gallery/), [ArtSlant](https://www.artslant.com/sf/articles/show/46776-heather-dewey-hagborg-questions-dna-as-big-data) and many others.
+The piece was created as part of Heather’s residency at Thoughtworks in 2016, and can be viewed online at [Suppressed Images](https://suppressedimages.net/). Heather's collaboration with Thoughtworks and the creation of the work was covered in [Guardian](https://www.theguardian.com/culture/2017/aug/03/chelsea-manning-hair-clippings-artist-portraits-dna), [Huffington Post](https://www.huffingtonpost.co.uk/entry/chelsea-manning-dna-art_us_595cf03de4b0da2c73264c1c), [Vice](https://creators.vice.com/en_us/article/ez5jgp/chelsea-manning-suppressed-images-graphic-novel), the [New York Times](https://www.nytimes.com/2017/06/30/arts/design/chelsea-manning-dna-art-show-lower-manhattan.html), [e-flux](https://conversations.e-flux.com/t/heather-dewey-hagborg-hacking-biopolitics/6045), [Paper Mag](http://www.papermag.com/artist-heather-dewey-hagborg-on-working-with-chelsea-manning-and-their-2197635582.html), [ArtNet](https://news.artnet.com/exhibitions/chelsea-manning-1041596), [SF MoMA](https://openspace.sfmoma.org/2017/03/suppressed-images-and-radical-love/), [HyperAllergic](https://hyperallergic.com/394117/chelsea-manning-heather-dewey-hagborg-fridman-gallery/), [ArtSlant](https://www.artslant.com/sf/articles/show/46776-heather-dewey-hagborg-questions-dna-as-big-data) and many others.
 
 Heather [joins the AI Now Institute](https://ainowinstitute.org/people/heather-dewey-hagborg.html) as an artist fellow in 2018, based out of New York University.
 
@@ -60,18 +60,18 @@ Biofields is an [open-source framework prototype](/projects/biofields/) combinin
 {% include image file='biofields.jpg'
    caption='The \'Biofields\' virtual reality experience' %}
 
-The piece is a collaboration between artist hannes bend and designer and technologist Lewey Geselowitz. The project was initiated as part of hannes’ 2017 residency at ThoughtWorks.
+The piece is a collaboration between artist hannes bend and designer and technologist Lewey Geselowitz. The project was initiated as part of hannes’ 2017 residency at Thoughtworks.
 
 ## Noor: A Brain Opera
-Noor is an [immersive brain opera](https://creators.vice.com/en_us/article/wnpm3w/eeg-brainwave-opera-hong-kong) where a performer launches video, a sonic environment, and a libretto through her brainwaves. The piece was created by ThoughtWorks Arts director Ellen Pearlman to raise questions about the future of brain-computer interface technology.
+Noor is an [immersive brain opera](https://creators.vice.com/en_us/article/wnpm3w/eeg-brainwave-opera-hong-kong) where a performer launches video, a sonic environment, and a libretto through her brainwaves. The piece was created by Thoughtworks Arts director Ellen Pearlman to raise questions about the future of brain-computer interface technology.
 
 {% include image file='noor.jpg'
    caption='A still from \'Noor: A Brain Opera\'' %}
 
-Featured in the ThoughtWorks Arts exhibition was documentation of a world premier at [ISEA Hong Kong](http://isea2016.isea-international.org/) and the Microwave Festival, in a in 360-degree theatre. The piece asks “Is there a place in human consciousness where surveillance cannot go?”
+Featured in the Thoughtworks Arts exhibition was documentation of a world premier at [ISEA Hong Kong](http://isea2016.isea-international.org/) and the Microwave Festival, in a in 360-degree theatre. The piece asks “Is there a place in human consciousness where surveillance cannot go?”
 
 ## Emergency Room
-Emergency Room is an [immersive media installation](https://jahya.net/works/emergency-room/) comparing global warming to a chronic health crisis. The piece was created by ThoughtWorks Arts director Andrew McWilliams.
+Emergency Room is an [immersive media installation](https://jahya.net/works/emergency-room/) comparing global warming to a chronic health crisis. The piece was created by Thoughtworks Arts director Andrew McWilliams.
 
 {% include image file='emergency-room.jpg'
    caption='A shot of the installation \'Emergency Room\'' %}

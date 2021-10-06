@@ -49,4 +49,4 @@ links:
    url     : ""
 
 ---
-As a lead designer at ThoughtWorks for 7 years, Meg helps clients and those around her work through business problems with a customer-centric lens. She believes that the intersection of design and technology is the solution to many problems that we face in society and she advocates for solutions that work for and serve the community.
+As a lead designer at Thoughtworks for 7 years, Meg helps clients and those around her work through business problems with a customer-centric lens. She believes that the intersection of design and technology is the solution to many problems that we face in society and she advocates for solutions that work for and serve the community.

@@ -5,7 +5,7 @@ Former robotics resident [Adrianne Wortzel](https://thoughtworksarts.io/bio/adri
 
 {% include image file='adrianne-wortzel.jpg' %}
 
-Adrianne discussed her fascination with sentience when juxtaposed against machines and her pull to explore humanity through robotics. This passion carried over into her ThoughtWorks Arts residency project, [The Sentient Thespian](https://thoughtworksarts.io/projects/sentient-thespian/), a film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution.
+Adrianne discussed her fascination with sentience when juxtaposed against machines and her pull to explore humanity through robotics. This passion carried over into her Thoughtworks Arts residency project, [The Sentient Thespian](https://thoughtworksarts.io/projects/sentient-thespian/), a film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution.
 
 <!--excerpt-ends-->
 

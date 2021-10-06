@@ -3,12 +3,12 @@ title     : "Global Visioning Session with the Cyborgs"
 author    : Andrew McWilliams
 tags      : [time-sense, seismic-sense]
 ---
-Our first residents, the Cyborg Foundation, [came to ThoughtWorks](/blog/introducing-cyborg-foundation/) with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
+Our first residents, the Cyborg Foundation, [came to Thoughtworks](/blog/introducing-cyborg-foundation/) with fascinating new concepts for sensory organs they would like to explore. Our aim is to help them move forward.
 
 {% include image file='neil.jpg'
    caption='Neil detailing the vision for his new sense' %}
 
-Following on from an initial period of outreach across ThoughtWorks offices, we have now assembled a global cross-disciplinary team. Yesterday the team assembled for a planned 4-hour visioning session, and I have to say I was surprised at just how effective it was.
+Following on from an initial period of outreach across Thoughtworks offices, we have now assembled a global cross-disciplinary team. Yesterday the team assembled for a planned 4-hour visioning session, and I have to say I was surprised at just how effective it was.
 
 <!--excerpt-ends-->
 

@@ -1,7 +1,7 @@
 ---
-title : "ThoughtWorks Arts at SPRING/BREAK Art Show in NYC"
+title : "Thoughtworks Arts at SPRING/BREAK Art Show in NYC"
 ---
-We are thrilled to announce that ThoughtWorks Arts has teamed up with Harvestworks to stage _ThoughtWorks Stranger Than Life Hacks,_ a special projects exhibition for the 7th annual [SPRING/BREAK Art Show](http://www.springbreakartshow.com/) (part of Armory Arts Week) at 4 Times Square, March 6 - 12, 2018.
+We are thrilled to announce that Thoughtworks Arts has teamed up with Harvestworks to stage _Thoughtworks Stranger Than Life Hacks,_ a special projects exhibition for the 7th annual [SPRING/BREAK Art Show](http://www.springbreakartshow.com/) (part of Armory Arts Week) at 4 Times Square, March 6 - 12, 2018.
 
 {% include image file='dual-brains.jpg'
    caption='Dual Brains by Eva Lee and Aaron Trocola' %}
@@ -10,7 +10,7 @@ For the opening night VIP event on March 6th, 5pm - 9pm, we will be presenting
 
 <!--excerpt-ends-->
 
-The exhibition features artists from the ThoughtWorks Arts residency and Art-A-Hack™ working at the nexus of art and new technology utilizing biometrics, Artificial intelligence (AI), digital storytelling, genetics, Brain Computer Interfaces (BCIs) for empathy and surveillance, and other emerging technologies. [Get your tickets now](https://www.eventbrite.com/o/springbreak-art-show-12813445625) before they sell out.
+The exhibition features artists from the Thoughtworks Arts residency and Art-A-Hack™ working at the nexus of art and new technology utilizing biometrics, Artificial intelligence (AI), digital storytelling, genetics, Brain Computer Interfaces (BCIs) for empathy and surveillance, and other emerging technologies. [Get your tickets now](https://www.eventbrite.com/o/springbreak-art-show-12813445625) before they sell out.
 
 Artists whose work will be included in the show are: Eva Lee and Aaron Trocola; Javier Molina and David Gochfeld; Heather Dewey-Hagborg, Shoili Kanungo and Iliya Fridman in collaboration with Chelsea Manning; hannes bend and Lewey Geselowitz; Annie Berman; Karen Palmer; Sofy Yuditskaya; Andrew McWilliams; and Ellen Pearlman.
 
@@ -30,27 +30,27 @@ Samuel Arsenault-Brassard is working on a new VR/AR focused gallery in Montreal,
 {% include image file='illusive-sympathy.jpg'
    caption='A viewer at the opening of LiL Pocket in Montreal' %}
 
-Javier Molina is pursuing a PhD in Electronic Arts at Rensselaer Polytechnic Institute in Troy, NY, and has been invited to join as faculty at Banff Centre for Arts and Creativity. See Javier’s project from Art-A-Hack, [_To Be With Hamlet_](http://hamletvr.org/)_,_ a live theater performance in Virtual Reality that allows viewers anywhere to have an intimate experience of Shakespeare’s Hamlet, in the ThoughtWorks exhibit at SPRING/BREAK Art Show.  
+Javier Molina is pursuing a PhD in Electronic Arts at Rensselaer Polytechnic Institute in Troy, NY, and has been invited to join as faculty at Banff Centre for Arts and Creativity. See Javier’s project from Art-A-Hack, [_To Be With Hamlet_](http://hamletvr.org/)_,_ a live theater performance in Virtual Reality that allows viewers anywhere to have an intimate experience of Shakespeare’s Hamlet, in the Thoughtworks exhibit at SPRING/BREAK Art Show.  
 
 ## TWA Director Ellen Pearlman Awarded Residency at Quartaria in Russia
 
-ThoughtWorks Arts Director, Ellen Pearlman, has been awarded an artist residency at [Quartariata](http://www.quartariata.com/) in Russia. The Q-Residence is an experimental center for audiovisual arts and technology, combining a country art residence and a multifunctional site for cultural and educational events in the field of multimedia, cinema, photography, performative art, modern choreography, subject design, architecture and urban planning.
+Thoughtworks Arts Director, Ellen Pearlman, has been awarded an artist residency at [Quartariata](http://www.quartariata.com/) in Russia. The Q-Residence is an experimental center for audiovisual arts and technology, combining a country art residence and a multifunctional site for cultural and educational events in the field of multimedia, cinema, photography, performative art, modern choreography, subject design, architecture and urban planning.
 
 {% include image file='quartariata.jpg'
    caption='Quartariata Arts Residency in Peterhof, Russia' %}
 
-Ellen will use the residency to work on a new brain opera that incorporates emotionally intelligent AIs and robotics. Ellen’s previous brain opera, _Noor_, will be on display at the ThoughtWorks exhibit at SPRING/BREAK Art Show.  
+Ellen will use the residency to work on a new brain opera that incorporates emotionally intelligent AIs and robotics. Ellen’s previous brain opera, _Noor_, will be on display at the Thoughtworks exhibit at SPRING/BREAK Art Show.  
 
-## OPEN CALL: ThoughtWorks Arts Summer ‘18 Residency in Robotics
+## OPEN CALL: Thoughtworks Arts Summer ‘18 Residency in Robotics
 
-Applications are now being accepted for our next ThoughtWorks Arts residency for Summer 2018: Mechanics and Movement.  We are looking for artists who are actively exploring these realms to produce surprising twists and turns in the non-verbal dance between code, gears, blood, flesh and inspiration. Although language is an important aspect to this field, we are more interested in non-verbal cues and responses. Please help spread the word and share the [Open Call](https://thoughtworksarts.io/open-call/2018-mechanical-movement/). Deadline for applications is March, 26th, 2018.    
+Applications are now being accepted for our next Thoughtworks Arts residency for Summer 2018: Mechanics and Movement.  We are looking for artists who are actively exploring these realms to produce surprising twists and turns in the non-verbal dance between code, gears, blood, flesh and inspiration. Although language is an important aspect to this field, we are more interested in non-verbal cues and responses. Please help spread the word and share the [Open Call](https://thoughtworksarts.io/open-call/2018-mechanical-movement/). Deadline for applications is March, 26th, 2018.    
 
 ## Cyborg Foundation launches the Transpecies Society
 
 Past residents and Co-Founders of the Cyborg Foundation, Neil Harbisson and Moon Ribas, have launched a social project called the [Transpecies Society](https://www.transpeciessociety.com/about), a membership-based organization for people who identify as or would like to transition to non-human identities.
 
 {% include image file='neil-moon.jpg'
-   caption='Neil Harbisson and Moon Ribas working at ThoughtWorks in NYC' %}
+   caption='Neil Harbisson and Moon Ribas working at Thoughtworks in NYC' %}
 
 The Transpecies Society is an association that gives voice to non-human identities, raises awareness of the challenges transpecies face, advocates for the freedom of self-design, and offers the development of new senses and organs.  
 
@@ -120,21 +120,21 @@ St. Petersburg, Russia
 *   [**How Artificial Intelligence is Transforming the Criminal Justice System**](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/) by Stephanie Weber
 *   [**Industrial Design Process for the ‘Time Sense’ Prototype**](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 *   [**Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery**](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-*   [**Welcoming Karen Palmer to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
+*   [**Welcoming Karen Palmer to the Thoughtworks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-karen-palmer/) by the Residency Team
 *   [**Presenting Our Art & Technology Projects at TEDxVilnius**](https://thoughtworksarts.io/blog/presenting-our-work-tedx/) by Andrew McWilliams
-*   [**Karen Palmer Awarded ThoughtWorks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [**Karen Palmer Awarded Thoughtworks AI Residency**](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) by the Residency Team
 *   [**Three Views on Biometrics and Immersion for Creative Tech Week**](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/) by the Residency Team
 *   [**Why We Are Investigating the Biases of Artificial Intelligence**](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-*   [**Welcoming Hannes Bend to the ThoughtWorks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
+*   [**Welcoming Hannes Bend to the Thoughtworks Arts Residency**](https://thoughtworksarts.io/blog/welcoming-hannes-bend/) by the Residency Team
 *   [**Suppressed Images: Advocating for Chelsea Manning's Release**](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 *   [**How I Became a Cyborg**](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/) by Stefanie Grewenig
 *   [**Cyborg Senses: Weaving the Materials**](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/) by Caihong Liu
-*   [**Heather Dewey-Hagborg Begins Residency at ThoughtWorks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
+*   [**Heather Dewey-Hagborg Begins Residency at Thoughtworks**](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/) by the Residency Team
 *   [**Developing a Cyborg Time Sense: Research and Experimentation**](https://thoughtworksarts.io/blog/team-gets-started-on-research/) by Andrew McWilliams
 *   [**Global Visioning Session with the Cyborgs**](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams
-*   [**Inside Our Brand New Lab at ThoughtWorks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
+*   [**Inside Our Brand New Lab at Thoughtworks NYC**](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/) by the Residency Team
 *   [**Discussing the residency on dotNYC with Jeff Jarvis**](https://thoughtworksarts.io/blog/appearance-on-dotnyc/) by Andrew McWilliams
 *   [**Introducing the Cyborg Foundation**](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) by the Residency Team
-*   [**Announcing the ThoughtWorks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
+*   [**Announcing the Thoughtworks artist residency**](https://thoughtworksarts.io/blog/announcing-the-program/) by the Residency Team
 
 Love this newsletter? Please forward it to your friends and share our [subscription page](https://thoughtworksarts.io/newsletters/).

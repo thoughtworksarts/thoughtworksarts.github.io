@@ -1,5 +1,5 @@
 ---
-title  : "Welcoming Our New Residents to ThoughtWorks Arts Residency"
+title  : "Welcoming Our New Residents to Thoughtworks Arts Residency"
 tags   : salaf
 ---
 We are delighted to welcome our latest residents Nouf Aljowaysir and James Coupe to our [Synthetic Media Residency](https://thoughtworksarts.io/open-call/2020-synthetic-media/).
@@ -19,7 +19,7 @@ Nouf is a [Saudi-born, New York-based artist](http://www.noufaljowaysir.com/), a
 {% include image file='alexa-call-mom.jpg'
    caption='Installation shot of *Alexa: Call Mom!*' %}
 
-Nouf plans to develop a project at ThoughtWorks which seeks to understand cultural transmission of ideas and worldviews across human generations, using her own family and upbringing in the Middle East as a reference point. Nouf is tracing a line which formed the context around her family’s story, through restrictive implementations of puritanical Wahhabism, waves of immigration, classic Egyptian cinema of the 1940s and Saudi attitudes of identity in contemporary times.
+Nouf plans to develop a project at Thoughtworks which seeks to understand cultural transmission of ideas and worldviews across human generations, using her own family and upbringing in the Middle East as a reference point. Nouf is tracing a line which formed the context around her family’s story, through restrictive implementations of puritanical Wahhabism, waves of immigration, classic Egyptian cinema of the 1940s and Saudi attitudes of identity in contemporary times.
 
 Nouf will process elements of cultural artifacts from her personal history and research, transforming them into machine learning systems. This will allow her to monitor, measure and reproduce new forms and explore patterns of learned cultural transmission over through generations.
 
@@ -35,4 +35,4 @@ During this residency James will turn his attention to historical archives in or
 
 Technically this includes working  generative adversarial networks such as StyleGAN, ATTNGan and others, and potentially using generative linguistic modelling such as GPT-2 and GPT-3. These will be rolled together into architectural plans for a Brexit-inspired theme park potentially using [ArchiGAN](https://devblogs.nvidia.com/archigan-generative-stack-apartment-building-design/). By fusing the real and imaginary the work hovers between the archival past and uncertain futures.
 
-We look forward to assisting Nouf and James on developing their respective projects and having them become part of our ThoughtWorks Arts community.
+We look forward to assisting Nouf and James on developing their respective projects and having them become part of our Thoughtworks Arts community.

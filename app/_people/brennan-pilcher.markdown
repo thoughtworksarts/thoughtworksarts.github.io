@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-Brennan is a Software Developer at ThoughtWorks. He blends design experience and artistic sensibilities with technical knowledge to create memorable projects focused on the interactions between creative media and technology, with specific interest in interactive media and game design.
+Brennan is a Software Developer at Thoughtworks. He blends design experience and artistic sensibilities with technical knowledge to create memorable projects focused on the interactions between creative media and technology, with specific interest in interactive media and game design.
 
 He graduated cum laude from SUNY Purchase College in 2015 with a Bachelor of Arts in New Media and a minor in Computer Science and Mathematics.

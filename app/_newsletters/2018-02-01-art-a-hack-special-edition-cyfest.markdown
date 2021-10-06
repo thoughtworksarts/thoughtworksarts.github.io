@@ -21,15 +21,15 @@ The teams have many exciting projects underway, including interacting with a hol
 
 ## Investigating AI in Criminal Justice
 
-During her work on Karen Palmer's RIOT project, ThoughtWorks employee Stephanie Weber researched the [role AI is playing in the criminal justice system](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/). In Weber's write-up of the situation, she goes through topics of sentencing, risk of recidivism, and bias in automated systems, looking at the way AI is changing our perspectives on each topic.
+During her work on Karen Palmer's RIOT project, Thoughtworks employee Stephanie Weber researched the [role AI is playing in the criminal justice system](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/). In Weber's write-up of the situation, she goes through topics of sentencing, risk of recidivism, and bias in automated systems, looking at the way AI is changing our perspectives on each topic.
 
 {% include image file='criminal-justice.jpg'
    caption='Image created by Stephanie Weber' %}
 
-Stephanie worked on Karen Palmer's residency project at ThoughtWorks as a researcher and software developer during 2017.
+Stephanie worked on Karen Palmer's residency project at Thoughtworks as a researcher and software developer during 2017.
 
 
-## Panels at ThoughtWorks Arts on Emotional AI Systems
+## Panels at Thoughtworks Arts on Emotional AI Systems
 
 The Volumetric Society ran a series of panels at ThoughtWork NYC on the general theme of artificial intelligence and emotion. Speakers included Patrick Levy-Rosenthal, CEO of EmoShape, Aaron Trucola of Three Form, and filmmaker Noah Hutton.
 
@@ -154,21 +154,21 @@ Montreal, Canada
 *   **[How Artificial Intelligence is Transforming the Criminal Justice System](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/)** by Stephanie Weber
 *   **[Industrial Design Process for the 'Time Sense' Prototype](https://thoughtworksarts.io/blog/industrial-design-time-sense-prototype/)** by Oryan Inbar
 *   **[Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery](https://thoughtworksarts.io/blog/heather-chelsea-show-fridman/)** by Ellen Pearlman
-*   **[Welcoming Karen Palmer to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/)** by the Residency Team
+*   **[Welcoming Karen Palmer to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-karen-palmer/)** by the Residency Team
 *   **[Presenting Our Art & Technology Projects at TEDxVilnius](https://thoughtworksarts.io/blog/presenting-our-work-tedx/)** by Andrew McWilliams
-*   **[Karen Palmer Awarded ThoughtWorks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) **by the Residency Team
+*   **[Karen Palmer Awarded Thoughtworks AI Residency](https://thoughtworksarts.io/blog/karen-palmer-ai-residency/) **by the Residency Team
 *   **[Three Views on Biometrics and Immersion for Creative Tech Week](https://thoughtworksarts.io/blog/three-views-biometrics-immersion/)** by the Residency Team
 *   **[Why We Are Investigating the Biases of Artificial Intelligence](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/)** by the Residency Directors
-*   **[Welcoming Hannes Bend to the ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/)** by the Residency Team
+*   **[Welcoming Hannes Bend to the Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-hannes-bend/)** by the Residency Team
 *   **[Suppressed Images: Advocating for Chelsea Manning's Release](https://thoughtworksarts.io/blog/suppressed-images-picturing-chelsea-manning/)** by the Residency Team
 *   **[How I Became a Cyborg](https://thoughtworksarts.io/blog/how-i-became-a-cyborg/)** by Stefanie Grewenig
 *   **[Cyborg Senses: Weaving the Materials](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/)** by Caihong Liu
-*   **[Heather Dewey-Hagborg Begins Residency at ThoughtWorks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/)** by the Residency Team
+*   **[Heather Dewey-Hagborg Begins Residency at Thoughtworks](https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/)** by the Residency Team
 *   **[Developing a Cyborg Time Sense: Research and Experimentation](https://thoughtworksarts.io/blog/team-gets-started-on-research/)** by Andrew McWilliams
 *   **[Global Visioning Session with the Cyborgs](https://thoughtworksarts.io/blog/visioning-session-with-the-cyborgs/)** by Andrew McWilliams
-*   **[Inside Our Brand New Lab at ThoughtWorks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/)** by the Residency Team
+*   **[Inside Our Brand New Lab at Thoughtworks NYC](https://thoughtworksarts.io/blog/inside-our-brand-new-hack-lab/)** by the Residency Team
 *   **[Discussing the residency on dotNYC with Jeff Jarvis](https://thoughtworksarts.io/blog/appearance-on-dotnyc/)** by Andrew McWilliams
 *   **[Introducing the Cyborg Foundation](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/)** by the Residency Team
-*   **[Announcing the ThoughtWorks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/)** by the Residency Team
+*   **[Announcing the Thoughtworks artist residency](https://thoughtworksarts.io/blog/announcing-the-program/)** by the Residency Team
 
 Love this newsletter? Please forward it to your friends and share our [subscription page](https://thoughtworksarts.io/newsletters/).

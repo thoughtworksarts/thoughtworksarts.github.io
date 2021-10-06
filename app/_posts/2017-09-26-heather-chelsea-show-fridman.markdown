@@ -8,7 +8,7 @@ On August 2, 2017 [Heather Dewey-Hagborg](/bio/heather-dewey-hagborg/) in conjun
 {% include image file='suppressed-images.jpg'
    caption='Suppressed Images (2017), Shoili Kanungo, Heather Dewey-Hagborg' %}
 
-Included in the exhibit was the piece Heather had created during her ThoughtWorks Arts Residency, the graphic short story [Suppressed Images](/projects/suppressed-images/), developed with illustrator [Shoili Kanungo](/bio/shoili-kanungo/).
+Included in the exhibit was the piece Heather had created during her Thoughtworks Arts Residency, the graphic short story [Suppressed Images](/projects/suppressed-images/), developed with illustrator [Shoili Kanungo](/bio/shoili-kanungo/).
 
 <!--excerpt-ends-->
 

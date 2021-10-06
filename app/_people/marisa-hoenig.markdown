@@ -49,6 +49,6 @@ links:
    url     : "https://github.com/marisahoenig"
 
 ---
-Marisa Hoenig is a software developer and consultant at ThoughtWorks New York. She has a Bachelor's degree in Computer Science from Georgia Tech.
+Marisa Hoenig is a software developer and consultant at Thoughtworks New York. She has a Bachelor's degree in Computer Science from Georgia Tech.
 
-As part of the ThoughtWorks Arts Residency, Marisa served as Project Anchor to communicate with the artist and recruit and onboard new team members. She initiated the expansion of the project to offices worldwide and played an active role in the project’s technical development.
+As part of the Thoughtworks Arts Residency, Marisa served as Project Anchor to communicate with the artist and recruit and onboard new team members. She initiated the expansion of the project to offices worldwide and played an active role in the project’s technical development.

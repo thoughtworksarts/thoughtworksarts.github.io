@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-Megan is a consultant developer at ThoughtWorks with professional interests in web development, the digital transformation landscape and ethical technology. She graduated from Davidson College where she studied computer science and philosophy and played soccer.
+Megan is a consultant developer at Thoughtworks with professional interests in web development, the digital transformation landscape and ethical technology. She graduated from Davidson College where she studied computer science and philosophy and played soccer.
 
 In her work with [A Father's Lullaby](/projects/a-fathers-lullaby/), Megan contributed as a developer and also assisted with coordination and management on the team, creating several key features of the project website.

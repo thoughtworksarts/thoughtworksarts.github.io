@@ -1,18 +1,18 @@
 ---
 title : "Max Razdow, Ollie Razdow, and Jamie Zigelbaum Awarded Blockchain AI Residency"
 ---
-The new ThoughtWorks Arts [residency in San Francisco](/open-call/2019-democratization-ai-blockchain/) has been awarded to a team of three artists working across media with a focus on remote collaboration and distributed storytelling.
+The new Thoughtworks Arts [residency in San Francisco](/open-call/2019-democratization-ai-blockchain/) has been awarded to a team of three artists working across media with a focus on remote collaboration and distributed storytelling.
 
 {% include image file='all-possible-pathways.jpg'
    caption='Artists Max Razdow, Jamie Zigelbaum, and Ollie Razdow' %}
 
-The team's project was proposed in response to an Open Call by ThoughtWorks Arts for artists to explore [the democratization of AI via blockchain](blog/why-democratization-ai-blockchain/).
+The team's project was proposed in response to an Open Call by Thoughtworks Arts for artists to explore [the democratization of AI via blockchain](blog/why-democratization-ai-blockchain/).
 
 <!--excerpt-ends-->
 
 During their residency, artists Max Razdow, Ollie Razdow and Jamie Zigelbaum will work together developing a generative storytelling project, titled, *All Possible Pathways*. The project is a science fiction based narrative concerning AI's future, co-authored and illustrated by Zigelbaum and Max Razdow and input into a decentralized public blockchain ledger.
 
-The blockchain-based text will then be recomposed by Ollie Razdow through software coded at ThoughtWorks Arts in San Francisco. It will output an audio visual interpretation that changes each time it appears. The artists believe their work both informs and challenges the relationship between AI, its democratization, and its social impacts.
+The blockchain-based text will then be recomposed by Ollie Razdow through software coded at Thoughtworks Arts in San Francisco. It will output an audio visual interpretation that changes each time it appears. The artists believe their work both informs and challenges the relationship between AI, its democratization, and its social impacts.
 
 The team will also receive additional support from the creative blockchain lab [SnarkArt](https://snark.art/) and the decentralized AI network creators [SingularityNet](https://singularitynet.io/).
 

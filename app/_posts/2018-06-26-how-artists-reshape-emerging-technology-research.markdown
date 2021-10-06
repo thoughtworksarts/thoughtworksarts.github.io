@@ -19,7 +19,7 @@ Technologists engage with artists in the creation of new systems, algorithms and
 
 How can arts practice function as technology research? What kinds of insights does art derive? How can art help us build a picture of the risks and opportunities of emerging technology landscapes?
 
-This article will explore these questions and more. It is the first in a series examining the symbiosis of art and technology, and will demonstrate why art and technology make such a powerful combination. The [next article in the series](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) builds on this, explaining how ThoughtWorks has designed programs to incubate artists dealing with issues like cyborgism and transhumanism, bias in machine intelligence and movement in robotics.
+This article will explore these questions and more. It is the first in a series examining the symbiosis of art and technology, and will demonstrate why art and technology make such a powerful combination. The [next article in the series](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) builds on this, explaining how Thoughtworks has designed programs to incubate artists dealing with issues like cyborgism and transhumanism, bias in machine intelligence and movement in robotics.
 
 ## This Has Been Done Before
 
@@ -36,9 +36,9 @@ The value of these contributions is hard to overstate. Achievements like these l
 
 ## Detecting the Signals Today
 
-At ThoughtWorks, we seek out and collaborate with artists engaging with technology and investigating issues of crucial importance today. Our employees support artists' projects as partners, and this hands-on engagement enables a sharper focus on the issues raised.
+At Thoughtworks, we seek out and collaborate with artists engaging with technology and investigating issues of crucial importance today. Our employees support artists' projects as partners, and this hands-on engagement enables a sharper focus on the issues raised.
 
-In 2016, ThoughtWorks collaborated with the Cyborg Foundation to develop new prototypical human 'senses.' Artists [Neil Harbisson and Moon Ribas](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) believe human psychology can be 'reshaped' via newly designed sensory organs — permanently integrated electronic sensors in the body.
+In 2016, Thoughtworks collaborated with the Cyborg Foundation to develop new prototypical human 'senses.' Artists [Neil Harbisson and Moon Ribas](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) believe human psychology can be 'reshaped' via newly designed sensory organs — permanently integrated electronic sensors in the body.
 
 {% include image file='neil-harbisson.jpg'
    caption='Cyborg artist Neil Harbisson working with engineer Oryan Inbar' %}
@@ -47,24 +47,24 @@ This means that web data feeds can become first-tier physical senses, seamlessly
 
 In this view, each of us can create new and customizable forms of human psychological and sensory experiences, different from our natural ones. The entire human condition as we know it is merely a starting point for technological customization.
 
-Cyborg Foundation artists have experimented with these ideas, creating and integrating new prosthetics, and working with ThoughtWorks on the development of new proof-of-concept wearables.
+Cyborg Foundation artists have experimented with these ideas, creating and integrating new prosthetics, and working with Thoughtworks on the development of new proof-of-concept wearables.
 
 Neil Harbisson created a 'time sense', which can be [felt as heat sensations](https://thoughtworksarts.io/projects/time-sense/) around the circumference of his head. Moon Ribas created a 'seismic sense', allowing her to [feel earthquakes as vibrations](https://thoughtworksarts.io/projects/seismic-sense/) on her legs.
 
 {% include image file='moon-ribas.jpg'
-   caption='Cyborg artist Moon Ribas speaking at a ThoughtWorks event' %}
+   caption='Cyborg artist Moon Ribas speaking at a Thoughtworks event' %}
 
-After their time with ThoughtWorks, the Cyborg Foundation founded the [Trans-Species Society](https://www.transpeciessociety.com/) to connect with others interested in designing new sensory organs and new forms of human experience. Given the current rate of technological and medical progress, and projecting forwards the standard human social pressures to improve and get ahead, this potential future may not be so far-fetched.
+After their time with Thoughtworks, the Cyborg Foundation founded the [Trans-Species Society](https://www.transpeciessociety.com/) to connect with others interested in designing new sensory organs and new forms of human experience. Given the current rate of technological and medical progress, and projecting forwards the standard human social pressures to improve and get ahead, this potential future may not be so far-fetched.
 
-For ThoughtWorks and our clients, projects like this inform our discussions and help us imagine new directions. Audiences and project collaborators are often exposed to new ideas, generating discussion and debate. Hands-on experience provides a nuanced view, highlighting both risks and opportunities for the future.
+For Thoughtworks and our clients, projects like this inform our discussions and help us imagine new directions. Audiences and project collaborators are often exposed to new ideas, generating discussion and debate. Hands-on experience provides a nuanced view, highlighting both risks and opportunities for the future.
 
 ## From Signals to Risks and Opportunities
 
-In 2017, filmmaker Karen Palmer joined ThoughtWorks to explore emotion detection through Artificial Intelligence.
+In 2017, filmmaker Karen Palmer joined Thoughtworks to explore emotion detection through Artificial Intelligence.
 
 Her project *RIOT* is a film in which [viewers' emotional expressions drive the story forward](https://thoughtworksarts.io/projects/riot) in different directions. Audiences experience a riot in progress, and depending on their perceived level of calm, anger or fear, find themselves either being arrested, assaulted or set free.
 
-ThoughtWorks developers worked with Karen to create and open source a new facial expression recognition system named [EmoPy](https://github.com/thoughtworksarts/EmoPy). This system estimates human emotion by assessing images of human facial expressions, via machine learning.
+Thoughtworks developers worked with Karen to create and open source a new facial expression recognition system named [EmoPy](https://github.com/thoughtworksarts/EmoPy). This system estimates human emotion by assessing images of human facial expressions, via machine learning.
 
 {% include image file='karen-palmer.jpg'
    caption='Artist Karen Palmer demonstrating detected facial expression readings' %}
@@ -78,13 +78,13 @@ Further, inherent [human bias embedded in the datasets](https://www.propublica.o
 Unmitigated, this risk could encourage false confidence in inaccurate decisions.
 
 {% include image file='developers.jpg'
-   caption='ThoughtWorks developers Angelica Perez and Sofia Tania with artist Karen Palmer' %}
+   caption='Thoughtworks developers Angelica Perez and Sofia Tania with artist Karen Palmer' %}
 
 By including affected communities in the development process, a more granular understanding of the system's capabilities and characteristics can be encouraged. This can not only alter the decisions made by the neural net itself, but can also improve decision-making by humans downstream, because of their improved awareness of what the system's outputs really mean.
 
 ## Synthesis, Sharing and Dissemination
 
-Ideas like these and more are exchanged, debated and written up by collaborators on art projects at ThoughtWorks. For example, while working on *RIOT*, developer Stephanie Weber explored issues relating AI to society in her essay on [how AI is transforming the criminal justice system](https://www.thoughtworks.com/insights/blog/how-artificial-intelligence-transforming-criminal-justice-system).
+Ideas like these and more are exchanged, debated and written up by collaborators on art projects at Thoughtworks. For example, while working on *RIOT*, developer Stephanie Weber explored issues relating AI to society in her essay on [how AI is transforming the criminal justice system](https://www.thoughtworks.com/insights/blog/how-artificial-intelligence-transforming-criminal-justice-system).
 
 Additionally, team lead Angelica Perez compared the technology behind various [facial expression recognition techniques](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/). We also [wrote up research on AI and bias](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) in preparation for our [public call for AI artists](https://thoughtworksarts.io/open-call/2017-implications-of-ai/), created in collaboration with the MacArthur Foundation funded [AI Now Institute](https://ainowinstitute.org/) at New York University.
 
@@ -92,7 +92,7 @@ Each art project we work on is multi-layered and complex, revealing a web of pot
 
 ## Art &amp; Technology Programs
 
-To put our exploration of these complex issues into practice, we created three programs under the banner of *ThoughtWorks Arts*. This includes the [ThoughtWorks Arts Residency](https://thoughtworksarts.io/), [Art-A-Hack](https://artahack.io/) and the [Hardware Hack Lab](https://hardwarehacklab.io/).
+To put our exploration of these complex issues into practice, we created three programs under the banner of *Thoughtworks Arts*. This includes the [Thoughtworks Arts Residency](https://thoughtworksarts.io/), [Art-A-Hack](https://artahack.io/) and the [Hardware Hack Lab](https://hardwarehacklab.io/).
 
 {% include image file='thoughtworks-arts.jpg' %}
 

@@ -13,17 +13,17 @@ Ellen will join a group of distinguished scholars, artists, creative technologis
 While at MIT Open Doc Lab, Ellen will work on [Language Is Leaving Me](http://opendoclab.mit.edu/presents/language-leaving-ellen-pearlman/), an on-going project on the inherited traumatic memory of cultures and diasporas, or epigenetics, through the framework of AI and GANs. She will investigate what can, and cannot be retained and interpreted through digital means.  
 
 
-## ThoughtWorks Arts Presents at Bozar Labs in Conjunction With STARTS Prize 2020
+## Thoughtworks Arts Presents at Bozar Labs in Conjunction With STARTS Prize 2020
 
 As part of the [Starts Prize 2020 exhibition held at Bozar](https://www.bozar.be/en/activities/168310-starts-prize-20) this Fall, [Bozar Lab](https://www.bozar.be/en/homepages/129187-lab) organized a webinar on the topic of artist and technologist collaborations as a model for innovation.
 
 {% include youtube id='A-0kN5iEJV8' %}
 
-Artist and A.I. resident, Karen Palmer ([Storyteller From The Future](http://storytellerfromthefuture.com/)), presented her immersive film project [Perception iO](https://thoughtworksarts.io/blog/karen-palmer-exhibits-perception-cooper-hewitt-design-museum-nyc/), (developed at ThoughtWorks Arts) and shared how it explores the intersection of A.I., bias, policing, and new, innovative forms of storytelling.
+Artist and A.I. resident, Karen Palmer ([Storyteller From The Future](http://storytellerfromthefuture.com/)), presented her immersive film project [Perception iO](https://thoughtworksarts.io/blog/karen-palmer-exhibits-perception-cooper-hewitt-design-museum-nyc/), (developed at Thoughtworks Arts) and shared how it explores the intersection of A.I., bias, policing, and new, innovative forms of storytelling.
 
 Perception iO received a [Starts Honorary Mention](https://starts-prize.aec.at/en/perception/) and was included in the exhibition, [Starts Prize ‘20 Speculating On The Future Through Art And Science](https://www.bozar.be/en/activities/168310-starts-prize-20).
 
-ThoughtWorks Arts director Andrew McWilliams shared how cross-collaborative programs at ThoughtWorks Arts involving artists and technologists create powerful work driven by issues facing technology and society. Andrew detailed how such interactions are a critical tool for harnessing innovation.
+Thoughtworks Arts director Andrew McWilliams shared how cross-collaborative programs at Thoughtworks Arts involving artists and technologists create powerful work driven by issues facing technology and society. Andrew detailed how such interactions are a critical tool for harnessing innovation.
 
 To learn more about what was discussed, and who else presented at the webinar, [read our latest blog post](https://thoughtworksarts.io/blog/bozar-labs-starts-prize/).
 
@@ -43,9 +43,9 @@ Nouf's prototypes from her residency project [سلف [Salaf] (2020)](http://www.
 
 Ellen's immersive, interactive love story, [AIBO: An Emotionally Intelligent, Artificial Intelligent Brainwave Opera (2020)](http://www.aiartonline.com/art-2020/ellen-pearlman/) was also included in the exhibition. AIBO is about our infatuation and trust in artificial intelligence played out between a human character Eva, and AIBO, a custom built ‘sicko’ AI.
 
-## Deepfakes Masterclass: ThoughtWorks Arts and Baltan Labs
+## Deepfakes Masterclass: Thoughtworks Arts and Baltan Labs
 
-ThoughtWorks Arts and [Baltan Laboratoratories](https://www.baltanlaboratories.org/) organized the two-week online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon) - led by Ellen Pearlman and Thoughtworker Julien Deswaef, and facilitated by Leif Czakai of Baltan Labs.
+Thoughtworks Arts and [Baltan Laboratoratories](https://www.baltanlaboratories.org/) organized the two-week online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon) - led by Ellen Pearlman and Thoughtworker Julien Deswaef, and facilitated by Leif Czakai of Baltan Labs.
 
 {% include image file='information-bubbles.png'
    caption='Team Two\'s prototype on the visualization of \'information bubbles\' that included examining the at the time online controversial site Parler' %}
@@ -56,9 +56,9 @@ The masterclass concluded in final team presentations of their synthetic media p
 
 ## Presentations
 
-**Andrew McWilliams** and Synthetic Media resident **Nouf Aljowaysir** presented at the virtual [Rethink Italy](http://rethinkfestival.it/) Service Design Festival in June. The live-streamed discussion addressed a Service Design audience with ideas on how art-based technology research informs designers examining a changing social landscape over time. The event showcased cross-collaborative programs by ThoughtWorks Arts involving artists and technologists, and how those interactions drive questions about society, and harness technological innovation.
+**Andrew McWilliams** and Synthetic Media resident **Nouf Aljowaysir** presented at the virtual [Rethink Italy](http://rethinkfestival.it/) Service Design Festival in June. The live-streamed discussion addressed a Service Design audience with ideas on how art-based technology research informs designers examining a changing social landscape over time. The event showcased cross-collaborative programs by Thoughtworks Arts involving artists and technologists, and how those interactions drive questions about society, and harness technological innovation.
 
-**Andrew McWilliams** presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at ThoughtWorks Berlin in early March, where  Rachel Uma, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?v=Ik8RSxdVYLo) also spoke. 
+**Andrew McWilliams** presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at Thoughtworks Berlin in early March, where  Rachel Uma, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?v=Ik8RSxdVYLo) also spoke. 
 
 In London, Andrew gave a talk on [*The origin of ClimateAction.tech*](https://www.youtube.com/watch?v=YEJ4Pu8c6bk) - an initiative he helped build to support and engage the entire tech sector in addressing the climate crisis.
 
@@ -76,14 +76,14 @@ Ellen gave the [keynote at NordiCHI](http://nordichi2020.org/keynotes#/) in Tall
 She also presented virtually at [ISEA 2020 Montreal - Why Sentience?](https://isea2020.isea-international.org/isea2020-online-program/), speaking on her work “AIBO: An Emotionally Intelligent Artificial Intelligent Brainwave Opera: Part 2 -The Making Of A “Sicko” AI.
 
 
-## News from Past ThoughtWorks Arts Residents
+## News from Past Thoughtworks Arts Residents
 
 **Heather Dewey-Hagborg** co-curated for the New York University Abu Dhabi Art gallery ["not in, of, along, or relating to a line."](https://www.nyuad-artgallery.org/en_US/our-exhibitions/main-gallery/not-a-line/) The exhibition, which was designed specifically to be viewed on mobile devices, investigates the mutability of identity through and with new technologies. Heather also has new artwork premiering at [Fridman Gallery in NYC in the group show "A stranger's soul is a deep well."](https://www.fridmangallery.com/strangers-soul) Her new piece is titled *Watson's Ghost*. Heather also presented virtually on November 2nd as part of [The Unconference Episodes](http://www.microwavefest.net/festival2020/Unconference.html) at the [Microwave International New Media Arts Festival 2020](http://www.microwavefest.net/festival2020/). Heather recently became a visiting assistant professor at [New York University - Abu Dhabi](https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/heather-dewey-hagborg.html).
 
-**Karen Palmer** was awarded an [Honorary Mention for the Starts 2020 Prize of the European Commission honoring Innovation in Technology, Industry and Society stimulated by the Arts for Perception iO](https://starts-prize.aec.at/index.html), an immersive, AI video installation developed at ThoughtWorks Arts. Perception iO was also a part of the [Expo Starts Prize exhibition at Bozar in Brussels](https://rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), where art and science joined forces to think about the future. 
+**Karen Palmer** was awarded an [Honorary Mention for the Starts 2020 Prize of the European Commission honoring Innovation in Technology, Industry and Society stimulated by the Arts for Perception iO](https://starts-prize.aec.at/index.html), an immersive, AI video installation developed at Thoughtworks Arts. Perception iO was also a part of the [Expo Starts Prize exhibition at Bozar in Brussels](https://rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), where art and science joined forces to think about the future. 
 
 
-**Catie Cuan** was highlighted in an article by The New York Times, [Dances With Robots, and Other Tales From the Outer Limits](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), which highlighted work developed at ThoughtWorks Arts. Catie was also featured in the article, [Why Robots Need Choreographers by Dance Magazine](https://www.dancemagazine.com/catie-cuan-robots-2648562861.html?rebelltitem=1#rebelltitem1). 
+**Catie Cuan** was highlighted in an article by The New York Times, [Dances With Robots, and Other Tales From the Outer Limits](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), which highlighted work developed at Thoughtworks Arts. Catie was also featured in the article, [Why Robots Need Choreographers by Dance Magazine](https://www.dancemagazine.com/catie-cuan-robots-2648562861.html?rebelltitem=1#rebelltitem1). 
 
 **James Coupe** received an Honorary Mention from the prestigious [Prix Ars Electronica 2020 Awards](https://ars.electronica.art/prix/en/winners/#interactiveart) for his interactive, deepfake installation, [Warriors](http://jamescoupe.com/?p=2603). 
 
@@ -106,13 +106,13 @@ She also presented virtually at [ISEA 2020 Montreal - Why Sentience?](https://is
 **Catie Cuan, Ellen Pearlman, and Andrew McWilliams:** [Output: Translating Robot and Human Movers Across Platforms in a Sequentially Improvised Performance -](http://aisb2019.machinemovementlab.net/MTSB2019_Cuan_Pearlman_McWilliams.pdf) From the 2019 AISB (The Society for the Study of Artificial Intelligence and Simulation of Behaviour) Machine Movement Lab at Falmouth University, UK.
 
 ## Blog Posts
-* [ThoughtWorks Arts Presents at Bozar Labs in Line With STARTS Prize 2020](https://thoughtworksarts.io/blog/bozar-labs-starts-prize/) by the Residency Team
-* [New York Times Features Catie Cuan's Project With ThoughtWorks Arts](https://thoughtworksarts.io/blog/new-york-times-features-output/) by the Residency Team
+* [Thoughtworks Arts Presents at Bozar Labs in Line With STARTS Prize 2020](https://thoughtworksarts.io/blog/bozar-labs-starts-prize/) by the Residency Team
+* [New York Times Features Catie Cuan's Project With Thoughtworks Arts](https://thoughtworksarts.io/blog/new-york-times-features-output/) by the Residency Team
 * [Life During (and After) Covid-19 - Artistic Strategies and Breakthrough Responses](https://thoughtworksarts.io/blog/covid-19-artistic-strategies/) by the Residency Team
 * [Confronting the Unknown: Art & Technology Research for Service Design](https://thoughtworksarts.io/blog/confront-unknown-research-service-design/) by the Residency Team
 * [Dancedemic World Premiere at Battery Dance Virtual Festival](https://thoughtworksarts.io/blog/dancedemic-art-a-hack-live/) by the Residency Team
-* [Welcoming Our New Residents to ThoughtWorks Arts Residency](https://thoughtworksarts.io/blog/welcoming-new-residents-synthetic-media/) by the Residency Team
-* [Showcase of Art & Emerging Technology Projects at ThoughtWorks Germany](https://thoughtworksarts.io/blog/showcase-art-tech-thoughtworks-germany/) by the Residency Team
+* [Welcoming Our New Residents to Thoughtworks Arts Residency](https://thoughtworksarts.io/blog/welcoming-new-residents-synthetic-media/) by the Residency Team
+* [Showcase of Art & Emerging Technology Projects at Thoughtworks Germany](https://thoughtworksarts.io/blog/showcase-art-tech-thoughtworks-germany/) by the Residency Team
 * [A.I. Brainwave Opera Has World Premiere at the Estonian Academy of Music](https://thoughtworksarts.io/blog/ai-brainwave-opera-world-premiere/) by the Residency Team
 * [Rachel Uwa Shares the Origins of Her Berlin Art and Technology School](https://thoughtworksarts.io/blog/rachel-uwa-school-machines-making-make-believe/) by the Residency Team
 * [Ellen Pearlman Presents at U.S. Fulbright Alumni Exchange Seminar](https://thoughtworksarts.io/blog/ellen-pearlman-us-fulbright-alumni-exchange/) by the Residency Team.
@@ -122,13 +122,13 @@ She also presented virtually at [ISEA 2020 Montreal - Why Sentience?](https://is
 * [Max Razdow, Ollie Razdow, and Jamie Zigelbaum Awarded Blockchain AI Residency](https://thoughtworksarts.io/blog/max-razdow-ollie-razdow-jamie-zigelbaum-awarded-blockchain-residency/) by the Residency Team
 * [Rashin Fahandej Awarded Volumetric Filmmaking Residency](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/) by the Residency Team
 * [Why We Are Investigating the Democratization of AI via Blockchain](https://thoughtworksarts.io/blog/why-democratization-ai-blockchain/) by the Residency Directors
-* [PBS Features ThoughtWorks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
+* [PBS Features Thoughtworks Arts Resident & Interaction Technology](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/) by the Residency Team
 * [EmoPy: A Machine Learning Toolkit For Emotional Expression](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) by Angelica Perez
 * [Industrial Robotics and Human Movement: New Experiments](https://thoughtworksarts.io/blog/movement-industrial-robotic-arm/) by the Residency Team
 * [Recognizing Human Facial Expression With Machine Learning](https://thoughtworksarts.io/blog/recognizing-facial-expressions-machine-learning/) by Angelica Perez
-* [How Arts Programs Drive Innovation at ThoughtWorks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
+* [How Arts Programs Drive Innovation at Thoughtworks](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) by Andrew McWilliams
 * [How Artists Are Reshaping Emerging Technology Research](https://thoughtworksarts.io/blog/how-artists-reshape-emerging-technology-research/) by Andrew McWilliams
-* [Robotics Artists Begin Their Residencies at ThoughtWorks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
+* [Robotics Artists Begin Their Residencies at Thoughtworks](https://thoughtworksarts.io/blog/robotics-artists-begin-residencies/) by the Residency Team
 * [Karen Palmer: The Film That Watches You Back](https://thoughtworksarts.io/blog/karen-palmer-film-watches-you-back/) by the Residency Team
 * [Adrianne Wortzel and Catie Cuan Awarded Robotics Residency](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) by the Residency Team
 

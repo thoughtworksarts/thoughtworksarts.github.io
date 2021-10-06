@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-Nikola Savic is a software engineer at ThoughtWorks with a focus on data engineering, based in New York.  His technical and professional interests include test-driven development, continuous delivery, functional programming, and developing intelligent systems. He holds a Masters of Computer Science with a specialization in artificial intelligence and machine learning from the Georgia Institute of Technology.
+Nikola Savic is a software engineer at Thoughtworks with a focus on data engineering, based in New York.  His technical and professional interests include test-driven development, continuous delivery, functional programming, and developing intelligent systems. He holds a Masters of Computer Science with a specialization in artificial intelligence and machine learning from the Georgia Institute of Technology.
 
-As a part of the [Salaf \[Arabic&#58; سلف , ancestor\] \(2020\)](/projects/salaf/) project with ThoughtWorks Arts, Nikola served as a technical advisor to the artist. He collaborated on training approaches while working with GANs, data set selection and preparation. Nikola also aided with general engineering problems.
+As a part of the [Salaf \[Arabic&#58; سلف , ancestor\] \(2020\)](/projects/salaf/) project with Thoughtworks Arts, Nikola served as a technical advisor to the artist. He collaborated on training approaches while working with GANs, data set selection and preparation. Nikola also aided with general engineering problems.

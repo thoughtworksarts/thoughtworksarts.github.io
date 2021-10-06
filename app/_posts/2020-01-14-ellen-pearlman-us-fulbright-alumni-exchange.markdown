@@ -2,7 +2,7 @@
 title  : "Ellen Pearlman Presents at U.S. Fulbright Alumni Exchange Seminar"
 image  : presentation.jpg
 ---
-As a [Fulbright World Learning Specialist](https://fulbrightspecialist.worldlearning.org/the-fulbright-specialist-program/), ThoughtWorks Arts Director Ellen Pearlman was selected from a competitive pool of Fulbright Alumni throughout the country to present at [The U.S. Alumni Thematic International Exchange Seminar (Alumni TIES)](https://alumni.state.gov/alumni-news/alumni-thematic-international-exchange-seminars-alumni-ties) on the topic of &quot;Art, Culture, and Transforming Conflict&quot;.
+As a [Fulbright World Learning Specialist](https://fulbrightspecialist.worldlearning.org/the-fulbright-specialist-program/), Thoughtworks Arts Director Ellen Pearlman was selected from a competitive pool of Fulbright Alumni throughout the country to present at [The U.S. Alumni Thematic International Exchange Seminar (Alumni TIES)](https://alumni.state.gov/alumni-news/alumni-thematic-international-exchange-seminars-alumni-ties) on the topic of &quot;Art, Culture, and Transforming Conflict&quot;.
 
 {% include image file='ties.jpg'
    caption='Alumni TIES: Art, Culture, Transforming Conflict' %}
@@ -16,7 +16,7 @@ The four-day event connected participants, fostered opportunities for project co
 {% include image file='presentation.jpg'
    caption='Ellen Pearlman presenting at Alumni TIES in Santa Fe, NM, photo by Matt Bikoff' %}
 
-Ellen presented "Advancing Diversity, Equity, and Inclusion in the Arts", highlighting ThoughtWorks Arts based programs that have promoted social change through their artistic and technology incubations.
+Ellen presented "Advancing Diversity, Equity, and Inclusion in the Arts", highlighting Thoughtworks Arts based programs that have promoted social change through their artistic and technology incubations.
 
 In 2017 Ellen Pearlman received a Fulbright World Learning Specialist Grant. The Fulbright World Learning program connects exceptionally qualified U.S. academics and professionals with institutions abroad to develop programs and share their knowledge.
 

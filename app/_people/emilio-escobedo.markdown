@@ -49,6 +49,6 @@ links:
    url     : ""
 
 ---
-Emilio is a software consultant at ThoughtWorks, who is passionate about software craftsmanship by following Agile software development practices in order to work more efficiently and deliver value to the business. 
+Emilio is a software consultant at Thoughtworks, who is passionate about software craftsmanship by following Agile software development practices in order to work more efficiently and deliver value to the business. 
 
 As part of the [Perception iO](/projects/perception-io/) project, Emilio worked with Karen Palmer and the development team to reduce the scope of the work and focus the team's efforts on generating the most value.

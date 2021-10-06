@@ -2,12 +2,12 @@
 title     : "Introducing the Cyborg Foundation"
 tags      : [time-sense, seismic-sense]
 ---
-We are very happy to introduce the first artists to the ThoughtWorks Arts Residency program. Moon Ribas and Neil Harbisson are artists who use technology to explore the concept of cyborgism - the permanent integration of humans and machines to create new senses.
+We are very happy to introduce the first artists to the Thoughtworks Arts Residency program. Moon Ribas and Neil Harbisson are artists who use technology to explore the concept of cyborgism - the permanent integration of humans and machines to create new senses.
 
 {% include image file='republica.jpg'
    caption='Moon and Neil speaking at re:publica 2013 (credit <a href="https://www.flickr.com/photos/re-publica/8719248246/in/photolist-ehuqJj-ehqnmQ-ehqnh5-ehoGKB-ehoGP4-nvx7Uz-59nbLe-nvBQdE-nvBQ5J-59vhrc-eikB4T-59zvGY-59ndD8-59zwkd-59zw3E-nvCqXi-eikAMg-59vhGr-59ndVr-59nd4v-59rqej-59ndne/">Gregor Fischer</a>)' %}
 
-Moon and Neil will be working out of the ThoughtWorks New York office for the next sixteen weeks as our first artist-in-residence.
+Moon and Neil will be working out of the Thoughtworks New York office for the next sixteen weeks as our first artist-in-residence.
 
 <!--excerpt-ends-->
 
@@ -33,7 +33,7 @@ During the residency period, Moon's goal is to expand her seismic sense in one o
 
 Neil plans to develop a new sense of time, which will allow him to perceive and modify his awareness of time. He plans to achieve this by placing a ring of senses around the circumference of his head, which will represent the 24-hour clock.
 
-To get a deeper understanding of where these artists are coming from, it's a good idea to hear them talk about it in their own words. The presentation below is one of our favorites. It was filmed at the ThoughtWorks office in 2014 during a special [Hardware Hack Lab](http://hardwarehacklab.io).
+To get a deeper understanding of where these artists are coming from, it's a good idea to hear them talk about it in their own words. The presentation below is one of our favorites. It was filmed at the Thoughtworks office in 2014 during a special [Hardware Hack Lab](http://hardwarehacklab.io).
 
 {% include youtube id='d52RxsfPpu0' %}
 

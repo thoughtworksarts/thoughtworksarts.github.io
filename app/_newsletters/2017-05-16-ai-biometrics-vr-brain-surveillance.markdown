@@ -2,7 +2,7 @@
 title : "Artificial Intelligence, Biometrics, VR and Brain Surveillance"
 ---
 
-ThoughtWorks Arts is currently seeking an artist/technologist wishing to work on issues surrounding the design, use and implementation of artificial intelligence (AI). AI can enhance the human experience, but can also contribute towards amplifying pre-existing social prejudices and biases, thereby restricting the free flow of individuals, communities and entire populations in untold ways.
+Thoughtworks Arts is currently seeking an artist/technologist wishing to work on issues surrounding the design, use and implementation of artificial intelligence (AI). AI can enhance the human experience, but can also contribute towards amplifying pre-existing social prejudices and biases, thereby restricting the free flow of individuals, communities and entire populations in untold ways.
 
 View the [open call here](https://thoughtworksarts.io/open-call/2017-implications-of-ai/), and also review [this article from the Directors](https://thoughtworksarts.io/blog/why-we-are-investigating-biases-artificial-intelligence/) explaining our perspective on this critical issue. Note that we have designed the call to be open-ended, so as to allow artists to surprise us with their proposals. Applications are due by June 8, 2017.
 
@@ -10,7 +10,7 @@ View the [open call here](https://thoughtworksarts.io/open-call/2017-implication
 
 ## Biometrics & Immersion: Three Views
 
-Join us on Wednesday, May 17, 2017 at ThoughtWorks, 99 Madison, New York, for [three views on Biometrics and Immersion in tech](https://www.meetup.com/volumetric/events/239639066/). Current resident hannes bend, along with residency directors Ellen Pearlman and Andrew McWilliams will share their experiences working with brain waves, blood-glucose levels, and meditation & breath, to discuss the future of the physical body and immersive art practices. This event is a part of the city-wide [Creative Tech Week](http://creativetechweek.nyc/).
+Join us on Wednesday, May 17, 2017 at Thoughtworks, 99 Madison, New York, for [three views on Biometrics and Immersion in tech](https://www.meetup.com/volumetric/events/239639066/). Current resident hannes bend, along with residency directors Ellen Pearlman and Andrew McWilliams will share their experiences working with brain waves, blood-glucose levels, and meditation & breath, to discuss the future of the physical body and immersive art practices. This event is a part of the city-wide [Creative Tech Week](http://creativetechweek.nyc/).
 
 {% include image file='insulin.png'
    link='https://jahya.net/works/insulin/'

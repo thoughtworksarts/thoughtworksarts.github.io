@@ -49,7 +49,7 @@ links:
    url     : "https://github.com/weberswords"
 
 ---
-Stephanie Weber is a consultant developer at ThoughtWorks, with professional interests including information security, automation, and artificial intelligence. Stephanie's background is in education, where she was a teacher and digital learning coach.
+Stephanie Weber is a consultant developer at Thoughtworks, with professional interests including information security, automation, and artificial intelligence. Stephanie's background is in education, where she was a teacher and digital learning coach.
 
 Stephanie has degrees in educational leadership and bilingual education, was a presenter at the Silver State Tech Innovator Symposium, and was selected as an Apple Distinguished Educator in 2013.
 

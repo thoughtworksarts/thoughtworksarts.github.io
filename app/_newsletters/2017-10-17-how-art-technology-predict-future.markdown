@@ -31,7 +31,7 @@ RIOT 2, by current Resident **Karen Palmer** is included in [The Future of Story
 Past resident and cyborg **Moon Ribas** had [two new sensors](https://www.facebook.com/cyborgfoundation/?hc_ref=ARSUtaMkSJ3), partially developed while at Thoughtworks, implanted in her feet to feel moonquakes. [An interview of her](http://www.straitstimes.com/lifestyle/arts/walking-earthquake-detector), Artist Moon Ribas translates Earth's movement into art, appears in Lifestyle.
 
 {% include image file='moon-feet.jpg'
-   caption='Past ThoughtWorks Arts Resident Moon Ribas shortly after receiving earthquake sensor implants in her feet' %}
+   caption='Past Thoughtworks Arts Resident Moon Ribas shortly after receiving earthquake sensor implants in her feet' %}
 
 [An interview](https://issuu.com/women.cinemakersreview/docs/vol8/70) of Director **Ellen Pearlman** appears in WomenCinemakers, an annual magazine offering readers insight into the work of emerging women directors, producers and writers from around the world, and she participated in the closing panel of [Jump into VR Fest.](https://www.jumpintovrfest.com/)
 
@@ -54,19 +54,19 @@ Art-A-Hack alums **[Kate Sicchio](https://vimeo.com/232544918), [Gene Kogan](htt
 
 *   [**Industrial Design Process for the ‘Time Sense’ Prototype**](/blog/industrial-design-time-sense-prototype/) by Oryan Inbar
 *   [**Heather Dewey-Hagborg and Chelsea Manning show at Fridman Gallery**](/blog/heather-chelsea-show-fridman/) by Ellen Pearlman
-*   [**Welcoming Karen Palmer to the ThoughtWorks Arts Residency**](/blog/welcoming-karen-palmer/) by the Residency Team
+*   [**Welcoming Karen Palmer to the Thoughtworks Arts Residency**](/blog/welcoming-karen-palmer/) by the Residency Team
 *   [**Presenting Our Art & Technology Projects at TEDxVilnius**](/blog/presenting-our-work-tedx/) by Andrew McWilliams
-*   [**Karen Palmer Awarded ThoughtWorks AI Residency**](/blog/karen-palmer-ai-residency/) by the Residency Team
+*   [**Karen Palmer Awarded Thoughtworks AI Residency**](/blog/karen-palmer-ai-residency/) by the Residency Team
 *   [**Three Views on Biometrics and Immersion for Creative Tech Week**](/blog/three-views-biometrics-immers) by the residency team
 *   [**Why We Are Investigating the Biases of Artificial Intelligence**](/blog/why-we-are-investigating-biases-artificial-intelligence/) by the Residency Directors
-*   [**Welcoming Hannes Bend to the ThoughtWorks Arts Residency**](/blog/welcoming-hannes-b) by the Residency Team
+*   [**Welcoming Hannes Bend to the Thoughtworks Arts Residency**](/blog/welcoming-hannes-b) by the Residency Team
 *   [**Suppressed Images: Advocating for Chelsea Manning's Release**](/blog/suppressed-images-picturing-chelsea-manning/) by the Residency Team
 *   [**How I Became a Cyborg**](/blog/how-i-became-a-cyborg/) by Stefanie Grewenig
 *   [**Cyborg Senses: Weaving the Materials**](http://Cyborg Senses: Weaving the Materials) by Caihong Liu
-*   [**Heather Dewey-Hagborg Begins Residency at ThoughtWorks**](/blog/introducing-heather-dewey-hagborg/) by the Residency Team
+*   [**Heather Dewey-Hagborg Begins Residency at Thoughtworks**](/blog/introducing-heather-dewey-hagborg/) by the Residency Team
 *   [**Developing a Cyborg Time Sense: Research and Experimentation**](/blog/team-gets-started-on-resear) by Andrew McWilliams
 *   [**Global Visioning Session with the Cyborgs**](/blog/visioning-session-with-the-cyborgs/) by Andrew McWilliams
-*   [**Inside Our Brand New Lab at ThoughtWorks NYC**](/blog/inside-our-brand-new-hack-lab/) by the Residency Team
+*   [**Inside Our Brand New Lab at Thoughtworks NYC**](/blog/inside-our-brand-new-hack-lab/) by the Residency Team
 *   [**Discussing the residency on dotNYC with Jeff Jarvis**](/blog/appearance-on-dotnyc/) by Andrew McWilliams
 *   [**Introducing the Cyborg Foundation**](/blog/introducing-cyborg-foundation/) by the Residency Team
-*   [**Announcing the ThoughtWorks Artist Residency**](/blog/announcing-the-program/) by the Residency Team
+*   [**Announcing the Thoughtworks Artist Residency**](/blog/announcing-the-program/) by the Residency Team
