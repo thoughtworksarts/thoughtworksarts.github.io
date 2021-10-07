@@ -1,4 +1,4 @@
-# ThoughtWorks Arts Website
+# Thoughtworks Arts Website
 Code which powers [thoughtworksarts.io](https://thoughtworksarts.io).
 
 ## Commands
