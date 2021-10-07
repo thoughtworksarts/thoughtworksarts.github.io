@@ -1,5 +1,3 @@
-![ThoughtWorks Arts](readme/thoughtworks-arts.png)
-
 # ThoughtWorks Arts Website
 Code which powers [thoughtworksarts.io](https://thoughtworksarts.io).
 
