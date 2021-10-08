@@ -61,4 +61,4 @@ Rashin Fahandej says that A Father’s Lullaby is a "Poetic Cyber Movement for S
 {% include image file='ica-panel-rashin.jpg'
    caption='Rashin speaking on a panel at the ICA opening' %}
 
-The piece has awarded the James and Audrey Foster prize, was [exhibited at the Institute for Contemporary Arts (ICA)](https://thoughtworksarts.io/blog/institute-contemporary-arts-biennal-exhibits-rashin-fahandej-boston/) on the Boston waterfront Aug 21 – Dec 31, 2019.
+The piece has been awarded the [Prix Ars Electronica Award of Distinction in Digital Music and Sound Art](https://thoughtworksarts.io/blog/rashin-fahandej-award-of-distinction-ars-electronica/), the [James and Audrey Foster prize](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize), and was [exhibited at the Institute for Contemporary Arts (ICA)](https://thoughtworksarts.io/blog/institute-contemporary-arts-biennal-exhibits-rashin-fahandej-boston/) on the Boston waterfront Aug 21 – Dec 31, 2019.
