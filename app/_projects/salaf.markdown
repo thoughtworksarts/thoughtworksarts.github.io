@@ -51,4 +51,4 @@ Salaf symbolizes those AI failures and the frustrations Nouf felt in the Western
 
 Nouf will use her family's story and migration throughout the Middle East to expose the ingrained and centuries-old biases that are shaping emerging intelligent systems of category recognition. Her project raises awareness about how technology is constructed and influenced by innate and skewered historical factors, and how it is structurally a deep flaw in emerging technologies.
 
-_Salaf_ is currently a work-in-progress. It was exhibited at [NeurIPS](http://www.aiartonline.com/highlights-2020/nouf-aljowaysir/), the leading machine learning conference for creativity and design.
+_Salaf_ is currently a work-in-progress. It was exhibited at [NeurIPS](http://www.aiartonline.com/highlights-2020/nouf-aljowaysir/), the leading machine learning conference for creativity and design, and was the winning entry to the [Computer Vision Art Gallery competition in 2020](https://computervisionart.com/), selected on the basis of "technical novelty, aesthetic merit, or conceptual strength."
