@@ -1,6 +1,6 @@
 ---
 title : "Industrial Robotics and Human Movement: New Experiments"
-tags   : [sentient-thespian, output]
+tags   : [sentient-thespian, output, liminal]
 ---
 Interactions between humans and robots are becoming increasingly ubiquitous. Questions naturally emerge about the how human-robot communications can be understood, now and in the future. 
 

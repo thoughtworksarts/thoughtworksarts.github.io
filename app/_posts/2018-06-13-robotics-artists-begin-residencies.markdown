@@ -1,6 +1,6 @@
 ---
 title : "Robotics Artists Begin Their Residencies at Thoughtworks"
-tags  : [sentient-thespian, output]
+tags  : [sentient-thespian, output, liminal]
 ---
 The robotics artists Adrianne Wortzel and Catie Cuan have begun [their dual residencies](/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/) at Thoughtworks.
 

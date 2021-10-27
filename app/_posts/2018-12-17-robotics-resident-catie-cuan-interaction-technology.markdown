@@ -1,6 +1,6 @@
 ---
 title  : "Robotics Resident Catie Cuan &amp; Interaction Technology"
-tags   : output
+tags   : [output, liminal]
 redirect_from:
   - /blog/new-york-times-features-output/
   - /blog/concat-tool-feature-pbs/
