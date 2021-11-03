@@ -1,6 +1,5 @@
 ---
 title  : "Thoughtworks Arts at Ars Electronica Festival 2021: Co-creation Containers"
-image  : https://i.ytimg.com/vi/7t5vBMWMPpA/sddefault.jpg
 ---
 Ars Electronica's [A New Digital Deal 2021 Festival](https://ars.electronica.art/newdigitaldeal/en/theme/) brought together Thoughtworks Arts director Ellen Pearlman, [CounterPulse](https://www.counterpulse.org/) director Julie Phelps, and [Zero1](https://zero1.org/) director Shamsher Virk for [Co-creation Containers](https://ars.electronica.art/newdigitaldeal/en/co-creation-containers/) - a dynamic round-table discussion on building community by digital infrastructure. 
 
