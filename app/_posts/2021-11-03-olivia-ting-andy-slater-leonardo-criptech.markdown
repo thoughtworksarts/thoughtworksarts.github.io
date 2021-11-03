@@ -12,7 +12,7 @@ The residencies will take place during 2022 as part of the larger [Leonardo Crip
 
 <!--excerpt-ends-->
 
-Residency placements will take place via partnerships with aligned institutions including Thoughtworks; Santa Barbara Center for Art, Science and Technology; Berkeley Disability Lab; Arizona State University California Center in Los Angeles; and the Gray Area Foundation for the Arts.
+Residency placements will take place via partnerships with aligned institutions including Thoughtworks; Santa Barbara Center for Art, Science and Technology; UC Berkeley RadMad Disability Lab; Arizona State University California Center in Los Angeles; and the Gray Area Foundation for the Arts.
 
 Projects incubated within Thoughtworks Arts Residencies regularly engage global technology and art communities, as well as facilitated access to the expertise of Thoughtworks employees. The residency offers artist stipends, direction and logistical support from the Thoughtworks Arts team.
 
