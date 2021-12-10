@@ -1,5 +1,6 @@
 ---
 title       : RIOT
+type        : residency
 season      : Winter 2018
 
 description : An interactive film experience which positions viewers in a riot in progress. The narrative branches based on viwere's emotional facial expressions.

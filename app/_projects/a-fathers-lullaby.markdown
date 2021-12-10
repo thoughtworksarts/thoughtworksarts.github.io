@@ -1,5 +1,6 @@
 ---
 title       : A Father's Lullaby
+type        : residency
 season      : Summer 2019
 
 description : An interactive multi-channel video and sound installation highlighting the role of men in raising children and their absence due to the racial disparities in the criminal justice system.

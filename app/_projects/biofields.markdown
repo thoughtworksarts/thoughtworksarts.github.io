@@ -1,5 +1,6 @@
 ---
 title       : Biofields
+type        : residency
 season      : Winter 2017
 status      : in-progress
 

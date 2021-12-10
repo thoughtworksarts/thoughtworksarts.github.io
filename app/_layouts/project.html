@@ -3,13 +3,18 @@ layout    : default
 bodyid    : expo
 ---
 {% assign artist = page.artists | first %}
+{% if page.type == 'residency' %}
+  {% assign project-prefix = 'Residency Season' %}
+    {% else if page.type == 'affiliate' %}
+  {% assign project-prefix = 'Project' %}
+{% endif %}
 <section>
   <div class="content">
     <section class="left">
       <article role="article">
         <header>
           <h1>{{ page.title }}</h1>
-          <p class="when">Residency Season: {{ page.season }}</p>
+          <p class="when">{{ project-prefix }}: {{ page.season }}</p>
         </header>
         <section class="metainfo small">
           {% include expo/participants.html style='small' %}

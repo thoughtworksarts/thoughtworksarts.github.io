@@ -1,5 +1,6 @@
 ---
 title       : Salaf [Arabic&#58; سلف , ancestor]
+type        : residency
 season      : Summer 2020
 status      : in-progress
 

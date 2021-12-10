@@ -1,5 +1,6 @@
 ---
 title       : Perception iO
+type        : affiliate
 season      : Winter 2019
 
 description : An immersive interactive film project exploring AI, bias, neuroscience, behavioral psychology, film, social justice, and the future of law enforcement.

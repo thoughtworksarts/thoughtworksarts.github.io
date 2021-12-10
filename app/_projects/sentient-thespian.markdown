@@ -1,5 +1,6 @@
 ---
 title       : The Sentient Thespian
+type        : residency
 season      : Fall 2018
 
 description : A film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution, featuring the expressive, spider-like Mekamon robot.

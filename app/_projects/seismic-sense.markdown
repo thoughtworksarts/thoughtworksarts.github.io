@@ -1,5 +1,6 @@
 ---
 title       : Seismic Sense
+type        : residency
 season      : Summer 2016
 
 description : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.

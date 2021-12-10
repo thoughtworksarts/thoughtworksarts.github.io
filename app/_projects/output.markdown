@@ -1,5 +1,6 @@
 ---
 title       : OUTPUT
+type        : residency
 season      : Fall 2018
 
 description : A performance project including dance, motion capture and choreographed robots including a 15 foot industrial robot nicknamed _Wen_, as a method of sourcing movement and character.
