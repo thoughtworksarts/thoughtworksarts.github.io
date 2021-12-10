@@ -1,5 +1,5 @@
 ---
-title       : Salaf [Arabic&#58; سلف , ancestor] (2020)
+title       : Salaf [Arabic&#58; سلف , ancestor]
 season      : Summer 2020
 status      : in-progress
 
@@ -32,7 +32,7 @@ extended-team :
     link: https://www.linkedin.com/in/alwinaoyewoleturner
 
 ---
-_Salaf [Arabic: سلف , ancestor] (2020)_ is part of an ongoing exploration into constructing Nouf Aljowaysir's genealogical journey using two different voices: her own and an AI ‘narrator’.
+_Salaf [Arabic: سلف , ancestor]_ is part of an ongoing exploration into constructing Nouf Aljowaysir's genealogical journey using two different voices: her own and an AI ‘narrator’.
 
 {% include image file='styleGAN2.jpg'
    caption='A collection of images generated from training a generative adversarial network (StyleGAN2) on absent figures in a historical dataset' %}
