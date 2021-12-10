@@ -1,5 +1,5 @@
 ---
-title       : Salaf [Arabic&#58; سلف , ancestor]
+title       : "Salaf [Arabic: سلف , ancestor]"
 type        : residency
 season      : Summer 2020
 
