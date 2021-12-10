@@ -1,6 +1,6 @@
 ---
 title  : "Nouf Aljowaysir and James Coupe Awarded Synthetic Media Residency"
-tags   : salaf
+tags   : [salaf, birds-of-the-british-empire]
 ---
 We are pleased to announce that the [Simulacra & Similitude: Synthetic Media residency](/open-call/2020-synthetic-media/) has been jointly awarded to two artists, Nouf Aljowaysir and James Coupe. Due to COVID-19, these residencies have been restructured to take place fully online.
 

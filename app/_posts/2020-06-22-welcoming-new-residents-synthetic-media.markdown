@@ -1,6 +1,6 @@
 ---
 title  : "Welcoming Our New Residents to Thoughtworks Arts Residency"
-tags   : salaf
+tags   : [salaf, birds-of-the-british-empire]
 ---
 We are delighted to welcome our latest residents Nouf Aljowaysir and James Coupe to our [Synthetic Media Residency](https://thoughtworksarts.io/open-call/2020-synthetic-media/).
 

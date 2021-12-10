@@ -3,6 +3,7 @@ title  : "A Continuous Integration Toolkit for Artists"
 author : James Coupe
 image: birds-of-british-empire-thumb.jpg
 description : Continuous Integration (CI) is a software engineering practice in which developers merge their code several times a day on a shared server that continuously monitors changes to the code. CI automates repeated actions such as testing, packaging and deploying artifacts to various destinations.
+tags: birds-of-the-british-empire
 redirect_from:
   - /blog/james-coupe-continous-integration-art-toolkit/
   - /blog/james-coupe-continuous-integration-art-toolkit/
