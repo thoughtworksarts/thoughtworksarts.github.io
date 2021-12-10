@@ -2,7 +2,6 @@
 title       : Biofields
 type        : residency
 season      : Winter 2017
-status      : in-progress
 
 description : An open-source framework combining biosensors with custom volumetric and interval arithmetic simulations to interactively model the feeling of energy around the body.
 

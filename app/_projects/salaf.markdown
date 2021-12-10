@@ -2,7 +2,6 @@
 title       : Salaf [Arabic&#58; سلف , ancestor]
 type        : residency
 season      : Summer 2020
-status      : in-progress
 
 description : A collection of synthetically generated images and animations constructing Nouf Aljowaysir’s genealogical journey in the Middle East
 
