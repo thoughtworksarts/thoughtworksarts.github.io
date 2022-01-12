@@ -2,7 +2,7 @@
 name          : Julien Deswaef
 occupation    : Computational Artist
 participation : Team
-role          : European Operations
+role          : Curatorial Consultant
 teaser        :
    <p>Born in Brussels, Julien Deswaef is a software artist, experience designer and interface developer based in Barcelona. Active both in visual arts as well as in free / libre and open source culture, he has the ability to transform ideas into digital realities. He regularly collaborates with artists in the world of entertainment, music and fine arts. His art practice usually questions copyright, authorship and the impact of technology on our society through generative graphics and social media bots.</p>
 
