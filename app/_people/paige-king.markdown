@@ -2,9 +2,9 @@
 name          : Paige King
 occupation    : Artist
 participation : Team
-role          : Media Strategist
+role          : Communications Manager
 teaser        :
-   <p>Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige has helped organize public programming at Goldsmiths University in London, Pratt Institute in Brooklyn, CYFEST in New York, USA, St. Petersburg, Russia, and Venice, Italy, during the Venice Biennale.</p>
+   <p>Paige King is an artist based in Brooklyn, New York, and a Communications Manager working internationally with art and technology organizations. Paige has helped organize public programming at Goldsmiths University in London, Pratt Institute in Brooklyn, CYFEST in New York, USA, St. Petersburg, Russia, and Venice, Italy, during the Venice Biennale.</p>
 
 links:
  - icon    : "fa-globe-americas"
@@ -53,7 +53,7 @@ links:
    url     : ""
 
 ---
-Paige King is an artist based in Brooklyn, New York, and an exhibition and media strategist working internationally with art and technology organizations. Paige organizes project streams and exhibitions with Thoughtworks Arts and the Cyland Media Art Lab.
+Paige King is an artist based in Brooklyn, New York, and a Communications Manager working internationally with art and technology organizations. Paige organizes project streams and exhibitions with Thoughtworks Arts and the Cyland Media Art Lab.
 
 Paige’s projects include CYFEST12: ID at University Ca’Foscari during the 58th Venice Biennale and at Made in NY Media Center by IFP, Leonardo/The International Society for the Arts, Sciences and Technology (ISAST) 50th Anniversary Convening in San Fransisco, SHOWFIELDS X Future/Past, NY, From Non-Conformism to Feminisms: Russian Women Artists at the Museum of Russian Art in Minneapolis, RAW Pop-Up in Miami, The Creative Machine 2 at Goldsmiths University of London, CYFEST11-Digital Cloudiness in NY and St. Petersburg, Russia.
 
