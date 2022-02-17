@@ -28,7 +28,7 @@ CounterPulse’s upstairs studio and dedicated project space in the basement wer
 - **Gloria Damijan** (Vienna): extended toy pianos, percussion
 - **Scott L. Miller** (Minnesota): Kyma, electronics
 - **Luisa Muhr** (New York): voice
-- **Jon Raskin (NoCal)**: sax, concertina, electronics, recycled materials 
+- **Jon Raskin** (NoCal): sax, concertina, electronics, recycled materials 
 - With special guest: **Shinichi Iova-Koga**: dance
 
 To learn more about Dilate Ensemble, watch their [residency kickoff livestream as part of CounterPulse Festival](/blog/network-improvisation-projects-counterpulse-festival/) and read our [residency announcement article](/blog/h0t-club-dilate-ensemble-counterpulse-residencies/).
