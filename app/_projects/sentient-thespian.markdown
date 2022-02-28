@@ -45,4 +45,4 @@ psychotherapeutic tools.”
 
 “MekaMon, as Puck, attempts to create a transformative experience for the human and robots, only to realize that the synthetic emotion does not in the least resemble the parallel complex emotions of sentient beings like himself. It is a fascinating concept to explore and one that leapt directly from the advanced articulation of the robot itself.”
 
-*The Sentient Thespian* previews at Pioneer Works on Sunday, April 14 2019.
+*The Sentient Thespian* previewed at Pioneer Works in 2019, was a part of the exhibition [IN ABSENTIA - Digital pavilion](https://www.inabsentia.it/gallery_eng/the-sentient-thespian/) at The Wrong Biennale and featured in [FilmFreeway](https://filmfreeway.com/TheSentientThespian), [TechSpark](https://techspark.co/blog/2019/04/18/mekamon-takes-the-stage-with-thoughtworks-arts-collaboration/), and BUST magazine’s [Poptarts podcast](https://bust.com/entertainment/218-poptarts/198266-robotics-artist-adrianne-wortzel-bust-poptarts-podcast.html).

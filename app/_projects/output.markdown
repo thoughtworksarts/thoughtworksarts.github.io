@@ -50,9 +50,9 @@ To create this performance, Catie collaborated with Thoughtworks developers and 
 
 OUTPUT was [featured in the New York Times](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), on [PBS NewsHour](/blog/concat-tool-feature-pbs/) in a segment on the future of work, and in an [Engadget video feature and article on robotic choreography](https://www.engadget.com/2018/10/12/robot-choreography-catie-cuan/).
 
-The project was also demonstrated at the TED Education Weekend in October, 2018, and at Pioneer Works Second Sunday in April, 2019, and at the Dance USA Conference in June, 2019.
+The project was demonstrated at the TED Education Weekend in October, 2018, and exhibited at Pioneer Works Second Sunday in April, 2019, and at the Dance USA Conference in June, 2019.
 
 {% include image file='concat.jpg'
    caption='CONCAT during a public showcase at Pioneer Works' %}
 
-An academic paper describing the work and its implications [was published](http://aisb2019.machinemovementlab.net/MTSB2019_Cuan_Pearlman_McWilliams.pdf) in the _Movement that Shapes Behaviour_ symposium at the 2019 Artificial Intelligence and Simulation Behaviour Convention, titled _“OUTPUT: Translating Robot and Human Movers Across Platforms in a Sequentially Improvised Performance”_.
+An academic paper describing the work and its implications [was published](http://aisb2019.machinemovementlab.net/MTSB2019_Cuan_Pearlman_McWilliams.pdf) in the _Movement that Shapes Behaviour_ symposium at the 2019 Artificial Intelligence and Simulation Behaviour Convention, titled _“OUTPUT: Translating Robot and Human Movers Across Platforms in a Sequentially Improvised Performance”_. The piece is written up in [Frontiers in Robotics and AI](https://www.frontiersin.org/articles/10.3389/frobt.2020.576790/full).
