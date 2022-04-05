@@ -17,21 +17,23 @@ description: Subscribe to the Thoughtworks Arts newsletter to keep up to date wi
 		</header>
 
 		{% for newsletter in paginator.posts %}
-		<article role="article">
-			<header>
-				<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
-				{% include news/newsletter-date.html %}
-			</header>
-			<div class="text">
-				{{ newsletter.excerpt }}
-			</div>
-			<div class="progress continue-reading">
-				<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
-			</div>
-		</article>
-		<section class="subscribe-box text">
-			{% include news/subscribe-newsletter.html label='Get these newsletters in your inbox:' %}
-		</section>
+			<article role="article">
+				<header>
+					<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
+					{% include news/newsletter-date.html %}
+				</header>
+				<div class="text">
+					{{ newsletter.excerpt }}
+				</div>
+				<div class="progress continue-reading">
+					<a href="{{ newsletter.url }}" class="blog forwards">Continue reading</a>
+				</div>
+			</article>
+			{% if forloop.index == 1 %}
+				<section class="subscribe-box text">
+					{% include news/subscribe-newsletter.html label='Get these newsletters in your inbox:' %}
+				</section>
+			{% endif %}
 		{% endfor %}
 		{% include news/pagination.html folder='newsletters' %}
 	</div>
