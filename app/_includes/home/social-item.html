@@ -2,12 +2,12 @@
 	<li class="crt-post">
 		<a href="<%=url%>">
 			<section class="meta">
-				<img class="icon social-author-icon" src="/images/logos/v2/thoughtworks-arts-social.png" alt="Profile image for <%=user_full_name%>" />
+				<img class="icon social-author-icon" src="/images/logos/v2/thoughtworks-arts-social.png" role="presentation" />
 				<div class="name-date">
 					<span class="author-handle">@<%=user_screen_name%></span>
 					<span class="when-posted">Posted <%=this.prettyDate(source_created_at)%></span>
 				</div>
-				<img class="icon social-network-icon" src="/images/logos/<%=this.networkIcon()%>.png" />
+				<img class="icon social-network-icon" src="/images/logos/<%=this.networkIcon()%>.png" role="presentation" />
 			</section>
 			<figure>
 				<img class="social-preview" src="<%=image%>" alt="Image posted by <%=user_screen_name%> to <%=this.networkName()%>" />
