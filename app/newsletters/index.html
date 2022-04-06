@@ -31,7 +31,7 @@ description: Subscribe to the Thoughtworks Arts newsletter to keep up to date wi
 			</article>
 			{% if forloop.index == 1 %}
 				<section class="subscribe-box text">
-					{% include news/subscribe-newsletter.html label='Get these newsletters in your inbox:' %}
+					{% include news/subscribe-newsletter.html id='newsletter-subscribe-listing' text='Get these newsletters by email:' %}
 				</section>
 			{% endif %}
 		{% endfor %}
