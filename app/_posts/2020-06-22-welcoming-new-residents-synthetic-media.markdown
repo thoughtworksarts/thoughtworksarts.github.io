@@ -5,6 +5,7 @@ tags   : [salaf, birds-of-the-british-empire]
 We are delighted to welcome our latest residents Nouf Aljowaysir and James Coupe to our [Synthetic Media Residency](https://thoughtworksarts.io/open-call/2020-synthetic-media/).
 
 {% include image file='nouf-aljowaysir-james-coupe.jpg'
+   alt='Nouf Aljowaysir and James Coupe'
    class='no-border' %}
 
 The two artists join us for the summer 2020 season, where because of COVID-19 they will work remotely on simultaneous projects from their respective studios in Brooklyn and Seattle.
@@ -17,6 +18,7 @@ Nouf and James’ innovative art practices possess different approaches to criti
 Nouf is a [Saudi-born, New York-based artist](http://www.noufaljowaysir.com/), and is a lead researcher and developer in creative applications of AI at creative agency Havas. Her work has focused on creative and technical innovation such as the use of [machine learning style transfer](http://www.noufaljowaysir.com/adp) techniques for brand-building, and critiquing complex interweaving of [perceptions and perception management around voice conversational technologies](http://www.noufaljowaysir.com/alexa-call-mom).
 
 {% include image file='alexa-call-mom.jpg'
+   alt='A blue lit scene including a calendar, lights, a table and a chair'
    caption='Installation shot of *Alexa: Call Mom!*' %}
 
 Nouf plans to develop a project at Thoughtworks which seeks to understand cultural transmission of ideas and worldviews across human generations, using her own family and upbringing in the Middle East as a reference point. Nouf is tracing a line which formed the context around her family’s story, through restrictive implementations of puritanical Wahhabism, waves of immigration, classic Egyptian cinema of the 1940s and Saudi attitudes of identity in contemporary times.

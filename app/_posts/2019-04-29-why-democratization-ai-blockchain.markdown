@@ -5,6 +5,7 @@ author : Directors
 Thoughtworks Arts has [published an open call](/open-call/2019-democratization-ai-blockchain/) for artists to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
 
 {% include image file='closing.jpg'
+   alt='Stark silhouette of gates closing'
    caption='Image by [Radek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)' %}
 
 A key theme in the open call is for an artist to explore how this control of AI could impact society, and the potential impacts of alternative and open approaches.
@@ -45,6 +46,7 @@ Whether in public using open source environments or behind closed corporate door
 As researchers like Ray Kurzweil have warned, this path leads towards the [technological singularity](https://en.wikipedia.org/wiki/Technological_singularity), beyond which humans will struggle to keep up with the [exponentially-advancing capabilities](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution.html) of AI.
 
 {% include image file='exponential.jpg'
+   alt='A graph showing the exponential growth of computing power from 1900 to 2100'
    caption='Image courtesy of <a href="https://commons.wikimedia.org/wiki/File:PPTExponentialGrowthof_Computing.jpg">Ray Kurzweil</a>' %}
 
 Therefore the societal developments underpinning the development of AI today stand to have huge potential impacts on  both general AIs, and the nature of AI post-singularity. Will AI be benevolent or harmful? Will it be controlled? Will it be accessible?

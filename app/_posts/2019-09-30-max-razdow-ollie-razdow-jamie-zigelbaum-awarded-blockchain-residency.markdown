@@ -4,6 +4,7 @@ title : "Max Razdow, Ollie Razdow, and Jamie Zigelbaum Awarded Blockchain AI Res
 The new Thoughtworks Arts [residency in San Francisco](/open-call/2019-democratization-ai-blockchain/) has been awarded to a team of three artists working across media with a focus on remote collaboration and distributed storytelling.
 
 {% include image file='all-possible-pathways.jpg'
+   alt='Portraits of three artists side by side'
    caption='Artists Max Razdow, Jamie Zigelbaum, and Ollie Razdow' %}
 
 The team's project was proposed in response to an Open Call by Thoughtworks Arts for artists to explore [the democratization of AI via blockchain](blog/why-democratization-ai-blockchain/).

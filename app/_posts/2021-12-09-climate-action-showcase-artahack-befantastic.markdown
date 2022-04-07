@@ -4,6 +4,7 @@ title  : "Climate Action Projects Showcase: Art-A-Hack and BeFantastic 2021"
 Throughout the summer and fall of 2021, a diverse international cohort of artists, designers, technologists and makers created innovative artworks responding to the global climate emergency.
 
 {% include image file='art-a-hack-be-fantastic-montage.jpg'
+   alt='A montage showing AI-generated scenes for each of the projects'
    caption='An AI-generated visual montage representing artworks and themes explored within the program' %}
 
 Participants from Singapore, Switzerland, India and South Asia, Germany, and the United States were incubated by technology and art mentors, including ThoughtWorks Arts directors Andy McWilliams and Ellen Pearlman in partnership with BeFantastic (India/Singapore), Art-A-Hack and Thoughtworks Arts.

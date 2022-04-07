@@ -11,6 +11,7 @@ Dilate Ensemble became a creative collective at the start of the pandemic out of
 The performance is a non-looping visual and densely textured sound experience -- where performers and audience members explore livestreams from two completely different physical spaces inside CounterPulse's Tenderloin building in San Francisco.
 
 {% include image file='catena-still-1.jpg'
+   alt='Shinichi Iova-Koga dancing in prep for the performance'
    caption='A still from *CATENA* with dancer Shinichi Iova-Koga, photo by Robbie Sweeny' %}
 
 Because of the pandemic some of the sound and movement performances took place remotely, seamlessly mixed live time creating a specialized environment. *CATENA* explored what the imprint of a physical space and the bodies within can be.
@@ -18,6 +19,7 @@ Because of the pandemic some of the sound and movement performances took place r
 Dilate Ensemble built a customized network during their 16-week residency. This network linked different locations within the CounterPulse building, sending their feeds to electronic musician Scott Miller, remotely based in Minnesota. Sonic variables such as amplitude, frequency, physical characteristics of the room, speaker placement or microphones impacted simple behaviors producing complex layered outcomes.
 
 {% include image file='catena-still-2.jpg'
+   alt='A grayscale video still with a silhouette of a human torso with waving digital lines overlaid'
    caption='A still from the *CATENA* online experience' %}
 
 CounterPulse’s upstairs studio and dedicated project space in the basement were animated by the audio-reactive video projection installations of Carole Kim. For this event, Dilate Ensemble was also joined by special guest dancer and choreographer Shinichi Iova-Koga.

@@ -4,6 +4,7 @@ title  : "“h0t club” & Dilate Ensemble Awarded Network Residencies"
 We are pleased to announce that the [Improvising the Net(Work) Residency](https://thoughtworksarts.io/open-call/2021-improvising-the-network/) has been jointly awarded to two creative collectives, h0t club and Dilate Ensemble.
 
 {% include image file='h0t-club-dilate-ensemble.jpg'
+   alt='Logos for two artist collectives: h0t club and Dilate Ensemble'
    class='no-border' %}
 
 The two collectives will be in residence at Thoughtworks San Francisco and CounterPulse, a leading performing arts incubator. Both venues are based in downtown San Francisco.
@@ -18,6 +19,7 @@ _h0t club_ is a [psychedelic consumer-driven company](/bio/h0t-club/) of artist 
 [Kate Bergstrom](/bio/kate-bergstrom/), [Martim Galvão](/bio/martim-s-galvao/) and [Miller Puckette](/bio/miller-puckette/) will work with developers at Thoughtworks and the community of CounterPulse in San Francisco to develop and extend their performance work exploring entanglements with surveillance, systems infrastructures and the web.
 
 {% include image file='hot-club.jpg'
+   alt='Three icons showing artists Kate Bergstrom, Martim Galvão and Miller Puckette'
    caption='Kate Bergstrom, Martim S. Galvão and Miller Puckette'
    class='no-border' %}
 
@@ -32,6 +34,7 @@ _h0t club_ has been featured at Ars Nova, Culture Project NYC, Granoff Center fo
 Dilate Ensemble is an [audio-visual collective](https://www.dilateensemble.com/) featuring multimedia installation artist [Carole Kim](/bio/carole-kim/) and musicians [Gloria Damijan](/bio/gloria-damijan/), [Scott L. Miller](/bio/scott-miller/), [Luisa Muhr](/bio/luisa-muhr/) and [Jon Raskin](/bio/jon-raskin/).
 
 {% include image file='dilate-ensemble.jpg'
+   alt='Five icons showing artists Gloria Damijan, Carole Kim, Scott L. Miller, Luisa Muhrand and Jon Raskin'
    caption='Gloria Damijan, Carole Kim, Scott L. Miller, Luisa Muhrand and Jon Raskin'
    class='no-border' %}
 

@@ -7,6 +7,7 @@ tags      : riot
 Many of us are familiar with the idea that Artificial Intelligence systems are regularly making benign decisions, like recommendations on Netflix or Amazon. What about decisions that have a significant impact on someone's life though?
 
 {% include image file='criminal-justice-1.jpg'
+   alt='A stylized gavel overlaid with a pattern of straight blkue lines and white flecks'
    alt='How Artificial Intelligence is Transforming the Criminal Justice System' %}
 
 Should AI systems be used in life-changing situations, like criminal sentencing?
@@ -28,6 +29,7 @@ How has the introduction of AI impacted this process? To understand this, first 
 Imagine that you have been arrested and that you are suspected of being involved in an armed robbery. You are innocent, but you bear a resemblance to the suspect, live in the area, and your car matches witness descriptions of a vehicle involved.
 
 {% include image file='criminal-justice-2.jpg'
+   alt='A shattered car window at night'
    caption='Photo: [Miss Nixie](https://www.flickr.com/photos/nixiepixel/5590738640/)' %}
 
 After arrest and booking, you'll appear in front of a judge who will determine the conditions of your bail. Traditionally, the judge might consider relevant information such as whether or not you're believed to be a flight risk, and the severity and nature of the crime. However, human aspects come into play as well. If it's early in the morning, or after a scheduled break, [the judge may be more lenient](https://www.scientificamerican.com/article/lunchtime-leniency/) towards you.
@@ -57,6 +59,7 @@ This is not an intended outcome of AI, but rather an inherent, immovable feature
 It can be argued that over time, as the accuracy of the AI increases, it may minimize the bias to such a degree that it is statistically insignificant. However, there are a number of complications to that argument. First, this is not something which is easy to measure, and systemic bias [has been observed](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) and studied in existing AI systems in practice.
 
 {% include image file='criminal-justice-3.jpg'
+   alt='An interior of an incarceration facility'
    caption='Photo: [Falkenpost](https://pixabay.com/p-1652896/)' %}
 
 Further, the companies who make AI systems for criminal justice are profit-making, and regard their algorithms as trade secrets. People outside the companies are generally unable to review the code.

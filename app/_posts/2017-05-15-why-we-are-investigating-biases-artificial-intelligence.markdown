@@ -7,6 +7,7 @@ tags      : riot
 Thoughtworks Arts has an [open call out now](https://thoughtworksarts.io/open-call/2017-implications-of-ai/) for artists and technologists investigating the implications of Artificial Intelligence for society today.
 
 {% include image file='message.jpg'
+   alt='A man walks by a wall patterned with lots of tiny black dots'
    caption='Image by [Roger Marks](https://www.flickr.com/photos/rpmarks/32144425053/)' %}
 
 AI has incredible potential to automate all kinds of decision-making, and revolutionize industries. However, because of the way in which AI systems are trained, they can also automate and amplify human biases in ways their designers do not intend.

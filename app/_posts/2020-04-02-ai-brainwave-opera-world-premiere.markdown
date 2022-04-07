@@ -4,6 +4,7 @@ title  : "A.I. Brainwave Opera Has World Premiere at the Estonian Academy of Mus
 Ellen Pearlman's new "emotionally intelligent artificially intelligent" brainwave opera _AIBO_ had its world premiere on February 22nd at the Estonian Academy of Music's [state of the art Black Box Theater](https://estonianworld.com/culture/the-estonian-academy-of-music-and-theatre-opens-a-new-concert-and-performance-centre/) in Tallinn.
 
 {% include image file='brain-opera-1.jpg'
+   alt='A performer stands in a suit of light in a room with artist Ellen Pearlman and audience members'
    caption='Sniedze Strauta performing at the premiere wearing a bodysuit of light. AIBO’s emotion of frustration (red) is in the background (photo by Taavet Jansen)' %}
 
 The opera investigates Artificial Intelligence and its effects on both fascism and love. In the performance viewers take part in an interaction between Eva, played by actor Sniedze Strauta, and AIBO, a ‘sicko’ AI. Eva is wearing an [Emotiv EEG brainwave headset](https://www.emotiv.com/) connected to a bodysuit of light, designed by smart textiles designer Dila Demir.
@@ -25,6 +26,7 @@ AIBO's response is projected as text on the same screen as Eva’s text, so the 
 Further, Pearlman explains that "AIBO attempts to emulate Eva's projected visual memories to make them it's own. It wants to become human, not 'sicko', but can only create broken video simulations. This allows viewers a glimpse into fractured memories."
 
 {% include image file='brain-opera-2.jpg'
+   alt='A pixelated image which looks like a half-formed skull with a snake wrapped around it'
    caption='AIBO trying to reconstruct a visual memory experienced by Eva, based on the brainwave emotion of frustration (photo by Taavet Jansen)' %}
 
 Strauta, performing the character of Eva, continually interacts with audience members. This sets up a live-time feedback loop between Eva's speech, Strauta's emotions as analyzed by the brain-computer interface and represented as colors on the body suit, the audience, and the visual and sonic environment.
@@ -48,6 +50,7 @@ Technical director Hans Gunter Lock worked with Pearlman developing, among a num
 Rehearsals and specialized training were conducted with Strauta, including training in contact improvisation. Pearlman then worked with Heng, based in Singapore, Sonmo, based in Thailand and Zhou based in Texas to develop and test the GPT-2 database that formed the backbone of the AIBO character. 
 
 {% include image file='brain-opera-3.jpg'
+   alt='Eleven people posing in a performance studio with the lights up'
    caption='A post-performance group shot at the Estonian Academy of Music' %}
 
 The post-performance photograph shows some of the team along with collaborators and audience members. From left to right: Sniedze Strauta, Mauri Kaipainen, Ellen Pearlman, Gerhard Lock, Hans Gunter Lock, Julie Yaunches, Rūta Kruliauskaitė, Andrew McWilliams, Pia Tikka, Tavet Jansen and Dila Demir.

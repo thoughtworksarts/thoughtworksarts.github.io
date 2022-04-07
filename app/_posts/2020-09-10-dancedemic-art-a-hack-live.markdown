@@ -15,6 +15,7 @@ Behind each dancer’s performance was the work of a team of international creat
 The dancers wore open source EmotiBit body-worn sensor devices creating a live data feed for teams to work with.
 
 {% include image file='elektron-razvan-stoian.jpg'
+   alt='A screen shot with Razvan\'s augmented performance on one side and a grid of virtual audience members on the other'
    caption='Razvan Stoian performing on eˉlektron’s streaming platform' %}
 
 During these six weeks the teams worked under isolation and lockdown, and investigated how those unique conditions reframed issues around immigration and migration, and used those findings as a main theme in the performances.
@@ -25,6 +26,7 @@ The live performances used EmotiBits to measure the biometrics of the dancers, w
 Though united in theme, stream, and dance, the presentations were vastly different. Team Razvan highlighted the contrast between inner and outer emotional states, focusing on the shifting structure of linguistic meaning between Stoian’s native Romanian and adopted English.
 
 {% include image file='emotibit-hussein-smko.jpg'
+   alt='Hussein Smko dancing on a rooftop, and (inset) a picture of a person wearing a biometric device'
    class='no-border'
    caption='Hussein Smko with an EmotiBit biometric device' %}
 

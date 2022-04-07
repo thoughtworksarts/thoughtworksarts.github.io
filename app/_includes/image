@@ -22,18 +22,19 @@
 {% capture image  %}{{ imagepath | append: include.file  }}{% endcapture %}
 {% capture image2 %}{{ imagepath | append: include.file2 }}{% endcapture %}
 
-{% if include.alt.size > 0 %}
-	{% capture alttext %}{{ include.alt }}{% endcapture %}
-{% elsif include.caption.size > 0 %}
-	{% capture alttext %}{{ include.caption }}{% endcapture %}
-{% endif %}
-
-{% capture alttext %} alt="{{
-	alttext |
+{% capture alttext %}{{
+	include.alt |
 	markdownify |
 	strip_html |
 	strip_newlines
-}}"{% endcapture %}
+}}{% endcapture %}
+
+{% capture alttext2 %}{{
+	include.alt2 |
+	markdownify |
+	strip_html |
+	strip_newlines
+}}{% endcapture %}
 
 {% capture captiontext %}{{
 	include.caption |
@@ -52,9 +53,9 @@
 	<a href="{{ include.link }}">
 	{% endif %}
 
-		<img src="{{ image }}"{{ alttext }} />
+		<img src="{{ image }}" alt="{{ alttext }}" />
 		{% if include.file2.size > 0 %}
-			<img src="{{ image2 }}"{{ alttext }} />
+			<img src="{{ image2 }}" alt="{{ alttext2 }}" />
 		{% endif %}
 
 	{% if include.link.size > 0 %}
@@ -70,5 +71,6 @@
 {% capture image  %}{% endcapture %}
 {% capture image2 %}{% endcapture %}
 {% capture alttext %}{% endcapture %}
+{% capture alttext2 %}{% endcapture %}
 {% capture captiontext %}{% endcapture %}
 {% capture figureclass %}{% endcapture %}

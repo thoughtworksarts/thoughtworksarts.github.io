@@ -12,7 +12,7 @@ During my [Synthetic Media residency](/blog/welcoming-new-residents-synthetic-me
 
 {% include image file='birds-of-british-empire.jpg'
    class='no-border'
-   alt='Preliminary experiments from Birds of the British Empire' %}
+   alt='Three images of birds created as preliminary experiments, each bird with two heads' %}
 > The museum is… not so much the space for the representation of art history as a machine to produce and stage the new art of today—in other words, to produce "today” as such. In this sense, the museum produces, for the first time, the effect of presence, of looking alive.<br><span class='quotee'>— Boris Groys, On The New</span>
 
 Working with Thoughtworks developers we used [Continuous Integration (CI)](https://en.wikipedia.org/wiki/Continuous_integration) techniques to link together and automate our codebases, so that when for example I make changes to one Machine Learning algorithm the whole system can run end-to-end and generate new results.
@@ -52,6 +52,7 @@ Although *Birds of the British Empire* is still in development, for this blog po
 In our demo we have a project that takes online images of protest banners and uses a machine learning algorithm to isolate what is written on them, converting them into machine-readable text. In the gallery there would be an LED message board that receives this text and displays it.
 
 {% include image file='workflow.png'
+   alt='A workflow diagram showing how input URLs end up as outputs to a gallery'
    class='no-border' alt='A workflow diagram' %}
 
 The workflow involves:

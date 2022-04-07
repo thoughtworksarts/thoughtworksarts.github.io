@@ -28,6 +28,7 @@ Technological innovation by artists is nothing new. Artists frequently engage wi
 At the height of the European Renaissance period in the 15th Century, artists like Antonio Pollaiuolo, Leonardo Da Vinci and Michelangelo [developed a ground-breaking mastery](https://www.smithsonianmag.com/science-nature/the-anatomy-of-renaissance-art-36887285/) of the human form.
 
 {% include image file='michelangelo.jpg'
+   alt='Detailed sketches of a human torso, digits and faces'
    caption='Studies for the Libyan Sibyl, Michelangelo, 1510–11' %}
 
 These artists performed rigorous analytical study, working with physicians and even dissecting corpses themselves. Their investigations [surpassed much of the knowledge](https://www.metmuseum.org/toah/hd/anat/hd_anat.htm) of anatomy taught in universities at the time, and merged anatomical with architectural concepts &mdash; such as plan, section, elevation, and perspective &mdash; producing a new vocabulary for scientific illustration.
@@ -41,6 +42,7 @@ At Thoughtworks, we seek out and collaborate with artists engaging with technolo
 In 2016, Thoughtworks collaborated with the Cyborg Foundation to develop new prototypical human 'senses.' Artists [Neil Harbisson and Moon Ribas](https://thoughtworksarts.io/blog/introducing-cyborg-foundation/) believe human psychology can be 'reshaped' via newly designed sensory organs — permanently integrated electronic sensors in the body.
 
 {% include image file='neil-harbisson.jpg'
+   alt='An engineer fixes a headband to artist Neil Harbisson\s head'
    caption='Cyborg artist Neil Harbisson working with engineer Oryan Inbar' %}
 
 This means that web data feeds can become first-tier physical senses, seamlessly integrated into our experience just like sight, touch and smell.
@@ -52,6 +54,7 @@ Cyborg Foundation artists have experimented with these ideas, creating and integ
 Neil Harbisson created a 'time sense', which can be [felt as heat sensations](https://thoughtworksarts.io/projects/time-sense/) around the circumference of his head. Moon Ribas created a 'seismic sense', allowing her to [feel earthquakes as vibrations](https://thoughtworksarts.io/projects/seismic-sense/) on her legs.
 
 {% include image file='moon-ribas.jpg'
+   alt='Moon Ribas speaking in front of a sign that says "Cyborg Art"'
    caption='Cyborg artist Moon Ribas speaking at a Thoughtworks event' %}
 
 After their time with Thoughtworks, the Cyborg Foundation founded the [Trans-Species Society](https://www.transpeciessociety.com/) to connect with others interested in designing new sensory organs and new forms of human experience. Given the current rate of technological and medical progress, and projecting forwards the standard human social pressures to improve and get ahead, this potential future may not be so far-fetched.
@@ -67,6 +70,7 @@ Her project *RIOT* is a film in which [viewers' emotional expressions drive the 
 Thoughtworks developers worked with Karen to create and open source a new facial expression recognition system named [EmoPy](https://github.com/thoughtworksarts/EmoPy). This system estimates human emotion by assessing images of human facial expressions, via machine learning.
 
 {% include image file='karen-palmer.jpg'
+   alt='A woman points to a projection screen listing emotions next to numerical values'
    caption='Artist Karen Palmer demonstrating detected facial expression readings' %}
 
 While developing the project, we explored the features, implications and emerging technological possibilities in AI. We drew out risks and opportunities inherent to automated decision-making systems, in the present as well as in the near future.
@@ -78,6 +82,7 @@ Further, inherent [human bias embedded in the datasets](https://www.propublica.o
 Unmitigated, this risk could encourage false confidence in inaccurate decisions.
 
 {% include image file='developers.jpg'
+   alt='Women stand around a whiteboard with references to neural nets on it'
    caption='Thoughtworks developers Angelica Perez and Sofia Tania with artist Karen Palmer' %}
 
 By including affected communities in the development process, a more granular understanding of the system's capabilities and characteristics can be encouraged. This can not only alter the decisions made by the neural net itself, but can also improve decision-making by humans downstream, because of their improved awareness of what the system's outputs really mean.
@@ -94,6 +99,7 @@ Each art project we work on is multi-layered and complex, revealing a web of pot
 
 To put our exploration of these complex issues into practice, we created three programs under the banner of *Thoughtworks Arts*. This includes the [Thoughtworks Arts Residency](https://thoughtworksarts.io/), [Art-A-Hack](https://artahack.io/) and the [Hardware Hack Lab](https://hardwarehacklab.io/).
 
-{% include image file='thoughtworks-arts.jpg' %}
+{% include image file='thoughtworks-arts.jpg'
+   alt='Logos for Thoughtworks Art and subprograms Hardware Hack Lab, Art-A-Hack and Arts Residency' %}
 
 The [next article in this series](https://thoughtworksarts.io/blog/how-art-programs-drive-innovation-thoughtworks/) explores the structure of these programs, how they each attract different communities, and how they reinforce each other. It explains how the artists we collaborate with produce valuable critiques and new vantage points in art, social practice and technology. It then illustrates further examples of how these projects engage our employees and produce valuable insights that we bring to our clients.

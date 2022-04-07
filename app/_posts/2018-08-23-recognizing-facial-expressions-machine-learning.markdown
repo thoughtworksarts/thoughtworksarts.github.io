@@ -6,6 +6,7 @@ tags   : [riot, perception-io]
 Machine learning systems can be trained to recognize emotional expressions from images of human faces, with a high degree of accuracy in many cases.
 
 {% include image file='tsukiko-kiyomidzu.jpg'
+   alt='A colorful painterly expression of a human face'
    caption='Image by <a href="https://pixabay.com/en/man-people-girl-woman-women-girls-2013447/">Tsukiko Kiyomidzu</a>' %}
 
 However, implementation can be a complex and difficult task. The technology is at a relatively early stage. High quality datasets can be hard to find. And there are various pitfalls to avoid when designing new systems.
@@ -21,6 +22,7 @@ The information presented in this article is based on a mixture of project exper
 As the lead developer on that project, I worked with a team to help Karen to create a new version of her [emotionally responsive film experience, RIOT](https://thoughtworksarts.io/projects/riot/). We built EmoPy from the ground up to handle the emotion recognition requirements [of the RIOT system](https://github.com/thoughtworksarts/riot).
 
 {% include image file='karen-palmer.jpg'
+   alt='Karen Palmer pointing at a projection screen with lists of human emotions against numerical values'
    caption='Karen Palmer using the EmoPy toolkit in her artwork' %}
 
 EmoPy is published as an open source project, helping to increase public access to a technology which is often locked behind closed doors. In [this follow-up article](/blog/emopy-emotional-expression-toolkit) I explain more about the creation of the EmoPy toolkit, and explain why and how you might use it in your own projects.
@@ -48,6 +50,7 @@ These emotion classifications are illustrated in the image below, showing repres
 Classifying an image based on it's depiction can be a complicated task for machines. It is straightforward for humans to look at an image of a bicycle and know that it is a bicycle, or to look at a person's face and know that they are smiling and happy.
 
 {% include image file='labeled-images.jpg' class='no-border'
+   alt='Eight greyscale human faces in a grid, labelled with text descriptions of emotional states'
    caption='A selection of labeled images for expression analysis' %}
 
 When computers look at an image, what they 'see' is simply a matrix of pixel values. In order to classify an image, the computer has to discover and classify numerical patterns within the image matrix.
@@ -63,6 +66,7 @@ For example, higher accuracy can be achieved when classifying a smaller subset o
 Like most image classification systems, FER systems typically use _image preprocessing_ and _feature extraction_ followed by training on selected _training architectures_. The end result of training is the generation of a _model_ capable of assigning emotion categories to newly provided image examples.
 
 {% include image file='diagram.png' class='no-border'
+   alt='Diagram showing system architecture'
    caption='Commonly used FER system architectures' %}
 
 The _image preprocessing_ stage can include image transformations such as scaling, cropping, or filtering images. It is often used to accentuate relevant image information, like cropping an image to remove a background. It can also be used to augment a dataset, for example to generate multiple versions from an original image with varying cropping or transformations applied.
@@ -109,6 +113,7 @@ As described above, FER models must be trained on a set of labeled images before
 Making a decision on which dataset to train the network on is no easy task, particularly because high quality FER datasets are hard to find. Few such datasets are publicly available, and those that are come with idiosyncrasies which must be understood and taken into account.
 
 {% include image file='cohn-kanade.png'
+   alt='Five grayscale faces in a row, gradating between neutral and smiling facial expressions'
    caption='Images from the Cohn-Kanade dataset (described below)' %}
 
 The most crucial points to consider when making a dataset selection are the _size_ and _quality_ of the set. The size is arguably the most important, and also the simplest to explain. Ideally a dataset should contain thousands, or preferably millions of images.

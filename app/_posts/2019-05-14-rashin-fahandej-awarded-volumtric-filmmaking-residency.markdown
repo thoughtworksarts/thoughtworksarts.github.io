@@ -5,6 +5,7 @@ tags   : a-fathers-lullaby
 Thoughtworks Arts Residency, in conjunction with [Scatter](http://scatter.nyc), is pleased to announce that Rashin Fahandej as been awarded our [Volumetric Filmmaking Residency](https://thoughtworksarts.io/open-call/2019-volumetric-residency/) to expand her project _A Father's Lullaby_.
 
 {% include image file='rashin-fahandej.jpg'
+   alt='Rashin Fahandej'
    caption='Rashin Fahandej standing in front of _A Father\'s Lullaby_' %}
 
 _A Father's Lullaby_ is a multi-platform, community engaged interactive work that highlights the role of men in raising children and their absence due to the racial disparities in the criminal justice system with its direct impact on children, women and lower income communities.

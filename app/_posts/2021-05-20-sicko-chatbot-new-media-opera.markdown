@@ -6,7 +6,7 @@ description : AIBO is an emotionally intelligent artificial intelligent brainwav
 AIBO (Artificial Intelligent Brainwave Opera) is an emotionally intelligent artificial intelligent brainwave opera. The performance piece follows two characters, Eva, a human performer wearing a bodysuit of light and AIBO, a “sicko” chatbot powered by a [GPT-2](https://openai.com/blog/better-language-models/) AI.
 
 {% include image file='brainwave-emotions.jpg'
-   alt='Eva’s brainwaves trigger colored “emotional” responses'
+   alt='A performer wearing a suit of lights and a brainwave interface triggers colored “emotional” responses on the suit'
    caption='Eva’s brainwaves trigger colored “emotional” responses of  lights on her smart textile bodysuit, as well as emotionally themed sound and videos. Photo by Taavet Jansen' %}
 
 The opera’s spoken word libretto is adapted from the biography of Eva von Braun about her fourteen-year love affair with Adolf Hitler. It is a metaphor for humanity’s infatuations with AI.
@@ -79,6 +79,7 @@ The figure below illustrates a concrete example of how this conditioning works u
 
 
 {% include image file='bot-interactions.png'
+   alt='Text showing EVA\'s workflow in developing responses'
    caption='Initial overview of how to condition the GPT-2 model to achieve a chatbot-like behavior' %}
 
 Simple text cleaning including whitespace and symbol removal was done, and the first sentence of each output was then selected. Kaggle notebooks [were used](https://www.kaggle.com/code) to train the AIBO GPT-2 machine learning model, as they provided GPUs with limited weekly run-time and execute files that run code sequentially. Google Cloud was used for the final live-time deployment during the actual performance of the opera.

@@ -8,6 +8,7 @@ redirect_from:
 Over the summer Thoughtworks Arts collaborated with dancer and roboticist Catie Cuan, exploring new modes of human-robot interaction.
 
 {% include image file='catie-crr.jpg'
+   alt='A woman directs an industrial robot arm which is larger than her'
    caption='Catie working on-site with the industrial robot arm' %}
 
 
@@ -18,6 +19,7 @@ Thoughtworks developers created a 3D visualization toolkit, enabling Catie to re
 The software, named [CONCAT](https://github.com/thoughtworksarts/concat/), was created by Thoughtworks software developers [Andrew McWilliams](/bio/andrew-mcwilliams), [Andrea Allen](/bio/andrea-allen/) and [Felix Changoo](/bio/felix-changoo/).
 
 {% include image file='felix-andy.jpg'
+   alt='Engineers working in a robotics lab'
    caption='Thoughtworks developers Felix Changoo and Andrea Allen' %}
 
 The tool renders carefully choreographed sequences designed for a 15 foot "ABB IRB 6700" robot at the [Consortium for Research and Robotics](http://consortiumrr.com) in the Brooklyn Navy Yard. It allows Catie to design and rehearse her movements both on and off-site with large industrial robots.
@@ -32,6 +34,7 @@ Catie’s work recieved considerable media interest due to the increasing import
 In addition to rendering robotic movements, CONCAT uses a [Kinect depth sensor](https://developer.microsoft.com/en-us/windows/kinect) to monitor Catie's movements in real-time, generating a 3D representation on screen alongside the virtual robot arm.
 
 {% include image file='concat.jpg'
+   alt='A 3D visualization of a robot arm alonbgside an actual robot arm'
    caption='The CONCAT software alongside the ABB robot' %}
 
 The software behind the project was written in [openFrameworks](http://openframeworks.cc), a C++ creative coding platform useful for creating fast prototypes incorporating hardware interfaces and computer graphics.

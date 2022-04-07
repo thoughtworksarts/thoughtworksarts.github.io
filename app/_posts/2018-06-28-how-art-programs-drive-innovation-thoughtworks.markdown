@@ -7,6 +7,7 @@ tags   : [time-sense, seismic-sense, riot, suppressed-images]
 Artists working with emerging technologies frequently generate new insights on the future of culture, industry and society.
 
 {% include image file='cyborg-foundation.jpg'
+   alt='Neil Harbisson and Moon Ribas working at a desk'
    caption='Cyborg artists Neil Harbisson and Moon Ribas during their residency at Thoughtworks' %}
 
 At Thoughtworks we regularly engage with artists, collaborating on cutting edge technology projects, and enriching the perspectives we bring to our clients. Our recent explorations have taken us on journeys into cyborgism and transhumanism, bias in machine intelligence, movement in robotics, and more.
@@ -19,7 +20,8 @@ This is the second article in a series exploring the symbiosis of art and techno
 
 We refer to these initiatives collectively under the umbrella of _Thoughtworks Arts_. This encompasses three programs, anchored in our New York office but with global reach: the [Thoughtworks Arts Residency](https://thoughtworksarts.io/), [Art-A-Hack](https://artahack.io/) and [Hardware Hack Lab](https://hardwarehacklab.io/).
 
-{% include image file='logos.jpg' %}
+{% include image file='logos.jpg'
+   alt='Logos for Thoughtworks Art and subprograms Hardware Hack Lab, Art-A-Hack and Arts Residency' %}
 
 Thoughtworks Arts drives innovation by creating facilitated frameworks and contexts in which art can collide with commercial technology development.
 
@@ -73,6 +75,7 @@ Our partnerships with institutions such as Microsoft, NYU Tandon School of Engin
 Many projects we support often spur highly successful ongoing projects. In 2016 we [incubated the initial prototype](https://artahack.io/projects/hamlet-vr/) of _To Be With Hamlet_, the world's first live-time telepresence production of Shakespeare in virtual reality. The project then premiered at the Tribeca Film Festival in 2017.
 
 {% include image file='to-be-with-hamlet.jpg'
+   alt='A 3D character from "To Be With Hamlet" in VR, and (inset) the team wearing VR headsets and motion capture clothing'
    caption='"To Be With Hamlet" in VR, and (inset) the team' %}
 
 In addition to this, Thoughtworks employees have worked on [multiple](https://artahack.io/projects/afro-futuristic-carnival/) [VR](https://artahack.io/projects/superficial-substantive/) [projects](https://artahack.io/projects/oculus-fiber/) during Art-A-Hack, learning new skills and investigating new technical domains.
@@ -90,6 +93,7 @@ The success and popularity of the first two Thoughtworks Arts programs set the s
 The residency was launched in 2016 with a mission to support artists investigating new technologies and considering their implications for society. Residents are provided a workspace, stipend, active support and incubation, and access to the global network of tech sector employees at Thoughtworks, lasting anywhere from 3-6 months.
 
 {% include image file='riot.jpg'
+   alt='A "police officer" stands guard as vistors enter a frame box with "keep out" signs to watch a movie'
    caption='Karen Palmer\'s AI installation, RIOT' %}
 
 Each residency invites artists to apply given a particular theme. So far we have worked with artists to explore issues including [transhumanism](https://thoughtworksarts.io/projects/time-sense/) and [cyborgism](https://thoughtworksarts.io/projects/seismic-sense/), [genetic data privacy](https://thoughtworksarts.io/projects/suppressed-images/), [biometrics in virtual reality](https://thoughtworksarts.io/projects/biofields/), the [biases of AI](https://thoughtworksarts.io/projects/riot) and [movement in robotics](https://thoughtworksarts.io/blog/adrianne-wortzel-catie-cuan-awarded-robotics-residency/).
@@ -103,6 +107,7 @@ China-based Thoughtworks analyst Caihong Liu for example, researched [researched
 Most recently, Thoughtworks software developer Angelica Perez [led a broad international development team](https://thoughtworksarts.io/projects/riot) in the USA to create [EmoPy](https://github.com/thoughtworksarts/EmoPy), an open source emotion expression analysis toolkit. This system is the engine behind resident artist Karen Palmer's AI film installation _RIOT_.
 
 {% include image file='time-sense.jpg'
+   alt='Neil Harbisson wearing a headand with wires coming out of it'
    caption='Cyborg Artist Neil Harbisson during his residency at Thoughtworks' %}
 
 Inspired by these experiences, team members and collaborators often write articles, sharing what they have learned.
@@ -120,6 +125,7 @@ Thoughtworks Arts programs have become deeply enmeshed in Thoughtworks, with reg
 As a 5000-strong global tech consultancy, Thoughtworks serves clients spanning industries and sectors, including retail, travel, finance, healthcare, energy and education.
 
 {% include image file='developers.jpg'
+   alt='Engineers draw diagrams on a long set of whiteboards'
    caption='Thoughtworks developers working on EmoPy for Karen Palmer\'s RIOT' %}
 
 The increasing pace of technological change means that our clients are always looking for ways to rapidly innovate and lead their respective fields, and they are looking for varied sources of inspiration and technical knowledge to help them accomplish it.
@@ -129,6 +135,7 @@ Our work in Thoughtworks Arts feeds into Thoughtworks' views on emerging technol
 Further, the continued expansion of Thoughtworks Arts' partner network continually injects fresh viewpoints into our internal and external discourse.
 
 {% include image file='three-pillars.png' class='no-border'
+   alt='The \'three pillars\' of Thoughtworks: sustainable business, software excellence and social justice'
    caption='The \'three pillars\' of Thoughtworks' %}
 
 At Thoughtworks we are committed to our [pillar of social justice](https://www.thoughtworks.com/social-justice), supported by the deeply-held conviction of employees across the company. We continue to engage with progressive individuals and organizations, allowing employees to contribute their skills. Thoughtworks Arts reinforces this arrangement, with employees contributing their skills to exploration of new and unexpected social impacts of emerging technologies.
