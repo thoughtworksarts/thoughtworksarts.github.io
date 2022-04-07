@@ -20,6 +20,7 @@ team :
 *Time Sense* is a wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head. As the day progresses, a tiny heat sensation passes the length of the headband.
 
 {% include image file='time-sense.jpg'
+   alt='Neil\'s head with a headband strap and wires coming from it'
    caption='Neil wearing the *Time Sense*' %}
 
 This device is an example of an 'exosense', an external sensory organ. This means it is designed to be worn and felt consistently, twenty-four hours a day, seven days a week.
@@ -27,6 +28,7 @@ This device is an example of an 'exosense', an external sensory organ. This mean
 The constant stream of sensations will allow Neil to develop a new form of instinctual relationship with the time of the day. This is a key part of what defines the term _cyborg_ for Neil &mdash; an always-on sensory relationship with a constant technological data stream.
 
 {% include image file='mold.jpg'
+   alt='Neil fitting the silicone prototype to his head from the mold'
    caption='Extracting the wearable from the mold' %}
 
 To begin the process of creating the durable wearable, a 3D model of the prototype was created, shown in the picture below. The model incorporates miniature versions of the electronics from the functional proof of concept, along with materials chosen [based on research](/blog/cyborg-senses-weaving-materials/) by the ThoughtWorker [Caihong Liu](/bio/caihong-liu/), based in Chengdu China, during the residency.
@@ -34,9 +36,11 @@ To begin the process of creating the durable wearable, a 3D model of the prototy
 Based on the prototype model, a 3D virtual two-part mold from which the wearable could [ultimately be cast](/blog/industrial-design-time-sense-prototype/).
 
 {% include image file='visualization1.jpg'
+   alt='A 3D visualization of the silicone exiting the mold'
    caption='A 3D visualization of the two-part mold creating the wearable' %}
 
 {% include image file='visualization2.jpg'
+   alt='A flattened 3D representation of the mold'
    caption='The upper mold model before printing' %}
 
 Later renamed as the *Solar Crown*, this wearable prototype allows artist Neil Harbisson and the team to learn and reflect about how the sense might operate as a permanent implant. This is similar to the process behind Neil's existing permanent implant, an antenna which allows him to perceive color as sound, which was also prefigured by a wearable prototype.

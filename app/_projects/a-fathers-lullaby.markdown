@@ -33,6 +33,7 @@ team :
 _A Father's Lullaby_ is a multi-platform, community engaged project highlighting the role of men in raising children and their absence due to racial disparities in the criminal justice system.
 
 {% include image file='a-fathers-lullaby.jpg'
+   alt='A wide shot of Rashin\'s installation with twelve men singing lullabies'
    caption='_A Father\'s Lullaby_ on display at the ICA in Boston' %}
 
 The project centers on marginalized voices of absent fathers, while inviting all men to participate by singing lullabies and sharing memories of childhood.
@@ -48,6 +49,7 @@ During the residency Rashin worked with the Emmy-award winning creative studio [
 In the installation, the father describes the experience of returning to his adult children, now in their 20s: "The main question from all of them is, ‘Why did you leave?’"
 
 {% include image file='volumetric-portrait.jpg'
+   alt='A man singing represented by a human shaped point cloud'
    caption='A still from the volumetric portrait' %}
 
 Supporting the in-person exhibition experiences is a website where fathers from across the USA upload recordings of their voices. Website visitors can browse and explore the voices via an interactive map, read about the project's history, and record and upload a lullaby for themselves.
@@ -60,6 +62,7 @@ As such, the project continues to grow and evolve over time as more fathers disc
 Rashin Fahandej says that A Father’s Lullaby is a "Poetic Cyber Movement for Social Justice, in which art and technology mobilizes a plethora of voices in public and virtual spaces to ignite an inclusive dialogue effecting social change."
 
 {% include image file='ica-panel-rashin.jpg'
+   alt='Rashin speaking in a panel with four others'
    caption='Rashin speaking on a panel at the ICA opening' %}
 
 The piece has been awarded the [Prix Ars Electronica Award of Distinction in Digital Music and Sound Art](https://thoughtworksarts.io/blog/rashin-fahandej-award-of-distinction-ars-electronica/), the [James and Audrey Foster prize](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize), and was [exhibited at the Institute for Contemporary Arts (ICA)](https://thoughtworksarts.io/blog/institute-contemporary-arts-biennal-exhibits-rashin-fahandej-boston/) on the Boston waterfront Aug 21 – Dec 31, 2019.

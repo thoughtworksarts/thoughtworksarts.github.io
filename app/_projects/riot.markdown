@@ -55,6 +55,7 @@ extended-team :
 *RIOT* is an immersive, emotionally responsive, live-action film that positions viewers in the middle of a riot in progress. The film responds to participants’ emotional expressions using artificial intelligence, altering the video story journey in real-time.
 
 {% include image file='riot-1.jpg'
+   alt='An audience member standing in front of the installation in a dark room'
    caption='An audience member experiencing the *RIOT* installation' %}
 
 The *RIOT* film installation experience allows viewers to consider how they might react in the face of imminent danger. A webcam or camera is used to monitor each viewer’s facial characteristics as they watch the film, and the video narrative responds accordingly.
@@ -62,6 +63,7 @@ The *RIOT* film installation experience allows viewers to consider how they migh
 For example, if the viewer appears agitated, the character in the film responds defensively or impatiently. The same is true for a number of other assessed emotional expressions, such as calmness or fear.
 
 {% include image file='developers.jpg'
+   alt='Engineers discussing the project with Karen in front of a whiteboard'
    caption='Karen working with Thoughtworks developers Sofia Tania and Angelica Perez' %}
 
 *RIOT* provides feedback into complex cultural issues surrounding split second decisions in times of actual crisis. It places viewers at the center of a provocative story for which there are a number of potential live time scenarios which may triggered by their authentic reaction.
@@ -72,6 +74,7 @@ During her time at the Thoughtworks Arts Residency, Karen worked with Thoughtwor
 As a result, Karen can add new emotional expressions to the experience, and can add new narrative layers to the *RIOT* prototype via a custom-built user interface.
 
 {% include image file='open-studios.jpg'
+   alt='People discussing the work in an office setting'
    caption='Karen at one of her regular \'Open Studios\'' %}
 
 The *RIOT* experience works with a deep neural net toolkit for emotional expression analysis, created by Thoughtworks, named *EmoPy*. The system has [been made open source](https://github.com/thoughtworksarts/EmoPy) in order to provide free access beyond existing closed-box commercial implementations, both widening access and encouraging debate.
@@ -81,6 +84,7 @@ As of 2019, EmoPy is [featured as a Thoughtworks project on the Open Source home
 Karen's previous work with [Dr. Hongying Meng](https://www.brunel.ac.uk/people/hongying-meng) of Brunel University, London, was refined and developed as part of the piece. This includes his research and implementation of new facial expression analysis techniques.
 
 {% include image file='riot-2.jpg'
+   alt='A "police officer" keeping guard as visitors try out the RIOT experience'
    caption='*RIOT* exhibited at SPRING/BREAK as part of a Thoughtworks Arts exhibition during Armory Week' %}
 
 During her residency, Karen hosted regular 'Open Studios' events at Thoughtworks New York. Stakeholders from across industry, academia and the arts were invited to discuss the implications of AI technology, using the residency and artwork as a focal point for critical discussion.

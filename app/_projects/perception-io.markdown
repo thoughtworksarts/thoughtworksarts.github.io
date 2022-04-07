@@ -58,6 +58,7 @@ Perception iO uses facial expression recognition to analyze reactions as viewers
 The film runs through different scenarios of policing, portraying interactions with both black and white civilians. How the viewer responds to the presented scenarios triggers different outcomes in a branching narrative. The immersive experience explores ways in which a person’s gaze and emotional reactions influence their perception of reality.
 
 {% include image file='perception-cooper-hewitt.jpg'
+   alt='A woman watching the video experience in a dark room'
    caption='Installation view from the Face Values exhibition' %}
 
 Participants are invited to analyze the data calibrated from their interaction with the film, to consider how AI technology registers their behavior, and how human behavior is affected by implicit bias.
@@ -75,6 +76,7 @@ Thoughtworks developers guided the technical development, by increasing the accu
 ## Exhibitions and Publications
 
 {% include image file='perception-screen.jpg'
+   alt='A video still showing a police officer holding a gun and a woman in distress'
    caption='A still shot from Perception iO' %}
 
 Perception iO was commissioned for the 2019-2020 exhibition [Face Values: Exploring Artificial Intelligence at The Cooper Hewitt Smithsonian Design Museum](https://www.cooperhewitt.org/events/current-exhibitions/face-values/). The project was also part of the exhibitions [In Kepler's Gardens](https://ars.electronica.art/keplersgardens/en/perception/) at Ars Electronica, and [Expo Starts Prize à Bozar](https://www.rtbf.be/info/medias/detail_expo-starts-prize-a-bozar-art-et-science-s-associent-pour-penser-l-avenir?id=10593690), and Karen and the Thoughtworks team receieved an [honorable mention as part of STARTS Prize 2020](https://starts-prize.aec.at/en/perception/).
@@ -82,4 +84,5 @@ Perception iO was commissioned for the 2019-2020 exhibition [Face Values: Explor
 Perception iO has been reviewed in [Wired](https://www.wired.co.uk/article/karen-palmer-racist-bias), [BioMetric Update](https://www.biometricupdate.com/202003/artist-demonstrates-emotion-detecting-videos-may-help-people-see-their-own-biases), [Immersive Futures](https://immersivefutures.io/perception-io/) and the [Smithsonian Magazine](https://www.smithsonianmag.com/smithsonian-institution/heres-why-ai-cant-be-taken-face-value-180973235/).
 
 {% include image file='perception-wired.jpg'
+   alt='The cover of the edition of WIRED featuring Karen\'s work'
    caption='Wired article on Karen Palmer creating Perception iO' %}
