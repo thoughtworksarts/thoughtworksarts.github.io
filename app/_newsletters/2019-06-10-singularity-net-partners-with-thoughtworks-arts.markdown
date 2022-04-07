@@ -5,7 +5,7 @@ title : "SingularityNet Partners With Thoughtworks Arts"
 We are thrilled to be joining forces with the world’s first decentralized AI platform, [SingularityNET](https://singularitynet.io), for our next residency: [The Democratization of Artificial Intelligence via Blockchain](https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/).
 
 {% include image file='singularity-net.jpg'
-   alt='SingularityNet'
+   alt='SingularityNet logo against a 3D globe'
    caption='SingularityNet'
    link='https://singularitynet.io'
 %}
@@ -61,7 +61,7 @@ Rashin will be in residence at Thoughtworks Arts through September 27, 2019, and
 
 ## Thoughtworks Arts Launches New Website
 {% include image file='thoughtworks-arts-screenshot.jpg'
-   alt='Thoughtworks Arts screenshot'
+   alt='Thoughtworks Arts website screenshot'
    link='https://thoughtworksarts.io'
 %}
 
@@ -78,7 +78,7 @@ We've recently launched our much awaited [new website](https://thoughtworksarts.
 **Heather Dewey-Hagborg** was recently interviewed by [DIGICULT](http://digicult.it/articles/the-future-around-the-corner-interview-with-heather-dewey-hagborg/) on how her work explores artificial intelligence and biological surveillance. Heather also  co-curated [*Refiguring The Future*](https://refreshart.tech/#why), a politically engaged exhibition focusing on inclusion, and how the intersection of art, science and technology is an explicitly key force in radical change. This was [REFRESH’s](https://refreshart.tech/#about) inaugural exhibition, which received a Catherine T. MacArthur Foundation grant.
 
 {% include image file='moon-ribas.jpg'
-   alt='Moon Ribas having her seismic sensors removed from her feet'
+   alt='Moon Ribas having her seismic sensors removed from her feet in surgery'
    caption='Moon Ribas having her seismic sensors removed from her feet - photo courtesy Moon Ribas Facebook'
 %}
 **Moon Ribas** recently had her seismic sensors removed from her feet. After seven years of sensing earthquakes as a cyborg, she's now learning how to adjust to life without seismic activity registering in her physiology. However, Moon has reported to be experiencing phantom movements, confusing her nervous system.

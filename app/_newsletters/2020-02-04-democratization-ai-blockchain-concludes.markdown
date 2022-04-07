@@ -4,6 +4,7 @@ title : "Democratization of A.I. via Blockchain Residency Concludes in San Franc
 The residency team of [Max Razdow, Ollie Razdow, and Jamie Zigelbaum](https://thoughtworksarts.io/blog/max-razdow-ollie-razdow-jamie-zigelbaum-awarded-blockchain-residency/) completed their 16-week residency in San Francisco on January 23rd.
 
 {% include image file='all-possible-pathways.jpg'
+   alt='Portraits of Max Razdow, Ollie Razdow, and Jamie Zigelbaum'
    caption='Max Razdow, Ollie Razdow, and Jamie Zigelbaum' %}
 
 The three artists, who collectively work across an array of media, developed the distributed storytelling project *All Possible Pathways* based on remote collaboration using blockchain technology.
@@ -16,6 +17,7 @@ The team wrapped up with an internal presentation to Thoughtworks employees, and
 In December, director Ellen Pearlman presented in Santa Fe as a [Fulbright World Learning Specialist](https://fulbrightspecialist.worldlearning.org/the-fulbright-specialist-program/) at [The US Fulbright Alumni Exchange Seminar](https://alumni.state.gov/alumni-news/alumni-thematic-international-exchange-seminars-alumni-ties). The four-day event brought Fulbright alumni whose work speaks to the issue "Art, Culture, and Transforming Conflict".
 
 {% include image file='alumni-ties.jpg'
+   alt='An Alumni Ties promo graphic'
    caption='Alumni TIES: Art, Culture, Transforming Conflict' %}
 
 Ellen presented “Advancing Diversity, Equity, and Inclusion in the Arts”, highlighting Thoughtworks Arts programs that have promoted social change through their artistic and technology incubations.
@@ -28,6 +30,7 @@ Our blog post explains more about [AlumniTIES and all that Ellen has been instru
 Thank you to everyone in our expansive community who collaborated, partnered, and helped move our many projects forward with support and insight - making 2019 a hugely successful year for Thoughtworks Arts.
 
 {% include image file='a-fathers-lullaby.jpg'
+   alt='An interior shot of the installation'
    caption='Installation shot from A Father\'s Lullaby' %}
 
 We couldn't have predicted the reach so many of these important collaborations between artists, technologists, and our team would have, nor how developments would play out both publicly and within Thoughtworks. This feedback guides and inspires our vision moving forward.
@@ -40,6 +43,7 @@ And now, some highlights from this past year:
 - Robotics resident (TWA'18) Adrianne Wortzel's film project, [The Sentient Thespian, previewed at PioneerWorks.](https://thoughtworksarts.io/newsletters/adrianne-wortzel-previews-sentient-thespian/) and had a screening at the Jonas Mekas landmark [Anthology Film Archives](http://anthologyfilmarchives.org/) in New York.
 
 {% include image file='cooper-hewitt.jpg'
+   alt='A woman watching the installation in a dark room'
    caption='Perception IO at the Cooper Hewitt Smithsonian Design Museum' %}
 
 ## Features
@@ -54,6 +58,7 @@ And now, some highlights from this past year:
 **Rashin Fahandej** was a speaker on the panel *Disrupting the System* during the [Expanded Realities Symposium - Open City Documentary Festival](https://opencitylondon.com/events/expanded-realities-symposium-2019/) in London, on September 6th. The panel line-up was comprised of digital artists whose work challenges and investigates power structures.
 
 {% include image file='ellen-pearlman-keynote.jpg'
+   alt='Ellen Pearlman speaking on a large stage'
    caption='Ellen Pearlman giving the keynote at World Usability Day in Estonia' %}
 
 **Ellen Pearlman** gave the keynote at [World Usability Day](https://wud.ee/talk/creative-collaborations-between-art-and-tech-thoughtworks-arts/) in Estonia this past November. Her presentation was on *Creative Collaborations Between Art and Tech: Thoughtworks Arts*. Ellen presented a paper at the [New Media Caucus](http://bordercontrol.newmediacaucus.org/) (part of CAA - The College Art Association)  Symposium "Border Control"  at the Penny Stamps School of Art and Design at the University of Michigan, Ann Arbor, from September 19th to 22nd.

@@ -6,7 +6,8 @@ Over the summer, **Director Andy McWilliams** spoke at TEDxVilnius, and shared d
 
 {% include image file='andrew-mcwilliams.jpg'
    link='https://www.youtube.com/watch?v=yrPegku0znk'
-   caption='Director Andrew McWilliams at TEDx' %}
+   caption='Director Andrew McWilliams at TEDx'
+   alt='Andrew McWilliams speaking on a large stage' %}
 
 “Sometimes looking into the future can be scary, because by definition it is unknown. But with art and technology, we can tell real stories about what is coming, and bring these issues into the light.”
 
@@ -31,6 +32,7 @@ RIOT 2, by current Resident **Karen Palmer** is included in [The Future of Story
 Past resident and cyborg **Moon Ribas** had [two new sensors](https://www.facebook.com/cyborgfoundation/?hc_ref=ARSUtaMkSJ3), partially developed while at Thoughtworks, implanted in her feet to feel moonquakes. [An interview of her](http://www.straitstimes.com/lifestyle/arts/walking-earthquake-detector), Artist Moon Ribas translates Earth's movement into art, appears in Lifestyle.
 
 {% include image file='moon-feet.jpg'
+   alt='Two feet with stitches on the legs'
    caption='Past Thoughtworks Arts Resident Moon Ribas shortly after receiving earthquake sensor implants in her feet' %}
 
 [An interview](https://issuu.com/women.cinemakersreview/docs/vol8/70) of Director **Ellen Pearlman** appears in WomenCinemakers, an annual magazine offering readers insight into the work of emerging women directors, producers and writers from around the world, and she participated in the closing panel of [Jump into VR Fest.](https://www.jumpintovrfest.com/)
@@ -42,6 +44,7 @@ Past resident **hannes bend** is participating in [Peace Boat NYC](https://www.e
 Art-A-Hack alum **Mark Ramos** showed his work at [Future Robot](http://mailchi.mp/1e69639179d5/futurereboot) in New York.
 
 {% include image file='neil-harbisson.jpg'
+   alt='Neil showing his headband'
    caption='Neil Harbisson gets a good fit' %}
 
 An interview, [I am a Cyborg and I Have Nature at Heart](http://www.lifegate.com/people/news/neil-harbisson-cyborg-interview), of past resident, **Neil Harbisson** appears in Lifegate.

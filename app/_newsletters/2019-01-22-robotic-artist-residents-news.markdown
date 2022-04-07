@@ -4,6 +4,7 @@ title          : "Robotic Artist Residents in the News"
 Robotics resident Catie Cuan was recently featured in a video feature for [Engadget](https://www.engadget.com/2018/10/12/robot-choreography-catie-cuan/), highlighting the importance of machine movement.
 
 {% include image file='catie-cuan.jpg'
+   alt='A woman in front of a large robot'
    caption='Catie working with the 15-foot Wen robotic arm, in conjunction with our sponsoring partner, The Consortium for Research & Robotics hosted by Pratt Institute - photo by Kevin Barry' %}  
 
 In the interview, Catie explains her ideas on how robotics are impacting society and how choreography can change the way we understand human-robot interactions.
@@ -13,11 +14,13 @@ In the interview, Catie explains her ideas on how robotics are impacting society
 Catie was also recently featured on a [PBS NewsHour segment on the future of work](https://thoughtworksarts.io/blog/concat-tool-feature-pbs/). The segment shows how Catie is applying her project work created with Thoughtworks Arts to her doctoral research in Mechanical Engineering at Stanford University.
 
 {% include image file='pbs-newshour.jpg'
+   alt='A youtube link showing a dancer with a small robot'
    link='https://www.youtube.com/watch?time_continue=30&v=uyrIfk30LaQ' %}  
 
 The software featured in the video, [CONCAT](https://github.com/thoughtworksarts/concat), was created by developers at Thoughtworks over the fall. The technology enables Catie to rehearse her own bodily movements alongside those of industrial-scale robots.
 
 {% include image file='adrianne-wortzel.jpg'
+   alt='A picture of Adrianne Wortzel'
    caption='Adrianne Wortzel - photo by Kevin Barry' %}
 
 Adrianne Wortzel, also a resident at Thoughtworks Arts over the summer of 2018, is completing a film based on her explorations in robotics. The film, titled ROBOTA PERSONAE, will explore how “sentient” robots interact with non-sentient robots. Not a word is spoken in a choreographed dance, and yet movements and mime promote a totally visceral experience of comedy, tragedy, delight and horror. More updates coming in our next newsletter.
@@ -27,6 +30,7 @@ Adrianne Wortzel, also a resident at Thoughtworks Arts over the summer of 2018, 
 Curator and researcher Ashley Lee Wong [interviewed Thoughtworks Arts directors Andrew McWilliams and Ellen Pearlman for CLOT Magazine](http://www.clotmag.com/thoughtworks-arts-residency-leveraging-corporate-resources-for-art-social-change-by-ashley-lee-wong) about their ambitious arts residency to engage with socially relevant projects using emerging technologies.
 
 {% include image file='heather-dewey-hagborg.jpg'
+   alt='Heather Dewey-Hagborg speaking in front of her face masks'
    caption='Past resident Heather Dewey-Hagborg speaking at the opening of ‘A Becoming Resemblance’ at Fridman Gallery in 2017' %}
 
 The article highlights the achievements and challenges of merging artists with technology and how Thoughtworks Arts is leveraging corporate resources for art and social change.
@@ -43,6 +47,7 @@ Project write-ups from our incredible Summer 2018 Special Edition Art-A-Hack wit
     *   [Sentimental Feeling/Second Skin](https://artahack.io/projects/sentimental-feeling-second-skin/): What happens when technologies interpret our emotional states?
 
 {% include image file='another-world.jpg'
+   alt='People in white scientist outfits and yellow hazmat suits'
    caption='Another World Team on climate change led by Emmy award winner Lisa Russell, during filming of virtual reality project' %}
 
 ## News from TWA Director Dr. Ellen Pearlman
@@ -52,6 +57,7 @@ Dr. Ellen Pearlman’s PhD thesis received a global top ranking award for 2018 i
 Ellen’s work was also [recently written up](http://www.punctummagazine.lv/2018/10/08/smadzenu-ieksiene/) in the Latvian Magazine, Punctum in conjunction with the [2018 RIXC Art Science Festival](http://festival2018.rixc.org) on Global Control, where she served as a conference co-organizer and keynote speaker. Read the full [EE-Report on the conference](http://eejournal.no/home/rixc-conference-2018) to learn more.
 
 {% include image file='ellen-and-sophia.jpg'
+   alt='Ellen Pearlman with Sofia the Robot'
    caption='Ellen with Sofia the Robot in November at the <a href="http://www.ttconf.org">Transformative Tech Conference</a>) in Palo Alto, CA' %}
 
 While in Europe for RIXC, Ellen was also invited to lecture on her work at [ITMO University](http://en.ifmo.ru/en/) and [St. Petersburg State University, Smolny College](http://artesliberales.spbu.ru/about-en) in Russia as well as at [Leipaja University](https://www.liepu.lv/en) and [RISEBA University](http://www.riseba.lv/index.php/en) of Business, Arts and Technology in Latvia. Ellen has been officially appointed as an Assistant Professor, Senior Researcher in New Media Art at RISEBA University, which also includes developing a joint doctoral program in new media with Leipaja University.
@@ -65,6 +71,7 @@ Don’t miss her [article on the use of the Art-A-Hack methodology](https://jour
 Past resident and storyteller from the future Karen Palmer was featured at Thoughtworks’ yearly conference, XConf. Check out [this video](https://www.youtube.com/watch?v=Yym-gVsZeeM) of her presentation on her immersive film combining gaming, art, science and technology and the work she did through her TWA residency.
 
 {% include image file='karen-palmer.jpg'
+   alt='Karen Palmer pointing out the facial recognition algorithms'
    caption='Past-resident Karen Palmer pointing out the facial recognition algorithms used for RIOT' %}
 
 EmoPy, the facial expression recognition software created for RIOT by Thoughtworks developers, was recently [written about in InfoQ](https://www.infoq.com/news/2018/10/EmoPy-Computer-Vision). Join the 160 other developers using this [open source tookit on Github](https://github.com/thoughtworksarts/EmoPy) to work on the future of time based facial recognition!

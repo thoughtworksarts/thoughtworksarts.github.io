@@ -32,6 +32,7 @@ To learn more about what was discussed, and who else presented at the webinar, [
 Synthetic Media resident Nouf Aljowaysir and program director Ellen Pearlman both had new work exhibited at [AI Art Gallery](http://www.aiartonline.com/highlights-2020/).
 
 {% include image file='salaf.jpg'
+   alt='A grid with lots of tiny grayscale portrait images'
    caption='سلف [Salaf]: StyleGAN2 trained on an empty dataset' %}
 
 The online exhibition showcased works from the annual [NeurIPS4 Creativity Workshop](https://neurips2020creativity.github.io/), a leading machine learning conference for creativity and design, which they both took part in.
@@ -39,6 +40,7 @@ The online exhibition showcased works from the annual [NeurIPS4 Creativity Works
 Nouf's prototypes from her residency project [سلف [Salaf] (2020)](http://www.aiartonline.com/highlights-2020/nouf-aljowaysir/) were exhibited. سلف [Salaf](2020) is part of an ongoing exploration into constructing her genealogical journey using two different voices: her own and an AI ‘narrator’. 
 
 {% include image file='aibo.jpg'
+   alt='A woman wearing a suit of light'
    caption='Sniedze Strauta performing at the AIBO premiere. Her emotions display on her bodysuit of light, akin to an exterior nervous system, and AIBO\'s emotions display as red light (negative). Photo - Taavet Jansen' %}
 
 Ellen's immersive, interactive love story, [AIBO: An Emotionally Intelligent, Artificial Intelligent Brainwave Opera (2020)](http://www.aiartonline.com/art-2020/ellen-pearlman/) was also included in the exhibition. AIBO is about our infatuation and trust in artificial intelligence played out between a human character Eva, and AIBO, a custom built ‘sicko’ AI.
@@ -48,6 +50,7 @@ Ellen's immersive, interactive love story, [AIBO: An Emotionally Intelligent, Ar
 Thoughtworks Arts and [Baltan Laboratoratories](https://www.baltanlaboratories.org/) organized the two-week online masterclass: [Deepfakes - Synthetic Media And Synthesis](https://www.baltanlaboratories.org/library/synthetic-media-hackathon) - led by Ellen Pearlman and Thoughtworker Julien Deswaef, and facilitated by Leif Czakai of Baltan Labs.
 
 {% include image file='information-bubbles.png'
+   alt='A visualization of ‘information bubbles’'
    caption='Team Two\'s prototype on the visualization of \'information bubbles\' that included examining the at the time online controversial site Parler' %}
 
 Participants were put into three interdisciplinary teams to collaborate on prototyping a synthetic media project. Teams explored the possibilities of artificially generated media and investigated artistic ways in which to apply these innovative findings. Their work was also driven by questions about the societal impacts of this rapidly growing field.

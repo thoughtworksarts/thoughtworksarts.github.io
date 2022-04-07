@@ -4,6 +4,7 @@ title : "Rashin Fahandej and ClimateAction.tech Receive Prix Ars Electronica Awa
 A project incubated by Thoughtworks Arts and an initiative originally co-founded by Thoughtworks Arts Director Andrew McWilliams, have each independently won Prix Ars Electronica awards in 2021.
 
 {% include image file='rashin-fahandej.jpg'
+   alt='Rashin with her work'
    caption='Rashin Fahandej' %}
 
 The [Prix Ars Electronica](https://ars.electronica.art/prix/de/) is the world’s most time-honored award in electronic and interactive art, with prize ceremonies going back more than 30 years, alongside showcases at the famed Ars Electronica Festival in Linz, Austria.
@@ -19,6 +20,7 @@ Former volumetric filmmaking resident Rashin Fahandej was awarded the [Prix Ars 
 [ClimateAction.tech](https://climateaction.tech/) is an international community initiative with thousands of members in the tech sector focused on the climate crisis, co-founded in 2017 by Thoughtworks Arts Director Andrew McWilliams and co-organized through 2020. ClimateAction.tech was awarded the [Prix Ars Electronica Award for Digital Humanity for creating *Branch* - an online 'Sustainable Internet For All' magazine](https://thoughtworksarts.io/blog/climate-action-tech-ars-electronica-award-digital-humanity/).
 
 {% include image file='branch.jpg'
+   alt='Covers of the online magazine'
    class='no-border'
    caption='Branch covers by Hélène Baum and Gica Tam' %}
 
@@ -30,6 +32,7 @@ Branch's design renders its display output according to energy grid intensity de
 We are thrilled to be joining forces with the experimental and interdisciplinary dance and performance space in San Francisco, [CounterPulse](https://counterpulse.org/), for our upcoming artist residency [Improvising The Net(Work).](https://thoughtworksarts.io/open-call/2021-improvising-the-network/) Together we will focus on customizable networks on site at CounterPulse’s downtown Tenderloin facility.
 
 {% include image file='counterpulse.jpg'
+   alt='The exterior of CounterPulse in San Francisco'
    caption='CounterPulse’s neon sign lighting, Scott Finn, 2016' %}
 
 This residency invites CounterPulse's artistic community, rooted in dance and movement practices with a strong legacy of improvisation to collaborate with a Thoughtworks Arts global network resident by creating new vistas for independent artist built and owned network topologies. 
@@ -41,7 +44,8 @@ Applications are currently being reviewed, and our new resident will be announce
 ## Art-A-Hack(TM) 2021: BeFantastic Together Climate Crisis *Special Edition*
 [Art-A-Hack](https://artahack.io/) and [BeFantastic](https://befantastic.in/), a tech art platform originating in Banglore, India are organizing a joint fellowship with Singapore, Switzerland, India, Germany, and the United States to explore the issue of climate crisis, with incubation and support from Thoughtworks Arts. This special edition of Art-A-Hack connects artists, designers, technologists, and others focusing on the climate crisis to collaborate on artworks that amplify the global emergency.
 
-{% include image file='befantastic.png' %}
+{% include image file='befantastic.png'
+   alt='The flyer for the program' %}
 
 With the generous support of the U.S. Embassy in Singapore, the Swiss Arts Council Pro Helvetia (New Delhi), Goethe-Institut / Max Muller Bhavan (Bangalore), and from us here at Thoughtworks Arts, and in partnership with Supernormal (Singapore), In The Wild (Singapore) and Dara.network (USA), Art-A-Hack 2021 *Special Edition* will organize across multiple hubs and function as an ‘online makers festival’.
 
@@ -53,7 +57,8 @@ To learn more about this fellowship, visit: [Art-A-Hack Announces Open Call On C
 Former robotics resident [Adrianne Wortzel](https://thoughtworksarts.io/bio/adrianne-wortzel/) was a recent guest on the podcast "Poptarts" (aka Girl Zone) hosted by [BUST](https://bust.com/) Magazine editors [Emily Rems](https://www.instagram.com/remsemily/) and Callie Watts - celebrating women in pop culture.
 
 {% include image file='sentient-thespian.jpg'
-   caption='A still from The Sentient Thespian' %}
+   caption='A still from The Sentient Thespian'
+   alt='A small robot approaching a much larger robot' %}
 
 In the interview, Adrianne shares how she found her voice as a groundbreaking pioneer in robotic art, and the kind of obstacles she experienced as a woman working in robotics and communicating between art and science.
 

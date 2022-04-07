@@ -14,7 +14,8 @@ Join us on Wednesday, May 17, 2017 at Thoughtworks, 99 Madison, New York, for [t
 
 {% include image file='insulin.png'
    link='https://jahya.net/works/insulin/'
-   caption='Insulin, an blood-glucose visualization by Andrew McWilliams' %}
+   caption='Insulin, an blood-glucose visualization by Andrew McWilliams'
+   alt='Three stills of a blood glucose reponsive visualzation in a gallery' %}
 
 ## Creative Tech Week Lightning Talks
 
@@ -22,7 +23,8 @@ You can also [join the Creative Tech Week conference](http://creativetechweek.ny
 
 {% include image file='noor.jpg'
    link='http://www.isea-archives.org/sample-page/isea2016/isea2016-art-events/isea2016-artist-statement-ellen-pearlman-noor-a-brain-opera/'
-   caption='Noor: A Brain Opera by Ellen Pearlman' %}
+   caption='Noor: A Brain Opera by Ellen Pearlman'
+   alt='A female face leans backward with the word "surveillance" in the background' %}
 
 ## Directors and Alumni News
 

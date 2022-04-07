@@ -12,6 +12,7 @@ As part of their Improvising the Net(Work) residency Dilate Ensemble presented *
 Dilate Ensemble built a customized network throughout the course of their 16-week residency. The network linked different sound environments within the CounterPulse building by sending their audio feeds for processing to electronic musician Scott Miller, remotely based in Minnesota. Sonic variables like amplitude, frequency, physical characteristics of the room, speaker placement, and microphones impacted simple behaviors producing complex layered outcomes. CounterPulse’s upstairs studio, as well as the dedicated project space in the basement were animated by the audio-reactive video projection installations of artist Carole Kim. For this event Dilate Ensemble was also joined by special guest, dancer and choreographer Shinichi Iova-Koga.
 
 {% include image file='shinichi-iova-koga.jpg'
+   alt='Dancer Shinichi Iova-Koga in the studio'
    caption='A still from CATENA with dancer Shinichi Iova-Koga, photo by Robbie Sweeny' %}
 
 To learn more about Dilate Ensemble and CATENA, join us for a free virtual panel discussion with [Dilate Ensemble and special guest NowNet Arts Director Sarah Weaver](https://counterpulse.org/event/dilateensemble-nownetarts/) on Saturday March 5, 1pm PST, 4PM EST. To secure your spot and receive the zoom link, [RSVP now](https://counterpulse.secure.force.com/ticket/#/events/a0S4y00000Djc5eEAB).
@@ -37,7 +38,7 @@ h0t club will also have a world premiere of their piece on May 7th as part of th
 Forbes published the article [What Is The Value Of An Artist? For Tech Consultancy Thoughtworks — It’s A Lot](https://www.forbes.com/sites/benjaminwolff/2022/01/14/what-is-the-value-of-an-artist-for-tech-consultancy-thoughtworks-its-a-lot), by Benjamin Wolff. The article spotlights Thoughtworks Arts in detail, describing how we incubate art and technology innovation and how this empowers both technologists and artists.
 
 {% include image file='forbes-thoughtworks-arts.jpg'
-   alet='A screenshot of the Forbes article headline with the text "What Is The Value Of An Artist? For Tech Consultancy Thoughtworks—It’s A Lot" and a picture of an AI-generated artwork by Nouf Aljowaysir'
+   alt='A screenshot of the Forbes article headline with the text "What Is The Value Of An Artist? For Tech Consultancy Thoughtworks—It’s A Lot" and a picture of an AI-generated artwork by Nouf Aljowaysir'
    link='https://www.forbes.com/sites/benjaminwolff/2022/01/14/what-is-the-value-of-an-artist-for-tech-consultancy-thoughtworks-its-a-lot/' %}
 
 Featured was Synthetic Media resident Nouf Aljowaysir's project *Salaf*, illustrating how developers at Thoughtworks helped her explore bias in AI and neural networks through the lens of her Saudi ancestry. 
@@ -60,11 +61,13 @@ Thoughtworks CEO Chris Murphy shared his view that incubating artists helps driv
 Andy Slater, who will begin his CripTech residency at Thoughtworks Arts this spring, has received the prestigious [United States Artists - UNBOUND Fellowship Award,](/blog/andy-slater-united-states-artist-award/) in media.
 
 {% include image file='united-states-artists-andy-slater.jpg'
+   alt='Andy Slater next to the United States Artists logo'
    caption='United States Artists logo and photo of Andy Slater' %}
 
 The USA Fellowship is a $50,000 unrestricted award, granted to 63 artists, thinkers, and makers, who represent communities across 23 states and Puerto Rico. The awardees are creative vanguards whose work and vision have made an uplifting impact on both their communities and specific disciplines.
 
 {% include image file='united-states-artists-unbound.jpg'
+   alt='The UNBOUND logo'
    caption='The United States Artists logo and stylized text saying "Unbound" in all caps' %}
 
 Andy, a Chicago-based media artist, sound designer, teaching artist, and disability advocate who is sight impaired, was recognized for his work that focuses on advocacy for accessible art and technology, alt text for sound and image, and spatial audio for extended reality.

@@ -4,6 +4,7 @@ title : "Welcoming Our New Residents to Thoughtworks Arts Residency"
 New residents Nouf Aljowaysir and James Coupe selected for the residency in early spring, have begun their Synthetic Media Residencies set to span the summer 2020 season.
 
 {% include image file='nouf-aljowaysir-james-coupe.jpg'
+   alt='Icons of James Coupe and Nouf Aljowaysir'
    caption='James Coupe and Nouf Aljowaysir' %}
 
 Due to COVID-19, James and Nouf will both work remotely on projects from their respective studios in Seattle and Brooklyn.
@@ -14,6 +15,7 @@ Due to COVID-19, James and Nouf will both work remotely on projects from their r
 Nouf, a [Saudi-born, New York-based artist](http://www.noufaljowaysir.com/), whose work focuses on creative coding has utilized [machine learning style transfer](http://www.noufaljowaysir.com/adp) techniques to critique the complex interweaving of [perceptions and perception management of voice conversational technologies](http://www.noufaljowaysir.com/alexa-call-mom). She will develop her project at Thoughtworks Arts which emulates the cultural transmission of ideas and worldviews across human generations.
 
 {% include image file='alexa-call-mom.png'
+   alt='A woman in a dark room by candlelight'
    caption='Installation shot of Alexa: Call Mom!' %}
 
 Nouf will process elements of cultural artifacts from her personal history and research, transforming them into machine learning systems through data chains. 
@@ -22,6 +24,7 @@ Nouf will process elements of cultural artifacts from her personal history and r
 James Coupe, a [British artist based in Seattle](http://jamescoupe.com/) works with video, installation, internet, and emerging media forms. He will investigate historical archives in order to expose lineages of social and economic divisions in the UK during the nineteenth and twentieth centuries. Simultaneously, he will highlight the parallel trajectories throughout the world that were occurring under the scope of British colonialism. 
 
 {% include image file='warriors.png'
+   alt='A vimeo link to James project'
    link='https://vimeo.com/397879996'
    caption='Warriors by James Coupe' %}
 
@@ -35,11 +38,13 @@ Our external partners for this residency are [MIT Open Doc Lab](http://opendocla
 Ellen Pearlman was the lead American artist for the [Zero1](https://zero1.org/), [American Arts Incubator - Ukraine](https://americanartsincubator.org/exchange/ukraine-2/) exchange program hosted by [Izolytsia - Platform For Cultural Initiatives](https://izolyatsia.org/en/) in Kyiv, and the [US Embassy in Ukraine](https://ua.usembassy.gov/). The month-long exchange program was reimagined and restructured as a remote, bilingual collaboration across timezones after Covid-19 spread across the globe.
 
 {% include image file='ellen-pearlman.jpg'
+   alt='The flyer for the talk'
    caption='Ellen Pearlman\'s program talk on April 24th, by IZOLYATSIA' %}
 
 Ellen led twenty-four artists scattered throughout Ukraine in a virtual incubator program involving a series of workshops that explored art and artificial intelligence. Participants created four prototypes that investigated the experience of isolation and connectedness; environmental degradation and moral responsibility; conspirology; and Mudra a machine learning implementation of sign language for hearing impaired Ukrainians.
 
 {% include image file='i-stand-up-here.png'
+   alt='A vimeo link to "I Stand Up Here"'
    link='https://vimeo.com/420277936'
    caption='_I stand up here_. AAI Ukraine 2020, Curated by Ellen Pearlman. By Vartan ' %}
 
@@ -51,11 +56,13 @@ The American Arts Incubator program pivots on a global network based on these ki
 We're excited to announce that [Art-A-Hack](https://artahack.io/) is partnering with [Battery Dance](https://batterydance.org/) Festival, [Elektron Art](https://elektron.art/en/), [Emotibit](https://www.emotibit.com/), and [U.S. State Department Alumni TIES](https://alumni.state.gov/alumni-news/alumni-thematic-international-exchange-seminars-alumni-ties) / [World Learning](https://www.worldlearning.org/) for a remote and interactive live project that reimagines performance, with lockdown and isolation as catalysts during this time of Covid-19. 
 
 {% include image file='hussein-smko.jpg'
+   alt='Hussein Smko dancing'
    caption='Hussein Smko dancing on a Manhattan rooftop' %}
 
 We will be working with two incredible dancers from Battery Dance Company, Hussein Smko, and Razvan Stoian. During the performances, they will be wearing Emotibits, special wearable sensors that transmit biometric data in real-time. The dancers will perform in separate studio spaces while Art-A-Hackers create with them over a network in virtual spaces, or in ways yet to be imagined.
 
 {% include image file='emotibit.jpg'
+   alt='An EmotiBit device'
    caption='An EmotiBit device broadcasting data' %}
 
 We are calling upon artists, coders, sound designers, thinkers, and others to join us in this unique performance project, which will be the first-ever entirely remote edition of Art-A-Hack. The deadline for applications is Wednesday, June 24th. To [learn more and apply, visit Art-A-Hack's project page](https://artahack.io/summer-2020/call/).
@@ -67,6 +74,7 @@ Ellen presented her residency project AIBO at the [Starts Residencies Days](http
 
 {% include image file='aibo.png'
    link='https://www.youtube.com/watch?v=Yl8qLULEdwM'
+   alt='Youtube link to Ellen Pearlman’s AIBO Residency interview'
    caption='Ellen Pearlman’s AIBO Residency interview from STARTS Residencies Days in Paris' %}
 
 Ellen also presented a paper at the [New Media Caucus](http://bordercontrol.newmediacaucus.org/) (part of CAA - The College Art Association)  Symposium "Border Control"  at the Penny Stamps School of Art and Design at the University of Michigan, Ann Arbor, from September 19th to 22nd.
@@ -75,6 +83,7 @@ Ellen also presented a paper at the [New Media Caucus](http://bordercontrol.newm
 
 {% include image file='rethink-andy-mcwilliams.png'
    link='https://www.youtube.com/watch?v=nC9k6GiQpcc'
+   alt='Youtibe link to Andrew McWilliams and Nouf Alowaysir’s virtual talk'
    caption='Andrew McWilliams and Nouf Alowaysir’s virtual talk at ReThink Festival' %}
 
 **Andrew McWilliams** also presented *[Incubating Art & Technology Collaborations](https://www.youtube.com/watch?v=j4GdQDyT7ck)* at Thoughtworks Berlin in early March, where  Rachel Uma, founder of the [School of Machines, Making and Make-Believe](https://www.youtube.com/watch?v=Ik8RSxdVYLo) also spoke. In London, Andrew gave a talk on [*The origin of ClimateAction.tech*](https://www.youtube.com/watch?v=YEJ4Pu8c6bk) - an initiative he helped build to support and engage the entire tech sector in addressing the climate crisis.

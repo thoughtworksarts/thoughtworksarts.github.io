@@ -41,6 +41,7 @@ You can learn more about [CripTech and new residents Olivia Ting and Andy Slater
 Throughout the summer and fall of 2021, a diverse international cohort of artists, designers, technologists and makers created innovative artworks responding to the global climate emergency. Participants from Singapore, Switzerland, India and South Asia, Germany, and the United States were incubated by technology and art mentors, including ThoughtWorks Arts directors Andy McWilliams and Ellen Pearlman in partnership with BeFantastic (India/Singapore), Art-A-Hack and Thoughtworks Arts.
 
 {% include image file='befantastic-art-a-hack.jpg'
+   alt='A montage of BeFantastic projects'
    caption='An AI-generated visual montage representing artworks and themes explored within the program' %}
 
 On November 18th, team members presented a [virtual livestreamed showcase of collaborative artworks](https://befantastic.in/together/overview/) by program fellows, in a series of themed breakout rooms that examined: Climate Action, Cross Cultural Collaborations and Trans Disciplinary Practices. The projects can also be [explored in Augmented Reality](https://befantastic.in/together/) via an interactive AI-generated poster.

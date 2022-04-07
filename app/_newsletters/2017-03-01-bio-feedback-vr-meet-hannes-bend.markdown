@@ -5,6 +5,7 @@ Our latest artist-in-residence, [hannes bend](https://thoughtworksarts.io/bio/ha
 
 {% include image file='hannes.jpg'
    link='https://thoughtworksarts.io/bio/hannes-bend'
+   alt='Portrait of hannes bend'
    caption='hannes at an opening in Miami, USA' %}
 
 During his residency at Thoughtworks, hannes intends to extend the range of biosensors which can be used in the VR environment, and to develop the user experience of the program towards an aim of increasing personal awareness and mindfulness.
@@ -19,6 +20,7 @@ In addition to this, Heather had previously created [a unique DNA-based portrait
 
 {% include image file='suppressed-images.jpg'
    link='https://suppressedimages.net'
+   alt='Cover page of comic'
    class='no-border'
    caption='The cover page of <a href="http://suppressedimages.net/">suppressedimages.net</a>' %}
 
@@ -28,6 +30,7 @@ They named the story "Suppressed Images", a reference to the fact that Chelsea w
 
 {% include image file='heather-shoili.jpg'
    link='https://thoughtworksarts.io/projects/suppressed-images/'
+   alt='Icons of Heather Dewey-Hagborg and Shoili Kanungo'
    class='no-border'
    caption='Heather Dewey-Hagborg and Shoili Kanungo' %}
 
@@ -39,6 +42,7 @@ The Cyborg Foundation [joined us](https://thoughtworksarts.io/blog/introducing-c
 
 {% include image file='cyborg.jpg'
    link='https://thoughtworksarts.io/projects/'
+   alt='Icons of Neil Harbisson and Moon Ribas'
    class='no-border'
    caption='Neil and Moon experimenting with prototype \'exo-senses\'' %}
 

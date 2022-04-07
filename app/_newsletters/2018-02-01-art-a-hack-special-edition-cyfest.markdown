@@ -24,6 +24,7 @@ The teams have many exciting projects underway, including interacting with a hol
 During her work on Karen Palmer's RIOT project, Thoughtworks employee Stephanie Weber researched the [role AI is playing in the criminal justice system](https://thoughtworksarts.io/blog/artificial-intelligence-criminal-justice-system/). In Weber's write-up of the situation, she goes through topics of sentencing, risk of recidivism, and bias in automated systems, looking at the way AI is changing our perspectives on each topic.
 
 {% include image file='criminal-justice.jpg'
+   alt='A gavel on stylized background'
    caption='Image created by Stephanie Weber' %}
 
 Stephanie worked on Karen Palmer's residency project at Thoughtworks as a researcher and software developer during 2017.
@@ -34,6 +35,7 @@ Stephanie worked on Karen Palmer's residency project at Thoughtworks as a resear
 The Volumetric Society ran a series of panels at ThoughtWork NYC on the general theme of artificial intelligence and emotion. Speakers included Patrick Levy-Rosenthal, CEO of EmoShape, Aaron Trucola of Three Form, and filmmaker Noah Hutton.
 
 {% include image file='patrick.jpg'
+   alt='A person speaking to an audience'
    caption='Patrick Levy-Rosenthal presenting at Volumetric Society' %}
 
 Check out Patrick Levy-Rosenthal's presentation on [EmoShape](https://www.youtube.com/watch?v=nLpW_tL1TLU&list=PL8f-F_Zx8XA_aCgRgLeWblbuaLVsap7ET&index=1&t=50s), [The Digital Body: Giving Technology an Awareness of Form](https://www.youtube.com/watch?v=WbP1wUyjjJw&index=2&list=PL8f-F_Zx8XA_aCgRgLeWblbuaLVsap7ET) with Aaron Trocola, and [The Case Against Neural Normality](https://www.youtube.com/watch?v=IX0W3JYyeiQ&list=PL8f-F_Zx8XA_aCgRgLeWblbuaLVsap7ET&index=3) with Noah Hutton. 
@@ -46,6 +48,7 @@ If you are interested in joining the Volumetric Society, please sign up on our [
 [REFRESH](https://refreshart.tech/) is a new art collective dedicated to diversifying the art/tech/science world, co-founded by former TWA resident, Heather Dewey Hagborg. REFRESH is the first biennial exhibit of its kind, showcasing feminist, queer, de-colonial, and historically marginalized artists. 
 
 {% include image file='kiss-my-ars.png'
+   alt='A graphic showing the #KissMyArs campaign'
    caption='#KissMyArs Social Media Campaign Image' %}
 
 This initiative came about following the social media campaign, #KissMyArs, which Heather started in response to the gender problem perpetuated by the international arts and technology prize, the Golden Nika, awarded at the Ars Electronica festival annually. Heather co-authored a piece in the Guardian [explaining the rationale behind the #KissMyArs](https://www.theguardian.com/science/the-h-word/2016/sep/12/ars-electronica-festival-gender).
@@ -85,6 +88,7 @@ Thousand Oaks, CA
 January 19, 2018 - April 15, 2018  
 
 {% include image file='portrait.jpg'
+   alt='A face mask in a box'
    caption='New portrait print for \'Stranger Visions\' exhibition by Heather Dewey-Hagborg' %}
 
 [Unreal. The Algorithmic Present](http://www.chronusartcenter.org/en/unreal/)  
@@ -112,6 +116,7 @@ Fast Company
 Forbes  
 
 {% include image file='riot.jpg'
+   alt='A figure emerging from a fiery landscape'
    caption='RIOT by Karen Palmer' %}
 
 [Inside Out: Emotion, Witness and Self-awareness from Immersive Experiences](https://suppo.site/inside-out-emotion-witness-and-self-awareness-from-immersive-experiences-2ec8d1001a9f)  

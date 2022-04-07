@@ -4,6 +4,7 @@ title : "“h0t club” and Dilate Ensemble Awarded Thoughtworks Arts / CounterP
 We are pleased to announce the [Improvising the Net(Work) Residency](https://thoughtworksarts.io/open-call/2021-improvising-the-network/) has been jointly awarded to two creative collectives, h0t club and Dilate Ensemble.
 
 {% include image file='h0t-club-dilate-ensemble.jpg'
+   alt='Logos for h0t club and Dilate Ensemble'
    class='no-border' %}
 
 The two collectives will be in residence simultaneously at Thoughtworks Arts and CounterPulse, a leading performing arts incubator.
@@ -16,6 +17,7 @@ Both residencies are centered in downtown San Francisco. To comply with ongoing 
 _h0t club_ is a [psychedelic consumer-driven company](/bio/h0t-club/) of artist technologists and music makers performing the internet and beyond. The collective features Kate Bergstrom, Martim Galvão, Alex Dupuis, Todd Anderson, Miller Puckette and Bryan Jacobs.
 
 {% include image file='kate-bergstrom-martim-s-galvao-miller-puckette.jpg'
+   alt='Icons of Kate Bergstrom, Martim S. Galvão and Miller Puckette'
    caption='Kate Bergstrom, Martim S. Galvão and Miller Puckette'
    class='no-border' %}
 
@@ -27,6 +29,7 @@ _h0t club_ is a [psychedelic consumer-driven company](/bio/h0t-club/) of artist 
 Dilate Ensemble is an [audio-visual collective](https://www.dilateensemble.com/) featuring multimedia installation artist Carole Kim and musicians Gloria Damijan, Scott L. Miller, Luisa Muhr and Jon Raskin.
 
 {% include image file='dilate-ensemble.jpg'
+   alt='Icons of Gloria Damijan, Carole Kim, Scott L. Miller, Luisa Muhrand Jon Raskin'
    caption='Gloria Damijan, Carole Kim, Scott L. Miller, Luisa Muhrand Jon Raskin'
    class='no-border' %}
 
@@ -48,11 +51,13 @@ You can learn more about [h0t club and Dilate Ensemble in our announcement blog]
 [Ars Electronica's A New Digital Deal 2021 Festival](https://ars.electronica.art/newdigitaldeal/en/theme/) brought together Thoughtworks Arts director Ellen Pearlman, [CounterPulse](https://www.counterpulse.org/) director Julie Phelps, and [Zero1](https://zero1.org/) director Shamsher Virk for [Co-Creation Containers](https://ars.electronica.art/newdigitaldeal/en/co-creation-containers/) - a dynamic round-table discussion on building community by digital infrastructure.
 
 {% include image file='ars-electronica-1.jpg'
+   alt='A flyer for Ars Electronica'
    class='no-border' %}
 
 Ars Electronica is the largest and most time-honored new media arts festival in the world, going back more than thirty years. It was designed to take the Digital Revolution’s emergence as an opportunity to examine potential futures and to focus investigations at the intersection of art, technology, and society.
 
-{% include image file='ars-electronica-2.jpg' %}
+{% include image file='ars-electronica-2.jpg'
+   alt='A screenshot of the Ars Electronica presentation' %}
 
 *Co-creation Containers* took place on Thursday, September 9th as part of the festival’s online programming focused on digital humanity. Pearlman, Phelps, and Virk discussed how the climate crisis, international pandemic, and political polarization have challenged the limits of place, mobility, and infrastructure. All three panelists presented projects that show ways in which we can continue to create when borders are closed. 
 
@@ -64,7 +69,7 @@ The discussion progressed into sharing ideas on how we can build creative connec
 
 Mentors in our current [Art-A-Hack / BeFantastic program series](https://thoughtworksarts.io/blog/open-call-climate-action-artahack-befantastic/) presented on how art and technology can intervene in the climate crisis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-BtDWV5tkTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube id='-BtDWV5tkTM' %}
 
 Speakers include Thoughtworks Arts director Andrew McWilliams, and program mentors Meredith Thomas, Gene Kogan, Elly Cho, and Trishla Talera. The paneled event opened discussion between international creators on how to foster collaborative work geared towards the climate crisis.
 

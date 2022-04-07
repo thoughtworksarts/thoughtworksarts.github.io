@@ -5,7 +5,7 @@ title : "Rashin Fahandej Awarded Volumetric Filmmaking Residency"
 We are very pleased to welcome our newest resident Rashin Fahandej, an Iranian-American multimedia artist and filmmaker.
 
 {% include image file='rashin-fahandej.jpg'
-   alt='Rashin Fahandej'
+   alt='Rashin Fahandej in front of her work'
    caption='Rashin Fahandej standing in front of _A Father’s Lullaby_'
    link='https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/'
 %}
@@ -20,7 +20,6 @@ Rashin is currently a research fellow at MIT Open Documentary Lab and a visiting
 
 You can learn more about Rashin, her project, and our residency partner Scatter, in the [announcement blog post](https://thoughtworksarts.io/blog/rashin-fahandej-awarded-volumtric-filmmaking-residency/).
 
-
 ## Extension of The Open Call for The Democratization of Artificial Intelligence
 
 Thoughtworks Arts has extended the open call [The Democratization of Artificial Intelligence via Blockchain](https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/) until July 31, 2019.
@@ -28,7 +27,7 @@ Thoughtworks Arts has extended the open call [The Democratization of Artificial 
 Artists are invited to investigate the monopolization and centralization of artificial intelligence by a small number of corporate giants and state actors.
 
 {% include image file='closing.jpg'
-   alt='Radek Bet Closing Gate'
+   alt='A closing gate'
    caption='Image by [Redek Bet](https://www.flickr.com/photos/122499633@N02/15754112251/)'
    link='https://thoughtworksarts.io/open-call/2019-democratization-ai-blockchain/'
 %}

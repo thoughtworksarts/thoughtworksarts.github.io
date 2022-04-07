@@ -6,6 +6,7 @@ Join us for a discussion with Thoughtworks Arts Residents [Heather Dewey-Hagborg
 
 {% include image file='body-technology.jpg'
    link='http://www.meetup.com/volumetric/events/234274881/'
+   alt='Heather Dewey-Hagborg, Neil Harbisson and Moon Ribas'
    caption='The panel will be on Tuesday, October 11, 2016 - 6:30 PM to 9:30 PM<br>@ Thoughtworks, 99 Madison Ave., 15th Floor, New York, NY ([map](https://maps.google.com/maps?f=q&amp;hl=en&amp;q=99+Madison+Ave.%2C+15th+Floor%2C+New+York%2C+NY%2C+10016%2C+us"))' %}
 
 <!--excerpt-ends-->
@@ -18,7 +19,7 @@ During her time at Thoughtworks, Heather intends to begin a new body of work, cu
 
 {% include image file='face-masks.jpg'
    link='https://thoughtworksarts.io/blog/introducing-heather-dewey-hagborg/'
-   alt='Heather Dewey-Hagborg' %}
+   alt='Face masks on a gallery wall' %}
 
 Heather joins our current Artist Residents, the [Cyborg Foundation](http://www.cyborgfoundation.com/) (Neil Harbisson and Moon Ribas), as they continue their work creating new human senses with technology. Read more about their [projects](https://thoughtworksarts.io/blog/team-gets-started-on-research/) and [progress](https://thoughtworksarts.io/blog/cyborg-senses-weaving-materials/) on our blog.
 
@@ -32,7 +33,7 @@ We also created a 2-minute overview of Art-A-Hack 2016, including projects in VR
 
 {% include image file='art-a-hack.jpg'
    link='https://www.youtube.com/watch?v=l1hfv_GlvGg'
-   alt='Art-A-Hack 2016' %}
+   alt='Art-A-Hack 2016 overview video' %}
 
 We are happy to share good news from this year's teams following the Art-A-Hack sessions:
 

@@ -33,6 +33,7 @@ He has been making work for over twenty years, exhibiting at the International C
 Artist [Karen Palmer](https://thoughtworksarts.io/bio/karen-palmer/), whose work challenges the societal implications of A.I. by using immersive film installations was [featured in the March edition of WIRED UK](https://www.wired.co.uk/article/karen-palmer-racist-bias), both online and in print.
 
 {% include image file='karen-palmer.jpg'
+   alt='WIRED feature photo of Karen Palmer'
    caption='Feature photo of Karen Palmer. Credit - Hannah Starkey' %}
 
 The article highlights Karen's 2017 A.I. residency at Thoughtworks Arts where she worked with Thoughtworks employees to research algorithms and datasets. Based on this research, the team created [EmoPy, an open-source Facial Expression Recognition (FER) toolkit](https://thoughtworksarts.io/blog/emopy-emotional-expression-toolkit/) to help democratize access to the technology.
@@ -49,6 +50,7 @@ Perception iO became an integral [installation at the Coopper Hewitt Museum's ex
 On February 22nd, Ellen Pearlman’s new emotionally intelligent artificially intelligent brainwave opera _AIBO_ had its world premiere  at the Estonian Academy of Music’s [state of the art Black Box Theater](https://estonianworld.com/culture/the-estonian-academy-of-music-and-theatre-opens-a-new-concert-and-performance-centre/) in Tallinn.
 
 {% include image file='aibo.jpg'
+   alt='A woman with a suit of light'
    caption='Sniedze Strauta performing at the premiere. Photo - Taavet Jansen' %}
 
 The opera investigates Artificial Intelligence and its effects on both fascism and love. In the performance, human emotions are displayed on a bodysuit of light, and synthetic emotions display as red, yellow or green hues in the performance space.

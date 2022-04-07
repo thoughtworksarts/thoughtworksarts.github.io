@@ -21,6 +21,7 @@ Our panel proposal, _Take Back the Net(Work): Lockdown = Innovation_, is [availa
 
 {% include image file='vote-for-my-sxsw-panel-picker-2021.png'
    caption='Vote now for our Panel Picker proposal'
+   alt='Flyer for SXSW Panel Picker'
    link='/dancedemic-sxsw/' %}
 
 To support our panel application, [please vote now](https://panelpicker.sxsw.com/vote/107847). Every vote counts. This is your chance to help make sure these incredible stories of innovation and immigration are told as widely as possible. Voting ends November 20th!
@@ -32,6 +33,7 @@ To support us even further, please [share this page with your friends](/dancedem
 A new article by The New York Times, [Dances With Robots, and Other Tales From the Outer Limits](https://www.nytimes.com/2020/11/05/arts/dance/dance-and-artificial-intelligence.html), highlights work developed at Thoughtworks Arts by former robotics resident Catie Cuan, and also spotlights Art-A-Hack alum Kate Sicchio.
 
 {% include image file='catie-cuan.jpg'
+   alt='Catie Cuan with Rethink Robotics Baxter (big robot) and SoftBank Robotics NAO (small robot)'
    caption='Catie Cuan with Rethink Robotics Baxter (big robot) and SoftBank Robotics NAO (small robot) in “Time to Compile” Credit: Sam Berube' %}
 
 The article focuses on how Cuan's residency project [Output](/projects/output/) expands the possibilities of dance and our relationship to robots through movement.
@@ -47,10 +49,12 @@ The article also illustrated how Art-A-Hack alum [Kate Sicchio](https://www.sicc
 [California Arts Council](https://arts.ca.gov/) has awarded [Leonardo/ISAST](https://www.leonardo.info/) the [Innovations + Intersections Grant](https://arts.ca.gov/grant_program/innovations-intersections/) to support [CripTech Incubator](https://www.leonardo.info/Press-Release-Leonardo-CripTech-Incubator) - a new art-and-technology program that fosters disability innovation with Thoughtworks Arts as one of the grantee partners.
 
 {% include image file='leonardo.jpg'
+   alt='Logo for Leonardo'
    link='https://www.leonardo.info/'
    class='no-border' %}
 
 {% include image file='california-arts-council.png'
+   alt='Logo for California Arts Council'
    link='https://arts.ca.gov/'
    class='no-border' %}
 
