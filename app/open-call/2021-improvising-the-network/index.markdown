@@ -9,6 +9,7 @@ image       : /images/posts-special/open-call/2021-improvising-the-network/count
 Thoughtworks Arts, a global technology research lab, and CounterPulse, an experimental and interdisciplinary dance and performance space in San Francisco are partnering to launch a new artistic residency opportunity working with a customizable network on-site at CounterPulse’s facility in downtown San Francisco. The artist stipend will be $11,000.
 
 {% include image file='counterpulse-sf.jpg'
+	alt='The CounterPulse building from outside'
    caption='CounterPulse’s neon sign lighting, Scott Finn, 2016' %}
 
 We seek an artist/technologist or collective working with the possibilities of a customizable network environment as material, concept, and collaborator, together with the creative community affiliated with CounterPulse. Currently, network topology is dominated by big tech/communication global conglomerates. What happens when an artist/creator(s) moves beyond established platforms, creating decentralized or never before imagined structures for building distributed yet connected environments?  What is possible when the body, interconnectivity, visual and audio parameters, and liveness are brought together in new ways? Particular attention will be paid to creations that refrain from using readily available technologies and their vendors, and instead focus on putting the network back into the hands of artists free from the restraint of over mediated solution providers.
