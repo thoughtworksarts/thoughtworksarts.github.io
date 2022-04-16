@@ -3,10 +3,10 @@
 		<figure>
 			{% if group_members.size == 2 or group_members.size == 3 %}
 				{% for member in group_members %}
-					<a href="{{ member.url }}" aria-label="Profile image of {{ person.name }}"><img src="/images/people/{{ member.photo }}" aria-hidden="true" /></a>
+					<a href="{{ member.url }}" aria-label="Profile image of {{ person.name }}"><img src="/images/people/{{ member.photo }}"aria-hidden="true" alt="{{ person.name }}" /></a>
 				{% endfor %}
 			{% else %}
-				<a href="{{ person.url }}" aria-label="Profile image of {{ person.name }}"><img src="/images/people/{{ person.photo }}" aria-hidden="true" /></a>
+				<a href="{{ person.url }}" aria-label="Profile image of {{ person.name }}"><img src="/images/people/{{ person.photo }}" aria-hidden="true" alt="{{ person.name }}" /></a>
 			{% endif %}
 		</figure>
 	</div>
