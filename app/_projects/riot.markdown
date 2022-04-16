@@ -3,7 +3,10 @@ title       : RIOT
 type        : residency
 season      : Winter 2018
 
-description : An interactive film experience which positions viewers in a riot in progress. The narrative branches based on viwere's emotional facial expressions.
+description : An interactive film experience which positions viewers in a riot in progress. The narrative branches based on viewer's emotional facial expressions.
+
+thumb-alt   : A man seen from behind watching a largw screen with riot police depicted on it
+
 image       : /images/projects/riot/og.jpg
 
 artist      : Karen Palmer

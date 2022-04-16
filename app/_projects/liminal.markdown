@@ -3,7 +3,9 @@ title       : liminal
 type        : affiliate
 season      : Spring 2021
 
-description : Video work exploring industrial robotics and human movement through the lens of choreography, in furtherance of the OUTPUT research project
+description : Video work exploring industrial robotics and human movement through the lens of choreography, in furtherance of the OUTPUT research project.
+
+thumb-alt   : A woman in a dark room looking up at a large industrial robot
 
 image       : /images/projects/liminal/og.jpg
 

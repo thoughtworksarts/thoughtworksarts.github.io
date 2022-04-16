@@ -5,6 +5,8 @@ season      : Summer 2019
 
 description : An interactive multi-channel video and sound installation highlighting the role of men in raising children and their absence due to the racial disparities in the criminal justice system.
 
+thumb-alt   : A man rendered as a point cloud
+
 image       : /images/projects/a-fathers-lullaby/og.jpg
 
 artist      : Rashin Fahandej

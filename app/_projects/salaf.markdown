@@ -5,6 +5,8 @@ season      : Summer 2020
 
 description : A collection of synthetically generated images and animations constructing Nouf Aljowaysir’s genealogical journey in the Middle East
 
+thumb-alt   : A grid of small black and white profile images
+
 image       : /images/projects/salaf/og.jpg
 
 artist      : Nouf Aljowaysir

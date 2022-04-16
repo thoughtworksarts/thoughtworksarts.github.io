@@ -4,6 +4,9 @@ type        : residency
 season      : Fall 2016
 
 description : A graphic short story that documents a collaboration between Chelsea Manning and Heather Dewey-Hagborg on the artwork Radical Love.
+
+thumb-alt   : Chelsea Manning depicted as in cartoon form
+
 image       : /images/projects/suppressed-images/og.jpg
 
 artist      : Heather Dewey-Hagborg

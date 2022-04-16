@@ -3,7 +3,9 @@ title       : Birds of the British Empire
 type        : residency
 season      : Summer 2020
 
-description : A synthetic aviary, dissecting the mindset of empire by training Generative Adversarial Networks on British colonial archives
+description : A synthetic aviary, dissecting the mindset of empire by training Generative Adversarial Networks on British colonial archives.
+
+thumb-alt   : A small bird with two heads
 
 image       : /images/projects/birds-of-the-british-empire/og.jpg
 

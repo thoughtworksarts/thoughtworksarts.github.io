@@ -5,6 +5,8 @@ season      : Fall 2018
 
 description : A film exploring attributions of sentience to robots, by humans, as a feature of the Fourth Industrial Revolution, featuring the expressive, spider-like Mekamon robot.
 
+thumb-alt   : A small spider-like robot in black and white
+
 image       : /images/projects/sentient-thespian/og.jpg
 
 artist      : Adrianne Wortzel

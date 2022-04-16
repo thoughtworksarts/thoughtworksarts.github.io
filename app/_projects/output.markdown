@@ -5,6 +5,8 @@ season      : Fall 2018
 
 description : A performance project including dance, motion capture and choreographed robots including a 15 foot industrial robot nicknamed _Wen_, as a method of sourcing movement and character.
 
+thumb-alt   : A woman facing forward looking at a phone with a large industrial robot behind her
+
 image       : /images/projects/output/og.jpg
 
 artist      : Catie Cuan

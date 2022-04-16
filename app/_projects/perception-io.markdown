@@ -4,6 +4,9 @@ type        : affiliate
 season      : Winter 2019
 
 description : An immersive interactive film project exploring AI, bias, neuroscience, behavioral psychology, film, social justice, and the future of law enforcement.
+
+thumb-alt   : A black man in a defensive posture with a finger pointed toward them
+
 image       : /images/projects/perception-io/og.jpg
 
 artist      : Karen Palmer

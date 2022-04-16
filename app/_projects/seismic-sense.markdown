@@ -4,6 +4,9 @@ type        : residency
 season      : Summer 2016
 
 description : A wearable sensory organ which allows the wearer to feel earthquakes and other seismic activity occurring anywhere in the world.
+
+thumb-alt   : A woman's foot with electronics laid out over top
+
 image       : /images/projects/seismic-sense/og.jpg
 
 artist      : Moon Ribas

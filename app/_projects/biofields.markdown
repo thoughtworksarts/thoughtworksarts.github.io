@@ -5,6 +5,8 @@ season      : Winter 2017
 
 description : An open-source framework combining biosensors with custom volumetric and interval arithmetic simulations to interactively model the feeling of energy around the body.
 
+thumb-alt   : A 3D outline of a meditating person with a glow in their heart
+
 image       : /images/projects/biofields/heart-chakra.jpg
 
 artist      : hannes bend

@@ -4,6 +4,9 @@ type        : residency
 season      : Summer 2016
 
 description : A wearable sensory headband which allows the wearer to feel the passing of the 24-hour clock around the circumference of the head.
+
+thumb-alt   : A man seen from the side with wires coming from a headband he is wearing
+
 image       : /images/projects/time-sense/og.jpg
 
 artist      : Neil Harbisson
