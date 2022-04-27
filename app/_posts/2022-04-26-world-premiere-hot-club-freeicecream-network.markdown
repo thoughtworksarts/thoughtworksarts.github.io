@@ -12,7 +12,7 @@ _h0t club_, featuring Miller Puckette (author of PureData), Kate Bergstrom, and 
 
 The World Premiere will feature the three human performers and three robots throughout a 25 minute experience. The livestream showing at 9pm (PDT) midnight (EST) on Saturday, May 7th invites audiences from the comfort of their homes. Regrettably, only in-person audiences will receive free ice cream as part of the show.
 
-## Reserve tickets now to attend
+## Reserve tickets now to attend:
 
 There are two ways to attend the _h0t club_ performance, either online via livestream or in person:
 
