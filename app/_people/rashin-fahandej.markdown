@@ -4,8 +4,8 @@ occupation    : Artist
 participation : Resident
 season        : Summer 2019
 teaser        :
-   <p>Rashin Fahandej is an Iranian-American multimedia artist and filmmaker. Her projects center on marginalized voices, and the role of media, technology, and public collaboration in generating social change.</p>
-   <p>Rashin is a research fellow at MIT Open Documentary Lab and the 2019 Mass Cultural Council Artist Fellow, a 2018 Public Art Resident at Boston Center for the Arts and a recipient of the Audrey Foster Prize.</p>
+   <p>Rashin Fahandej is an Iranian-American multimedia artist, independent filmmaker and assistant professor of emerging and interactive media at Emerson College.</p>
+   <p>A proponent of “Art as Ecosystem,” she defines her projects as “Poetic Cyber Movement for Social Justice,” where art mobilizes a plethora of voices by creating connections between public places and virtual spaces.</p>
 
 links:
  - icon    : "fa-globe-americas"
@@ -59,10 +59,12 @@ links:
    url     : ""
 
 ---
-Rashin Fahandej is an Iranian-American multimedia artist and filmmaker. Her projects center on marginalized voices, and the role of media, technology, and public collaboration in generating social change. A proponent of “Art as Ecosystem,” Rashin defines her projects as “Poetic Cyber Movement for Social Justice,” where art mobilizes a plethora of voices by creating connections between public places and virtual spaces.
+Rashin Fahandej is an Iranian-American multimedia artist, independent filmmaker and assistant professor of emerging and interactive media at Emerson College. Her projects center on marginalized voices and the role of media, technology, and public collaboration in generating social change. A proponent of “Art as Ecosystem,” she defines her projects as “Poetic Cyber Movement for Social Justice,” where art mobilizes a plethora of voices by creating connections between public places and virtual spaces. She is the founder of “A Father’s Lullaby, “ a multi-platform, co-creative project that highlights the role of men in raising children and their absence due to racial disparities in the criminal justice system. Marginalia, a series of poetic documentaries about Baha’i immigrants of Iranian descent, narrates a historical persecution in their homeland.
 
-Rashin is the founder of *A Father’s Lullaby*, a multi-platform, co-creative project that highlights the role of men in raising children and their absence due to racial disparities in the criminal justice system. *Marginalia*, a series of poetic documentaries about Baha’i immigrants of Iranian descent, narrates a historical persecution in their homeland.
+She has served as an artistic director of the Rebuilding the Gwozdziec Synagogue at POLIN Museum of the History of Polish Jews, 2017 Boston Artist-In-Residence with the Mayor’s Office of Art and Culture and 2018 Public Art Resident at Boston Center for the Arts. Fahandej is the 2019 Mass Cultural Council Artist Fellow, Volumetric Filmmaking resident at ThoughtWork Arts and Scatter VR,  Framingham Cultural Council award recipient, 2019 recipient of the James and Audrey Foster Prize, and her  immersive and interactive installation was on view at the Institute of Contemporary Arts in Boston,  August through December of 2019.  Fahandej was 2020 American Arts Incubator Lead Artist at ZERO1 and the U.S. Department of State’s Bureau of Educational and Cultural Affairs.
 
-Rashin has served as an artistic director of the Rebuilding the Gwozdziec Synagogue at POLIN Museum of the History of Polish Jews, 2017 Boston Artist-In-Residence with Mayor’s office of art and culture and 2018 Public Art Resident at Boston Center for the Arts. She is a research fellow at MIT Open Documentary Lab and the 2019 Mass Cultural Council Artist Fellow and Artist in Residence at ThoughtWork Arts.
+As a 2020 lead artist at American Arts Incubator-Austria Fahandej launched “Future of Inclusion Lab” in partnership with Ars Electronica. Future of Inclusion Lab is an experimental laboratory to incubate ideas and project prototypes that aim for collective and radical imaginations of our social systems; a virtual program and an ongoing incubator centred on art, emerging technology, and community co-creation as collective tools to address local and global social justice challenges. During the one-month virtual incubator, four project prototypes were developed by four teams that were presented at 2020 Ars Electronica Festival.
 
-*A Father’s Lullaby* has been awarded the [Prix Ars Electronica Award of Distinction in Digital Music and Sound Art](https://thoughtworksarts.io/blog/rashin-fahandej-award-of-distinction-ars-electronica/), the [James and Audrey Foster prize](https://www.icaboston.org/exhibitions/2019-james-and-audrey-foster-prize), and was [exhibited at the Institute for Contemporary Arts (ICA)](https://thoughtworksarts.io/blog/institute-contemporary-arts-biennal-exhibits-rashin-fahandej-boston/) on the Boston waterfront Aug 21 – Dec 31, 2019.
+At Emerson College, Fahandej has launched a pioneering initiative.  In partnership with the Nurturing Fatherhood Program at the Federal Probation Office in Boston, her course brings together students, formerly incarcerated fathers, and parole officers to co-create personal documentary films using VR and 360° technology.
+
+A Father's Lullaby is the recipient of [Prix Ars Electronica Festival 2021 Award of Distinction in Digital Musics & Sound Art](/blog/rashin-fahandej-award-of-distinction-ars-electronica/).

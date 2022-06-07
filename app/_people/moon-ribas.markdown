@@ -52,12 +52,6 @@ links:
    url     : ""
 
 ---
-Moon Ribas is a Catalan contemporary choreographer and the co-founder of the [Cyborg Foundation](/bio/cyborg-foundation/), an international organization that aims to help people become cyborgs, defend cyborg rights and promote cyborgism as an artistic and social movement.
+Moon Ribas is a Catalan avant-garde artist and cyborg activist best known for developing the [Seismic Sense](/projects/seismic-sense/), an online seismic sensor that allows her to perceive earthquakes taking place anywhere in the planet through vibrations in real time. In order to share her experience, she then translates her seismic sense on stage. Ribas transposes the earthquakes into either sound, in her piece Seismic Percussion; or dance, in Waiting For Earthquakes. In these performances the Earth is the composer and the choreographer; and Ribas, the interpreter.
 
-Moon graduated in Choreography at Dartington College of Arts (England), and studied at Theatreschool of Amsterdam SNDO (School for New Dance Development).
-
-Since 2007 Moon has been experimenting with different cybernetic devices that allow her to perceive movement in a deeper way. Moon's main research consists in developing the seismic sense, perceiving the movement of real-time earthquakes all around the world.
-
-In the piece *Waiting for Earthquakes*, Moon stands on stage waiting for a sensation of any global seismic activity. This activity actually occurs in small scales very frequently, and when Moon senses an earthquake she moves, responding to the intensity and duration of the quake.
-
-Ribas has performed and given talks in several venues and festivals such as TedxMunich (Germany), TedxMuscat (Oman), Campus Party London (UK), Fierce Fest (UK) or TNT (Festival of New Trends, Spain).
+Ribas’ seismic sense also has allowed her to feel moonquakes, the seismic activity on the Moon. Ribas believes that by extending our senses to perceive outside the planet, we can all become senstronauts. Adding this new sense allowed her to be physically on Earth while her feet felt the Moon, so in a way, she could be on Earth and space at the same time.

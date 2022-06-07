@@ -52,10 +52,8 @@ links:
    url     : ""
 
 ---
-Neil Harbisson is a Catalan-raised, British-born contemporary artist and cyborg activist best known for having an antenna implanted in his skull and for being officially recognized as a cyborg by a government.
+Neil Harbisson is a Catalan-raised, British-born contemporary artist and cyborg activist best known for having an antenna implanted in his skull and for being officially recognized as a cyborg by a government. The antenna allows him to perceive visible and invisible colors via audible vibrations in his skull including infrareds and ultraviolets as well as receive colors from space, images, videos, music, or phone calls directly into his head via internet connection.
 
-The antenna allows him to perceive visible and invisible colors such as infrareds and ultraviolets via sound waves. The antenna’s internet connection allows him to receive colors from space as well as images, videos, music or phone calls directly into his head via external devices such as mobile phones or satellites.
+Harbisson identifies himself both as a cyborg; he feels he is technology, and as a transspecies; he no longer feels 100% human. His artwork explores identity, human perception, the connection between sight and sound, and the use of artistic expression via new sensory inputs.
 
-Harbisson’s artworks investigate the relationship between color and sound, experiment the boundaries of human perception and explore the use of artistic expression via sensory extensions.
-
-In 2010 he co-founded the [Cyborg Foundation](/bio/cyborg-foundation/) with Moon Ribas, an international organization that aims to help humans become cyborgs, defend cyborg rights and promote cyborgism as a social and artistic movement.
+In 2010 he co-founded the [Cyborg Foundation](/bio/cyborg-foundation/) with Moon Ribas, an international organization that aims to help humans become cyborgs, defend cyborg rights and promote cyborg art. In 2017 he co-founded the Transpecies Society, an association that gives voice to people with non-human identities defends the freedom of self-design, and offers the creation of new senses and new organs in community.

@@ -4,8 +4,8 @@ occupation    : Artist
 participation : Resident
 season        : Fall 2018
 teaser        :
-   <p>Catie Cuan is a performer, choreographer, filmmaker, and technologist. She is interested in the physical manifestations of digital identities and the friction between discrete structures and qualitative human phenomena.</p>
-   <p>Performances of her work include the Ferst Center (Atlanta), MOCO (Genoa), CODAME (San Francisco), and Joe's Pub/Dance NOW (New York). Catie is a 2018 TED Resident and the Artist-in-Residence at the Robotics, Automation, and Dance (RAD) Lab at the University of Illinois.</p>
+   <p>Catie Cuan is a dancer, choreographer, and researcher whose artistic and research work focuses on dance and robotics.</p>
+   <p>She is a TED Resident, Artist-in-Residence at the Robotics, Automation, and Dance Lab at the University of Illinois at Urbana-Champaign and the inaugural Artist-in-Residence for the Everyday Robots Project at X, formerly Google X, the moonshot factory.</p>
 
 order-within-season: 2
 
@@ -61,8 +61,12 @@ links:
    url     : ""
 
 ---
-Catie Cuan is a performer, choreographer, filmmaker, and technologist. She is interested in the physical manifestations of digital identities and the friction between discrete structures and qualitative human phenomena.
+Catie Cuan is a dancer, choreographer, and researcher. Catie is currently a PhD Candidate in the Mechanical Engineering department at Stanford University, where she recently completed a Master’s of Science in Mechanical Engineering in Spring, 2020. Her artistic and research work focuses on dance and robotics.
 
-Catie is a 2018 TED Resident and the Artist-in-Residence at the Robotics, Automation, and Dance (RAD) Lab at the University of Illinois at Urbana-Champaign. Her collaboration with the RAD Lab and Director Amy LaViers has resulted in numerous publications, a commercialization avenue, and a performance work, titled "Time to Compile". Previous and upcoming performances of "Time to Compile" include the Ferst Center (Atlanta), MOCO (Genoa), CODAME (San Francisco), the Conference for Research on Choreographic Interfaces (Providence), Biennial Symposium (New London), and Joe's Pub/Dance NOW (New York). Elements of this work have been funded by the National Science Foundation, resulting in an early experimental model of a simultaneous performance work and human-robot interaction study.
+She is a 2018 TED Resident, 2018 ThoughtWorks Arts Resident, and the 2017-2018 Artist-in-Residence at the Robotics, Automation, and Dance Lab at the University of Illinois at Urbana-Champaign. She is currently the inaugural Artist-in-Residence for the Everyday Robots Project at X, formerly Google X, the moonshot factory.
 
-She has performed with the Metropolitan Opera, Lyric Opera of Chicago, and in numerous Off-Broadway projects.
+Catie has danced with the Metropolitan Opera Ballet, the Lyric Opera of Chicago, Lisa Bielawa/Charlie Otte, Gateway Playhouse, CATAPULT Entertainment, Clare Cook, and Katherine Helen Fisher, among others, in addition to two Off-Broadway productions and the lead role of the Firebird in The Acadiana Symphony Orchestra's production of Stravinsky's The Firebird.
+
+Catie is part of the inaugural class of AAAS IF/THEN Ambassadors, an initiative to bring more visibility to women in STEM. Her work has been featured in the New York Times, the PBS Newshour, CBS’ Mission Unstoppable, Engadget, Stanford Magazine, Science Magazine, Forbes, and in a TED Talk, titled “Teaching Robots How to Dance”.
+
+In addition to her performing career, her passion for technology is evidenced by her previous work experience at large technology and consulting companies.  Catie co-founded caali, an embodied media company, with initial funding from the National Science Foundation. She was Vice President at Color + Information, a digital and video agency in Brooklyn, NY, and the Digital Expert at Gaynor Minden. A native Californian, she graduated with High Honors from UC Berkeley and was a visiting student at the University of Oxford. Her research work receives support from the Stanford Mechanical Engineering Departmental Fellowship and the National Institutes of Health Biotechnology Training Fellowship.

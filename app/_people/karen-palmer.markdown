@@ -5,7 +5,7 @@ participation : Resident
 season        : Fall 2017
 teaser        :
    <p>Karen Palmer is a London-based digital filmmaker and storyteller working with Artificial Intelligence. Her immersive films combine the genres of film, gaming, art, science and technology.</p>
-   <p>Her work has been honored as part of the Digital Dozen Break Throughs in Storytelling 2016, and exhibited at the V&A Museum London, Museum of Modern Art Peru and The Future of Storytelling Festival NY.</p>
+   <p>Karen is a respected international public speaker on New Tech and Storytelling as she shares her vision for the future media which she sees is Gaming, Film, Consciousness and Technology.</p>
 
 links:
  - icon    : "fa-globe-americas"
@@ -59,10 +59,10 @@ links:
    url     : ""
 
 ---
-Karen Palmer is a London-based digital filmmaker and storyteller, whose immersive films combine the genres of film, gaming, art, science and technology.
+Karen Palmer is the Storyteller from the Future. She is an Award Winning International Artist and Public Speaker. She speaks about her emotionally responsive film experiences at the intersection of AI, Immersive Storytelling, Neuroscience, Consciousness and Implicit Bias. Past topics include:- AI Voyage: Can Conscious Storytelling Save Us? Implicit bias. Democratising AI. The Future of Storytelling. How Art & Tech have the power to change your Cognitive Behaviour. How Storytelling effects the reality narrative.
 
-Her work has been honored as part of the Digital Dozen Break Throughs in Storytelling 2016, and exhibited at the V&A Museum London, Museum of Modern Art Peru, The Future of Storytelling Festival NY and The Festival of the Mind Sheffield. Karen has presented her ideas at <a href="https://www.youtube.com/watch?v=NIpeUdKK2-4">TEDx Australia</a> at the Sydney Opera House.
+Her latest installation is Perception iO (Input Output), the pioneering new Law Enforcement Artificial Intelligence and Robotics System. Your perception (constructed from your emotional response and eye gaze) and your potential bias will become the training data for the Artificial Intelligence system. Currently on exhibition at Cooper Hewitt Museum.
 
-Karen's prototype 'RIOT' is an emotionally responsive, live-action film, which uses A.I. and Machine Learning through facial recognition to allow viewers to navigate though a dangerous riot in progress. The film's narrative changes in real-time in response to subtle changes in each viewer's reaction to events.
+The previous project RIOT prototype with Facial Emotional Detection premiered at Festival of The Mind then The Future of Storytelling New York, V&A Museum London, PHI Centre Montreal, SXSW Austin, The Museum of Modern Art Peru to name just a few. RIOT received great reviews including the New York Times and extensive articles in NBC, The Guardian and an article on CBS News TV. The RIOT prototype was honoured as part of the Digital Dozen Break Throughs in Storytelling 2017. Columbia DSL acknowledged the most innovative approaches to Narrative in the industries of art, entertainment, journalism and marketing.
 
-The project went on to be featured by global broadcasters including <a href="http://newyork.cbslocal.com/2017/06/16/impulse-response/">CBS</a>, <a href="https://www.theguardian.com/science/blog/2017/mar/29/its-a-riot-the-stressful-ai-simulation-built-to-understand-your-emotions">Guardian</a>, <a href="https://www.fastcompany.com/3066396/this-film-lets-you-know-how-you-would-handle-yourself-in-a-riot">Fast Company</a>, <a href="http://www.nbcnews.com/tech/security/facial-recognition-technology-raises-privacy-concerns-n676836">NBC</a> and the <a href="https://www.nytimes.com/2016/10/02/nyregion/storytelling-in-the-virtual-age-at-fost-fest.html">New York Times</a>.
+Karen is a respected international public speaker on New Tech and Storytelling as she shares her vision for the future media which she sees is Gaming, Film, Consciousness and Technology. She has been invited to the Google Cultural Institute in Paris to talk about her work and has been a TEDx Australia Speaker at the Sydney Opera House. Her talk on the future of gaming, film and technology titled “Your Brain is a Remote Control” was a TEDx Australia highlight. She is often to be keynote speakers at events such as The Netherlands Film Festival and ZKM Living Amongst Intelligent Machines AI Conference in Germany. Commissions include the 2012 London Olympics Cultural Lead and an HBO Award nominations at Filmteractive Festival in Poland.
