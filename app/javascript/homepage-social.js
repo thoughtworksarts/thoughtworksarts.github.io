@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var texts;
 	var numPostsRequested = 50;
-	var numPostsRequired = 12;
+	var numPostsRequired = 9;
 	var countSetupAttempts = 20;
 	var maxSetupAttempts = 30;
 	var setupAttemptInterval = 250;
