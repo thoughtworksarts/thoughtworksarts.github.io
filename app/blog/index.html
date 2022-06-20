@@ -18,7 +18,7 @@ description : News and posts from the Thoughtworks Arts community, including pos
 		{% for post in paginator.posts %}
 		<article role="article">
 			<header>
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
 				{% include news/blog-attribution.html %}
 			</header>
 			<div class="text">

@@ -25,8 +25,18 @@
 			cursor: default;
 			width: 100%;
 			transition: border 0.16s ease-out;
-			font-family: $inter;
 			text-transform: inherit;
+		}
+
+		a {
+			text-decoration: none;
+
+			>h1 {
+				cursor: pointer;
+			  font-family: $inter;
+				font-size: $h1-anchor-font-size;
+				line-height: $smallest_lineheight;
+			}
 		}
 	}
 

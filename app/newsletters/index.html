@@ -19,7 +19,7 @@ description: Subscribe to the Thoughtworks Arts newsletter to keep up to date wi
 		{% for newsletter in paginator.posts %}
 			<article role="article">
 				<header>
-					<h1><a href="{{ newsletter.url }}">{{ newsletter.title }}</a></h1>
+					<a href="{{ newsletter.url }}"><h1>{{ newsletter.title }}</h1></a>
 					{% include news/newsletter-date.html %}
 				</header>
 				<div class="text">
