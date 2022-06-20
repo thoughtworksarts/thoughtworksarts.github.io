@@ -49,10 +49,10 @@
     default-src 'none';
     connect-src 'self' api.curator.io;
     base-uri    'self';
-    img-src     'self'                 data:                                                cdn.cookielaw.org img.youtube.com curator-assets.b-cdn.net *.fbcdn.net *.twimg.com *.twitter.com;
-    script-src  'self' 'unsafe-inline' 'unsafe-eval'                                        cdn.cookielaw.org code.jquery.com *.twitter.com;
-    style-src   'self' 'unsafe-inline' use.fontawesome.com cdn.curator.io fonts.gstatic.com cdn.cookielaw.org fonts.googleapis.com hello.myfonts.net;
-    font-src    'self'                 use.fontawesome.com cdn.curator.io fonts.gstatic.com;
+    img-src     'self'                 data:                              cdn.cookielaw.org img.youtube.com curator-assets.b-cdn.net *.fbcdn.net *.twimg.com *.twitter.com;
+    script-src  'self' 'unsafe-inline' 'unsafe-eval'                      cdn.cookielaw.org code.jquery.com *.twitter.com;
+    style-src   'self' 'unsafe-inline' use.fontawesome.com cdn.curator.io cdn.cookielaw.org fonts.googleapis.com static.thoughtworks.com;
+    font-src    'self'                 use.fontawesome.com cdn.curator.io                                        static.thoughtworks.com;
     frame-src   *.vimeo.com *.youtube.com *.twitter.com;
     form-action tinyletter.com">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,8 +71,6 @@
   {% endunless %}
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.curator.io/3.1/css/curator.css"/>
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <!-- build:css({app,.tmp}) /stylesheets/style.css -->

@@ -6,7 +6,7 @@
 		flex-flow: row;
 
 		.when {
-			font-family: $bebas;
+			font-family: $bitter;
 			font-weight: bold;
 			color: $grey-mid;
 			font-size: $expo-when-font-size;
@@ -88,11 +88,11 @@
 				h2 {
 					margin: 0.75rem 0;
 					font-size: $p-font-size;
-					font-family: $open-sans;
+					font-family: $inter;
 					text-transform: none;
 
 					a {
-						font-family: $open-sans;
+						font-family: $inter;
 						text-transform: none;
 					}
 				}
@@ -273,7 +273,7 @@
 
 			h2, h2 a {
 				font-size: $p-font-size;
-				font-family: $open-sans;
+				font-family: $inter;
 				text-transform: none;
 			}
 
