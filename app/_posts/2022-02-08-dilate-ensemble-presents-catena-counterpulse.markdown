@@ -1,5 +1,6 @@
 ---
 title  : "Dilate Ensemble Presents CATENA at CounterPulse: Livestream"
+tags   : catena
 ---
 As part of the Improvising the Net(Work) residency in partnership with [CounterPulse](https://counterpulse.org/), residents Dilate Ensemble presented *CATENA* on January 13th and 14th. This hybrid audio-visual performance took place both live online and in-person.
 

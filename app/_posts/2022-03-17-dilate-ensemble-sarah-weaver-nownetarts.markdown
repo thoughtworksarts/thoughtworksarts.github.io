@@ -1,5 +1,6 @@
 ---
 title  : "Dilate Ensemble and Sarah Weaver of NowNetArts: In Conversation"
+tags   : catena
 ---
 Dilate Ensemble joined special guest [Sarah Weaver](https://www.sarahweaver.org/), Director of [NowNetArts](https://nownetarts.org/) (NY), for a conversation in the  field of network arts. This event was part of the "Improvising the Net(Work)" residency in partnership with [CounterPulse](https://counterpulse.org/).
 
