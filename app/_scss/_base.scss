@@ -39,7 +39,7 @@ a.attention {
 
 p, ul, ol, .progress, blockquote {
 	font-size: $p-font-size;
-	letter-spacing: $large_spacing;
+	letter-spacing: 0;
 	line-height: $small_lineheight;
 	padding: 0.9em 0;
 }

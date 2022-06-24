@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	background: transparent;
 	color: $black;
-	letter-spacing: 0.03em;
+	letter-spacing: 0;
 }
 
 html, body, div, span, object, iframe,
@@ -39,6 +39,8 @@ article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
 	font-family: $inter;
+	font-weight: 360;
+	line-height: 1.5;
 }
 
 
