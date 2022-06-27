@@ -7,11 +7,11 @@
 }
 
 .projects, .projects>* {
-	color: $green;
+	color: $yellow;
 }
 
 .blog, .blog>* {
-	color: $yellow;
+	color: $green;
 }
 
 
@@ -34,7 +34,7 @@
 
 	ul.projects li {
 		a:hover span, h1 span {
-			color: $green;
+			color: $yellow;
 		}
 	}
 
