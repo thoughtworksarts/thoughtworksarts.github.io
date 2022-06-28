@@ -59,17 +59,19 @@ grunt deploy
    Image with caption, link and alt text:
    
          {% include image file='image.jpg'
-            caption='Image Caption and Alt Text'
+            caption='Image Caption'
+            alt='Alt Text'
             link='https://www.link.org/' %}
 
    Image with alt text only:
    
          {% include image file='image.jpg'
-            alt='Alt Text Only' %}
+            alt='Alt Text' %}
 
    Image with display border hidden:
 
          {% include image file='image.jpg'
+            alt='Alt Text'
             class='no-border' %}
 ```
 
