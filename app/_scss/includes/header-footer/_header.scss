@@ -85,7 +85,7 @@ body.site-banner.landing-page {
 	}
 
 	.strap {
-		position: absolute; bottom: -0.2em; right: -3.95em;
+		position: absolute; top: 3.35rem; right: -7.9rem;
 		font-style: italic;
 		color: $grey-dark;
 	}
@@ -207,7 +207,7 @@ body.site-banner.landing-page {
 		}
 
 		.strap {
-			right: -4.15em;
+		  right: -8.4rem; top: 3rem;
 		}
 	}
 }
@@ -222,7 +222,7 @@ body.site-banner.landing-page {
 		}
 
 		.strap {
-			right: -4.25em;
+
 		}
 
 		.navigation {
@@ -249,6 +249,10 @@ body.site-banner.landing-page {
 
 			ul {
 				display: none;
+
+				li a span {
+					font-size: $header-navigation-font-size-popout;
+				}
 			}
 		}
 
