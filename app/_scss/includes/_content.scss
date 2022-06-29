@@ -154,16 +154,18 @@ body:not(.home-page) {
 
 						span {
 							position: relative;
-							top: 5px;
 							font-family: $bitter;
 							font-size: $h1-font-size;
-							text-transform: uppercase;
 							font-weight: bold;
 						}
 					}
 
 					h1 {
 						background: $white;
+
+						span {
+							top: 5px;
+						}
 					}
 
 					a {
@@ -172,6 +174,8 @@ body:not(.home-page) {
 
 						span {
 							transition: all 0.32s ease-out;
+							top: 10px;
+							font-size: 1.75rem;
 						}
 					}
 
