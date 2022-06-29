@@ -1,34 +1,34 @@
 .programs, .programs>* {
-	color: $maroon;
+	color: $red;
 }
 
 .residents, .residents>* {
-	color: $teal;
+	color: $blue;
 }
 
 .projects, .projects>* {
-	color: $yellow;
+	color: $green;
 }
 
 .blog, .blog>* {
-	color: $green;
+	color: $yellow;
 }
 
 
 .landing-page:not(.normal-heading)>main>section:first-of-type .content >header {
 	ul.programs li {
 		a span {
-			color: $maroon-faded;
+			color: $red-faded;
 		}
 
 		a:hover span, h1 span {
-			color: $maroon;
+			color: $red;
 		}
 	}
 
 	ul.residents li {
 		a:hover span, h1 span {
-			color: $teal;
+			color: $blue;
 		}
 	}
 

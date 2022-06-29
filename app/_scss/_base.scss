@@ -133,10 +133,10 @@ blockquote .quotee {
 }
 
 .highlight, .notice {
-	color: $maroon;
+	color: $red;
 
 	a {
-		color: $maroon;
+		color: $red;
 	}
 }
 
@@ -221,15 +221,15 @@ ul.progress li, ol.progress li {
 }
 
 .progress a.programs.forwards::after {
-	background-image: url('/images/icons/arrow-purple.png');
+	background-image: url('/images/icons/arrow-red.png');
 }
 
 .progress a.residents.forwards::after {
-	background-image: url('/images/icons/arrow-teal.png');
+	background-image: url('/images/icons/arrow-blue.png');
 }
 
 .progress a.blog.forwards::after {
-	background-image: url('/images/icons/arrow-canary.png');
+	background-image: url('/images/icons/arrow-yellow.png');
 }
 
 .progress a.projects.forwards::after {
@@ -237,15 +237,15 @@ ul.progress li, ol.progress li {
 }
 
 .progress a.programs.backwards::before {
-	background-image: url('/images/icons/arrow-purple.png');
+	background-image: url('/images/icons/arrow-red.png');
 }
 
 .progress a.residents.backwards::before {
-	background-image: url('/images/icons/arrow-teal.png');
+	background-image: url('/images/icons/arrow-blue.png');
 }
 
 .progress a.blog.backwards::before {
-	background-image: url('/images/icons/arrow-canary.png');
+	background-image: url('/images/icons/arrow-yellow.png');
 }
 
 .progress a.projects.backwards::before {

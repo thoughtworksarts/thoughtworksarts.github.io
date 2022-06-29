@@ -18,7 +18,7 @@ body.site-banner>header {
 	margin-bottom: $header-banner-size;
 
 	.banner {
-		background-color: $maroon;
+		background-color: $red;
 		width: 100%;
 		text-align: center;
 		position: absolute;
@@ -168,11 +168,11 @@ body.site-banner.landing-page {
 				}
 
 				a.programs::before {
-					background-image: url('/images/icons/diamond-purple.png');
+					background-image: url('/images/icons/diamond-red.png');
 				}
 
 				a.residents::before {
-					background-image: url('/images/icons/diamond-teal.png');
+					background-image: url('/images/icons/diamond-blue.png');
 				}
 
 				a.projects::before {
@@ -180,7 +180,7 @@ body.site-banner.landing-page {
 				}
 
 				a.blog::before {
-					background-image: url('/images/icons/diamond-canary.png');
+					background-image: url('/images/icons/diamond-yellow.png');
 				}
 
 				a.blog {
