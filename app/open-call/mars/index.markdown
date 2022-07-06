@@ -1,7 +1,7 @@
 ---
 layout      : post-special
 title	      : "Thoughtworks Arts Wants To Send You To Mars"
-image       : /images/posts-special/open-call/mars/og.jpg
+image       : /images/pos	open-call/mars/mars-og.jpg
 ---
 — that is Mars.college
 
