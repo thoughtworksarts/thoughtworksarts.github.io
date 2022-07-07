@@ -2,7 +2,7 @@
 bodyclass   : landing-page normal-heading
 bodyid      : mars-open-call
 title	      : "Thoughtworks Arts Wants To Send You To Mars"
-image       : /images/posts-special/open-call/mars/mars-og.jpg
+image       : /images/posts-special/open-call/mars/mars-call-og.jpg
 ---
 <section>
   <div class="content">
