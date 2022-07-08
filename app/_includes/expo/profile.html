@@ -57,7 +57,7 @@
   {% else %}
     {% unless page.projects.size == 0 %}
       <li>
-        {% assign projects = page.projects | sort: 'projectid' %}
+        {% assign projects = page.projects | sort: 'projectid' | uniq } %}
         <span class="key">Project{% if projects.size > 1 %}s{% endif %}</span>
         <span class="value">
           {% if projects.size == 1 %}
