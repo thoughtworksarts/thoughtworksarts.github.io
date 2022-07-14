@@ -43,7 +43,7 @@ Throughout h0t club's world premiere of freeicecream.network at CounterPulse in 
    alt='A flyer montage with grinning faces, ice creams and a cartoon tongue licking an ice cream, overlaid with a computer mouse icon and on-screen windows, with the word SALE in all capital letters'
    caption='Flyer image for the premiere' %}
 
-These interactions lead to a distributed decision-making process, triggering videos and events during the performance. The emergent events were defined by a changing set of system-wide modes, each of which introduced new interactive logics between performers, robots, and participants.
+These interactions led to a distributed decision-making process, triggering videos and events during the performance. The emergent events were defined by a changing set of system-wide modes, each of which introduced new interactive logics between performers, robots, and participants.
 
 The performance revolves around consumer/audience driven enthusiasm for “free ice cream” (and other "free" products and services). Audiences are able to simultaneously engage with an interactive hybrid network that underpins the performance. Audiences receive “free” ice cream as a reward for participation.
 
@@ -55,11 +55,13 @@ During h0t club’s 16-week residency at Thoughtworks Arts and CounterPulse, the
    alt='Three performers wearing orange jumpsuits dancing in blue light'
    caption='Humans and robots perform ice cream dance' %}
 
-Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. They used LiDAR sensors on the robots to wirelessly transmit telemetry data to a Raspberry Pi, which uses ROS2 to map the space and plot trajectories and choreographies.
+Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. They are using LiDAR sensors on the robots to wirelessly transmit telemetry data to a Raspberry Pi "central computer", which uses ROS2 to map the space and plot trajectories and choreographies.
 
-To do this, the team were supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research), an initiative of Thoughtworks India committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics we are building upon for this collaboration with h0t club.
+The team are supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research), an initiative of Thoughtworks India. The e4r community are committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics they are building upon for the collaboration with h0t club.
 
-The individual robots contain sensors that sense the environment objects, simultaneously sending data to the central computer. The central computer is capable of localizing the robots and predicts the path in which the robots should move. This data is sent back to the bots so that the speed of the motor is controlled and the bot moves to the destination. Meanwhile, manual controllers are made ready and given to the audience in order to control the robots.
+The individual robots driving the traffic cones contain sensors that detect environmental objects. The central computer receives this data and is capable of localizing the robots, predicting the path the robots should move next. This data is sent back to the bots, controlling each motor so that the bot moves to the destination.
+
+During live performances, manual controllers are given to audience members to allow them to override control of the robots.
 
 ## Onsite at CounterPulse
 
@@ -69,4 +71,4 @@ h0t club worked closely with CounterPulse, especially in the lead-up to the perf
 
 Freeicecream.network premiered as the headline event at the _Innerspace: Homecoming_ gala in May 2022. The work has helped set the stage for upgrades to CounterPulse technical infrastructure and supports the local effort to [purchase the CounterPulse building in San Francisco](https://counterpulse.org/event/buyourbuilding/).
 
-Plans for upcoming iterations of freeicecream.network will invite participants to take the place of the performer, exploring the space and human-computer interactions firsthand.
+Plans for upcoming iterations of Freeicecream.network will invite participants to take the place of the performer, exploring the space and human-computer interactions firsthand.
