@@ -49,15 +49,17 @@ The performance revolves around consumer/audience driven enthusiasm for “free 
 
 ## The international development team
 
-During h0t club’s 16-week residency at Thoughtworks Arts and CounterPulse, the artists developed performing, telepresent robots who respond to sensors and cameras, moving and communicating with one another via a wireless network. This hybrid virtual/physical network of human and non-human agents is influenced and guided by the emergent behaviors of the system’s inhabitants.
+During h0t club’s 16-week residency at Thoughtworks Arts and CounterPulse, the artists developed performing, telepresent robots which respond to sensors and cameras, moving and communicating with one another via a wireless network. This hybrid virtual/physical network of human and non-human agents is influenced and guided by the emergent behaviors of the system’s inhabitants.
 
 {% include image file='dance.jpg'
    alt='Three performers wearing orange jumpsuits dancing in blue light'
    caption='Humans and robots perform ice cream dance' %}
 
-Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. This uses LiDAR sensors on the robots to wirelessly transmit telemetry data to a Raspberry Pi, which uses ROS2 to map the space and plot trajectories and choreographies.
+Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. They used LiDAR sensors on the robots to wirelessly transmit telemetry data to a Raspberry Pi, which uses ROS2 to map the space and plot trajectories and choreographies.
 
-The team were supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research) of Thoughtworks India, an initiative committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics we are building upon for this collaboration with h0t club.
+To do this, the team were supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research), an initiative of Thoughtworks India committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics we are building upon for this collaboration with h0t club.
+
+The individual robots contain sensors that sense the environment objects, simultaneously sending data to the central computer. The central computer is capable of localizing the robots and predicts the path in which the robots should move. This data is sent back to the bots so that the speed of the motor is controlled and the bot moves to the destination. Meanwhile, manual controllers are made ready and given to the audience in order to control the robots.
 
 ## Onsite at CounterPulse
 
