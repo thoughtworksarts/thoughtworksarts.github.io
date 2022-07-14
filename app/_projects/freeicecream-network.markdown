@@ -57,17 +57,16 @@ During h0t club’s 16-week residency at Thoughtworks Arts and CounterPulse, the
    alt='Three performers wearing orange jumpsuits dancing in blue light'
    caption='Humans and robots perform ice cream dance' %}
 
-Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. This uses LiDAR sensors on the robots to wirelessly transmit telemetry data to a raspberry pi, which uses ROS2 to map the space and plot trajectories and choreographies.
+Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. This uses LiDAR sensors on the robots to wirelessly transmit telemetry data to a Raspberry Pi, which uses ROS2 to map the space and plot trajectories and choreographies.
 
 The team were supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research) of Thoughtworks India, an initiative committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics we are building upon for this collaboration with h0t club.
 
 ## Onsite at CounterPulse
 
-h0t club worked closely with CounterPulse, especially in the lead-up to the performance. As co-sponsors with Thoughtworks Arts on the residency Julie Phelps, the Artistic & Executive Director of CounterPulse said:
+h0t club worked closely with CounterPulse, especially in the lead-up to the performance. As co-sponsors with Thoughtworks Arts on the residency, CounterPulse provided logistical and technical support in relation to two public events during the residency timeline.
 
-> "I've long been interested in artworks that intersect the body and technology - seeing the body as the most sophisticated technology most people can operate while at once diametrically opposed elements of the human experience. h0tclub's casting of the body as a cog in the machine, equivalent to the spinning robot traffic cones and hidden cameras brought this relationship into clear sight. This works experiments with transgressing and reinforcing this age old boundary tips of new questions and concerns of what is possible when these two superpowers of humankind are brought together"
--Julie Phelps, Artistic & Executive Director, CounterPulse
+> I've long been interested in artworks that intersect the body and technology - seeing the body as the most sophisticated technology most people can operate while at once diametrically opposed elements of the human experience. h0t club's casting of the body as a cog in the machine, equivalent to the spinning robot traffic cones and hidden cameras brought this relationship into clear sight. This works experiments with transgressing and reinforcing this age old boundary tips of new questions and concerns of what is possible when these two superpowers of humankind are brought together<br><span class='quotee'>— Julie Phelps, Artistic & Executive Director of CounterPulse</span>
 
-Freeicecream.network premiered as the headline event at the Innerspace: Homecoming gala in May 2022. The work has helped set the stage for upgrades to CounterPulse technical infrastructure and supports the local effort to [purchase the CounterPulse building in San Francisco](https://counterpulse.org/event/buyourbuilding/).
+Freeicecream.network premiered as the headline event at the _Innerspace: Homecoming_ gala in May 2022. The work has helped set the stage for upgrades to CounterPulse technical infrastructure and supports the local effort to [purchase the CounterPulse building in San Francisco](https://counterpulse.org/event/buyourbuilding/).
 
 Plans for upcoming iterations of freeicecream.network will invite participants to take the place of the performer, exploring the space and human-computer interactions firsthand.
