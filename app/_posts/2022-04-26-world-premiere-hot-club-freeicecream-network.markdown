@@ -1,5 +1,6 @@
 ---
 title : "World Premiere of h0t club's Freeicecream.network: May 7th"
+tags   : "freeicecream-network"
 ---
 Join us on Saturday, May 7th 2022 as art collective _h0t club_ present their World Premiere of Freeicecream.network at CounterPulse's annual Gala art party and auction event in San Fransisco.
 
