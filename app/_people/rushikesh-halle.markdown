@@ -49,4 +49,4 @@ links:
    url     : ""
 
 ---
-Rushikesh Halle is an application developer, working for Thoughtworks India. He is a member of the Engineering 4 Research (e4r) initiative of Thoughtworks.
+Rushikesh Halle is an application developer working for Thoughtworks India as a member of the [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research) initiative. His focus areas include computer science specializing in robotics, working in ROS, Gazebo, EPICS and Semantic web technologies. He also has an interest yogic science.

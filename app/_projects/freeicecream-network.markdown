@@ -25,8 +25,6 @@ team :
     role : Robotics Engineer
   - name : Harish Kumar
     role : Robotics Software Developer
-  - name : Sebastián Muñoz
-    role : Robotics Engineer
   - name : Rushikesh Halle
     role : Robotics Engineer
   - name : Kevin Lo
