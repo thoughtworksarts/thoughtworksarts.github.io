@@ -75,7 +75,7 @@ GEM
       rainbow (~> 2.0)
       sass (~> 3.4.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unicode (0.4.4.4)
     unicode (0.4.4.4-x86-mingw32)
