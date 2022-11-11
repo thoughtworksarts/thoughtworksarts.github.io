@@ -1,5 +1,6 @@
 ---
 title : "CNMAT Welcomes Olivia Ting as Artist-in-Residence"
+description : Olivia Ting, who began her CripTech residency at Thoughtworks Arts in spring 2022, has been awarded the prestigious UC Berkeley Center for New Music and Audio Technologies (CNMAT) residency, for fall 2022.
 ---
 Olivia Ting, who began her [CripTech residency at Thoughtworks Arts](/blog/olivia-ting-andy-slater-leonardo-criptech/) in spring 2022, has been awarded the prestigious [UC Berkeley Center for New Music and Audio Technologies (CNMAT)](https://cnmat.berkeley.edu/) residency, for fall 2022.
 
