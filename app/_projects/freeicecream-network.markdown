@@ -1,7 +1,7 @@
 ---
 title       : Freeicecream.network
 type        : residency
-season      :  Spring 2022
+season      : Spring 2022
 
 description : Experimental performance exploring how our desire for connection and delicious treats entangles us with networks of information technologies.
 
@@ -51,15 +51,19 @@ The performance revolves around consumer/audience driven enthusiasm for “free 
 
 During h0t club’s 16-week residency at Thoughtworks Arts and CounterPulse, the artists developed performing, telepresent robots which respond to sensors and cameras, moving and communicating with one another via a wireless network. This hybrid virtual/physical network of human and non-human agents is influenced and guided by the emergent behaviors of the system’s inhabitants.
 
-{% include image file='dance.jpg'
-   alt='Three performers wearing orange jumpsuits dancing in blue light'
-   caption='Humans and robots perform ice cream dance' %}
+{% include image file='robot-assembly.jpg'
+   alt='A partially assembled robot with wheel and wires hanging out, alongside soldering tools'
+   caption='A robot during assembly by Thoughtworks engineer Harish Kumar' %}
 
 Working with Thoughtworks developers in India and Chile, the team are developing new autonomous systems to drive the traffic cones. They are using LiDAR sensors on the robots to wirelessly transmit telemetry data to a Raspberry Pi "central computer", which uses ROS2 to map the space and plot trajectories and choreographies.
 
 The team are supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research), an initiative of Thoughtworks India. The e4r community are committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics they are building upon for the collaboration with h0t club.
 
 The individual robots driving the traffic cones contain sensors that detect environmental objects. The central computer receives this data and is capable of localizing the robots, predicting the path the robots should move next. This data is sent back to the bots, controlling each motor so that the bot moves to the destination.
+
+{% include image file='dance.jpg'
+   alt='Three performers wearing orange jumpsuits dancing in blue light'
+   caption='Humans and robots perform ice cream dance' %}
 
 During live performances, manual controllers are given to audience members to allow them to override control of the robots.
 
