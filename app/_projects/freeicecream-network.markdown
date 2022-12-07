@@ -59,11 +59,11 @@ Working with Thoughtworks developers in India and Chile, the team are developing
 
 The team are supported by [Engineering 4 Research (e4r)](https://www.thoughtworks.com/engineering-research), an initiative of Thoughtworks India. The e4r community are committed to advanced research in the fields of radio and optical astronomy, autonomous vehicles, genomics, molecular dynamics and urban sciences. Among e4r's research projects are robotics navigation and wayfinding systems, topics they are building upon for the collaboration with h0t club.
 
-The individual robots driving the traffic cones contain sensors that detect environmental objects. The central computer receives this data and is capable of localizing the robots, predicting the path the robots should move next. This data is sent back to the bots, controlling each motor so that the bot moves to the destination.
+{% include image file='circuit-board-diagram.jpg'
+   alt='A computer-rendered circuit board diagram'
+   caption='Circuit board diagram of hardware solution' %}
 
-{% include image file='dance.jpg'
-   alt='Three performers wearing orange jumpsuits dancing in blue light'
-   caption='Humans and robots perform ice cream dance' %}
+The individual robots driving the traffic cones contain sensors that detect environmental objects. The central computer receives this data and is capable of localizing the robots, predicting the path the robots should move next. This data is sent back to the bots, controlling each motor so that the bot moves to the destination.
 
 During live performances, manual controllers are given to audience members to allow them to override control of the robots.
 
@@ -74,5 +74,9 @@ h0t club worked closely with CounterPulse, especially in the lead-up to the perf
 > I've long been interested in artworks that intersect the body and technology - seeing the body as the most sophisticated technology most people can operate while at once diametrically opposed elements of the human experience. h0t club's casting of the body as a cog in the machine, equivalent to the spinning robot traffic cones and hidden cameras brought this relationship into clear sight. This works experiments with transgressing and reinforcing this age old boundary tips of new questions and concerns of what is possible when these two superpowers of humankind are brought together<br><span class='quotee'>— Julie Phelps, Artistic & Executive Director of CounterPulse</span>
 
 Freeicecream.network premiered as the headline event at the _Innerspace: Homecoming_ gala in May 2022. The work has helped set the stage for upgrades to CounterPulse technical infrastructure and supports the local effort to [purchase the CounterPulse building in San Francisco](https://counterpulse.org/event/buyourbuilding/).
+
+{% include image file='dance.jpg'
+   alt='Three performers wearing orange jumpsuits dancing in blue light'
+   caption='Humans and robots perform ice cream dance' %}
 
 Plans for upcoming iterations of Freeicecream.network will invite participants to take the place of the performer, exploring the space and human-computer interactions firsthand.
