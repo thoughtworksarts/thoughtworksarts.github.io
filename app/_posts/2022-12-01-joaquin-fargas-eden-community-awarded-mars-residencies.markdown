@@ -49,6 +49,6 @@ Sponsoring a democratized, non-hierarchical collaborative will facilitate new  p
 Mars College is a nomadic educational program, R&D Lab and residential community in the desert area of Bombay Beach, California. Artists will arrive in Southern California in preparation for their time in the desert at the end of 2022. Time on site will take place during the three month period from January 1 through to March 31, 2023.
 
 {% include image file='mars.jpg'
-   alt='A lanscape shot of several caravans set against a large desert mountain backdrop' %}
+   alt='A landscape shot of several caravans set against a large desert mountain backdrop' %}
 
 Mars is geographically remote but digitally connected, cultivating a low-cost, high-tech lifestyle exploring emerging technologies. While working on site in the desert, residents will have regular access not only to the surrounding Mars community, but to support from Thoughtworks Arts and facilitated access to Thoughtworks’ global community of technical and creative professionals.
