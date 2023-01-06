@@ -251,6 +251,10 @@
 							width: calc(100% - 2rem);
 							display: inline-block;
 							transform: scale(1); //Explanation: https://stackoverflow.com/questions/53068471/css-column-count-transform-scale-transition-strange-behavior
+
+							img {
+								height: 180px;
+							}
 						}
 
 						.meta, .post-text {
