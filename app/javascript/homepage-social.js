@@ -44,6 +44,7 @@ $(document).ready(function() {
 	function setupSocialFeed() {
 		if(countNumCompleteImages() === numPostsRequested){
 			removePostsWithImageProblems();
+			removePostsWithTextProblems();
 			processPostTexts();
 			deduplicatePosts();
 			insertPostsDirectlyIntoListElement();
@@ -70,6 +71,14 @@ $(document).ready(function() {
 	function removePostsWithImageProblems() {
 		$('#curator-feed li figure>img').each(function() {
 			if(hasImageProblems($(this))) {
+				$(this).closest('li').remove();
+			}
+		});
+	}
+
+	function removePostsWithTextProblems() {
+		$('#curator-feed li p').each(function() {
+			if($(this).text() === '') {
 				$(this).closest('li').remove();
 			}
 		});
