@@ -7,6 +7,8 @@ teaser        :
    <p>Andy Slater is a sight-impaired Chicago-based media artist, sound designer, teaching artist, and disability advocate. His work focuses on advocacy for accessible art and technology, Alt-Text for sound and image, documentary film, spatial audio for extended reality, and sound design for film and video games.</p>
    <p>Andy's work has been exhibited in museums and festivals in the US and globally, and he was selected for the prestigious Unites States Artist fellowship in 2022.</p>
 
+order-within-season: 2
+
 links:
  - icon    : "fa-globe-americas"
    name    : "Website"

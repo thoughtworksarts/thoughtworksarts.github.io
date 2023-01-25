@@ -7,6 +7,8 @@ teaser        :
    <p>Olivia Ting creates audio-visual spatial videos that weave sound and scene fragments, representing how she experiences the world around her. Olivia’s fascination with moving image stems from her hearing impairment — she is deaf in one ear and has 22% hearing in the other.</p>
    <p>Without hearing aids, Olivia perceives almost no sound. Since receiving a cochlear implant, Olivia has returned to her music training to examine how her brain re-learns to hear again, an amalgamation of memory and digital algorithms.</p>
 
+order-within-season: 1
+
 links:
  - icon    : "fa-globe-americas"
    name    : "Website"
