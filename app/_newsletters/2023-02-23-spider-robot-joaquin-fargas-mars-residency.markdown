@@ -18,7 +18,7 @@ Joaquin began his residency aiding with the construction of the temporary buildi
 
 Next, Joaquin [built a lab in the desert](https://www.instagram.com/p/CoG3VvFLG5m/) from which to work and ideate about his 2023 project. He is focusing on multipe projects including a water-traversing spider robot that scans for specific environmental sensor readings in the Salton Sea.
 
-To aid his development of the spider robot Joaquin is collaborating remotely with Thoughtworkers in Pune and Chennai, including [Amit Patel](https://in.linkedin.com/in/amit-patel-0952a216), [Harish Kumar Balaji](https://youtube.com/@HKBHD), [Atul Chaudhari](https://in.linkedin.com/in/atul-chaudhari-0202b2a1) and [Ketan Sangle](https://in.linkedin.com/in/ketan-sangle-21b25b176).
+To aid his development of the spider robot Joaquin is collaborating remotely with Thoughtworkers in Pune and Chennai, including [Amit Patel](https://in.linkedin.com/in/amit-patel-0952a216), [Harish Kumar Balaji](https://in.linkedin.com/in/harishkumarbalaji/), [Atul Chaudhari](https://in.linkedin.com/in/atul-chaudhari-0202b2a1) and [Ketan Sangle](https://in.linkedin.com/in/ketan-sangle-21b25b176).
 
 {% include image file='joaquin-fargas-spider-prototype.jpg'
    caption='A spider robot prototype under development by Joaquin Fargas'
