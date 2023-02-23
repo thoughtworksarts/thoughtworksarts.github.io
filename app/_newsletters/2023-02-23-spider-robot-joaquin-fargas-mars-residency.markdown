@@ -1,5 +1,6 @@
 ---
 title : "The Spider Robot: Joaquin Fargas' Mars Residency"
+image : joaquin-fargas-spider-prototype.jpg
 ---
 Artist and engineer Joaquin Fargas is at the midpoint of his Thoughtworks Arts Residency at Mars College in the Southern California desert. He traveled from his home in Argentina in early January to work on robotics and sustainability [in harsh environments](https://www.instagram.com/p/CoMA7GwMDjK/).
 
