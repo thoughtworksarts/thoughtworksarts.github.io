@@ -5,7 +5,7 @@ The first human-robot performance in the history of the Smithsonian was created 
 
 {% include youtube id='d0NC8-s1lcA'
    caption='Full-length, world premiere performance of ‘In Her Prime’'
-   ratio='57' %}
+   ratio='56' %}
 
 'In Her Prime' had it's world premiere inside the Smithsonian Arts and Industries Building on July 6th, 2022. The full-length video of the work recently became available.
 
