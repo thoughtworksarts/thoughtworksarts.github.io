@@ -4,7 +4,7 @@ image : "biden-og.jpg"
 ---
 As part of her Fulbright Scholar appointment at the University of Warsaw, Thoughtworks Arts Director Ellen Pearlman has been invited to be present in the VIP section of President Biden's historic speech on February 21st.
 
-{% include image file='biden.jpg'
+{% include image file='poland.jpg'
    alt='President Biden speaking at a podium in front of an American flag with the words "President Biden\'s visit to Poland"' %}
 
 The Fulbright Scholar Grant Award is made possible through funds allocated annually by the U.S. Congress and by contributions from partner countries. President Biden's address to the world will take place at Arkady Kubickiego (gardens of the Royal Castle) in Warsaw.
