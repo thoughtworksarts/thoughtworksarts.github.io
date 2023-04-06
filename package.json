@@ -5,7 +5,7 @@
   "description": "Yeoman workflow",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.5.3",
     "grunt-autoprefixer": "~2.2.0",
     "grunt-build-control": "~0.1.2",
     "grunt-concurrent": "~0.4.3",
