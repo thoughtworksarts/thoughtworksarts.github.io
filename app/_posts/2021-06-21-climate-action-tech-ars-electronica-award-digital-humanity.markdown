@@ -1,7 +1,7 @@
 ---
 title  : "ClimateAction.tech Receives Prix Ars Electronica Award for Digital Humanity"
 ---
-ClimateAction.tech [has been awarded](https://calls.ars.electronica.art/prix/winners/8535/) the Prix Ars Electronica Award for Digital Humanity for creating the Branch online magazine.
+ClimateAction.tech [has been awarded](https://archive.aec.at/prix/showmode/68572/) the Prix Ars Electronica Award for Digital Humanity for creating the Branch online magazine.
 
 {% include image file='branch-cover2.jpg'
    class='no-border'
